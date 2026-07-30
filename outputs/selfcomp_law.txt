@@ -1,0 +1,27 @@
+==========================================================================
+r = 1,  N = 4,  |lam| <= 28
+  scanned 2157, exact vanishers 242
+  FALSE NEGATIVES (vanishes, criterion silent) : 0
+  FALSE POSITIVES (criterion says zero, is not): 0
+  ==> CRITERION EXACT on this range, both directions.
+  branch (a) only: 192    branch (b) self-complementary-odd, not (a): 50
+  CONTROL: self-complementary with w EVEN: 120 in range (criterion predicts NONZERO)
+           of those, actually zero: 0   (should be 0 -- w parity is load-bearing)
+==========================================================================
+r = 2,  N = 6,  |lam| <= 26
+  scanned 4542, exact vanishers 55
+  FALSE NEGATIVES (vanishes, criterion silent) : 0
+  FALSE POSITIVES (criterion says zero, is not): 0
+  ==> CRITERION EXACT on this range, both directions.
+  branch (a) only: 23    branch (b) self-complementary-odd, not (a): 32
+  CONTROL: self-complementary with w EVEN: 70 in range (criterion predicts NONZERO)
+           of those, actually zero: 0   (should be 0 -- w parity is load-bearing)
+==========================================================================
+r = 3,  N = 8,  |lam| <= 22
+  scanned 3262, exact vanishers 21
+  FALSE NEGATIVES (vanishes, criterion silent) : 0
+  FALSE POSITIVES (criterion says zero, is not): 0
+  ==> CRITERION EXACT on this range, both directions.
+  branch (a) only: 0    branch (b) self-complementary-odd, not (a): 21
+  CONTROL: self-complementary with w EVEN: 21 in range (criterion predicts NONZERO)
+           of those, actually zero: 0   (should be 0 -- w parity is load-bearing)

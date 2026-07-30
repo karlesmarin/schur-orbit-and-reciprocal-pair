@@ -1,0 +1,10 @@
+labels nu printed in the archived outputs, smallest |nu| per r:
+  typeD_rule.txt         r=1 :  10 labels, min |nu| =  6 (threshold 2r+3 =  5)  ok         smallest: (2, 2, 1, 1)
+  typeD_rule.txt         r=2 :   3 labels, min |nu| =  8 (threshold 2r+3 =  7)  ok         smallest: (2, 2, 2, 1, 1)
+  typeD_residue.txt      r=1 :  18 labels, min |nu| =  6 (threshold 2r+3 =  5)  ok         smallest: (2, 2, 1, 1)
+  typeD_residue.txt      r=2 :   3 labels, min |nu| =  8 (threshold 2r+3 =  7)  ok         smallest: (2, 2, 2, 1, 1)
+
+residue shapes lambda (no proved isolating witness), smallest |lambda| per r:
+  r=1 : 10 shapes shown, min |lambda| = 8 (threshold 5)  ok
+
+VIOLATIONS: 0

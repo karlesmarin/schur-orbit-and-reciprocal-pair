@@ -1,0 +1,44 @@
+============================================================================
+r=1  N=4  half=2   the type-D table on our coset alphabet
+  bucket                                  count   of which o_nu(A)=0
+    ('NON-standard', 'c1>half')               94      76 
+    ('standard', 'c1<half')                   11       0 
+    ('standard', 'c1>half')                    9       0 
+    ('standard', 'selfassoc')                 25      25 (ALL)
+  labels with c1 > half and o_nu(A) != 0 : does the associate relation hold?
+    associate relation holds: 9 ; fails: 0 ; associate unavailable: 18
+       ((2, 2, 1, 1), 'no associate in range', None)
+       ((2, 1, 1, 1, 1), 'no associate in range', None)
+       ((3, 2, 1, 1), 'no associate in range', None)
+       ((2, 2, 1, 1, 1), 'no associate in range', None)
+       ((4, 2, 1, 1), 'no associate in range', None)
+       ((3, 1, 1, 1, 1, 1), 'no associate in range', None)
+  zero-prediction test: is  (c1+c2 > N) or (c1 == half)  exactly the zero set?
+    counterexamples: 18
+      nu=(2, 2, 1, 1)         (c1,c2)=(4, 2)  o_nu(A)==0: False
+      nu=(2, 1, 1, 1, 1)      (c1,c2)=(5, 1)  o_nu(A)==0: False
+      nu=(3, 2, 1, 1)         (c1,c2)=(4, 2)  o_nu(A)==0: False
+      nu=(2, 2, 1, 1, 1)      (c1,c2)=(5, 2)  o_nu(A)==0: False
+      nu=(4, 2, 1, 1)         (c1,c2)=(4, 2)  o_nu(A)==0: False
+      nu=(3, 1, 1, 1, 1, 1)   (c1,c2)=(6, 1)  o_nu(A)==0: False
+      nu=(2, 2, 2, 2)         (c1,c2)=(4, 4)  o_nu(A)==0: False
+      nu=(5, 2, 1, 1)         (c1,c2)=(4, 2)  o_nu(A)==0: False
+      nu=(3, 3, 1, 1, 1)      (c1,c2)=(5, 2)  o_nu(A)==0: False
+      nu=(3, 2, 2, 2)         (c1,c2)=(4, 4)  o_nu(A)==0: False
+============================================================================
+r=2  N=6  half=3   the type-D table on our coset alphabet
+  bucket                                  count   of which o_nu(A)=0
+    ('NON-standard', 'c1>half')               12       9 
+    ('standard', 'c1<half')                   25       0 
+    ('standard', 'c1>half')                   14       0 
+    ('standard', 'selfassoc')                 16      16 (ALL)
+  labels with c1 > half and o_nu(A) != 0 : does the associate relation hold?
+    associate relation holds: 14 ; fails: 0 ; associate unavailable: 3
+       ((2, 2, 2, 1, 1), 'no associate in range', None)
+       ((2, 2, 1, 1, 1, 1), 'no associate in range', None)
+       ((2, 1, 1, 1, 1, 1, 1), 'no associate in range', None)
+  zero-prediction test: is  (c1+c2 > N) or (c1 == half)  exactly the zero set?
+    counterexamples: 3
+      nu=(2, 2, 2, 1, 1)      (c1,c2)=(5, 3)  o_nu(A)==0: False
+      nu=(2, 2, 1, 1, 1, 1)   (c1,c2)=(6, 2)  o_nu(A)==0: False
+      nu=(2, 1, 1, 1, 1, 1, 1) (c1,c2)=(7, 1)  o_nu(A)==0: False

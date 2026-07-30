@@ -1,0 +1,16 @@
+== lemmas ==
+  L5  True    L5' (size-3 identity)  True
+  m=2:  L1 True (86 nonzero minors)   L2 True
+  m=3:  L1 True (108 nonzero minors)   L2 True
+  m=4:  L1 True (95 nonzero minors)   L2 True
+  m=5:  L1 True (82 nonzero minors)   L2 True
+  m=6:  L1 True (83 nonzero minors)   L2 True
+== L4, and the THEOREM with its exact sign ==
+  through m=2:  exact match 212   zeros 29   WRONG SIGN 0   WRONG MAGNITUDE 0   L4 120/120
+  through m=3:  exact match 472   zeros 93   WRONG SIGN 0   WRONG MAGNITUDE 0   L4 294/294
+  through m=4:  exact match 661   zeros 202   WRONG SIGN 0   WRONG MAGNITUDE 0   L4 452/452
+  through m=5:  exact match 804   zeros 305   WRONG SIGN 0   WRONG MAGNITUDE 0   L4 580/580
+  through m=6:  exact match 893   zeros 404   WRONG SIGN 0   WRONG MAGNITUDE 0   L4 661/661
+  through m=7:  exact match 959   zeros 476   WRONG SIGN 0   WRONG MAGNITUDE 0   L4 724/724
+
+THEOREM, sign included: 959 exact matches, 476 zeros, 0 sign failures, 0 magnitude failures.  L4: 724/724

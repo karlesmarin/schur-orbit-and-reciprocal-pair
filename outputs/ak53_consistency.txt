@@ -1,0 +1,10 @@
+  VIOLATION t=2 lam=(3, 1) core=() is_core=False equal=True
+  VIOLATION t=4 lam=(7, 2) core=(1,) is_core=False equal=True
+  VIOLATION t=4 lam=(8, 3) core=(2, 1) is_core=False equal=True
+  VIOLATION t=6 lam=(11, 3) core=(2,) is_core=False equal=True
+  VIOLATION t=6 lam=(12, 4) core=(3, 1) is_core=False equal=True
+  VIOLATION t=6 lam=(13, 5) core=(4, 2) is_core=False equal=True
+
+lambda IS a t-core and our value = s_lambda(z,1/z):        119
+lambda NOT a t-core and our value != s_lambda(z,1/z):      826
+violations of Ayyer-Kumari Thm 5.3 (either direction):    7

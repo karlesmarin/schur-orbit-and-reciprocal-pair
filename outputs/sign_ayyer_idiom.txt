@@ -1,0 +1,12 @@
+CONTROL -- blocks in arbitrary order (the ordering hypothesis dropped):
+   agree 592   disagree 904   <-- must fail, and does
+
+TEST 1 -- the displayed closed form, A and B ordered so that r_A <= r_B:
+   agree 1496   disagree 0
+
+TEST 2 -- is the residual a function of (t,r_A,r_B)?
+   cells occupied: 112 ; cells carrying BOTH signs: 0
+   => every cell is sign-homogeneous, so once the blocks are ordered the sign
+      depends on t, r_A and r_B alone.
+
+range: t = 2..8, |lambda| <= 14

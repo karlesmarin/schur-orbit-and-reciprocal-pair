@@ -1,0 +1,15 @@
+TEST A -- the rectangle proposition read literally, t=2, r<=4, c<=60
+   cases 240 ; agree (up to sign) 210 ; DISAGREE 30 ; skipped 0
+      r=4 c=1   closed form = -1      proposition predicts 2       d-triple=(2, 2, 2)
+      r=4 c=3   closed form = -1      proposition predicts 6       d-triple=(2, 2, 2)
+      r=4 c=5   closed form = -1      proposition predicts 12      d-triple=(2, 2, 2)
+      r=4 c=7   closed form = -1      proposition predicts 20      d-triple=(2, 2, 2)
+      r=4 c=9   closed form = -1      proposition predicts 30      d-triple=(2, 2, 2)
+      r=4 c=11  closed form = -1      proposition predicts 42      d-triple=(2, 2, 2)
+      r=4 c=13  closed form = -1      proposition predicts 56      d-triple=(2, 2, 2)
+      r=4 c=15  closed form = -1      proposition predicts 72      d-triple=(2, 2, 2)
+      r=4 c=17  closed form = -1      proposition predicts 90      d-triple=(2, 2, 2)
+      r=4 c=19  closed form = -1      proposition predicts 110     d-triple=(2, 2, 2)
+
+TEST B -- the four box families of the Example, c=1..4
+   boxes checked 16 ; agree 16 ; MISMATCH 0

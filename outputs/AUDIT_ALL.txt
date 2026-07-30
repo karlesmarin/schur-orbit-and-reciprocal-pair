@@ -1,0 +1,16 @@
+FORMULA AUDIT -- every load-bearing claim, rebuilt and rechecked
+
+  1. published r=1 closed form  eps*chi_a chi_b chi_c (2-2 split)    336 checks  OK
+  2. branch (a): constant-parity beta => object = 0              16 checks  OK
+  3. branch (b): self-complementary, ODD width  => object = 0     24 checks  OK
+  3b. CONTROL: self-complementary, EVEN width  => object != 0     56 checks  OK
+  4. criterion  (a) or (b)  <=>  object = 0,  r=1,2,3          1698 checks  OK
+  5. complementation  s_{lam^}(A) = (-1)^c (-1) s_lam(A)        474 checks  OK
+  6. Phi_A anti-self-reciprocal, middle coefficient zero          3 checks  OK
+  7. (SP) sparse-multiple form <=> vanishing                    156 checks  OK
+  8. d'Ocagne  S_b S_{b'-1} - S_{b'} S_{b-1} = -S_{b-b'}        496 checks  OK
+  8b. deg_c S_n = n-1                                            39 checks  OK
+  9. reflection: (R Phi)^{*M} = R^{*D} (-Phi)                   116 checks  OK
+
+==========================================================================
+TOTAL: 3414 checks, 0 failures

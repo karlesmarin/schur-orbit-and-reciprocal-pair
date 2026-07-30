@@ -1,0 +1,1 @@
+criterion 'two d_i = t' <=> 'Phi is a single chi_k, third d = 2(k+1)':  ok 2113   bad 0

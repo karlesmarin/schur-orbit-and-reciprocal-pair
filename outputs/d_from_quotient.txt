@@ -1,0 +1,31 @@
+  VIOLATION t=2 lam=(3, 1) core=() is_core=False equal=True
+  VIOLATION t=4 lam=(7, 2) core=(1,) is_core=False equal=True
+  VIOLATION t=4 lam=(8, 3) core=(2, 1) is_core=False equal=True
+  VIOLATION t=6 lam=(11, 3) core=(2,) is_core=False equal=True
+  VIOLATION t=6 lam=(12, 4) core=(3, 1) is_core=False equal=True
+  VIOLATION t=6 lam=(13, 5) core=(4, 2) is_core=False equal=True
+
+lambda IS a t-core and our value = s_lambda(z,1/z):        119
+lambda NOT a t-core and our value != s_lambda(z,1/z):      826
+violations of Ayyer-Kumari Thm 5.3 (either direction):    7
+THE EXTRA FAMILY  lam = (l2 + 3t/2 - 1, l2),  t/2 <= l2 <= t-1,  t even
+  t     lambda     core_t                     quot_t     (d1,d2,d3)  two d = t?
+  2     (3, 1)         ()                   ([2],[])      (6, 2, 2)  True
+  4     (7, 2)       (1,)             ([2],[],[],[])     (12, 4, 4)  True
+  4     (8, 3)     (2, 1)             ([],[2],[],[])     (12, 4, 4)  True
+  6    (11, 3)       (2,)       ([2],[],[],[],[],[])     (18, 6, 6)  True
+  6    (12, 4)     (3, 1)       ([],[2],[],[],[],[])     (18, 6, 6)  True
+  6    (13, 5)     (4, 2)       ([],[],[2],[],[],[])     (18, 6, 6)  True
+  8    (15, 4)       (3,) ([2],[],[],[],[],[],[],[])     (24, 8, 8)  True
+  8    (16, 5)     (4, 1) ([],[2],[],[],[],[],[],[])     (24, 8, 8)  True
+  8    (17, 6)     (5, 2) ([],[],[2],[],[],[],[],[])     (24, 8, 8)  True
+  8    (18, 7)     (6, 3) ([],[],[],[2],[],[],[],[])     (24, 8, 8)  True
+
+GENERAL: for which lambda (ANY length <= t+2) do two of the three d's equal t?
+  t=2: 114 such lambda, lengths present [0, 1, 2, 3, 4];  first: [([], (2, 2, 2)), ([1], (2, 2, 4)), ([2, 1], (2, 2, 4)), ([1, 1, 1], (2, 2, 4))]
+  t=3: 260 such lambda, lengths present [1, 2, 3, 4, 5];  first: [([1], (3, 3, 4)), ([2], (3, 3, 6)), ([3, 1], (3, 3, 6)), ([1, 1, 1, 1], (3, 3, 4))]
+  t=4: 524 such lambda, lengths present [1, 2, 3, 4, 5, 6];  first: [([1], (4, 4, 4)), ([2], (4, 4, 6)), ([3], (4, 4, 8)), ([2, 1], (4, 4, 4))]
+  t=5: 508 such lambda, lengths present [1, 2, 3, 4, 5, 6, 7];  first: [([2], (5, 5, 6)), ([3], (5, 5, 8)), ([4], (5, 5, 10)), ([3, 1], (5, 5, 6))]
+  t=6: 579 such lambda, lengths present [1, 2, 3, 4, 5, 6, 7, 8];  first: [([2], (6, 6, 6)), ([3], (6, 6, 8)), ([4], (6, 6, 10)), ([3, 1], (6, 6, 6))]
+two-class profile (rA != rB):   match 2970   MISMATCH 0
+size-3 profile  (rA == rB):     match 0   MISMATCH 980

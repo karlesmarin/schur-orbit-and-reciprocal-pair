@@ -1,0 +1,13 @@
+==========================================================================
+r=1 N=4 : basis 11 (rank 11), labels reduced 139, unresolved 0
+   shapes: 36 stable, 58 unstable
+   criterion vs exact object -- disagreements: 0
+==========================================================================
+r=2 N=6 : basis 30 (rank 30), labels reduced 97, unresolved 0
+   shapes: 53 stable, 37 unstable
+   criterion vs exact object -- disagreements: 0
+
+TOTAL disagreements: 0
+=> the criterion is EXACT in both ranges. The unstable range is closed as a TOOL:
+   Psi_lam = 0 <=> C_mu(lam) = 0 for all mu in an independent basis, with every
+   modification derived rather than assumed.

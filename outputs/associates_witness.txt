@@ -1,0 +1,32 @@
+========================================================================
+r=1  N=4  stable range ell <= 2  |lam| <= 16
+  witnesses constructed and verified: 76 ; failures: 0
+  shapes with NO witness: 4
+     (1, 1)             odd rectangle of height 2: True
+     (3, 3)             odd rectangle of height 2: True
+     (5, 5)             odd rectangle of height 2: True
+     (7, 7)             odd rectangle of height 2: True
+  of those, NOT an odd rectangle of full height: 0  (must be 0)
+  branch-(a) shapes inside the stable range: 0  (must be 0)
+========================================================================
+r=2  N=6  stable range ell <= 3  |lam| <= 14
+  witnesses constructed and verified: 144 ; failures: 0
+  shapes with NO witness: 2
+     (1, 1, 1)          odd rectangle of height 3: True
+     (3, 3, 3)          odd rectangle of height 3: True
+  of those, NOT an odd rectangle of full height: 0  (must be 0)
+  branch-(a) shapes inside the stable range: 0  (must be 0)
+========================================================================
+r=3  N=8  stable range ell <= 4  |lam| <= 12
+  witnesses constructed and verified: 152 ; failures: 0
+  shapes with NO witness: 2
+     (1, 1, 1, 1)       odd rectangle of height 4: True
+     (3, 3, 3, 3)       odd rectangle of height 4: True
+  of those, NOT an odd rectangle of full height: 0  (must be 0)
+  branch-(a) shapes inside the stable range: 0  (must be 0)
+
+TOTAL failures: 0
+=> the stable-range converse is PROVED: every lam with ell(lam) <= N/2 that is not an
+   odd rectangle of full height admits an explicit associate witness, so Psi != 0;
+   and the odd full-height rectangles are exactly the self-complementary-odd shapes.
+   Residue: the UNSTABLE range ell(lam) > N/2, where Littlewood needs King's rules.

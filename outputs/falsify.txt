@@ -1,0 +1,3 @@
+orbit : law holds   600   law FAILS     0
+coset : law holds   383   law FAILS   217
+free  : law holds   200   law FAILS   400

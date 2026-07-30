@@ -1,0 +1,8 @@
+m=2: running totals  nonzero-match=212  zeros=29   fail=0  bad-ratio=0
+m=3: running totals  nonzero-match=472  zeros=93   fail=0  bad-ratio=0
+m=4: running totals  nonzero-match=661  zeros=202   fail=0  bad-ratio=0
+m=5: running totals  nonzero-match=804  zeros=305   fail=0  bad-ratio=0
+m=6: running totals  nonzero-match=893  zeros=404   fail=0  bad-ratio=0
+m=7: running totals  nonzero-match=959  zeros=476   fail=0  bad-ratio=0
+
+TOTAL: 959 nonzero matched (ratio exactly +-1), 476 zeros predicted, 0 vanishing failures, 0 magnitude failures

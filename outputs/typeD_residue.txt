@@ -1,0 +1,33 @@
+============================================================================
+r=1  N=4  half=2
+  basis (standard, nu'_1 < half): 11 ;  residue (non-standard, nonzero): 18
+  basis rank: 11 of 11 columns
+  reductions of the residue, solved exactly:
+     nu=(2, 2, 1, 1)         (c1,c2)=(4,2)  ->  1*o(2,)
+     nu=(2, 1, 1, 1, 1)      (c1,c2)=(5,1)  ->  1*o()
+     nu=(3, 2, 1, 1)         (c1,c2)=(4,2)  ->  1*o(3,)
+     nu=(2, 2, 1, 1, 1)      (c1,c2)=(5,2)  ->  1*o(1,)
+     nu=(4, 2, 1, 1)         (c1,c2)=(4,2)  ->  1*o(4,)
+     nu=(3, 1, 1, 1, 1, 1)   (c1,c2)=(6,1)  ->  -1*o()
+     nu=(2, 2, 2, 2)         (c1,c2)=(4,4)  ->  -1*o(2,)
+     nu=(5, 2, 1, 1)         (c1,c2)=(4,2)  ->  1*o(5,)
+     nu=(3, 3, 1, 1, 1)      (c1,c2)=(5,2)  ->  -1*o(3,)
+     nu=(3, 2, 2, 2)         (c1,c2)=(4,4)  ->  -1*o(3,)
+     nu=(3, 2, 1, 1, 1, 1)   (c1,c2)=(6,2)  ->  -1*o(1,)
+     nu=(2, 2, 2, 2, 1)      (c1,c2)=(5,4)  ->  -1*o(1,)
+     nu=(6, 2, 1, 1)         (c1,c2)=(4,2)  ->  1*o(6,)
+     nu=(4, 3, 1, 1, 1)      (c1,c2)=(5,2)  ->  -1*o(4,)
+     nu=(4, 2, 2, 2)         (c1,c2)=(4,4)  ->  -1*o(4,)
+     nu=(4, 1, 1, 1, 1, 1, 1) (c1,c2)=(7,1)  ->  1*o()
+     nu=(3, 3, 1, 1, 1, 1)   (c1,c2)=(6,2)  ->  -1*o(2,)
+     nu=(2, 2, 2, 2, 2)      (c1,c2)=(5,5)  ->  -1*o()
+  residue values inside the standard span: 18/18 ; with INTEGER coefficients: 18
+============================================================================
+r=2  N=6  half=3
+  basis (standard, nu'_1 < half): 25 ;  residue (non-standard, nonzero): 3
+  basis rank: 25 of 25 columns
+  reductions of the residue, solved exactly:
+     nu=(2, 2, 2, 1, 1)      (c1,c2)=(5,3)  ->  1*o(2, 2)
+     nu=(2, 2, 1, 1, 1, 1)   (c1,c2)=(6,2)  ->  1*o(2,)
+     nu=(2, 1, 1, 1, 1, 1, 1) (c1,c2)=(7,1)  ->  1*o()
+  residue values inside the standard span: 3/3 ; with INTEGER coefficients: 3
