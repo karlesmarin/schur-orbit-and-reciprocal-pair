@@ -1,0 +1,21 @@
+control: shapes with z_exact but not z_end (must be 0 -- the classes are nested)
+   r1: 0
+   r2: 0
+   r3: 0
+   total: 0
+
+the endpoint sieve, per r
+   r    N     |lam|<=   shapes  identical    endpt  flagged
+   1    4          24     1292        143        0      143
+   2    6          20     1513         18        4       22
+   3    8          16      795          6        3        9
+
+   the sieve flags `flagged` shapes and `endpt` of them do not vanish identically:
+      r=1 : flags 143, spurious 0  ->  0%
+      r=2 : flags  22, spurious 4  ->  18%
+      r=3 : flags   9, spurious 3  ->  33%
+
+   endpoint-only shapes, named:
+      r=1 : none
+      r=2 : (5, 4, 3, 1), (5, 5, 4, 2, 1), (10, 5, 3, 1), (6, 5, 4, 2, 1, 1)
+      r=3 : (2, 2, 2, 1, 1), (5, 5, 4, 1, 1), (3, 3, 3, 2, 2, 1, 1, 1)

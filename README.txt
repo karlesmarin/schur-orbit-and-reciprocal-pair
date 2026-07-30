@@ -87,9 +87,20 @@ check_nonstd_bound.py   Lemma 8.6 against the archived outputs: every non-standa
                         |lambda| >= 2r+3.
                         -> 0 violations.                                           (Section 8.4)
 
+sieve_counts.py         The endpoint sieve quantified, from the same exact data the Section-8 figures
+                        use. Runs the nesting control first (a shape vanishing identically must also
+                        vanish at the endpoint).
+                        -> control 0; flags 143 / 22 / 9 shapes at r=1,2,3, of which 0 / 4 / 3 are
+                           spurious, i.e. 0% / 18% / 33%.                          (Section 8)
+
 check_layout.py         Not a mathematical check. Reports pages carrying a large blank band inside
                         the text area, which a clean LaTeX run does not detect.
                         Usage: python check_layout.py orbit_pair.pdf
+
+check_refs.py           Not a mathematical check either. Two things LaTeX cannot tell you: whether a
+                        cross-reference points at the right KIND of object ("Theorem \ref{lem:...}"
+                        compiles and is wrong), and whether any bibliography entry is never cited.
+                        Usage: python check_refs.py orbit_pair.tex orbit_pair_es.tex
 
 --------------------------------------------------------------------------------------------------
 GROUP 2 -- THE ZERO LOCUS FOR EVERY r  (Sage)
