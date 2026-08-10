@@ -5,9 +5,11 @@ rather than against a total aggregated by hand.
 Carles Marin + Claude (AI assistant)."""
 import io, os, subprocess, sys
 
-SCRIPTS = ["theorem_full.py", "law_control.py", "falsify.py", "d_from_quotient.py",
-           "sign_ayyer_idiom.py", "single_char.py", "extra_locus.py", "extra_structure.py",
-           "rect_degeneracy.py", "enumeration.py", "ak53_consistency.py"]
+SCRIPTS = ["AUDIT_FORMULAS.py", "minimality.py", "fixed_set.py", "coupling_rank_tight.py", "theorem_full.py", "law_control.py", "falsify.py", "d_from_quotient.py",
+           "sign_ayyer_idiom.py", "sign_proof_check.py", "concentric_locus.py", "involution_runs.py", "alternation_proof.py",
+           "single_char.py", "extra_locus.py", "extra_structure.py",
+           "rect_degeneracy.py", "enumeration.py", "ak53_consistency.py",
+           "fig_image.py", "fig_runs.py"]
 
 os.makedirs("_out", exist_ok=True)
 for s in SCRIPTS:

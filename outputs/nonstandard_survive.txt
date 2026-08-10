@@ -1,0 +1,9 @@
+Does EVERY non-standard label vanish on A?  (nu'_1 + nu'_2 > N = 2r+2)
+r    N        |nu|<=     non-std    vanish     NONZERO
+1    4        14         431        376        55  [(2, 2, 1, 1), (2, 1, 1, 1, 1), (3, 2, 1, 1)]
+2    6        12         136        98         38  [(2, 2, 2, 1, 1), (2, 2, 1, 1, 1, 1), (2, 1, 1, 1, 1, 1, 1)]
+3    8        11         33         23         10  [(2, 2, 2, 2, 1, 1), (2, 2, 2, 1, 1, 1, 1), (2, 2, 1, 1, 1, 1, 1, 1)]
+
+If the NONZERO column is 0 for r>=3, CORRECTIONS.md's target is real.
+If it is not, the non-standard labels do NOT all die; they fold, which is
+what Lemma lem:AtoSp says they do.

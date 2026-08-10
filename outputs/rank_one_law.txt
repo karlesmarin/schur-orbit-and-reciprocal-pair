@@ -1,0 +1,27 @@
+============================================================================
+t = 2, i.e. r = 1: is o_nu(1,-1,z,1/z) = sp_nu(z)?  and when is it 0?
+============================================================================
+  identity o_nu(A) = sp_nu(z) : 272 shapes, 0 mismatches
+
+  l(nu)      shapes     vanish     all vanish?
+  0          1          0          no
+  1          12         0          no
+  2          36         36         YES
+  3          53         43         partly
+  4          53         40         partly
+  5          42         32         partly
+  6          30         23         partly
+  7          19         16         partly
+  8          12         11         partly
+  9          7          7          YES
+  10         4          4          YES
+  11         2          2          YES
+  12         1          1          YES
+
+  l(nu) >= 2 : 259 shapes, 215 vanish = 83.0%
+
+  >> at rank one the symplectic basis is {sp_(m)}, one row only.  So
+     sp_nu(z) = 0 for l(nu) = 2 and folds for l(nu) > 2; the vanishing of
+     o_nu on this alphabet is therefore governed by a LAW -- Lemma 8.8 plus
+     the rank-one modification -- not by a percentage.
+DONE

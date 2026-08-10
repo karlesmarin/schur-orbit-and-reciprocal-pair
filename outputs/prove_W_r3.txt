@@ -1,0 +1,6 @@
+r=3 extendido a |lambda| <= 13 (el paper llegaba a 9)
+============================================================================
+r=3 N=8 : non-standard nu with o!=0 : 36 ; min ell(nu) = 6  (fact (ii) gives >= 5)
+   UNSTABLE shapes: 4 vanish ; 149 have a PROVED isolating witness ; 0 residue
+
+TOTAL unstable residue without a proved isolating witness: 0

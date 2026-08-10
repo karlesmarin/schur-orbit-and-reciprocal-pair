@@ -3,7 +3,7 @@
 Verification code and **saved output** for
 
 > **Factorization of Schur polynomials twisted by roots of unity and a reciprocal pair**
-> Carles Marín · preprint forthcoming
+> Carles Marín
 
 The object is the Schur polynomial at a full root-of-unity orbit together with one free reciprocal
 pair,
@@ -32,7 +32,7 @@ paper's verification table quotes can be located in [`outputs/`](outputs) withou
 |---|---|
 | **Group 1** — the evaluation and its sharpness | plain Python, needs only `mpmath` (plus `numpy`/`matplotlib` for figures) |
 | **Group 2** — the zero locus for every `r` | Sage: exact multivariate Laurent rings and linear systems over `Q` |
-| [`outputs/`](outputs) | full stdout of all 22 runs, 2026-07-30 |
+| [`outputs/`](outputs) | full stdout of all **48** runs, 2026-07-30 to 2026-08-07 |
 
 ```bash
 pip install mpmath numpy matplotlib     # group 1
@@ -45,15 +45,22 @@ sage selfcomp_law.sage                  # group 2
 
 | what | script | result |
 |---|---|---|
+| **every displayed formula, against its definitions** | `AUDIT_FORMULAS.py` | **3297 evaluations over 9 formulas, 0 failures** |
 | the evaluation, sign included | `theorem_full.py` | 959 exact, 476 zeros, **0 failures**; L4 724/724 |
 | an independent second implementation | `law_control.py` | 959 / 476 / 0 along a different code path |
 | the sharpness controls (D3), (D4) | `falsify.py` | orbit 600/0, coset 383/**217**, free pair 200/**400** |
 | the three arguments from the `t`-quotient | `d_from_quotient.py` | 2970/2970 |
-| the short form of the sign | `sign_ayyer_idiom.py` | ordered **1496/1496**; 112 cells, 0 mixed |
+| the short form of the sign (statement) | `sign_ayyer_idiom.py` | ordered **1496/1496**; 112 cells, 0 mixed |
+| the short form of the sign (proof, step by step) | `sign_proof_check.py` | 1529 / 4000 / 1496 / 198, **0 failures** |
+| the concentric locus, in quotient coordinates | `concentric_locus.py` | 1331/1331; **0** concentric at odd `t`, 43 at even |
+| the value is constant on each fibre of the invariant | `fig_fibres.py` | 860 + 883 partitions, worst spread **1e-37**; 121 invariants → **110** values at `t=4` |
+| the second half of the involution, measured | `involution_runs.py` | max \|sigma\| = 1; **0 of 1406** runs break the alternation; 333/333 |
+| the same, proved step by step | `alternation_proof.py` | 4823 / 4823 / 1341 / 217, **0 failures** |
 | the vanishing criterion, both directions | `selfcomp_law.sage` | 9961 shapes, 318 vanishers, **0 false negatives, 0 false positives** |
 | the converse at one pair | `close_X_r1.sage` | 14950 beta sets, **0 violations** |
 | the converse inside Littlewood's range | `associates_witness.sage` | 372 witnesses, **0 failures** |
 | the isolating-`mu` statement at `r = 2, 3` | `prove_W.sage` | 80 witnesses, **0 residue** |
+| the core does not decide the vanishing | `core_vs_criterion.py` | 260 profiles, 0 profile→core clashes; 1338 shapes, **5 core classes carrying both behaviours** |
 | everything in §8, rebuilt from the definitions | `AUDIT_ALL.sage` | **3414 checks, 0 failures** |
 
 ## 🧪 Controls that are meant to fail
@@ -67,6 +74,14 @@ A test that cannot fail proves nothing, so three of these scripts print a delibe
   antisymmetric under exchanging the blocks, so their product is invariant while the candidate
   formula is not; without a rule fixing which block is `A` the right-hand side is not a function of
   `lambda` at all.
+- **`sign_proof_check.py`** checks the three steps of the proof rather than its conclusion, so a
+  disagreement can be localised: the parity count on random words, where it can fail; the resulting
+  formula for `inv(w) - inv(b_S)`; and the arithmetic fact that closes it. Its own control repeats
+  the middle step with the ordering hypothesis dropped, and it fails 904 of 1496 — the hypothesis
+  enters the proof at exactly one point, and this is that point.
+- **`concentric_locus.py`** claims that the concentric branch is empty at odd `t`, which a script
+  can satisfy by finding nothing anywhere. So it prints the even-`t` count on the same range next to
+  it: **43**. A zero beside a zero would prove nothing.
 - **`selfcomp_law.sage`** runs an even-width control: self-complementary shapes of *even* width, none
   of which vanishes. The parity hypothesis is load-bearing rather than decorative.
 
@@ -93,7 +108,8 @@ A few table entries are sums of printed per-`r` lines rather than a single print
  372 =   76 +  144 +  152     associate witnesses
 14950 = the ten parity buckets of close_X_r1
  184 =   94 +   90            criterion vs exact object
- 206 =  139 +   67            type-D labels
+ 236 =  139 +   97            type-D labels reduced (unstable_closed; NOT the 97+67
+                              of fig_reduction, which counts label classes per panel)
   80 =   55 +   25            isolating witnesses
   21 =   18 +    3            residual labels, reduced exactly
 ```

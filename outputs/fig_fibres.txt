@@ -1,0 +1,13 @@
+t=3 |lam|<=20: fibres 160 ; singletons 53 ; largest fibre 56 ; mean fibre 5.38
+t=3 the empty fibre I=(3,3,2,+1): 26 partitions, sizes 0..20, 19 distinct sizes, absent: [1, 4]
+t=3 largest size-span in one fibre: 20 ; mean span 5.08
+t=3 control, the value is constant on each fibre: 860 partitions, worst spread 1.06e-37 -> 0 fail
+t=3 fibres 160 ; distinct multisets+sign 160 ; distinct values 160
+t=3 the invariant is complete but not minimal: values = multisets
+t=4 |lam|<=20: fibres 121 ; singletons 32 ; largest fibre 50 ; mean fibre 7.30
+t=4 the empty fibre I=(4,4,2,+1): 36 partitions, sizes 0..20, 11 distinct sizes, absent: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+t=4 largest size-span in one fibre: 20 ; mean span 5.32
+t=4 control, the value is constant on each fibre: 883 partitions, worst spread 2.35e-38 -> 0 fail
+t=4 fibres 121 ; distinct multisets+sign 110 ; distinct values 110
+t=4 the invariant is complete but not minimal: values = multisets
+wrote E:\proyectos\Curiosity\research\orbit-pair\paper\anc\fig_fibres.pdf/.png

@@ -1,0 +1,8 @@
+range: |lambda| <= 16, at most 4 rows, 333 shapes with a nonzero term
+
+A  max |sigma|:                                   1   <-- 1 means a set, not a multiset
+B  runs of consecutive nonzeros:                  1406
+   runs with two EQUAL adjacent signs:            0   <-- 0 means the sign alternates
+   odd-length runs 1314, even-length runs 92
+
+C  survivors vs the closed form (up to the global sign): 333 agree, 0 disagree

@@ -1,0 +1,10 @@
+  t=2 :  plain     14  oriented   0  a1b1       3  both       0
+  t=3 :  plain      0  oriented   0  a1b1       0  both       0
+  t=4 :  plain      2  oriented   0  a1b1       0  both       0
+  t=5 :  plain      0  oriented   0  a1b1       0  both       0
+  t=6 :  plain      0  oriented   0  a1b1       0  both       0
+
+  columns: conflicts remaining under each signature.
+  'oriented' = the graph datum with sgn(a1+a2-b1-b2) added, i.e. d_3 as an
+  ORIENTED distance rather than a length.
+DONE

@@ -1,0 +1,8 @@
+the excess-one alphabet  mu_t u {-1}  for odd t
+
+  t=3 : +1 x47, -1 x43, 0 x151
+  t=5 : +1 x44, -1 x41, 0 x303
+  t=7 : +1 x38, -1 x34, 0 x391
+
+  1092 shapes over t = 3,5,7 and |lambda| <= 14
+  values outside {0,+1,-1}: 0   <-- 0 means the excess-one alphabet is frozen

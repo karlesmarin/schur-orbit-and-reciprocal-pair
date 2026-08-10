@@ -1,0 +1,9 @@
+range: |lambda| <= 14, at most 4 rows
+
+STEP 1  beta-form of Jacobi-Trudi = s_{lam/nu}(1,-1):     4823 ok, 0 fail
+STEP 2  sigma != 0  <=>  every class perfect:             4823 ok, 0 fail
+        max |sigma| (STEP 2 predicts 1):                  1
+STEP 3  k odd => no two consecutive nonzeros:             1341 ok, 0 fail
+STEP 4  consecutive nonzeros => lengths exchanged:        217 ok, 0 fail
+
+STEP 5  sigma_{m+1} = -sigma_m on every consecutive pair: 217 pairs, 0 fail

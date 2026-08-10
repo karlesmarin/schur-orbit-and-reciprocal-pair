@@ -1,0 +1,4 @@
+skew shapes checked (at most 4 rows, |lambda| <= 10): 1134
+
+  |sigma| != #coverable :          0   <-- 0 means the survivors carry one sign
+  sigma != 0 but #coverable != 1 : 0   <-- 0 CONFIRMS the paper's claim

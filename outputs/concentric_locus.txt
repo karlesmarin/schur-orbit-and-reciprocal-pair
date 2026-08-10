@@ -1,0 +1,11 @@
+range: t = 2..9, |lambda| <= 16, 2629 shapes with a non-degenerate profile
+
+CLAIM 1  concentric (d3 = 0) at ODD t:      0      <-- must be 0
+CONTROL  concentric (d3 = 0) at EVEN t:     43      <-- must NOT be 0
+
+CLAIM 2  t even, d3=0 <=> rB-rA=t/2 and sA=sB+1:  1331 ok, 0 fail
+
+CLAIM 3  residue profiles carrying more than one value of d3: 116 of 156
+         smallest witness: t = 2, profile [0, 0, 1, 1] carries d3 in [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+         => d3 is not a function of the residue vector, so the locus is an
+            arrangement in the quotient sizes and not in the core lattice.

@@ -1,0 +1,48 @@
+============================================================================
+Problem 10.6: the extra locus against the kernel of the specialization
+============================================================================
+  free part t    solutions  cores    Thm 7.1   OTHER   
+  ----------------------------------------------------
+  (z,1/z)   2    4          3        1         0       
+  (z,1/z)   3    6          6        0         0       
+  (z,1/z)   4    12         10       2         0       
+  (z,1/z)   5    15         15       0         0       
+  (z,1/z)   6    24         21       3         0       
+  (z,1/z)   7    28         28       0         0       
+  (z,1/z)   8    40         36       4         0       
+  ----------------------------------------------------
+  (z,-z)    2    31         3        0         28      
+  (z,-z)    3    27         6        0         21      
+  (z,-z)    4    76         10       2         64      
+  (z,-z)    5    64         15       0         49      
+  (z,-z)    6    141        21       0         120     
+  (z,-z)    7    116        28       0         88      
+  (z,-z)    8    226        36       4         186     
+  ----------------------------------------------------
+  (z,w)     2    3          3        0         0       
+  (z,w)     3    6          6        0         0       
+  (z,w)     4    10         10       0         0       
+  (z,w)     5    15         15       0         0       
+  (z,w)     6    21         21       0         0       
+  (z,w)     7    28         28       0         0       
+  (z,w)     8    36         36       0         0       
+  ----------------------------------------------------
+
+============================================================================
+WHAT THE TABLE SAYS
+============================================================================
+  (z,1/z)  extra beyond cores and Theorem 7.1: [0, 0, 0, 0, 0, 0, 0]
+  (z,-z)   extra beyond cores and Theorem 7.1: [28, 21, 64, 49, 120, 88, 186]
+  (z,-z) at t=2: 28 further solutions
+  (z,-z) at t=8: 186 further solutions
+  the reciprocal pair is the collapsing specialization of smallest kernel.
+
+============================================================================
+CONTROLS
+============================================================================
+  (z,w) free returns the t-cores and nothing else : yes   (Remark 7.2's control)
+  (z,1/z) returns cores + Theorem 7.1 and nothing else : yes
+  and its extras, t = 2..8 : [1, 0, 2, 0, 3, 0, 4]   (t/2 at even t, none at odd)
+  (z,-z) does acquire further solutions : yes   (or the comparison is vacuous)
+
+TOTAL problems: 0

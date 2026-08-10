@@ -2,6 +2,9 @@ LEMMA  S_b S_{b'-1} - S_{b'} S_{b-1} = -S_{b-b'}
    violations over 1 <= b' < b <= 29 : 0
    deg_c S_n = n-1 : True
 
+[EXPLORATORY -- not used in the paper. This sub-claim does NOT hold and its mismatch count
+ below is not a failure of anything stated in the paper. The result the paper rests on is the
+ case analysis printed after it.]
 verifying that the 4x4 determinant IS the signed sum of single S's (up to a global sign)
    checked 6655 beta with mixed parity, mismatches: 4180
 

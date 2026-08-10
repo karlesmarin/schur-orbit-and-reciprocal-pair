@@ -1,0 +1,12 @@
+  Theorem 2.1  Littlewood, sign included           730 checked   ok
+  eq. (2)      the interval reading               1071 checked   ok
+  Lemma 5.2    the Vandermonde denominator           7 checked   ok
+  Lemma 5.5(a) the four-term collapse              225 checked   ok
+  Lemma 5.5(b) the size-three collapse              81 checked   ok
+  eq. (12)     the splitting of the alphabet       338 checked   ok
+  eq. (16)     the complementation identity        290 checked   ok
+  eq. (17)     d'Ocagne for this recurrence        400 checked   ok
+  eq. (23)     the scalar caveat of Conj. 10.3     155 checked   ok
+
+TOTAL evaluations: 3297 over 9 displayed formulas
+TOTAL formula failures: 0

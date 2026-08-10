@@ -1,0 +1,10 @@
+  smallest lambda in Karmakar's case (B) at k = 1
+  r     N     min|lambda| lambda                       beta
+  1     4     1          [1]                          [4, 2, 1, 0]
+  2     6     6          [3, 2, 1]                    [8, 6, 4, 2, 1, 0]
+  3     8     15         [5, 4, 3, 2, 1]              [12, 10, 8, 6, 4, 2, 1, 0]
+  4     10    28         [7, 6, 5, 4, 3, 2, 1]        [16, 14, 12, 10, 8, 6, 4, 2, 1, 0]
+  5     12    45         [9, 8, 7, 6, 5, 4, 3, 2, 1]  [20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 1, 0]
+
+  So case (B) does NOT die -- it moves out of reach.  The honest statement
+  is that its smallest member grows, not that the case empties.

@@ -3,7 +3,7 @@ from collections import defaultdict
 from law_control import partitions
 from theorem_full import setup, lambda11
 
-def image(t, maxsize):
+def image(t, maxsize, include_zero=False):
     N = t + 2
     pts = defaultdict(lambda: {"n": 0, "signs": set()})
     nz = nlam = 0
@@ -16,7 +16,7 @@ def image(t, maxsize):
             a1, a2 = beta[Ac[0]], beta[Ac[1]]
             b1, b2 = beta[Bc[0]], beta[Bc[1]]
             d = (a1 - a2, b1 - b2, abs(a1 + a2 - b1 - b2))
-            if d[2] == 0: continue
+            if d[2] == 0 and not include_zero: continue
             l11 = lambda11(beta, Ac, Bc, N)
             eps = (-1)**(t + (t+2)*(t+3)//2) * l11 * (1 if a1+a2-b1-b2 > 0 else -1)
             key = tuple(sorted(d[:2])) + (d[2],)

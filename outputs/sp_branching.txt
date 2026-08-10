@@ -1,0 +1,18 @@
+==============================================================================
+CONTROL -- the orthogonal identity of Section 8
+==============================================================================
+  o_nu(W,1,-1) = sp_nu(W): 45 hold, 0 fail   <-- must be 0
+
+==============================================================================
+PREDICTION -- the coefficient depends only on the skew shape nu/gamma
+==============================================================================
+  247 coefficients over 74 distinct skew shapes: 0 clashes   <-- 0 confirms the rule
+
+==============================================================================
+THE VALUES -- sp_{nu/gamma}(1,-1) read off, by skew shape size
+==============================================================================
+  |nu/gamma| = 0  : values [1]
+  |nu/gamma| = 2  : values [-1, 1]
+  |nu/gamma| = 4  : values [-1, 1]
+  |nu/gamma| = 6  : values [-1, 1]
+  |nu/gamma| = 8  : values [-1, 1]

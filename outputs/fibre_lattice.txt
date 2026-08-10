@@ -1,0 +1,49 @@
+================================================================================================
+The two-class stratum as a lattice, and the generating function of its fibres
+================================================================================================
+
+t = 2,  |lambda| <= 14
+    two-class partitions: 120 on 84 triples   (121 in other profiles)
+    (1) LATTICE   dictionaries equal: YES
+    K2 control    theorem's labelling differs from setup()'s: YES
+    (2) GEN.FUNC  fibres matching the closed form: 84 / 84
+    K1 control    same with (1-q^{2t}) instead of (1-q^{4t}): 45 / 84   <-- must be smaller
+
+t = 3,  |lambda| <= 12
+    two-class partitions: 114 on 35 triples   (83 in other profiles)
+    (1) LATTICE   dictionaries equal: YES
+    K2 control    theorem's labelling differs from setup()'s: YES
+    (2) GEN.FUNC  fibres matching the closed form: 35 / 35
+    K1 control    same with (1-q^{2t}) instead of (1-q^{4t}): 26 / 35   <-- must be smaller
+
+t = 4,  |lambda| <= 10
+    two-class partitions: 78 on 20 triples   (47 in other profiles)
+    (1) LATTICE   dictionaries equal: YES
+    K2 control    theorem's labelling differs from setup()'s: YES
+    (2) GEN.FUNC  fibres matching the closed form: 20 / 20
+    K1 control    same with (1-q^{2t}) instead of (1-q^{4t}): 17 / 20   <-- must be smaller
+
+t = 5,  |lambda| <= 10
+    two-class partitions: 72 on 14 triples   (60 in other profiles)
+    (1) LATTICE   dictionaries equal: YES
+    K2 control    theorem's labelling differs from setup()'s: YES
+    (2) GEN.FUNC  fibres matching the closed form: 14 / 14
+    K1 control    same with (1-q^{2t}) instead of (1-q^{4t}): 13 / 14   <-- must be smaller
+
+
+================================================================================================
+The sign restricted to a branch
+================================================================================================
+
+t = 2,  |lambda| <= 14
+    SIGN on a branch:  eps constant in the invisible parts m at fixed v: 107 of 107 (v, branch) slots
+                       consecutive v: 0 flips, 13 equal, 0 other
+
+t = 3,  |lambda| <= 12
+    SIGN on a branch:  eps constant in the invisible parts m at fixed v: 43 of 62 (v, branch) slots
+                       consecutive v: 0 flips, 1 equal, 0 other
+
+t = 4,  |lambda| <= 10
+    SIGN on a branch:  eps constant in the invisible parts m at fixed v: 26 of 36 (v, branch) slots
+                       consecutive v: 0 flips, 0 equal, 0 other
+

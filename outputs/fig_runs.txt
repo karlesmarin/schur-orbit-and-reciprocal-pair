@@ -1,0 +1,3 @@
+lambda=(10, 8)  rows k: 6, runs: 10, all |sigma| = 1: True
+lambda=(19, 2)  rows k: 10, runs: 18, all |sigma| = 1: True
+wrote E:\proyectos\Curiosity\research\orbit-pair\paper\anc\fig_runs.pdf/.png

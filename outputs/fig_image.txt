@@ -1,0 +1,9 @@
+t=3: the compression drawn: 860 partitions land on 96 points
+t=4: the compression drawn: 883 partitions land on 73 points
+t=3: concentric points on the plane d3=0: 0 (from 0 partitions)
+t=4: concentric points on the plane d3=0: 2 (from 32 partitions)
+t=3: points up to the exchange 96, ordered triples actually taken 126
+t=3: CONTROL, the same count with A and B ordered by column instead: 108
+t=4: points up to the exchange 73, ordered triples actually taken 92
+t=4: CONTROL, the same count with A and B ordered by column instead: 80
+wrote E:\proyectos\Curiosity\research\orbit-pair\paper\anc\fig_image.pdf/.png

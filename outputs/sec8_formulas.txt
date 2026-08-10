@@ -1,0 +1,41 @@
+==========================================================================
+F1 -- the recurrence  h_m(W,c) - c h_{m-1}(W,c) = h_m(W)
+==========================================================================
+  c in {1,-1,2,-3}, m <= 8 : 0 failures
+  and at c = -1 it reads  h_m(W,-1) + h_{m-1}(W,-1) = h_m(W),
+  which is [AK25, Proposition 2.1] verbatim.
+
+==========================================================================
+F2 -- the DEFINING determinants, as the paper cites them from [AK25]
+==========================================================================
+  o_lambda  determinant vs Sage's o basis  : 0 failures
+  sp_lambda determinant vs Sage's sp basis : 0 failures
+  (so_lambda has no Sage basis; it is pinned by F3 below.)
+
+==========================================================================
+F3 -- THE COLUMN OPERATION, exactly as the proof states it
+==========================================================================
+  Claim to test: the entries of the so-determinant are obtained from those
+  of the o-determinant evaluated at (W,1) by  C_j -> C_j - C_{j-1}.
+  A column operation of that shape leaves the determinant unchanged, so if
+  the entrywise claim holds, so does  iota_1 o_nu = so_nu.
+
+  C_j -> C_j - C_{j-1} reproduces every so entry : 0 failures
+  cases where C_j + C_{j-1} would also work      : 40
+  >> the sign is MINUS at c = 1.  [AK25, Lemma 3.2] writes PLUS because its
+     step is c = -1; the general operation is C_j -> C_j - c C_{j-1}.
+
+==========================================================================
+F4 -- and therefore the two steps, then the composition
+==========================================================================
+  iota_1 o_nu = so_nu           , |nu| <= 7 : 0 failures
+  iota_{-1} so_nu = sp_nu       , |nu| <= 7 : 0 failures
+  iota_{-1} iota_1 o_nu = sp_nu , |nu| <= 7 : 0 failures
+
+==========================================================================
+F5 -- nu'_1 = l(nu), so the trichotomy is on LENGTH against the rank
+==========================================================================
+  nu'_1 = l(nu) for every partition, |nu| <= 8 : 0 failures
+  N/2 = (2r+2)/2 = r+1, so  nu'_1 = N/2  <=>  l(nu) = r+1  and
+                            nu'_1 > N/2  <=>  l(nu) > r+1.
+DONE

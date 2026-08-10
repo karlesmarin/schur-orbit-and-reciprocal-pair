@@ -1,0 +1,35 @@
+  s   1 pair(s), 2 free letters, t=4 :  locus  12   t-cores  10   EXTRA   2     extras: [(7, 2), (8, 3)]
+  s   1 pair(s), 2 free letters, t=5 :  locus  15   t-cores  15   EXTRA   0   
+  s   1 pair(s), 2 free letters, t=6 :  locus  21   t-cores  20   EXTRA   1     extras: [(11, 3)]
+  s   2 pair(s), 4 free letters, t=3 :  locus   6   t-cores   6   EXTRA   0   
+  s   2 pair(s), 4 free letters, t=4 :  locus  10   t-cores  10   EXTRA   0   
+  s   2 pair(s), 4 free letters, t=5 :  locus  15   t-cores  15   EXTRA   0   
+  s   2 pair(s), 4 free letters, t=6 :  locus  20   t-cores  20   EXTRA   0   
+  sp  2 pair(s), 4 free letters, t=3 :  locus   6   t-cores   6   EXTRA   0   
+  sp  2 pair(s), 4 free letters, t=4 :  locus  10   t-cores  10   EXTRA   0   
+  sp  2 pair(s), 4 free letters, t=5 :  locus  15   t-cores  15   EXTRA   0   
+  sp  2 pair(s), 4 free letters, t=6 :  locus  20   t-cores  20   EXTRA   0   
+  o   2 pair(s), 4 free letters, t=3 :  locus   6   t-cores   6   EXTRA   0   
+  o   2 pair(s), 4 free letters, t=4 :  locus  10   t-cores  10   EXTRA   0   
+  o   2 pair(s), 4 free letters, t=5 :  locus  15   t-cores  15   EXTRA   0   
+  o   2 pair(s), 4 free letters, t=6 :  locus  20   t-cores  20   EXTRA   0   
+
+============================================================================================
+CONTROL -- type s must reproduce Theorem 7.1: extras only at even t, and of the stated form
+============================================================================================
+  t=3 : extras []                           predicted []                            MATCH
+  t=4 : extras [(7, 2), (8, 3)]             predicted [(7, 2), (8, 3)]              MATCH
+  t=5 : extras []                           predicted []                            MATCH
+  t=6 : extras [(11, 3)]                    predicted [(11, 3)]                     MATCH
+
+============================================================================================
+THE ANSWER, per type: does the criterion acquire extras, and only at even t?
+============================================================================================
+  s   with 1 pair(s) : extras at odd t = 0 ; at even t = 3  ->  an extra family, only at even t
+  s   with 2 pair(s) : extras at odd t = 0 ; at even t = 0  ->  NO extra family at all
+  sp  with 2 pair(s) : extras at odd t = 0 ; at even t = 0  ->  NO extra family at all
+  o   with 2 pair(s) : extras at odd t = 0 ; at even t = 0  ->  NO extra family at all
+
+Read the two type-s rows against each other. If s keeps its extra family at two pairs, the
+difference from sp and o is the TYPE. If it loses it, the extra family belongs to the
+minimal alphabet, and Problem 10.6 is asking about minimality rather than about type.

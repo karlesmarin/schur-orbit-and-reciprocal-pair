@@ -1,0 +1,32 @@
+==========================================================================
+(1)  s_{lam/mu}(1,-1) = sgn(sigma_lam) sgn(sigma_mu) . [cores agree, both strips]
+==========================================================================
+  N=4 :  4457 skew pairs, 1039 of them nonzero, 0 disagreements
+  N=5 :  6185 skew pairs, 1292 of them nonzero, 0 disagreements
+  N=6 :  7395 skew pairs, 1458 of them nonzero, 0 disagreements
+  TOTAL: 18037 skew pairs, 0 disagreements
+
+==========================================================================
+(2)  Proposition 6.4(ii)+(iii) as a statement about sigma alone
+==========================================================================
+  N=4,5,6, k<=7, m<=9 : 240 steps, 0 disagreements
+     k even -> sgn(sigma_nu) reverses ;  k odd -> sgn(sigma_nu) is constant
+
+==========================================================================
+(3)  and those two reproduce Proposition 6.4 on real lambda
+==========================================================================
+  |lam| <= 14, <= 4 rows, k <= 7 : 1928 (lam,k) families
+     (i)   every sigma_m in {0,+-1}          : 0 fail
+     (ii)  k odd, no two consecutive nonzero : 0 fail
+     (iii) consecutive nonzero alternate     : 0 fail
+
+==========================================================================
+CONTROLS -- each must be refuted
+==========================================================================
+  the strip condition is load-bearing                  correctly refuted
+  the core condition is load-bearing                   correctly refuted
+  sgn(sigma) is not identically +1                     correctly refuted
+  the alternation is not vacuous: some run has length >= 2 correctly refuted
+
+==========================================================================
+TOTAL problems: 0

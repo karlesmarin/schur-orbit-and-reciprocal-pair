@@ -1,0 +1,50 @@
+============================================================================
+STEP 1 -- the identity, as an identity in Lambda (no length hypothesis)
+============================================================================
+  o_nu(W,1,-1) = sp_nu(W)  for |nu| <= 8 :  67 hold, 0 fail
+  CONTROL: each letter alone
+    o(W,1)=sp(W) in 1 of 19;  o(W,-1)=sp(W) in 1 of 19
+    >> only the empty shape.  BOTH letters are needed -- the reciprocal pair.
+
+============================================================================
+STEP 2 -- the three facts of Sec. 8, now as symplectic statements
+============================================================================
+  nu'_1 = l(nu), so the trichotomy on nu'_1 vs N/2 = r+1 is a trichotomy
+  on the LENGTH of nu against the rank r of Sp(2r):
+
+  r=1 (N=4), |nu| <= 10
+     l(nu) <= r      :   11  -- irreducible Sp(2r) characters, the basis of (Cmu)
+     l(nu) = r+1     :   25  -- 0 nonzero   [FACT 1: self-associate labels vanish]
+     l(nu) >  r+1    :  103  -- 0 not +- a basis element  [FACTS 2 and 3]
+  r=2 (N=6), |nu| <= 9
+     l(nu) <= r      :   30  -- irreducible Sp(2r) characters, the basis of (Cmu)
+     l(nu) = r+1     :   23  -- 0 nonzero   [FACT 1: self-associate labels vanish]
+     l(nu) >  r+1    :   44  -- 0 not +- a basis element  [FACTS 2 and 3]
+  r=3 (N=8), |nu| <= 8
+     l(nu) <= r      :   41  -- irreducible Sp(2r) characters, the basis of (Cmu)
+     l(nu) = r+1     :   12  -- 0 nonzero   [FACT 1: self-associate labels vanish]
+     l(nu) >  r+1    :   14  -- 0 not +- a basis element  [FACTS 2 and 3]
+
+============================================================================
+STEP 3 -- and the linear independence of (Cmu) is now a theorem, not an
+          observation: distinct irreducible characters of Sp(2r).
+============================================================================
+  r=1 : 9 characters, rank of their coefficient matrix = 9, repeats = 0
+  r=2 : 25 characters, rank of their coefficient matrix = 25, repeats = 0
+  r=3 : 41 characters, rank of their coefficient matrix = 41, repeats = 0
+
+============================================================================
+WHAT IS NOW PROVED, AND WHAT IS NOT
+============================================================================
+
+  PROVED, on published results:  every value o_nu(A) is a symplectic character;
+  the labels of length r+1 vanish; longer labels fold onto the basis with a sign;
+  and the basis is linearly independent.  Equation (Cmu) therefore holds with no
+  appeal to a computed range, and with no modification rule outside the two
+  classical cases.
+
+  STILL OPEN:  Conjecture (iso) -- the existence of an isolating mu -- which is a
+  statement about the Littlewood coefficients c_nu, not about the values o_nu(A).
+  Nothing here touches it.
+
+DONE

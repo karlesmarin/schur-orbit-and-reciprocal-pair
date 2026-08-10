@@ -1,0 +1,5 @@
+STEP 0  sgn(sigma) = (-1)^inv(w):          1529 ok, 0 fail
+STEP 1  parity lemma on random words:      4000 ok, 0 fail
+STEP 2  inv(w) - inv(b_S), blocks ordered: 1496 ok, 0 fail
+STEP 3  floor(t/2)+t+C(t+3,2) = 1 mod 2:    198 ok, no exception
+CONTROL same, ordering dropped:             592 ok, 904 fail  <-- must fail
