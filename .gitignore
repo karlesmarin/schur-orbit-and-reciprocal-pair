@@ -4,3 +4,4 @@ __pycache__/
 _out/
 *.pdf
 *.png
+!orbit_pair_es.pdf

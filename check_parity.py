@@ -25,7 +25,18 @@ ENVS = ["theorem", "lemma", "corollary", "proposition", "conjecture", "remark", 
 
 
 def load(path):
+    """the CONTENT of an edition: from \\begin{document} to the bibliography, comments stripped.
+
+    The preamble is deliberately excluded. It is the one part of the two files that is *supposed*
+    to differ -- the Spanish edition loads babel and, since 2026-08-07, redefines amsart's three
+    hardcoded English labels (Date, Mathematics Subject Classification, Key words and phrases),
+    which puts a literal 2020 in one preamble and not the other. Comparing preambles reported that
+    as a divergence, which it is not: nothing a reader sees was out of step. Everything this file
+    is actually for -- counts quoted in sentences, numbered statements, labels -- lives in the body,
+    and the two defects recorded above were both found there."""
     src = io.open(path, encoding="utf-8").read().split("\\begin{thebibliography}")[0]
+    if "\\begin{document}" in src:
+        src = src.split("\\begin{document}", 1)[1]
     src = re.sub(r"(?<!\\)%.*", "", src)          # drop comments, keep \%
     return src
 

@@ -4,6 +4,7 @@ Verification code and **saved output** for
 
 > **Factorization of Schur polynomials twisted by roots of unity and a reciprocal pair**
 > Carles Marín
+> [arXiv:2608.09619](https://arxiv.org/abs/2608.09619) · [doi:10.48550/arXiv.2608.09619](https://doi.org/10.48550/arXiv.2608.09619) · `math.CO` (cross-list `math.RT`) · CC BY 4.0
 
 The object is the Schur polynomial at a full root-of-unity orbit together with one free reciprocal
 pair,
@@ -25,14 +26,16 @@ general-`t` sequel and is kept separate so that each paper has one artifact.
 
 ## 📦 What is here
 
-This repository carries the **scripts and their archived stdout**, not the paper. Every count the
-paper's verification table quotes can be located in [`outputs/`](outputs) without running anything.
+This repository carries the **scripts and their archived stdout**, plus the Spanish edition of the
+paper. The English paper itself is on arXiv, source and all. Every count the paper's verification
+table quotes can be located in [`outputs/`](outputs) without running anything.
 
 | | |
 |---|---|
 | **Group 1** — the evaluation and its sharpness | plain Python, needs only `mpmath` (plus `numpy`/`matplotlib` for figures) |
 | **Group 2** — the zero locus for every `r` | Sage: exact multivariate Laurent rings and linear systems over `Q` |
 | [`outputs/`](outputs) | full stdout of all **48** runs, 2026-07-30 to 2026-08-07 |
+| [`orbit_pair_es.pdf`](orbit_pair_es.pdf) | **the Spanish edition**, 40 pp, with its source `orbit_pair_es.tex` |
 
 ```bash
 pip install mpmath numpy matplotlib     # group 1
@@ -40,6 +43,21 @@ python theorem_full.py
 
 sage selfcomp_law.sage                  # group 2
 ```
+
+### 🇪🇸 Edición española
+
+`orbit_pair_es.pdf` es el mismo artículo en castellano. arXiv sólo admite una lengua por envío, así
+que la edición española vive aquí. No es un resumen: son las mismas diez secciones, los mismos
+enunciados y los mismos números. `check_parity.py` compara los dos fuentes número a número (todo
+número de dos o más cifras, con multiplicidad), entorno numerado a entorno numerado y etiqueta a
+etiqueta, y da **0 divergencias**; encontró dos defectos reales el 2026-07-30, que es por lo que
+existe. El fuente español está aquí; el inglés se descarga de arXiv (`Other formats → source`):
+
+```bash
+python check_parity.py orbit_pair.tex orbit_pair_es.tex
+```
+
+La edición inglesa es la de referencia: si alguna vez discreparan, manda la de arXiv.
 
 ## ✅ The load-bearing numbers
 
@@ -144,4 +162,16 @@ singular case is the one that has to be scored rather than raised.
 ## 📄 Licence and authorship
 
 Carles Marín, with Claude (Anthropic) as an AI research assistant. Released for verification and
-reuse; if the scripts are useful in your own work, a citation of the preprint is welcome.
+reuse; if the scripts are useful in your own work, a citation of the preprint is welcome:
+
+```bibtex
+@misc{marin2026orbitpair,
+  author = {Carles Mar\'in},
+  title  = {Factorization of {S}chur polynomials twisted by roots of unity and a reciprocal pair},
+  year   = {2026},
+  eprint = {2608.09619},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.CO},
+  doi    = {10.48550/arXiv.2608.09619}
+}
+```
