@@ -5,3 +5,4 @@ _out/
 *.pdf
 *.png
 !orbit_pair_es.pdf
+!orbit_pair_Z_es.pdf

@@ -36,6 +36,7 @@ table quotes can be located in [`outputs/`](outputs) without running anything.
 | **Group 2** — the zero locus for every `r` | Sage: exact multivariate Laurent rings and linear systems over `Q` |
 | [`outputs/`](outputs) | full stdout of all **48** runs, 2026-07-30 to 2026-08-07 |
 | [`orbit_pair_es.pdf`](orbit_pair_es.pdf) | **the Spanish edition**, 40 pp, with its source `orbit_pair_es.tex` |
+| [`orbit_pair_Z_es.pdf`](orbit_pair_Z_es.pdf) | the same Spanish edition with the **long abstract**, 41 pp |
 
 ```bash
 pip install mpmath numpy matplotlib     # group 1
@@ -56,6 +57,11 @@ existe. El fuente español está aquí; el inglés se descarga de arXiv (`Other 
 ```bash
 python check_parity.py orbit_pair.tex orbit_pair_es.tex
 ```
+
+Van dos PDF y **el cuerpo de los dos es el mismo**: salen del mismo `orbit_pair_es.tex`, y lo único
+que los separa es un interruptor de compilación que elige entre el resumen corto —el que cabe en el
+campo de metadatos de arXiv— y el largo, que explica el resultado con más sitio. Si vas a leer sólo
+uno, lee el del resumen largo.
 
 La edición inglesa es la de referencia: si alguna vez discreparan, manda la de arXiv.
 
