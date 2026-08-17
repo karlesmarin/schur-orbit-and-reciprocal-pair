@@ -1,8 +1,8 @@
-# Problem 10.6, the computable half: does Theorem 7.1 (the extra locus) have an analogue for the
+# Problem 10.6, the computable half: does Theorem 5.2 (the extra locus) have an analogue for the
 # universal symplectic and orthogonal characters?
 #
 # THE QUESTION.  [AK25, Thm 5.3] says f_lambda(x, Y, zeta Y, ..., zeta^{t-1} Y) = f_lambda(x) iff
-# lambda is a t-core, for f of type s, sp or o.  Theorem 7.1 of this paper says that at OUR
+# lambda is a t-core, for f of type s, sp or o.  Theorem 5.2 of this paper says that at OUR
 # specialization -- the free part being one reciprocal pair, and equality allowed up to SIGN -- the
 # criterion acquires exactly one extra family, and only for t even.  Problem 10.6 asks whether sp
 # and o behave the same way, and whether the extra family is again indexed by an order-two element.
@@ -19,7 +19,7 @@
 #     RHS = f_lambda  at  p_k = z^k + z^-k                    (the pair alone)
 #
 # and the locus is { lambda : LHS = +- RHS }.  For type s this is exactly the test behind Figure 4,
-# which is the control: it must return the t-cores plus, at even t, the family of Theorem 7.1 and
+# which is the control: it must return the t-cores plus, at even t, the family of Theorem 5.2 and
 # nothing else.
 #
 # TWO EVALUATION POINTS.  An equality of Laurent polynomials is tested at two unrelated rational z,
@@ -127,7 +127,7 @@ for tag, pairs in CONFIGS:
 
 print("")
 print("=" * 92)
-print("CONTROL -- type s must reproduce Theorem 7.1: extras only at even t, and of the stated form")
+print("CONTROL -- type s must reproduce Theorem 5.2: extras only at even t, and of the stated form")
 print("=" * 92)
 for t in TS:
     core_hits, extra_hits = RESULT[("s", 1, t)]

@@ -1,0 +1,17 @@
+================================================================================================
+LA LEY DE PASO, corregida.  g y g' difieren solo en la clase j, valores u > v.
+   B = #{valores de beta estrictamente entre v y u}
+   M = #{valores de P  estrictamente entre v y u}   (P = los congelados, uno por clase)
+   CANDIDATA:  w(g')/w(g) = (-1)^{1 + B + M}
+   SENUELO   :  w(g')/w(g) = (-1)^{p-q}   (la que acabo de refutar; debe seguir fallando)
+================================================================================================
+  t  r     casos    candidata   senuelo
+   4  2     66528        66528     34680
+   6  2     26880        26880     13408
+   3  2     34944        34944     18984
+   2  2     25200        25200     15232
+   4  3     40824        40824     20264
+   2  3     71064        71064     36984
+   5  2     20160        20160     10100
+
+  candidata 285600/285600      senuelo 149652/285600

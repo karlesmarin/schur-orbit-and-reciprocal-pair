@@ -4,7 +4,7 @@ Figure: the (-1)-enumeration of plane partitions in a box, with its product form
 Authors: Carles Marin, Claude (AI assistant).
 
 At t = 2 the weight in the enumerative corollary is (-1)^{m_2(T)}, and for a rectangular shape
-(c^r) the tableaux are plane partitions in an r x (4-r) x c box. Setting z = 1 gives the plain
+(c^a) the tableaux are plane partitions in an a x (4-a) x c box. Setting z = 1 gives the plain
 signed count, which the main theorem evaluates as  eps * d1 d2 d3 / (2 t^2).
 
 Every value below is that closed form, cross-checked against a direct enumeration of the tableaux
@@ -85,8 +85,8 @@ for i in range(RMAX):
                 color=("#ffffff" if shade > 0.55 else INK))
 ax.set_xticks(range(CMAX)); ax.set_xticklabels(range(1, CMAX + 1))
 ax.set_yticks(range(RMAX)); ax.set_yticklabels(range(1, RMAX + 1))
-ax.set_xlabel(r"columns $c$ of the shape $\lambda=(c^{\,r})$", color=INK, labelpad=4)
-ax.set_ylabel(r"rows $r$", color=INK)
+ax.set_xlabel(r"columns $c$ of the shape $\lambda=(c^{\,a})$", color=INK, labelpad=4)
+ax.set_ylabel(r"rows $a$", color=INK)
 ax.tick_params(colors=MUTED, labelsize=8, length=0)
 for s in ax.spines.values():
     s.set_visible(False)

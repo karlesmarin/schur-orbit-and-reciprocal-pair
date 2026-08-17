@@ -1,0 +1,7 @@
+  fig_plane.pdf -- rejilla t=2..10, r=1..5
+     valor              9 celdas
+     criterio_libre    16 celdas
+     criterio_pvw       4 celdas
+     media             16 celdas
+     TOTAL             45 celdas   (rejilla 9 x 5 = 45)
+  DONE

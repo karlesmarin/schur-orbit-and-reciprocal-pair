@@ -39,4 +39,4 @@ for t in range(2, 9):
                           f"is_core={is_core} equal={equal}")
 print(f"\nlambda IS a t-core and our value = s_lambda(z,1/z):        {agree_indep}")
 print(f"lambda NOT a t-core and our value != s_lambda(z,1/z):      {agree_dep}")
-print(f"violations of Ayyer-Kumari Thm 5.3 (either direction):    {viol}")
+print(f"violations of [AK25, Thm 5.3] (either direction):    {viol}")

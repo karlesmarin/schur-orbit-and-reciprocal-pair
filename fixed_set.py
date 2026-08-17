@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """Is the fixed set of Kumari's involution a single tableau whenever sigma != 0?
 
-Her Lemma 2.18 defines a fixed-point-free involution gamma on the NON-coverable tableaux of
-SSYT_{2n}(lambda/mu), so the signed sum reduces to the COVERABLE ones; Lemma 2.16 puts those in
-bijection with domino tableaux, and Lemma 2.14 says the parity of the number of vertical dominoes
-is independent of the tableau -- so all survivors carry the same sign.
+All four numbers below are hers, from [KumT], not this paper's.  [KumT, Lemma 2.18] defines a
+fixed-point-free involution gamma on the NON-coverable tableaux of SSYT_{2n}(lambda/mu), so the
+signed sum reduces to the COVERABLE ones; [KumT, Lemma 2.16] puts those in bijection with domino
+tableaux, and [KumT, Lemma 2.14] says the parity of the number of vertical dominoes is independent
+of the tableau -- so all survivors carry the same sign.
 
 At n = 1 the alphabet is (x, -x) = (1, -1) and the weight is (-1)^{c_2(T)}, which is exactly
 sigma = s_{lambda/nu}(1,-1).  The paper's Section 6 asserts that the surviving set is then a single
@@ -14,7 +15,7 @@ sigma computed independently by Jacobi-Trudi.
 
 A tableau with entries in {1,2} is coverable when it can be tiled by dominoes of the shapes
     [2|2]  (two 2's)   and   [1 over 2]  (a 1 above a 2),
-which are Definition 2.15 at a = 1.
+which are [KumT, Definition 2.15] at a = 1.
 """
 import itertools
 import sys

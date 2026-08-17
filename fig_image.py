@@ -122,8 +122,14 @@ cb.set_label("partitions collapsing onto one point", fontsize=8, color=SECOND, l
 cb.ax.tick_params(labelsize=7, colors=MUTED, length=2)
 cb.outline.set_edgecolor(GRID)
 
-fig.subplots_adjust(left=0.0, right=1.0, top=1.02, bottom=0.17, wspace=0.0)
-out = os.path.join(os.path.dirname(__file__), "fig_image")
+# right=0.985 y no 1.0: pegados al borde, la etiqueta $d_3$ del panel de la derecha quedaba medio
+# subindice fuera y matplotlib se lo comia.  Un eje sin su subindice es otro eje.
+fig.subplots_adjust(left=0.0, right=0.985, top=1.02, bottom=0.17, wspace=0.0)
+# A la carpeta del paper, que es de donde \includegraphics lo toma, y no a anc/ como estaba: el
+# script escribia una copia que el paper nunca miraba, asi que salia con codigo 0 diciendo "wrote"
+# mientras la figura publicada seguia siendo la del 7 de agosto.  Los demas generadores ya suben un
+# nivel; este era el unico que no.
+out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "fig_image")
 fig.savefig(out + ".pdf")
 fig.savefig(out + ".png", dpi=200)
 for t_, (nz_, npt_) in sorted(DRAWN.items()):

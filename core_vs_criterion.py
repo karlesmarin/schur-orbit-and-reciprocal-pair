@@ -1,4 +1,5 @@
-"""Does the t-core decide the vanishing? Written to answer N. Kumari, 2 Aug 2026.
+"""Does the t-core decide the vanishing?  This is the question behind Remark 8.8; the
+acknowledgements say whose it is.
 
 Three questions, all decided by exhaustive enumeration rather than by argument:
 

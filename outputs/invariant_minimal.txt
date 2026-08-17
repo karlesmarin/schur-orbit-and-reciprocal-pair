@@ -1,0 +1,32 @@
+==============================================================================
+MINIMALITY: distinct (multiset, sign) must give distinct values
+==============================================================================
+  d_i <= 12 :    728 invariants,    728 distinct values, collisions 0     [control, graded by the SUM: 660 collisions]
+  d_i <= 30 :   9920 invariants,   9920 distinct values, collisions 0     [control, graded by the SUM: 9744 collisions]
+  d_i <= 60 :  75640 invariants,  75640 distinct values, collisions 0     [control, graded by the SUM: 75284 collisions]
+
+  and over the partitions that realise them:
+  t=2, |lambda| <= 16 :  321 shapes,  95 distinct values, values carrying two invariants 0
+  t=3, |lambda| <= 16 :  399 shapes,  99 distinct values, values carrying two invariants 0
+  t=4, |lambda| <= 16 :  390 shapes,  68 distinct values, values carrying two invariants 0
+  t=5, |lambda| <= 16 :  377 shapes,  60 distinct values, values carrying two invariants 0
+
+==============================================================================
+THE SHIFT LAW (10):  Phi_t(lambda + (1^N)) = (-1)^(t+1) Phi_t(lambda)
+==============================================================================
+   t   triple fixed   eps carries (-1)^(t+1)   value law   [control: sign law without
+                                                            the exponent]
+   2       139/ 139        139/ 139               139/ 139        0/ 139 (must be n at odd t, 0 at even)
+   3       161/ 161        161/ 161               161/ 161      161/ 161 
+   4       151/ 151        151/ 151               151/ 151        0/ 151 
+   5       143/ 143        143/ 143               143/ 143      143/ 143 
+   6       123/ 123        123/ 123               123/ 123        0/ 123 
+   7       109/ 109        109/ 109               109/ 109      109/ 109 
+
+  the shift law over t <= 7 and |lambda| <= 12: 826 shapes, 0 fail
+
+  The triple is translation-invariant; the value is not, for even t.  The control column
+  is the same test with the exponent dropped: it agrees at odd t, where the law is
+  trivial, and disagrees everywhere at even t, which is where the law has content.
+
+TOTAL FAILURES: 0

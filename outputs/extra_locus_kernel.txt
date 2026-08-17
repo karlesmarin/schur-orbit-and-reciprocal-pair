@@ -1,7 +1,7 @@
 ============================================================================
 Problem 10.6: the extra locus against the kernel of the specialization
 ============================================================================
-  free part t    solutions  cores    Thm 7.1   OTHER   
+  free part t    solutions  cores    [thm:extra] OTHER   
   ----------------------------------------------------
   (z,1/z)   2    4          3        1         0       
   (z,1/z)   3    6          6        0         0       
@@ -31,8 +31,8 @@ Problem 10.6: the extra locus against the kernel of the specialization
 ============================================================================
 WHAT THE TABLE SAYS
 ============================================================================
-  (z,1/z)  extra beyond cores and Theorem 7.1: [0, 0, 0, 0, 0, 0, 0]
-  (z,-z)   extra beyond cores and Theorem 7.1: [28, 21, 64, 49, 120, 88, 186]
+  (z,1/z)  extra beyond cores and [thm:extra]: [0, 0, 0, 0, 0, 0, 0]
+  (z,-z)   extra beyond cores and [thm:extra]: [28, 21, 64, 49, 120, 88, 186]
   (z,-z) at t=2: 28 further solutions
   (z,-z) at t=8: 186 further solutions
   the reciprocal pair is the collapsing specialization of smallest kernel.
@@ -40,8 +40,8 @@ WHAT THE TABLE SAYS
 ============================================================================
 CONTROLS
 ============================================================================
-  (z,w) free returns the t-cores and nothing else : yes   (Remark 7.2's control)
-  (z,1/z) returns cores + Theorem 7.1 and nothing else : yes
+  (z,w) free returns the t-cores and nothing else : yes   (Remark 5.3's control)
+  (z,1/z) returns cores + [thm:extra] and nothing else : yes
   and its extras, t = 2..8 : [1, 0, 2, 0, 3, 0, 4]   (t/2 at even t, none at odd)
   (z,-z) does acquire further solutions : yes   (or the comparison is vacuous)
 

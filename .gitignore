@@ -2,7 +2,7 @@ __pycache__/
 *.pyc
 *.sage.py
 _out/
-*.pdf
-*.png
-!orbit_pair_es.pdf
-!orbit_pair_Z_es.pdf
+*.aux
+*.log
+*.out
+*.toc

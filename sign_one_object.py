@@ -1,7 +1,7 @@
 """sign_one_object.py -- the sorting sign of Theorem 3.1 is the sign that makes Section 6 alternate.
 
 Section 2 attaches to a partition the permutation sigma that sorts beta(lambda) by residue class,
-the classes increasing and the values decreasing inside each class.  Proposition 3.6 puts sgn(sigma)
+the classes increasing and the values decreasing inside each class.  Proposition 3.11 puts sgn(sigma)
 inside eps_lambda.  Section 6 separately proves that the terms sigma_m = s_{lambda/(m+k,m)}(1,-1)
 alternate along each run.  This file checks that those are the same object:
 

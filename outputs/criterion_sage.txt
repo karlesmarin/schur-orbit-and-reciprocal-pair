@@ -1,0 +1,45 @@
+checkpoint: 12937 formas ya calculadas
+================================================================================================
+CONTROL EXTERNO EN SAGE -- Jacobi-Trudi + cascada.  Sin Laplace, estratos ni voraz.
+================================================================================================
+  t  r  W   formas  ceros  criterio  FP  FN | K1 r=1 | K2 señuelo FP FN | paso3  seg
+   2  1 12      200      9         9   0   0 |      0 |             15  0 |     9     0
+   3  1 12      356      0         0   0   0 |      0 |             14  0 |     0     0
+   4  1 12      432     24        24   0   0 |      0 |             18 18 |    24     0
+   5  1 11      206      0         0   0   0 |      0 |              8  0 |     0     0
+   6  1 11      160      0         0   0   0 |      0 |             12  0 |     0     0
+   2  2 13     1281     18        18   0   0 |      - |             35  0 |    18     0
+   4  2 14     2864     28        28   0   0 |      - |             34 12 |    28     0
+   6  2 14     1268     25        25   0   0 |      - |             19 16 |    25     0
+   8  2 15      840      0         0   0   0 |      - |             24  0 |     0     0
+   3  2 13     1604      0         0   0   0 |      - |             20  0 |     0     0
+   5  2 13      990      0         0   0   0 |      - |             14  0 |     0     0
+   2  3 13     1716     15        15   0   0 |      - |             35  0 |    15     0
+   4  3 13      694      5         5   0   0 |      - |             21  0 |     5     0
+   6  3 14      326      7         7   0   0 |      - |              7  2 |     7     0
+
+  K3  el cedazo: recalculo exacto sobre formas DESCARTADAS en los pasos 1-2
+      t  r  muestra  ceros hallados (tiene que ser 0)
+       2  1        3      0
+       3  1        3      0
+       4  1        3      0
+       5  1        3      0
+       6  1        3      0
+       2  2        3      0
+       4  2        3      0
+       6  2        3      0
+       8  2        3      0
+       3  2        3      0
+       5  2        3      0
+       2  3        3      0
+       4  3        3      0
+       6  3        3      0
+
+================================================================================================
+  TOTAL: 12937 formas, 131 ceros, 14 configuraciones
+  fallos del criterio: 0
+  K1  r=1 contra el Teorema 3.1 probado: 0 desacuerdos
+  K2  el señuelo (beta entero) falla en 14 de 14 configuraciones
+  K3  el cedazo: 0 falsos descartes
+================================================================================================
+VEREDICTO: CONFIRMA

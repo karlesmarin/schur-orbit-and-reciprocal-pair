@@ -1,5 +1,5 @@
 """
-Figure: the independence locus of Theorem 5.1, computed rather than asserted.
+Figure: the independence locus of Theorem 5.2, computed rather than asserted.
 
 Authors: Carles Marin, Claude (AI assistant).
 

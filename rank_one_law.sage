@@ -1,8 +1,8 @@
 # Authors: Carles Marin + Claude (AI assistant).
-# Does the paper's own Lemma 8.8 answer part of its own open Problem 10.1
+# Does the paper's own Lemma 8.9 answer part of its own open Problem 10.1
 # ("the other classical types")?  That problem reports, as a measurement with no
 # law, that o_lambda vanishes on 83.8% of the l(lambda)>=2 shapes at t=2.
-# At t=2 the alphabet is {1,-1,z,1/z} = our A at r=1, and Lemma 8.8 says
+# At t=2 the alphabet is {1,-1,z,1/z} = our A at r=1, and Lemma 8.9 says
 # o_nu(A) = sp_nu(z), a rank-ONE symplectic character.  So o_nu(A) must vanish
 # exactly when sp_nu dies in rank 1 -- which is a LAW, not a percentage.
 Sym = SymmetricFunctions(QQ)
@@ -56,6 +56,6 @@ print("  l(nu) >= 2 : %d shapes, %d vanish = %.1f%%" % (ge2, ge2z, 100.0*ge2z/ge
 print("")
 print("  >> at rank one the symplectic basis is {sp_(m)}, one row only.  So")
 print("     sp_nu(z) = 0 for l(nu) = 2 and folds for l(nu) > 2; the vanishing of")
-print("     o_nu on this alphabet is therefore governed by a LAW -- Lemma 8.8 plus")
+print("     o_nu on this alphabet is therefore governed by a LAW -- Lemma 8.9 plus")
 print("     the rank-one modification -- not by a percentage.")
 print("DONE")

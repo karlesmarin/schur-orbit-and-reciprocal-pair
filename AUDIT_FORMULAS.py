@@ -144,7 +144,7 @@ if __name__ == "__main__":
                 ce, sg = core_and_sigma(lam, t, t)
                 want = ((-1) ** (t * (t - 1) // 2)) * sg if ce else 0
                 (ok, bad) = (ok + 1, bad) if abs(got - want) < TOL else (ok, bad + 1)
-    total += report("Theorem 2.1  Littlewood, sign included", ok, bad)
+    total += report("[thm:LR]        Littlewood's evaluation, sign included", ok, bad)
 
     # (2) the interval reading: d1 = |A|, d2 = |B|, d3 = 2|centre A - centre B|
     ok = bad = 0
@@ -170,9 +170,9 @@ if __name__ == "__main__":
                 good = (d1 == abs(A[0] - A[1]) and d2 == abs(B[0] - B[1])
                         and d3 == 2 * abs(cA - cB))
                 (ok, bad) = (ok + 1, bad) if good else (ok, bad + 1)
-    total += report("eq. (2)      the interval reading", ok, bad)
+    total += report("[eq:intervals]  the interval reading", ok, bad)
 
-    # Lemma 5.2 (L2): det(x^{N-j}) = (-1)^{C(t,2)} V (z^t-1)(z^{-t}-1)(z-z^{-1})
+    # Lemma 4.2 (L2): det(x^{N-j}) = (-1)^{C(t,2)} V (z^t-1)(z^{-t}-1)(z-z^{-1})
     ok = bad = 0
     for t in range(2, 9):
         N = t + 2
@@ -187,9 +187,9 @@ if __name__ == "__main__":
                 V *= (mu(t)[rp] - mu(t)[r])
         want = ((-1) ** (t * (t - 1) // 2)) * V * (Z ** t - 1) * (Z ** (-t) - 1) * (Z - 1 / Z)
         (ok, bad) = (ok + 1, bad) if abs(det(D) - want) < TOL else (ok, bad + 1)
-    total += report("Lemma 5.2    the Vandermonde denominator", ok, bad)
+    total += report("[lem:L2]        the Vandermonde denominator", ok, bad)
 
-    # Lemma 5.5 (a) and (b)
+    # Lemma 4.5 (a) and (b)
     ok = bad = 0
     for c in range(-4, 5):
         for p in range(0, 5):
@@ -197,14 +197,14 @@ if __name__ == "__main__":
                 lhs = sum(e * n * f(c + e * p + n * q)
                           for e in (1, -1) for n in (1, -1))
                 (ok, bad) = (ok + 1, bad) if abs(lhs - f(c) * f(p) * f(q)) < TOL else (ok, bad + 1)
-    total += report("Lemma 5.5(a) the four-term collapse", ok, bad)
+    total += report("[lem:L5](a)     the four-term collapse", ok, bad)
 
     ok = bad = 0
     for u in range(-4, 5):
         for v in range(-4, 5):
             lhs = f(2 * u) - f(2 * u + 2 * v) + f(2 * v)
             (ok, bad) = (ok + 1, bad) if abs(lhs + f(u) * f(v) * f(u + v)) < TOL else (ok, bad + 1)
-    total += report("Lemma 5.5(b) the size-three collapse", ok, bad)
+    total += report("[lem:L5](b)     the size-three collapse", ok, bad)
 
     # eq. (12): s_lambda(mu_t u B) = sum_nu s_{lambda/nu}(mu_t) s_nu(B)
     ok = bad = 0
@@ -224,7 +224,7 @@ if __name__ == "__main__":
                         continue
                     tot += skew(lam, nu, mu(t), n=N) * schur(nu, B)
                 (ok, bad) = (ok + 1, bad) if abs(got - tot) < TOL else (ok, bad + 1)
-    total += report("eq. (12)     the splitting of the alphabet", ok, bad)
+    total += report("[eq:threestep]  the splitting of the alphabet", ok, bad)
 
     # eq. (16): complementation on the reciprocal alphabet
     ok = bad = 0
@@ -243,7 +243,7 @@ if __name__ == "__main__":
                 lhs = schur(hat, A)
                 rhs = ((-1) ** c) * (-1) * schur(lam, A)
                 (ok, bad) = (ok + 1, bad) if abs(lhs - rhs) < TOL else (ok, bad + 1)
-    total += report("eq. (16)     the complementation identity", ok, bad)
+    total += report("[eq:compl]      the complementation identity", ok, bad)
 
     # eq. (17): d'Ocagne for the Chebyshev-like recurrence
     ok = bad = 0
@@ -257,7 +257,7 @@ if __name__ == "__main__":
         for bp in range(0, 20):
             lhs = S[b_] * S[bp - 1] - S[bp] * S[b_ - 1]
             (ok, bad) = (ok + 1, bad) if abs(lhs + S[b_ - bp]) < TOL else (ok, bad + 1)
-    total += report("eq. (17)     d'Ocagne for this recurrence", ok, bad)
+    total += report("[eq:docagne]    d'Ocagne for this recurrence", ok, bad)
 
     # eq. (23) in Section 10: the scalar caveat  s(1,-1,y,-1/y) = i^{|lam|} s(-i,i,w,1/w)
     ok = bad = 0
@@ -268,7 +268,7 @@ if __name__ == "__main__":
             lhs = schur(lam, [mpc(1), mpc(-1), y, -1 / y])
             rhs = (1j ** sum(lam)) * schur(lam, [mpc(-1j), mpc(1j), w, 1 / w])
             (ok, bad) = (ok + 1, bad) if abs(lhs - rhs) < TOL else (ok, bad + 1)
-    total += report("eq. (23)     the scalar caveat of Conj. 10.3", ok, bad)
+    total += report("[eq:scalar]     the scalar caveat of the last conjecture", ok, bad)
 
     print("")
     print("TOTAL evaluations: %d over %d displayed formulas" % (sum(CHECKED), len(CHECKED)))

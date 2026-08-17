@@ -1,0 +1,8 @@
+  fig_pairing.pdf -- la involucion, con su control
+     t=4 r=2 beta=[12, 11, 10, 9, 3, 2, 1, 0]
+        C=12  clases fijas [0, 2]  tamanos [2, 2]  incremento=C: True
+        16 transversales, 0 fijas, 16 parejas con signo opuesto
+     t=4 r=2 beta=[8, 7, 5, 4, 3, 2, 1, 0]
+        C=8  clases fijas [0]  tamanos [3]  incremento=C: False
+        12 transversales, 2 fijas, 0 parejas con signo opuesto
+  DONE

@@ -1,0 +1,24 @@
+========================================================================================================
+EL ATAQUE:  nuestro criterio pide S C-simetrico + algun incremento = C.
+  eta = #{kappa en E : 2kappa = C mod t}.  La formula externa dice w(sigma P)/w(P) = -1  <=>  eta = 2.
+  Si existe beta con el criterio y eta = 1, o el criterio tiene falsos positivos o la formula falla.
+  Se verifica ademas la formula cerrada (**) contra el w medido.
+========================================================================================================
+  t  r     criterio   eta=2   eta=1   eta=0 |  con eta=1: Phi=0  | formula (**) ok
+   4  2        128     128       0       0 |                0  |      128/128
+   6  2         78      78       0       0 |                0  |       78/78
+   8  2         80      80       0       0 |                0  |       80/80
+  10  2          0       0       0       0 |                0  |        0/0
+  12  2          0       0       0       0 |                0  |        0/0
+   4  3         14      14       0       0 |                0  |       14/14
+   6  3         11      11       0       0 |                0  |       11/11
+   8  3         12      12       0       0 |                0  |       12/12
+   2  2         48      48       0       0 |                0  |       48/48
+   2  3         34      34       0       0 |                0  |       34/34
+   2  4         21      21       0       0 |                0  |       21/21
+   4  4          6       6       0       0 |                0  |        6/6
+   6  4          6       6       0       0 |                0  |        6/6
+
+  eta=2: 438    eta=1: 0    eta=0: 0
+  de las de eta=1 (donde la formula predice +1, o sea NO cancelacion) se anulan: 0
+  formula cerrada (**): 438/438
