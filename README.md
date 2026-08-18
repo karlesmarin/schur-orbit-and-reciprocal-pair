@@ -42,11 +42,22 @@ without running anything, and either edition rebuilds from what is in this direc
 |---|---|
 | **Group 1** — the evaluation and its sharpness | plain Python, needs only `mpmath` (plus `numpy`/`matplotlib` for figures) |
 | **Group 2** — the zero locus for every `r` | Sage: exact multivariate Laurent rings and linear systems over `Q` |
-| [`outputs/`](outputs) | full stdout of all **50** runs, 2026-07-30 to 2026-08-14 |
+| [`outputs/`](outputs) | full stdout of all **56** runs, 2026-07-30 to 2026-08-17 |
 | [`orbit_pair.pdf`](orbit_pair.pdf) | **the paper**, 66 pp — the file arXiv carries as v2 — with its source `orbit_pair.tex` |
 | [`orbit_pair_es.pdf`](orbit_pair_es.pdf) | **the Spanish edition**, 68 pp, with its source `orbit_pair_es.tex` |
 | `orbit_pair_Z.pdf`, `orbit_pair_Z_es.pdf` | the same two with the **long abstract** |
 | `fig_*.pdf` | the figures the two sources include — 19 each; the twentieth is drawn in the source |
+
+**One figure was corrected after v2 was announced, and the paper here is still v2.** In
+`fig_alphabet` the label `z_1^{-1}` of panel (a) was drawn underneath the orbit dot — on that panel
+both letters sit on the unit circle, so the placement rule sent them both inwards, and the
+annotation carried no `zorder` — and the Spanish edition left `alphabet` untranslated inside the
+formula, three times. Both are fixed in the sources here (`fig_intro.py`, `figlang.py`,
+`figs_es.py`), and `test_figs_es_heuristic.py` pins the translation rule that hid the second one in
+twelve cases. Neither touches a statement: the figure is illustrative and its caption formula was
+correct. `orbit_pair.pdf` and `orbit_pair_es.pdf` are the files arXiv carries as v2 and still print
+the old label on page 3, so a rebuild from these sources differs from them in exactly that label.
+The correction travels with the next version that has content.
 
 ```bash
 pip install mpmath numpy matplotlib     # group 1

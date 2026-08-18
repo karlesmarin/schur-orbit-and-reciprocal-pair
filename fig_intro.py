@@ -52,10 +52,27 @@ def panel_alfabeto(ax, t, pares, titulo, nota):
                        zorder=5, marker="s")
             # la etiqueta del inverso se aparta hacia FUERA del origen: pegada al centro chocaba
             # con los puntos congelados +-1
-            dx = 7 if abs(w) > 1 else -8
+            #
+            # 18 de agosto: esa regla fallaba en el panel (a).  Alli |z| = 1, luego las DOS letras
+            # estan SOBRE la circunferencia, `abs(w) > 1` es falso para ambas y las mandaba a las
+            # dos hacia dentro; la de z^{-1} caia encima del punto congelado -i.  Y el annotate no
+            # llevaba zorder --- o sea 3, por DEBAJO del scatter de la orbita, que es 4 ---, asi
+            # que el disco se dibujaba encima del texto: se leia el exponente y un 1 suelto, con la
+            # z tapada.  Estaba asi en la pagina 3 de arXiv:2608.09619v2.
+            #
+            # Sobre la circunferencia la unica direccion libre es la RADIAL hacia fuera, y la
+            # etiqueta va siempre por encima de todo lo dibujado.
+            if abs(abs(w) - 1.0) < 1e-9:
+                dx, dy = 11.0 * w.real, 11.0 * w.imag
+                ha = "left" if w.real >= 0 else "right"
+                va = "bottom" if w.imag >= 0 else "top"
+            else:
+                dx = 7 if abs(w) > 1 else -8
+                dy = 6 if w.imag >= 0 else -11
+                ha = "left" if dx > 0 else "right"
+                va = "center"
             ax.annotate(et, (w.real, w.imag), textcoords="offset points",
-                        xytext=(dx, 6 if w.imag >= 0 else -11),
-                        ha="left" if dx > 0 else "right", fontsize=7.5, color=TINTA)
+                        xytext=(dx, dy), ha=ha, va=va, fontsize=7.5, color=TINTA, zorder=7)
         ax.plot([z.real, (1 / z).real], [z.imag, (1 / z).imag], color=TINTA, lw=0.8,
                 ls=(0, (2, 2)), zorder=3)
     det = 1

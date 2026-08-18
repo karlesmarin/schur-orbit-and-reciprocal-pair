@@ -69,6 +69,20 @@ FIGLANG = {
         "un toro libre de dimensión $r$, dentro de $O(6)^{-}$",
     "the frozen orbit $\\mu_t$": "la órbita congelada $\\mu_t$",
     "a free reciprocal pair $z,\\,z^{-1}$": "un par recíproco libre $z,\\,z^{-1}$",
+    # Esta se colaba en ingles en los TRES paneles de la edicion castellana, y sin aviso: la
+    # cadena entera va entre $...$, y la regla de `_solo_matematica` miraba solo FUERA del modo
+    # matematico, asi que `\mathrm{alphabet}` era invisible.  Corregida la regla el 18 de agosto,
+    # ahora tambien mira dentro de \mathrm{} y \text{}.  Se listan las dos ramas del signo aunque
+    # esta figura solo produzca la de -1, para que un cambio de parametros no la vuelva a colar.
+    "$\\prod(\\mathrm{alphabet})=(-1)^{t-1}=-1$":
+        "$\\prod(\\mathrm{alfabeto})=(-1)^{t-1}=-1$",
+    "$\\prod(\\mathrm{alphabet})=(-1)^{t-1}=+1$":
+        "$\\prod(\\mathrm{alfabeto})=(-1)^{t-1}=+1$",
+    # NOTACION, no idioma: `inv` es el numero de inversiones y se escribe igual en castellano.
+    # Va aqui, con su cadena identica, porque la regla nueva la detecta --- correctamente, es una
+    # palabra en modo matematico --- y sin esta entrada apareceria en cada corrida en la lista de
+    # "sin traducir", que es la lista que hay que mantener vacia para que sirva de algo.
+    "$M_S=(-1)^{\\mathrm{inv}(b_S)}V$": "$M_S=(-1)^{\\mathrm{inv}(b_S)}V$",
 
     # --- fig_beta ---------------------------------------------------------------------------
     "(b) $\\beta_j=\\lambda_j+N-j$, strictly decreasing":

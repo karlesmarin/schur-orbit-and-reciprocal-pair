@@ -41,10 +41,32 @@ SIN_TRADUCIR = set()  # las que no estaban en el diccionario
 from figlang import FIGLANG  # noqa: E402
 
 
+# Texto puesto DENTRO del modo matematico.  `\mathrm{alphabet}` es una palabra inglesa aunque
+# viva entre $...$, y los comandos de LaTeX --- \prod, \lambda, \sum --- no lo son.
+_TEXTO_EN_MATE = re.compile(
+    r"\\(?:math(?:rm|it|sf|tt|bf|cal)|text(?:rm|it|bf|sf|tt|normal)?|operatorname\*?)"
+    r"\s*\{([^{}]*)\}"
+)
+
+
 def _solo_matematica(s):
-    """True si la cadena es matematica pura: nada que traducir dentro."""
-    sin = re.sub(r"\$[^$]*\$", "", s)
-    return not re.search(r"[A-Za-z]{3,}", sin)
+    """True si la cadena es matematica pura: nada que traducir dentro.
+
+    Lo de entre `$...$` es matematica, PERO no todo lo que hay ahi lo es: `\\mathrm{...}`,
+    `\\text{...}` y `\\operatorname{...}` son TEXTO colocado en modo matematico.  La primera
+    version de esta regla borraba el modo matematico entero y miraba solo lo que quedaba fuera,
+    de modo que
+
+        $\\prod(\\mathrm{alphabet})=(-1)^{t-1}=-1$
+
+    no dejaba nada fuera, se declaraba matematica pura, y se dibujo en INGLES en los tres paneles
+    de `fig_alphabet_es.pdf` --- sin traducir y **sin aparecer en la lista de sin traducir**, que
+    es lo que la hizo invisible.  Ahora el contenido de esos comandos se extrae y se juzga como
+    texto.
+    """
+    fuera = re.sub(r"\$[^$]*\$", "", s)
+    dentro = " ".join(_TEXTO_EN_MATE.findall(s))
+    return not re.search(r"[A-Za-z]{3,}", fuera + " " + dentro)
 
 
 YA_TRADUCIDO = set(FIGLANG.values())
