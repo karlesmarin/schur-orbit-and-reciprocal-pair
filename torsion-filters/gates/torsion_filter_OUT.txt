@@ -1,0 +1,42 @@
+========================================================================================================
+C5  EL CASO t=4 A MANO:  su formula  tau_4(k) = (-1)^{k/2} si k par, 0 si impar
+========================================================================================================
+
+    k= 0   tau_4(k) = 1        el dice 1        ok
+    k= 1   tau_4(k) = 0        el dice 0        ok
+    k= 2   tau_4(k) = -1       el dice -1       ok
+    k= 3   tau_4(k) = 0        el dice 0        ok
+    k= 4   tau_4(k) = 1        el dice 1        ok
+    k= 5   tau_4(k) = 0        el dice 0        ok
+    k= 6   tau_4(k) = -1       el dice -1       ok
+    k= 7   tau_4(k) = 0        el dice 0        ok
+    k= 8   tau_4(k) = 1        el dice 1        ok
+    k= 9   tau_4(k) = 0        el dice 0        ok
+    k=10   tau_4(k) = -1       el dice -1       ok
+    k=11   tau_4(k) = 0        el dice 0        ok
+    k=12   tau_4(k) = 1        el dice 1        ok
+
+    C5 PASA   (n = 13)
+
+========================================================================================================
+(T) y (T') MEDIDAS.   n se imprime SIEMPRE.
+========================================================================================================
+
+  t   m |    n | C0 R1==R2 | (T) fallos: cero-falso / nocero-falso | (T') |tau|=1 | signo exacto | SEÑUELO A | SEÑUELO B | azar
+  ----------------------------------------------------------------------------------------------------------------------------------------------------
+   4   1 |   15 |        OK |          0 / 0                         |             OK |     8/8      |         0 |         4 | 4/8
+   6   2 |   66 |        OK |          0 / 0                         |             OK |    16/16     |         8 |        16 | 7/16
+   8   3 |  120 |        OK |          0 / 0                         |             OK |    18/18     |        26 |        21 | 6/18
+  10   4 |  126 |        OK |          0 / 0                         |             OK |    16/16     |        54 |        32 | 7/16
+  12   5 |  126 |        OK |          0 / 0                         |             OK |     8/8      |        48 |        28 | 3/8
+  ----------------------------------------------------------------------------------------------------------------------------------------------------
+  TOTAL  |  453 | C0 fallos 0 | (T) fallos 0 + 0 | (T') fallos 0 | signo 66/66 | señuelo A yerra 136 | señuelo B yerra 101 | azar 27/66
+
+  LECTURA DE LOS SEÑUELOS.  A y B tienen que dar un numero GRANDE de errores.  Si dieran 0,
+  la condicion de (T) no estaria diciendo nada que no dijera una version mas floja, y no
+  habriamos medido su contenido.  El azar tiene que rondar el 50% del signo.
+
+  n por configuracion: t=4: 15 pesos (8 no nulos), t=6: 66 pesos (16 no nulos), t=8: 120 pesos (18 no nulos), t=10: 126 pesos (16 no nulos), t=12: 126 pesos (8 no nulos)
+
+========================================================================================================
+DONE

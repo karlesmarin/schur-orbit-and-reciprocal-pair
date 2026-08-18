@@ -1,0 +1,175 @@
+[
+ {
+  "t": 4,
+  "r": 2,
+  "lambda": [
+   3,
+   3,
+   2
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   3,
+   0
+  ],
+  "n_cajas": 3,
+  "cajas_en_el_top": 0,
+  "A_lambda": 1,
+  "A_rho": []
+ },
+ {
+  "t": 4,
+  "r": 2,
+  "lambda": [
+   5,
+   5,
+   5,
+   1
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   5,
+   2
+  ],
+  "n_cajas": 3,
+  "cajas_en_el_top": 0,
+  "A_lambda": -1,
+  "A_rho": []
+ },
+ {
+  "t": 4,
+  "r": 2,
+  "lambda": [
+   2,
+   1
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   3,
+   1
+  ],
+  "n_cajas": 3,
+  "cajas_en_el_top": 1,
+  "A_lambda": 1,
+  "A_rho": [
+   1
+  ]
+ },
+ {
+  "t": 4,
+  "r": 2,
+  "lambda": [
+   4,
+   2,
+   1
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   5,
+   1
+  ],
+  "n_cajas": 4,
+  "cajas_en_el_top": 1,
+  "A_lambda": 1,
+  "A_rho": [
+   1
+  ]
+ },
+ {
+  "t": 3,
+  "r": 2,
+  "lambda": [
+   3,
+   2,
+   1
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   4,
+   1
+  ],
+  "n_cajas": 4,
+  "cajas_en_el_top": 1,
+  "A_lambda": 1,
+  "A_rho": [
+   1
+  ]
+ },
+ {
+  "t": 3,
+  "r": 2,
+  "lambda": [
+   2,
+   2
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   3,
+   2
+  ],
+  "n_cajas": 2,
+  "cajas_en_el_top": 1,
+  "A_lambda": 1,
+  "A_rho": [
+   1
+  ]
+ },
+ {
+  "t": 3,
+  "r": 2,
+  "lambda": [
+   4,
+   1
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   5,
+   1
+  ],
+  "n_cajas": 3,
+  "cajas_en_el_top": 1,
+  "A_lambda": 1,
+  "A_rho": [
+   1
+  ]
+ },
+ {
+  "t": 6,
+  "r": 2,
+  "lambda": [
+   3,
+   2
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   4,
+   2
+  ],
+  "n_cajas": 3,
+  "cajas_en_el_top": 1,
+  "A_lambda": 1,
+  "A_rho": [
+   1
+  ]
+ },
+ {
+  "t": 6,
+  "r": 2,
+  "lambda": [
+   2,
+   1,
+   1
+  ],
+  "pieri_ok": true,
+  "top_producto": [
+   3,
+   0
+  ],
+  "n_cajas": 3,
+  "cajas_en_el_top": 1,
+  "A_lambda": 1,
+  "A_rho": [
+   1
+  ]
+ }
+]

@@ -1,0 +1,95 @@
+[
+ {
+  "t": 3,
+  "tipo": "B",
+  "rango": 1,
+  "h": 2,
+  "d_adjunto": 3,
+  "principal_base_estandar": true,
+  "conjugado_a_C_m": [
+   3
+  ]
+ },
+ {
+  "t": 4,
+  "tipo": "C",
+  "rango": 1,
+  "h": 2,
+  "d_adjunto": 2,
+  "principal_base_estandar": true,
+  "conjugado_a_C_m": [
+   2
+  ]
+ },
+ {
+  "t": 5,
+  "tipo": "B",
+  "rango": 2,
+  "h": 4,
+  "d_adjunto": 5,
+  "principal_base_estandar": false,
+  "conjugado_a_C_m": [
+   5
+  ]
+ },
+ {
+  "t": 6,
+  "tipo": "C",
+  "rango": 2,
+  "h": 4,
+  "d_adjunto": 6,
+  "principal_base_estandar": false,
+  "conjugado_a_C_m": []
+ },
+ {
+  "t": 7,
+  "tipo": "B",
+  "rango": 3,
+  "h": 6,
+  "d_adjunto": 7,
+  "principal_base_estandar": false,
+  "conjugado_a_C_m": [
+   7
+  ]
+ },
+ {
+  "t": 8,
+  "tipo": "C",
+  "rango": 3,
+  "h": 6,
+  "d_adjunto": 8,
+  "principal_base_estandar": false,
+  "conjugado_a_C_m": []
+ },
+ {
+  "t": 9,
+  "tipo": "B",
+  "rango": 4,
+  "h": 8,
+  "d_adjunto": 9,
+  "principal_base_estandar": false,
+  "conjugado_a_C_m": [
+   9
+  ]
+ },
+ {
+  "t": 10,
+  "tipo": "C",
+  "rango": 4,
+  "h": 8,
+  "d_adjunto": 10,
+  "principal_base_estandar": false,
+  "conjugado_a_C_m": []
+ },
+ {
+  "t": 11,
+  "tipo": "B",
+  "rango": 5,
+  "h": 10,
+  "d_adjunto": 11,
+  "principal_base_estandar": false,
+  "conjugado_a_C_m": [
+   11
+  ]
+ }
+]

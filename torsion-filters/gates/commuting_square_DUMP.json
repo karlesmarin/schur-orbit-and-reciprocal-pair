@@ -1,0 +1,124 @@
+[
+ {
+  "beta": [
+   10,
+   9,
+   7,
+   4,
+   3,
+   2,
+   1,
+   0
+  ],
+  "lambda": [
+   3,
+   3,
+   2
+  ],
+  "n_eps": 4,
+  "eps_pm1": true,
+  "C0_izq": true,
+  "C0_der": true,
+  "igual": true,
+  "senuelo_discrepa": true
+ },
+ {
+  "beta": [
+   12,
+   11,
+   10,
+   5,
+   3,
+   2,
+   1,
+   0
+  ],
+  "lambda": [
+   5,
+   5,
+   5,
+   1
+  ],
+  "n_eps": 12,
+  "eps_pm1": true,
+  "C0_izq": true,
+  "C0_der": true,
+  "igual": true,
+  "senuelo_discrepa": true
+ },
+ {
+  "beta": [
+   12,
+   11,
+   10,
+   9,
+   7,
+   2,
+   1,
+   0
+  ],
+  "lambda": [
+   5,
+   5,
+   5,
+   5,
+   4
+  ],
+  "n_eps": 12,
+  "eps_pm1": true,
+  "C0_izq": true,
+  "C0_der": true,
+  "igual": true,
+  "senuelo_discrepa": true
+ },
+ {
+  "beta": [
+   13,
+   9,
+   8,
+   7,
+   5,
+   4,
+   2,
+   0
+  ],
+  "lambda": [
+   6,
+   3,
+   3,
+   3,
+   2,
+   2,
+   1
+  ],
+  "n_eps": 1,
+  "eps_pm1": true,
+  "C0_izq": true,
+  "C0_der": true,
+  "igual": true,
+  "senuelo_discrepa": true
+ },
+ {
+  "beta": [
+   14,
+   13,
+   11,
+   4,
+   3,
+   2,
+   1,
+   0
+  ],
+  "lambda": [
+   7,
+   7,
+   6
+  ],
+  "n_eps": 18,
+  "eps_pm1": true,
+  "C0_izq": true,
+  "C0_der": true,
+  "igual": true,
+  "senuelo_discrepa": true
+ }
+]

@@ -1,0 +1,151 @@
+{
+ "filas": [
+  {
+   "rama": "C",
+   "t": 4,
+   "m": 1,
+   "pesos": 25,
+   "soporte": 13,
+   "F1": 7,
+   "C1": 6,
+   "C2": 7,
+   "impares": 0
+  },
+  {
+   "rama": "C",
+   "t": 6,
+   "m": 2,
+   "pesos": 153,
+   "soporte": 36,
+   "F1": 18,
+   "C1": 18,
+   "C2": 18,
+   "impares": 0
+  },
+  {
+   "rama": "C",
+   "t": 8,
+   "m": 3,
+   "pesos": 455,
+   "soporte": 64,
+   "F1": 32,
+   "C1": 32,
+   "C2": 32,
+   "impares": 0
+  },
+  {
+   "rama": "C",
+   "t": 10,
+   "m": 4,
+   "pesos": 1001,
+   "soporte": 81,
+   "F1": 41,
+   "C1": 40,
+   "C2": 41,
+   "impares": 0
+  },
+  {
+   "rama": "C",
+   "t": 12,
+   "m": 5,
+   "pesos": 1287,
+   "soporte": 48,
+   "F1": 24,
+   "C1": 24,
+   "C2": 24,
+   "impares": 0
+  },
+  {
+   "rama": "B",
+   "t": 3,
+   "m": 1,
+   "pesos": 25,
+   "soporte": 17,
+   "F2": 9,
+   "neg": 8
+  },
+  {
+   "rama": "B",
+   "t": 5,
+   "m": 2,
+   "pesos": 153,
+   "soporte": 49,
+   "F2": 25,
+   "neg": 24
+  },
+  {
+   "rama": "B",
+   "t": 7,
+   "m": 3,
+   "pesos": 455,
+   "soporte": 80,
+   "F2": 40,
+   "neg": 40
+  },
+  {
+   "rama": "B",
+   "t": 9,
+   "m": 4,
+   "pesos": 1001,
+   "soporte": 81,
+   "F2": 41,
+   "neg": 40
+  },
+  {
+   "rama": "B",
+   "t": 11,
+   "m": 5,
+   "pesos": 1287,
+   "soporte": 72,
+   "F2": 36,
+   "neg": 36
+  }
+ ],
+ "F4": [
+  {
+   "t": 4,
+   "sop": 13,
+   "pares": 13,
+   "paso": 13,
+   "senuelo_t": 3,
+   "sop_b": 17,
+   "pares_b": 9
+  },
+  {
+   "t": 6,
+   "sop": 36,
+   "pares": 36,
+   "paso": 36,
+   "senuelo_t": 5,
+   "sop_b": 49,
+   "pares_b": 25
+  },
+  {
+   "t": 8,
+   "sop": 64,
+   "pares": 64,
+   "paso": 64,
+   "senuelo_t": 7,
+   "sop_b": 80,
+   "pares_b": 40
+  },
+  {
+   "t": 10,
+   "sop": 81,
+   "pares": 81,
+   "paso": 81,
+   "senuelo_t": 9,
+   "sop_b": 81,
+   "pares_b": 41
+  },
+  {
+   "t": 12,
+   "sop": 48,
+   "pares": 48,
+   "paso": 48,
+   "senuelo_t": 11,
+   "sop_b": 72,
+   "pares_b": 40
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+========================================================================================
+Searching the candidate family against Sage's o and sp
+========================================================================================
+kind   s    a    half 1st col disagreements
+----------------------------------------------------------------------------------------
+sp     1    2    True         0            <== MATCHES on 46 shapes
+o      -1   0    False        0            <== MATCHES on 46 shapes
+
+winners:  sp -> [(1, 2, True)]     o -> [(-1, 0, False)]
+
+========================================================================================
+INDEPENDENT CHECK of the winners: our Lemma 8.8, through the determinants only
+        o_nu(1,-1,z_1,1/z_1,...) = sp_nu(z_1,1/z_1,...)
+========================================================================================
+    135 partitions, 0 disagreements
+    the determinants reproduce Lemma 8.8 on their own.  Usable.
+
+========================================================================================
+EXAMPLE 4.9 of arXiv:2501.00275   (t=5, n=2, |mu|=44, |lambda|=55, l(lambda)=11)
+========================================================================================
+    sp_mu (X, zX, ..., z^4 X)          nonzero
+    o_lam (X, zX, ..., z^4 X, 1)       ZERO     <- AK25 report ZERO
+    o_lam (X, zX, ..., z^4 X, 1, -1)   ZERO     <- the other component
+
+    >>> Example 4.9 REPRODUCED.  The model of their Section 4.3 is right.
+    >>> and the other component is ALSO zero -- component is NOT the answer

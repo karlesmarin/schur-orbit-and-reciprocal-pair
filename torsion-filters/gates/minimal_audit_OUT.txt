@@ -1,0 +1,20 @@
+  t  |lam|<=   formas   ceros   comprobadas   FALLOS
+   2     12      155      16           155        0
+   3     12      197      36           197        0
+   4     11      169      58           169        0
+   5     10      132      51           132        0
+   6      9       96      43            96        0
+
+TOTAL FALLOS: 0
+
+CONTROL (tiene que fallar): mismo test con eps forzado a +1 siempre
+  el control falla en 35 de 133 formas no nulas (si fuera 0, el test no mide el signo)
+  t  |lam|<=  no nulas  datos distintos  |  mismo dato/valor distinto  |  mismo valor/dato distinto
+   2     14       212               71  |                          0 |                          0
+   3     13       205               63  |                          0 |                          0
+   4     12       151               39  |                          0 |                          0
+   5     11       108               29  |                          0 |                          0
+
+TOTAL: mismo dato con valor distinto = 0 ;  mismo valor con dato distinto = 0
+
+CONTROL: dejando el signo FUERA del dato hay 104 colisiones (si fuera 0, el signo sobraria)

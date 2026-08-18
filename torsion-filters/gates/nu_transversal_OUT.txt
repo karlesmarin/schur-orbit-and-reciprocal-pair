@@ -1,0 +1,58 @@
+================================================================================================================
+EL NUMERADOR GKRS COMO RECUENTO DE TRANSVERSALES
+================================================================================================================
+
+  t=3 r=2 (m'=1 R'=3)  84 pesos
+     G1  |supp nu| == 2 prod n_j        :  84 de  84
+     G2  supp nu == transversales x +-  :  84 de  84  (punto a punto)
+     G3  y los VALORES tambien          :  84 de  84
+     G4  nu vacio <=> algun n_j = 0     :  84 de  84
+     D1  senuelo: clases mod t+2        :  20 de  84  (debe ser bajo)
+     D2  senuelo: sin el factor 2       :   1 de  84  (debe ser bajo)
+     C2  reparto de los n_j             : {0: 1, 1: 18, 2: 45, 3: 20}
+
+  t=5 r=2 (m'=2 R'=4)  70 pesos
+     G1  |supp nu| == 2 prod n_j        :  70 de  70
+     G2  supp nu == transversales x +-  :  70 de  70  (punto a punto)
+     G3  y los VALORES tambien          :  70 de  70
+     G4  nu vacio <=> algun n_j = 0     :  70 de  70
+     D1  senuelo: clases mod t+2        :  16 de  70  (debe ser bajo)
+     D2  senuelo: sin el factor 2       :  10 de  70  (debe ser bajo)
+     C2  reparto de los n_j             : {0: 10, 1: 60, 2: 60, 3: 10}
+
+  t=7 r=2 (m'=3 R'=5)  56 pesos
+     G1  |supp nu| == 2 prod n_j        :  56 de  56
+     G2  supp nu == transversales x +-  :  56 de  56  (punto a punto)
+     G3  y los VALORES tambien          :  56 de  56
+     G4  nu vacio <=> algun n_j = 0     :  56 de  56
+     D1  senuelo: clases mod t+2        :  11 de  56  (debe ser bajo)
+     D2  senuelo: sin el factor 2       :  13 de  56  (debe ser bajo)
+     C2  reparto de los n_j             : {0: 13, 1: 75, 2: 70, 3: 10}
+
+  t=3 r=3 (m'=1 R'=4)  70 pesos
+     G1  |supp nu| == 2 prod n_j        :  70 de  70
+     G2  supp nu == transversales x +-  :  70 de  70  (punto a punto)
+     G3  y los VALORES tambien          :  70 de  70
+     G4  nu vacio <=> algun n_j = 0     :  70 de  70
+     D1  senuelo: clases mod t+2        :  19 de  70  (debe ser bajo)
+     D2  senuelo: sin el factor 2       :   0 de  70  (debe ser bajo)
+     C2  reparto de los n_j             : {1: 5, 2: 30, 3: 30, 4: 5}
+
+  t=5 r=3 (m'=2 R'=5)  21 pesos
+     G1  |supp nu| == 2 prod n_j        :  21 de  21
+     G2  supp nu == transversales x +-  :  21 de  21  (punto a punto)
+     G3  y los VALORES tambien          :  21 de  21
+     G4  nu vacio <=> algun n_j = 0     :  21 de  21
+     D1  senuelo: clases mod t+2        :   2 de  21  (debe ser bajo)
+     D2  senuelo: sin el factor 2       :   0 de  21  (debe ser bajo)
+     C2  reparto de los n_j             : {1: 6, 2: 24, 3: 12}
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si G1-G3 salen limpias, el numerador de (L1) queda SIN representaciones: es un recuento
+     con signo de transversales de una particion de R' residuos en m'+1 clases.
+   * y G4 da un criterio de anulacion que no necesita calcular nada: basta una clase vacia.
+   * si G2 sale y G3 no, la lectura acierta el SOPORTE y falla el signo -- que es justo la
+     distincion que nos costo la vuelta 28.
+================================================================================================================
+DONE

@@ -1,0 +1,32 @@
+========================================================================================================
+c(X) COMO DETERMINANTE:  .es (L1) un enunciado de unimodularidad?
+========================================================================================================
+
+  t=3 r=2 :  det(M) reproduce c en 16531 de 16531   | signos globales vistos: {1: 463}
+  t=5 r=2 :  det(M) reproduce c en 10412 de 10412   | signos globales vistos: {-1: 149}
+  t=7 r=2 :  det(M) reproduce c en  7427 de  7427   | signos globales vistos: {1: 74}
+  t=3 r=3 :  det(M) reproduce c en 53282 de 53282   | signos globales vistos: {1: 330}
+
+--------------------------------------------------------------------------------------------------------
+  D0  FATAL  det(M) == c(X) salvo signo global : 87652 de 87652
+  D1  signos globales por (t,r) : {'(3, 2, 1)': 463, '(3, 3, 1)': 330, '(5, 2, -1)': 149, '(7, 2, 1)': 74}
+      contra eps_t (cor:oddsign), calculado y no leido a ojo:
+        t=3 r=2 : signo global +1, eps_t = +1  -> coincide
+        t=3 r=3 : signo global +1, eps_t = +1  -> coincide
+        t=5 r=2 : signo global -1, eps_t = -1  -> coincide
+        t=7 r=2 : signo global +1, eps_t = +1  -> coincide
+      el signo global ES eps_t : SI
+  C4  M totalmente unimodular:  con c != 0 : 1000 de 1000   |   con c == 0 : 1000 de 1000
+      (tope declarado: 1000 matrices por poblacion, no es exhaustivo)
+  D2  reparto de |det(M)|       : {0: 86636, 1: 1016}
+  D3  entradas de M             : {-1: 102126, 0: 1039081, 1: 212351}
+
+  S1  SENUELO progresion par    : 0 de 1424
+  S2  SENUELO sin signo plegado : 1016 de 1072
+
+  LECTURA: si D0 y D1 salen, (L1) es 'esta matriz 0/+-1 tiene determinante en {0,+-1}', o sea
+  unimodularidad, y eso tiene literatura entera detras.  Si D2 ensena un 2, (L1) es FALSA y
+  tengo un contraejemplo, que seria aun mas informativo.
+
+========================================================================================================
+DONE

@@ -1,0 +1,50 @@
+A) exhaustivo: 15241 formas validas
+B) disperso (P7): 60000 formas validas mas
+
+P6 no vacuidad: caso degenerado k* = k'* : 21884 ;  formas con |G| = 2 : 3452
+
+P1  0 <= delta < g_int en los dos movimientos : 0 fallos de 157386
+P2  los DOS movimientos dan delta = 0 (el agujero) : 0
+P3  g_ext <= min(delta positivos) : 0 fallos de 75241
+P4  g_ext < g_int (LA CONCLUSION) : 0 fallos de 75241
+P5  SENUELO 'delta < g_int/2' : 157386 cumplen, 0 NO (tiene que haber de los dos)
+
+holgura de la cota  g_ext - min(delta positivos)  (0 = la cota es exacta):
+      -46 : 28
+      -44 : 24
+      -42 : 90
+      -40 : 13
+      -38 : 9
+      -36 : 17
+      -34 : 8
+      -32 : 10
+      -30 : 71
+      -28 : 223
+
+================================================================================
+CORRECCION 2026-08-12 -- P5 NO ES UN CONTROL, Y ESCONDIA UN TEOREMA MAS FUERTE.
+
+P5 se puso como SENUELO ("delta < g_int/2, que solo vale en el caso degenerado") esperando que
+fallara en el caso generico.  Salio 157386 de 157386 y 0 en la otra columna: un guardian que no
+puede decir que no.  Ver [[a-control-that-cannot-fail]] y [[a-decoy-that-ties-means-untested]].
+
+Al mirar POR QUE no falla, resulta que la desigualdad fuerte es un teorema en los CUATRO casos, y
+en cada uno es literalmente la hipotesis de su propio caso:
+
+    subida,  g_{k*}  > u_r        delta = u_{r-1} - g_{k*}            < u_{r-1} - u_r
+    subida,  g_{k*}  < u_r        delta = u_{r-1} + g_{k*} - 2 u_r    < u_{r-1} - u_r
+    bajada,  g_{k'*} < u_{r-1}    delta = g_{k'*} - u_r               < u_{r-1} - u_r
+    bajada,  g_{k'*} > u_{r-1}    delta = 2 u_{r-1} - g_{k'*} - u_r   < u_{r-1} - u_r
+
+    TEOREMA.   g_ext  <  u_{r-1} - u_r  =  g_int / 2.
+
+O sea el estrato Dmax - g_ext esta limpio con FACTOR 2 de margen.  Mi enunciado original
+("delta < g_int, y la mitad solo en el caso degenerado") era correcto pero flojo.
+
+LO QUE ESTE GUION NO PRUEBA.  Que alguno de los dos movimientos de delta > 0.  P2 lo mide (0 de
+75241, incluidas 60000 formas de clases dispersas) pero NO esta demostrado.  Es el unico eslabon
+medido que queda en la desigualdad, y es finito: "u_{r-1} y u_r no pueden ser AMBOS intercambiables
+sin coste".
+
+HOLGURA.  g_ext - min(delta positivos) es NEGATIVA casi siempre (hasta -46): la segunda transversal
+real esta mucho mas cerca que la cota.  La cota es floja y basta -- pero no confundirla con el valor.

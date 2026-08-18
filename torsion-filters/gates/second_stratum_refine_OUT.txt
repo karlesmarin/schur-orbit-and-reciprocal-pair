@@ -1,0 +1,26 @@
+FORMAS: 96796
+
+R1  salto de UNA clase.  prediccion g_ext = 0 (mod t)
+      fallos: 0 de 173928
+      SENUELO g_ext/2 = 0 (mod t/2) sobre los que pasan: 0 violaciones
+
+R2  contingencia   (sale de la pareja empatada)  x  (prediccion g_ext/2 != 0 mod t/2)
+      sale=SI  pred=SI : 3994      <- acuerdo
+      sale=NO  pred=NO : 0      <- acuerdo
+      sale=SI  pred=NO : 0      <- DESACUERDO
+      sale=NO  pred=SI : 0      <- DESACUERDO
+
+R3  rama de TRASLACION: union de los dos maximizadores con 2r+2 elementos
+      candidatos examinados : 10839
+      son dos progresiones gemelas : 257
+      y ademas T_B = T_A + m de verdad : 77
+          t=4 r=2 beta=[8, 7, 6, 5, 3, 2, 1, 0]  m=1
+          t=4 r=2 beta=[12, 11, 10, 5, 3, 2, 1, 0]  m=1
+          t=4 r=2 beta=[12, 11, 10, 9, 3, 2, 1, 0]  m=1
+          t=4 r=2 beta=[12, 11, 10, 7, 5, 2, 1, 0]  m=1
+          t=4 r=2 beta=[12, 11, 10, 9, 7, 2, 1, 0]  m=1
+          t=4 r=2 beta=[9, 8, 7, 6, 4, 3, 2, 1]  m=1
+          t=4 r=2 beta=[13, 12, 11, 6, 4, 3, 2, 1]  m=1
+          t=4 r=2 beta=[13, 12, 11, 10, 4, 3, 2, 1]  m=1
+          t=4 r=2 beta=[13, 12, 11, 8, 6, 3, 2, 1]  m=1
+          t=4 r=2 beta=[13, 12, 11, 10, 8, 3, 2, 1]  m=1

@@ -1,0 +1,42 @@
+========================================================================================================
+A1  exhaustive collision search: does P(T) = +- P(T') force T' into the orbit of T?
+========================================================================================================
+
+     r   2r   M   sets tested   distinct P   groups   groups that are ONE orbit   BAD groups
+  ----------------------------------------------------------------------------------------------------
+     2    4  15           455          252      252                         252            0
+     3    6  12           792          416      416                         416            0
+     4    8  10           120           65       65                          65            0
+
+  A2 non-vacuity: groups whose single orbit has TWO members (T not self-reflective) and were
+     therefore a real collision that the test had to absorb: 634.  Must be nonzero.
+
+  NO bad group in the whole search: P separates 2r-sets exactly up to translation and
+  reflection.  Then P(T_A) = +-P(T_B) forces T_B = T_A + m or T_B = c - T_A.
+
+========================================================================================================
+A3/A4/A5  the real shapes with |G| = 2
+========================================================================================================
+
+     t   r  |G|=2 | A4 bad | top=0 | T_B = V-T_A | K = V-K | translation T_B = T_A+m | A5 sign bad
+  ----------------------------------------------------------------------------------------------------
+     4   1    141 |      0 |   141 |         141 |     141 |                     141 |           0
+     4   2    359 |      0 |    44 |          44 |      44 |                       8 |           0
+     4   3    162 |      0 |     8 |           8 |       8 |                       0 |           0
+     6   2     68 |      0 |    10 |          10 |      10 |                       0 |           0
+     6   3     36 |      0 |     3 |           3 |       3 |                       1 |           0
+     8   2     14 |      0 |     3 |           3 |       3 |                       1 |           0
+    10   2      7 |      0 |     0 |           0 |       0 |                       0 |           0
+
+  totals over 787 shapes with |G| = 2:
+     A4 (a1+b1 = a2+b2 = V) violations: 0  -- must be 0, it is forced by the tie.
+     [Phi]_top = 0 on 209, T_B = V - T_A on 209, K = V - K on 209, a translation on 151.
+     shapes where [Phi]_top = 0 and T_B = V - T_A DISAGREE: 0
+     A5: reflection holds but the signs are NOT opposite: 0
+
+  READING.  On every shape with two maximisers, [Phi]_top = 0 is EXACTLY T_B = V - T_A,
+  which by A4 is exactly K = V - K, and the sign is then automatically opposite.
+  With lemma_V_eq_C (reflection => V = C) the chain closes to condition (ii) as soon as
+  A1 above holds, plus ruling out the translation branch.
+
+DONE

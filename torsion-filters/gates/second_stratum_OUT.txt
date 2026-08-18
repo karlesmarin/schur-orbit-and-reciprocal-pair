@@ -1,0 +1,68 @@
+  cfg t=4 r=2 M=15 : 10896 formas
+  cfg t=4 r=3 M=15 : 7744 formas
+  cfg t=6 r=2 M=15 : 5022 formas
+  cfg t=6 r=3 M=17 : 15849 formas
+  cfg t=8 r=2 M=17 : 8236 formas
+  cfg t=8 r=3 M=19 : 24762 formas
+
+FORMAS TOTALES (ocupacion (O) y exceso no vacio): 72509
+C3 no vacuidad -- |G| = 2 Y e > 2 (el caso DURO, g_com no vacio): 7722
+
+C4  clases en que difiere el segundo estrato de un maximizador (prediccion: 2)
+      1 clases : 65172
+      2 clases : 75234
+
+H10 g_ext = 2*(k_out - k_in) mod t : 0 fallos de 75234
+C1  SENUELO  g_ext = (k_out - k_in) mod t : 75234 fallos de 75234
+C2  SENUELO  g_ext = 2*(k_out + k_in) mod t : 33034 fallos de 75234
+
+H11 g_ext < g_int (segundo estrato LIMPIO) : 0 fallos de 72509
+H12 el intercambio sale de la pareja empatada : 10012 si, 758 no
+
+profundidad del segundo estrato (Dmax - D2):
+      2 : 37576
+      4 : 24016
+      6 : 8266
+      8 : 2651
+
+C5 POBLACION OBJETIVO -- [Phi]_top = 0 y (i) FALSA : n = 172
+      de esas, segundo estrato limpio (g_ext < g_int) : 172
+      de esas, el intercambio toca g_com              : 160
+      profundidad en la poblacion objetivo:
+          2 : 152
+          4 : 20
+      primeras 8:
+          t=4 r=2 beta=[10, 9, 7, 4, 3, 2, 1, 0] g_ext=2 g_int=12 e=4 |G2|=1 toca_gcom=True
+          t=4 r=2 beta=[14, 13, 11, 4, 3, 2, 1, 0] g_ext=2 g_int=20 e=4 |G2|=1 toca_gcom=True
+          t=4 r=2 beta=[12, 11, 10, 5, 3, 2, 1, 0] g_ext=2 g_int=18 e=4 |G2|=1 toca_gcom=True
+          t=4 r=2 beta=[14, 13, 11, 8, 3, 2, 1, 0] g_ext=2 g_int=20 e=4 |G2|=1 toca_gcom=True
+          t=4 r=2 beta=[12, 11, 10, 9, 7, 2, 1, 0] g_ext=2 g_int=18 e=4 |G2|=1 toca_gcom=True
+          t=4 r=2 beta=[14, 13, 11, 6, 4, 3, 1, 0] g_ext=4 g_int=20 e=4 |G2|=2 toca_gcom=False
+          t=4 r=2 beta=[10, 9, 8, 7, 6, 3, 1, 0] g_ext=2 g_int=12 e=4 |G2|=1 toca_gcom=True
+          t=4 r=2 beta=[14, 13, 12, 11, 6, 3, 1, 0] g_ext=2 g_int=20 e=4 |G2|=1 toca_gcom=True
+
+================================================================================
+CORRECCION 2026-08-12 -- DEFECTO EN ESTE MISMO GUION, cazado al re-medir.
+
+second_stratum.py empareja cada termino del segundo estrato con el PRIMER maximizador que da una
+diferencia de 2 clases; second_stratum_refine.py usa el de diferencia MINIMA.  Los dos convenios
+NO dan lo mismo, y el bueno es el de minima.  Con el convenio bueno, sobre la MISMA poblacion:
+
+  POBLACION OBJETIVO ([Phi]_top = 0 y (i) FALSA) : 172
+    segundo estrato limpio (g_ext < g_int)            : 172 de 172
+    algun salto SALE de la pareja empatada (g_com)    : 172 de 172     <-- era 160, MAL
+    profundidad          : {2: 152, 4: 20}
+    clases que mueve     : {1: 48, 2: 236}
+    contingencia (sale de la pareja, prediccion g_ext/2 != 0 mod t/2):
+        sale=False pred=False :  24
+        sale=True  pred=False :  24
+        sale=True  pred=True  : 236
+        sale=False pred=True  :   0
+
+LECTURA.  pred=True  =>  sale=True, sin excepciones (236 de 236).  El reciproco es FALSO: 24 de las
+48 con pred=False salen igual.  O sea la congruencia da una condicion SUFICIENTE para tocar g_com,
+NO una caracterizacion.  H12 en su forma fina, tal como la escribi, esta REFUTADA por su mitad.
+
+Y el "senuelo" de R1 (g_ext/2 = 0 mod t/2 sobre los que cumplen g_ext = 0 mod t) es una CONSECUENCIA
+logica de lo que testa, asi que no puede fallar: no es un control, no cuenta.  Ver
+[[a-control-that-cannot-fail]].

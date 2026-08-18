@@ -1,0 +1,47 @@
+   hecho t=4 r=2 M=15 (acumulado 10896 formas)
+   hecho t=4 r=3 M=15 (acumulado 18640 formas)
+   hecho t=6 r=2 M=16 (acumulado 30520 formas)
+   hecho t=6 r=3 M=17 (acumulado 46369 formas)
+   hecho t=8 r=2 M=17 (acumulado 54605 formas)
+   hecho t=6 r=4 M=18 (acumulado 65618 formas)
+
+K5 estratos con UN SOLO termino (dominancia trivial, excluidos) : 119540
+
+K0 contingencia  (Delta != 0)  x  TODOS EL MISMO SIGNO:
+      Delta!=0=False mismosigno=False : 2945
+      Delta!=0=True  mismosigno=False : 55221
+      Delta!=0=True  mismosigno=True  : 19148
+
+K1 contingencia  (Delta != 0)  x  DOMINANCIA:
+      Delta!=0=False dominancia=False : 2945
+      Delta!=0=True  dominancia=False : 39896
+      Delta!=0=True  dominancia=True  : 34473
+
+K2 contingencia  (Delta != 0)  x  v_2 MINIMA UNICA:
+      Delta!=0=False v2unica=False : 2945
+      Delta!=0=True  v2unica=False : 47733
+      Delta!=0=True  v2unica=True  : 26636
+
+K6 SENUELO  v_3 minima unica (deberia cubrir MENOS):
+      Delta!=0=False v3unica=False : 2945
+      Delta!=0=True  v3unica=False : 59525
+      Delta!=0=True  v3unica=True  : 14844
+
+K3 COBERTURA CONJUNTA: alguno de los TRES dispara en 44104 de 74369 estratos con Delta != 0 (59.30 %)
+K4 RESIDUO (Delta != 0 y NINGUNO de los tres dispara), por numero de terminos:
+        3 terminos : 3746
+        4 terminos : 7878
+        5 terminos : 6988
+        6 terminos : 4722
+        7 terminos : 3172
+        8 terminos : 2043
+        9 terminos : 956
+       10 terminos : 440
+       11 terminos : 126
+       12 terminos : 90
+       13 terminos : 56
+       14 terminos : 22
+       15 terminos : 11
+       17 terminos : 13
+       22 terminos : 2
+      total residuo : 30265

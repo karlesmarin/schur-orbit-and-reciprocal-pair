@@ -1,0 +1,87 @@
+field GF(1000000009)
+
+==========================================================================================================
+E1-E4  the t = 2 chain, step by step
+==========================================================================================================
+
+     t   r  |lam|<=  shapes | top=0 | E1 e!=2  E2 gcom!=0  E3a sK!=K  E3b sums!=C  E3c not conc | E4 bad | crit
+  ------------------------------------------------------------------------------------------------------
+     2   1       40    6660 |   125 |       0           0           0             0              0 |      0 |   125
+     2   2       32   11364 |    62 |       0           0           0             0              0 |      0 |    62
+     2   3       24    4945 |    21 |       0           0           0             0              0 |      0 |    21
+     2   4       18    1477 |     7 |       0           0           0             0              0 |      0 |     7
+     2   5       14     505 |     1 |       0           0           0             0              0 |      0 |     1
+
+  totals over 24951 shapes at t = 2: [Phi]_top vanishes on 216, criterion holds on 216.
+  E1 e != 2 : 0      E2 gcom nonempty : 0
+  E3a sigma_C(K) != K : 0   E3b the swapped pairs do not sum to C : 0   E3c S not concentric : 0
+  E4 disagreements between  [Phi]_top = 0  and  (i) and (ii) : 0
+  E7 non-vacuity: criterion holds 216 times and fails 24735.
+
+==========================================================================================================
+E5  acceptance, fatal: does the DETERMINANT itself agree, over GF(p) at random z?
+==========================================================================================================
+
+     t   r  shapes tested  points  det=0 vs criterion disagreements
+  ------------------------------------------------------------------------------------------------------
+     t   r  shapes | crit TRUE  det=0 there | crit FALSE  det!=0 there | disagreements
+  ------------------------------------------------------------------------------------------------------
+     2   1     943 |        84            84 |        859            859 |             0
+     2   2    2407 |       212           212 |       2195           2195 |             0
+     2   3    3645 |       404           404 |       3241           3241 |             0
+     2   4    1874 |       404           404 |       1470           1470 |             0
+     2   5     905 |       401           401 |        504            504 |             0
+
+  criterion TRUE on 1505 shapes and FALSE on 8269 -- BOTH directions now have a denominator.
+  E5 PASS: the determinant vanishes exactly when the criterion holds, at t = 2, in both
+  directions and with the scarce direction deliberately populated.
+
+==========================================================================================================
+E6  why t >= 4 does NOT close: the common part g_com and its symmetry
+==========================================================================================================
+
+     t   r | top=0 & (i) fails | of those, g_com NOT sigma_C-stable | g_com stable (MUST BE 0)
+  ------------------------------------------------------------------------------------------------------
+     4   2 |                 6 |                                  6 |                        0
+     4   3 |                 1 |                                  1 |                        0
+     6   2 |                 3 |                                  3 |                        0
+     6   3 |                 1 |                                  1 |                        0
+     8   2 |                 0 |                                  0 |                        0
+
+  E6: 11 shapes with [Phi]_top = 0 and (i) false.  In 11 of them the common part g_com is NOT
+      sigma_C-stable, and in 0 it IS -- that column must be 0, because a stable g_com would
+      make the t = 2 argument go through and force concentricity.
+
+  conj:crit CERRADA en t = 2, y el control E6 explica exactamente por que t >= 4 no lo esta:
+  la parte comun g_com es vacia en t = 2 y no lo es despues, y su falta de simetria es el
+  unico sitio donde el argumento se rompe.
+
+==========================================================================================================
+E8  am I closing the RIGHT conjecture?  The published statement is (a) or (b), not (i)+(ii)
+==========================================================================================================
+
+  arXiv:2608.09619, eq (branches):  branch (a) = |E| in {0,N}, the beta set has constant
+  parity;  branch (b) = lambda_i + lambda_{N+1-i} = w for all i, with w ODD.
+  Conjecture 9.4: for every r and every lambda, Psi_r(lambda) = 0 iff (a) or (b).
+  Published converses already: Thm r1 (r = 1) and Thm stable (ell(lambda) <= N/2, where the
+  locus is exactly lambda = (k^{N/2}) with k odd).
+
+     t   r  shapes | not-(a)  (b) | branch-(a) bookkeeping | (i)&(ii) != (b) | Thm-stable bad
+  ------------------------------------------------------------------------------------------------------
+     2   1    6660 |    6660  125 |               0 |           0 |                          0
+     2   2   11364 |   11364   62 |               0 |           0 |                          0
+     2   3    4945 |    4945   21 |               0 |           0 |                          0
+     2   4    1477 |    1477    7 |               0 |           0 |                          0
+     2   5     505 |     505    1 |               0 |           0 |                          0
+
+  E8 shapes where (i)+(ii) disagrees with branch (b): 0   (this is mis2 alone;
+     the other column, 0, is branch-(a) bookkeeping and was MISLABELLED before)
+  E9 shapes inside Littlewood's range where our criterion disagrees with the PUBLISHED
+     Theorem (stable) -- the odd rectangles (k^{N/2}): 0
+
+  THE DICTIONARY HOLDS.  At t = 2 with both parity classes occupied, (i) says beta is
+  symmetric about C = beta_1 + beta_N, which is lambda_i + lambda_{N+1-i} = w, and (ii)
+  says C is even, which is w odd because N is even.  So (i)+(ii) IS branch (b), and the
+  theorem above closes Conjecture 9.4 of arXiv:2608.09619 -- with branch (a) being the
+  excluded empty-class case, which vanishes by pigeonhole.  And it agrees with the two
+  published converses, Thm r1 and Thm stable, on their ranges.

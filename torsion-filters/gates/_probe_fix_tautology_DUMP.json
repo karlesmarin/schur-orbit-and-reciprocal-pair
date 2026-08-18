@@ -1,0 +1,22 @@
+{
+ "A simplify (hoy)": {
+  "aciertos": 8,
+  "de": 18,
+  "segundos": 1.35
+ },
+ "B equals(0)": {
+  "aciertos": 8,
+  "de": 18,
+  "segundos": 6.57
+ },
+ "C coefs+equals": {
+  "aciertos": 18,
+  "de": 18,
+  "segundos": 598.52
+ },
+ "D minimal_polynomial": {
+  "aciertos": 18,
+  "de": 18,
+  "segundos": 15.4
+ }
+}

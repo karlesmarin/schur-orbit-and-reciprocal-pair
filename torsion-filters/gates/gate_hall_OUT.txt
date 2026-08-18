@@ -1,0 +1,37 @@
+field GF(1000542422881);  p-1 divisible by lcm(4,6,..,40) = 465585120
+guard: every even t in [4,40] divides p-1  ->  PASS
+
+============================================================================================
+S1  the sine matrix  S[k][c] = zeta^{kc} - zeta^{-kc},  k,c = 1..t/2-1
+============================================================================================
+  even t from 4 to 40 : 19 matrices, singular ones: NONE  ->  invertible, as the classical DST is
+
+============================================================================================
+S2/S3  rank(frozen block) = #distinct non-fixed classes, and the criterion that follows
+============================================================================================
+
+   t   R free |nu|<=  tested   S2 wrong   decoy wrong   S3 wrong (vs determinant)
+  ------------------------------------------------------------------------------------
+   4   2    1     14      64          0            16              0
+   4   3    2     14     147          0            16              0
+   4   4    3     14     241          0            12              0
+   6   3    1     14     147          0            50              0
+   6   4    2     14     241          0            52              0
+   6   5    3     10     113          0            12              0
+   8   4    1     14     241          0            90              0
+   8   5    2     10     113          0            29              0
+   8   6    3     10     125          0            19              0
+  10   5    1     10     113          0            44              0
+  10   6    2     10     125          0            36              0
+  10   7    3     10     132          0            25              0
+  12   6    1     10     125          0            53              0
+  12   7    2     10     132          0            42              0
+  12   8    3     10     136          0            29              0
+
+  S2 wrong must be 0: then 'matching' is only bookkeeping for a rank, and the single real
+  ingredient is S1, the invertibility of the sine matrix -- which is classical.
+  'decoy wrong' counts the shapes where the rank ALSO equals the count including the fixed
+  classes; it must be far from the total, or the fixed classes are not being killed.
+  S3 wrong must be 0: full rank of the frozen block <=> the character does not vanish.
+
+DONE

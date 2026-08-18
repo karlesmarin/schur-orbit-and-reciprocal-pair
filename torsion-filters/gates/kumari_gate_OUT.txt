@@ -1,0 +1,42 @@
+rewritten
+==============================================================================
+GATE A -- the three lemmas our Section 6 actually uses, checked by brute force
+==============================================================================
+  Lemma 2.18  sum over NON-coverable of (X,-X)_T = 0
+      2218 skew shapes tested, 0 failures
+  Lemmas 2.14+2.16  every coverable filling carries ONE sign, = sgn(sig_l) sgn(sig_m)
+      2715 skew shapes tested, 0 failures
+  CONTROL: a deliberately wrong sign rule must fail
+      sgn(sigma) is not identically +1: True
+
+==============================================================================
+GATE B -- the WITHDRAWN Theorem 4.4 (= thesis 6.17), tested by Alexandersson-Amini
+==============================================================================
+  t=2 n=1 : 472 hypothesis-satisfying pairs checked, 0 counterexamples so far
+  t=2 n=2 : 2900 hypothesis-satisfying pairs checked, 0 counterexamples so far
+  t=3 n=1 : 4198 hypothesis-satisfying pairs checked, 0 counterexamples so far
+  t=3 n=2 : 8141 hypothesis-satisfying pairs checked, 0 counterexamples so far
+  t=4 n=1 : 10518 hypothesis-satisfying pairs checked, 234 counterexamples so far
+  t=6 n=1 : 14375 hypothesis-satisfying pairs checked, 788 counterexamples so far
+
+  COUNTEREXAMPLES to the withdrawn Theorem 4.4 (smallest first):
+     t=4  lambda=[1, 1, 1]  mu=[1, 0, 0]   negative c_[2]   c={1: 0, 2: -1, 4: 2}
+     t=6  lambda=[1, 1, 1]  mu=[1, 0, 0]   negative c_[3]   c={1: 0, 2: 0, 3: -1, 6: 3}
+     t=4  lambda=[2, 2]  mu=[1, 1]   negative c_[2]   c={1: 0, 2: -1, 4: 2}
+     t=4  lambda=[2, 1, 1]  mu=[2, 0, 0]   negative c_[2]   c={1: 0, 2: -1, 4: 2}
+     t=4  lambda=[1, 1, 1, 1]  mu=[1, 1, 0, 0]   negative c_[2]   c={1: 0, 2: -1, 4: 2}
+     t=6  lambda=[2, 2]  mu=[1, 1]   negative c_[3]   c={1: 0, 2: 0, 3: -1, 6: 3}
+     t=6  lambda=[2, 1, 1]  mu=[2, 0, 0]   negative c_[3]   c={1: 0, 2: 0, 3: -1, 6: 3}
+     t=6  lambda=[1, 1, 1, 1]  mu=[1, 1, 0, 0]   negative c_[3]   c={1: 0, 2: 0, 3: -1, 6: 3}
+     t=4  lambda=[2, 2, 1]  mu=[1, 1, 1]   negative c_[2]   c={1: 0, 2: -1, 4: 2}
+     t=6  lambda=[3, 1, 1]  mu=[3, 0, 0]   negative c_[3]   c={1: 0, 2: 0, 3: -1, 6: 3}
+
+  CONTROL: the criterion must reject something, or it is not a criterion.
+           Lee-Oh's own hypothesis (t | lambda_i - mu_i) is a SUBSET of the above;
+           any counterexample must therefore violate it.
+     t=4 lambda=[1, 1, 1] mu=[1, 0, 0] : satisfies Lee-Oh's hypothesis? False  (must be False)
+     t=6 lambda=[1, 1, 1] mu=[1, 0, 0] : satisfies Lee-Oh's hypothesis? False  (must be False)
+     t=4 lambda=[2, 2] mu=[1, 1] : satisfies Lee-Oh's hypothesis? False  (must be False)
+     t=4 lambda=[2, 1, 1] mu=[2, 0, 0] : satisfies Lee-Oh's hypothesis? False  (must be False)
+     t=4 lambda=[1, 1, 1, 1] mu=[1, 1, 0, 0] : satisfies Lee-Oh's hypothesis? False  (must be False)
+[exit 0]

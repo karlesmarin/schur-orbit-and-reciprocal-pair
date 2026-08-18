@@ -1,0 +1,168 @@
+[
+ {
+  "beta": [
+   10,
+   9,
+   7,
+   4,
+   3,
+   2,
+   1,
+   0
+  ],
+  "A": 1,
+  "n_sup": 3,
+  "n_celdas": 3,
+  "sumas": [
+   1,
+   -1,
+   1
+  ],
+  "celdas_cero": 0,
+  "senuelo_cero": 0,
+  "senuelo_celdas": 3
+ },
+ {
+  "beta": [
+   12,
+   11,
+   10,
+   5,
+   3,
+   2,
+   1,
+   0
+  ],
+  "A": -1,
+  "n_sup": 3,
+  "n_celdas": 3,
+  "sumas": [
+   -1,
+   1,
+   -1
+  ],
+  "celdas_cero": 0,
+  "senuelo_cero": 0,
+  "senuelo_celdas": 3
+ },
+ {
+  "beta": [
+   12,
+   11,
+   10,
+   9,
+   7,
+   2,
+   1,
+   0
+  ],
+  "A": 1,
+  "n_sup": 3,
+  "n_celdas": 3,
+  "sumas": [
+   1,
+   -1,
+   1
+  ],
+  "celdas_cero": 0,
+  "senuelo_cero": 0,
+  "senuelo_celdas": 3
+ },
+ {
+  "beta": [
+   13,
+   9,
+   8,
+   7,
+   5,
+   4,
+   2,
+   0
+  ],
+  "A": -1,
+  "n_sup": 1,
+  "n_celdas": 1,
+  "sumas": [
+   -1
+  ],
+  "celdas_cero": 0,
+  "senuelo_cero": 0,
+  "senuelo_celdas": 1
+ },
+ {
+  "beta": [
+   14,
+   13,
+   11,
+   4,
+   3,
+   2,
+   1,
+   0
+  ],
+  "A": 1,
+  "n_sup": 5,
+  "n_celdas": 4,
+  "sumas": [
+   1,
+   -1,
+   0,
+   1
+  ],
+  "celdas_cero": 1,
+  "senuelo_cero": 0,
+  "senuelo_celdas": 2
+ },
+ {
+  "beta": [
+   14,
+   13,
+   11,
+   8,
+   3,
+   2,
+   1,
+   0
+  ],
+  "A": 1,
+  "n_sup": 10,
+  "n_celdas": 8,
+  "sumas": [
+   1,
+   -2,
+   1,
+   -1,
+   2,
+   1,
+   1,
+   -2
+  ],
+  "celdas_cero": 0,
+  "senuelo_cero": 0,
+  "senuelo_celdas": 4
+ },
+ {
+  "beta": [
+   18,
+   17,
+   11,
+   8,
+   7,
+   6,
+   1,
+   0
+  ],
+  "A": 1,
+  "n_sup": 25,
+  "n_celdas": 4,
+  "sumas": [
+   1,
+   -1,
+   1,
+   0
+  ],
+  "celdas_cero": 1,
+  "senuelo_cero": 0,
+  "senuelo_celdas": 2
+ }
+]

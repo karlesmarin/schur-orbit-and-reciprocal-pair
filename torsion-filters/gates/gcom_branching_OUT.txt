@@ -1,0 +1,88 @@
+====================================================================================================
+EL PELADO CONTRA g_com -- lo que aporta cada capa, medido sobre las formas que SE ANULAN
+====================================================================================================
+  t  r  W  |  ceros | M1 C'=C | M2 |g'|<|g| | M3 g_com cubierto | M4 iterando cubre S | control C'=C en no-nulos
+   4  2 15  |     36 |      32 |           8 |                24 |                  24 |    14/396   =  3.5%
+   6  2 15  |     33 |      16 |          16 |                 0 |                   0 |    16/274   =  5.8%
+   8  2 16  |     48 |       0 |           0 |                 0 |                   0 |     0/96    =  0.0%
+   4  3 14  |     14 |      13 |           3 |                 0 |                   0 |    82/222   = 36.9%
+
+====================================================================================================
+  ceros: 131   M1 C'=C: 61   M3 g_com cubierto en un paso: 24   M4 iterando cubre S: 24
+====================================================================================================
+======================================================================================================================
+g_com EN EL LENGUAJE DEL BRANCHING   --   la propuesta 4 de su reseña
+======================================================================================================================
+
+----------------------------------------------------------------------------------------------------------------------
+  t=4  r=2  W=13 :  1716 formas barridas, 1441 ocupadas, 21 nulas
+----------------------------------------------------------------------------------------------------------------------
+  |G|        | Phi      | g_com            | n
+  ------------------------------------------------------------
+  |G|=1      | no cero  | g_com no definida | 1296
+  |G|=2      | cero     | g_com vacia      | 15
+  |G|=2      | cero     | simetrica        | 6
+  |G|=2      | no cero  | ASIMETRICA       | 116
+  |G|=2      | no cero  | simetrica        | 8
+
+  G2  EL CONTROL QUE PUEDE FALLAR -- g_com con |G|=2 y g_com NO vacia:
+        entre las NULAS      : simetrica 6, ASIMETRICA 0
+        entre las NO nulas   : simetrica 8, ASIMETRICA 116
+        -> hay asimetricas entre las NO nulas: la hipotesis de anulacion SI hace
+           trabajo, y 8.43 dice algo.  Proporcion: 116 de 124 asimetricas.
+  G1  g_com VACIA: 15 de 21 nulas y 0 de 124 no nulas (con |G|=2)
+  G4  |g_com| en (no nula, g_com no vacia=True): min 1, max 2, media 1.13, n 124
+  G4  |g_com| en (nula, g_com no vacia=False): min 0, max 0, media 0.00, n 15
+  G4  |g_com| en (nula, g_com no vacia=True): min 2, max 2, media 2.00, n 6
+
+----------------------------------------------------------------------------------------------------------------------
+  t=6  r=2  W=13 :  715 formas barridas, 491 ocupadas, 12 nulas
+----------------------------------------------------------------------------------------------------------------------
+  |G|        | Phi      | g_com            | n
+  ------------------------------------------------------------
+  |G|=1      | no cero  | g_com no definida | 435
+  |G|=2      | cero     | simetrica        | 12
+  |G|=2      | no cero  | ASIMETRICA       | 44
+
+  G2  EL CONTROL QUE PUEDE FALLAR -- g_com con |G|=2 y g_com NO vacia:
+        entre las NULAS      : simetrica 12, ASIMETRICA 0
+        entre las NO nulas   : simetrica 0, ASIMETRICA 44
+        -> hay asimetricas entre las NO nulas: la hipotesis de anulacion SI hace
+           trabajo, y 8.43 dice algo.  Proporcion: 44 de 44 asimetricas.
+  G1  g_com VACIA: 0 de 12 nulas y 0 de 44 no nulas (con |G|=2)
+  G4  |g_com| en (no nula, g_com no vacia=True): min 1, max 2, media 1.64, n 44
+  G4  |g_com| en (nula, g_com no vacia=True): min 2, max 2, media 2.00, n 12
+
+----------------------------------------------------------------------------------------------------------------------
+  t=4  r=2  W=15 :  6435 formas barridas, 5448 ocupadas, 36 nulas
+----------------------------------------------------------------------------------------------------------------------
+  |G|        | Phi      | g_com            | n
+  ------------------------------------------------------------
+  |G|=1      | no cero  | g_com no definida | 5016
+  |G|=2      | cero     | g_com vacia      | 24
+  |G|=2      | cero     | simetrica        | 12
+  |G|=2      | no cero  | ASIMETRICA       | 332
+  |G|=2      | no cero  | g_com vacia      | 40
+  |G|=2      | no cero  | simetrica        | 24
+
+  G2  EL CONTROL QUE PUEDE FALLAR -- g_com con |G|=2 y g_com NO vacia:
+        entre las NULAS      : simetrica 12, ASIMETRICA 0
+        entre las NO nulas   : simetrica 24, ASIMETRICA 332
+        -> hay asimetricas entre las NO nulas: la hipotesis de anulacion SI hace
+           trabajo, y 8.43 dice algo.  Proporcion: 332 de 356 asimetricas.
+  G1  g_com VACIA: 24 de 36 nulas y 40 de 396 no nulas (con |G|=2)
+  G4  |g_com| en (no nula, g_com no vacia=False): min 0, max 0, media 0.00, n 40
+  G4  |g_com| en (no nula, g_com no vacia=True): min 1, max 2, media 1.16, n 356
+  G4  |g_com| en (nula, g_com no vacia=False): min 0, max 0, media 0.00, n 24
+  G4  |g_com| en (nula, g_com no vacia=True): min 2, max 2, media 2.00, n 12
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si aparece alguna ASIMETRICA entre las NULAS, la Conjetura 8.43 del Paper I es FALSA y
+     eso hay que mirarlo antes que ninguna otra cosa.
+   * si entre las NO nulas todas salen simetricas, 8.43 no usa la hipotesis y hay que
+     reformularla: seria una identidad sobre g_com, no un criterio de anulacion.
+   * si entre las NO nulas hay asimetricas, la hipotesis trabaja y la conjetura esta bien
+     planteada; entonces lo que falta es la traduccion al lado del branching.
+======================================================================================================================
+DONE

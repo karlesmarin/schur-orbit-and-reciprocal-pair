@@ -1,0 +1,37 @@
+field GF(1000000321); guard on t in [4, 6, 8, 10, 12] -> PASS
+
+G0  the frozen block IS the principal torsion element of Sp(t-2)
+    t= 4  n=1  rho=[1]  ->  SAME multiset
+    t= 6  n=2  rho=[2, 1]  ->  SAME multiset
+    t= 8  n=3  rho=[3, 2, 1]  ->  SAME multiset
+    t=10  n=4  rho=[4, 3, 2, 1]  ->  SAME multiset
+    t=12  n=5  rho=[5, 4, 3, 2, 1]  ->  SAME multiset
+
+================================================================================================
+G1/G2  COVER  vs  NPP's type-C count equality  vs  the determinant
+================================================================================================
+
+   t   R free |nu|<=  tested   sp=0   COVER wrong   NPP-C wrong   typeA wrong (control)
+  ----------------------------------------------------------------------------------------
+   4   1    0     16      17      8             0             0              8   <- r=0: NPP's own case
+   4   2    1     16      81     16             0             0             20
+   4   3    2     16     204     16             0            53             93
+   6   2    0     16      81     60             0             0             51   <- r=0: NPP's own case
+   6   3    1     16     204     92             0             0             72
+   6   4    2     12     155     30             0            22             68
+   8   3    0     16     204    172             0             0            132   <- r=0: NPP's own case
+   8   4    1     12     155     87             0             0             63
+   8   5    2     12     197     60             0            12             66
+  10   4    0     12     155    136             0             0            111   <- r=0: NPP's own case
+  10   5    1     12     197    128             0             0             99
+  10   6    2     12     227     91             0            10            102
+  12   5    0     12     197    179             0             0            158   <- r=0: NPP's own case
+  12   6    1     12     227    163             0             0            146
+  12   7    2     12     246    113             0             6            131
+
+  'wrong' = disagreements with the determinant.  If NPP-C is 0 at r = 0 the lemma's frozen
+  case is Corollary 3.7 of arXiv:2504.14684 in type C and must be cited as theirs.  If it is
+  also 0 for r >= 1, the whole lemma is their count and only the free-variable statement is
+  ours.  The type-A column is the control: it must be large, or the folding is not the point.
+
+DONE

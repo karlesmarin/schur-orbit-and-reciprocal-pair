@@ -31,6 +31,16 @@ The published rank-one case at `t = 2` is Part IV of the series,
 [`schur-nonidentity-o4`](https://github.com/karlesmarin/schur-nonidentity-o4). This repository is the
 general-`t` sequel and is kept separate so that each paper has one artifact.
 
+## 📚 Two papers, two bundles
+
+The root of this repository is the bundle of the **first** paper, the one arXiv carries as
+[2608.09619](https://arxiv.org/abs/2608.09619). The **second** --- *Schur polynomials twisted by
+roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction
+at odd order* --- has its own directory, [`torsion-filters/`](torsion-filters), with its own README:
+241 gate scripts, 218 of them with their archived run, the 15 that draw its figures and the 27 that
+check its manuscript. Its preprint is not posted yet, so the PDF is not here; the code and the data
+are.
+
 ## 📦 What is here
 
 The **scripts and their archived stdout**, and the paper in both languages with its sources and

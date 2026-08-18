@@ -1,0 +1,21 @@
+W4 POBLACION OBJETIVO ([Phi]_top = 0 y (i) falsa) : 132
+
+W1   |G2|   [Phi]_{D2} = 0 ?   formas
+        1      NO              104
+        2      NO              4
+        2      SI              4
+        3      NO              12
+        4      NO              4
+        6      NO              4
+
+W2 formas con [Phi]_{D2} != 0, luego Phi_t != 0 : 128 de 132
+     de ellas PROBADAS por el Corolario del segundo maximizador unico (|G2| = 1) : 104
+     las otras 24 tienen |G2| >= 2: el estrato no se anula, pero eso esta MEDIDO,
+     no probado -- no hay rigidez para tres o mas productos, ni puede haberla en general.
+
+W3 SUPERVIVIENTES (el segundo estrato tambien se anula) : 4
+      t=6 r=3 |G2|=2 beta=[16, 15, 14, 13, 11, 6, 5, 4, 3, 2, 1, 0]
+      t=6 r=3 |G2|=2 beta=[16, 15, 14, 13, 12, 11, 10, 5, 3, 2, 1, 0]
+      t=6 r=3 |G2|=2 beta=[17, 16, 15, 14, 12, 7, 6, 5, 4, 3, 2, 1]
+      t=6 r=3 |G2|=2 beta=[17, 16, 15, 14, 13, 12, 11, 6, 4, 3, 2, 1]
+   TODOS tienen |G2| = 2, luego caen en la Proposicion del segundo estrato (PvW).

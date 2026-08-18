@@ -1,0 +1,28 @@
+================================================================================================================
+(L3) EN LA CAJA DONDE PUEDE FALLAR
+================================================================================================================
+
+  t=3 r=2  beta_i <= 12   (852 formas)
+     V0  formas con ALGUN a^B > 1 (la caja testa)  : 664 de 852 = 78%
+     C1  el atajo == el branching                  :  12 de  12   <== FATAL
+     L2  el Lambda que aporta es unico             : 678 de 852
+     L3  y tiene a^B = 1                           : 678 de 678
+         reparto de a^B del que aporta             : {1: 678}
+         cruce (a^B del que aporta, max a^B forma) : {(1, 1): 180, (1, 2): 188, (1, 3): 131, (1, 4): 83, (1, 5): 34, (1, 6): 26, (1, 7): 12, (1, 8): 10, (1, 9): 6, (1, 10): 5, (1, 12): 2, (1, 13): 1}
+
+  t=5 r=2  beta_i <= 12   (368 formas)
+     V0  formas con ALGUN a^B > 1 (la caja testa)  : 191 de 368 = 52%
+     C1  el atajo == el branching                  :  12 de  12   <== FATAL
+     L2  el Lambda que aporta es unico             : 323 de 368
+     L3  y tiene a^B = 1                           : 323 de 323
+         reparto de a^B del que aporta             : {1: 323}
+         cruce (a^B del que aporta, max a^B forma) : {(1, 1): 169, (1, 2): 114, (1, 3): 35, (1, 4): 5}
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si V0 es alto y L3 sale completa, (L3) por fin esta testada y sobrevive.
+   * si V0 es bajo, la caja SIGUE sin testarla y hay que subirla otra vez.
+   * si L3 falla, el testigo dice que Lambda con a^B > 1 alcanza el extremo, y eso mata
+     (L3) tal como esta enunciada.
+================================================================================================================
+DONE

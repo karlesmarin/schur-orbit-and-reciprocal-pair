@@ -1,0 +1,36 @@
+==========================================================================================
+Theorem 4.4 of the withdrawn arXiv:2211.14093, tested divisor by divisor
+==========================================================================================
+t    prime pairs     failures  smallest failure              
+------------------------------------------------------------------------------------------
+2    True  2900      0                                       
+3    True  5241      0                                       
+4    False 6825      730       lam=[1, 1, 1] mu=[1, 0, 0] n=1  c={1: 0, 2: -1, 4: 2}
+5    True  2004      0                                       
+6    False 2319      326       lam=[1, 1, 1] mu=[1, 0, 0] n=1  c={1: 0, 2: 0, 3: -1, 6: 3}
+7    True  1482      0                                       
+8    False 1520      229       lam=[1, 1, 1] mu=[1, 0, 0] n=1  c={1: 0, 2: 0, 4: -1, 8: 4}
+9    False 1590      67        lam=[3, 2] mu=[1, 1] n=1  c={1: 0, 3: -1, 9: 27}
+
+==========================================================================================
+THE SMALLEST FAILURE, written out
+==========================================================================================
+  t=4,  lambda=[1, 1, 1],  mu=[1, 0, 0],  tn=4
+  sgn(sigma_lambda) = -1 = sgn(sigma_mu) = -1   -- the hypothesis HOLDS
+  f(q) = s_{lambda/mu}(1,q,q^2,q^3) = q^5 + q^4 + 2*q^3 + q^2 + q
+     f(omega^1) = 0
+     f(omega^2) = -2
+     f(omega^4) = 6
+  Alexandersson-Amini multiplicities: {1: 0, 2: -1, 4: 2}
+  => sigma^2 would have to fix -2 elements.  No action exists.
+
+==========================================================================================
+CONTROLS
+==========================================================================================
+  the SAME shape at t=2 (prime, tn=4): c={1: -2, 2: 4} ; computable? ok
+     sgn(sigma_lambda)=1  sgn(sigma_mu)=-1  -> hypothesis FAILS here, as it must
+     so at prime t the sign hypothesis is exactly what rules this out.
+  the criterion is not vacuous: it returns negative c only sometimes, see the table above.
+  a shape that PASSES at t=4: lam=(2,1) mu=() -> c={1: 0, 2: 0, 4: 5}
+  f(1) >= f(omega) always?  (needed for c_t >= 0 at prime t)
+      2173 pairs at prime t, 0 with f(1) < f(omega)

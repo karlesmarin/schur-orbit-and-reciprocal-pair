@@ -1,0 +1,22 @@
+E:\proyectos\Curiosity\research\orbit-pair\gates\reflection_pairs.py:11: SyntaxWarning: "\ " is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\ "? A raw string is also an option.
+  (v)   tau - (clase j \ {g_j}) = clase j* \ {g_{j*}}  para j no empatada
+================================================================================================
+PREDICCIONES sobre las formas que se anulan, escritas ANTES de correr:
+  P1  e es PAR                                  (la reflexion empareja las clases de exceso)
+  P2  n_j = n_{j*} para j* = tau - j (mod t)     (la biyeccion conserva el tamano)
+  P3  la clase j* es de exceso siempre que j lo sea
+  CONTROL: los mismos tres sobre las formas que NO se anulan, donde deben fallar
+================================================================================================
+  t  r    Phi=0   P1 e par   P2 n_j=n_j*   P3 j* de exceso | e observados | CONTROL P1 falla
+   4  2       96         96            96                96 | [(2, 72), (4, 24)] | 1712/8992
+   6  2       60         60            60                60 | [(4, 60)]    | 579/6798
+   8  2       48         48            48                48 | [(4, 48)]    | 72/2024
+  10  2        0          0             0                 0 | []           | 40/840
+   4  3       14         14            14                14 | [(4, 14)]    | 404/1913
+   6  3        7          7             7                 7 | [(4, 4), (6, 3)] | 19/319
+   2  2       30         30            30                30 | [(2, 30)]    | 2616/2952
+   2  3       34         34            34                34 | [(2, 34)]    | 3347/3397
+
+  P1 289/289    P2 289/289    P3 289/289
+  CONTROL: las tres se cumplen tambien en 8789 de 27235 formas NO nulas
+           (si fuera cn/cn, las predicciones no dirian nada de la anulacion)

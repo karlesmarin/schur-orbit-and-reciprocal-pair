@@ -1,0 +1,21 @@
+================================================================================================
+DE DONDE SALEN LOS 313 PARES
+================================================================================================
+
+  fibras con 2 o mas terminos           : 333   {2: 322, 4: 11}
+  de las de 2, con los dos terminos en
+  el MISMO punto canonico (antisimetria): 41
+
+  PARES que cancelan en puntos DISTINTOS, por tamano de fibra:
+     fibras de 2 terminos :  281 pares
+     fibras de 4 terminos :   32 pares
+     TOTAL                :  313
+
+  reparto de pares por fibra de 4 terminos: {2: 2, 3: 8, 4: 1}
+
+  P1  FATAL  el total reproduce el 313 de _probe_toggle.py : True
+  C1  las fibras reproducen 322 + 11 = 333                 : True
+  C1  y las de dos en el mismo punto son las 41 del texto   : True
+
+================================================================================================
+DONE

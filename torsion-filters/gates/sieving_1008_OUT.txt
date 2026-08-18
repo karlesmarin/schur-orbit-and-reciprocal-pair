@@ -1,0 +1,66 @@
+================================================================================================
+Problem 10.8 by the Alexandersson-Amini criterion: one CSP per z-degree
+================================================================================================
+
+lambda = [2, 1]       t = 2   N = 4   #SSYT = 20
+    k = -2    #SSYT_k = 2       shifts a that pass: [0, 1]
+    k = -1    #SSYT_k = 5       shifts a that pass: [0]
+    k = 0     #SSYT_k = 6       shifts a that pass: [0, 1]
+    k = 1     #SSYT_k = 5       shifts a that pass: [0]
+    k = 2     #SSYT_k = 2       shifts a that pass: [0, 1]
+
+lambda = [3, 1]       t = 3   N = 5   #SSYT = 105
+    k = -3    #SSYT_k = 3       shifts a that pass: [0, 1, 2]
+    k = -2    #SSYT_k = 10      shifts a that pass: [0]
+    k = -1    #SSYT_k = 24      shifts a that pass: [0, 1, 2]
+    k = 0     #SSYT_k = 31      shifts a that pass: [0]
+    k = 1     #SSYT_k = 24      shifts a that pass: [0, 1, 2]
+    k = 2     #SSYT_k = 10      shifts a that pass: [0]
+    k = 3     #SSYT_k = 3       shifts a that pass: [0, 1, 2]
+
+================================================================================================
+SWEEPS -- the real grading
+================================================================================================
+
+t = 2, |lambda| <= 6
+    164 graded pieces, 164 admit SOME shift (100.0%), 158 admit a = 0
+
+t = 3, |lambda| <= 6
+    176 graded pieces, 162 admit SOME shift (92.0%), 159 admit a = 0
+        no shift: lambda = [2, 1]       k = 0  #SSYT_k = 14
+        no shift: lambda = [2, 2]       k = -1  #SSYT_k = 11
+        no shift: lambda = [2, 2]       k = 1  #SSYT_k = 11
+        no shift: lambda = [3, 2]       k = 0  #SSYT_k = 47
+        no shift: lambda = [2, 2, 1]    k = -2  #SSYT_k = 8
+        no shift: lambda = [2, 2, 1]    k = 0  #SSYT_k = 23
+        ... and 8 more
+
+t = 4, |lambda| <= 5
+    102 graded pieces, 99 admit SOME shift (97.1%), 97 admit a = 0
+        no shift: lambda = [1, 1]       k = 0  #SSYT_k = 7
+        no shift: lambda = [2, 1, 1]    k = 0  #SSYT_k = 37
+        no shift: lambda = [1, 1, 1, 1] k = 0  #SSYT_k = 7
+
+================================================================================================
+CONTROL C2 -- the WRONG grading, m_{t+1} + m_{t+2}.
+If it passes at the same rate, this file measures nothing.
+================================================================================================
+
+t = 2, |lambda| <= 6   [WRONG GRADING]
+    112 graded pieces, 112 admit SOME shift (100.0%), 108 admit a = 0
+
+t = 3, |lambda| <= 6   [WRONG GRADING]
+    127 graded pieces, 119 admit SOME shift (93.7%), 117 admit a = 0
+        no shift: lambda = [2, 1]       k = 0  #SSYT_k = 8
+        no shift: lambda = [2, 2]       k = 1  #SSYT_k = 16
+        no shift: lambda = [3, 2]       k = 2  #SSYT_k = 62
+        no shift: lambda = [2, 2, 1]    k = 2  #SSYT_k = 33
+        no shift: lambda = [5, 1]       k = 0  #SSYT_k = 35
+        no shift: lambda = [3, 2, 1]    k = 0  #SSYT_k = 8
+        ... and 2 more
+
+t = 4, |lambda| <= 5   [WRONG GRADING]
+    75 graded pieces, 73 admit SOME shift (97.3%), 69 admit a = 0
+        no shift: lambda = [3, 1]       k = 0  #SSYT_k = 45
+        no shift: lambda = [2, 1, 1]    k = 0  #SSYT_k = 15
+

@@ -1,0 +1,31 @@
+================================================================================================================
+(A)  EL DETERMINANTE SENO Y EL CARACTER CUADRATICO
+================================================================================================================
+  t= 3  n= 1 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D :  2/ 2 |  A3  gamma = (k/t)^n :  2/ 2
+  t= 5  n= 2 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D :  4/ 4 |  A3  gamma = (k/t)^n :  4/ 4
+  t= 7  n= 3 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D :  6/ 6 |  A3  gamma = (k/t)^n :  6/ 6
+  t= 9  n= 4 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D :  6/ 6 |  A3  gamma = (k/t)^n :  6/ 6
+  t=11  n= 5 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D : 10/10 |  A3  gamma = (k/t)^n : 10/10
+  t=13  n= 6 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D : 12/12 |  A3  gamma = (k/t)^n : 12/12
+  t=15  n= 7 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D :  8/ 8 |  A3  gamma = (k/t)^n :  8/ 8
+  t=17  n= 8 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D : 16/16 |  A3  gamma = (k/t)^n : 16/16
+  t=19  n= 9 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D : 18/18 |  A3  gamma = (k/t)^n : 18/18
+  t=21  n=10 :  A1  D^2 == (-t)^n : True  |  A2  sigma_k(D) = gamma(k) D : 12/12 |  A3  gamma = (k/t)^n : 12/12
+
+================================================================================================================
+(B)  LA INYECTIVIDAD DE  w -> mu_w  SOBRE TODO W^1
+================================================================================================================
+  t=3 r=2 (m'=1 R'=3)   35 pesos |  B1 |W^1| == 2C(R',m')=  6 :  35/ 35 |  B2  mu_w inyectivo :  35/ 35 |  B3 (S,quiralidad) inyectivo :  35/ 35 |  SENUELO eta_w inyectivo (debe ser bajo) :   0/ 35
+  t=5 r=2 (m'=2 R'=4)   35 pesos |  B1 |W^1| == 2C(R',m')= 12 :  35/ 35 |  B2  mu_w inyectivo :  35/ 35 |  B3 (S,quiralidad) inyectivo :  35/ 35 |  SENUELO eta_w inyectivo (debe ser bajo) :   0/ 35
+  t=3 r=3 (m'=1 R'=4)   35 pesos |  B1 |W^1| == 2C(R',m')=  8 :  35/ 35 |  B2  mu_w inyectivo :  35/ 35 |  B3 (S,quiralidad) inyectivo :  35/ 35 |  SENUELO eta_w inyectivo (debe ser bajo) :   0/ 35
+  t=7 r=2 (m'=3 R'=5)   21 pesos |  B1 |W^1| == 2C(R',m')= 20 :  21/ 21 |  B2  mu_w inyectivo :  21/ 21 |  B3 (S,quiralidad) inyectivo :  21/ 21 |  SENUELO eta_w inyectivo (debe ser bajo) :   0/ 21
+  t=5 r=3 (m'=2 R'=5)   21 pesos |  B1 |W^1| == 2C(R',m')= 20 :  21/ 21 |  B2  mu_w inyectivo :  21/ 21 |  B3 (S,quiralidad) inyectivo :  21/ 21 |  SENUELO eta_w inyectivo (debe ser bajo) :   0/ 21
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si A1-A3 salen limpias, gamma_t es el caracter cuadratico de Q(sqrt(-t)) y se cierra.
+   * si B2 sale limpia, nu en {0,+-1} deja de ser medido y pasa a TEOREMA, y (L1) se queda
+     con una unica dificultad: la division por Delta_t.
+   * si el senuelo eta_w tambien sale inyectivo, el argumento de B no distingue nada.
+================================================================================================================
+DONE

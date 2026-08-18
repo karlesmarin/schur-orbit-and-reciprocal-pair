@@ -1,0 +1,38 @@
+============================================================================================================
+V1-V4  las ocho formas, expandidas ENTERAS
+============================================================================================================
+
+  t=6 r=3  #1            Phi_t != 0 (6728 monomios) | Dmax  39, primer no nulo  37 (baja 2) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+  t=6 r=3  #2            Phi_t != 0 (6728 monomios) | Dmax  39, primer no nulo  37 (baja 2) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+  t=6 r=3  #3            Phi_t != 0 (4528 monomios) | Dmax  35, primer no nulo  31 (baja 4) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+  t=6 r=3  #4            Phi_t != 0 (4528 monomios) | Dmax  35, primer no nulo  31 (baja 4) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+  t=6 r=3  #5            Phi_t != 0 (6728 monomios) | Dmax  39, primer no nulo  37 (baja 2) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+  t=6 r=3  #6            Phi_t != 0 (6728 monomios) | Dmax  39, primer no nulo  37 (baja 2) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+  t=6 r=3  #7            Phi_t != 0 (4528 monomios) | Dmax  35, primer no nulo  31 (baja 4) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+  t=6 r=3  #8            Phi_t != 0 (4528 monomios) | Dmax  35, primer no nulo  31 (baja 4) | Dmin  3, primer no nulo  5 (sube 2) | (i) no
+
+  V1  Phi_t != 0 en las ocho              : 8 de 8
+  V2  la rebanada Dmax es VACIA           : 8 de 8
+  V3  la rebanada Dmin es VACIA           : 8 de 8
+  V4  profundidad por arriba (Dmax - primer no nulo) : [2, 4]
+      profundidad por abajo  (primer no nulo - Dmin) : [2]
+
+============================================================================================================
+V5  CONTROL: branch (b) construida a mano -- la expansion DEBE dar 0
+============================================================================================================
+
+  lambda=(3, 3, 3, 0, 0, 0) (w=3, impar -> branch (b)) Phi_t == 0   (i) concentrico: True
+  lambda=(5, 5, 5, 0, 0, 0) (w=5, impar -> branch (b)) Phi_t == 0   (i) concentrico: True
+  lambda=(2, 2, 2, 2, 0, 0) (w=2, par) Phi_t != 0 (  84 monomios) | Dmax  12, primer no nulo  12 (baja 0) | Dmin  2, primer no nulo  2 (sube 0) | (i) no
+
+============================================================================================================
+V6  CONTROL: la rebanada Dmax de la expansion == la formula del estrato de arriba
+============================================================================================================
+
+  t=4 r=2 : 12 formas comprobadas
+  t=6 r=3 : 12 formas comprobadas
+
+  V6 : 0 desacuerdos de 24
+
+VEREDICTO: las ocho son REALES.  '[Phi]_top = 0 y [Phi]_bot = 0 => sigma_C(S) = S' es FALSO.
+DONE

@@ -1,0 +1,133 @@
+======================================================================================================================
+¿ES EL FILTRO IMPAR EL FILTRO PAR TRASLADADO POR 2^{-1}?
+======================================================================================================================
+
+  t= 3 impar  m=1   |(Z/t)^m| = 3
+     C2  |regular_B| = 2       |regular_C| = 2       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 2 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1]   -> los dos filtros son LA MISMA funcion, salvo un signo global
+
+  t= 3 impar  m=2   |(Z/t)^m| = 9
+     C2  |regular_B| = 0       |regular_C| = 0       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 2 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : [0, 1]
+     T2  signo_B(u) * signo_C(u+s) toma los valores []   -> los signos NO se corresponden
+
+  t= 3 impar  m=3   |(Z/t)^m| = 27
+     C2  |regular_B| = 0       |regular_C| = 0       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 2 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : [0, 1]
+     T2  signo_B(u) * signo_C(u+s) toma los valores []   -> los signos NO se corresponden
+
+  t= 5 impar  m=1   |(Z/t)^m| = 5
+     C2  |regular_B| = 4       |regular_C| = 4       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 3 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t= 5 impar  m=2   |(Z/t)^m| = 25
+     C2  |regular_B| = 8       |regular_C| = 8       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 3 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [1]   -> los dos filtros son LA MISMA funcion, salvo un signo global
+
+  t= 5 impar  m=3   |(Z/t)^m| = 125
+     C2  |regular_B| = 0       |regular_C| = 0       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 3 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : [0, 1, 2, 4]
+     T2  signo_B(u) * signo_C(u+s) toma los valores []   -> los signos NO se corresponden
+
+  t= 7 impar  m=1   |(Z/t)^m| = 7
+     C2  |regular_B| = 6       |regular_C| = 6       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 4 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t= 7 impar  m=2   |(Z/t)^m| = 49
+     C2  |regular_B| = 24      |regular_C| = 24      cardinales iguales
+     T1  traslacion por s = 2^{-1} = 4 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t= 7 impar  m=3   |(Z/t)^m| = 343
+     C2  |regular_B| = 48      |regular_C| = 48      cardinales iguales
+     T1  traslacion por s = 2^{-1} = 4 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [1]   -> los dos filtros son LA MISMA funcion, salvo un signo global
+
+  t= 9 impar  m=1   |(Z/t)^m| = 9
+     C2  |regular_B| = 8       |regular_C| = 8       cardinales iguales
+     T1  traslacion por s = 2^{-1} = 5 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t= 9 impar  m=2   |(Z/t)^m| = 81
+     C2  |regular_B| = 48      |regular_C| = 48      cardinales iguales
+     T1  traslacion por s = 2^{-1} = 5 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t= 9 impar  m=3   |(Z/t)^m| = 729
+     C2  |regular_B| = 192     |regular_C| = 192     cardinales iguales
+     T1  traslacion por s = 2^{-1} = 5 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t=11 impar  m=1   |(Z/t)^m| = 11
+     C2  |regular_B| = 10      |regular_C| = 10      cardinales iguales
+     T1  traslacion por s = 2^{-1} = 6 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t=11 impar  m=2   |(Z/t)^m| = 121
+     C2  |regular_B| = 80      |regular_C| = 80      cardinales iguales
+     T1  traslacion por s = 2^{-1} = 6 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t=11 impar  m=3   |(Z/t)^m| = 1331
+     C2  |regular_B| = 480     |regular_C| = 480     cardinales iguales
+     T1  traslacion por s = 2^{-1} = 6 : COINCIDE
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+     T2  signo_B(u) * signo_C(u+s) toma los valores [-1, 1]   -> los signos NO se corresponden
+
+  t= 4 PAR   m=1   |(Z/t)^m| = 4
+     C2  |regular_B| = 4       |regular_C| = 2       !! DISTINTOS
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+
+  t= 4 PAR   m=2   |(Z/t)^m| = 16
+     C2  |regular_B| = 0       |regular_C| = 0       cardinales iguales
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden : [0, 1, 2, 3]
+
+  t= 4 PAR   m=3   |(Z/t)^m| = 64
+     C2  |regular_B| = 0       |regular_C| = 0       cardinales iguales
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden : [0, 1, 2, 3]
+
+  t= 6 PAR   m=1   |(Z/t)^m| = 6
+     C2  |regular_B| = 4       |regular_C| = 4       cardinales iguales
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden : [2, 5]
+
+  t= 6 PAR   m=2   |(Z/t)^m| = 36
+     C2  |regular_B| = 0       |regular_C| = 8       !! DISTINTOS
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+
+  t= 6 PAR   m=3   |(Z/t)^m| = 216
+     C2  |regular_B| = 0       |regular_C| = 0       cardinales iguales
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden : [0, 1, 2, 3, 4, 5]
+
+  t= 8 PAR   m=1   |(Z/t)^m| = 8
+     C2  |regular_B| = 8       |regular_C| = 6       !! DISTINTOS
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden : ninguna
+
+  t= 8 PAR   m=2   |(Z/t)^m| = 64
+     C2  |regular_B| = 32      |regular_C| = 24      !! DISTINTOS
+     C0  t par: no existe 2^{-1}, no hay traslacion candidata
+     C1  decoy: otras traslaciones que tambien coinciden :

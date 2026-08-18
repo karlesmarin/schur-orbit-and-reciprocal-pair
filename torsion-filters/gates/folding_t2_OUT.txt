@@ -1,0 +1,295 @@
+================================================================================================================
+C0  ACEPTACION -- fatal.  Si algo de aqui falla, NADA de lo de abajo vale.
+================================================================================================================
+
+  C0a  valores conocidos del bialternante
+       r=1  s_(0, 0, 0, 0)   -> {(0,): 1}                                      ok
+       r=1  s_(1, 0, 0, 0)   -> {(1,): 1, (-1,): 1}                            ok
+       r=1  s_(1, 1, 1, 1)   -> {(0,): -1}                                     ok
+       r=1  s_(1, 1, 0, 0)   -> {}                                             ok
+       r=2  s_(0, 0, 0, 0, 0, 0) -> {(0, 0): 1}                                    ok
+       r=2  s_(1, 0, 0, 0, 0, 0) -> {(1, 0): 1, (0, 1): 1, (0, -1): 1, (-1, 0): 1} ok
+       r=2  s_(1, 1, 1, 1, 1, 1) -> {(0, 0): -1}                                   ok
+
+  C0b  contraste contra una implementacion INDEPENDIENTE (sympy, cociente de alternantes)
+       r=1  lambda=(3, 1, 0, 0)       ok
+       r=1  lambda=(4, 2, 1, 0)       ok
+       r=1  lambda=(5, 5, 2, 0)       ok
+       r=1  lambda=(2, 2, 2, 1)       ok
+       r=1  lambda=(6, 3, 3, 1)       ok
+       0 discrepancias sobre 5
+
+  C0b2 contraste contra LA DEFINICION: s_lambda = suma sobre SSYT con entradas en el alfabeto
+       r=1  lambda=(3, 1, 0, 0)               ok
+       r=1  lambda=(4, 4, 2, 1)               ok
+       r=1  lambda=(2, 2, 0, 0)               ok
+       r=2  lambda=(2, 1, 0, 0, 0, 0)         ok
+       r=2  lambda=(3, 2, 1, 1, 0, 0)         ok
+       r=2  lambda=(2, 2, 2, 1, 1, 0)         ok
+       r=2  lambda=(1, 1, 1, 1, 0, 0)         ok
+       r=3  lambda=(2, 1, 0, 0, 0, 0, 0, 0)   ok
+       r=3  lambda=(1, 1, 1, 1, 1, 1, 0, 0)   ok
+       r=3  lambda=(2, 2, 1, 1, 0, 0, 0, 0)   ok
+       0 discrepancias sobre 10
+
+  C0b3 evaluacion NUMERICA exacta (Fraction): determinante por eliminacion gaussiana en
+       puntos z racionales, contra mi polinomio de Laurent evaluado ahi.  Cubre r = 4.
+       r=1  lambda=(5, 3, 1, 0)               ok en 2 puntos
+       r=2  lambda=(3, 2, 2, 1, 0, 0)         ok en 2 puntos
+       r=2  lambda=(4, 3, 1, 1, 1, 0)         ok en 2 puntos
+       r=3  lambda=(2, 2, 1, 1, 1, 0, 0, 0)   ok en 2 puntos
+       r=3  lambda=(3, 1, 1, 0, 0, 0, 0, 0)   ok en 2 puntos
+       r=4  lambda=(2, 1, 1, 0, 0, 0, 0, 0, 0, 0) ok en 2 puntos
+       r=4  lambda=(1, 1, 1, 1, 1, 1, 0, 0, 0, 0) ok en 2 puntos
+       r=4  lambda=(2, 2, 1, 1, 1, 1, 0, 0, 0, 0) ok en 2 puntos
+       0 discrepancias sobre 16 evaluaciones
+
+  C0c  PREDICCION EXTERNA (no nuestra):  s_(m)(1,-1,z,1/z) = sum_{j<=m/2} sp_(m-2j)
+       viene de  sum_m h_m u^m = 1/((1-u^2)(1-zu)(1-u/z))  y  1/((1-zu)(1-u/z)) = sum sp_(n) u^n
+       m=0   -> [((0,), 1)]                                  ok
+       m=1   -> [((1,), 1)]                                  ok
+       m=2   -> [((2,), 1), ((0,), 1)]                       ok
+       m=3   -> [((3,), 1), ((1,), 1)]                       ok
+       m=4   -> [((4,), 1), ((2,), 1), ((0,), 1)]            ok
+       m=5   -> [((5,), 1), ((3,), 1), ((1,), 1)]            ok
+       m=6   -> [((6,), 1), ((4,), 1), ((2,), 1), ((0,), 1)] ok
+       0 fallos sobre 15 valores de m
+
+  C0d  sp_mu(1,...,1) contra la formula de dimension de Weyl para C_r
+       sp_(3,)       r=1 :  suma de coeficientes = 4         Weyl = 4        ok
+       sp_(0,)       r=1 :  suma de coeficientes = 1         Weyl = 1        ok
+       sp_(7,)       r=1 :  suma de coeficientes = 8         Weyl = 8        ok
+       sp_(2, 1)     r=2 :  suma de coeficientes = 16        Weyl = 16       ok
+       sp_(3, 3)     r=2 :  suma de coeficientes = 30        Weyl = 30       ok
+       sp_(1, 0)     r=2 :  suma de coeficientes = 4         Weyl = 4        ok
+       sp_(2, 1, 1)  r=3 :  suma de coeficientes = 70        Weyl = 70       ok
+       sp_(1, 1, 1)  r=3 :  suma de coeficientes = 14        Weyl = 14       ok
+
+  C0e  invariancia de Weyl de la restriccion (z_i <-> 1/z_i y permutar las z_i)
+  C0f  T1:  s_{lambda + 1^N} = - s_lambda     (porque prod(alfabeto) = -1)
+       T2:  s_{lambda*}      = (-1)^k s_lambda,  lambda* = complemento en el rectangulo k^N
+       C0e  invariancia de Weyl : 0 fallos sobre 1122
+       C0f  T1                  : 0 fallos sobre 1122
+       C0f  T2                  : 0 fallos sobre 1122
+
+       COROLARIO DE T1, SIN MEDIR NADA: N = 2r+2 es PAR, luego (-1)^{|lambda|} NO cambia al
+       sumar 1^N mientras que el signo SI.  (-1)^{|lambda|} queda REFUTADA como regla de
+       signo por algebra -- y eso explica su 145/290 de ayer, que era exactamente el azar.
+
+  C0 PASA
+
+================================================================================================================
+N1  LA DICOTOMIA  |  N2  LA REGLA DE SIGNO  |  N4  el criterio, por via independiente
+================================================================================================================
+
+  r=1  (N=4, plegado D_2 -> C_1 = Sp(2), lambda_1 <= 14)
+     formas: 3060
+     ejemplos (lambda -> multiplicidades en la base sp_mu, hasta 5 terminos):
+        (14, 14, 14, 12)       [((2,), 1), ((0,), 1)]                                   signo +1
+        (14, 14, 14, 11)       [((3,), 1), ((1,), 1)]                                   signo +1
+        (14, 14, 14, 10)       [((4,), 1), ((2,), 1), ((0,), 1)]                        signo +1
+        (14, 14, 14, 9)        [((5,), 1), ((3,), 1), ((1,), 1)]                        signo +1
+        (14, 14, 14, 8)        [((6,), 1), ((4,), 1), ((2,), 1), ((0,), 1)]             signo +1
+        (14, 14, 14, 7)        [((7,), 1), ((5,), 1), ((3,), 1), ((1,), 1)]             signo +1
+        (14, 14, 14, 6)        [((8,), 1), ((6,), 1), ((4,), 1), ((2,), 1), ((0,), 1)]  signo +1
+        (14, 14, 14, 5)        [((9,), 1), ((7,), 1), ((5,), 1), ((3,), 1), ((1,), 1)]  signo +1
+
+     N1  DICOTOMIA
+        cero           : 352
+        no negativa    : 1456
+        no positiva    : 1252
+        MEZCLADA       : 0
+        -> AGUANTA: toda expansion no nula es +- una combinacion no negativa
+
+     N2  REGLA DE SIGNO  (generico = beta_1 y beta_2 de paridad distinta)
+        fuera del caso generico (la regla NO opina): 992
+        signo MEDIDO = +                   | signo PREDICHO de beta = +         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |    876   ej: (14, 14, 14, 14)
+           no                              | no                                 |    840   ej: (14, 13, 13, 13)
+        desacuerdos: 0 de 1716
+        veredicto: EXACTA
+
+     N4  CRITERIO  cero <=> (i) y (ii)   [via bialternante, sin estratos ni probe()]
+        s_lambda == 0                      | (i) y (ii)                         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |    100   ej: (14, 14, 13, 13)
+           no                              | no                                 |   2708   ej: (14, 14, 14, 14)
+        desacuerdos: 0 de 2808
+        veredicto: EXACTA
+
+     N3  coeficiente maximo |a_mu| = 5 ;  suma de |a_mu| maxima = 24
+
+  r=2  (N=6, plegado D_3 -> C_2 = Sp(4), lambda_1 <= 8)
+     formas: 3003
+     ejemplos (lambda -> multiplicidades en la base sp_mu, hasta 5 terminos):
+        (8, 8, 8, 8, 8, 6)     [((2, 0), 1), ((0, 0), 1)]                               signo +1
+        (8, 8, 8, 8, 8, 5)     [((3, 0), 1), ((1, 0), 1)]                               signo +1
+        (8, 8, 8, 8, 8, 4)     [((4, 0), 1), ((2, 0), 1), ((0, 0), 1)]                  signo +1
+        (8, 8, 8, 8, 8, 3)     [((5, 0), 1), ((3, 0), 1), ((1, 0), 1)]                  signo +1
+        (8, 8, 8, 8, 8, 2)     [((6, 0), 1), ((4, 0), 1), ((2, 0), 1), ((0, 0), 1)]     signo +1
+        (8, 8, 8, 8, 8, 1)     [((7, 0), 1), ((5, 0), 1), ((3, 0), 1), ((1, 0), 1)]     signo +1
+        (8, 8, 8, 8, 8, 0)     [((8, 0), 1), ((6, 0), 1), ((4, 0), 1), ((2, 0), 1), ((0 signo +1
+        (8, 8, 8, 8, 7, 6)     [((2, 1), 1), ((1, 0), 1)]                               signo +1
+
+     N1  DICOTOMIA
+        cero           : 78
+        no negativa    : 1397
+        no positiva    : 1134
+        MEZCLADA       : 394
+        -> *** REFUTADA: 394 expansiones con signos MEZCLADOS ***
+           contraejemplo (8, 8, 7, 7, 6, 6)   [((2, 2), -1), ((1, 1), 1)]
+           contraejemplo (8, 8, 7, 7, 6, 4)   [((4, 2), -1), ((2, 2), -1), ((1, 1), 1)]
+           contraejemplo (8, 8, 7, 7, 6, 2)   [((6, 2), -1), ((4, 2), -1), ((2, 2), -1), ((1, 1), 1)]
+           contraejemplo (8, 8, 7, 7, 6, 0)   [((8, 2), -1), ((6, 2), -1), ((4, 2), -1), ((2, 2), -1), ((1, 1), 1)]
+           contraejemplo (8, 8, 7, 7, 5, 5)   [((3, 3), -1), ((3, 1), -1), ((2, 2), 1), ((1, 1), -1)]
+           contraejemplo (8, 8, 7, 7, 5, 3)   [((5, 3), -1), ((5, 1), -1), ((3, 3), -1), ((3, 1), -1), ((2, 2), 1), 
+
+     N2  REGLA DE SIGNO  (generico = beta_1 y beta_2 de paridad distinta)
+        fuera del caso generico (la regla NO opina): 874
+        signo MEDIDO = +                   | signo PREDICHO de beta = +         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |    819   ej: (8, 8, 8, 8, 8, 8)
+           SI                              | no                                 |     88   ej: (8, 7, 7, 6, 6, 6)
+           no                              | SI                                 |     60   ej: (8, 8, 6, 5, 5, 5)
+           no                              | no                                 |    690   ej: (8, 7, 7, 7, 7, 7)
+        desacuerdos: 148 de 1657
+        veredicto: NO separa (148 desacuerdos)
+
+     N4  CRITERIO  cero <=> (i) y (ii)   [via bialternante, sin estratos ni probe()]
+        s_lambda == 0                      | (i) y (ii)                         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |     64   ej: (8, 8, 8, 7, 7, 7)
+           no                              | no                                 |   2925   ej: (8, 8, 8, 8, 8, 8)
+        desacuerdos: 0 de 2989
+        veredicto: EXACTA
+
+     N3  coeficiente maximo |a_mu| = 12 ;  suma de |a_mu| maxima = 91
+
+  r=3  (N=8, plegado D_4 -> C_3 = Sp(6), lambda_1 <= 5)
+     formas: 1287
+     ejemplos (lambda -> multiplicidades en la base sp_mu, hasta 5 terminos):
+        (5, 5, 5, 5, 5, 5, 5, 3) [((2, 0, 0), -1), ((0, 0, 0), -1)]                       signo -1
+        (5, 5, 5, 5, 5, 5, 5, 2) [((3, 0, 0), -1), ((1, 0, 0), -1)]                       signo -1
+        (5, 5, 5, 5, 5, 5, 5, 1) [((4, 0, 0), -1), ((2, 0, 0), -1), ((0, 0, 0), -1)]      signo -1
+        (5, 5, 5, 5, 5, 5, 5, 0) [((5, 0, 0), -1), ((3, 0, 0), -1), ((1, 0, 0), -1)]      signo -1
+        (5, 5, 5, 5, 5, 5, 4, 3) [((2, 1, 0), -1), ((1, 0, 0), -1)]                       signo -1
+        (5, 5, 5, 5, 5, 5, 4, 2) [((3, 1, 0), -1), ((2, 0, 0), -1), ((1, 1, 0), -1)]      signo -1
+        (5, 5, 5, 5, 5, 5, 4, 1) [((4, 1, 0), -1), ((3, 0, 0), -1), ((2, 1, 0), -1), ((1, signo -1
+        (5, 5, 5, 5, 5, 5, 4, 0) [((5, 1, 0), -1), ((4, 0, 0), -1), ((3, 1, 0), -1), ((2, signo -1
+
+     N1  DICOTOMIA
+        cero           : 27
+        no negativa    : 504
+        no positiva    : 504
+        MEZCLADA       : 252
+        -> *** REFUTADA: 252 expansiones con signos MEZCLADOS ***
+           contraejemplo (5, 5, 5, 4, 4, 4, 3, 3) [((2, 2, 1), 1), ((1, 1, 1), -1)]
+           contraejemplo (5, 5, 5, 4, 4, 4, 3, 1) [((4, 2, 1), 1), ((2, 2, 1), 1), ((1, 1, 1), -1)]
+           contraejemplo (5, 5, 5, 4, 4, 4, 2, 2) [((3, 3, 1), 1), ((3, 1, 1), 1), ((2, 2, 1), -1), ((1, 1, 1), 1)]
+           contraejemplo (5, 5, 5, 4, 4, 4, 2, 0) [((5, 3, 1), 1), ((5, 1, 1), 1), ((3, 3, 1), 1), ((3, 1, 1), 1), ((2, 
+           contraejemplo (5, 5, 5, 4, 4, 4, 1, 1) [((4, 4, 1), 1), ((4, 2, 1), 1), ((3, 3, 1), -1), ((3, 1, 1), -1), ((2
+           contraejemplo (5, 5, 5, 4, 4, 4, 0, 0) [((5, 5, 1), 1), ((5, 3, 1), 1), ((5, 1, 1), 1), ((4, 4, 1), -1), ((4,
+
+     N2  REGLA DE SIGNO  (generico = beta_1 y beta_2 de paridad distinta)
+        fuera del caso generico (la regla NO opina): 286
+        signo MEDIDO = +                   | signo PREDICHO de beta = +         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |    263   ej: (5, 4, 4, 4, 4, 4, 4, 4)
+           SI                              | no                                 |     82   ej: (5, 5, 5, 4, 4, 4, 4, 4)
+           no                              | SI                                 |     53   ej: (5, 4, 4, 4, 3, 3, 3, 3)
+           no                              | no                                 |    324   ej: (5, 5, 5, 5, 5, 5, 5, 5)
+        desacuerdos: 135 de 722
+        veredicto: NO separa (135 desacuerdos)
+
+     N4  CRITERIO  cero <=> (i) y (ii)   [via bialternante, sin estratos ni probe()]
+        s_lambda == 0                      | (i) y (ii)                         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |     27   ej: (5, 5, 5, 5, 4, 4, 4, 4)
+           no                              | no                                 |   1260   ej: (5, 5, 5, 5, 5, 5, 5, 5)
+        desacuerdos: 0 de 1287
+        veredicto: EXACTA
+
+     N3  coeficiente maximo |a_mu| = 5 ;  suma de |a_mu| maxima = 46
+
+  r=4  (N=10, plegado D_5 -> C_4 = Sp(8), lambda_1 <= 2)
+     formas: 66
+     ejemplos (lambda -> multiplicidades en la base sp_mu, hasta 5 terminos):
+        (2, 2, 2, 2, 2, 2, 2, 2, 2, 0) [((2, 0, 0, 0), 1), ((0, 0, 0, 0), 1)]                   signo +1
+        (2, 2, 2, 2, 2, 2, 2, 2, 1, 0) [((2, 1, 0, 0), 1), ((1, 0, 0, 0), 1)]                   signo +1
+        (2, 2, 2, 2, 2, 2, 2, 2, 0, 0) [((2, 2, 0, 0), 1), ((2, 0, 0, 0), 1), ((0, 0, 0, 0), 1) signo +1
+        (2, 2, 2, 2, 2, 2, 2, 1, 1, 0) [((2, 1, 1, 0), 1), ((1, 1, 0, 0), 1)]                   signo +1
+        (2, 2, 2, 2, 2, 2, 2, 1, 0, 0) [((2, 2, 1, 0), 1), ((2, 1, 0, 0), 1), ((1, 0, 0, 0), 1) signo +1
+        (2, 2, 2, 2, 2, 2, 2, 0, 0, 0) [((2, 2, 2, 0), 1), ((2, 2, 0, 0), 1), ((2, 0, 0, 0), 1) signo +1
+        (2, 2, 2, 2, 2, 2, 1, 1, 1, 0) [((2, 1, 1, 1), 1), ((1, 1, 1, 0), 1)]                   signo +1
+        (2, 2, 2, 2, 2, 2, 1, 1, 0, 0) [((2, 2, 1, 1), 1), ((2, 1, 1, 0), 1), ((1, 1, 0, 0), 1) signo +1
+
+     N1  DICOTOMIA
+        cero           : 2
+        no negativa    : 39
+        no positiva    : 19
+        MEZCLADA       : 6
+        -> *** REFUTADA: 6 expansiones con signos MEZCLADOS ***
+           contraejemplo (2, 2, 2, 2, 1, 1, 1, 1, 0, 0) [((2, 2, 1, 1), -1), ((1, 1, 1, 1), 1)]
+           contraejemplo (2, 2, 2, 2, 1, 1, 1, 0, 0, 0) [((2, 2, 2, 1), -1), ((2, 1, 1, 1), 1), ((1, 1, 1, 0), 1)]
+           contraejemplo (2, 2, 2, 2, 1, 1, 0, 0, 0, 0) [((2, 2, 2, 2), -1), ((2, 2, 1, 1), 1), ((2, 1, 1, 0), 1), ((1, 1, 0, 
+           contraejemplo (2, 2, 2, 1, 1, 1, 1, 0, 0, 0) [((2, 2, 2, 0), -1), ((2, 2, 1, 1), -1), ((1, 1, 1, 1), 1)]
+           contraejemplo (2, 2, 2, 1, 1, 1, 0, 0, 0, 0) [((2, 2, 2, 1), -1), ((2, 1, 1, 1), 1), ((1, 1, 1, 0), 1)]
+           contraejemplo (2, 2, 1, 1, 1, 1, 0, 0, 0, 0) [((2, 2, 1, 1), -1), ((1, 1, 1, 1), 1)]
+
+     N2  REGLA DE SIGNO  (generico = beta_1 y beta_2 de paridad distinta)
+        fuera del caso generico (la regla NO opina): 9
+        signo MEDIDO = +                   | signo PREDICHO de beta = +         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |     29   ej: (2, 2, 2, 2, 2, 2, 2, 2, 2, 2)
+           SI                              | no                                 |      5   ej: (2, 1, 1, 1, 1, 0, 0, 0, 0, 0)
+           no                              | SI                                 |      5   ej: (2, 2, 2, 2, 1, 1, 1, 1, 1, 1)
+           no                              | no                                 |     10   ej: (2, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+        desacuerdos: 10 de 49
+        veredicto: NO separa (10 desacuerdos)
+
+     N4  CRITERIO  cero <=> (i) y (ii)   [via bialternante, sin estratos ni probe()]
+        s_lambda == 0                      | (i) y (ii)                         |   n
+        ------------------------------------------------------------------------------
+           SI                              | SI                                 |      2   ej: (2, 2, 2, 2, 2, 1, 1, 1, 1, 1)
+           no                              | no                                 |     64   ej: (2, 2, 2, 2, 2, 2, 2, 2, 2, 2)
+        desacuerdos: 0 de 66
+        veredicto: EXACTA
+
+     N3  coeficiente maximo |a_mu| = 1 ;  suma de |a_mu| maxima = 5
+
+================================================================================================================
+N3  COTAS: la consulta externa dice que NO hay ninguna.  Se verifica el caso cerrado.
+================================================================================================================
+
+     [z^0] s_(2M)(1,-1,z,1/z) tiene que valer M+1, y s_(2M)(1,-1,1,1) = (M+1)^2
+        M=0    [z^0] = 1    (esperado 1   )   s(1,-1,1,1) = 1      (esperado 1     )  ok
+        M=1    [z^0] = 2    (esperado 2   )   s(1,-1,1,1) = 4      (esperado 4     )  ok
+        M=2    [z^0] = 3    (esperado 3   )   s(1,-1,1,1) = 9      (esperado 9     )  ok
+        M=3    [z^0] = 4    (esperado 4   )   s(1,-1,1,1) = 16     (esperado 16    )  ok
+        M=4    [z^0] = 5    (esperado 5   )   s(1,-1,1,1) = 25     (esperado 25    )  ok
+        M=5    [z^0] = 6    (esperado 6   )   s(1,-1,1,1) = 36     (esperado 36    )  ok
+        M=6    [z^0] = 7    (esperado 7   )   s(1,-1,1,1) = 49     (esperado 49    )  ok
+        M=7    [z^0] = 8    (esperado 8   )   s(1,-1,1,1) = 64     (esperado 64    )  ok
+        M=8    [z^0] = 9    (esperado 9   )   s(1,-1,1,1) = 81     (esperado 81    )  ok
+        0 fallos sobre 9
+
+     -> no hay analogo de {0,+-1,+-2}: los coeficientes crecen sin cota ya en r = 1.
+
+================================================================================================================
+VEREDICTO
+================================================================================================================
+
+  1. MUERTO Y ENTERRADO: 's_lambda(1,-1,z^{+-1}) = +- monomio * UN caracter simplectico'.
+     Contraejemplo minimo propio y externo coincidentes: s_(2)(1,-1,z,1/z) = sp_(2) + sp_(0).
+
+  2. LO QUE QUEDA EN PIE: +- combinacion NO NEGATIVA de caracteres de Sp(2r).
+     expansiones con signos MEZCLADOS en total: 652  -> REFUTADA
+
+  3. LA REGLA DE SIGNO NO ERA DESCONOCIDA: es el signo del ESTRATO DE ARRIBA.
+     desacuerdos totales prediccion-vs-medida: 293
+     Y (-1)^{|lambda|} esta REFUTADA por algebra (T1), no por conteo.
+
+  4. EL CRITERIO t=2 por via independiente: 0 desacuerdos en total.
+
+DONE

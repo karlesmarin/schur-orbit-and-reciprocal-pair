@@ -1,0 +1,31 @@
+============================================================================================================================
+¿EN QUE BASE VIVE EL OBJETO?   pelado en C_{rk} (simplectico) y en B_{rk} (ortogonal impar)
+============================================================================================================================
+
+  C0  ACEPTACION -- el objeto PAR, donde la respuesta se conoce: tiene que cerrar en C
+
+   beta   (t=2, R=3, N=8)             | base C_3                               | base B_3
+   ----------------------------------------------------------------------------------------------------------------------
+   (10, 9, 7, 4, 3, 2, 1, 0)          | C:   6 coefs, resto   0, enteros si  | B:  17 coefs, resto   0, enteros si
+   (12, 10, 8, 5, 3, 2, 1, 0)         | C:  21 coefs, resto   0, enteros si  | B:  47 coefs, resto   0, enteros si
+   (13, 11, 8, 6, 4, 2, 1, 0)         | C:  27 coefs, resto   0, enteros si  | B:  60 coefs, resto   0, enteros si
+
+  N1  EL OBJETO IMPAR,  Phi_{1,R'}  con R' = 3,  N = 1 + 2R' = 7
+
+   beta   (t=1, R'=3, N=7)            | base C_3                               | base B_3
+   ----------------------------------------------------------------------------------------------------------------------
+   (9, 7, 5, 3, 2, 1, 0)              | C:  14 coefs, resto   0, enteros si  | B:   6 coefs, resto   0, enteros si
+   (11, 8, 6, 4, 3, 1, 0)             | C:  36 coefs, resto   0, enteros si  | B:  25 coefs, resto   0, enteros si
+   (10, 9, 6, 4, 2, 1, 0)             | C:  31 coefs, resto   0, enteros si  | B:  18 coefs, resto   0, enteros si
+   (12, 10, 7, 5, 3, 2, 0)            | C:  63 coefs, resto   0, enteros si  | B:  52 coefs, resto   0, enteros si
+   (8, 6, 5, 3, 2, 1, 0)              | C:   7 coefs, resto   0, enteros si  | B:   2 coefs, resto   0, enteros si
+
+============================================================================================================================
+  LECTURA, escrita ANTES de correr:
+    * si el par cierra en C y el impar cierra en B  ->  el borrador del paper esta MAL en el
+      impar y hay que reescribir la seccion: la mitad impar ramifica por el lado ORTOGONAL.
+    * si los dos cierran en C  ->  el borrador vale y el impar es de verdad el companion.
+    * si el impar cierra en las DOS, no dice nada: hay que mirar cual da coeficientes enteros
+      y resto cero de forma estable sobre varias beta, que es la columna que se imprime.
+============================================================================================================================
+DONE

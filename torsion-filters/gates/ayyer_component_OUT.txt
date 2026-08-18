@@ -1,0 +1,61 @@
+==============================================================================================
+C0  CONTROL -- Sage's o and sp against our Lemma 8.8, in OUR convention
+        o_nu(1, -1, z_1, 1/z_1, ...) = sp_nu(z_1, 1/z_1, ...)
+==============================================================================================
+    60 partitions at r=1,2 ; 0 disagreements
+    dictionary confirmed.  Proceeding.
+
+==============================================================================================
+C0b CALIBRATION -- Koike-Terada determinants against Sage's bases
+        the character at a torus element is a determinant of size l(lambda) in the h's,
+        so |lambda| never enters the cost.  This is what makes Example 4.9 reachable.
+==============================================================================================
+    59 shapes, 106 determinant/basis disagreements
+    *** Koike-Terada form wrong -- Example 4.9 below is not to be trusted ***
+
+==============================================================================================
+EXAMPLE 4.9 of arXiv:2501.00275, computed  (t=5, n=2, |mu|=44, |lambda|=55)
+==============================================================================================
+    sp_mu(X, zX, ..., z^4 X)          = 0
+    o_lambda(X, zX, ..., z^4 X, 1)    = 0   <- they report 0
+    o_lambda(X, zX, ..., z^4 X, 1,-1) = 0   <- the other component
+
+    their Example 4.9 is reproduced iff the first is nonzero and the second is 0.
+
+==============================================================================================
+THE TEST -- lambda = mu_tn + (mu, 0), Section 4.3's construction
+==============================================================================================
+t    n    mu's     sp != 0   A mismatch    B mismatch     B fixes A     
+----------------------------------------------------------------------------------------------
+2    1    36       21        0             15             0             
+2    2    94       50        0             16             0             
+3    1    67       34        1             18             0             
+      mu=[5, 3, 2]        lambda=[7, 5, 4, 2]        B also zero? True
+3    2    125      57        0             8              0             
+4    1    94       30        4             10             0             
+      mu=[3, 1, 1, 1]     lambda=[4, 2, 2, 2, 1]     B also zero? True
+      mu=[7, 1, 1, 1]     lambda=[8, 2, 2, 2, 1]     B also zero? True
+      mu=[5, 2, 2, 1]     lambda=[6, 3, 3, 2, 1]     B also zero? True
+5    1    113      35        1             8              0             
+      mu=[4, 1, 1, 1, 1]  lambda=[5, 2, 2, 2, 2, 1]  B also zero? True
+
+==============================================================================================
+READING
+==============================================================================================
+  C1 : 'A mismatch' must be > 0 somewhere, or the phenomenon is out of range.
+  YES: 'B mismatch' is 0 wherever 'A mismatch' is not, i.e. 'B fixes A' = 'A mismatch'.
+  NO : 'B mismatch' tracks 'A mismatch' -- the component is not what is going on.
+=[2, 0, 0, 0]     lambda=[2, 0, 0, 0, 0]     B also zero? True
+      mu=[4, 0, 0, 0]     lambda=[4, 0, 0, 0, 0]     B also zero? True
+      mu=[3, 1, 0, 0]     lambda=[3, 1, 0, 0, 0]     B also zero? True
+5    1    113      35        34            34             0             
+      mu=[2, 0, 0, 0, 0]  lambda=[2, 0, 0, 0, 0, 0]  B also zero? True
+      mu=[3, 1, 0, 0, 0]  lambda=[3, 1, 0, 0, 0, 0]  B also zero? True
+      mu=[5, 0, 0, 0, 0]  lambda=[5, 0, 0, 0, 0, 0]  B also zero? True
+
+==============================================================================================
+READING
+==============================================================================================
+  C1 : 'A mismatch' must be > 0 somewhere, or the phenomenon is out of range.
+  YES: 'B mismatch' is 0 wherever 'A mismatch' is not, i.e. 'B fixes A' = 'A mismatch'.
+  NO : 'B mismatch' tracks 'A mismatch' -- the component is not what is going on.

@@ -1,0 +1,38 @@
+================================================================================================================
+EL TOP TRANSVERSAL CONTRA LA LEY DE mu_max
+================================================================================================================
+
+  t=3 r=2  (82 formas)
+     M1  mu_max == max_Lambda top c(Lambda,.)   :  64 de  82   <== FATAL
+     M2  ese maximo es unico                    :  64 de  82   <== la forma de (L2)
+     M3  el argmax ES el unico con c != 0       :  74 de  82
+     D1  SENUELO: el Lambda maximo en dominancia:  62 de  82  (ya muerto)
+     D2  SENUELO: el transversal S_max          :  20 de  82
+     ++  M1 acierta EXACTAMENTE cuando el maximo es unico :  82 de  82
+     !! {'beta': [8, 7, 6, 3, 2, 1, 0], 'mu_max': [2, 1], 'pred': [2, 2], 'todos': {'[2, 2, 2]': [2, 2], '[2, 2, 0]': [2, 2], '[2, 0, 0]': [2, 0], '[0, 0, 0]': [0, 0]}}
+
+  t=5 r=2  (41 formas)
+     M1  mu_max == max_Lambda top c(Lambda,.)   :  32 de  41   <== FATAL
+     M2  ese maximo es unico                    :  32 de  41   <== la forma de (L2)
+     M3  el argmax ES el unico con c != 0       :  34 de  41
+     D1  SENUELO: el Lambda maximo en dominancia:  33 de  41  (ya muerto)
+     D2  SENUELO: el transversal S_max          :  17 de  41
+     ++  M1 acierta EXACTAMENTE cuando el maximo es unico :  41 de  41
+     !! {'beta': [10, 9, 8, 5, 4, 3, 2, 1, 0], 'mu_max': [2, 0], 'pred': [2, 2], 'todos': {'[2, 2, 2, 0]': [2, 2], '[2, 2, 0, 0]': [2, 2], '[2, 0, 0, 0]': [2, 0], '[0, 0, 0, 0]': [0, 0]}}
+
+  t=3 r=3  (9 formas)
+     M1  mu_max == max_Lambda top c(Lambda,.)   :   9 de   9   <== FATAL
+     M2  ese maximo es unico                    :   9 de   9   <== la forma de (L2)
+     M3  el argmax ES el unico con c != 0       :   9 de   9
+     D1  SENUELO: el Lambda maximo en dominancia:   9 de   9  (ya muerto)
+     D2  SENUELO: el transversal S_max          :   2 de   9
+     ++  M1 acierta EXACTAMENTE cuando el maximo es unico :   9 de   9
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si M1 y M3 salen limpias, (L2) deja de ser una busqueda: el Lambda que aporta en mu_max
+     es el que maximiza un vector que se LEE de Lambda, sin evaluar nada.
+   * si M1 acierta y M3 no, el top se predice pero el Lambda que aporta es otro, y entonces
+     (L2) no se reduce a esta comparacion.
+================================================================================================================
+DONE

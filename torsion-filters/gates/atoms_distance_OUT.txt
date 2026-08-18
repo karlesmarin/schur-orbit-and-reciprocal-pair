@@ -1,0 +1,55 @@
+============================================================================================================================
+LOS ATOMOS (nu,Q) Y SUS DISTANCIAS   --   t=4, r=2
+============================================================================================================================
+
+  beta=(10, 9, 7, 4, 3, 2, 1, 0)  mu_max=(2, 0)  A=1
+      nu con eps != 0 que tocan mu_max: 3  (2 positivos, 1 negativos)
+      atomos totales (con multiplicidad): 3
+      distancias |nu triangulo nu'| entre signos opuestos: {2: 1, 4: 1}
+      de esos pares, difieren por UN 4-ribbon: 1   |  SEÑUELO otros tamaños: 0
+
+  beta=(12, 11, 10, 5, 3, 2, 1, 0)  mu_max=(4, 2)  A=-1
+      nu con eps != 0 que tocan mu_max: 1  (0 positivos, 1 negativos)
+      atomos totales (con multiplicidad): 1
+      distancias |nu triangulo nu'| entre signos opuestos: {}
+      de esos pares, difieren por UN 4-ribbon: 0   |  SEÑUELO otros tamaños: 0
+
+  beta=(12, 11, 10, 9, 7, 2, 1, 0)  mu_max=(4, 2)  A=1
+      nu con eps != 0 que tocan mu_max: 1  (1 positivos, 0 negativos)
+      atomos totales (con multiplicidad): 1
+      distancias |nu triangulo nu'| entre signos opuestos: {}
+      de esos pares, difieren por UN 4-ribbon: 0   |  SEÑUELO otros tamaños: 0
+
+  beta=(13, 9, 8, 7, 5, 4, 2, 0)  mu_max=(6, 0)  A=-1
+      nu con eps != 0 que tocan mu_max: 1  (0 positivos, 1 negativos)
+      atomos totales (con multiplicidad): 1
+      distancias |nu triangulo nu'| entre signos opuestos: {}
+      de esos pares, difieren por UN 4-ribbon: 0   |  SEÑUELO otros tamaños: 0
+
+  beta=(14, 13, 11, 4, 3, 2, 1, 0)  mu_max=(6, 4)  A=1
+      nu con eps != 0 que tocan mu_max: 3  (2 positivos, 1 negativos)
+      atomos totales (con multiplicidad): 3
+      distancias |nu triangulo nu'| entre signos opuestos: {2: 1, 4: 1}
+      de esos pares, difieren por UN 4-ribbon: 0   |  SEÑUELO otros tamaños: 0
+
+  beta=(14, 13, 11, 8, 3, 2, 1, 0)  mu_max=(6, 4)  A=1
+      nu con eps != 0 que tocan mu_max: 3  (2 positivos, 1 negativos)
+      atomos totales (con multiplicidad): 3
+      distancias |nu triangulo nu'| entre signos opuestos: {2: 1, 4: 1}
+      de esos pares, difieren por UN 4-ribbon: 0   |  SEÑUELO otros tamaños: 0
+
+  beta=(18, 17, 11, 8, 7, 6, 1, 0)  mu_max=(10, 0)  A=1
+      nu con eps != 0 que tocan mu_max: 3  (2 positivos, 1 negativos)
+      atomos totales (con multiplicidad): 3
+      distancias |nu triangulo nu'| entre signos opuestos: {2: 1, 4: 1}
+      de esos pares, difieren por UN 4-ribbon: 1   |  SEÑUELO otros tamaños: 0
+
+============================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si casi todos los pares opuestos cercanos difieren por UN t-ribbon -> hay operacion local
+     repetible, y la involucion tiene donde agarrarse.
+   * si las distancias son caoticas y el señuelo acierta igual -> se abandona la involucion y
+     se pasa a la interpretacion de caracteristica de Euler.
+
+============================================================================================================================
+DONE

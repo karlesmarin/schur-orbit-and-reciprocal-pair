@@ -1,0 +1,56 @@
+========================================================================================================
+T3  the hand case, printed by the code: beta = [10,9,7,4,3,2,1,0], t = 4, r = 2
+========================================================================================================
+
+   S = [10, 9, 7, 4, 3, 2, 1, 0]   C = 10   concentric: False   (ii): True
+   Dmax = 16, attained by 2 transversals:
+      kept g = [2, 3, 4, 9]       T = [10, 7, 1, 0]      H = [10, 7]      L = [1, 0]       w = -1
+         a_H(z) a_L(1/z) monomials: [((10, 6), 1), ((9, 7), -1), ((7, 9), -1), ((6, 10), 1)]
+      kept g = [1, 2, 4, 7]       T = [10, 9, 3, 0]      H = [10, 9]      L = [3, 0]       w = +1
+         a_H(z) a_L(1/z) monomials: [((10, 6), 1), ((9, 7), -1), ((7, 9), -1), ((6, 10), 1)]
+   C - T1 = [10, 9, 3, 0]   equals T2: True
+   the two w are opposite: True
+   [Phi]_top = {}  ->  VANISHES
+
+   T3 PASS: the case comes out exactly as written by hand.
+
+========================================================================================================
+T1/T2  closure of the maximiser set under T -> C - T, against the vanishing of [Phi]_top
+========================================================================================================
+
+     t   r   shapes | crit: closed  top=0 | non-crit: closed & top=0   closed only   top=0 only  neither
+  ----------------------------------------------------------------------------------------------------
+     4   1     4664 |         141    141 |                      0          3556            0      967
+     4   2     4295 |          30     30 |                     14           528            0     3723
+     4   3     1457 |           6      6 |                      2            61            0     1388
+     6   2     1118 |           7      7 |                      3           162            0      946
+     6   3      484 |           2      2 |                      1            22            0      459
+     8   2      595 |           3      3 |                      0           109            0      483
+
+  contingency over ALL shapes, centre C = min S + max S:
+     closed=yes top=0:    209      closed=yes top!=0:   4438
+     closed=no  top=0:      0      closed=no  top!=0:   7966
+
+  T2 the DECOY centre C' = min + max of the maximiser values only:
+     closed=yes top=0:    209      closed=yes top!=0:   5498
+     closed=no  top=0:      0      closed=no  top!=0:   6906
+
+  K2 criterion-holding shapes where closure FAILS: 0 (must be 0)
+  K1 non-vacuity: closure both occurs and fails among non-criterion shapes: PASS
+
+========================================================================================================
+T4  how much of  Phi_t = 0  =>  (ii)  is PROVED, and how much is still only measured
+========================================================================================================
+
+     t   r  (ii) fails | unique maximiser (PROVED)   only via [Phi]_top (measured)   left
+  ----------------------------------------------------------------------------------------------------
+     4   1        4327                       4327                              0      0
+     4   2        3407                       3162                            245      0
+     4   3         923                        829                             94      0
+     6   2         983                        936                             47      0
+     6   3         370                        344                             26      0
+     8   2         551                        547                              4      0
+
+  totals: (ii) fails on 10561 shapes.  PROVED nonzero: 10145 (96.1%).  Measured-only: 416.  Left: 0.
+
+DONE

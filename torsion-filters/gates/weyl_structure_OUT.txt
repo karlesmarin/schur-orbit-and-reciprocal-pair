@@ -1,0 +1,39 @@
+======================================================================================================================
+LOS SUPERVIVIENTES EN mu_max COMO ELEMENTOS DEL GRUPO DE WEYL   (t=6, r=2, m=2)
+======================================================================================================================
+
+  beta = (13, 12, 11, 10, 7, 5, 4, 3, 2, 0)   mu_max = (4, 0)   A = 1   (control: suma = 1)
+     eta        c_eta   tau   elemento de Weyl (clases | signos)
+     (2, 0)         -3    -1   ((2, 1), (-1, 1))
+     (3, 1)         -2     1   ((1, 2), (-1, 1))
+     reflexiones que preservan el conjunto: NINGUNA
+     signos: +1 en 1, -1 en 1   |  suma de c_eta con signo = 1
+  (12, 11, 10, 9, 8, 7, 4, 3, 2, 0)  Phi = 0
+
+  beta = (14, 13, 11, 10, 9, 6, 4, 3, 1, 0)   mu_max = (4, 0)   A = 1   (control: suma = 1)
+     eta        c_eta   tau   elemento de Weyl (clases | signos)
+     (3, 1)         59     1   ((1, 2), (-1, 1))
+     (2, 0)         49    -1   ((2, 1), (-1, 1))
+     (3, 3)         16    -1   ((1, 2), (-1, -1))
+     (0, 0)         13     1   ((2, 1), (1, 1))
+     (5, 1)          9    -1   ((1, 2), (1, 1))
+     (5, 3)          3     1   ((1, 2), (1, -1))
+     reflexiones que preservan el conjunto: [('s_1 (signo)', False)]
+     signos: +1 en 3, -1 en 3   |  suma de c_eta con signo = 1
+
+  beta = (11, 10, 9, 8, 7, 6, 4, 2, 1, 0)   mu_max = (1, 0)   A = 1   (control: suma = 1)
+     eta        c_eta   tau   elemento de Weyl (clases | signos)
+     (0, 0)          4     1   ((2, 1), (1, 1))
+     (2, 0)          3    -1   ((2, 1), (-1, 1))
+     reflexiones que preservan el conjunto: [('s_1 (signo)', False)]
+     signos: +1 en 1, -1 en 1   |  suma de c_eta con signo = 1
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si alguna reflexion preserva el conjunto Y los |c_eta|, esa reflexion ES una involucion
+     que invierte el signo, y la conjetura de la unidad se reduce a contar los puntos fijos.
+   * si preserva el conjunto pero NO los coeficientes, la obstruccion esta localizada en B.
+   * si ninguna lo preserva, el grupo de Weyl no organiza la cancelacion y hay que volver a
+     los atomos.
+======================================================================================================================
+DONE

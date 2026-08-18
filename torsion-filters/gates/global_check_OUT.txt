@@ -1,0 +1,45 @@
+==========================================================================================================
+X1  the 216 verified vanishing shapes at t = 2: how many are ABOVE Littlewood's range?
+==========================================================================================================
+
+     t   r    N | vanishing | ell < N/2  ell = N/2  ell > N/2 | of the ell > N/2, rectangles?
+  ------------------------------------------------------------------------------------------------------
+     2   1    4 |       125 |         0         10        115 |                            0
+     2   2    6 |        62 |         0          5         57 |                            0
+     2   3    8 |        21 |         0          3         18 |                            0
+     2   4   10 |         7 |         0          2          5 |                            0
+     2   5   12 |         1 |         0          1          0 |                            0
+
+  totals: 216 vanishing shapes; 0 below N/2, 21 at N/2, 195 STRICTLY ABOVE N/2.
+  Theorem (stable) of the paper already covers ell <= N/2.  The 195 above it are the ones the
+  paper leaves open, and they are what the new argument has to be earning.
+
+  examples above the range:
+     t=2 r=1 N=4  ell=4 > 2   lambda = [2, 2, 1, 1]
+     t=2 r=1 N=4  ell=3 > 2   lambda = [5, 3, 2]
+     t=2 r=1 N=4  ell=4 > 2   lambda = [4, 4, 1, 1]
+     t=2 r=1 N=4  ell=4 > 2   lambda = [3, 3, 2, 2]
+     t=2 r=1 N=4  ell=3 > 2   lambda = [7, 5, 2]
+     t=2 r=1 N=4  ell=4 > 2   lambda = [6, 6, 1, 1]
+
+==========================================================================================================
+X2  the t = 2 conclusion re-run on the OTHER slice: all beta = N-subsets of {0..M}
+==========================================================================================================
+
+     t   r    N    M   shapes | [Phi]top=0  criterion  branch (b) | disagreements  | max |lambda| reached
+  ------------------------------------------------------------------------------------------------------
+     2   1    4   26    15834 |        364        364         364 |              0 |                   92
+     2   2    6   20    53592 |        460        460         460 |              0 |                   90
+     2   3    8   16    24300 |        178        178         178 |              0 |                   72
+     2   4   10   13     1001 |         14         14          14 |              0 |                   40
+     2   5   12   12       13 |          1          1           1 |              0 |                   12
+
+  X2 disagreements between [Phi]_top = 0, the criterion, and branch (b): 0
+  This slice bounds the LARGEST PART, not |lambda|, so it reaches beta sets that are far more
+  spread out than the |lambda|-bounded sweep; it is an independent slice, not a bigger range.
+
+  BOTH CHECKS PASS: the new argument is NOT vacuous -- it covers 195 shapes strictly above
+  Littlewood's range, exactly where the paper says the converse was missing -- and the
+  conclusion survives a completely different sampling of beta.
+
+DONE

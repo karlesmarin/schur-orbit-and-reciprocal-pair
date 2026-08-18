@@ -1,0 +1,75 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal.  Y el control de ida y vuelta: reconstruir un superviviente conocido
+====================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+
+  C0b  (18, 17, 11, 8, 7, 6, 1, 0)            nucleo (17, 11, 8, 7, 6, 1)         anulante (True, True); 4 vestidos cerca, y ITERANDO vuelve a salir: si
+  C0b  (38, 23, 21, 18, 17, 16, 15, 0)        nucleo (23, 21, 18, 17, 16, 15)     anulante (True, True); 2 vestidos cerca, y ITERANDO vuelve a salir: si
+  C0b  (26, 25, 15, 12, 11, 10, 1, 0)         nucleo (25, 15, 12, 11, 10, 1)      anulante (True, True); 4 vestidos cerca, y ITERANDO vuelve a salir: si
+
+  C0 PASA
+
+====================================================================================================================
+N1  LA REGLA DE COLOCACION -- donde caen los dos extremos respecto al nucleo, medido
+====================================================================================================================
+
+     t=4 r=2 (64 formas) : beta_max en clase FIJA de sigma_C en 8, fuera en 56
+                              beta_min en clase FIJA en 8, fuera en 56
+     t=6 r=3 (12 formas) : beta_max en clase FIJA de sigma_C en 2, fuera en 10
+                              beta_min en clase FIJA en 2, fuera en 10
+     t=8 r=3 (90 formas) : beta_max en clase FIJA de sigma_C en 0, fuera en 90
+                              beta_min en clase FIJA en 0, fuera en 90
+
+====================================================================================================================
+N2  RECICLADO -- nucleos de supervivientes ya barridos.  Control del mecanismo, NO del constructor
+====================================================================================================================
+
+     t=4 r=2 : 8 nucleos -> 25 supervivientes vestidos, profundidades [6, 8, 10, 12]
+     t=6 r=3 : 8 nucleos -> 28 supervivientes vestidos, profundidades [4, 6, 10, 12, 16]
+     t=8 r=3 : 8 nucleos -> 50 supervivientes vestidos, profundidades [4, 6, 8, 12, 14, 16]
+
+====================================================================================================================
+N3  DE CERO -- nucleos ANULANTES generados enumerando rango r-1.  LA COLUMNA QUE VALE
+====================================================================================================================
+
+     t=4 r=2 : 220 nucleos ANULANTES generados de cero (enumerando rango r-1, no reciclando),
+               10 vestidos dan SUPERVIVIENTE, profundidades [6, 8, 10]   (0 s)
+               ejemplo FABRICADO: (13, 8, 6, 3, 2, 1, 0, -5)  prof=6
+     t=6 r=3 : 300 nucleos ANULANTES generados de cero (enumerando rango r-1, no reciclando),
+               65 vestidos dan SUPERVIVIENTE, profundidades [4, 6, 8, 10, 12]   (4 s)
+               ejemplo FABRICADO: (16, 12, 11, 9, 7, 5, 4, 3, 2, 1, 0, -4)  prof=6
+     t=8 r=3 : 300 nucleos ANULANTES generados de cero (enumerando rango r-1, no reciclando),
+               220 vestidos dan SUPERVIVIENTE, profundidades [4, 6, 8, 10, 12, 14, 16]   (6 s)
+               ejemplo FABRICADO: (21, 16, 15, 12, 9, 7, 6, 5, 4, 3, 2, 1, 0, -5)  prof=8
+
+====================================================================================================================
+N4  PROFUNDIDAD A LA CARTA -- se pide K, se entrega beta, y se VERIFICA con probe()
+====================================================================================================================
+
+     pedido           beta entregado                                     prof verificada  coste
+  ----------------------------------------------------------------------------------------------------------------
+     t=4 r=2 K=30   (42, 17, 11, 8, 7, 6, 1, -24)                      30  ok           0.5 s
+     t=4 r=2 K=60   (72, 17, 11, 8, 7, 6, 1, -54)                      60  ok           0.5 s
+     t=4 r=2 K=100  (112, 17, 11, 8, 7, 6, 1, -94)                     100  ok          0.5 s
+     t=6 r=3 K=40   (52, 15, 14, 13, 11, 6, 5, 4, 3, 2, 1, -36)        40  ok           0.2 s
+     t=6 r=3 K=100  (112, 15, 14, 13, 11, 6, 5, 4, 3, 2, 1, -96)       100  ok          0.2 s
+     t=8 r=3 K=60   (76, 18, 15, 14, 13, 8, 7, 6, 5, 4, 3, 2, 1, -56)  60  ok           2.8 s
+
+====================================================================================================================
+N5  VEREDICTO
+====================================================================================================================
+
+     N3  construccion DE CERO (nucleos generados, no reciclados) : funciona en 3 de 3 configuraciones
+     N4  profundidad a la carta                                  : 6 de 6 entregados y verificados
+
+     COSTE, que es el punto: alcanzar K = 22 por barrido exhaustivo costo 44 anchuras y 2123 s
+     (support_ladder.py, t=4 r=2 hasta W=50, 14 millones de formas en la ultima anchura).
+     Aqui la profundidad se pide y se entrega.
+
+     LO QUE ESTO NO ES: una biyeccion.  No se afirma que TODO superviviente se construya asi,
+     solo que estos se construyen y se verifican.  El reciproco -- que todo nucleo anulante
+     vestido de dos extremos da superviviente -- es FALSO y su rendimiento esta en N3.
+
+DONE

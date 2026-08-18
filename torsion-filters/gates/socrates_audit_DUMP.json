@@ -1,0 +1,42 @@
+{
+ "n": 16,
+ "exactos_ok": 16,
+ "socrates_discrepa": [
+  {
+   "caso": "epsdet t=3: prod_{k<t}(1-w^k z) = 1-z^t",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "epsdet t=5: prod_{k<t}(1-w^k z) = 1-z^t",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "epsdet t=7: prod_{k<t}(1-w^k z) = 1-z^t",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "crossden t=3: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "crossden t=5: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "crossden t=7: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "crossden t=9: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "even t=6: prod = (1-z^t)/((1-z)(1+z))",
+   "dijo": "no trivial"
+  },
+  {
+   "caso": "even t=10: prod = (1-z^t)/((1-z)(1+z))",
+   "dijo": "no trivial"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+field GF(1000000007)
+
+========================================================================================================
+D1  the dictionary as a polynomial identity, over GF(p) at random points
+========================================================================================================
+
+     r   sets tested   points   D1 bad
+  ----------------------------------------------------------------------------------------------------
+     2            60      180        0
+     3            60      180        0
+     4            45      135        0
+
+  D1 PASS: P(H,L) = +- (prod z)^{h_r - l_1} V(z)^2 s_atil(z) s_astar(z), exactly.
+
+========================================================================================================
+D2  does the PvW invariant group the sets exactly as P does?     D3/D4 the two decoys
+========================================================================================================
+
+     r    M   sets   P-classes  INV-classes | D2 bad | D3 decoy (no det)  D4 decoy (ordered)
+  ----------------------------------------------------------------------------------------------------
+     2   13   1001         161          161 |      0 |               185                375
+     3   11    924         246          246 |      0 |               268                648
+     4    9     45          21           21 |      0 |                13                 45
+
+  D2 mismatched classes between the P-partition and the PvW-invariant partition: 0
+  D3 decoy (drop the det integer h_r - l_1): 466 classes differ -- it must OVER-merge.
+  D4 decoy (ordered pair instead of multiset): 1068 classes differ -- it must UNDER-merge.
+  D5 non-vacuity: collisions realised by a translation 682, by a reflection 1038.
+
+  A1 IS PURBHOO-VAN WILLIGENBURG THEOREM 2.5.  The dictionary is exact, both halves of
+  their criterion are load-bearing, and the two collision types are exactly the
+  translation (their det condition) and the reflection (their multiset).  A1 is NOT ours
+  and must be cited, not claimed.  With it the chain closes:  Phi_t = 0  =>  (ii).
+
+DONE

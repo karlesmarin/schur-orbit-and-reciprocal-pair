@@ -1,0 +1,4617 @@
+{
+ "config": {
+  "t": 6,
+  "r": 2,
+  "m": 2,
+  "R": 4,
+  "n": 16,
+  "poblacion": "las 16 formas de t=6,r=2 con Delta!=0, ver sixteen_betas.py"
+ },
+ "controles": {
+  "C0_fallos": 0,
+  "C1_fallos": 0,
+  "C2_fallos": 0
+ },
+ "especie_del_eta_alto": {
+  "-": 16
+ },
+ "reparto_muertos_por_especie": {
+  "W0+W3": 16,
+  "W0": 36,
+  "W3": 40
+ },
+ "histograma_supervivientes_en_mu_cand": {
+  "5": 2,
+  "8": 4,
+  "6": 6,
+  "9": 4
+ },
+ "filas": [
+  {
+   "beta": [
+    14,
+    13,
+    10,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 176,
+   "eta_alto_de_mu_cand": [
+    5,
+    1
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 1,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 1,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 1,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 2,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 4,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 3,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 4,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 5,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 4,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 7,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 3,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 9,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 17,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 8,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 14,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 20,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 10,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    11,
+    7,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 340,
+   "eta_alto_de_mu_cand": [
+    6,
+    4
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 1,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 6,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 11,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 6,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 21,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 42,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 28,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 6,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 43,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 82,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 46,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 54,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 79,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 30,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": 1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 5,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 25,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 38,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 17,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 61,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 114,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 63,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 12,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 104,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 185,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 94,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 108,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 156,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 52,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    14,
+    13,
+    11,
+    10,
+    6,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 210,
+   "eta_alto_de_mu_cand": [
+    5,
+    3
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 4,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 3,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 10,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 17,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 5,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 16,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 26,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 12,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 13,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 20,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 6,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 10,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 11,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 36,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 57,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 20,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 63,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 108,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 46,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 58,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 84,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 22,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    11,
+    10,
+    7,
+    5,
+    3,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 348,
+   "eta_alto_de_mu_cand": [
+    6,
+    4
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 2,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 3,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 26,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 39,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 15,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 97,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 167,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 79,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 12,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 176,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 300,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 137,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 158,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 232,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 60,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": 1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 10,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 14,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 81,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 120,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 46,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 262,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 458,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 221,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 33,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 466,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 798,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 368,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 419,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 610,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 156,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    14,
+    13,
+    10,
+    9,
+    6,
+    5,
+    4,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": -1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 196,
+   "eta_alto_de_mu_cand": [
+    5,
+    3
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -7,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -3,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -9,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -20,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -7,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -13,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -15,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -4,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -4,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -5,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -21,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -31,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -12,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -38,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -68,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -27,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -41,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -54,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -15,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    13,
+    10,
+    6,
+    5,
+    4,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 376,
+   "eta_alto_de_mu_cand": [
+    6,
+    6
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -2,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -11,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -17,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -36,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -61,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -33,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -57,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -119,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -73,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -18,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -66,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -117,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -70,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -31,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -58,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -7,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -3,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -14,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -24,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -53,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -86,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -49,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -84,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -180,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -110,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -28,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -102,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -180,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -111,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -48,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -92,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -12,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    13,
+    11,
+    9,
+    5,
+    4,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 362,
+   "eta_alto_de_mu_cand": [
+    6,
+    6
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -2,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -7,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -12,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -7,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -17,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -17,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 18,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 16,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -8,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -9,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 42,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 74,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 22,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 50,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 66,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 18,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -2,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -5,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -11,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 9,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 7,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -12,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 83,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 124,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 43,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -4,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 161,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 283,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 116,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 164,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 228,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 60,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    14,
+    13,
+    11,
+    10,
+    9,
+    6,
+    4,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 210,
+   "eta_alto_de_mu_cand": [
+    5,
+    3
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 4,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 4,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 13,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 22,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 24,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 39,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 16,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 21,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 31,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 8,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 11,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 14,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 47,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 74,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 28,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 90,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 153,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 63,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 89,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 125,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 34,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    13,
+    11,
+    10,
+    6,
+    4,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 362,
+   "eta_alto_de_mu_cand": [
+    6,
+    6
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -2,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -7,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -12,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -7,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -17,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -17,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 18,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 16,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -8,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -9,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 42,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 74,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 22,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 50,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 66,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 18,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -2,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -5,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -11,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 9,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 7,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -12,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 83,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 124,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 43,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -4,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 161,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 283,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 116,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 164,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 228,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 60,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    13,
+    11,
+    10,
+    9,
+    5,
+    2,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 376,
+   "eta_alto_de_mu_cand": [
+    6,
+    6
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -2,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -11,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -17,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -36,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -61,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -33,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -57,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -119,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -73,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -18,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -66,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -117,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -70,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -31,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -58,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -7,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": -3,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -14,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": -24,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -53,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -86,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": -49,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -84,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -180,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -110,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": -28,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -102,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -180,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -111,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -48,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -92,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -12,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    14,
+    13,
+    12,
+    10,
+    8,
+    5,
+    4,
+    3,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": -1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 210,
+   "eta_alto_de_mu_cand": [
+    5,
+    3
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -4,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -4,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -13,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -22,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -24,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -39,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -16,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -21,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -31,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -8,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -11,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -14,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -47,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -74,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -28,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -90,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -153,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -63,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -89,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -125,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -34,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    14,
+    13,
+    12,
+    11,
+    10,
+    8,
+    4,
+    3,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": -1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 210,
+   "eta_alto_de_mu_cand": [
+    5,
+    3
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -4,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -3,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -10,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -17,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -5,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -16,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -26,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -12,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -13,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -20,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -6,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": -1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -10,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -11,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -36,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -57,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -20,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -63,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -108,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -46,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -58,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -84,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -22,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    14,
+    13,
+    12,
+    10,
+    9,
+    8,
+    5,
+    4,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 196,
+   "eta_alto_de_mu_cand": [
+    5,
+    3
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 7,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 3,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 9,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 20,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 7,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 13,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 15,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 4,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 4,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 5,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 21,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 31,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 12,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 38,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 68,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 27,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 41,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 54,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 15,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    13,
+    12,
+    10,
+    8,
+    5,
+    4,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 348,
+   "eta_alto_de_mu_cand": [
+    6,
+    4
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 2,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 3,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 26,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 39,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 15,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 97,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 167,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 79,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 12,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 176,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 300,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 137,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 158,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 232,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 60,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": 1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 10,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 14,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 81,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 120,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 46,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 262,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 458,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 221,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 33,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 466,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 798,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 368,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 419,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 610,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 156,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    4,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": -1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 176,
+   "eta_alto_de_mu_cand": [
+    5,
+    1
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    5,
+    3
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -1,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -1,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -1,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -2,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -4,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -3,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -4,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -5,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": -1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": -1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": -4,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": -7,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": -3,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": -9,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": -17,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": -8,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": -14,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": -20,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": -10,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  },
+  {
+   "beta": [
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    8,
+    4,
+    1,
+    0
+   ],
+   "v_max_laplace": [
+    5,
+    2
+   ],
+   "v_1_laplace": [
+    4,
+    1
+   ],
+   "mu_max_branching": [
+    4,
+    1
+   ],
+   "Delta": [
+    1,
+    1
+   ],
+   "A_mu_max": 1,
+   "A_mu_cand": 0,
+   "n_terminos_branching": 340,
+   "eta_alto_de_mu_cand": [
+    6,
+    4
+   ],
+   "especie_del_alto": "-",
+   "eta_primero_superviviente_de_mu_max": [
+    6,
+    6
+   ],
+   "bloque_mu_cand": [
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 1,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 1,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 6,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 11,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 6,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 21,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 42,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 28,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 6,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 43,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 82,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 46,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 54,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 79,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 30,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "bloque_mu_max": [
+    {
+     "eta": [
+      6,
+      6
+     ],
+     "B": 1,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      5,
+      5
+     ],
+     "B": 5,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      6,
+      4
+     ],
+     "B": 7,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      4
+     ],
+     "B": 25,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      5,
+      3
+     ],
+     "B": 38,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      2
+     ],
+     "B": 17,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      3
+     ],
+     "B": 61,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      2
+     ],
+     "B": 114,
+     "tau": 0,
+     "especie": "W0+W3"
+    },
+    {
+     "eta": [
+      5,
+      1
+     ],
+     "B": 63,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      6,
+      0
+     ],
+     "B": 12,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      2,
+      2
+     ],
+     "B": 104,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      3,
+      1
+     ],
+     "B": 185,
+     "tau": 1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      4,
+      0
+     ],
+     "B": 94,
+     "tau": 0,
+     "especie": "W0"
+    },
+    {
+     "eta": [
+      1,
+      1
+     ],
+     "B": 108,
+     "tau": 0,
+     "especie": "W3"
+    },
+    {
+     "eta": [
+      2,
+      0
+     ],
+     "B": 156,
+     "tau": -1,
+     "especie": "-"
+    },
+    {
+     "eta": [
+      0,
+      0
+     ],
+     "B": 52,
+     "tau": 1,
+     "especie": "-"
+    }
+   ],
+   "C0_mu_max_coincide_con_laplace": true
+  }
+ ]
+}

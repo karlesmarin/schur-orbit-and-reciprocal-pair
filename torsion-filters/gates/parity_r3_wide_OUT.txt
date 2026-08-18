@@ -1,0 +1,66 @@
+A1  beta=[12, 10, 8, 4, 3, 2, 1, 0]  C=12  terms=8(want 8)  epsA=-1 epsB=-1 (want -1)  ->  PASS
+A2  r=3 |lam|<=20: shapes=2387(want 2387) zeros=6(want 6) explained=6(want 6) routes disagree=0(want 0)  ->  PASS
+
+========================================================================================
+THE WIDE r = 3 :  t = 4,  r = 3,  N = 10,  |lambda| <= 34      [6.3s]
+========================================================================================
+  shapes with all 4 classes occupied : 40736
+  of them concentric (eps defined)    : 273
+  not concentric / eps undefined      : 40463
+  route A vs route B on |lambda|<=20   : 2387 agree, 0 DISAGREE
+
+  the contingency table over concentric shapes (eps x vanishes):
+     eps      vanishes   count
+      1        True         20
+      1        False       125   <-- C1 VIOLATION, the mechanism is wrong
+     -1        True          0
+     -1        False         0
+    0(nc)        True          9
+    0(nc)        False       119
+
+  ZEROS                               : 29
+  explained by the pairing (eps=+1)   : 20
+  NOT explained                       : 9
+
+  the unexplained zeros, by hand (empty is the claim):
+    lam=[7, 6, 5, 4, 1]            beta=[16, 14, 12, 10, 6, 4, 3, 2, 1, 0]  C=16  sizes=[1, 1, 4, 4]  eps=0
+    lam=[7, 6, 5, 4, 2, 2, 1]      beta=[16, 14, 12, 10, 7, 6, 4, 2, 1, 0]  C=16  sizes=[1, 1, 4, 4]  eps=0
+    lam=[7, 6, 5, 4, 1, 1, 1, 1, 1] beta=[16, 14, 12, 10, 6, 5, 4, 3, 2, 0]  C=16  sizes=[1, 1, 4, 4]  eps=0
+    lam=[8, 7, 6, 5, 2, 1]         beta=[17, 15, 13, 11, 7, 5, 3, 2, 1, 0]  C=18  sizes=[1, 1, 4, 4]  eps=0
+    lam=[7, 6, 5, 5, 5, 2, 1]      beta=[16, 14, 12, 11, 10, 6, 4, 2, 1, 0]  C=16  sizes=[1, 1, 4, 4]  eps=0
+    lam=[7, 6, 5, 4, 4, 2, 1, 1, 1] beta=[16, 14, 12, 10, 9, 6, 4, 3, 2, 0]  C=16  sizes=[1, 1, 4, 4]  eps=0
+    lam=[7, 6, 5, 4, 2, 2, 2, 2, 1] beta=[16, 14, 12, 10, 7, 6, 5, 4, 2, 0]  C=16  sizes=[1, 1, 4, 4]  eps=0
+    lam=[8, 7, 6, 5, 2, 2, 2, 1]   beta=[17, 15, 13, 11, 7, 6, 5, 3, 1, 0]  C=18  sizes=[1, 1, 4, 4]  eps=0
+    lam=[8, 7, 6, 5, 2, 1, 1, 1, 1, 1] beta=[17, 15, 13, 11, 7, 5, 4, 3, 2, 1]  C=18  sizes=[1, 1, 4, 4]  eps=0
+
+  five explained zeros, by hand, so the reader can check one:
+    lam=[1, 1, 1, 1, 1]            beta=[10, 9, 8, 7, 6, 4, 3, 2, 1, 0]  C=10  sizes=[2, 2, 3, 3]  eps=+1
+    lam=[3, 3, 3, 3, 3]            beta=[12, 11, 10, 9, 8, 4, 3, 2, 1, 0]  C=12  sizes=[2, 2, 2, 4]  eps=+1
+    lam=[3, 3, 3, 3, 2, 1]         beta=[12, 11, 10, 9, 7, 5, 3, 2, 1, 0]  C=12  sizes=[2, 2, 3, 3]  eps=+1
+    lam=[3, 3, 3, 2, 2, 1, 1]      beta=[12, 11, 10, 8, 7, 5, 4, 2, 1, 0]  C=12  sizes=[2, 2, 2, 4]  eps=+1
+    lam=[3, 2, 2, 2, 2, 1, 1, 1, 1] beta=[12, 10, 9, 8, 7, 5, 4, 3, 2, 0]  C=12  sizes=[2, 2, 2, 4]  eps=+1
+
+  C3  zeros that are NOT concentric      : 0  (must be 0)
+  C2  concentric shapes that do NOT vanish: 244  (must be > 0, else eps is idle)
+  C4  zeros surviving 6 further points   : 29 of 29
+      zeros surviving the second prime   : 29 of 29
+
+========================================================================================
+THE ALTERNATION, one row per r,  t = 4
+========================================================================================
+
+   r   N  |lam|<=  shapes  concentric  ZEROS  explained  unexplained   eps that cancels
+  ------------------------------------------------------------------------------------
+   1   6      30     4664        1541    141         83           58           1
+   2   8      26     6317         307     30          3           27           -1
+   3  10      34    40736         273     29         20            9           1
+   4  12      18     1551          17      7          0            7           -1
+
+  'explained' = the reflection cancels the sum TERM BY TERM.  The prediction, written
+  before the wide sweep: the unexplained column is ZERO for r odd and large for r even.
+
+  r=1, three unexplained zeros by hand: lam=[3, 2]; lam=[4, 3]; lam=[4, 3, 1, 1, 1, 1]
+  r=2, three unexplained zeros by hand: lam=[1, 1, 1, 1]; lam=[3, 3, 3, 3]; lam=[3, 3, 2, 2, 1, 1]
+  r=4, three unexplained zeros by hand: lam=[1, 1, 1, 1, 1, 1]; lam=[3, 3, 3, 3, 3, 3]; lam=[3, 3, 3, 3, 3, 2, 1]
+
+DONE

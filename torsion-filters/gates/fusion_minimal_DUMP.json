@@ -1,0 +1,111 @@
+[
+ {
+  "t": 3,
+  "tipo": "B",
+  "rango": 1,
+  "nivel": 1,
+  "n_tensoriales": 0,
+  "ceros": 0,
+  "indices_espinoriales": [
+   1
+  ],
+  "chi_2omega_n": "0",
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 4,
+  "tipo": "C",
+  "rango": 1,
+  "nivel": 0,
+  "n_tensoriales": 1,
+  "ceros": 1,
+  "indices_espinoriales": [],
+  "chi_2omega_n": null,
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 5,
+  "tipo": "B",
+  "rango": 2,
+  "nivel": 1,
+  "n_tensoriales": 1,
+  "ceros": 1,
+  "indices_espinoriales": [
+   2
+  ],
+  "chi_2omega_n": "0",
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 6,
+  "tipo": "C",
+  "rango": 2,
+  "nivel": 0,
+  "n_tensoriales": 2,
+  "ceros": 2,
+  "indices_espinoriales": [],
+  "chi_2omega_n": null,
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 7,
+  "tipo": "B",
+  "rango": 3,
+  "nivel": 1,
+  "n_tensoriales": 2,
+  "ceros": 2,
+  "indices_espinoriales": [
+   3
+  ],
+  "chi_2omega_n": "0",
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 8,
+  "tipo": "C",
+  "rango": 3,
+  "nivel": 0,
+  "n_tensoriales": 3,
+  "ceros": 3,
+  "indices_espinoriales": [],
+  "chi_2omega_n": null,
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 9,
+  "tipo": "B",
+  "rango": 4,
+  "nivel": 1,
+  "n_tensoriales": 3,
+  "ceros": 3,
+  "indices_espinoriales": [
+   4
+  ],
+  "chi_2omega_n": "0",
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 10,
+  "tipo": "C",
+  "rango": 4,
+  "nivel": 0,
+  "n_tensoriales": 4,
+  "ceros": 4,
+  "indices_espinoriales": [],
+  "chi_2omega_n": null,
+  "senuelo_ceros": 0
+ },
+ {
+  "t": 11,
+  "tipo": "B",
+  "rango": 5,
+  "nivel": 1,
+  "n_tensoriales": 4,
+  "ceros": 4,
+  "indices_espinoriales": [
+   5
+  ],
+  "chi_2omega_n": "0",
+  "senuelo_ceros": 0
+ }
+]

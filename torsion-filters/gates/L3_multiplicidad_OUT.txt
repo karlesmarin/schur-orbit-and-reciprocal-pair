@@ -1,0 +1,45 @@
+================================================================================================================
+(L3): EL Lambda QUE APORTA TIENE MULTIPLICIDAD UNO
+================================================================================================================
+
+  t=3 r=2  (82 formas)
+     C0  VACUIDAD: reparto de a^B_Lambda sobre TODOS : {1: 362}
+         fraccion que vale 1                         : 362 de 362 = 100.0%
+     L3  a^B = 1 para el Lambda que aporta           :  82 de  82
+         reparto de a^B del que aporta               : {1: 82}
+     L3b .es ese Lambda el maximo en dominancia?     :  62 de  82
+     X2  .es el de MENOS transversales?              :  26 de  82
+     X1  cruce (a^B, num. transversales)             : {(1, 1): 7, (1, 2): 41, (1, 3): 34}
+     D1  SENUELO el Lambda de mayor a^B tiene a^B=1  :  82 de  82
+     D2  SENUELO el primero en orden lex tiene a^B=1 :  82 de  82
+
+  t=5 r=2  (41 formas)
+     C0  VACUIDAD: reparto de a^B_Lambda sobre TODOS : {1: 105}
+         fraccion que vale 1                         : 105 de 105 = 100.0%
+     L3  a^B = 1 para el Lambda que aporta           :  41 de  41
+         reparto de a^B del que aporta               : {1: 41}
+     L3b .es ese Lambda el maximo en dominancia?     :  33 de  41
+     X2  .es el de MENOS transversales?              :  25 de  41
+     X1  cruce (a^B, num. transversales)             : {(1, 2): 23, (1, 3): 4, (1, 4): 14}
+     D1  SENUELO el Lambda de mayor a^B tiene a^B=1  :  41 de  41
+     D2  SENUELO el primero en orden lex tiene a^B=1 :  41 de  41
+
+  t=3 r=3  (9 formas)
+     C0  VACUIDAD: reparto de a^B_Lambda sobre TODOS : {1: 9}
+         fraccion que vale 1                         : 9 de 9 = 100.0%
+     L3  a^B = 1 para el Lambda que aporta           :   9 de   9
+         reparto de a^B del que aporta               : {1: 9}
+     L3b .es ese Lambda el maximo en dominancia?     :   9 de   9
+     X2  .es el de MENOS transversales?              :   9 de   9
+     X1  cruce (a^B, num. transversales)             : {(1, 2): 6, (1, 3): 3}
+     D1  SENUELO el Lambda de mayor a^B tiene a^B=1  :   9 de   9
+     D2  SENUELO el primero en orden lex tiene a^B=1 :   9 de   9
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si casi todos los a^B valen 1, (L3) es casi vacia y hay que decirlo asi, no presentarla
+     como una de las tres patas.
+   * si hay una fraccion apreciable de a^B > 1 y el que aporta vale 1 siempre, (L3) tiene
+     contenido y el cruce X1/X2 dice de que tipo.
+================================================================================================================
+DONE

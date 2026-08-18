@@ -1,0 +1,30 @@
+====================================================================================================
+CONTROL FIRST: m = 0 must reproduce the Schur case (Theorem 4.4)
+====================================================================================================
+t    prime   pairs      failures  
+3    True    405        0         
+4    False   602        56        
+5    True    724        0         
+9    False   903        43        
+  (must be: 0 failures at t=3,5 ; failures at t=4,9 -- otherwise the code is wrong)
+
+====================================================================================================
+THEOREM 6.18, t ODD, with a genuine primed alphabet
+====================================================================================================
+t    prime   n    m    pairs      failures   repaired H*    fail H*   
+----------------------------------------------------------------------------------------------------
+3    True    1    1    257        0          257            0         
+3    True    1    2    257        0          257            0         
+5    True    1    1    421        0          421            0         
+5    True    1    2    421        0          421            0         
+7    True    1    1    484        0          484            0         
+7    True    1    2    484        0          484            0         
+9    False   1    1    266        15         159            0         
+       smallest failure: lambda=[3, 2] mu=[1, 1]  c={1: 0, 3: -2, 9: 216}
+
+====================================================================================================
+READING
+====================================================================================================
+  If t=3,5,7 show 0 failures and t=9,15 show failures, then 'odd' in Theorem 6.18 is
+  doing the job 'prime' does in Theorem 4.4, and the same repair -- the sign condition at
+  EVERY divisor e | t -- should send the last column to 0.

@@ -1,0 +1,32 @@
+==========================================================================================================================
+(R): EL FILTRO ES REGULARIDAD EN EL GRUPO ORIGINAL.  Verificacion independiente, sin Sage.
+==========================================================================================================================
+  t | G     | rk | eta probados | tau!=0 | (R) en G ORIGINAL | (R) en el DUAL | señuelo A_{m-1}
+  --------------------------------------------------------------------------------------------------------------------
+   3 | B_1   |  1 |           10 |      7 |           10 / 10 |        10 / 10 | 7 / 10
+   4 | C_1   |  1 |           13 |      7 |           13 / 13 |        10 / 13 | 7 / 13
+       el dual falla en 3; testigo minimo eta=(1,) con b mod 4 = [2]
+   5 | B_2   |  2 |           72 |     25 |           72 / 72 |        72 / 72 | 36 / 72
+   6 | C_2   |  2 |          100 |     28 |         100 / 100 |       76 / 100 | 40 / 100
+       el dual falla en 24; testigo minimo eta=(1, 0) con b mod 6 = [3, 1]
+   7 | B_3   |  3 |          406 |     72 |         406 / 406 |      406 / 406 | 184 / 406
+   8 | C_3   |  3 |          575 |     78 |         575 / 575 |      473 / 575 | 215 / 575
+       el dual falla en 102; testigo minimo eta=(1, 0, 0) con b mod 8 = [4, 2, 1]
+   9 | B_4   |  4 |         1908 |    166 |       1908 / 1908 |    1908 / 1908 | 862 / 1908
+  10 | C_4   |  4 |         2724 |    190 |       2724 / 2724 |    2384 / 2724 | 1072 / 2724
+       el dual falla en 340; testigo minimo eta=(1, 0, 0, 0) con b mod 10 = [5, 3, 2, 1]
+  11 | B_5   |  5 |         7823 |    352 |       7823 / 7823 |    7823 / 7823 | 3713 / 7823
+  12 | C_5   |  5 |        11178 |    407 |     11178 / 11178 |  10303 / 11178 | 4763 / 11178
+       el dual falla en 875; testigo minimo eta=(1, 0, 0, 0, 0) con b mod 12 = [6, 4, 3, 2, 1]
+  13 | B_6   |  6 |        28767 |    688 |     28767 / 28767 |  28767 / 28767 | 14370 / 28767
+  14 | C_6   |  6 |        41023 |    798 |     38953 / 41023 |  38953 / 41023 | 18720 / 41023
+       el dual falla en 2070; testigo minimo eta=(1, 0, 0, 0, 0, 0) con b mod 14 = [7, 5, 4, 3, 2, 1]
+
+==========================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si (R) en el ORIGINAL acierta el 100 % en las dos paridades, el Lema 3.1 se reenuncia
+     como 'regularidad de (eta+rho)(xi) en G' y deja de necesitar tres casos.
+   * si el DUAL acierta en t impar y falla en t par, la discrepancia B/C esta medida.
+   * si el señuelo A_{m-1} acierta parecido, las otras dos familias de raices no decidian.
+==========================================================================================================================
+DONE

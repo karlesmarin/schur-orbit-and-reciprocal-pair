@@ -1,0 +1,296 @@
+[
+ {
+  "t": 3,
+  "rama": "B",
+  "n": 1,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   2,
+   2
+  ],
+  "trivial": false,
+  "t_mod_4": 3,
+  "P3": true
+ },
+ {
+  "t": 4,
+  "rama": "C",
+  "n": 1,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   2,
+   2
+  ],
+  "trivial": false,
+  "t_mod_4": 0,
+  "P3": true
+ },
+ {
+  "t": 5,
+  "rama": "B",
+  "n": 2,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   4,
+   4
+  ],
+  "trivial": true,
+  "t_mod_4": 1,
+  "P3": true
+ },
+ {
+  "t": 6,
+  "rama": "C",
+  "n": 2,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   2,
+   2
+  ],
+  "trivial": true,
+  "t_mod_4": 2,
+  "P3": true
+ },
+ {
+  "t": 7,
+  "rama": "B",
+  "n": 3,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   6,
+   6
+  ],
+  "trivial": false,
+  "t_mod_4": 3,
+  "P3": true
+ },
+ {
+  "t": 8,
+  "rama": "C",
+  "n": 3,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   4,
+   4
+  ],
+  "trivial": false,
+  "t_mod_4": 0,
+  "P3": true
+ },
+ {
+  "t": 9,
+  "rama": "B",
+  "n": 4,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   6,
+   6
+  ],
+  "trivial": true,
+  "t_mod_4": 1,
+  "P3": true
+ },
+ {
+  "t": 10,
+  "rama": "C",
+  "n": 4,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   4,
+   4
+  ],
+  "trivial": true,
+  "t_mod_4": 2,
+  "P3": true
+ },
+ {
+  "t": 11,
+  "rama": "B",
+  "n": 5,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   10,
+   10
+  ],
+  "trivial": false,
+  "t_mod_4": 3,
+  "P3": true
+ },
+ {
+  "t": 12,
+  "rama": "C",
+  "n": 5,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   4,
+   4
+  ],
+  "trivial": false,
+  "t_mod_4": 0,
+  "P3": true
+ },
+ {
+  "t": 13,
+  "rama": "B",
+  "n": 6,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   12,
+   12
+  ],
+  "trivial": true,
+  "t_mod_4": 1,
+  "P3": true
+ },
+ {
+  "t": 14,
+  "rama": "C",
+  "n": 6,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   6,
+   6
+  ],
+  "trivial": true,
+  "t_mod_4": 2,
+  "P3": true
+ },
+ {
+  "t": 15,
+  "rama": "B",
+  "n": 7,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   8,
+   8
+  ],
+  "trivial": false,
+  "t_mod_4": 3,
+  "P3": true
+ },
+ {
+  "t": 16,
+  "rama": "C",
+  "n": 7,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   8,
+   8
+  ],
+  "trivial": false,
+  "t_mod_4": 0,
+  "P3": true
+ },
+ {
+  "t": 17,
+  "rama": "B",
+  "n": 8,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   16,
+   16
+  ],
+  "trivial": true,
+  "t_mod_4": 1,
+  "P3": true
+ },
+ {
+  "t": 18,
+  "rama": "C",
+  "n": 8,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   6,
+   6
+  ],
+  "trivial": true,
+  "t_mod_4": 2,
+  "P3": true
+ },
+ {
+  "t": 19,
+  "rama": "B",
+  "n": 9,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   18,
+   18
+  ],
+  "trivial": false,
+  "t_mod_4": 3,
+  "P3": true
+ },
+ {
+  "t": 20,
+  "rama": "C",
+  "n": 9,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   8,
+   8
+  ],
+  "trivial": false,
+  "t_mod_4": 0,
+  "P3": true
+ },
+ {
+  "t": 21,
+  "rama": "B",
+  "n": 10,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   12,
+   12
+  ],
+  "trivial": true,
+  "t_mod_4": 1,
+  "P3": true
+ },
+ {
+  "t": 22,
+  "rama": "C",
+  "n": 10,
+  "n_par": true,
+  "D2": true,
+  "sigma": [
+   10,
+   10
+  ],
+  "trivial": true,
+  "t_mod_4": 2,
+  "P3": true
+ },
+ {
+  "t": 23,
+  "rama": "B",
+  "n": 11,
+  "n_par": false,
+  "D2": true,
+  "sigma": [
+   22,
+   22
+  ],
+  "trivial": false,
+  "t_mod_4": 3,
+  "P3": true
+ }
+]

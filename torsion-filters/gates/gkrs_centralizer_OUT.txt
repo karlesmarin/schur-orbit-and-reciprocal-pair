@@ -1,0 +1,42 @@
+======================================================================================================================
+EN QUE BASE VIVE (L1):  Z(xi_t) = T^{m'} x B_r,  no D_r
+======================================================================================================================
+
+  t=3  r=2  (m'=1, R'=3)  Lambda_1 <= 6  ->  84 pesos   (no racionales: 0)
+     C0  el pelado cierra:   B_r 84/84   D_r 84/84   C_r 84/84  (senuelo)
+     B1  reparto de d en base B_r : {-1: 269, 1: 278}
+     B2  reparto de c en base D_r : {-1: 227, 1: 236}
+     C1  reparto en base C_r      : {-1: 265, 1: 274}   (senuelo)
+     B3  soporte total:  B_r 547   D_r 463
+     ** ningun |d| > 1 en base B_r
+     ** ningun |c| > 1 en base D_r
+
+  t=5  r=2  (m'=2, R'=4)  Lambda_1 <= 4  ->  70 pesos   (no racionales: 0)
+     C0  el pelado cierra:   B_r 70/70   D_r 70/70   C_r 70/70  (senuelo)
+     B1  reparto de d en base B_r : {-1: 108, 1: 113}
+     B2  reparto de c en base D_r : {-1: 64, 1: 85}
+     C1  reparto en base C_r      : {-1: 103, 1: 115}   (senuelo)
+     B3  soporte total:  B_r 221   D_r 149
+     ** ningun |d| > 1 en base B_r
+     ** ningun |c| > 1 en base D_r
+
+  t=3  r=3  (m'=1, R'=4)  Lambda_1 <= 3  ->  35 pesos   (no racionales: 0)
+     C0  el pelado cierra:   B_r 35/35   D_r 35/35   C_r 35/35  (senuelo)
+     B1  reparto de d en base B_r : {-1: 83, 1: 91}
+     B2  reparto de c en base D_r : {-1: 52, 1: 68}
+     C1  reparto en base C_r      : {-1: 80, 1: 94}   (senuelo)
+     B3  soporte total:  B_r 174   D_r 120
+     ** ningun |d| > 1 en base B_r
+     ** ningun |c| > 1 en base D_r
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si en base B_r todos los coeficientes son 0,+-1 y en D_r no, entonces (L1) esta escrita
+     en la base derivada: el enunciado primitivo es sobre el CENTRALIZADOR, y (L1) se sigue
+     por la ramificacion B_r -> D_r, que es libre de multiplicidad.
+   * si en B_r aparecen coeficientes grandes, el centralizador NO es la explicacion y hay que
+     volver a la division por Delta_t.
+   * si el pelado en B_r no cierra, la serie no es combinacion de caracteres de B_r y la
+     hipotesis muere ahi mismo.
+======================================================================================================================
+DONE

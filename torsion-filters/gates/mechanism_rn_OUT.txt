@@ -1,0 +1,13 @@
+==========================================================================
+The matching expansion of the alternant, checked against the determinant
+==========================================================================
+
+  r = 1 : 0 mismatches in 6 random row sets   <-- holds
+  r = 2 : 0 mismatches in 5 random row sets   <-- holds
+  r = 3 : 0 mismatches in 3 random row sets   <-- holds
+
+  CONTROL: the same expansion with one sinh replaced by a cosh must FAIL, or the check
+           above is not testing anything.
+           deliberately wrong version agrees with the determinant: False  (want False)
+
+DONE

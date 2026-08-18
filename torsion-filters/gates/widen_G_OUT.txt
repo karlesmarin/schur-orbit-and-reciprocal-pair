@@ -1,0 +1,37 @@
+==========================================================================================================
+W1/W2/W3  the widened range
+==========================================================================================================
+
+     t   r  |lam|<=  shapes   crit | max |G|   |G| distribution        | H4 hits  really 0  H4 bad | D2 bad  uniq |G|=1
+  ------------------------------------------------------------------------------------------------------
+     4   1       44   25852    596 |       2   1:25256, 2:596         |     596       596       0 |      0    25256
+     4   2       34   24607     94 |       2   1:22872, 2:1735        |     134       134       0 |      0    22872
+     4   3       26    9024     21 |       2   1:8063, 2:961          |      29        29       0 |      0     8063
+     4   4       20    2592      7 |       2   1:2313, 2:279          |       8         8       0 |      0     2313
+     6   2       26    6269     35 |       2   1:5824, 2:445          |      48        48       0 |      0     5824
+     6   3       20    2388      9 |       2   1:2174, 2:214          |      11        11       0 |      0     2174
+     8   2       22    2403     18 |       2   1:2315, 2:88           |      21        21       0 |      0     2315
+     8   3       16     808      3 |       2   1:783, 2:25            |       3         3       0 |      0      783
+    10   2       20    1316      4 |       2   1:1299, 2:17           |       4         4       0 |      0     1299
+    12   2       18     731      0 |       1   1:731                  |       0         0       0 |      0      731
+
+  totals: 75990 shapes, 787 criterion.  H4 fires 854, really zero 854, H4 wrong 0.
+  D2 (closure + fixed-point-free, NO sign) wrong 0 times.
+  unique maximiser (the proved corollary applies) on 71630 of 75990 shapes (94.3%).
+
+  K1 reproduction of the earlier range (criterion count, H4 hits):
+     t=4 r=1 |lam|<=30 -> (141, 141)
+     t=4 r=2 |lam|<=24 -> (30, 44)
+     t=4 r=3 |lam|<=18 -> (6, 8)
+     t=6 r=2 |lam|<=18 -> (7, 10)
+     t=6 r=3 |lam|<=14 -> (2, 3)
+     t=8 r=2 |lam|<=16 -> (3, 3)
+     stratum_sign_OUT.txt gave, on those same six rows, criterion 141/30/6/7/2/3 and
+     H4 hits 141/44/8/10/3/3.  Those are the pairs that must be reproduced above.
+
+  W1  shapes with |G| > 2: 0
+  |G| never exceeds 2 in this whole range.  Then 'closed and fixed-point-free' just
+  says |G| = 2 and the reflection swaps the two, and the sign condition cannot be
+  tested at all -- which is exactly why D2 scores like H4.
+
+DONE

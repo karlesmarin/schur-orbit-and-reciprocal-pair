@@ -1,0 +1,1081 @@
+[
+ {
+  "t": 2,
+  "r": 1,
+  "N": 4,
+  "top_minkowski": [
+   3
+  ],
+  "formula": [
+   3
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   3
+  ],
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 2,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 2,
+  "r": 2,
+  "N": 6,
+  "top_minkowski": [
+   5,
+   3
+  ],
+  "formula": [
+   5,
+   3
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   5,
+   3
+  ],
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 2,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 2,
+  "r": 3,
+  "N": 8,
+  "top_minkowski": [
+   7,
+   5,
+   3
+  ],
+  "formula": [
+   7,
+   5,
+   3
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   7,
+   5,
+   3
+  ],
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 2,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 2,
+  "r": 4,
+  "N": 10,
+  "top_minkowski": [
+   9,
+   7,
+   5,
+   3
+  ],
+  "formula": [
+   9,
+   7,
+   5,
+   3
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 2,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 3,
+  "r": 1,
+  "N": 5,
+  "top_minkowski": [
+   4
+  ],
+  "formula": [
+   4
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   4
+  ],
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 3,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 3,
+  "r": 2,
+  "N": 7,
+  "top_minkowski": [
+   6,
+   4
+  ],
+  "formula": [
+   6,
+   4
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   6,
+   4
+  ],
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 3,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 3,
+  "r": 3,
+  "N": 9,
+  "top_minkowski": [
+   8,
+   6,
+   4
+  ],
+  "formula": [
+   8,
+   6,
+   4
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 3,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 3,
+  "r": 4,
+  "N": 11,
+  "top_minkowski": [
+   10,
+   8,
+   6,
+   4
+  ],
+  "formula": [
+   10,
+   8,
+   6,
+   4
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 3,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 4,
+  "r": 1,
+  "N": 6,
+  "top_minkowski": [
+   5
+  ],
+  "formula": [
+   5
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   5
+  ],
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 4,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 4,
+  "r": 2,
+  "N": 8,
+  "top_minkowski": [
+   7,
+   5
+  ],
+  "formula": [
+   7,
+   5
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   7,
+   5
+  ],
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 4,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 4,
+  "r": 3,
+  "N": 10,
+  "top_minkowski": [
+   9,
+   7,
+   5
+  ],
+  "formula": [
+   9,
+   7,
+   5
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 4,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 4,
+  "r": 4,
+  "N": 12,
+  "top_minkowski": [
+   11,
+   9,
+   7,
+   5
+  ],
+  "formula": [
+   11,
+   9,
+   7,
+   5
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 4,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 5,
+  "r": 1,
+  "N": 7,
+  "top_minkowski": [
+   6
+  ],
+  "formula": [
+   6
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   6
+  ],
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 5,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 5,
+  "r": 2,
+  "N": 9,
+  "top_minkowski": [
+   8,
+   6
+  ],
+  "formula": [
+   8,
+   6
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 5,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 5,
+  "r": 3,
+  "N": 11,
+  "top_minkowski": [
+   10,
+   8,
+   6
+  ],
+  "formula": [
+   10,
+   8,
+   6
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 5,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 5,
+  "r": 4,
+  "N": 13,
+  "top_minkowski": [
+   12,
+   10,
+   8,
+   6
+  ],
+  "formula": [
+   12,
+   10,
+   8,
+   6
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 5,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 6,
+  "r": 1,
+  "N": 8,
+  "top_minkowski": [
+   7
+  ],
+  "formula": [
+   7
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": [
+   7
+  ],
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 6,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 6,
+  "r": 2,
+  "N": 10,
+  "top_minkowski": [
+   9,
+   7
+  ],
+  "formula": [
+   9,
+   7
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 6,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 6,
+  "r": 3,
+  "N": 12,
+  "top_minkowski": [
+   11,
+   9,
+   7
+  ],
+  "formula": [
+   11,
+   9,
+   7
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 6,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 6,
+  "r": 4,
+  "N": 14,
+  "top_minkowski": [
+   13,
+   11,
+   9,
+   7
+  ],
+  "formula": [
+   13,
+   11,
+   9,
+   7
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 6,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 7,
+  "r": 1,
+  "N": 9,
+  "top_minkowski": [
+   8
+  ],
+  "formula": [
+   8
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 7,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 7,
+  "r": 2,
+  "N": 11,
+  "top_minkowski": [
+   10,
+   8
+  ],
+  "formula": [
+   10,
+   8
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 7,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 7,
+  "r": 3,
+  "N": 13,
+  "top_minkowski": [
+   12,
+   10,
+   8
+  ],
+  "formula": [
+   12,
+   10,
+   8
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 7,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 7,
+  "r": 4,
+  "N": 15,
+  "top_minkowski": [
+   14,
+   12,
+   10,
+   8
+  ],
+  "formula": [
+   14,
+   12,
+   10,
+   8
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 7,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 8,
+  "r": 1,
+  "N": 10,
+  "top_minkowski": [
+   9
+  ],
+  "formula": [
+   9
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 8,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 8,
+  "r": 2,
+  "N": 12,
+  "top_minkowski": [
+   11,
+   9
+  ],
+  "formula": [
+   11,
+   9
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 8,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 8,
+  "r": 3,
+  "N": 14,
+  "top_minkowski": [
+   13,
+   11,
+   9
+  ],
+  "formula": [
+   13,
+   11,
+   9
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 8,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 8,
+  "r": 4,
+  "N": 16,
+  "top_minkowski": [
+   15,
+   13,
+   11,
+   9
+  ],
+  "formula": [
+   15,
+   13,
+   11,
+   9
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 8,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 9,
+  "r": 1,
+  "N": 11,
+  "top_minkowski": [
+   10
+  ],
+  "formula": [
+   10
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 9,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 9,
+  "r": 2,
+  "N": 13,
+  "top_minkowski": [
+   12,
+   10
+  ],
+  "formula": [
+   12,
+   10
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 9,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 9,
+  "r": 3,
+  "N": 15,
+  "top_minkowski": [
+   14,
+   12,
+   10
+  ],
+  "formula": [
+   14,
+   12,
+   10
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 9,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 9,
+  "r": 4,
+  "N": 17,
+  "top_minkowski": [
+   16,
+   14,
+   12,
+   10
+  ],
+  "formula": [
+   16,
+   14,
+   12,
+   10
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 9,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 10,
+  "r": 1,
+  "N": 12,
+  "top_minkowski": [
+   11
+  ],
+  "formula": [
+   11
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 10,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 10,
+  "r": 2,
+  "N": 14,
+  "top_minkowski": [
+   13,
+   11
+  ],
+  "formula": [
+   13,
+   11
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 10,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 10,
+  "r": 3,
+  "N": 16,
+  "top_minkowski": [
+   15,
+   13,
+   11
+  ],
+  "formula": [
+   15,
+   13,
+   11
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 10,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 10,
+  "r": 4,
+  "N": 18,
+  "top_minkowski": [
+   17,
+   15,
+   13,
+   11
+  ],
+  "formula": [
+   17,
+   15,
+   13,
+   11
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 10,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 11,
+  "r": 1,
+  "N": 13,
+  "top_minkowski": [
+   12
+  ],
+  "formula": [
+   12
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 11,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 11,
+  "r": 2,
+  "N": 15,
+  "top_minkowski": [
+   14,
+   12
+  ],
+  "formula": [
+   14,
+   12
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 11,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 11,
+  "r": 3,
+  "N": 17,
+  "top_minkowski": [
+   16,
+   14,
+   12
+  ],
+  "formula": [
+   16,
+   14,
+   12
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 11,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 11,
+  "r": 4,
+  "N": 19,
+  "top_minkowski": [
+   18,
+   16,
+   14,
+   12
+  ],
+  "formula": [
+   18,
+   16,
+   14,
+   12
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 11,
+   "auto": 1,
+   "mixtos": 6
+  }
+ },
+ {
+  "t": 12,
+  "r": 1,
+  "N": 14,
+  "top_minkowski": [
+   13
+  ],
+  "formula": [
+   13
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": false,
+  "reparto_z1": {
+   "orbita": 12,
+   "auto": 1,
+   "mixtos": 0
+  }
+ },
+ {
+  "t": 12,
+  "r": 2,
+  "N": 16,
+  "top_minkowski": [
+   15,
+   13
+  ],
+  "formula": [
+   15,
+   13
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 12,
+   "auto": 1,
+   "mixtos": 2
+  }
+ },
+ {
+  "t": 12,
+  "r": 3,
+  "N": 18,
+  "top_minkowski": [
+   17,
+   15,
+   13
+  ],
+  "formula": [
+   17,
+   15,
+   13
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 12,
+   "auto": 1,
+   "mixtos": 4
+  }
+ },
+ {
+  "t": 12,
+  "r": 4,
+  "N": 20,
+  "top_minkowski": [
+   19,
+   17,
+   15,
+   13
+  ],
+  "formula": [
+   19,
+   17,
+   15,
+   13
+  ],
+  "coincide": true,
+  "empates": 0,
+  "top_expandido": null,
+  "C0": true,
+  "senuelo_falla": true,
+  "reparto_z1": {
+   "orbita": 12,
+   "auto": 1,
+   "mixtos": 6
+  }
+ }
+]

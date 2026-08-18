@@ -1,0 +1,8 @@
+==========================================================================================================================
+(L1) POR SUBCONJUNTOS:  ¿reproduce la formula el c medido?
+==========================================================================================================================
+
+  t=3 r=2  (R'=3, m'=1):  67 Lambda, 183 pares (Lambda,mu) con c != 0
+     S2  inyectividad S -> mu : fallos en 0 de 67 Lambda
+     S3  soporte predicho == soporte medido : fallos en 66 de 67
+     primer fallo: ('soporte', [0, 0, 0], [(1, 1)], [])

@@ -1,0 +1,18 @@
+================================================================================================
+.PUEDEN LOS DOS SIGNOS REALIZAR LA MISMA RANURA LIBRE?
+================================================================================================
+
+  entradas libres examinadas                       : 315250
+  S0  pares (i,j) con LOS DOS signos validos        : 377
+  S1  de esos, con V_i multiplo de t                : 377
+  S2  entradas 0 por cancelacion de los dos signos  : 377
+      entradas 0 por no haber ningun signo valido   : 212185
+
+  testigos:
+    {"t": 3, "r": 2, "Lambda": [3, 3, 1], "X": [8, -6], "i": 2, "V_i": 3, "j": 1, "clase": 0}
+    {"t": 3, "r": 2, "Lambda": [5, 0, 0], "X": [12, -6], "i": 1, "V_i": 3, "j": 1, "clase": 0}
+    {"t": 3, "r": 2, "Lambda": [5, 1, 1], "X": [12, -6], "i": 2, "V_i": 3, "j": 1, "clase": 0}
+
+  LECTURA: SI ocurre.  La frase del paper es falsa y hay que retirarla.
+
+DONE

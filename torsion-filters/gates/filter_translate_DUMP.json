@@ -1,0 +1,330 @@
+[
+ {
+  "t": 3,
+  "m": 1,
+  "par": false,
+  "n_regB": 2,
+  "n_regC": 2,
+  "s": 2,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1
+  ]
+ },
+ {
+  "t": 3,
+  "m": 2,
+  "par": false,
+  "n_regB": 0,
+  "n_regC": 0,
+  "s": 2,
+  "T1": true,
+  "decoys_que_coinciden": [
+   0,
+   1
+  ],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 3,
+  "m": 3,
+  "par": false,
+  "n_regB": 0,
+  "n_regC": 0,
+  "s": 2,
+  "T1": true,
+  "decoys_que_coinciden": [
+   0,
+   1
+  ],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 5,
+  "m": 1,
+  "par": false,
+  "n_regB": 4,
+  "n_regC": 4,
+  "s": 3,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 5,
+  "m": 2,
+  "par": false,
+  "n_regB": 8,
+  "n_regC": 8,
+  "s": 3,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   1
+  ]
+ },
+ {
+  "t": 5,
+  "m": 3,
+  "par": false,
+  "n_regB": 0,
+  "n_regC": 0,
+  "s": 3,
+  "T1": true,
+  "decoys_que_coinciden": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 7,
+  "m": 1,
+  "par": false,
+  "n_regB": 6,
+  "n_regC": 6,
+  "s": 4,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 7,
+  "m": 2,
+  "par": false,
+  "n_regB": 24,
+  "n_regC": 24,
+  "s": 4,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 7,
+  "m": 3,
+  "par": false,
+  "n_regB": 48,
+  "n_regC": 48,
+  "s": 4,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   1
+  ]
+ },
+ {
+  "t": 9,
+  "m": 1,
+  "par": false,
+  "n_regB": 8,
+  "n_regC": 8,
+  "s": 5,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 9,
+  "m": 2,
+  "par": false,
+  "n_regB": 48,
+  "n_regC": 48,
+  "s": 5,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 9,
+  "m": 3,
+  "par": false,
+  "n_regB": 192,
+  "n_regC": 192,
+  "s": 5,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 11,
+  "m": 1,
+  "par": false,
+  "n_regB": 10,
+  "n_regC": 10,
+  "s": 6,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 11,
+  "m": 2,
+  "par": false,
+  "n_regB": 80,
+  "n_regC": 80,
+  "s": 6,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 11,
+  "m": 3,
+  "par": false,
+  "n_regB": 480,
+  "n_regC": 480,
+  "s": 6,
+  "T1": true,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": [
+   -1,
+   1
+  ]
+ },
+ {
+  "t": 4,
+  "m": 1,
+  "par": true,
+  "n_regB": 4,
+  "n_regC": 2,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 4,
+  "m": 2,
+  "par": true,
+  "n_regB": 0,
+  "n_regC": 0,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 4,
+  "m": 3,
+  "par": true,
+  "n_regB": 0,
+  "n_regC": 0,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 6,
+  "m": 1,
+  "par": true,
+  "n_regB": 4,
+  "n_regC": 4,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [
+   2,
+   5
+  ],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 6,
+  "m": 2,
+  "par": true,
+  "n_regB": 0,
+  "n_regC": 8,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 6,
+  "m": 3,
+  "par": true,
+  "n_regB": 0,
+  "n_regC": 0,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 8,
+  "m": 1,
+  "par": true,
+  "n_regB": 8,
+  "n_regC": 6,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 8,
+  "m": 2,
+  "par": true,
+  "n_regB": 32,
+  "n_regC": 24,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": []
+ },
+ {
+  "t": 8,
+  "m": 3,
+  "par": true,
+  "n_regB": 0,
+  "n_regC": 48,
+  "s": null,
+  "T1": null,
+  "decoys_que_coinciden": [],
+  "cocientes_de_signo": []
+ }
+]

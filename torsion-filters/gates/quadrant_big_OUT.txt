@@ -1,0 +1,115 @@
+==============================================================================
+t = 4, r = 2, |lambda| <= 34, zeros by finite-field bialternant
+==============================================================================
+
+  concentric shapes with no empty class : 3050
+  of them vanishing                     : 94
+  CONTROL, exact recomputation of every zero: 0 disagreements
+  CONTROL, the 8 known zeros up to |lambda|<=17 are all here: yes (found 8)
+
+  condition                                   vanishing          not
+  --------------------------------------------------------------------
+  beta symmetric about the centre               29/94         0/2956    (sufficient)
+  ONE of the pair has empty quotient            58/94      1191/2956  
+  BOTH of the pair have empty quotient           0/94       305/2956  
+  concentric classes of equal size              22/94      1557/2956  
+  two or more concentric pairs                   0/94        45/2956  
+  the centre equals max(beta)                   41/94       575/2956  
+
+  every vanishing shape:
+    |lam|=4   lam=[1, 1, 1, 1]                   beta=[8, 7, 6, 5, 3, 2, 1, 0]         conc=[(0, 2)]  betasym=yes
+    |lam|=12  lam=[5, 4, 3]                      beta=[12, 10, 8, 4, 3, 2, 1, 0]       conc=[(0, 2)]  betasym=.
+    |lam|=12  lam=[3, 3, 3, 3]                   beta=[10, 9, 8, 7, 3, 2, 1, 0]        conc=[(1, 3)]  betasym=yes
+    |lam|=12  lam=[3, 3, 2, 2, 1, 1]             beta=[10, 9, 7, 6, 4, 3, 1, 0]        conc=[(1, 3)]  betasym=yes
+    |lam|=12  lam=[2, 2, 2, 2, 1, 1, 1, 1]       beta=[9, 8, 7, 6, 4, 3, 2, 1]         conc=[(1, 3)]  betasym=yes
+    |lam|=16  lam=[6, 5, 4, 1]                   beta=[13, 11, 9, 5, 3, 2, 1, 0]       conc=[(1, 3)]  betasym=.
+    |lam|=16  lam=[5, 4, 3, 3, 1]                beta=[12, 10, 8, 7, 4, 2, 1, 0]       conc=[(0, 2)]  betasym=.
+    |lam|=16  lam=[5, 4, 3, 1, 1, 1, 1]          beta=[12, 10, 8, 5, 4, 3, 2, 0]       conc=[(0, 2)]  betasym=.
+    |lam|=20  lam=[6, 5, 4, 2, 2, 1]             beta=[13, 11, 9, 6, 5, 3, 1, 0]       conc=[(1, 3)]  betasym=.
+    |lam|=20  lam=[6, 5, 4, 1, 1, 1, 1, 1]       beta=[13, 11, 9, 5, 4, 3, 2, 1]       conc=[(1, 3)]  betasym=.
+    |lam|=20  lam=[5, 5, 5, 5]                   beta=[12, 11, 10, 9, 3, 2, 1, 0]      conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[5, 5, 5, 4, 1]                beta=[12, 11, 10, 8, 4, 2, 1, 0]      conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[5, 5, 5, 3, 2]                beta=[12, 11, 10, 7, 5, 2, 1, 0]      conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[5, 4, 4, 4, 1, 1, 1]          beta=[12, 10, 9, 8, 4, 3, 2, 0]       conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[5, 4, 4, 3, 2, 1, 1]          beta=[12, 10, 9, 7, 5, 3, 2, 0]       conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[5, 4, 3, 3, 2, 2, 1]          beta=[12, 10, 8, 7, 5, 4, 2, 0]       conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[4, 4, 4, 4, 1, 1, 1, 1]       beta=[11, 10, 9, 8, 4, 3, 2, 1]       conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[4, 4, 3, 3, 2, 2, 1, 1]       beta=[11, 10, 8, 7, 5, 4, 2, 1]       conc=[(0, 2)]  betasym=yes
+    |lam|=20  lam=[3, 3, 3, 3, 2, 2, 2, 2]       beta=[10, 9, 8, 7, 5, 4, 3, 2]        conc=[(0, 2)]  betasym=yes
+    |lam|=24  lam=[9, 8, 7]                      beta=[16, 14, 12, 4, 3, 2, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=24  lam=[9, 8, 5, 2]                   beta=[16, 14, 10, 6, 3, 2, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=24  lam=[9, 6, 5, 2, 1, 1]             beta=[16, 12, 10, 6, 4, 3, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=24  lam=[8, 6, 5, 4, 1]                beta=[15, 12, 10, 8, 4, 2, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=24  lam=[7, 6, 5, 2, 1, 1, 1, 1]       beta=[14, 12, 10, 6, 4, 3, 2, 1]      conc=[(0, 2)]  betasym=.
+    |lam|=24  lam=[6, 6, 5, 4, 1, 1, 1]          beta=[13, 12, 10, 8, 4, 3, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=24  lam=[6, 5, 5, 5, 2, 1]             beta=[13, 11, 10, 9, 5, 3, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=24  lam=[6, 5, 4, 4, 2, 1, 1, 1]       beta=[13, 11, 9, 8, 5, 3, 2, 1]       conc=[(1, 3)]  betasym=.
+    |lam|=24  lam=[6, 5, 4, 2, 2, 2, 2, 1]       beta=[13, 11, 9, 6, 5, 4, 3, 1]       conc=[(1, 3)]  betasym=.
+    |lam|=24  lam=[5, 5, 5, 4, 2, 2, 1]          beta=[12, 11, 10, 8, 5, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=24  lam=[5, 4, 4, 4, 4, 2, 1]          beta=[12, 10, 9, 8, 7, 4, 2, 0]       conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[12, 6, 5, 4, 1]               beta=[19, 12, 10, 8, 4, 2, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[10, 9, 8, 1]                  beta=[17, 15, 13, 5, 3, 2, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=28  lam=[10, 9, 6, 3]                  beta=[17, 15, 11, 7, 3, 2, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=28  lam=[10, 7, 6, 3, 2]               beta=[17, 13, 11, 7, 5, 2, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=28  lam=[10, 6, 5, 4, 1, 1, 1]         beta=[17, 12, 10, 8, 4, 3, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[9, 8, 7, 3, 1]                beta=[16, 14, 12, 7, 4, 2, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[9, 8, 7, 1, 1, 1, 1]          beta=[16, 14, 12, 5, 4, 3, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[9, 8, 5, 3, 3]                beta=[16, 14, 10, 7, 6, 2, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[9, 8, 5, 2, 2, 1, 1]          beta=[16, 14, 10, 6, 5, 3, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[9, 6, 5, 3, 3, 2]             beta=[16, 12, 10, 7, 6, 4, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[9, 6, 5, 2, 2, 2, 2]          beta=[16, 12, 10, 6, 5, 4, 3, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[8, 7, 6, 3, 2, 1, 1]          beta=[15, 13, 11, 7, 5, 3, 2, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=28  lam=[8, 6, 5, 4, 2, 2, 1]          beta=[15, 12, 10, 8, 5, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[7, 7, 7, 7]                   beta=[14, 13, 12, 11, 3, 2, 1, 0]     conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[7, 7, 6, 6, 1, 1]             beta=[14, 13, 11, 10, 4, 3, 1, 0]     conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[7, 7, 6, 5, 2, 1]             beta=[14, 13, 11, 9, 5, 3, 1, 0]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[7, 7, 6, 4, 3, 1]             beta=[14, 13, 11, 8, 6, 3, 1, 0]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[7, 6, 6, 5, 2, 1, 1]          beta=[14, 12, 11, 9, 5, 3, 2, 0]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[7, 6, 5, 3, 3, 2, 1, 1]       beta=[14, 12, 10, 7, 6, 4, 2, 1]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[7, 6, 5, 2, 2, 2, 2, 2]       beta=[14, 12, 10, 6, 5, 4, 3, 2]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[7, 5, 5, 5, 2, 2, 2]          beta=[14, 11, 10, 9, 5, 4, 3, 0]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[7, 5, 4, 4, 3, 3, 2]          beta=[14, 11, 9, 8, 6, 5, 3, 0]       conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[6, 6, 6, 6, 1, 1, 1, 1]       beta=[13, 12, 11, 10, 4, 3, 2, 1]     conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[6, 6, 6, 5, 2, 1, 1, 1]       beta=[13, 12, 11, 9, 5, 3, 2, 1]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[6, 6, 6, 4, 3, 1, 1, 1]       beta=[13, 12, 11, 8, 6, 3, 2, 1]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[6, 6, 5, 4, 4, 2, 1]          beta=[13, 12, 10, 8, 7, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[6, 5, 5, 5, 2, 2, 2, 1]       beta=[13, 11, 10, 9, 5, 4, 3, 1]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[6, 5, 5, 4, 3, 2, 2, 1]       beta=[13, 11, 10, 8, 6, 4, 3, 1]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[6, 5, 4, 4, 3, 3, 2, 1]       beta=[13, 11, 9, 8, 6, 5, 3, 1]       conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[5, 5, 5, 5, 5, 2, 1]          beta=[12, 11, 10, 9, 8, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=28  lam=[5, 5, 5, 5, 2, 2, 2, 2]       beta=[12, 11, 10, 9, 5, 4, 3, 2]      conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[5, 5, 4, 4, 3, 3, 2, 2]       beta=[12, 11, 9, 8, 6, 5, 3, 2]       conc=[(1, 3)]  betasym=yes
+    |lam|=28  lam=[4, 4, 4, 4, 3, 3, 3, 3]       beta=[11, 10, 9, 8, 6, 5, 4, 3]       conc=[(1, 3)]  betasym=yes
+    |lam|=32  lam=[16, 6, 5, 4, 1]               beta=[23, 12, 10, 8, 4, 2, 1, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[14, 6, 5, 4, 1, 1, 1]         beta=[21, 12, 10, 8, 4, 3, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[12, 6, 5, 4, 2, 2, 1]         beta=[19, 12, 10, 8, 5, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[11, 7, 6, 5, 2, 1]            beta=[18, 13, 11, 9, 5, 3, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[10, 9, 8, 2, 2, 1]            beta=[17, 15, 13, 6, 5, 3, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[10, 9, 8, 1, 1, 1, 1, 1]      beta=[17, 15, 13, 5, 4, 3, 2, 1]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[10, 9, 6, 3, 3, 1]            beta=[17, 15, 11, 7, 6, 3, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[10, 9, 6, 3, 1, 1, 1, 1]      beta=[17, 15, 11, 7, 4, 3, 2, 1]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[10, 7, 6, 3, 3, 3]            beta=[17, 13, 11, 7, 6, 5, 1, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[10, 7, 6, 3, 2, 2, 1, 1]      beta=[17, 13, 11, 7, 5, 4, 2, 1]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[10, 6, 5, 4, 4, 2, 1]         beta=[17, 12, 10, 8, 7, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 8, 7, 7, 1]                beta=[16, 14, 12, 11, 4, 2, 1, 0]     conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 8, 7, 5, 1, 1, 1]          beta=[16, 14, 12, 9, 4, 3, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 8, 7, 3, 2, 2, 1]          beta=[16, 14, 12, 7, 5, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 8, 6, 6, 3]                beta=[16, 14, 11, 10, 6, 2, 1, 0]     conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 8, 5, 5, 3, 1, 1]          beta=[16, 14, 10, 9, 6, 3, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 8, 5, 3, 3, 3, 1]          beta=[16, 14, 10, 7, 6, 5, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 7, 6, 5, 2, 1, 1, 1]       beta=[16, 13, 11, 9, 5, 3, 2, 1]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[9, 6, 6, 6, 3, 2]             beta=[16, 12, 11, 10, 6, 4, 1, 0]     conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 6, 5, 5, 3, 2, 2]          beta=[16, 12, 10, 9, 6, 4, 3, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[9, 6, 5, 3, 3, 3, 3]          beta=[16, 12, 10, 7, 6, 5, 4, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[8, 7, 6, 3, 3, 3, 2]          beta=[15, 13, 11, 7, 6, 5, 3, 0]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[8, 7, 6, 3, 2, 2, 2, 2]       beta=[15, 13, 11, 7, 5, 4, 3, 2]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[8, 6, 5, 5, 5, 2, 1]          beta=[15, 12, 10, 9, 8, 4, 2, 0]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[7, 7, 6, 5, 2, 2, 2, 1]       beta=[14, 13, 11, 9, 5, 4, 3, 1]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[7, 6, 6, 6, 3, 2, 1, 1]       beta=[14, 12, 11, 10, 6, 4, 2, 1]     conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[7, 6, 5, 5, 3, 2, 2, 2]       beta=[14, 12, 10, 9, 6, 4, 3, 2]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[7, 6, 5, 3, 3, 3, 3, 2]       beta=[14, 12, 10, 7, 6, 5, 4, 2]      conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[6, 6, 6, 6, 5, 2, 1]          beta=[13, 12, 11, 10, 8, 4, 2, 0]     conc=[(0, 2)]  betasym=.
+    |lam|=32  lam=[6, 6, 6, 5, 3, 3, 2, 1]       beta=[13, 12, 11, 9, 6, 5, 3, 1]      conc=[(1, 3)]  betasym=.
+    |lam|=32  lam=[6, 5, 5, 5, 5, 3, 2, 1]       beta=[13, 11, 10, 9, 8, 5, 3, 1]      conc=[(1, 3)]  betasym=.
+
+DONE

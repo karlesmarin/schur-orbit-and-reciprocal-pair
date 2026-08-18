@@ -1,0 +1,27 @@
+  t=2  |lambda|<=14   241 shapes
+  t=3  |lambda|<=13   254 shapes
+  t=4  |lambda|<=12   227 shapes
+  t=5  |lambda|<=11   181 shapes
+  t=6  |lambda|<=10   136 shapes
+
+==========================================================================================
+RESULT
+==========================================================================================
+  (5)  the closed form, sign included                     746 checked   0 failures
+  (9)  the same as a ratio of sl2 characters              746 checked   0 failures
+  (14) the short form of the sign                         746 checked   0 failures
+  (8)  the shift law                                      340 checked   0 failures
+       the two vanishing branches of Theorem 3.1(i) and Cor 3.2    293 checked   0 failures
+       d1+d2+d3 is even (what Cor 3.3 rests on)           746 checked   0 failures
+       Phi = D/V is exact and even in u, i.e. Laurent in z    746 checked   0 failures
+  (34) Delta_i(k) = 2i (mod t), all t and r<=3          14082 checked   0 failures
+
+  DECOYS -- each must be refuted, and the count says how often
+  the sign dropped from (5)                               746 tried    248 refuted
+  the oriented d3 where the size belongs                  746 tried    391 refuted
+  values read increasingly inside each class              746 tried    210 refuted
+  classes read in decreasing residue order                746 tried    387 refuted
+  the denominator at t+1 instead of t                     746 tried    746 refuted
+  the congruence shifted to 2i+1                        14082 tried    14082 refuted
+
+TOTAL failures on the paper's formulas: 0

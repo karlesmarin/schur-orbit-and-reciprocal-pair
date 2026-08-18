@@ -1,0 +1,26 @@
+========================================================================================================
+LA INVOLUCION QUE CANCELA
+========================================================================================================
+
+  I0  cada punto del soporte tiene UN origen (lem:muinj)      : 1196 de 1196
+  I1  dos contribuyentes difieren en un solo intercambio      : 266 de 313
+      reparto de |S \ S'| : {0: 47, 1: 266}
+  I2  y el par intercambiado cumple V_a = V_b (mod 2t)        : 208 de 266
+  I3  un intercambio asi INVIERTE el signo  <== la cancelacion: 166 de 266
+  I4  el conjunto contribuyente es conexo por intercambios    : 197 de 333
+
+  E1  SENUELO: la misma congruencia pero modulo t             : 208 de 266
+      (si E1 == I2, la condicion 2t no esta aportando nada)
+
+  !! primeros fallos:
+    {"que": "conjunto contribuyente NO conexo por intercambios", "t": 3, "r": 2, "Lambda": [3, 0, 0], "X": [8, -6], "n_objs": 2, "alcanzados": 1}
+    {"que": "conjunto contribuyente NO conexo por intercambios", "t": 3, "r": 2, "Lambda": [3, 1, 1], "X": [8, -6], "n_objs": 2, "alcanzados": 1}
+    {"que": "conjunto contribuyente NO conexo por intercambios", "t": 3, "r": 2, "Lambda": [3, 2, 1], "X": [8, -6], "n_objs": 2, "alcanzados": 1}
+    {"que": "conjunto contribuyente NO conexo por intercambios", "t": 3, "r": 2, "Lambda": [3, 2, 2], "X": [4, 2], "n_objs": 2, "alcanzados": 1}
+
+  LECTURA: I3 + I4 son la demostracion.  Si cada intercambio invierte el signo y el conjunto
+  contribuyente es una sola orbita, la suma sobre la progresion es 0 en cuanto hay dos
+  terminos, y vale +-1 cuando hay uno.  Eso es (L1) entera.
+
+========================================================================================================
+DONE

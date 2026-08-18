@@ -1,0 +1,48 @@
+field: GF(1000009081),  p-1 divisible by lcm(2, 3, 4, 5, 6, 7, 8, 9, 10) = 2520
+guard: every t in [2, 3, 4, 5, 6, 7, 8, 9, 10] divides p-1  ->  PASS
+
+============================================================================================
+P2  Z(t,N) subset Z(t',N) whenever t divides t'   [the containment divisibility licenses]
+============================================================================================
+
+  N = 10,  |lambda| <= 24
+    zeros by t: t=2:7, t=4:162, t=6:1891, t=8:4791
+
+      t   t'   |Z(t)|  |Z(t')|   LOST (must be 0)   GAINED (must be > 0)
+    ------------------------------------------------------------------------
+      2    4        7      162              0                  155
+      2    6        7     1891              0                 1884
+      2    8        7     4791              0                 4784
+      4    8      162     4791              0                 4629
+
+  N = 12,  |lambda| <= 20
+    zeros by t: t=2:8, t=4:9, t=6:215, t=8:1049, t=10:2150
+
+      t   t'   |Z(t)|  |Z(t')|   LOST (must be 0)   GAINED (must be > 0)
+    ------------------------------------------------------------------------
+      2    4        8        9              0                    1
+      2    6        8      215              0                  207
+      2    8        8     1049              0                 1041
+      2   10        8     2150              0                 2142
+      4    8        9     1049              0                 1040
+
+============================================================================================
+P3  prod(mu_t) decides the component, and the component decides whether a branch exists
+============================================================================================
+
+     t  prod(mu_t)  component      r   N |lam|<=   shapes  ZEROS with every class occupied
+    ------------------------------------------------------------------------------------
+      3          +1  SO(N)          2   7      22     2667       0
+      5          +1  SO(N)          2   9      18     1167       0
+      7          +1  SO(N)          2  11      16      636       0
+      9          +1  SO(N)          1  11      16      221       0
+      4          -1  O(N)-minus     2   8      22     2874      19
+      6          -1  O(N)-minus     2  10      18     1118       7
+      8          -1  O(N)-minus     2  12      16      595       3
+     10          -1  O(N)-minus     1  12      16      209       2
+
+  Odd t must show 0 and even t must not.  prod(mu_t) = zeta^{t(t-1)/2} is +1 for t odd
+  (t divides t(t-1)/2) and -1 for t even (t(t-1)/2 = t/2 mod t), so the twist by det is
+  trivial exactly for odd t.  That is the reason, not a coincidence of the sweep.
+
+DONE

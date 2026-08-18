@@ -1,0 +1,14 @@
+==============================================================================
+Does the collapse survive above excess 2?
+==============================================================================
+
+  r  N  exc  |lam|<=  shapes  values  up to +-  biggest fibre   zeros
+  --------------------------------------------------------------------
+  1  4    2      14     241      71        44             28      29
+  2  6    4      12     227     168       131              7       5
+  3  8    6       9      96      86        78              3       1
+
+  CONTROL, r = 1: the paper's triple (d1,d2,d3) must give 0 conflicts up to sign.
+      100 triples, 0 conflicts, biggest fibre 1 shapes
+
+DONE

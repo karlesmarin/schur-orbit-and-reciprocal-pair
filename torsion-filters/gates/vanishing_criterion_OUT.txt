@@ -1,0 +1,49 @@
+==========================================================================================================================
+M1  --  POR QUE SE ANULA:  heredada (I) / por soporte (II) / por cancelacion (III)
+==========================================================================================================================
+
+  t=4 r=2 W=13 :  POBLACION ENTERA -> 1441 ocupadas, de ellas 21 NULAS (1.5 %) y 1420 no nulas
+                    se clasifican 21 nulas (paso 1) y 45 no nulas (paso 31)
+
+     LAS NULAS, n = 21
+        I   HEREDADA de t=2   (Psi_R = 0 ya)                   9   ( 42.9 %)
+        III POR CANCELACION  (hay eta regulares, y aun asi A_mu = 0)  12   ( 57.1 %)
+
+     C0  las NO nulas, n = 45  ->  {'NZ': 45}
+         (tiene que ser todo NZ.  Un II aqui seria el instrumento roto)
+     C1  ninguna nula clasificada como NZ : PASA
+     C2  SEÑUELO, el mismo reparto con tau del t=6 : {'NZ': 12, 'I': 9}
+         (tiene que CAMBIAR.  Si diera igual, el filtro no decide nada)
+
+  t=6 r=2 W=13 :  POBLACION ENTERA -> 491 ocupadas, de ellas 12 NULAS (2.4 %) y 479 no nulas
+                    se clasifican 12 nulas (paso 1) y 25 no nulas (paso 19)
+
+     LAS NULAS, n = 12
+        I   HEREDADA de t=2   (Psi_R = 0 ya)                   4   ( 33.3 %)
+        III POR CANCELACION  (hay eta regulares, y aun asi A_mu = 0)   8   ( 66.7 %)
+
+     C0  las NO nulas, n = 25  ->  {'NZ': 25}
+         (tiene que ser todo NZ.  Un II aqui seria el instrumento roto)
+     C1  ninguna nula clasificada como NZ : PASA
+     C2  SEÑUELO, el mismo reparto con tau del t=8 : {'III': 8, 'I': 4}
+         (tiene que CAMBIAR.  Si diera igual, el filtro no decide nada)
+
+Traceback (most recent call last):
+  File "/work/vanishing_criterion.sage.py", line 252, in <module>
+    json.dump(RES, open("vanishing_criterion_DUMP.json", "w"), indent=_sage_const_1 )
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

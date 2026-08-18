@@ -1,0 +1,228 @@
+
+================================================================================================
+t = 3, r = 2, beta_i <= 6   --  LAS 16 CLASES
+================================================================================================
+
+  clase  1 :  det = +0   TU SI   |    3 matrices distintas,    4 pares (Lambda,X)
+              testigo  Lambda=[4, 2, 0]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+
+  clase  2 :  det = +0   TU SI   |    5 matrices distintas,    8 pares (Lambda,X)
+              testigo  Lambda=[4, 2, 2]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+                 [ -1  +0  +0 ]
+
+  clase  3 :  det = +0   TU SI   |    5 matrices distintas,    9 pares (Lambda,X)
+              testigo  Lambda=[4, 2, 1]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+                 [ +0  +0  +0 ]
+
+  clase  4 :  det = +0   TU SI   |    7 matrices distintas,   16 pares (Lambda,X)
+              testigo  Lambda=[3, 1, 0]  X=[8, -4]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+                 [ -1  -1  +0 ]
+
+  clase  5 :  det = +0   TU SI   |   12 matrices distintas,   72 pares (Lambda,X)
+              testigo  Lambda=[1, 0, 0]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+                 [ +0  +0  +0 ]
+
+  clase  6 :  det = +0   TU SI   |    9 matrices distintas,   34 pares (Lambda,X)
+              testigo  Lambda=[3, 2, 0]  X=[8, 2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  +0  +0 ]
+                 [ -1  +0  +0 ]
+
+  clase  7 :  det = +0   TU SI   |   15 matrices distintas,  105 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 1]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  +0  +0 ]
+                 [ +0  +0  +0 ]
+
+  clase  8 :  det = +0   TU SI   |    5 matrices distintas,   32 pares (Lambda,X)
+              testigo  Lambda=[2, 2, 1]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ +0  +0  +0 ]
+                 [ +0  +0  +0 ]
+
+  clase  9 :  det = +0   TU SI   |   14 matrices distintas,   42 pares (Lambda,X)
+              testigo  Lambda=[3, 2, 0]  X=[8, -2]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ -1  -1  +0 ]
+                 [ -1  +0  -1 ]
+
+  clase 10 :  det = +0   TU SI   |   22 matrices distintas,   81 pares (Lambda,X)
+              testigo  Lambda=[2, 1, 0]  X=[6, -4]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ -1  -1  +0 ]
+                 [ +0  +0  -1 ]
+
+  clase 11 :  det = +0   TU SI   |   15 matrices distintas,  105 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 1]  X=[4, 2]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ -1  +0  -1 ]
+                 [ +0  +0  +0 ]
+
+  clase 12 :  det = +0   TU SI   |   23 matrices distintas,  120 pares (Lambda,X)
+              testigo  Lambda=[2, 1, 0]  X=[6, 0]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ +0  +0  -1 ]
+                 [ +0  +0  -1 ]
+
+  clase 13 :  det = +0   TU SI   |   17 matrices distintas,  100 pares (Lambda,X)
+              testigo  Lambda=[2, 0, 0]  X=[6, -4]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ +0  +0  -1 ]
+                 [ +0  +0  +0 ]
+
+  clase 14 :  det = +1   TU SI   |   12 matrices distintas,   56 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 0]  X=[4, -2]   ->  c = +1
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+                 [ -1  +0  +0 ]
+
+  clase 15 :  det = -1   TU SI   |   12 matrices distintas,   56 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 0]  X=[4, 2]   ->  c = +1
+                 [ -1  -1  +0 ]
+                 [ -1  +0  -1 ]
+                 [ -1  +0  +0 ]
+
+  clase 16 :  det = +1   TU SI   |   44 matrices distintas,  351 pares (Lambda,X)
+              testigo  Lambda=[0, 0, 0]  X=[2, 0]   ->  c = +1
+                 [ -1  -1  +0 ]
+                 [ -1  +0  +0 ]
+                 [ +0  +0  -1 ]
+
+  K1  toda clase totalmente unimodular : 16 de 16
+  K2  |det| en {0,1}                   : 16 de 16
+  K3  pares (Lambda,X) vivos sumados   : 1191
+
+================================================================================================
+t = 3, r = 2, beta_i <= 12  --  la caja grande
+================================================================================================
+
+  clase  1 :  det = +0   TU SI   |    2 matrices distintas,   19 pares (Lambda,X)
+              testigo  Lambda=[7, 5, 3]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+
+  clase  2 :  det = +0   TU SI   |    4 matrices distintas,  108 pares (Lambda,X)
+              testigo  Lambda=[4, 2, 0]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+
+  clase  3 :  det = +0   TU SI   |    8 matrices distintas,  235 pares (Lambda,X)
+              testigo  Lambda=[4, 2, 2]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+                 [ -1  +0  +0 ]
+
+  clase  4 :  det = +0   TU SI   |    6 matrices distintas,  250 pares (Lambda,X)
+              testigo  Lambda=[4, 2, 1]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  -1 ]
+                 [ +0  +0  +0 ]
+
+  clase  5 :  det = +0   TU SI   |    8 matrices distintas,  296 pares (Lambda,X)
+              testigo  Lambda=[3, 1, 0]  X=[8, -4]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+                 [ -1  -1  +0 ]
+
+  clase  6 :  det = +0   TU SI   |   12 matrices distintas, 1000 pares (Lambda,X)
+              testigo  Lambda=[1, 0, 0]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+                 [ +0  +0  +0 ]
+
+  clase  7 :  det = +0   TU SI   |   14 matrices distintas,  689 pares (Lambda,X)
+              testigo  Lambda=[3, 2, 0]  X=[8, 2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  +0  +0 ]
+                 [ -1  +0  +0 ]
+
+  clase  8 :  det = +0   TU SI   |   18 matrices distintas, 1650 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 1]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ -1  +0  +0 ]
+                 [ +0  +0  +0 ]
+
+  clase  9 :  det = +0   TU SI   |    6 matrices distintas,  523 pares (Lambda,X)
+              testigo  Lambda=[2, 2, 1]  X=[4, -2]   ->  c = +0
+                 [ -1  -1  -1 ]
+                 [ +0  +0  +0 ]
+                 [ +0  +0  +0 ]
+
+  clase 10 :  det = +0   TU SI   |   22 matrices distintas,  924 pares (Lambda,X)
+              testigo  Lambda=[3, 2, 0]  X=[8, -2]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ -1  -1  +0 ]
+                 [ -1  +0  -1 ]
+
+  clase 11 :  det = +0   TU SI   |   26 matrices distintas, 1400 pares (Lambda,X)
+              testigo  Lambda=[2, 1, 0]  X=[6, -4]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ -1  -1  +0 ]
+                 [ +0  +0  -1 ]
+
+  clase 12 :  det = +0   TU SI   |   18 matrices distintas, 1650 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 1]  X=[4, 2]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ -1  +0  -1 ]
+                 [ +0  +0  +0 ]
+
+  clase 13 :  det = +0   TU SI   |   26 matrices distintas, 2100 pares (Lambda,X)
+              testigo  Lambda=[2, 1, 0]  X=[6, 0]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ +0  +0  -1 ]
+                 [ +0  +0  -1 ]
+
+  clase 14 :  det = +0   TU SI   |   20 matrices distintas, 1508 pares (Lambda,X)
+              testigo  Lambda=[2, 0, 0]  X=[6, -4]   ->  c = +0
+                 [ -1  -1  +0 ]
+                 [ +0  +0  -1 ]
+                 [ +0  +0  +0 ]
+
+  clase 15 :  det = +1   TU SI   |   12 matrices distintas,  792 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 0]  X=[4, -2]   ->  c = +1
+                 [ -1  -1  -1 ]
+                 [ -1  -1  +0 ]
+                 [ -1  +0  +0 ]
+
+  clase 16 :  det = -1   TU SI   |   12 matrices distintas,  792 pares (Lambda,X)
+              testigo  Lambda=[1, 1, 0]  X=[4, 2]   ->  c = +1
+                 [ -1  -1  +0 ]
+                 [ -1  +0  -1 ]
+                 [ -1  +0  +0 ]
+
+  clase 17 :  det = +1   TU SI   |   44 matrices distintas, 4625 pares (Lambda,X)
+              testigo  Lambda=[0, 0, 0]  X=[2, 0]   ->  c = +1
+                 [ -1  -1  +0 ]
+                 [ -1  +0  +0 ]
+                 [ +0  +0  -1 ]
+
+  K1  toda clase totalmente unimodular : 17 de 17
+  K2  |det| en {0,1}                   : 17 de 17
+  K3  pares (Lambda,X) vivos sumados   : 18561
+
+================================================================================================
+K4  .QUE CLASE APARECE AL AGRANDAR LA CAJA?
+================================================================================================
+  clases a beta<=6 : 16      clases a beta<=12 : 17
+  nuevas al agrandar : 1     desaparecidas : 0
+
+  NUEVA :  det = +0   TU SI   testigo Lambda=[7, 5, 3] X=[4, -2]  ->  c = +0
+             [ -1  -1  -1 ]
+             [ -1  -1  -1 ]
+             [ -1  -1  -1 ]
+
+================================================================================================
+DONE

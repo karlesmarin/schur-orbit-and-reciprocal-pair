@@ -1,0 +1,15 @@
+==============================================================================
+Necessity of 'concentric', with no pre-filter,  t=4 r=2,  |lambda| <= 28
+==============================================================================
+
+  shapes with no empty class : 9071
+
+             vanishes   does not
+  conc            63       1231
+  not conc         0       7777   <- c must be 0 or the necessity is false
+
+  beta-symmetric but NOT concentric: 48 shapes
+  (that is where a counterexample would hide: the sufficient condition would predict
+   a vanishing shape outside the concentric family)
+
+DONE

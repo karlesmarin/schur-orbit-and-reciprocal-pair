@@ -1,0 +1,31 @@
+========================================================================================================
+L1-L6  the lemma, its case split, its decoy, and the forced consequence
+========================================================================================================
+
+     t   r  |G|=2 | closed | L1 bad  L2 bad  case(1)  case(2) | L3 bad | L6 bad || NOT closed:  V=C   V!=C
+  ----------------------------------------------------------------------------------------------------
+     2   1     95 |     95 |      0       0       95        0 |      0 |      0 ||           0     0      0
+     2   2    358 |     32 |      0       0       32        0 |      0 |      0 ||         326     4    322
+     2   3    262 |     21 |      0       0       21        0 |      0 |      0 ||         241     8    233
+     4   1    141 |    141 |      0       0      141        0 |      0 |      0 ||           0     0      0
+     4   2    359 |     44 |      0       0       44        0 |      0 |      0 ||         315     7    308
+     4   3    162 |      8 |      0       0        8        0 |      0 |      0 ||         154     8    146
+     6   2     68 |     10 |      0       0       10        0 |      0 |      0 ||          58     9     49
+     6   3     36 |      3 |      0       0        3        0 |      0 |      0 ||          33     2     31
+     8   2     14 |      3 |      0       0        3        0 |      0 |      0 ||          11     7      4
+    10   2      7 |      0 |      0       0        0        0 |      0 |      0 ||           7     6      1
+
+  totals: |G|=2 on 1502 shapes, of which 357 are closed under the reflection.
+  L1 bad 0, L2 bad 0, L3 bad (V != C exactly) 0, L6 bad 0 -- all must be 0.
+  the case split: case (1) 357, case (2) 0.
+  case (2) is FORBIDDEN by residues -- it would need C = 2k and C = 2k + t/2 at once -- so
+  its column is a forced 0, and a single hit would kill the argument.
+  L4 decoy: among the 1145 NOT-closed shapes with |G|=2, V = C on 51 and V != C on 1094.
+  L5 non-vacuity: closed yes, not closed yes.
+
+  PROVED AND NON-VACUOUS: the reflection fixes the common part, the two differing
+  elements map onto each other, V equals C exactly, and the tied classes are the two
+  fixed classes of sigma_C -- which is condition (ii).  And V = C is NOT automatic:
+  it fails on 1094 of the not-closed shapes, so the reflection is carrying the argument.
+
+DONE

@@ -1,0 +1,21 @@
+====================================================================================================
+t    pairs     LeeOh       H*          H* and not LO    LO not H*      H* vs primes-only
+====================================================================================================
+4    12972     615         3760        3145             0              0             
+     -> H* pairs failing the CSP criterion: 0   (must be 0)
+6    9521      402         1704        1302             0              0             
+     -> H* pairs failing the CSP criterion: 0   (must be 0)
+8    2848      140         519         379              0              346           
+     -> H* pairs failing the CSP criterion: 0   (must be 0)
+9    2877      140         905         765              0              0             
+     -> H* pairs failing the CSP criterion: 0   (must be 0)
+10   2888      140         523         383              0              0             
+     -> H* pairs failing the CSP criterion: 0   (must be 0)
+12   2888      139         271         132              0              261           
+     -> H* pairs failing the CSP criterion: 0   (must be 0)
+
+====================================================================================================
+Q1  Lee-Oh => H* :   the 'LO not H*' column must be 0 everywhere.
+Q2  H* strictly weaker : the 'H* and not LO' column must be large, or the repair is empty.
+Q3  primes suffice? :  'H* vs primes-only' counts disagreements; 0 means the condition at
+     the prime divisors (plus t itself) already implies it at every divisor.

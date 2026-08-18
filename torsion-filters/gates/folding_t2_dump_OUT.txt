@@ -1,0 +1,15 @@
+  r=1 ...
+     3060 formas, 352 ceros, 0 mezcladas
+  r=2 ...
+     3003 formas, 78 ceros, 394 mezcladas
+  r=3 ...
+     1287 formas, 27 ceros, 252 mezcladas
+  r=4 ...
+     66 formas, 2 ceros, 6 mezcladas
+
+  escritos: folding_t2_TABLE.tsv, folding_t2_MIXED.txt, folding_t2_ZEROS.txt, folding_t2_DATA.json
+     folding_t2_TABLE.tsv         976856 bytes
+     folding_t2_MIXED.txt         136218 bytes
+     folding_t2_ZEROS.txt         63233 bytes
+     folding_t2_DATA.json         2501710 bytes
+DONE

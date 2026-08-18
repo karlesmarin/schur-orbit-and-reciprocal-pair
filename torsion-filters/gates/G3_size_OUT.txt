@@ -1,0 +1,45 @@
+   hecho t=4 r=2 M=15 (acumulado 10896)
+   hecho t=4 r=3 M=15 (acumulado 18640)
+   hecho t=6 r=2 M=16 (acumulado 30520)
+   hecho t=6 r=3 M=17 (acumulado 46369)
+   hecho t=8 r=2 M=17 (acumulado 54605)
+   hecho t=6 r=4 M=18 (acumulado 65618)
+
+X0 CONTROL |pares en D1| == |G|  y  |pares en D2| == |G2| : 0 fallos de 65618
+X4 formas con menos de tres grados distintos (sin D3) : 0 de 65618
+
+X1 distribucion de |G3| (pares en el tercer grado):
+        1 : 23957
+        2 : 12785
+        3 : 6369
+        4 : 6272
+        5 : 5604
+        6 : 4353
+        7 : 2540
+        8 : 1917
+        9 : 932
+       10 : 529
+       11 : 138
+       12 : 113
+       13 : 56
+       14 : 27
+       15 : 11
+       17 : 13
+       22 : 2
+   maximo observado: 22
+
+X5 SENUELO |G3| <= 2 : 28876 fallos de 65618
+
+X2 DESGLOSE por fuente de los pares de D3:
+      de G2 (segundo subconjunto)      : 2759
+      de una transversal mas baja      : 196305
+
+X3 formas de PROFUNDIDAD 4 (el tercer estrato es el que decide) : 56
+      |G3| en ellas : {1: 12, 3: 6, 4: 18, 8: 8, 10: 6, 12: 6}
+      |G2| en ellas : {1: 24, 2: 10, 3: 14, 4: 4, 6: 4}
+      t=4 r=2 |G3|=1 |G2|=2 beta=[14, 13, 11, 6, 4, 3, 1, 0]
+      t=4 r=2 |G3|=1 |G2|=2 beta=[14, 13, 11, 10, 8, 3, 1, 0]
+      t=4 r=2 |G3|=1 |G2|=4 beta=[14, 11, 9, 6, 5, 4, 3, 0]
+      t=4 r=2 |G3|=1 |G2|=4 beta=[14, 11, 10, 9, 8, 5, 3, 0]
+      t=4 r=2 |G3|=1 |G2|=2 beta=[15, 14, 12, 7, 5, 4, 2, 1]
+      t=4 r=2 |G3|=1 |G2|=2 beta=[15, 14, 12, 11, 9, 4, 2, 1]

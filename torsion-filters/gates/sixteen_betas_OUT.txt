@@ -1,0 +1,15 @@
+============================================================================================================
+LAS FORMAS CON Delta != 0  --  reconstruccion del recuento de la vuelta 11
+============================================================================================================
+
+  t=6 r=2 W=15 :  poblacion critica n = 299   |   fallos = 16   |   Delta: {(1, 1): 16}   |   profundidad: {1: 16}
+  t=4 r=2 W=15 :  poblacion critica n = 440   |   fallos = 16   |   Delta: {(1, 1): 6, (0, 2): 2, (1, 3): 2, (3, -1): 4, (3, 1): 2}   |   profundidad: {1: 14, 2: 2}
+
+  C1  ACEPTACION contra lo que se mando en la vuelta 11:
+      t=6 r=2 -> se esperaban 16 fallos con Delta=(1,1) en los 16.  Salen 16, y Delta {(1, 1): 16}.  COINCIDE
+      t=4 r=2 -> se esperaban 16 fallos con Delta variado (control).  Salen 16.
+
+  volcado en sixteen_betas.json
+
+============================================================================================================
+DONE

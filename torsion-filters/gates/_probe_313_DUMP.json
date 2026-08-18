@@ -1,0 +1,17 @@
+{
+ "total": 313,
+ "pares_por_tam": {
+  "2": 281,
+  "4": 32
+ },
+ "fibras_por_tam": {
+  "2": 322,
+  "4": 11
+ },
+ "mismo_punto_2": 41,
+ "pares_por_fibra4": {
+  "3": 8,
+  "4": 1,
+  "2": 2
+ }
+}

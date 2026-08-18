@@ -1,0 +1,23 @@
+====================================================================================================
+.ES nu UN MULTIPLETE GKRS?   suma alternante tras olvidar la equivariancia
+====================================================================================================
+
+  t=3 r=2 :  sum nu.dim == 0 en   83 de   83   (mayor dimension vista: 72)
+  t=5 r=2 :  sum nu.dim == 0 en   60 de   60   (mayor dimension vista: 56)
+  t=7 r=2 :  sum nu.dim == 0 en   43 de   43   (mayor dimension vista: 56)
+  t=3 r=3 :  sum nu.dim == 0 en   70 de   70   (mayor dimension vista: 3640)
+
+----------------------------------------------------------------------------------------------------
+  M0  FATAL  sum_mu nu . dim = 0                 : 256 de 256
+  M1  tamano del soporte de nu (para que 0 no sea la suma vacia): {2: 32, 4: 135, 6: 60, 8: 29}
+  M2  .tambien fibra a fibra, con dimensiones?   : 90 de 333
+      (no tiene por que: seria mucho mas fuerte que su Teorema 4.2.2)
+
+  N1  SENUELO signos barajados                   : 63 de 256
+
+  LECTURA: si M0 sale entero y N1 se hunde, nuestro nu es un multiplete GKRS en el sentido de
+  LS 4.2.2, su marco es el nuestro, y la distancia exacta entre su teorema y nuestra conjetura
+  es la que separa 'la suma total se anula' de 'cada fibra se anula'.
+
+====================================================================================================
+DONE

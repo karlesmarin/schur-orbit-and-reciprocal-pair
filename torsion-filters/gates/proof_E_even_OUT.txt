@@ -1,0 +1,27 @@
+field GF(1000000321); guard on t in [3, 4, 5, 6, 8] -> PASS
+
+================================================================================================
+V1-V5  the three steps, the corollary, and the control
+================================================================================================
+
+   t   r   N |lam|<=  shapes  concentric  V1 bad  V2 bad  V3 bad | crit  V4 bad | |E| odd
+  --------------------------------------------------------------------------------------------
+   3   2   7     22    2667         123       0       0       0 |     0       0 |      39
+   4   1   6     26    2564         936       0       0       0 |    84       0 |     238
+   4   2   8     22    2874         172       0       0       0 |    19       0 |      38
+   4   3  10     18    1457          26       0       0       0 |     6       0 |       7
+   5   2   9     20    1855         133       0       0       0 |     0       0 |      41
+   6   2  10     18    1118         119       0       0       0 |     7       0 |      27
+   6   3  12     16     853          29       0       0       0 |     2       0 |      12
+   8   2  12     16     595         100       0       0       0 |     3       0 |       5
+
+  V1/V2/V3/V4 must all be 0.  The last column is V5: shapes that ARE concentric and have
+  an ODD number of excess classes.  It must be NONZERO, or the theorem forbids nothing.
+
+  totals: V1=0  V2=0  V3=0  V4=0   |   shapes meeting (i)+(ii): 121
+          |E| odd among ALL shapes: 6752      among CONCENTRIC shapes: 407
+
+  PROVED AND NON-VACUOUS: every step holds, no shape meets (i)+(ii) with |E| odd, and
+  |E| odd does occur among concentric shapes -- so the theorem excludes real cases.
+
+DONE

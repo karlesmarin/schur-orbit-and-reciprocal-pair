@@ -1,0 +1,26 @@
+========================================================================================================
+POR QUE SE CANCELAN: .son cajas con signo multiplicativo?
+========================================================================================================
+
+  reparto del numero de terminos por progresion : {1: 1016, 2: 322, 4: 11}
+
+  P1  el numero de terminos es potencia de 2      : 1349 de 1349
+  P2  el conjunto de k es una CAJA (producto)     : 282 de 333
+  P3  cada proyeccion tiene a lo sumo 2 valores   : 325 de 333
+  P5  los k difieren en pares (misma progresion)  : 333 de 333
+  P4  el signo es MULTIPLICATIVO y cada eleccion
+      binaria lo INVIERTE  (esto es la cancelacion): 282 de 282
+
+  D1  SENUELO: lo mismo con los signos de nu barajados : 115 de 282
+
+  !! primeros fallos:
+    {"que": "no es caja", "t": 3, "r": 2, "Lambda": [4, 2, 0], "X": [4, -2], "ks": [[1, 1], [1, 5], [3, 1], [3, 3]]}
+    {"que": "no es caja", "t": 3, "r": 2, "Lambda": [4, 2, 2], "X": [4, -2], "ks": [[1, 5], [3, 3]]}
+    {"que": "no es caja", "t": 3, "r": 2, "Lambda": [4, 4, 3], "X": [4, -2], "ks": [[1, 5], [3, 3]]}
+
+  LECTURA: P2+P4 juntos SON la cancelacion.  Si salen enteros, cada progresion con mas de un
+  termino es un producto de elecciones binarias que invierten el signo, luego suma 0, y c(X)
+  vale +-1 exactamente cuando la progresion corta el soporte una sola vez.  Eso es (L1).
+
+========================================================================================================
+DONE

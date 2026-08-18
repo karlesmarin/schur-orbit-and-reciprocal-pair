@@ -1,0 +1,47 @@
+[
+ {
+  "t": 2,
+  "r": 2,
+  "tipo": "C",
+  "formas": 122,
+  "una_paridad": 122,
+  "coincide_con_lambda": 122,
+  "dos_paridades": 0
+ },
+ {
+  "t": 4,
+  "r": 2,
+  "tipo": "C",
+  "formas": 303,
+  "una_paridad": 303,
+  "coincide_con_lambda": 303,
+  "dos_paridades": 0
+ },
+ {
+  "t": 6,
+  "r": 2,
+  "tipo": "C",
+  "formas": 50,
+  "una_paridad": 50,
+  "coincide_con_lambda": 50,
+  "dos_paridades": 0
+ },
+ {
+  "t": 3,
+  "r": 2,
+  "tipo": "D",
+  "formas": 82,
+  "una_paridad": 27,
+  "coincide_con_lambda": 15,
+  "dos_paridades": 55
+ },
+ {
+  "t": 5,
+  "r": 2,
+  "tipo": "D",
+  "formas": 41,
+  "una_paridad": 33,
+  "coincide_con_lambda": 17,
+  "dos_paridades": 8
+ }
+]

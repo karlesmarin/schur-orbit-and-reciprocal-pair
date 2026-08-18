@@ -1,0 +1,24 @@
+   hecho t=2 r=2 M=13  (acumulado 2989 formas)
+   hecho t=2 r=3 M=15  (acumulado 15857 formas)
+   hecho t=4 r=2 M=15  (acumulado 26753 formas)
+   hecho t=4 r=3 M=16  (acumulado 45277 formas)
+   hecho t=6 r=2 M=16  (acumulado 57157 formas)
+   hecho t=6 r=3 M=17  (acumulado 73006 formas)
+   hecho t=8 r=2 M=17  (acumulado 81242 formas)
+   hecho t=6 r=4 M=18  (acumulado 92255 formas)
+   hecho t=8 r=3 M=18  (acumulado 100288 formas)
+
+Y0 VALIDACION del signo: certificado a profundidad 0  vs  criterio del estrato de arriba
+     desacuerdos: 0 de 100288
+
+Y1 PROFUNDIDAD (D1 menos el primer grado con Delta != 0), sobre 100288 formas:
+      D1 - 0   : 99174
+      D1 - 2   : 192
+      D1 - 4   : 64
+
+Y2 formas donde Delta se anula en TODOS los pisos hasta D1-12 : 858
+   se comprueban TODAS (el certificado solo da cota superior).  Fase 1: det M sobre
+   GF(1000033) en 6 puntos aleatorios; fase 2: expansion exacta de las que salgan != 0.
+      Phi_t identicamente cero (branch (a)/(b)) : 858 de 858
+      con algun valor NO nulo, o sea Phi_t != 0 : 0
+      *** ninguna forma con Delta = 0 hasta D1-12 tiene Phi_t != 0 ***

@@ -1,0 +1,30 @@
+========================================================================================================
+C1  ¿ES UNICO EL VERTICE DOMINANTE DEL SOPORTE REAL DE N?  -- lo que sostiene la ley
+========================================================================================================
+
+   t  r   W |  n | top real UNICO | top(N_delta) medido | forma cerrada (N-1,N-3,...) | igual
+    4  2  14 | 40 |    40 (100.0%) | [(7, 5)]            | (7, 5)                      | True
+    6  2  15 | 40 |    40 (100.0%) | [(9, 7)]            | (9, 7)                      | True
+    8  2  16 | 40 |    40 (100.0%) | [(11, 9)]           | (11, 9)                     | True
+    4  3  13 | 40 |    40 (100.0%) | [(9, 7, 5)]         | (9, 7, 5)                   | True
+    6  3  15 | 40 |    40 (100.0%) | [(11, 9, 7)]        | (11, 9, 7)                  | True
+
+========================================================================================================
+C0  LA LEY, contra los mu_max calculados en SAGE   +   C2  el señuelo, que tiene que fallar
+========================================================================================================
+
+   poblacion: 332 formas con g_com ASIMETRICO, mu_max calculado en Sage
+
+   LEY      mu_max = top(N_beta) - (7, 5)       : 332 de 332   (100.0 %)
+   SEÑUELO  mu_max = top(N_beta) - (7, 6)       :   0 de 332   (  0.0 %)   <- debe fallar
+   sin vertice unico: 0
+
+   -> la ley PASA y el señuelo FALLA: el vector que hay que restar es el de la
+      forma cerrada, y no otro.
+
+========================================================================================================
+  LO QUE LA LEY ES Y LO QUE NO ES.  Es exacta y esta forzada por Ostrowski, pero NO es una
+  formula cerrada en beta: para evaluarla hay que saber QUE vertice sobrevive en N_beta, que
+  es el mismo descenso de siempre.  Lo que hace es trasladarlo al nivel intrinseco y quitar
+  de en medio el denominador, que ahora es un vector explicito que solo depende de (t, r).
+========================================================================================================

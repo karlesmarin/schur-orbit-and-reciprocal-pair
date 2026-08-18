@@ -1,0 +1,115 @@
+{
+ "i": {
+  "tauB_00": 1,
+  "tauC_22": -1,
+  "predicho": [
+   1,
+   -1
+  ],
+  "coincide": true
+ },
+ "ii": {
+  "tau_a1": 1,
+  "tau_a3": -1,
+  "predicho": [
+   1,
+   -1
+  ],
+  "coincide": true
+ },
+ "iii": {
+  "3": {
+   "eps_t": 1,
+   "control": [
+    3,
+    3
+   ]
+  },
+  "5": {
+   "eps_t": 1,
+   "control": [
+    6,
+    6
+   ]
+  },
+  "7": {
+   "eps_t": -1,
+   "control": [
+    10,
+    10
+   ]
+  },
+  "9": {
+   "eps_t": 1,
+   "control": [
+    15,
+    15
+   ]
+  }
+ },
+ "iv": [
+  {
+   "t": 6,
+   "n": 2,
+   "RB": 16,
+   "RC": 8,
+   "distintos": true
+  },
+  {
+   "t": 8,
+   "n": 2,
+   "RB": 36,
+   "RC": 24,
+   "distintos": true
+  },
+  {
+   "t": 10,
+   "n": 2,
+   "RB": 64,
+   "RC": 48,
+   "distintos": true
+  },
+  {
+   "t": 12,
+   "n": 2,
+   "RB": 100,
+   "RC": 80,
+   "distintos": true
+  },
+  {
+   "t": 14,
+   "n": 2,
+   "RB": 144,
+   "RC": 120,
+   "distintos": true
+  },
+  {
+   "t": 8,
+   "n": 3,
+   "RB": 120,
+   "RC": 48,
+   "distintos": true
+  },
+  {
+   "t": 10,
+   "n": 3,
+   "RB": 336,
+   "RC": 192,
+   "distintos": true
+  },
+  {
+   "t": 12,
+   "n": 3,
+   "RB": 720,
+   "RC": 480,
+   "distintos": true
+  },
+  {
+   "t": 14,
+   "n": 3,
+   "RB": 1320,
+   "RC": 960,
+   "distintos": true
+  }
+ ]
+}

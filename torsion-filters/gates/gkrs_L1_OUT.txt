@@ -1,0 +1,66 @@
+======================================================================================================================
+GKRS PARA (L1):  la identidad de rango igual  B_{R'} > B_{m'} x D_r  filtrada por tau^B_t
+======================================================================================================================
+
+  t=3  r=2  (m'=1, R'=3)   Lambda_1 <= 6   ->  84 pesos
+     T1  CONTROL FATAL   c . Delta_t == nu            : 84 de 84   (signo global: {1: 83})
+     D1  senuelo  paso t+2                            : 0 de 83  (debe ser ~0)
+     D2  senuelo  sin el signo prod eps               : 0 de 83  (debe ser ~0)
+     T2  reparto de nu                                : {-1: 168, 1: 168}
+         mu_w dos a dos distintos                     : 84 de 84
+     T3  las 2^r copias de supp(c) NO se pisan        : 16 de 84
+     T4  c(L,mu) = +- nu(mu + t/2 . 1)                : 17 de 84
+         reparto de c                                 : {-1: 227, 1: 236}
+     T5  DIVISION solo con datos GKRS -> reproduce c  : 84 de 84  (resto no nulo: 0)
+         reparto del cociente, y peor |c| de la division: {-1: 227, 1: 236}   peor=1
+     ** colisiones: [{"Lambda": [6, 6, 6], "golpes": {"(17, 9)": 2, "(15, 11)": 2, "(11, 9)": 4, "(17, 3)": 2, "(11, 3)": 4, "(17, -3)": 2, "(17, -9)": 2, "(11, -3)": 4, "(11, -9)": 4, "(15, -11)": 2, "(15, 7)": 2, "(13, 9)": 2, "(9, 7)": 4, "(15, 5)": 2, "(9, 5)": 4, "(15, 1)": 2, "(9, 1)": 4, "(15, -1)": 2, "(9, -1)": 4, "(15, -5)": 2, "(9, -5)": 4, "(15, -7)": 2, "(9, -7)": 4, "(13, -9)": 2, "(13, 3)": 2, "(7, 3)": 4, "(13, -3)": 2, "(7, -3)": 4, "(5, 3)": 4, "(5, -3)": 4, "(3, 1)": 4, "(3, -1)": 4}, "c": {"(6, 6)": 1, "(6, 3)": 1, "(6, -3)": 1, "(6, -6)": 1, "(6, 0)": 1, "(5, 5)": -1, "(5, 4)": -1, "(5, 2)": -1, "(5, 1)": -1, "(5, -1)": -1, "(5, -2)": -1, "(5, -4)": -1, "(5, -5)": -1, "(4, 3)": 1, "(4, -3)": 1, "(4, 0)": 1, "(3, 3)": 1, "(3, -3)": 1, "(3, 0)": 1, "(2, 2)": -1, "(2, 1)": -1, "(2, -1)": -1, "(2, -2)": -1, "(1, 0)": 1, "(0, 0)": 1}}, {"Lambda": [6, 6, 5], "golpes": {"(17, 9)": 2, "(17, 3)": 2, "(11, 9)": 2, "(11, 3)": 2, "(17, -3)": 2, "(17, -9)": 2, "(11, -3)": 2, "(11, -9)": 2}, "c": {"(6, 3)": -1, "(6, -3)": -1, "(6, 0)": -1, "(6, 6)": -1, "(6, -6)": -1}}]
+
+  t=5  r=2  (m'=2, R'=4)   Lambda_1 <= 4   ->  70 pesos
+     T1  CONTROL FATAL   c . Delta_t == nu            : 70 de 70   (signo global: {1: 60})
+     D1  senuelo  paso t+2                            : 0 de 60  (debe ser ~0)
+     D2  senuelo  sin el signo prod eps               : 0 de 60  (debe ser ~0)
+     T2  reparto de nu                                : {-1: 135, 1: 135}
+         mu_w dos a dos distintos                     : 70 de 70
+     T3  las 2^r copias de supp(c) NO se pisan        : 41 de 70
+     T4  c(L,mu) = +- nu(mu + t/2 . 1)                : 48 de 70
+         reparto de c                                 : {-1: 64, 1: 85}
+     T5  DIVISION solo con datos GKRS -> reproduce c  : 70 de 70  (resto no nulo: 0)
+         reparto del cociente, y peor |c| de la division: {-1: 64, 1: 85}   peor=1
+     ** colisiones: [{"Lambda": [4, 4, 4, 4], "golpes": {"(15, 1)": 2, "(11, 5)": 2, "(5, 1)": 4, "(15, -1)": 2, "(9, 5)": 2, "(5, -1)": 4, "(9, -5)": 2, "(11, -5)": 2}, "c": {"(4, 3)": 1, "(4, 2)": 1, "(4, -2)": 1, "(4, -3)": 1, "(2, 0)": -1, "(1, 0)": -1}}, {"Lambda": [4, 4, 4, 3], "golpes": {"(15, 3)": 2, "(13, 5)": 2, "(5, 3)": 4, "(15, -3)": 2, "(7, 5)": 2, "(5, -3)": 4, "(7, -5)": 2, "(13, -5)": 2}, "c": {"(4, 4)": 1, "(4, 1)": 1, "(4, -1)": 1, "(4, -4)": 1, "(3, 0)": -1, "(0, 0)": -1}}]
+
+  t=3  r=3  (m'=1, R'=4)   Lambda_1 <= 3   ->  35 pesos
+     T1  CONTROL FATAL   c . Delta_t == nu            : 35 de 35   (signo global: {-1: 35})
+     D1  senuelo  paso t+2                            : 0 de 35  (debe ser ~0)
+     D2  senuelo  sin el signo prod eps               : 0 de 35  (debe ser ~0)
+     T2  reparto de nu                                : {-1: 100, 1: 100}
+         mu_w dos a dos distintos                     : 35 de 35
+     T3  las 2^r copias de supp(c) NO se pisan        : 9 de 35
+     T4  c(L,mu) = +- nu(mu + t/2 . 1)                : 0 de 35
+         reparto de c                                 : {-1: 52, 1: 68}
+     T5  DIVISION solo con datos GKRS -> reproduce c  : 35 de 35  (resto no nulo: 0)
+         reparto del cociente, y peor |c| de la division: {-1: 68, 1: 52}   peor=1
+     ** colisiones: [{"Lambda": [3, 3, 3, 3], "golpes": {"(13, 11, 3)": 2, "(13, 9, 5)": 2, "(13, 5, 3)": 4, "(11, 7, 3)": 2, "(9, 7, 5)": 2, "(7, 5, 3)": 4, "(13, 11, -3)": 2, "(13, 5, -3)": 4, "(13, 9, -5)": 2, "(11, 7, -3)": 2, "(7, 5, -3)": 4, "(9, 7, -5)": 2, "(13, 9, 1)": 2, "(13, 7, 3)": 2, "(13, 3, 1)": 4, "(9, 7, 1)": 2, "(7, 3, 1)": 4, "(13, 9, -1)": 2, "(13, 3, -1)": 4, "(9, 7, -1)": 2, "(7, 3, -1)": 4, "(13, 7, -3)": 2}, "c": {"(3, 3, 3)": 1, "(3, 3, -3)": 1, "(3, 3, 0)": 1, "(3, 2, 2)": -1, "(3, 2, 1)": -1, "(3, 2, -1)": -1, "(3, 2, -2)": -1, "(3, 1, 0)": 1, "(3, 0, 0)": 1}}, {"Lambda": [3, 3, 3, 2], "golpes": {"(13, 11, 3)": 2, "(13, 11, -3)": 2, "(13, 5, 3)": 2, "(13, 5, -3)": 2, "(11, 7, 3)": 4, "(11, 7, -3)": 4, "(7, 5, 3)": 4, "(7, 5, -3)": 4, "(11, 9, 7)": 2, "(9, 7, 5)": 2, "(11, 9, -7)": 2, "(9, 7, -5)": 2, "(11, 9, 1)": 2, "(11, 3, 1)": 4, "(9, 5, 1)": 2, "(5, 3, 1)": 4, "(11, 9, -1)": 2, "(11, 5, 3)": 2, "(11, 3, -1)": 4, "(9, 5, -1)": 2, "(5, 3, -1)": 4, "(11, 5, -3)": 2}, "c": {"(3, 3, 0)": -1, "(3, 3, 3)": -1, "(3, 3, -3)": -1, "(2, 2, 2)": -1, "(2, 2, 1)": -1, "(2, 2, -1)": -1, "(2, 2, -2)": -1, "(2, 1, 0)": 1, "(2, 0, 0)": 1}}]
+
+  t=7  r=2  (m'=3, R'=5)   Lambda_1 <= 3   ->  56 pesos
+     T1  CONTROL FATAL   c . Delta_t == nu            : 56 de 56   (signo global: {1: 43})
+     D1  senuelo  paso t+2                            : 0 de 43  (debe ser ~0)
+     D2  senuelo  sin el signo prod eps               : 0 de 43  (debe ser ~0)
+     T2  reparto de nu                                : {-1: 120, 1: 120}
+         mu_w dos a dos distintos                     : 56 de 56
+     T3  las 2^r copias de supp(c) NO se pisan        : 48 de 56
+     T4  c(L,mu) = +- nu(mu + t/2 . 1)                : 56 de 56
+         reparto de c                                 : {-1: 34, 1: 40}
+     T5  DIVISION solo con datos GKRS -> reproduce c  : 56 de 56  (resto no nulo: 0)
+         reparto del cociente, y peor |c| de la division: {-1: 34, 1: 40}   peor=1
+     ** colisiones: [{"Lambda": [3, 3, 3, 3, 3], "golpes": {"(7, 1)": 2, "(7, -1)": 2}, "c": {"(3, 0)": -1, "(2, 0)": -1}}, {"Lambda": [3, 3, 3, 3, 2], "golpes": {"(9, 1)": 2, "(5, -1)": 2, "(5, 1)": 2, "(9, -1)": 2}, "c": {"(3, 1)": -1, "(3, -1)": -1, "(2, 1)": -1, "(2, -1)": -1}}]
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si T1 acierta y los senuelos no, la identidad GKRS especializada ES prop:crossden y la
+     reformulacion de (L1) esta justificada como CUENTA, no solo como analogia.
+   * si ademas T3 sale limpio (sin colisiones) y nu vive en {0,+-1}, entonces
+         c(Lambda,mu) = +- nu(mu + (t/2).1)  en  {0,+-1}   -- eso es (L1) PROBADA.
+   * si hay colisiones, esos Lambda son EXACTAMENTE la obstruccion, y hay que mirar si las
+     copias que se pisan se cancelan (entonces c=0) o se suman (entonces (L1) peligra).
+======================================================================================================================
+DONE

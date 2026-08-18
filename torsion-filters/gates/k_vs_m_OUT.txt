@@ -1,0 +1,97 @@
+============================================================================================================
+C0  ACEPTACION -- dos controles independientes, y el veredicto se suspende si falla uno
+============================================================================================================
+
+  C0a  probe() reproduce scan() de survivors_wide.py: objetivo, contingencia y las BETAS
+       t=4 r=2 M=15 : objetivo 44/44, contingencia igual, betas 0/0   ok
+       t=4 r=3 M=15 : objetivo 28/28, contingencia igual, betas 0/0   ok
+       t=6 r=2 M=17 : objetivo 108/108, contingencia igual, betas 0/0   ok
+       t=6 r=3 M=18 : objetivo 104/104, contingencia igual, betas 8/8   ok
+       C0a PASA
+
+  C0b  sum_W (M+1-W) * n_W  ==  n de scan(t,r,M)   [invariancia por traslacion + recuento]
+       t=4 r=2 M=19 : objetivo 268 (scan 268), supervivientes 8 (scan 8)   ok
+       t=6 r=3 M=19 : objetivo 184 (scan 184), supervivientes 12 (scan 12)   ok
+       t=8 r=3 M=21 : objetivo 312 (scan 312), supervivientes 60 (scan 60)   ok
+       C0b PASA
+
+  C0 PASA -- barrer por anchura es barrer por M, deduplicado.
+
+============================================================================================================
+N1  EL BARRIDO.  Cada linea se imprime al terminar su W: una parada a mano deja datos validos
+============================================================================================================
+
+  t=4 r=2  (N=8, tope W=36 puesto POR RELOJ, no por teoria)
+     W    formas  objetivo  surv |  histograma de profundidad        K(W)  K(<=W)
+  ------------------------------------------------------------------------------------------------
+     7         1         0     0 |  -                                   0      0
+     8         7         0     0 |  -                                   0      0
+     9        28         0     0 |  -                                   0      0
+    10        84         2     0 |  -                                   0      0
+    11       210         0     0 |  -                                   0      0
+    12       462         2     0 |  -                                   0      0
+    13       924         0     0 |  -                                   0      0
+    14      1716        12     0 |  -                                   0      0
+    15      3003         0     0 |  -                                   0      0
+    16      5005        16     0 |  -                                   0      0
+    17      8008         0     0 |  -                                   0      0
+    18     12376        48     4 |  p6:4                                6      6   <-- K SUBE
+    19     18564         0     0 |  -                                   0      6
+    20     27132        40     0 |  -                                   0      6
+    21     38760         0     0 |  -                                   0      6
+    22     54264       120    12 |  p6:8 p8:4                           8      8   <-- K SUBE
+    23     74613         0     0 |  -                                   0      8
+    24    100947       120     8 |  p6:6 p8:2                           8      8
+    25    134596         0     0 |  -                                   0      8
+    26    177100       270    40 |  p6:18 p8:12 p10:10                 10     10   <-- K SUBE
+    27    230230         0     0 |  -                                   0     10
+    28    296010       210     2 |  p10:2                              10     10
+    29    376740         0     0 |  -                                   0     10
+    30    475020       504    78 |  p6:24 p8:18 p10:24 p12:12          12     12   <-- K SUBE
+    31    593775         0     0 |  -                                   0     12
+    32    736281       448    40 |  p6:20 p8:12 p10:6 p12:2            12     12
+    33    906192         0     0 |  -                                   0     12
+    34   1107568       896   162 |  p6:40 p8:32 p10:42 p12:28 p14:20   14     14   <-- K SUBE
+
+[CORRIDA PARADA A MANO, 13 de agosto de 2026, dentro del bloque t=4 r=2 en W=34 de 36 -- y se dice,
+no se esconde.  El barrido no estaba colgado ni fallando.]
+
+COMPLETO Y VALIDO:
+  C0a  probe() reproduce scan() de survivors_wide.py EXACTO en sus 4 configuraciones: objetivo,
+       contingencia y la LISTA DE BETAS supervivientes.
+  C0b  sum_W (M+1-W)*n_W == scan(t,r,M) en las tres configuraciones caras: 268/8, 184/12, 312/60.
+       O sea la invariancia por traslacion esta MEDIDA, no supuesta, y barrer por anchura W es
+       barrer por M deduplicado.
+  N1   el bloque t=4 r=2 ENTERO hasta W = 34 (de 36).  Cada linea es un barrido exhaustivo de todas
+       las formas de esa anchura -- 1 107 568 en W=34 -- asi que cada linea vale por si sola.
+
+NO SE LLEGO A:
+  - las anchuras 35 y 36 de t=4 r=2, ni las otras SEIS configuraciones del SWEEP
+    (t=6 r=2, t=8 r=2, t=6 r=3, t=8 r=3, t=6 r=4, t=10 r=2);
+  - N2 (la tabla K(M)), N3 (primera anchura de cada profundidad) y el VEREDICTO, que se imprimen
+    al final;
+  - k_vs_m_SWEEP.json, que se escribe al terminar N1.  NO EXISTE.  El dato vivo es esta tabla.
+
+LO QUE YA ESTA DECIDIDO, y no necesita el resto:
+
+    K SE MUEVE CON M.  No es una cota: es una recta.
+
+      W  |  18   22   26   30   34
+      K  |   6    8   10   12   14          y 0 en toda anchura IMPAR
+
+    Cinco puntos, ninguno ajustado: la ley  K = W/2 - 3  se escribio DESPUES de ver 18/22/26 y
+    ANTES de correr W = 30 y W = 34, y acerto las dos.  (Registrado en la conversacion, no a
+    posteriori.)
+
+    Luego "profundidad <= 4" no era una cota que se rompiese en 6: NO HAY NINGUNA COTA.  Para todo
+    K existe una anchura con un superviviente de profundidad > K, y el barrido lo exhibe hasta 14.
+    Es el QUINTO artefacto de rango en tres dias, y el que mata el instrumento entero: cualquier
+    enunciado de la forma "alguno de los K primeros estratos es no nulo" es falso para todo K.
+    El histograma del dia (prof 4 en 108, prof 6 en 16) era exacto A SU M y no describia nada.
+
+PRIMERO DE LA PROXIMA SESION:
+  1. re-lanzar k_vs_m.py entero (con el bloque t=4 r=2 ya sabido, ~6 min; el resto ~30 min) para
+     tener N2/N3/el JSON y ver si la recta K = W/2 - 3 es de t=4 r=2 o de todas las (t, r);
+  2. si es de todas, la pendiente en funcion de (t, r) es el objeto que hay que mirar -- una recta
+     medida es un enunciado que se puede intentar PROBAR, y seria lo primero que sale vivo del
+     programa t >= 4 en tres dias.

@@ -1,0 +1,20 @@
+======================================================================================================================
+¿ES PRINCIPAL NUESTRO ELEMENTO DE TORSION?   (necesario para saber si el Tma 4.1 de NPP25 aplica)
+======================================================================================================================
+   t | grupo | h  | orden en el adjunto | principal en la base estandar | conjugado a ALGUN C_m
+   ----------------------------------------------------------------------------------------------------------------
+    3 | B1    |  2 |                   3 | SI                            | [3]
+    4 | C1    |  2 |                   2 | SI                            | [2]
+    5 | B2    |  4 |                   5 | NO                            | [5]
+    6 | C2    |  4 |                   6 | NO                            | NINGUNO  <-- fuera del Tma 4.1
+    7 | B3    |  6 |                   7 | NO                            | [7]
+    8 | C3    |  6 |                   8 | NO                            | NINGUNO  <-- fuera del Tma 4.1
+    9 | B4    |  8 |                   9 | NO                            | [9]
+   10 | C4    |  8 |                  10 | NO                            | NINGUNO  <-- fuera del Tma 4.1
+   11 | B5    | 10 |                  11 | NO                            | [11]
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr: si la ultima columna sale NINGUNO para t >= 5, nuestro
+  elemento no es principal, el Teorema 4.1 no nos cubre, y estamos en la Question 8.1.
+======================================================================================================================
+DONE

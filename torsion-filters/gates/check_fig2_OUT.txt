@@ -1,0 +1,10 @@
+parejas dominantes en la caja eta_1 <= 15 : 136
+sobreviven con la regla C (la dibujada) : 49
+sobreviven con la regla B (la correcta) : 49
+puntos donde las dos reglas DIFIEREN     : 66
+   falsos supervivientes de C (viven en C y no en B) : 33
+   supervivientes que C se pierde  (viven en B y no en C) : 33
+
+los seis primeros de cada lado:
+   C y no B : [(1, 0), (2, 1), (2, 2), (4, 2), (5, 3), (6, 0)]
+   B y no C : [(2, 0), (3, 1), (3, 3), (4, 3), (5, 4), (7, 0)]

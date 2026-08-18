@@ -1,0 +1,35 @@
+========================================================================================================
+QUE ARREGLO SIRVE: cuatro candidatos contra 18 casos (identidades y señuelos)
+========================================================================================================
+
+  caso                           A simplify B equals(0 C coefs+eq D minimal_
+  ------------------------------------------------------------------------------------
+  orbita t=3                     !! no      !! no      ok triv    ok triv   
+  orbita t=4                     ok triv    ok triv    ok triv    ok triv   
+  orbita t=5                     !! no      !! no      ok triv    ok triv   
+  orbita t=7                     !! no      !! no      ok triv    ok triv   
+  orbita t=8                     ok triv    ok triv    ok triv    ok triv   
+  orbita t=9                     !! no      !! no      ok triv    ok triv   
+  cross t=3                      !! no      !! no      ok triv    ok triv   
+  cross t=5                      !! no      !! no      ok triv    ok triv   
+  cross t=7                      !! no      !! no      ok triv    ok triv   
+  cross t=9                      !! no      !! no      ok triv    ok triv   
+  even t=4                       ok triv    ok triv    ok triv    ok triv   
+  even t=6                       !! no      !! no      ok triv    ok triv   
+  even t=8                       ok triv    ok triv    ok triv    ok triv   
+  even t=10                      !! no      !! no      ok triv    ok triv   
+  SEÑUELO orbita t=5 con 1-z^6   ok no      ok no      ok no      ok no     
+  SEÑUELO cross t=7 sin (1-z)    ok no      ok no      ok no      ok no     
+  SEÑUELO even t=6 sin (1+z)     ok no      ok no      ok no      ok no     
+  SEÑUELO z - z**2               ok no      ok no      ok no      ok no     
+
+  ------------------------------------------------------------------------------------
+  A simplify (hoy)         aciertos  8 de 18      tiempo total    1.4 s
+  B equals(0)              aciertos  8 de 18      tiempo total    6.6 s
+  C coefs+equals           aciertos 18 de 18      tiempo total  598.5 s
+  D minimal_polynomial     aciertos 18 de 18      tiempo total   15.4 s
+
+  CRITERIO: gana el que acierte en LAS DOS direcciones.  Un arreglo que tambien apruebe los
+  señuelos es peor que el fallo que arregla.
+
+DONE

@@ -1,0 +1,19 @@
+==========================================================================
+t = 2, |lambda| <= 34 : 855 attained triples
+==========================================================================
+
+  P1  parity of e1+e2+e3 separates the profiles : 0 exceptions in 855 triples
+      (odd -> two-class, even -> size-three)
+
+  profile        orbit            count
+  ----------------------------------------
+  size-three     MISSING             81
+      example (12, 4, 16) ; not attained: [(4, 16, 12), (12, 16, 4)]
+  two-class      MISSING            414
+      example (8, 26, 20) ; not attained: [(8, 20, 26), (20, 8, 26)]
+  two-class      complete           360
+
+  every missing permutation has the SAME parity as its triple: 495 of 495 missing
+  -- so parity is NOT what blocks them, and the block is elsewhere.
+
+DONE

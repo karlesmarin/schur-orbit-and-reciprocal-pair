@@ -1,0 +1,20 @@
+==============================================================================
+The criterion on beta alone,  t = 4, r = 2,  |lambda| <= 26
+==============================================================================
+
+  shapes with no empty class: 6317
+
+                              vanishes    does not
+  excess union reflective           30         277
+  not reflective                     0        6010
+
+  false positives (predicted zero, is not): 277
+    lam=[]                       beta=[7, 6, 5, 4, 3, 2, 1, 0]       excess=[0, 1, 2, 3, 4, 5, 6, 7]
+    lam=[1, 1]                   beta=[8, 7, 5, 4, 3, 2, 1, 0]       excess=[0, 1, 3, 4, 5, 7, 8]
+    lam=[2, 2]                   beta=[9, 8, 5, 4, 3, 2, 1, 0]       excess=[0, 1, 4, 5, 8, 9]
+    lam=[3, 2, 1]                beta=[10, 8, 6, 4, 3, 2, 1, 0]      excess=[0, 2, 4, 6, 8, 10]
+    lam=[1, 1, 1, 1, 1, 1]       beta=[8, 7, 6, 5, 4, 3, 1, 0]       excess=[0, 1, 3, 4, 5, 7, 8]
+    lam=[4, 2, 2]                beta=[11, 8, 7, 4, 3, 2, 1, 0]      excess=[0, 3, 4, 7, 8, 11]
+  false negatives (vanishes, not predicted): 0
+
+DONE

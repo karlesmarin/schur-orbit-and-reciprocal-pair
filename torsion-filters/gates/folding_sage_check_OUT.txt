@@ -1,0 +1,46 @@
+============================================================================================================
+VERIFICACION EXTERNA (Sage) de la refutacion de la 'combinacion no negativa'
+============================================================================================================
+
+  r=1  lambda=(0, 0, 0, 0)           control: s_vacia = sp_0
+       Sage    : [((0,), 1)]
+       esperado: [((0,), 1)]   -> COINCIDE
+
+  r=1  lambda=(2, 0, 0, 0)           el contraejemplo MINIMO del dia 13
+       Sage    : [((2,), 1), ((0,), 1)]
+       esperado: [((2,), 1), ((0,), 1)]   -> COINCIDE
+
+  r=1  lambda=(1, 1, 1, 0)           signo negativo global, r = 1
+       Sage    : [((1,), -1)]
+       esperado: [((1,), -1)]   -> COINCIDE
+
+  r=1  lambda=(1, 1, 0, 0)           un CERO
+       Sage    : 0
+       esperado: 0   -> COINCIDE
+
+  r=2  lambda=(2, 1, 0, 0, 0, 0)     r = 2, signo positivo limpio
+       Sage    : [((2, 1), 1), ((1, 0), 1)]
+       esperado: [((2, 1), 1), ((1, 0), 1)]   -> COINCIDE
+
+  r=2  lambda=(8, 8, 8, 7, 7, 7)     r = 2, un CERO
+       Sage    : 0
+       esperado: 0   -> COINCIDE
+
+  r=2  lambda=(8, 8, 7, 7, 6, 6)     *** LA REFUTACION: signos MEZCLADOS ***
+       Sage    : [((2, 2), -1), ((1, 1), 1)]
+       esperado: [((2, 2), -1), ((1, 1), 1)]   -> COINCIDE
+
+  r=2  lambda=(8, 8, 7, 7, 5, 5)     *** segunda mezclada ***
+       Sage    : [((3, 3), -1), ((3, 1), -1), ((2, 2), 1), ((1, 1), -1)]
+       esperado: [((3, 3), -1), ((3, 1), -1), ((2, 2), 1), ((1, 1), -1)]   -> COINCIDE
+
+  r=2  lambda=(8, 8, 7, 7, 6, 4)     *** tercera mezclada ***
+       Sage    : [((4, 2), -1), ((2, 2), -1), ((1, 1), 1)]
+       esperado: [((4, 2), -1), ((2, 2), -1), ((1, 1), 1)]   -> COINCIDE
+
+============================================================================================================
+  discrepancias: 0 de 9
+  -> Sage CONFIRMA la refutacion por una via que no comparte codigo con folding_t2.py:
+     la restriccion NO es +- una combinacion no negativa de caracteres de Sp(2r).
+     Aguanta en r = 1 y cae en r = 2: el contraejemplo estaba UNA TALLA ARRIBA.
+============================================================================================================

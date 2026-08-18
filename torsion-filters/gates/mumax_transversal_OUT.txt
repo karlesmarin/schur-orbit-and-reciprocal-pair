@@ -1,0 +1,53 @@
+================================================================================================================
+.ES EL TRANSVERSAL DE mu_max EL DE COORDENADAS MAS PEQUENAS?
+================================================================================================================
+
+  t=3 r=2 (m'=1 R'=3)  83 formas con nu != 0
+     M1  top(nu) lo da S_min con quiralidad +1 :  83 de  83   <== la hipotesis
+     M2  ese maximo es unico (sin empate)      :  83 de  83
+     M3  top(c) == enderezar(top(nu) - t.1)    :  83 de  83
+     M4  S_min minimiza sum(v|_S)              :  83 de  83
+     D1  SENUELO S_max (indice menor)          :  18 de  83  (debe ser bajo)
+     D2  SENUELO quiralidad -1                 :   0 de  83  (debe ser 0)
+
+  t=5 r=2 (m'=2 R'=4)  60 formas con nu != 0
+     M1  top(nu) lo da S_min con quiralidad +1 :  60 de  60   <== la hipotesis
+     M2  ese maximo es unico (sin empate)      :  60 de  60
+     M3  top(c) == enderezar(top(nu) - t.1)    :  60 de  60
+     M4  S_min minimiza sum(v|_S)              :  60 de  60
+     D1  SENUELO S_max (indice menor)          :   9 de  60  (debe ser bajo)
+     D2  SENUELO quiralidad -1                 :   0 de  60  (debe ser 0)
+
+  t=7 r=2 (m'=3 R'=5)  43 formas con nu != 0
+     M1  top(nu) lo da S_min con quiralidad +1 :  43 de  43   <== la hipotesis
+     M2  ese maximo es unico (sin empate)      :  43 de  43
+     M3  top(c) == enderezar(top(nu) - t.1)    :  43 de  43
+     M4  S_min minimiza sum(v|_S)              :  43 de  43
+     D1  SENUELO S_max (indice menor)          :   0 de  43  (debe ser bajo)
+     D2  SENUELO quiralidad -1                 :   0 de  43  (debe ser 0)
+
+  t=3 r=3 (m'=1 R'=4)  70 formas con nu != 0
+     M1  top(nu) lo da S_min con quiralidad +1 :  70 de  70   <== la hipotesis
+     M2  ese maximo es unico (sin empate)      :  70 de  70
+     M3  top(c) == enderezar(top(nu) - t.1)    :  70 de  70
+     M4  S_min minimiza sum(v|_S)              :  70 de  70
+     D1  SENUELO S_max (indice menor)          :   5 de  70  (debe ser bajo)
+     D2  SENUELO quiralidad -1                 :   0 de  70  (debe ser 0)
+
+  t=5 r=3 (m'=2 R'=5)  21 formas con nu != 0
+     M1  top(nu) lo da S_min con quiralidad +1 :  21 de  21   <== la hipotesis
+     M2  ese maximo es unico (sin empate)      :  21 de  21
+     M3  top(c) == enderezar(top(nu) - t.1)    :  21 de  21
+     M4  S_min minimiza sum(v|_S)              :  21 de  21
+     D1  SENUELO S_max (indice menor)          :   0 de  21  (debe ser bajo)
+     D2  SENUELO quiralidad -1                 :   0 de  21  (debe ser 0)
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si M1 sale limpia, el peso maximo del numerador se lee de Lambda SIN recorrer W^1:
+     basta tomar en cada clase plegada el indice mayor.  Eso es la mitad de (L2) hecha
+     computo, no busqueda.
+   * si M1 falla, el contraejemplo dice que clase rompe el orden, y ahi esta el contenido.
+   * si el senuelo D1 tambien acierta, la pregunta no distingue y hay que afinarla.
+================================================================================================================
+DONE

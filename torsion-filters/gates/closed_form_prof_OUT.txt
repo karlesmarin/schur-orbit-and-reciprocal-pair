@@ -1,0 +1,99 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal
+====================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+  C0b  testigo (18, 17, 11, 8, 7, 6, 1, 0)              prof 6/6  ok
+  C0b  testigo (38, 23, 21, 18, 17, 16, 15, 0)          prof 16/16  ok
+  C0b  testigo (114, 61, 59, 56, 55, 54, 53, 0)         prof 54/54  ok
+
+  C0 PASA
+
+====================================================================================================================
+N1  POR QUE LA VARIABLE ES S -- las dos razones, medidas
+====================================================================================================================
+
+     Q1  T subset S : una clase de UN elemento obliga a elegirlo, luego nunca queda en T
+     Q2  C - min S = max S : una involucion que preserva S manda el minimo al maximo
+
+     t=4 r=2 ( 64 formas) : Q1 64/64, Q2 64/64   |   S == beta en 64 (100%) <- el accidente
+     t=6 r=3 ( 12 formas) : Q1 12/12, Q2 12/12   |   S == beta en 12 (100%) <- el accidente
+     t=8 r=3 ( 90 formas) : Q1 90/90, Q2 90/90   |   S == beta en 80 (89%) <- el accidente
+
+====================================================================================================================
+N2  H*  <->  F2 = first  <->  LA LEY.  Y el SEÑUELO: la misma tabla con C leida sobre beta
+====================================================================================================================
+
+  t=4 r=2  (64 supervivientes, paso s=2)
+     F1 = D (el voraz) : 64 de 64
+       H*  | F2=first | LEY | n
+       SI  | SI       | SI  | 56
+       no  | no       | no  | 8
+     desacuerdos entre las TRES: 0 <-- LAS TRES SON LA MISMA COSA
+     SEÑUELO: F2 con los extremos de BETA acierta el first medido en 56 de 56 formas con H*
+              coincide aqui porque S == beta en todas
+
+  t=6 r=3  (12 supervivientes, paso s=6)
+     F1 = D (el voraz) : 12 de 12
+       H*  | F2=first | LEY | n
+       SI  | SI       | SI  | 10
+       no  | no       | no  | 2
+     desacuerdos entre las TRES: 0 <-- LAS TRES SON LA MISMA COSA
+     SEÑUELO: F2 con los extremos de BETA acierta el first medido en 10 de 10 formas con H*
+              coincide aqui porque S == beta en todas
+
+  t=8 r=3  (90 supervivientes, paso s=8)
+     F1 = D (el voraz) : 90 de 90
+       H*  | F2=first | LEY | n
+       SI  | SI       | SI  | 90
+     desacuerdos entre las TRES: 0 <-- LAS TRES SON LA MISMA COSA
+     SEÑUELO: F2 con los extremos de BETA acierta el first medido en 80 de 90 formas con H*
+              <-- FALLA en 10: AQUI ES DONDE MI LECTURA FALLABA
+
+====================================================================================================================
+N3  LA ANATOMIA -- quien soporta cada extremo del intervalo de estratos
+====================================================================================================================
+
+     un bloque de Laplace tiene grado 2*sum_S(T) - sum(T).  Bajo eps_s, el desplazamiento del
+     grado depende SOLO de cuantos extremos de S conserva T:  dos -> +-2s o 0 ;  uno -> +-s .
+
+     t=4 r=2 : estrato de ARRIBA, extremos conservados por los maximizadores : {((2, 2),): 32, ((1, 2),): 8}
+               primer estrato VIVO, tipos de bloque presentes                 : {(1,): 38, (1, 2): 2}
+     t=6 r=3 : estrato de ARRIBA, extremos conservados por los maximizadores : {((2, 2),): 10, ((1, 2),): 2}
+               primer estrato VIVO, tipos de bloque presentes                 : {(1, 2): 8, (1,): 4}
+     t=8 r=3 : estrato de ARRIBA, extremos conservados por los maximizadores : {((2, 2),): 40}
+               primer estrato VIVO, tipos de bloque presentes                 : {(1, 2): 35, (1,): 5}
+
+====================================================================================================================
+N4  LOS DOS REGIMENES DEL PASO -- solo dependen de s mod t
+====================================================================================================================
+
+     t=8 r=3, 90 supervivientes.  t/2 = 4.
+       s   | s mod t | que le hace a las clases          | cumplen la ley
+     ----------------------------------------------------------------------------------------
+       4  |    4    | los extremos a su clase PAREJA   | 36 de 90
+       8  |    0    | los extremos a su PROPIA clase   | 90 de 90
+      12  |    4    | los extremos a su clase PAREJA   | 36 de 90
+      16  |    0    | los extremos a su PROPIA clase   | 90 de 90
+
+     el regimen robusto es s == 0 (mod t): preserva la particion en clases ENTERA.
+     para t=6 el otro esta PROHIBIDO -- t/2 = 3 es impar y s tiene que ser par, porque para
+     t par Phi_t es homogeneo mod 2 en el grado (probado el 12).  Por eso alli s_min = 6 = t.
+
+====================================================================================================================
+N5  VEREDICTO
+====================================================================================================================
+
+     F1 = D  (voraz, sin polinomios)          : 166 de 166
+     H* <-> F2=first <-> LEY                  : 0 desacuerdos en 166 formas
+
+     prof = F1 - F2 bajo H*.  La profundidad deja de costar una expansion polinomica y
+     pasa a costar dos ordenaciones.  Y H* es la condicion (ii) del 12 mirada desde los
+     extremos de S, no una hipotesis nueva.
+
+     ALCANCE: los supervivientes salen de barridos exhaustivos con tope de RELOJ.  't=8 r=2'
+     y 't=10 r=2' no aparecen porque no tienen NINGUN superviviente hasta su tope, y eso es un
+     null con alcance, no un 'no existen'.
+
+DONE

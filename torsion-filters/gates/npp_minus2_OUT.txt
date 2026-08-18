@@ -1,0 +1,27 @@
+field GF(1000000321); every t in [4, 6, 8, 10, 12] divides p-1  ->  guard PASS
+acceptance: sp_empty = 1 and sp_(1) = sum(x+1/x)  ->  PASS
+
+================================================================================================
+THE FOLDED-RESIDUE COUNT AGAINST THE MEASURED VANISHING OF sp_nu
+================================================================================================
+
+   t   R  free |nu|<=   tested   sp=0   COVER wrong   LONG wrong   decoy wrong
+  ------------------------------------------------------------------------------------
+   4   2     1     16       81     16             0            0           65
+   4   3     2     16      204     16             0            0          148
+   6   3     1     16      204     92             0           90          112
+   6   4     2     14      241     51             0           51          160
+   8   4     1     14      241    143             0          139           98
+   8   5     2     14      324    112             0          112          195
+  10   5     1     14      324    223             0          223          101
+  10   6     2     10      125     43             0           43           77
+  12   6     1     10      125     85             0           85           40
+  12   7     2     10      132     52             0           52           77
+
+  'wrong' counts disagreements with the determinant.  COVER must be 0 in every row.
+  LONG is the retracted proposal and must be large for t >= 6.  The decoy must be large.
+
+  COVER: no failure anywhere.  The criterion for the frozen part is
+     sp_nu != 0  <=>  the folded residues of nu + rho_C cover {1, .., t/2-1}.
+
+DONE

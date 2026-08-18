@@ -1,0 +1,107 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal.  Se re-montan los dos numeros ARCHIVADOS de c_eq_tau_OUT.txt.
+====================================================================================================================
+
+     formas con [Phi]_top == 0 : 2522   (archivado: 2522)  ok
+     H* (extremos en K)        : 1603   (archivado: 1603)  ok
+     C == tau                  : 2522   (archivado: 2522)  ok
+
+  C0 PASA
+
+====================================================================================================================
+N1  DONDE VIVEN LOS DOS EXTREMOS DE S
+====================================================================================================================
+
+     (donde max S, donde min S) : n
+        ('K', 'K')             :  1603
+        ('empate', 'empate')   :   919
+
+     con ALGUN extremo en g_com : 0
+
+====================================================================================================================
+N2  A1  =>  C = tau,  y A1 misma
+====================================================================================================================
+
+     habitantes del antecedente 'A1 (ningun extremo de S en g_com)': 2522
+     A1 (ningun extremo de S en g_com) => C == tau : SI  (0 fallos sobre 2522 habitantes, 2522 formas en total)
+     *** AVISO: la hipotesis 'A1 (ningun extremo de S en g_com)' se cumple SIEMPRE (2522 formas): no discrimina nada
+     *** AVISO: la prediccion 'C == tau' se cumple SIEMPRE: el control no puede refutar
+     *** AVISO: CONTRAFACTUAL VACIO: no hay ni una forma con hipotesis falsa Y prediccion falsa, asi que '0 desacuerdos' no distingue esta hipotesis de una tautologia
+
+     y la equivalencia algebraica A1 <=> sigma_V manda los dos extremos dentro de S
+     (deberia ser EXACTA: si no lo es, hay un error de codigo en alguna de las dos)
+     A1                                 | sigma_V(max S) en S  Y  sigma_V(min S) en S |   n
+     ------------------------------------------------------------------------------
+        SI                              | SI                                 |   2522   ej: (8, 7, 6, 5, 3, 2, 1, 0)
+     desacuerdos: 0 de 2522
+     *** AVISO: la hipotesis 'A1' se cumple SIEMPRE (2522 formas): no discrimina nada
+     *** AVISO: la prediccion 'sigma_V(max S) en S  Y  sigma_V(min S) en S' se cumple SIEMPRE: el control no puede refutar
+     *** AVISO: CONTRAFACTUAL VACIO: no hay ni una forma con hipotesis falsa Y prediccion falsa, asi que '0 desacuerdos' no distingue esta hipotesis de una tautologia
+     veredicto: SIN VALOR -- el control no podia fallar.  Arreglalo antes de leerlo.
+
+====================================================================================================================
+N3  EL HUECO DE LA PRUEBA: si max S estuviera en g_com, donde vive su clase
+====================================================================================================================
+
+     formas con algun extremo en g_com : 0
+
+     -> A1 NO TIENE CONTRAEJEMPLO en esta poblacion.  El intento de prueba se cierra en
+        su caso facil siempre que la clase del extremo tenga algun elemento en H; N3b
+        mide cuantas veces hace falta el caso duro.
+
+  N3b  el caso FACIL de la prueba: la clase de max S tiene algun elemento en H(T_A).
+       Si sale que SIEMPRE lo tiene, el argumento de re-eleccion cierra A1 sin el caso duro.
+       clase de max S con algun otro elemento en H : 38
+       sin ninguno (el caso DURO)                  : 2484
+          t=4 r=2 beta=(8, 7, 6, 5, 3, 2, 1, 0)         max S=8 clase=[0, 8] H=[6, 7]
+          t=4 r=2 beta=(10, 9, 7, 4, 3, 2, 1, 0)        max S=10 clase=[2, 10] H=[7, 10]
+          t=4 r=2 beta=(10, 9, 8, 7, 3, 2, 1, 0)        max S=10 clase=[2, 10] H=[7, 10]
+          t=4 r=2 beta=(10, 9, 7, 6, 4, 3, 1, 0)        max S=10 clase=[6, 10] H=[7, 10]
+          t=4 r=2 beta=(10, 9, 8, 7, 6, 3, 1, 0)        max S=10 clase=[6, 10] H=[7, 10]
+          t=4 r=2 beta=(12, 10, 8, 4, 3, 2, 1, 0)       max S=12 clase=[0, 4, 8, 12] H=[10, 12]
+
+====================================================================================================================
+N4  SEÑUELO -- la propiedad tiene que ser de los EXTREMOS, no de todo S
+====================================================================================================================
+
+     Para cada forma se toma un elemento NO extremo de S (el de en medio) y se pregunta lo
+     mismo: sigma_V(x) en S.  Si esto tambien saliera siempre, N2 no diria nada de nada.
+     elementos de en medio probados : 2522 ;  con sigma_V(x) en S : 2074  (82.2%)
+     -> el señuelo FALLA a menudo: la propiedad SI es de los extremos
+
+====================================================================================================================
+N5  EL INTERCAMBIO -- la medida que A1 necesita para dejar de ser medida
+====================================================================================================================
+
+     Sea m = max S y supongamos que una transversal T lo DESCARTA.  Toda su clase menos m
+     esta en T; sea m' el mayor de ellos.  Re-elegir el pick de esa clase como m' da
+         T' = T u {m} \ {m'},   y como m > todo T, m entra en H.
+       - si m' esta en H :  Delta = m - m' > 0.  CERRADO.
+       - si m' esta en L :  Delta = m + m' - 2*h_r,  de signo NO obvio.  Esto es el hueco.
+     Y basta Delta >= 0, NO Delta > 0: con |G| <= 2 PROBADO, un TERCER maximizador ya es
+     contradiccion.  Aqui se mide Delta sobre TODAS las transversales que descartan max S.
+
+     transversales que descartan max S : 21700
+        con m' en H : 7266      con m' en L : 14434
+        Delta > 0   : 15208
+        Delta == 0  : 172
+        Delta < 0   : 6320   <-- si esto es > 0, el intercambio NO cierra A1
+        discrepancias formula-vs-calculo directo : 0 
+        Delta<=0: t=4 r=2 beta=(8, 7, 6, 5, 3, 2, 1, 0)       m=8 m'=0 Delta=-4 (m' en L)
+        Delta<=0: t=4 r=2 beta=(8, 7, 6, 5, 3, 2, 1, 0)       m=8 m'=0 Delta=-2 (m' en L)
+        Delta<=0: t=4 r=2 beta=(8, 7, 6, 5, 3, 2, 1, 0)       m=8 m'=0 Delta=-2 (m' en L)
+        Delta<=0: t=4 r=2 beta=(8, 7, 6, 5, 3, 2, 1, 0)       m=8 m'=0 Delta=-4 (m' en L)
+        Delta<=0: t=4 r=2 beta=(10, 9, 7, 4, 3, 2, 1, 0)      m=10 m'=2 Delta=-2 (m' en L)
+        Delta<=0: t=4 r=2 beta=(10, 9, 7, 4, 3, 2, 1, 0)      m=10 m'=2 Delta=-2 (m' en L)
+        formas distintas con algun Delta <= 0 : 1532 de 2522
+
+====================================================================================================================
+VEREDICTO
+====================================================================================================================
+
+     A1 (ningun extremo de S en g_com) : 2522 de 2522
+     A1 => C = tau : implicacion de DOS LINEAS, no medida -- el algebra esta en la cabecera.
+     Lo que queda por PROBAR es solo A1, y su caso facil cubre 38 de 2522.
+
+     ALCANCE: la misma poblacion de c_eq_tau.py, o sea barrido con tope de reloj.
+DONE

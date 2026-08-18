@@ -1,0 +1,12 @@
+formas: 47747    Q4 poblacion objetivo: 132
+
+Q1  |G2| en TODAS las formas       : {1: 26457, 2: 7938, 3: 3618, 4: 4166, 5: 3104, 6: 1546, 7: 886, 8: 18, 9: 12, 10: 2}
+Q2  |G2| en la POBLACION OBJETIVO  : {1: 104, 2: 8, 3: 12, 4: 4, 6: 4}
+Q3  clases en que difiere del maximizador mas cercano : {1: 56386, 2: 44735}
+
+H13 |G2| <= 2 : *** REFUTADA ***  (max observado = 10)
+
+ALCANCE de la seccion 5 transplantada, sobre las 132 formas objetivo:
+   |G2| = 1  -> corolario del maximizador unico, Phi_t != 0 : 104
+   |G2| = 2  -> maquinaria de la seccion 5 (PvW)            : 8
+   |G2| >= 3 -> ABIERTO, PvW no aplica                      : 20

@@ -1,0 +1,89 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal
+====================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+  C0b  testigo (18, 17, 11, 8, 7, 6, 1, 0)            prof 6/6  ok
+  C0b  testigo (38, 23, 21, 18, 17, 16, 15, 0)        prof 16/16  ok
+
+  C0 PASA
+
+====================================================================================================================
+N1  LA TORRE, entera.  Z = Phi == 0 ;  T = solo [Phi]_top == 0 ;  |n| = tamaño del espectro
+====================================================================================================================
+
+  t=4 r=2
+     (18, 17, 11, 8, 7, 6, 1, 0)                    sat=4     banda+2s=4     r2:|27|T r1:|4|Z
+     (18, 17, 12, 11, 10, 7, 1, 0)                  sat=4     banda+2s=4     r2:|27|T r1:|4|Z
+     (18, 13, 11, 8, 7, 6, 5, 0)                    sat=4     banda+2s=4     r2:|23|T r1:|4|Z
+     (18, 13, 12, 11, 10, 7, 5, 0)                  sat=4     banda+2s=4     r2:|23|T r1:|4|Z
+
+  t=6 r=3
+     (16, 15, 14, 13, 11, 6, 5, 4, 3, 2, 1, 0)      sat=24    banda+2s=24    r3:|40|T r2:|24|Z r1:|4|Z
+     (16, 15, 14, 13, 12, 11, 10, 5, 3, 2, 1, 0)    sat=24    banda+2s=24    r3:|40|T r2:|24|Z r1:|4|Z
+     (18, 17, 16, 15, 14, 7, 5, 4, 3, 2, 1, 0)      sat=2     banda+2s=0     r3:|46|T r2:|None|-
+     (18, 17, 16, 15, 14, 13, 11, 4, 3, 2, 1, 0)    sat=2     banda+2s=0     r3:|46|T r2:|None|-
+
+  t=8 r=3
+     (20, 18, 15, 14, 13, 8, 7, 6, 5, 4, 3, 2, 1, 0) sat=18    banda+2s=18    r3:|43|T r2:|18|Z r1:|None|-
+     (20, 19, 18, 17, 14, 8, 7, 6, 5, 4, 3, 2, 1, 0) sat=24    banda+2s=24    r3:|51|T r2:|24|Z r1:|4|Z
+     (20, 19, 18, 17, 15, 14, 8, 6, 5, 4, 3, 2, 1, 0) sat=24    banda+2s=24    r3:|51|T r2:|24|Z r1:|4|Z
+     (20, 19, 18, 17, 14, 13, 8, 7, 6, 4, 3, 2, 1, 0) sat=24    banda+2s=24    r3:|51|T r2:|24|Z r1:|4|Z
+
+  t=6 r=4
+     (18, 17, 16, 15, 14, 12, 7, 6, 5, 4, 3, 2, 1, 0) sat=2     banda+2s=40    r4:|58|T r3:|40|T r2:|24|Z r1:|4|Z
+     (18, 17, 16, 15, 14, 13, 12, 11, 6, 4, 3, 2, 1, 0) sat=2     banda+2s=40    r4:|58|T r3:|40|T r2:|24|Z r1:|4|Z
+     (20, 19, 18, 17, 16, 15, 8, 6, 5, 4, 3, 2, 1, 0) sat=2     banda+2s=46    r4:|66|T r3:|46|T r2:|None|-
+     (20, 19, 18, 17, 16, 15, 14, 12, 5, 4, 3, 2, 1, 0) sat=2     banda+2s=46    r4:|66|T r3:|46|T r2:|None|-
+
+====================================================================================================================
+N2  ALTURA DE LA BANDERA -- si fuera constante saldria UNA columna; sale un histograma
+====================================================================================================================
+
+     t=4 r=2 ( 64 formas) : (pisos, pisos con Phi == 0) -> {(2, 0): 8, (2, 1): 56}
+     t=6 r=3 ( 12 formas) : (pisos, pisos con Phi == 0) -> {(2, 0): 2, (3, 1): 6, (3, 2): 4}
+     t=8 r=3 ( 90 formas) : (pisos, pisos con Phi == 0) -> {(3, 1): 36, (3, 2): 54}
+     t=6 r=4 ( 14 formas) : (pisos, pisos con Phi == 0) -> {(3, 0): 2, (3, 1): 2, (4, 2): 8, (4, 3): 2}
+
+====================================================================================================================
+N3  LA HIPOTESIS QUE FALTABA -- y cierra la poblacion degenerada de saturation.py
+====================================================================================================================
+
+     primer pelado Z (Phi' == 0) | sat == |banda+2s| |  n
+        SI  | SI  | 164
+        no  | no  | 8
+     desacuerdos: 0  ->  LA HIPOTESIS ES EXACTA
+
+     SEÑUELO: pedir solo [Phi']_top == 0
+        SI  | SI  | 164
+        SI  | no  | 6
+        no  | no  | 2
+     desacuerdos del señuelo: 6  ->  NO separa: la anulacion TOTAL es lo portante, no la del estrato de arriba
+
+====================================================================================================================
+N4  VEREDICTO
+====================================================================================================================
+
+     sat = |banda +2s|  <=>  el primer pelado es TOTALMENTE anulante : 0 desacuerdos en 172 formas
+     el señuelo ([Phi']_top == 0 a secas) falla en 6, luego la Z es portante
+
+     Con esto, la ley de saturacion deja de tener poblacion sin describir: las formas con
+     sat = 2 son exactamente aquellas cuya BANDERA tarda mas de un piso en llegar a Phi == 0.
+
+     LO QUE NO ES: una prueba de que la bandera gobierne prof.  Eso NO esta testado.  Y el
+     alcance sigue siendo el de los barridos, con tope de reloj.
+
+DONE
+====================================================================================================
+EL PELADO CONTRA g_com -- lo que aporta cada capa, medido sobre las formas que SE ANULAN
+====================================================================================================
+  t  r  W  |  ceros | M1 C'=C | M2 |g'|<|g| | M3 g_com cubierto | M4 iterando cubre S | control C'=C en no-nulos
+   4  2 15  |     36 |      32 |           8 |                24 |                  24 |    14/396   =  3.5%
+   6  2 15  |     33 |      16 |          16 |                 0 |                   0 |    16/274   =  5.8%
+   8  2 16  |     48 |       0 |           0 |                 0 |                   0 |     0/96    =  0.0%
+   4  3 14  |     14 |      13 |           3 |                 0 |                   0 |    82/222   = 36.9%
+
+====================================================================================================
+  ceros: 131   M1 C'=C: 61   M3 g_com cubierto en un paso: 24   M4 iterando cubre S: 24
+====================================================================================================

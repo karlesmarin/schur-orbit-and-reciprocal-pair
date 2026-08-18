@@ -1,0 +1,40 @@
+E:\proyectos\Curiosity\research\orbit-pair\gates\top_stratum_blind.py:9: SyntaxWarning: "\g" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\g"? A raw string is also an option.
+  (tau, S\g_com, clases empatadas) -- que es TODO lo que el estrato de grado maximo ve, porque
+====================================================================================================
+PREGUNTA: dos formas con el MISMO tau, el MISMO S\g_com y las MISMAS clases empatadas,
+          una que se anula y otra que no.  Si existe, el estrato de arriba NO puede decidir
+          y la ecuacion que falta tiene que venir de un estrato mas bajo.
+====================================================================================================
+
+  TESTIGO  t=4 r=2   tau=10  tied=[1, 3]
+           S\g_com = [0, 1, 3, 7, 9, 10]   (tau-simetrico)
+           beta=[10, 9, 7, 4, 3, 2, 1, 0]          g_com=[2, 4]          no se anula
+           beta=[10, 9, 8, 7, 3, 2, 1, 0]          g_com=[2, 8]          SE ANULA
+           beta=[10, 9, 7, 6, 4, 3, 1, 0]          g_com=[4, 6]          SE ANULA
+           beta=[10, 9, 8, 7, 6, 3, 1, 0]          g_com=[6, 8]          no se anula
+
+  TESTIGO  t=4 r=2   tau=14  tied=[1, 3]
+           S\g_com = [0, 1, 3, 11, 13, 14]   (tau-simetrico)
+           beta=[14, 13, 11, 4, 3, 2, 1, 0]        g_com=[2, 4]          no se anula
+           beta=[14, 13, 11, 8, 3, 2, 1, 0]        g_com=[2, 8]          no se anula
+           beta=[14, 13, 12, 11, 3, 2, 1, 0]       g_com=[2, 12]         SE ANULA
+           beta=[14, 13, 11, 6, 4, 3, 1, 0]        g_com=[4, 6]          no se anula
+           beta=[14, 13, 11, 10, 4, 3, 1, 0]       g_com=[4, 10]         SE ANULA
+           beta=[14, 13, 11, 8, 6, 3, 1, 0]        g_com=[6, 8]          SE ANULA
+           beta=[14, 13, 12, 11, 6, 3, 1, 0]       g_com=[6, 12]         no se anula
+           beta=[14, 13, 11, 10, 8, 3, 1, 0]       g_com=[8, 10]         no se anula
+           beta=[14, 13, 12, 11, 10, 3, 1, 0]      g_com=[10, 12]        no se anula
+
+  TESTIGO  t=4 r=2   tau=12  tied=[0, 2]
+           S\g_com = [0, 1, 2, 10, 11, 12]   (tau-simetrico)
+           beta=[12, 11, 10, 5, 3, 2, 1, 0]        g_com=[3, 5]          no se anula
+           beta=[12, 11, 10, 9, 3, 2, 1, 0]        g_com=[3, 9]          SE ANULA
+           beta=[12, 11, 10, 7, 5, 2, 1, 0]        g_com=[5, 7]          SE ANULA
+           beta=[12, 11, 10, 9, 7, 2, 1, 0]        g_com=[7, 9]          no se anula
+  t=4 r=2: 8 grupos con las dos cosas
+  t=6 r=2: 4 grupos con las dos cosas
+  t=8 r=2: 0 grupos con las dos cosas
+  t=4 r=3: 4 grupos con las dos cosas
+  t=6 r=3: 1 grupos con las dos cosas
+
+  Si hay testigos: probado que [det]_{D1} = 0 no determina g_com.

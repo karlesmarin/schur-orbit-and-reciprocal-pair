@@ -1,0 +1,52 @@
+======================================================================================================================
+E^{(4)} COMO OPERADOR   --   R=3, caja <= 8:  165 Lambda x 45 mu
+======================================================================================================================
+
+  C0  valores de las entradas: {-1: 385, 0: 6634, 1: 406}
+  C1  eps == producto de factores locales : PASA en 7425 pares
+      -> E es una MATRIZ DE TRANSFERENCIA sobre la cadena, no una matriz generica
+  C3  densidad: 791 no nulas de 7425 (10.65 %)
+
+  Q1  ¿E_{Lambda,mu} != 0  =>  |mu| <= |Lambda|?  violaciones: 0
+      y para cada mu hay un Lambda minimo con |E| = 1 : 45 de 45
+
+  Q5  ¿estructura de Mobius?  sumas con signo por columna (fija mu, suma sobre Lambda):
+      histograma de sum_Lambda E : {-4: 4, -3: 1, -2: 2, -1: 2, 0: 21, 1: 1, 2: 6, 3: 2, 4: 3, 5: 3}
+      histograma de sum_mu E     : {-4: 2, -3: 2, -2: 10, -1: 20, 0: 86, 1: 27, 2: 11, 3: 3, 4: 3, 5: 1}
+      (una funcion de Mobius sobre intervalos da 0 salvo en el extremo; un histograma
+       concentrado en 0 y +-1 seria la señal, uno disperso lo desmiente)
+
+Traceback (most recent call last):
+  File "/work/E4_operator.sage.py", line 197, in <module>
+  Q3  ¿recurrencia al añadir una caja a Lambda?  se mide E(Lambda + e_k, mu) / E(Lambda, mu)
+      pares (E(Lambda), E(Lambda+e_k)) y su frecuencia:
+        (1, 0)     : 819
+        (0, -1)    : 807
+        (0, 1)     : 801
+        (-1, 0)    : 789
+
+  ORDER TYPES  (que rama toma el min y el max en cada una de las 3 posiciones)
+      9 order types distintos en la caja
+      tipo (min,max) por posicion        |   pares | sobreviven | %
+      ((0, 0), (1, 0), (1, 0))           |     462 |        119 |  25.8
+      ((0, 0), (1, 1), (0, 0))           |     462 |        119 |  25.8
+      ((0, 1), (0, 0), (1, 0))           |     462 |        119 |  25.8
+      ((0, 1), (0, 1), (0, 0))           |     462 |        119 |  25.8
+      ((0, 0), (0, 0), (1, 0))           |     330 |         70 |  21.2
+      ((0, 0), (0, 1), (0, 0))           |     330 |         70 |  21.2
+      ((0, 0), (1, 0), (0, 0))           |     330 |         70 |  21.2
+      ((0, 1), (0, 0), (0, 0))           |     330 |         70 |  21.2
+
+    json.dump({"R": R, "W": W, "nLam": len(LAMS), "nMu": len(MUS), "nz": int(nz),
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

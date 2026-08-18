@@ -1,0 +1,37 @@
+============================================================================================================================
+NUESTRO FILTRO CONTRA LA QUESTION 8.1 DE NPP25   (arXiv:2504.14684)
+============================================================================================================================
+
+  t=3   B1   h=2  t-h=1   |   PRINCIPAL: SI   (raices simples -> [1])   orden en el adjunto: 3
+       eta probados   10 | vivos    7 | Question 8.1 acierta   10  (falsos cero 0, falsos no-cero 0)
+       nuestras paredes aciertan   10 | SEÑUELO d+1 acierta    7  (tiene que fallar mucho)
+
+  t=4   C1   h=2  t-h=2   |   PRINCIPAL: SI   (raices simples -> [2])   orden en el adjunto: 2
+       eta probados   13 | vivos    7 | Question 8.1 acierta   13  (falsos cero 0, falsos no-cero 0)
+       nuestras paredes aciertan   13 | SEÑUELO d+1 acierta    7  (tiene que fallar mucho)
+
+  t=5   B2   h=4  t-h=1   |   PRINCIPAL: NO   (raices simples -> [2, 4])   orden en el adjunto: 5
+       eta probados   72 | vivos   25 | Question 8.1 acierta   72  (falsos cero 0, falsos no-cero 0)
+       nuestras paredes aciertan   72 | SEÑUELO d+1 acierta   29  (tiene que fallar mucho)
+
+  t=6   C2   h=4  t-h=2   |   PRINCIPAL: NO   (raices simples -> [4, 5])   orden en el adjunto: 6
+       eta probados  100 | vivos   28 | Question 8.1 acierta   76  (falsos cero 0, falsos no-cero 24)
+       nuestras paredes aciertan  100 | SEÑUELO d+1 acierta   42  (tiene que fallar mucho)
+
+  t=7   B3   h=6  t-h=1   |   PRINCIPAL: NO   (raices simples -> [3, 6])   orden en el adjunto: 7
+       eta probados  406 | vivos   72 | Question 8.1 acierta  406  (falsos cero 0, falsos no-cero 0)
+       nuestras paredes aciertan  406 | SEÑUELO d+1 acierta  208  (tiene que fallar mucho)
+
+  t=8   C3   h=6  t-h=2   |   PRINCIPAL: NO   (raices simples -> [6, 7])   orden en el adjunto: 8
+       eta probados  575 | vivos   78 | Question 8.1 acierta  473  (falsos cero 0, falsos no-cero 102)
+       nuestras paredes aciertan  575 | SEÑUELO d+1 acierta  337  (tiene que fallar mucho)
+
+============================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si la Question 8.1 acierta en todos los eta y g NO es principal para t >= 5, entonces
+     nuestra (T) es el caso REGULAR de una pregunta abierta de Prasad, y eso se cita asi.
+   * si falla en algun eta, ese eta es un dato sobre la pregunta, y hay que mirarlo despacio.
+   * si el señuelo d+1 acierta parecido, la coincidencia no significa nada.
+
+============================================================================================================================
+DONE

@@ -1,0 +1,53 @@
+================================================================================================================
+EL ANALOGO PAR DEL TRANSVERSAL:  Sp_{2R} > Sp_{2m} x Sp_{2r},  dos clases prohibidas
+================================================================================================================
+
+  t=4 r=2 (m=1 R=3)  35 pesos
+     E1  |supp nu| == prod n_j (SIN el 2)   :  35 de  35
+     E2  supp nu == transversales           :  35 de  35
+     E3  y los valores tambien              :  35 de  35
+     E4  nu = 0 <=> alguna clase 1..m vacia :  35 de  35
+     E5  |W^1| == C(R,m)                    :  35 de  35
+     E7  el top lo da S_min                 :  34 de  34  (solo formas con nu != 0)
+     D1  SENUELO: la regla IMPAR            :  21 de  35  (debe ser bajo)
+     C1  tau^C == delta, sin constante      : 181 aciertos
+
+  t=6 r=2 (m=2 R=4)  35 pesos
+     E1  |supp nu| == prod n_j (SIN el 2)   :  35 de  35
+     E2  supp nu == transversales           :  35 de  35
+     E3  y los valores tambien              :  35 de  35
+     E4  nu = 0 <=> alguna clase 1..m vacia :  35 de  35
+     E5  |W^1| == C(R,m)                    :  35 de  35
+     E7  el top lo da S_min                 :  29 de  29  (solo formas con nu != 0)
+     D1  SENUELO: la regla IMPAR            :  21 de  35  (debe ser bajo)
+     C1  tau^C == delta, sin constante      : 189 aciertos
+
+  t=8 r=2 (m=3 R=5)  21 pesos
+     E1  |supp nu| == prod n_j (SIN el 2)   :  21 de  21
+     E2  supp nu == transversales           :  21 de  21
+     E3  y los valores tambien              :  21 de  21
+     E4  nu = 0 <=> alguna clase 1..m vacia :  21 de  21
+     E5  |W^1| == C(R,m)                    :  21 de  21
+     E7  el top lo da S_min                 :  18 de  18  (solo formas con nu != 0)
+     D1  SENUELO: la regla IMPAR            :  15 de  21  (debe ser bajo)
+     C1  tau^C == delta, sin constante      : 107 aciertos
+
+  t=6 r=3 (m=2 R=5)  21 pesos
+     E1  |supp nu| == prod n_j (SIN el 2)   :  21 de  21
+     E2  supp nu == transversales           :  21 de  21
+     E3  y los valores tambien              :  21 de  21
+     E4  nu = 0 <=> alguna clase 1..m vacia :  21 de  21
+     E5  |W^1| == C(R,m)                    :  21 de  21
+     E7  el top lo da S_min                 :  20 de  20  (solo formas con nu != 0)
+     D1  SENUELO: la regla IMPAR            :  15 de  21  (debe ser bajo)
+     C1  tau^C == delta, sin constante      : 107 aciertos
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si E1-E4 salen limpias, el numerador PAR es tambien un recuento de transversales, con
+     DOS clases prohibidas en vez de una y sin el factor de quiralidad.  Entonces la frase
+     del paper 'el lado par no tiene esa reduccion' es demasiado fuerte y hay que corregirla.
+   * si el senuelo D1 acierta, la distincion par/impar no esta en el numero de clases
+     prohibidas y la lectura es otra.
+================================================================================================================
+DONE

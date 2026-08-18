@@ -1,0 +1,30 @@
+============================================================================================================
+BARRIDO ANCHO DE LA UNIMODULARIDAD
+============================================================================================================
+
+  t= 3 r=2 Lambda_i<= 6 :   83 pesos |    1191 X vivos |   220 distintas |   16 clases | D0    1191/   1191 | TU   220/  220
+  t= 5 r=2 Lambda_i<= 4 :   60 pesos |     489 X vivos |   433 distintas |   22 clases | D0     489/    489 | TU   433/  433
+  t= 7 r=2 Lambda_i<= 3 :   43 pesos |     257 X vivos |   257 distintas |   18 clases | D0     257/    257 | TU   257/  257
+  t= 3 r=3 Lambda_i<= 4 :   70 pesos |    1165 X vivos |   654 distintas |   49 clases | D0    1165/   1165 | TU   654/  654
+  t= 3 r=2 Lambda_i<=12 :  445 pesos |   18561 X vivos |   258 distintas |   17 clases | D0   18561/  18561 | TU   258/  258
+  t= 5 r=2 Lambda_i<= 7 :  280 pesos |    4299 X vivos |  2303 distintas |   31 clases | D0    4299/   4299 | TU  2303/ 2303
+  t= 7 r=2 Lambda_i<= 5 :  189 pesos |    2049 X vivos |  1867 distintas |   23 clases | D0    2049/   2049 | TU  1867/ 1867
+  t= 9 r=2 Lambda_i<= 3 :   56 pesos |     380 X vivos |   380 distintas |   -- clases | D0     380/    380 | TU   380/  380
+  t=11 r=2 Lambda_i<= 2 :   18 pesos |      78 X vivos |    78 distintas |   -- clases | D0      78/     78 | TU    78/   78
+  t= 3 r=3 Lambda_i<= 6 :  210 pesos |    7406 X vivos |  1839 distintas |   69 clases | D0    7406/   7406 | TU  1839/ 1839
+  t= 5 r=3 Lambda_i<= 3 :   54 pesos |     446 X vivos |   434 distintas |   36 clases | D0     446/    446 | TU   434/  434
+  t= 3 r=4 Lambda_i<= 3 :   56 pesos |    1009 X vivos |   838 distintas |   88 clases | D0    1009/   1009 | TU   838/  838
+
+------------------------------------------------------------------------------------------------------------
+  D0  FATAL  c == eps_t . det M sobre los X vivos : 37330 de 37330
+  TU  FATAL  unimodularidad total AGOTADA sobre cada matriz distinta : 9561 de 9561
+  P0  el prefiltro: descartado => det 0 y c 0     : 526 de 526
+  D1  signo global por (t,r) : {'(3, 2, 1)': 6672, '(3, 3, 1)': 2047, '(3, 4, 1)': 220, '(5, 2, -1)': 1317, '(5, 3, -1)': 128, '(7, 2, 1)': 524, '(9, 2, 1)': 80, '(11, 2, 1)': 24}
+  D2  reparto de |det M|     : {0: 26318, 1: 11012}
+  D3  entradas de M          : {-1: 49130, 0: 303097, 1: 150812}
+
+  S1  SENUELO progresion par    : 0 de 11012
+  S2  SENUELO sin signo plegado : 11012 de 11819
+
+============================================================================================================
+DONE

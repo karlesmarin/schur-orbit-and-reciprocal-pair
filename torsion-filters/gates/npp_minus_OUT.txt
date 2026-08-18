@@ -1,0 +1,39 @@
+field GF(1000000321); every t in [4, 6, 8, 10] divides p-1  ->  guard PASS
+acceptance: sp_empty=1 and sp_(1)=sum(x+1/x)  ->  PASS
+
+==============================================================================================
+THE LONG-ROOT COUNT AGAINST THE MEASURED VANISHING OF sp_nu AT A FROZEN t-th ROOT
+==============================================================================================
+
+   t   R  free  |nu|<=   nu tested   sp=0   LONG   K1 fail   K2 fail   decoy agrees
+  ----------------------------------------------------------------------------------------
+   4   2     1      16          81     16     16         0         0         36/81
+   4   3     2      16         204     16     16         0         0         39/204
+   6   3     1      16         204     92      2         0        90         69/204
+   6   4     2      12         155     30      0         0        30         23/155
+   8   4     1      12         155     87      2         0        85         80/155
+   8   5     2      12         197     60      0         0        60         58/197
+  10   5     1      12         197    128      0         0       128        126/197
+  10   6     2      12         227     91      0         0        91         91/227
+
+  K1 must be 0: a zero column kills the determinant, so LONG forces vanishing.
+  K2 is the residue -- vanishing WITHOUT a dead column, i.e. genuine column dependence.
+  It is the part of the second branch the long-root count alone does not explain.
+
+  the residue, by hand (nu with sp_nu = 0 and no dead column):
+    t=6 R=3  nu=[2, 1, 0]          shifted m=[5, 3, 1]
+    t=6 R=3  nu=[1, 1, 1]          shifted m=[4, 3, 2]
+    t=6 R=3  nu=[3, 1, 0]          shifted m=[6, 3, 1]
+    t=6 R=3  nu=[4, 1, 0]          shifted m=[7, 3, 1]
+    t=6 R=3  nu=[3, 1, 1]          shifted m=[6, 3, 2]
+    t=6 R=3  nu=[3, 3, 0]          shifted m=[6, 5, 1]
+    t=6 R=3  nu=[3, 2, 1]          shifted m=[6, 4, 2]
+    t=6 R=3  nu=[6, 1, 0]          shifted m=[9, 3, 1]
+    t=6 R=3  nu=[5, 1, 1]          shifted m=[8, 3, 2]
+    t=6 R=3  nu=[4, 3, 0]          shifted m=[7, 5, 1]
+    t=6 R=3  nu=[3, 2, 2]          shifted m=[6, 4, 3]
+    t=6 R=3  nu=[6, 1, 1]          shifted m=[9, 3, 2]
+    t=6 R=3  nu=[5, 2, 1]          shifted m=[8, 4, 2]
+    t=6 R=3  nu=[4, 4, 0]          shifted m=[7, 6, 1]
+
+DONE

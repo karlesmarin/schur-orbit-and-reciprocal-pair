@@ -1,0 +1,29 @@
+============================================================================
+Is the S_3 of the formula realised on partitions?
+============================================================================
+
+  t = 2,  N = 4,  |lambda| <= 26
+    attained triples          : 420
+    with every permutation too: 168
+    missing some permutation  : 252
+    a permutation reachable at the SAME |lambda|: 122 of 168
+    e.g. (16, 2, 20) attained, [(16, 20, 2), (20, 16, 2)] not
+    CONTROL, triples forced to d3 = d1+d2: 104, of which attained: 49
+
+  t = 3,  N = 5,  |lambda| <= 22
+    attained triples          : 174
+    with every permutation too: 0
+    missing some permutation  : 174
+    a permutation reachable at the SAME |lambda|: 0 of 0
+    e.g. (9, 12, 1) attained, [(1, 9, 12), (1, 12, 9)] not
+    CONTROL, triples forced to d3 = d1+d2: 36, of which attained: 16
+
+  t = 4,  N = 6,  |lambda| <= 20
+    attained triples          : 92
+    with every permutation too: 10
+    missing some permutation  : 82
+    a permutation reachable at the SAME |lambda|: 9 of 10
+    e.g. (16, 4, 20) attained, [(4, 16, 20), (4, 20, 16)] not
+    CONTROL, triples forced to d3 = d1+d2: 21, of which attained: 9
+
+DONE

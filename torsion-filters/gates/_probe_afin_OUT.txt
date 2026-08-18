@@ -1,0 +1,60 @@
+========================================================================================================
+.ES EL PLEGADO AFIN?  DESCOMPOSICION DEL SIGNO EN LOS PARES QUE SE CANCELAN
+========================================================================================================
+
+  A1  el par voltea SOLO delta (plegado afin puro)      : 50 de 335
+
+  A2  reparto conjunto de (s'/s, sg'/sg, delta'/delta) sobre los pares de una progresion:
+        s'/s=+1  sg'/sg=-1  delta'/delta=+1  :    163
+        s'/s=-1  sg'/sg=+1  delta'/delta=+1  :     88
+        s'/s=+1  sg'/sg=+1  delta'/delta=-1  :     50
+        s'/s=-1  sg'/sg=-1  delta'/delta=-1  :     12
+        s'/s=+1  sg'/sg=+1  delta'/delta=+1  :     11
+        s'/s=-1  sg'/sg=-1  delta'/delta=+1  :      9
+        s'/s=+1  sg'/sg=-1  delta'/delta=-1  :      1
+        s'/s=-1  sg'/sg=+1  delta'/delta=-1  :      1
+
+  A6  cruzado en los invariantes de verdad:  det(w) = s.sg   contra   delta = tau(eta_w)
+      (s y sg dependen de convenios; su producto y delta, no)
+        det'/det=-1  delta'/delta=+1  -> voltea SOLO det    :   251
+        det'/det=+1  delta'/delta=-1  -> voltea SOLO delta  :    62
+        det'/det=+1  delta'/delta=+1  -> no voltea nada     :    20
+        det'/det=-1  delta'/delta=-1  -> voltea los dos     :     2
+      pares donde voltea EXACTAMENTE UNO de los dos : 313  (y los que cancelan son 313)
+
+  A7  pares que NO cancelan, por tamano de la progresion:
+        progresiones de 2 terminos :  281 pares,    0 sin cancelar
+        progresiones de 4 terminos :   54 pares,   22 sin cancelar
+
+  A3  .que cambia entre los dos terminos?
+        S distinto / qui igual             :   226
+        S distinto / qui distinto          :    62
+        misma clave canonica               :    53
+        S igual / qui distinto             :    47
+
+  A4  los dos bloques congelados tienen las mismas clases plegadas : 335 de 335
+      (trivial: los dos son transversales validos.  Se mide para no confundirlo con
+       contenido; si NO saliera entero, el fallo estaria en delta_dec.)
+
+  A5  el par se CANCELA (s.sg.delta opuesto)             : 313 de 335
+
+  G1  SENUELO: el mismo reparto entre progresiones DISTINTAS:
+        s=+1 sg=-1 delta=-1 :   272  ( 28.5%)
+        s=+1 sg=-1 delta=+1 :   155  ( 16.3%)
+        s=+1 sg=+1 delta=+1 :   124  ( 13.0%)
+        s=+1 sg=+1 delta=-1 :   123  ( 12.9%)
+        s=-1 sg=-1 delta=-1 :   118  ( 12.4%)
+        s=-1 sg=+1 delta=-1 :    67  (  7.0%)
+
+  !! pares que NO se cancelan (si los hay, A5 no es 100%%):
+    {"t": 3, "r": 2, "Lambda": [4, 2, 0], "X": [4, -2], "V": [13, 7, 1], "term1": {"k": [1, 1], "clave": [7, 1], "s": 1, "S": [0], "qui": 1, "sg": 1, "delta": 1, "A": [13]}, "term2": {"k": [3, 3], "clave": [13, 7], "s": 1, "S": [2], "qui": 1, "sg": 1, "delta": 1, "A": [1]}}
+    {"t": 3, "r": 2, "Lambda": [4, 2, 0], "X": [4, -2], "V": [13, 7, 1], "term1": {"k": [1, 5], "clave": [13, 7], "s": -1, "S": [2], "qui": 1, "sg": 1, "delta": 1, "A": [1]}, "term2": {"k": [3, 1], "clave": [13, 1], "s": 1, "S": [1], "qui": 1, "sg": -1, "delta": 1, "A": [7]}}
+    {"t": 3, "r": 2, "Lambda": [6, 4, 0], "X": [8, -4], "V": [17, 11, 1], "term1": {"k": [1, 1], "clave": [11, -1], "s": 1, "S": [0], "qui": -1, "sg": -1, "delta": -1, "A": [17]}, "term2": {"k": [3, 5], "clave": [17, 11], "s": 1, "S": [2], "qui": 1, "sg": 1, "delta": 1, "A": [1]}}
+
+  LECTURA: si A2 se concentra en UNA fila, esa fila ES la involucion.  Si la fila es
+  (+1, +1, -1), el mecanismo es exactamente el plegado afin del bloque congelado y (L1)
+  se prueba con delta.  Si el que voltea es sg, el mecanismo es de barajado y el plegado
+  afin no tiene nada que ver.
+
+========================================================================================================
+DONE

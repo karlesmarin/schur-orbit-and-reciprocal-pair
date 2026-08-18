@@ -1,0 +1,65 @@
+============================================================================================================
+C0 + N1  LA FORMULA v(T): Newt(A(T)) = orbit polytope de tipo B/C, y vertice = UN atomo
+============================================================================================================
+
+    T                     | v(T)      | vertices reales de Newt(A(T))        | orbit  | 1 atomo
+    (17, 11, 6, 0)        | (17, 5)   | [(-17, -5), (-17, 5), (-5, -17), (-5 | True   | True
+    (20, 11, 6, 1)        | (19, 5)   | [(-19, -5), (-19, 5), (-5, -19), (-5 | True   | True
+    (24, 11, 6, 1)        | (23, 5)   | [(-23, -5), (-23, 5), (-5, -23), (-5 | True   | True
+    (13, 9, 4, 2)         | (11, 5)   | [(-11, -5), (-11, 5), (-5, -11), (-5 | True   | True
+    (30, 7, 5, 1)         | (29, 2)   | [(-29, -2), (-29, 2), (-2, -29), (-2 | True   | True
+
+    C0 PASA -- (1) y (2) son ciertas en lo medido
+
+============================================================================================================
+C1  ¿QUE MATROIDE HAY AQUI DEBAJO?  -- clases disjuntas => matroide de PARTICION
+============================================================================================================
+
+    beta                          | clases        | prod |cl_k| | #transversales | disjuntas
+    (18, 17, 11, 8, 7, 6, 1, 0)   | [2, 2, 2, 2]  |         16 |             16 | True
+    (13, 9, 8, 7, 5, 4, 2, 0)     | [3, 3, 1, 1]  |          9 |              9 | True
+    (12, 8, 7, 6, 5, 4, 3, 2)     | [3, 1, 2, 2]  |         12 |             12 | True
+
+    Las cl_k particionan beta, luego el matroide transversal de la familia es un matroide de
+    PARTICION y las transversales son el PRODUCTO de los bloques.  No hay teoria matroidal que
+    explotar aqui: la dificultad esta en que v(T) no se separa por bloques.
+
+============================================================================================================
+N2 + N3  EL EXPERIMENTO -- v maximal en dominancia y su multiplicidad con signo
+============================================================================================================
+
+  poblacion critica: Phi != 0 nos da la respuesta trivial, asi que se separan las DOS columnas
+  por la simetria de g_com, que es lo que la Conjetura 8.44 relaciona con la anulacion.
+
+   t  r   W | g_com      |   n | v maximal unico | m(v) != 0 | se anula
+    4  2  14 | simetrico  |  28 |          28   |       0   |     28
+    4  2  14 | ASIMETRICO | 345 |         341   |     329   |      0
+    4  2  15 | simetrico  |  36 |          36   |       0   |     36
+    4  2  15 | ASIMETRICO | 440 |         435   |     424   |      0
+    6  2  15 | simetrico  |  33 |          33   |       0   |     33
+    6  2  15 | ASIMETRICO | 299 |         299   |     283   |      0
+    4  3  14 | simetrico  |  14 |          14   |       0   |     14
+    4  3  14 | ASIMETRICO | 349 |         346   |     325   |      0
+
+  *** OJO CON LEER ESTA TABLA AL DERECHO.  m(v) != 0  IMPLICA  Phi != 0 POR DEFINICION: un
+  coeficiente no nulo es un testigo.  Asi que la columna simetrica tiene que dar 0 y la
+  asimetrica tiene que dar mucho, y eso NO prueba nada -- es la definicion devuelta.  El unico
+  numero con contenido es el RECIPROCO: cuantas formas con Phi != 0 se quedan SIN certificado.
+  Esos son los fallos, y van en N4.
+
+============================================================================================================
+N4  LOS FALLOS -- Phi != 0 y m(v) = 0 en TODO maximal.  ¿Hasta donde hay que bajar?
+============================================================================================================
+
+  Aqui esta el contenido: el certificado es SANO por definicion, y la pregunta es si es
+  COMPLETO.  No lo es.  Y lo interesante es cuanto le falta.
+
+   t  r   W | Phi!=0 asim. | sin certificado | profundidad de dominancia que SI lo da
+    4  2  15 |          440 |     16 ( 3.6 %) | {1: 14, 2: 2}   coeficientes |c| = [2]
+    6  2  15 |          299 |     16 ( 5.4 %) | {1: 16}   coeficientes |c| = [2]
+    4  3  14 |          349 |     24 ( 6.9 %) | {1: 18, 3: 2, 2: 4}   coeficientes |c| = [6, 12]
+
+  Profundidad 1 significa: el orbit vertice de arriba se cancela ENTERO y el certificado
+  aparece en el nivel INMEDIATAMENTE siguiente.  Un solo paso, no un descenso abierto.
+
+============================================================================================================

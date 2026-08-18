@@ -1,0 +1,29 @@
+==============================================================================
+t = 4, r = 2, |lambda| <= 17 : 177 concentric shapes, 8 of them vanishing
+==============================================================================
+
+  candidate extra condition                  on the 5 on the rest
+  ----------------------------------------------------------------
+  ONE of the pair has empty quotient            8/8       133/169     (necessary, not sufficient)
+  BOTH of the pair have empty quotient          0/8        61/169  
+  beta symmetric about the centre               4/8         0/169     (sufficient, not necessary)
+  two or more concentric pairs                  0/8         5/169  
+  the concentric classes have equal size        4/8        64/169  
+  every class symmetric about the centre        0/8         0/169     (sufficient, not necessary)
+  both classes of the pair symmetric            8/8       140/169     (necessary, not sufficient)
+  the pair's quotient components equal          0/8         0/169     (sufficient, not necessary)
+  the complementary pair is concentric too      0/8         5/169  
+  the centre equals max(beta)                   6/8        46/169  
+  all excess classes share one centre           4/8         5/169  
+
+  the vanishing ones:
+    lam=[1, 1, 1, 1]             beta=[8, 7, 6, 5, 3, 2, 1, 0]       conc=[(0, 2, 8)]
+    lam=[5, 4, 3]                beta=[12, 10, 8, 4, 3, 2, 1, 0]     conc=[(0, 2, 12)]
+    lam=[3, 3, 3, 3]             beta=[10, 9, 8, 7, 3, 2, 1, 0]      conc=[(1, 3, 10)]
+    lam=[3, 3, 2, 2, 1, 1]       beta=[10, 9, 7, 6, 4, 3, 1, 0]      conc=[(1, 3, 10)]
+    lam=[2, 2, 2, 2, 1, 1, 1, 1] beta=[9, 8, 7, 6, 4, 3, 2, 1]       conc=[(1, 3, 10)]
+    lam=[6, 5, 4, 1]             beta=[13, 11, 9, 5, 3, 2, 1, 0]     conc=[(1, 3, 14)]
+    lam=[5, 4, 3, 3, 1]          beta=[12, 10, 8, 7, 4, 2, 1, 0]     conc=[(0, 2, 12)]
+    lam=[5, 4, 3, 1, 1, 1, 1]    beta=[12, 10, 8, 5, 4, 3, 2, 0]     conc=[(0, 2, 12)]
+
+DONE

@@ -1,0 +1,196 @@
+============================================================================================================
+C0  ACEPTACION -- el criterio es el de k_vs_m.py, byte a byte, y se re-firma contra scan()
+============================================================================================================
+
+  C0a  t=4 r=2 M=15 : objetivo 44/44, betas 0/0   ok
+  C0a  t=6 r=3 M=18 : objetivo 104/104, betas 8/8   ok
+       C0a PASA
+
+  C0b  la ventana es simetrica [-D, D] (fatal), y la DENSIDAD de la escalera se mide
+       simetria: ok en 40 betas objetivo (W=20)
+       densidad: 91.6% de los peldanos tienen soporte de media (min 78.4%, max 100.0%)
+       o sea la escalera completa NO es la escalera con soporte, y medido esta.
+
+  C0 PASA
+
+============================================================================================================
+N1  LAS DOS ESCALERAS   |   N2  los TESTIGOS de profundidad maxima, uno a uno
+============================================================================================================
+
+  prof      = D - first, peldanos de la escalera COMPLETA (el convenio de k_vs_m.py)
+  prof_sop  = de esos peldanos, los que TIENEN soporte y aun asi se anulan (los que cancelan)
+  K, K_sop  = el maximo de cada uno sobre los supervivientes de esa anchura
+
+  W=18   formas 12376, objetivo 48, supervivientes 4, 0 s
+     K (escalera completa)  : 6      ley K = W/2 - 3 predice 6     ACIERTA
+     K_sop (con soporte)    : 2      <-- LA COLUMNA QUE FALTABA
+     techo trivial 2*D      : 56     (D maximo de la poblacion objetivo = 28)
+     histograma prof        : p6:4
+     histograma prof_sop    : s2:4
+     testigos de prof 6  (4 de ellos):
+        beta = (18, 17, 11, 8, 7, 6, 1, 0)              D=28   prof=6    de los 3 peldanos vacios: 2 CANCELAN, 1 sin soporte
+        beta = (18, 17, 12, 11, 10, 7, 1, 0)            D=28   prof=6    de los 3 peldanos vacios: 2 CANCELAN, 1 sin soporte
+        beta = (18, 13, 11, 8, 7, 6, 5, 0)              D=24   prof=6    de los 3 peldanos vacios: 2 CANCELAN, 1 sin soporte
+        beta = (18, 13, 12, 11, 10, 7, 5, 0)            D=24   prof=6    de los 3 peldanos vacios: 2 CANCELAN, 1 sin soporte
+
+  W=22   formas 54264, objetivo 120, supervivientes 12, 1 s
+     K (escalera completa)  : 8      ley K = W/2 - 3 predice 8     ACIERTA
+     K_sop (con soporte)    : 2      <-- LA COLUMNA QUE FALTABA
+     techo trivial 2*D      : 64     (D maximo de la poblacion objetivo = 32)
+     histograma prof        : p6:8 p8:4
+     histograma prof_sop    : s2:12
+     testigos de prof 8  (4 de ellos):
+        beta = (22, 19, 13, 10, 9, 8, 3, 0)             D=32   prof=8    de los 4 peldanos vacios: 2 CANCELAN, 2 sin soporte
+        beta = (22, 19, 14, 13, 12, 9, 3, 0)            D=32   prof=8    de los 4 peldanos vacios: 2 CANCELAN, 2 sin soporte
+        beta = (22, 15, 13, 10, 9, 8, 7, 0)             D=28   prof=8    de los 4 peldanos vacios: 2 CANCELAN, 2 sin soporte
+        beta = (22, 15, 14, 13, 12, 9, 7, 0)            D=28   prof=8    de los 4 peldanos vacios: 2 CANCELAN, 2 sin soporte
+
+  W=26   formas 177100, objetivo 270, supervivientes 40, 4 s
+     K (escalera completa)  : 10     ley K = W/2 - 3 predice 10    ACIERTA
+     K_sop (con soporte)    : 3      <-- LA COLUMNA QUE FALTABA
+     techo trivial 2*D      : 80     (D maximo de la poblacion objetivo = 40)
+     histograma prof        : p6:18 p8:12 p10:10
+     histograma prof_sop    : s2:38 s3:2
+     testigos de prof 10  (10 de ellos):
+        beta = (26, 25, 15, 12, 11, 10, 1, 0)           D=40   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 25, 16, 15, 14, 11, 1, 0)           D=40   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 23, 17, 12, 10, 9, 3, 0)            D=40   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 23, 17, 16, 14, 9, 3, 0)            D=40   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 21, 15, 12, 11, 10, 5, 0)           D=36   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 21, 16, 15, 14, 11, 5, 0)           D=36   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 19, 17, 12, 10, 9, 7, 0)            D=36   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 19, 17, 16, 14, 9, 7, 0)            D=36   prof=10   de los 5 peldanos vacios: 2 CANCELAN, 3 sin soporte
+        beta = (26, 17, 15, 12, 11, 10, 9, 0)           D=32   prof=10   de los 5 peldanos vacios: 3 CANCELAN, 2 sin soporte
+        beta = (26, 17, 16, 15, 14, 11, 9, 0)           D=32   prof=10   de los 5 peldanos vacios: 3 CANCELAN, 2 sin soporte
+
+  W=30   formas 475020, objetivo 504, supervivientes 78, 9 s
+     K (escalera completa)  : 12     ley K = W/2 - 3 predice 12    ACIERTA
+     K_sop (con soporte)    : 3      <-- LA COLUMNA QUE FALTABA
+     techo trivial 2*D      : 96     (D maximo de la poblacion objetivo = 48)
+     histograma prof        : p6:24 p8:18 p10:24 p12:12
+     histograma prof_sop    : s2:72 s3:6
+     testigos de prof 12  (12 de ellos):
+        beta = (30, 29, 19, 14, 12, 11, 1, 0)           D=48   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 29, 19, 18, 16, 11, 1, 0)           D=48   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 27, 17, 14, 13, 12, 3, 0)           D=44   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 27, 18, 17, 16, 13, 3, 0)           D=44   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 25, 19, 14, 12, 11, 5, 0)           D=44   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 25, 19, 18, 16, 11, 5, 0)           D=44   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 23, 17, 14, 13, 12, 7, 0)           D=40   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 23, 18, 17, 16, 13, 7, 0)           D=40   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 21, 19, 14, 12, 11, 9, 0)           D=40   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 21, 19, 18, 16, 11, 9, 0)           D=40   prof=12   de los 6 peldanos vacios: 2 CANCELAN, 4 sin soporte
+        beta = (30, 19, 17, 14, 13, 12, 11, 0)          D=36   prof=12   de los 6 peldanos vacios: 3 CANCELAN, 3 sin soporte
+        beta = (30, 19, 18, 17, 16, 13, 11, 0)          D=36   prof=12   de los 6 peldanos vacios: 3 CANCELAN, 3 sin soporte
+
+  W=34   formas 1107568, objetivo 896, supervivientes 162, 22 s
+     K (escalera completa)  : 14     ley K = W/2 - 3 predice 14    ACIERTA
+     K_sop (con soporte)    : 4      <-- LA COLUMNA QUE FALTABA
+     techo trivial 2*D      : 112    (D maximo de la poblacion objetivo = 56)
+     histograma prof        : p6:40 p8:32 p10:42 p12:28 p14:20
+     histograma prof_sop    : s2:148 s3:12 s4:2
+     testigos de prof 14  (20 de ellos):
+        beta = (34, 33, 23, 16, 14, 11, 1, 0)           D=56   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 33, 23, 20, 18, 11, 1, 0)           D=56   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 33, 19, 16, 15, 14, 1, 0)           D=52   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 33, 20, 19, 18, 15, 1, 0)           D=52   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 31, 21, 16, 14, 13, 3, 0)           D=52   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 31, 21, 20, 18, 13, 3, 0)           D=52   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 29, 23, 16, 14, 11, 5, 0)           D=52   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 29, 23, 20, 18, 11, 5, 0)           D=52   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 29, 19, 16, 15, 14, 5, 0)           D=48   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 29, 20, 19, 18, 15, 5, 0)           D=48   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 27, 21, 16, 14, 13, 7, 0)           D=48   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 27, 21, 20, 18, 13, 7, 0)           D=48   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 25, 23, 16, 14, 11, 9, 0)           D=48   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 25, 23, 20, 18, 11, 9, 0)           D=48   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 25, 19, 16, 15, 14, 9, 0)           D=44   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 25, 20, 19, 18, 15, 9, 0)           D=44   prof=14   de los 7 peldanos vacios: 2 CANCELAN, 5 sin soporte
+        beta = (34, 23, 21, 16, 14, 13, 11, 0)          D=44   prof=14   de los 7 peldanos vacios: 3 CANCELAN, 4 sin soporte
+        beta = (34, 23, 21, 20, 18, 13, 11, 0)          D=44   prof=14   de los 7 peldanos vacios: 3 CANCELAN, 4 sin soporte
+        beta = (34, 21, 19, 16, 15, 14, 13, 0)          D=40   prof=14   de los 7 peldanos vacios: 4 CANCELAN, 3 sin soporte
+        beta = (34, 21, 20, 19, 18, 15, 13, 0)          D=40   prof=14   de los 7 peldanos vacios: 4 CANCELAN, 3 sin soporte
+
+  W=38   formas 2324784, objetivo 1440, supervivientes 266, 45 s
+     K (escalera completa)  : 16     ley K = W/2 - 3 predice 16    ACIERTA
+     K_sop (con soporte)    : 4      <-- LA COLUMNA QUE FALTABA
+     techo trivial 2*D      : 120    (D maximo de la poblacion objetivo = 60)
+     histograma prof        : p6:48 p8:40 p10:64 p12:48 p14:44 p16:22
+     histograma prof_sop    : s2:240 s3:20 s4:6
+     testigos de prof 16  (22 de ellos):
+        beta = (38, 37, 23, 18, 16, 15, 1, 0)           D=60   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 37, 23, 22, 20, 15, 1, 0)           D=60   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 35, 25, 18, 16, 13, 3, 0)           D=60   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 35, 25, 22, 20, 13, 3, 0)           D=60   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 35, 21, 18, 17, 16, 3, 0)           D=56   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 35, 22, 21, 20, 17, 3, 0)           D=56   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 33, 23, 18, 16, 15, 5, 0)           D=56   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 33, 23, 22, 20, 15, 5, 0)           D=56   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 31, 25, 18, 16, 13, 7, 0)           D=56   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 31, 25, 22, 20, 13, 7, 0)           D=56   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 31, 21, 18, 17, 16, 7, 0)           D=52   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 31, 22, 21, 20, 17, 7, 0)           D=52   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 29, 23, 18, 16, 15, 9, 0)           D=52   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 29, 23, 22, 20, 15, 9, 0)           D=52   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 27, 25, 18, 16, 13, 11, 0)          D=52   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 27, 25, 22, 20, 13, 11, 0)          D=52   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 27, 21, 18, 17, 16, 11, 0)          D=48   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 27, 22, 21, 20, 17, 11, 0)          D=48   prof=16   de los 8 peldanos vacios: 2 CANCELAN, 6 sin soporte
+        beta = (38, 25, 23, 18, 16, 15, 13, 0)          D=48   prof=16   de los 8 peldanos vacios: 3 CANCELAN, 5 sin soporte
+        beta = (38, 25, 23, 22, 20, 15, 13, 0)          D=48   prof=16   de los 8 peldanos vacios: 3 CANCELAN, 5 sin soporte
+        beta = (38, 23, 21, 18, 17, 16, 15, 0)          D=44   prof=16   de los 8 peldanos vacios: 4 CANCELAN, 4 sin soporte
+        beta = (38, 23, 22, 21, 20, 17, 15, 0)          D=44   prof=16   de los 8 peldanos vacios: 4 CANCELAN, 4 sin soporte
+
+  W=42   formas 4496388, objetivo 2250, supervivientes 454, 86 s
+     K (escalera completa)  : 18     ley K = W/2 - 3 predice 18    ACIERTA
+     K_sop (con soporte)    : 4      <-- LA COLUMNA QUE FALTABA
+     techo trivial 2*D      : 136    (D maximo de la poblacion objetivo = 68)
+     histograma prof        : p6:70 p8:60 p10:90 p12:72 p14:78 p16:52 p18:32
+     histograma prof_sop    : s2:408 s3:34 s4:12
+     testigos de prof 18  (32 de ellos):
+        beta = (42, 41, 27, 20, 18, 15, 1, 0)           D=68   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 41, 27, 24, 22, 15, 1, 0)           D=68   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 41, 23, 20, 19, 18, 1, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 41, 24, 23, 22, 19, 1, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 39, 29, 20, 18, 13, 3, 0)           D=68   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 39, 29, 24, 22, 13, 3, 0)           D=68   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 39, 25, 20, 18, 17, 3, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 39, 25, 24, 22, 17, 3, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 37, 27, 20, 18, 15, 5, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 37, 27, 24, 22, 15, 5, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 37, 23, 20, 19, 18, 5, 0)           D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 37, 24, 23, 22, 19, 5, 0)           D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 35, 29, 20, 18, 13, 7, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 35, 29, 24, 22, 13, 7, 0)           D=64   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 35, 25, 20, 18, 17, 7, 0)           D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 35, 25, 24, 22, 17, 7, 0)           D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 33, 27, 20, 18, 15, 9, 0)           D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 33, 27, 24, 22, 15, 9, 0)           D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 33, 23, 20, 19, 18, 9, 0)           D=56   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 33, 24, 23, 22, 19, 9, 0)           D=56   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 31, 29, 20, 18, 13, 11, 0)          D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 31, 29, 24, 22, 13, 11, 0)          D=60   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 31, 25, 20, 18, 17, 11, 0)          D=56   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        beta = (42, 31, 25, 24, 22, 17, 11, 0)          D=56   prof=18   de los 9 peldanos vacios: 2 CANCELAN, 7 sin soporte
+        ... y 8 mas
+
+
+============================================================================================================
+N3  VEREDICTO -- las dos escaleras, una al lado de la otra
+============================================================================================================
+
+     W    | K completa | ley W/2-3 | K_sop | techo 2D | K/techo
+  ------------------------------------------------------------------------
+    18   |          6 |         6 |     2 |       56 | 0.107
+    22   |          8 |         8 |     2 |       64 | 0.125
+    26   |         10 |        10 |     3 |       80 | 0.125
+    30   |         12 |        12 |     3 |       96 | 0.125
+    34   |         14 |        14 |     4 |      112 | 0.125
+    38   |         16 |        16 |     4 |      120 | 0.133
+    42   |         18 |        18 |     4 |      136 | 0.132
+
+  la ley K = W/2 - 3 ACIERTA LAS 7 ANCHURAS (38 y 42 son PREDICCION, no ajuste)
+  K_sop = [2, 2, 3, 3, 4, 4, 4]
+  K_sop crece MUCHO MAS DESPACIO que K: la recta es en su mayor parte hueco de espectro.
+
+DONE

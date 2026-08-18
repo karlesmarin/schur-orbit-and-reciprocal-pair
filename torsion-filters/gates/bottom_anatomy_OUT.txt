@@ -1,0 +1,38 @@
+==========================================================================================================
+C1  the block-permutation sign, and [A(T)]_bot = |Stab(d)| m_sort(d)
+==========================================================================================================
+
+     r   block signs all +1   coefficients all equal & positive   value = |Stab(d)|
+  ------------------------------------------------------------------------------------------------------
+     1                  yes                                    yes                  yes
+     2                  yes                                    yes                  yes
+     3                  yes                                    yes                  yes
+     4                  yes                                    yes                  yes
+
+  C1 PASS: permuting blocks of size 2 has sign det(P)^2 = +1, so the bottom part of a single
+  A(T) is a POSITIVE sum and can never cancel by itself.  All cancellation is across T.
+
+==========================================================================================================
+C2-C7  the signed-count criterion for [Phi]_bot
+==========================================================================================================
+
+     t   r  shapes | max|Gb|  |Gb| distribution      max #D | C2 bad | C5 decoy bad | C6 bad
+  ------------------------------------------------------------------------------------------------------
+     2   2    2227 |       6  1:1004, 2:736, 3:339,       3 |      0 |           54 |      0
+     2   3     795 |      11  1:172, 2:156, 3:156, 4      2 |      0 |            2 |      0
+     4   2    2874 |       8  1:1072, 2:748, 3:617,       3 |      0 |           10 |      0
+     4   3     861 |      16  1:78, 2:136, 3:156, 4:      2 |      0 |            2 |      0
+     6   2    1118 |       6  1:210, 2:370, 3:265, 4      2 |      0 |            0 |      0
+     6   3     484 |      16  1:11, 2:89, 3:56, 4:54      2 |      0 |            0 |      0
+     8   2     595 |       6  1:30, 2:251, 3:75, 4:1      2 |      0 |            6 |      0
+
+  C2 exceptions to  [Phi]_bot = 0  <=>  every signed count by D vanishes : 0 of 8954
+  C5 decoy (one global sum of w instead of split by D): wrong 74 times -- must be nonzero
+  C6 criterion-holding shapes where [Phi]_bot survives: 0 (must be 0)
+  C7 non-vacuity: [Phi]_bot vanishes on 921 shapes and survives on 8033.
+
+  THE BOTTOM STRATUM IS A SIGNED COUNT.  [Phi]_bot = 0 iff, for every multiset D of
+  consecutive-gap differences, the transversals in Gbot realising D carry weights w
+  summing to zero.  No Schur rigidity, no polynomial: just w = +-1 added up.
+
+DONE

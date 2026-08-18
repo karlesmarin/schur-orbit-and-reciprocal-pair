@@ -1,0 +1,108 @@
+========================================================================================================
+C0  ACEPTACION: reproducir e_equals_t.py en SUS configuraciones (objetivo 412, surv 12,
+    contingencia  e<t: 216 formas / 0 supervivientes   e=t: 196 formas / 12)
+========================================================================================================
+
+     t   r    M | objetivo | e<t surv | e=t surv
+  ----------------------------------------------------------------------------------------
+     4   2   15 |       44 |   0    0 |  44    0
+     4   3   15 |       28 |   0    0 |  28    0
+     6   2   17 |      108 | 108    0 |   0    0
+     6   3   18 |      104 |  36    0 |  68    8
+     8   2   18 |       32 |  32    0 |   0    0
+     8   3   19 |       40 |  40    0 |   0    0
+     6   4   19 |       56 |   0    0 |  56    4
+    10   2   19 |        0 |   0    0 |   0    0
+
+  objetivo 412 (esperado 412) | e<t: 216 formas, 0 supervivientes (esperado 216, 0)
+  supervivientes 12 (esperado 12) | e=t: 196 formas, 12 supervivientes (esperado 196, 12)
+
+  C0 PASA -- son sus numeros exactos.
+
+========================================================================================================
+N1-N3  la misma contingencia con M GRANDE
+========================================================================================================
+
+     t   r    M    N  t>2r | objetivo | e<t: formas  surv | e=t: formas  surv
+  ----------------------------------------------------------------------------------------------------
+     6   2   19   10    si |      300 |         300     0 |           0     0
+     8   2   20   12    si |      288 |         288     0 |           0     0
+     8   3   20   14    si |      148 |         148    26 |           0     0
+     8   3   21   14    si |      312 |         312    60 |           0     0
+    10   2   21   14    si |        0 |           0     0 |           0     0
+     4   2   19    8    no |      268 |           0     0 |         268     8
+     6   3   19   12    no |      184 |          84     0 |         100    12
+     6   4   20   14    no |      178 |          18     0 |         160    18
+
+  N2 (L1) 'e = t es NECESARIO entre los supervivientes':
+       e < t : 1150 formas objetivo, 86 supervivientes
+       e = t : 528 formas objetivo, 38 supervivientes
+       *** (L1) REFUTADA: hay supervivientes con e < t ***
+
+  N3 (L2) las configuraciones declaradas imposibles por 'e = t exige t <= 2r':
+       t=6 r=2 : 0 supervivientes
+       t=8 r=2 : 0 supervivientes
+       t=8 r=3 : 86 supervivientes   *** (L2) REFUTADA ***
+       t=10 r=2 : 0 supervivientes
+
+========================================================================================================
+N4/N5  cada superviviente: Delta = 0 contra el POLINOMIO, y donde aparece Phi_t
+========================================================================================================
+
+     t   r  e   t  |G2|  beta                                     poly=0   D1   1er  prof.
+  ----------------------------------------------------------------------------------------------------
+     4   2  4   4     2  [18, 13, 11, 8, 7, 6, 5, 0]                  si   24    18     6
+     4   2  4   4     2  [18, 13, 12, 11, 10, 7, 5, 0]                si   24    18     6
+     4   2  4   4     2  [18, 17, 11, 8, 7, 6, 1, 0]                  si   28    22     6
+     4   2  4   4     2  [18, 17, 12, 11, 10, 7, 1, 0]                si   28    22     6
+     4   2  4   4     2  [19, 14, 12, 9, 8, 7, 6, 1]                  si   24    18     6
+     4   2  4   4     2  [19, 14, 13, 12, 11, 8, 6, 1]                si   24    18     6
+     4   2  4   4     2  [19, 18, 12, 9, 8, 7, 2, 1]                  si   28    22     6
+     4   2  4   4     2  [19, 18, 13, 12, 11, 8, 2, 1]                si   28    22     6
+     6   3  6   6     2  [16, 15, 14, 13, 11, 6, 5, 4, 3, 2, 1, 0]     si   39    35     4
+     6   3  6   6     2  [16, 15, 14, 13, 12, 11, 10, 5, 3, 2, 1, 0]     si   39    35     4
+     6   3  6   6     2  [17, 16, 15, 14, 12, 7, 6, 5, 4, 3, 2, 1]     si   39    35     4
+     6   3  6   6     2  [17, 16, 15, 14, 13, 12, 11, 6, 4, 3, 2, 1]     si   39    35     4
+     6   3  6   6     2  [18, 17, 16, 15, 13, 8, 7, 6, 5, 4, 3, 2]     si   39    35     4
+     6   3  6   6     2  [18, 17, 16, 15, 14, 7, 5, 4, 3, 2, 1, 0]     si   45    41     4
+     6   3  6   6     2  [18, 17, 16, 15, 14, 13, 11, 4, 3, 2, 1, 0]     si   45    41     4
+     6   3  6   6     2  [18, 17, 16, 15, 14, 13, 12, 7, 5, 4, 3, 2]     si   39    35     4
+     6   3  6   6     2  [19, 18, 17, 16, 14, 9, 8, 7, 6, 5, 4, 3]     si   39    35     4
+     6   3  6   6     2  [19, 18, 17, 16, 15, 8, 6, 5, 4, 3, 2, 1]     si   45    41     4
+     6   3  6   6     2  [19, 18, 17, 16, 15, 14, 12, 5, 4, 3, 2, 1]     si   45    41     4
+     6   3  6   6     2  [19, 18, 17, 16, 15, 14, 13, 8, 6, 5, 4, 3]     si   39    35     4
+     6   4  6   6     2  [18, 17, 16, 15, 14, 12, 7, 6, 5, 4, 3, 2, 1, 0]     si   57    53     4
+     6   4  6   6     2  [18, 17, 16, 15, 14, 13, 12, 11, 6, 4, 3, 2, 1, 0]     si   57    53     4
+     6   4  6   6     2  [19, 18, 17, 16, 15, 13, 8, 7, 6, 5, 4, 3, 2, 1]     si   57    53     4
+     6   4  6   6     2  [19, 18, 17, 16, 15, 14, 13, 12, 7, 5, 4, 3, 2, 1]     si   57    53     4
+     6   4  6   6     2  [20, 17, 16, 15, 13, 11, 9, 8, 7, 6, 5, 4, 3, 0]     si   53    47     6
+     6   4  6   6     2  [20, 17, 16, 15, 14, 13, 12, 11, 9, 7, 5, 4, 3, 0]     si   53    47     6
+     6   4  6   6     2  [20, 18, 17, 16, 15, 13, 8, 7, 6, 5, 4, 3, 2, 0]     si   59    55     4
+     6   4  6   6     2  [20, 18, 17, 16, 15, 14, 13, 12, 7, 5, 4, 3, 2, 0]     si   59    55     4
+
+[CORRIDA INTERRUPTIDA A MANO, 13 de agosto de 2026 -- y se dice, no se esconde.]
+
+Completas y validas:
+  C0   la aceptacion, que PASA con los numeros exactos del guion original (412 / 12 / 216-0 / 196-12)
+  N1   la contingencia con M grande, LAS OCHO configuraciones
+  N2   (L1) refutada: 86 supervivientes con e < t
+  N3   (L2) refutada: t=8 r=3 da 86 supervivientes
+
+Incompleta:
+  N4/N5  la tabla por superviviente.  Se paro en el 28 de los 40 que iba a imprimir, dentro del
+  bloque t=6 r=4, porque cada una de esas formas cuesta minutos (N=14 con r=4: 8! = 40 320
+  permutaciones por transversal).  Por tanto:
+    - el histograma de profundidades NO se imprimio;
+    - N4 (Delta = 0 contra el polinomio) esta comprobado en las 28 impresas, todas con poly=0;
+    - la PROFUNDIDAD 6 esta verificada aparte y por su cuenta en depth6_check_OUT.txt, con el
+      espectro de grados completo y su control.
+
+  [CORRECCION, 13 de agosto -- esta anotacion decia "22 de 40" y "las 22 impresas".  Son 28
+  (t=4 r=2: 8, t=6 r=3: 12, t=6 r=4: 8), contadas por el parser de depth_histogram.py C0b, que
+  las lee de este mismo fichero.  El 22 lo puse yo a ojo y estaba mal.]
+
+SALDADA el 13 de agosto por gates/depth_histogram.py, que mide la profundidad por ESTRATOS de
+Laplace (la descomposicion ya esta en depth.py:9-19, alli aplicada al certificado Delta; aqui al
+polinomio EXACTO) y para en el primer estrato no nulo, sin expandir (2r)!.  Mismo resultado,
+~1000x mas rapido: 12 s -> 0,01 s por forma.  Su control C0b reproduce estas 28 filas exactas.
+Histograma sobre los 124: profundidad 4 en 108, profundidad 6 en 16, ninguna mas abajo.

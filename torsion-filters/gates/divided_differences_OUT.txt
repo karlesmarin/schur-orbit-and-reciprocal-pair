@@ -1,0 +1,54 @@
+========================================================================================================
+LA DIVISION POR Delta_t COMO OPERADOR DE DIFERENCIAS DIVIDIDAS
+========================================================================================================
+
+  t=3 r=2  Lambda_i <= 6 :  formula == pelado   83 de   83 | vuelta atras   83 de   83 | max |c| = 1 | pelado sin cerrar: 0
+  t=5 r=2  Lambda_i <= 4 :  formula == pelado   60 de   60 | vuelta atras   60 de   60 | max |c| = 1 | pelado sin cerrar: 0
+  t=7 r=2  Lambda_i <= 3 :  formula == pelado   43 de   43 | vuelta atras   43 de   43 | max |c| = 1 | pelado sin cerrar: 0
+  t=3 r=3  Lambda_i <= 4 :  formula == pelado   70 de   70 | vuelta atras   70 de   70 | max |c| = 1 | pelado sin cerrar: 0
+
+--------------------------------------------------------------------------------------------------------
+  C0  FATAL  la formula cerrada == el pelado      : 256 de 256
+  C1         multiplicar de vuelta devuelve nu    : 256 de 256
+  C2         max |c| sobre todo                   : 1
+
+  C3  cuantos terminos NO NULOS tiene cada progresion, sobre TODO X con algun termino:
+         1 termino(s) :   1016  (75.32%)
+         2 termino(s) :    322  (23.87%)
+         4 termino(s) :     11  ( 0.82%)
+        total X con algun termino no nulo : 1349
+
+  C4  .hay progresiones de 2+ terminos que se CANCELAN a cero?  (el agujero de C3)
+         2 termino(s) sumando 0 :    322
+         4 termino(s) sumando 0 :     11
+        X con c != 0 : 1016   |   X con c == 0 y algun termino : 333
+
+  C5  .que k es el termino que sobrevive?  (si fuera siempre (1,..,1) la lectura ingenua valdria)
+        k=(1, 1)           :    320
+        k=(1, 3)           :    145
+        k=(1, 1, 1)        :    121
+        k=(1, 5)           :     73
+        k=(1, 1, 3)        :     67
+        k=(1, 3, 1)        :     49
+        k=(3, 1)           :     45
+        k=(1, 1, 5)        :     34
+        k distintos : 25
+
+  SENUELOS (tienen que fallar)
+  S1  progresion PAR    : 0 de 256
+  S2  sin el signo del enderezado : 57 de 256
+  S3  solo el termino k=(1,...,1) : 102 de 256
+  pesos con el pelado sin cerrar (sin referencia) : 0
+
+  progresiones con 2 o mas terminos no nulos, primeros testigos:
+    t=3 r=2 Lambda=[2, 1, 0] X=[6, -4] -> c=+0 con 2 terminos
+    t=3 r=2 Lambda=[2, 2, 0] X=[6, -2] -> c=+0 con 2 terminos
+    t=3 r=2 Lambda=[3, 0, 0] X=[8, -6] -> c=+0 con 2 terminos
+    t=3 r=2 Lambda=[3, 1, 0] X=[8, -4] -> c=+0 con 2 terminos
+
+  LECTURA: si C0 y C1 salen enteros, la division tiene formula cerrada y (L1) es un recuento
+  con signo sobre una progresion de paso 2t.  Si ademas C3 dice 1 termino SIEMPRE, entonces
+  (L1) se sigue de nu en {0,+-1} y de un lema de disjuncion -- es decir, queda PROBADA.
+
+========================================================================================================
+DONE

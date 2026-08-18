@@ -1,0 +1,23 @@
+======================================================================================================================
+REGLA DE SELECCION POR PARIDAD DEL TAMAÑO   --   cruce del teorema de los ribbons con Littlewood
+======================================================================================================================
+   t | r | tipo | formas | una sola paridad de |mu| | y coincide con |lambda| | las DOS paridades
+   ----------------------------------------------------------------------------------------------------------------
+    2 | 2 | par  |    122 |                      122 |                     122 | 0
+    4 | 2 | par  |    303 |                      303 |                     303 | 0
+    6 | 2 | par  |     50 |                       50 |                      50 | 0
+    3 | 2 | impar |     82 |                       27 |                      15 | 55
+        una sola paridad pero NO la de |lambda|: [((7, 6, 5, 4, 3, 1, 0), 1, 0), ((8, 6, 5, 4, 3, 1, 0), 0, 1), ((9, 6, 5, 4, 3, 1, 0), 1, 0)]
+    5 | 2 | impar |     41 |                       33 |                      17 | 8
+        una sola paridad pero NO la de |lambda|: [((9, 8, 7, 6, 5, 3, 2, 1, 0), 1, 0), ((10, 9, 7, 6, 5, 3, 2, 1, 0), 1, 0), ((10, 9, 8, 6, 5, 3, 2, 1, 0), 0, 1)]
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si en el PAR sale una sola paridad SIEMPRE y coincide con |lambda|, la regla vale y es
+     un criterio de anulacion gratis: todo mu de la otra paridad tiene A_mu = 0.
+   * si en el IMPAR salen las dos, la regla es genuinamente de paridad de t -- tercera via
+     independiente por la que la paridad decide.
+   * si en el IMPAR tambien saliera una sola, el argumento da menos de lo que pasa y hay que
+     entender por que: seria un enunciado mas fuerte, no mas debil.
+======================================================================================================================
+DONE

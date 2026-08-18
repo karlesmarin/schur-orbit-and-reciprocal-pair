@@ -1,0 +1,12 @@
+================================================================================================
+INTERROGATORIO DE LA QUIRALIDAD
+================================================================================================
+
+  Q1  nu(mu*) == -nu(mu)   (ANTIsimetrica) : 1196 de 1196   (con ultima coord 0: 0)
+  Q3  c(mu*)  == +c(mu)    (SIMETRICA)     : 654 de 654
+
+  LECTURA: si Q1 y Q3 salen, nu es antisimetrica y c simetrica -- y entonces el '2' de
+  prop:transversal(ii) cuenta el soporte SIN PLEGAR, mientras (L2) vive en el plegado.
+  Hay que decirlo en el enunciado, o se estan comparando dos soportes distintos.
+================================================================================================
+DONE

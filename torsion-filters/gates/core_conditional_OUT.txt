@@ -1,0 +1,89 @@
+======================================================================================================================
+EL t-CORE COMO DISCRIMINANTE   --   t=4  r=2  W=13  N=8
+======================================================================================================================
+
+   1441 formas ocupadas, 21 nulas, repartidas en 25 cores distintos
+
+   core                      |   n | nulas | P(nula|core) | 
+   ------------------------------------------------------------------------------------
+   (5, 2, 1)                 |  36 |    12 |        33.3 % |
+   ()                        | 162 |     6 |         3.7 % |
+   (6, 3, 2, 1)              |   9 |     3 |        33.3 % |
+   (1,)                      | 162 |     0 |         0.0 % |
+   (1, 1)                    | 162 |     0 |         0.0 % |
+   (2,)                      | 108 |     0 |         0.0 % |
+   (2, 1)                    | 108 |     0 |         0.0 % |
+   (2, 2)                    | 108 |     0 |         0.0 % |
+   (1, 1, 1)                 | 108 |     0 |         0.0 % |
+   (3,)                      |  54 |     0 |         0.0 % |
+   (4, 1)                    |  54 |     0 |         0.0 % |
+   (5, 2)                    |  54 |     0 |         0.0 % |
+   (3, 1, 1)                 |  36 |     0 |         0.0 % |
+   (4, 1, 1)                 |  36 |     0 |         0.0 % |
+   (3, 2, 1)                 |  36 |     0 |         0.0 % |
+   (4, 2, 2)                 |  36 |     0 |         0.0 % |
+   (5, 2, 2)                 |  36 |     0 |         0.0 % |
+   (2, 1, 1, 1)              |  36 |     0 |         0.0 % |
+   (6, 3)                    |  27 |     0 |         0.0 % |
+   (3, 1, 1, 1)              |  18 |     0 |         0.0 % |
+   (4, 1, 1, 1)              |  18 |     0 |         0.0 % |
+   (3, 3, 1, 1)              |  12 |     0 |         0.0 % |
+   (4, 3, 2, 1)              |  12 |     0 |         0.0 % |
+   ... todos los demas       |  13 |     0 |         0.0 % |  (2 cores agrupados)
+
+   RECIPROCO:  los 3 cores que tienen alguna nula suman 207 formas ocupadas, de las que
+               21 se anulan  ->  P(nula | core con alguna nula) = 10.1 %
+               -> el core NO es suficiente: 186 formas comparten core con una nula y NO
+                  se anulan.  Es una condicion necesaria mas, como la paridad.
+
+   C1  SEÑUELO, el mismo condicionamiento sobre |lambda| (que no deberia decidir):
+       7 valores de |lambda| tienen alguna nula, suman 336 formas, P = 6.2 %
+       Si el core no concentra MUCHO mas que esto, no hay señal en el core.
+
+======================================================================================================================
+EL t-CORE COMO DISCRIMINANTE   --   t=6  r=2  W=13  N=10
+======================================================================================================================
+
+   491 formas ocupadas, 12 nulas, repartidas en 36 cores distintos
+
+   core                      |   n | nulas | P(nula|core) | 
+   ------------------------------------------------------------------------------------
+   (1, 1, 1)                 |  12 |     6 |        50.0 % |
+   (2, 1)                    |  24 |     4 |        16.7 % |
+   (2, 2, 2, 1)              |   6 |     2 |        33.3 % |
+   ()                        |  24 |     0 |         0.0 % |
+   (1,)                      |  24 |     0 |         0.0 % |
+   (2,)                      |  24 |     0 |         0.0 % |
+   (3,)                      |  24 |     0 |         0.0 % |
+   (1, 1)                    |  24 |     0 |         0.0 % |
+   (3, 1)                    |  24 |     0 |         0.0 % |
+   (2, 2)                    |  24 |     0 |         0.0 % |
+   (3, 2)                    |  24 |     0 |         0.0 % |
+   (3, 3)                    |  24 |     0 |         0.0 % |
+   (4,)                      |  16 |     0 |         0.0 % |
+   (4, 1)                    |  16 |     0 |         0.0 % |
+   (4, 2)                    |  16 |     0 |         0.0 % |
+   (4, 3)                    |  16 |     0 |         0.0 % |
+   (4, 4)                    |  16 |     0 |         0.0 % |
+   (2, 1, 1)                 |  12 |     0 |         0.0 % |
+   (3, 1, 1)                 |  12 |     0 |         0.0 % |
+   (2, 2, 1)                 |  12 |     0 |         0.0 % |
+   (3, 2, 1)                 |  12 |     0 |         0.0 % |
+   (3, 3, 1)                 |  12 |     0 |         0.0 % |
+   (2, 2, 2)                 |  12 |     0 |         0.0 % |
+   (3, 2, 2)                 |  12 |     0 |         0.0 % |
+   (3, 3, 2)                 |  12 |     0 |         0.0 % |
+   (3, 3, 3)                 |  12 |     0 |         0.0 % |
+   ... todos los demas       |  45 |     0 |         0.0 % |  (10 cores agrupados)
+
+   RECIPROCO:  los 3 cores que tienen alguna nula suman 42 formas ocupadas, de las que
+               12 se anulan  ->  P(nula | core con alguna nula) = 28.6 %
+               -> el core NO es suficiente: 30 formas comparten core con una nula y NO
+                  se anulan.  Es una condicion necesaria mas, como la paridad.
+
+   C1  SEÑUELO, el mismo condicionamiento sobre |lambda| (que no deberia decidir):
+       6 valores de |lambda| tienen alguna nula, suman 119 formas, P = 10.1 %
+       Si el core no concentra MUCHO mas que esto, no hay señal en el core.
+
+======================================================================================================================
+DONE

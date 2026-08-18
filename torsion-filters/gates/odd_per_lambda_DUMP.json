@@ -1,0 +1,50 @@
+[
+ {
+  "t": 3,
+  "r": 2,
+  "n_formas": 82,
+  "control": 82,
+  "reparto_c": {
+   "1": 236,
+   "0": 918,
+   "2": 123,
+   "-1": 163,
+   "-2": 86
+  },
+  "n_Lambda_en_mumax": {
+   "1": 82
+  },
+  "pares_que_cancelan": 918
+ },
+ {
+  "t": 5,
+  "r": 2,
+  "n_formas": 41,
+  "control": 41,
+  "reparto_c": {
+   "1": 50,
+   "0": 81,
+   "2": 25,
+   "-2": 15,
+   "-1": 25
+  },
+  "n_Lambda_en_mumax": {
+   "1": 41
+  },
+  "pares_que_cancelan": 81
+ },
+ {
+  "t": 3,
+  "r": 3,
+  "n_formas": 9,
+  "control": 9,
+  "reparto_c": {
+   "1": 11,
+   "2": 2
+  },
+  "n_Lambda_en_mumax": {
+   "1": 9
+  },
+  "pares_que_cancelan": 0
+ }
+]

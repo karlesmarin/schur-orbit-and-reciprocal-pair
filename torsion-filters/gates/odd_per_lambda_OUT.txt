@@ -1,0 +1,33 @@
+======================================================================================================================
+LA PRIMITIVIDAD IMPAR, LOCALIZADA POR Lambda
+======================================================================================================================
+
+  t=3 r=2  (82 formas con mu_max unico)
+     C0  control sum_Lambda a_L c(L,mu_max) = A : 82 de 82
+     L1  reparto de c(Lambda,mu) sobre TODOS los pares : {-2: 86, -1: 163, 0: 918, 1: 236, 2: 123}
+         (los +-2 son el factor quiral: mu con ultima coordenada no nula cuenta dos veces)
+     L2  numero de Lambda con c != 0 en mu_max : {1: 82}
+     C2  pares (Lambda,mu) con eta supervivientes que CANCELAN a 0 : 918
+
+  t=5 r=2  (41 formas con mu_max unico)
+     C0  control sum_Lambda a_L c(L,mu_max) = A : 41 de 41
+     L1  reparto de c(Lambda,mu) sobre TODOS los pares : {-2: 15, -1: 25, 0: 81, 1: 50, 2: 25}
+         (los +-2 son el factor quiral: mu con ultima coordenada no nula cuenta dos veces)
+     L2  numero de Lambda con c != 0 en mu_max : {1: 41}
+     C2  pares (Lambda,mu) con eta supervivientes que CANCELAN a 0 : 81
+
+  t=3 r=3  (9 formas con mu_max unico)
+     C0  control sum_Lambda a_L c(L,mu_max) = A : 9 de 9
+     L1  reparto de c(Lambda,mu) sobre TODOS los pares : {1: 11, 2: 2}
+         (los +-2 son el factor quiral: mu con ultima coordenada no nula cuenta dos veces)
+     L2  numero de Lambda con c != 0 en mu_max : {1: 9}
+     C2  pares (Lambda,mu) con eta supervivientes que CANCELAN a 0 : 0
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si el reparto de c vive en {0,+-1,+-2} (con el +-2 quiral) y en mu_max hay UN SOLO
+     Lambda con c != 0, la conjetura impar se parte en (L1) representacion y (L2) combinatoria
+     -- y (L1) es demostrable con branching + fusion, sin Littlewood.
+   * si aparece |c| > 2, (L1) es falsa y el impar no se localiza.
+======================================================================================================================
+DONE

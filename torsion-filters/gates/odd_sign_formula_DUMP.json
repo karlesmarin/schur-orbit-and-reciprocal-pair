@@ -1,0 +1,29 @@
+[
+ {
+  "t": 3,
+  "mp": 1,
+  "n": 7,
+  "vivos": 5,
+  "formula_ok": 7,
+  "senuelo_ok": 5,
+  "azar": 3
+ },
+ {
+  "t": 5,
+  "mp": 2,
+  "n": 36,
+  "vivos": 13,
+  "formula_ok": 23,
+  "senuelo_ok": 30,
+  "azar": 6
+ },
+ {
+  "t": 7,
+  "mp": 3,
+  "n": 147,
+  "vivos": 29,
+  "formula_ok": 147,
+  "senuelo_ok": 131,
+  "azar": 18
+ }
+]

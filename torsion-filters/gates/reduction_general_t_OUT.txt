@@ -1,0 +1,23 @@
+field GF(1000000009); guard on t in [4, 6, 8] -> PASS
+K1 acceptance: PASS
+
+==================================================================================================
+IS THE VANISHING STILL A SYSTEM OF INDEPENDENT CONDITIONS AFTER FREEZING?
+==================================================================================================
+
+   t   R free |nu|<=  points  nonzero mu  J2 cells   RANK   rank2   deficit
+  ----------------------------------------------------------------------------------------
+   4   2    1     18     260          80        35     19      19        16   <-- DEPENDENCY DEFICIT
+   4   3    2     18     260         251       181    100     100        81   <-- DEPENDENCY DEFICIT
+   6   3    1     18     260         150        31     19      19        12   <-- DEPENDENCY DEFICIT
+   6   4    2     12     260         125        66     49      49        17   <-- DEPENDENCY DEFICIT
+   8   4    1     12     260          68        17     13      13         4   <-- DEPENDENCY DEFICIT
+   8   5    2     12     260         137        61     49      49        12   <-- DEPENDENCY DEFICIT
+
+  K3: 'deficit' = cells minus rank.  Zero means the distinct J2-cells are linearly
+      INDEPENDENT, and then Phi_t = 0 is equivalent to one linear condition per cell --
+      the general-t form of (eq:Cmu).  A positive deficit means the freezing collapses
+      even further than J2 records, and the converse needs those extra relations too.
+  K4: 'rank2' is the same rank on an independent set of points; it must agree.
+
+DONE

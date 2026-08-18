@@ -1,0 +1,17 @@
+ACCEPTANCE: beta=[12, 10, 8, 4, 3, 2, 1, 0]  terms=8 (want 8)  eps=-1 (want -1)  ->  PASS
+
+==============================================================================
+Pairwise cancellation against the parity of r,  t = 4
+==============================================================================
+
+  r  N  |lam|<=  shapes  zeros   eps=-1  eps=+1  eps=0   pairwise ones
+  ------------------------------------------------------------------------
+  2  8      24    4295     30        3      15     12              3
+  3 10      20    2387      6        0       6      0              6
+
+  'pairwise ones' counts the zeros whose reflection cancels TERM BY TERM:
+     r even needs eps = -1 because A(C-T) = +A(T);
+     r odd  needs eps = +1 because A(C-T) = -A(T).
+  The prediction is that this column is small for r=2 and large for r=3.
+
+DONE

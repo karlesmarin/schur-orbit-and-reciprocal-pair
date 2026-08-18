@@ -1,0 +1,47 @@
+============================================================================================
+THE CLOSED FORM FOR q,  fitted over EVERY concentric shape (not only the zeros),  t = 4
+============================================================================================
+
+  r=1  N= 6  |lam|<=44 :    6486 concentric shapes   [1.0s]
+  r=2  N= 8  |lam|<=40 :    1744 concentric shapes   [1.5s]
+  r=3  N=10  |lam|<=34 :     273 concentric shapes   [0.9s]
+  r=4  N=12  |lam|<=26 :      54 concentric shapes   [0.3s]
+  r=5  N=14  |lam|<=22 :      20 concentric shapes   [0.1s]
+
+  candidate                        agrees with the measured q
+  ------------------------------------------------------------------
+  (-1)^binom(s,2)                     8577 / 8577      <-- EXACT
+  (-1)^s            [K4 decoy]        5496 / 8577    
+  (-1)^(s//2)                         8577 / 8577      <-- EXACT
+  (-1)^k                              5496 / 8577    
+  (-1)^binom(m,2)                     4721 / 8577    
+  (-1)^pairs                          2309 / 8577    
+  (-1)^(binom(s,2)+pairs)             3032 / 8577    
+
+  K2  cells of s carrying both signs of q (any is fatal to the fit):
+      s=0  ->  q in [1]        (5496 shapes)
+      s=1  ->  q in [1]        (2194 shapes)
+      s=2  ->  q in [-1]       (887 shapes)
+      mixed cells: 0
+
+  q by r, to show the closed form does not depend on r:
+      r=1  (-1)^binom(s,2) agrees  6486 / 6486 
+      r=2  (-1)^binom(s,2) agrees  1744 / 1744 
+      r=3  (-1)^binom(s,2) agrees   273 / 273  
+      r=4  (-1)^binom(s,2) agrees    54 / 54   
+      r=5  (-1)^binom(s,2) agrees    20 / 20   
+
+============================================================================================
+THE CRITERION AT t = 6,  determinants included -- the first alphabet that is not t = 4
+============================================================================================
+
+   t   r   N |lam|<=  shapes  concentric  ZEROS   q=-1&0  q=-1&!0  q=+1&0  q=+1&!0  fit
+  ----------------------------------------------------------------------------------------
+   6   1   8     26     2432        1298     79      79        0       0     1219  1298/1298  [0s]
+   6   2  10     22     2767         232     19      19        0       0      213  232/232  [0s]
+   6   3  12     18     1448          52      9       9        0       0       43  52/52  [0s]
+
+  the last two columns before 'fit' are the failing cells: 'q=-1 and does not vanish'
+  and 'q=+1 and vanishes'.  Both must be 0 for the biconditional to hold at t = 6.
+
+DONE

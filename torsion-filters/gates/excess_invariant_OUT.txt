@@ -1,0 +1,26 @@
+==============================================================================
+Grading candidate data against the true fibres
+==============================================================================
+
+  r = 1,  N = 4,  excess = 2,  |lambda| <= 16
+    321 nonzero shapes, 58 distinct values up to sign
+    datum                                              conflicts  classes
+    ----------------------------------------------------------------------
+    CONTROL: multiset {d1,d2,d3} (the paper's)                 0       58  <-- exact
+    multiset of gaps, all classes                             23       45
+    + |cross|                                                  0      185  (too fine by 127)
+    multiset of gaps, EXCESS classes only, + |cross|           0      185  (too fine by 127)
+    multiset of quotient components, excess classes           65      123
+    multiset of quotient components, all classes              65      187
+
+  r = 2,  N = 6,  excess = 4,  |lambda| <= 14
+    383 nonzero shapes, 213 distinct values up to sign
+    datum                                              conflicts  classes
+    ----------------------------------------------------------------------
+    multiset of gaps, all classes                             96      139
+    + |cross|                                                  8      338
+    multiset of gaps, EXCESS classes only, + |cross|           8      338
+    multiset of quotient components, excess classes          130      215
+    multiset of quotient components, all classes             130      229
+
+DONE

@@ -1,0 +1,15 @@
+==============================================================================================================
+sigma CORREGIDA: refleja SOLO las clases de exceso; las singleton estan forzadas y no se tocan.
+Poblacion: beta con S C-simetrico.  Se separa por si hay incremento = C, que es la otra mitad
+del criterio, para ver QUE hace exactamente esa condicion.
+==============================================================================================================
+           |------------- CON incremento = C -------------|------ SIN incremento = C ------|
+  t  r      n   sigma ok  grado ok   w=-w   sin fijos  Phi=0 |    n   sigma ok  sin fijos  Phi=0
+   4  2     36       36        36     36         36     36 |  330       330          0      0
+   6  2     33       33        33     33         33     33 |  366       366          0      0
+   8  2      0        0         0      0          0      0 |  248       248          0      0
+   4  3      5        5         5      5          5      5 |   31        31          0      0
+   6  3      1        1         1      1          1      1 |   13        13          0      0
+   2  2     30       30        30     30         30     30 |   61        61          0      0
+   2  3     15       15        15     15         15     15 |   43        43          0      0
+   2  4      6        6         6      6          6      6 |   21        21          0      0

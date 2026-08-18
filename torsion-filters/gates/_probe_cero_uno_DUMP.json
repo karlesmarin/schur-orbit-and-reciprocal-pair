@@ -1,0 +1,95 @@
+{
+ "Z1": [
+  369,
+  369
+ ],
+ "Z3_senuelo": [
+  53,
+  66
+ ],
+ "por_caso": [
+  {
+   "t": 3,
+   "r": 2,
+   "cota": 6,
+   "clases": 16,
+   "cero_uno": 16
+  },
+  {
+   "t": 5,
+   "r": 2,
+   "cota": 4,
+   "clases": 22,
+   "cero_uno": 22
+  },
+  {
+   "t": 7,
+   "r": 2,
+   "cota": 3,
+   "clases": 18,
+   "cero_uno": 18
+  },
+  {
+   "t": 3,
+   "r": 3,
+   "cota": 4,
+   "clases": 49,
+   "cero_uno": 49
+  },
+  {
+   "t": 3,
+   "r": 2,
+   "cota": 12,
+   "clases": 17,
+   "cero_uno": 17
+  },
+  {
+   "t": 5,
+   "r": 2,
+   "cota": 7,
+   "clases": 31,
+   "cero_uno": 31
+  },
+  {
+   "t": 7,
+   "r": 2,
+   "cota": 5,
+   "clases": 23,
+   "cero_uno": 23
+  },
+  {
+   "t": 9,
+   "r": 2,
+   "cota": 3,
+   "saltado": "R' > 5, canonizar es caro"
+  },
+  {
+   "t": 11,
+   "r": 2,
+   "cota": 2,
+   "saltado": "R' > 5, canonizar es caro"
+  },
+  {
+   "t": 3,
+   "r": 3,
+   "cota": 6,
+   "clases": 69,
+   "cero_uno": 69
+  },
+  {
+   "t": 5,
+   "r": 3,
+   "cota": 3,
+   "clases": 36,
+   "cero_uno": 36
+  },
+  {
+   "t": 3,
+   "r": 4,
+   "cota": 3,
+   "clases": 88,
+   "cero_uno": 88
+  }
+ ],
+ "malos": []
+}

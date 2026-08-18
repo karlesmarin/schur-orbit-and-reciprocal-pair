@@ -1,0 +1,52 @@
+==============================================================================================
+IS THE CRITERION BRANCH (b) IN DISGUISE?   table: criterion x self-complementary odd width
+==============================================================================================
+
+   t   r   N |lam|<=  shapes  ZEROS   crit&SC  crit&!SC  !crit&SC  singleton-class zeros
+  ------------------------------------------------------------------------------------------
+   2   1   4     30     2475     70       70         0         0          0
+   2   2   6     26     4519     32       32         0         0          0
+   2   3   8     22     3262     21       21         0         0          0
+   2   4  10     20     2430      7        7         0         0          0
+   4   1   6     34     8022    224       35       189         0        224
+   4   2   8     30    12860     63       29        34         0         41
+   4   3  10     26     9024     21       20         1         0          1
+   4   4  12     22     4216      7        7         0         0          0
+   6   2  10     22     2767     19        4        15         0         19
+   6   3  12     18     1448      9        6         3         0          5
+   8   2  12     20     1550      5        0         5         0          5
+
+  'crit&!SC' is the column that decides.  If it is 0 everywhere for r >= 2, the interior
+  locus is exactly branch (b) and the criterion adds nothing there but the converse.
+  '!crit&SC' must be 0: branch (b) is PROVED sufficient, so a self-complementary shape of
+  odd width that the criterion misses would refute the criterion, not the branch.
+
+  every zero that is NOT self-complementary of odd width, by hand (247 of them):
+    t=4 r=1  lam=[3, 2]                     beta=[8, 6, 3, 2, 1, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[4, 3]                     beta=[9, 7, 3, 2, 1, 0]  sizes=[1, 1, 2, 2]  C=10
+    t=4 r=1  lam=[4, 3, 3, 1]               beta=[9, 7, 6, 3, 1, 0]  sizes=[1, 1, 2, 2]  C=10
+    t=4 r=1  lam=[4, 3, 1, 1, 1, 1]         beta=[9, 7, 4, 3, 2, 1]  sizes=[1, 1, 2, 2]  C=10
+    t=4 r=1  lam=[7, 6]                     beta=[12, 10, 3, 2, 1, 0]  sizes=[1, 1, 2, 2]  C=12
+    t=4 r=1  lam=[6, 4, 3]                  beta=[11, 8, 6, 2, 1, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[5, 4, 1, 1, 1, 1]         beta=[10, 8, 4, 3, 2, 1]  sizes=[1, 1, 2, 2]  C=12
+    t=4 r=1  lam=[4, 4, 3, 1, 1]            beta=[9, 8, 6, 3, 2, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[3, 3, 3, 3, 1]            beta=[8, 7, 6, 5, 2, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[8, 7]                     beta=[13, 11, 3, 2, 1, 0]  sizes=[1, 1, 2, 2]  C=14
+    t=4 r=1  lam=[6, 5, 2, 1, 1]            beta=[11, 9, 5, 3, 2, 0]  sizes=[1, 1, 2, 2]  C=14
+    t=4 r=1  lam=[10, 4, 3]                 beta=[15, 8, 6, 2, 1, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[8, 4, 3, 1, 1]            beta=[13, 8, 6, 3, 2, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[7, 6, 4]                  beta=[12, 10, 7, 2, 1, 0]  sizes=[1, 1, 2, 2]  C=12
+    t=4 r=1  lam=[7, 6, 2, 1, 1]            beta=[12, 10, 5, 3, 2, 0]  sizes=[1, 1, 2, 2]  C=12
+    t=4 r=1  lam=[6, 4, 3, 3, 1]            beta=[11, 8, 6, 5, 2, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[5, 4, 4, 2, 1, 1]         beta=[10, 8, 7, 4, 2, 1]  sizes=[1, 1, 2, 2]  C=12
+    t=4 r=1  lam=[5, 4, 2, 2, 2, 2]         beta=[10, 8, 5, 4, 3, 2]  sizes=[1, 1, 2, 2]  C=12
+    t=4 r=1  lam=[4, 4, 4, 4, 1]            beta=[9, 8, 7, 6, 2, 0]  sizes=[1, 1, 2, 2]  C=8
+    t=4 r=1  lam=[9, 5, 4, 1]               beta=[14, 9, 7, 3, 1, 0]  sizes=[1, 1, 2, 2]  C=10
+    t=4 r=1  lam=[8, 7, 3, 1]               beta=[13, 11, 6, 3, 1, 0]  sizes=[1, 1, 2, 2]  C=14
+    t=4 r=1  lam=[8, 7, 1, 1, 1, 1]         beta=[13, 11, 4, 3, 2, 1]  sizes=[1, 1, 2, 2]  C=14
+    t=4 r=1  lam=[7, 5, 4, 1, 1, 1]         beta=[12, 9, 7, 3, 2, 1]  sizes=[1, 1, 2, 2]  C=10
+    t=4 r=1  lam=[6, 5, 3, 3, 2]            beta=[11, 9, 6, 5, 3, 0]  sizes=[1, 1, 2, 2]  C=14
+    t=4 r=1  lam=[6, 5, 2, 2, 2, 2]         beta=[11, 9, 5, 4, 3, 2]  sizes=[1, 1, 2, 2]  C=14
+    ... and 222 more
+
+DONE

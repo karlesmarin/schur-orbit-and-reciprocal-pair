@@ -1,0 +1,117 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal
+====================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+  C0b  testigo (18, 17, 11, 8, 7, 6, 1, 0)            prof 6/6  ok
+  C0b  testigo (38, 23, 21, 18, 17, 16, 15, 0)        prof 16/16  ok
+
+  C0 PASA
+
+====================================================================================================================
+N1  LA TORRE, entera.  Z = Phi == 0 ;  T = solo [Phi]_top == 0 ;  |n| = tamaño del espectro
+====================================================================================================================
+
+  t=4 r=2
+     (18, 17, 11, 8, 7, 6, 1, 0)                    sat=4     banda+2s=4     r2:|27|T r1:|4|Z
+     (18, 17, 12, 11, 10, 7, 1, 0)                  sat=4     banda+2s=4     r2:|27|T r1:|4|Z
+     (18, 13, 11, 8, 7, 6, 5, 0)                    sat=4     banda+2s=4     r2:|23|T r1:|4|Z
+     (18, 13, 12, 11, 10, 7, 5, 0)                  sat=4     banda+2s=4     r2:|23|T r1:|4|Z
+
+  t=6 r=3
+     (16, 15, 14, 13, 11, 6, 5, 4, 3, 2, 1, 0)      sat=24    banda+2s=24    r3:|40|T r2:|24|Z r1:|4|Z
+     (16, 15, 14, 13, 12, 11, 10, 5, 3, 2, 1, 0)    sat=24    banda+2s=24    r3:|40|T r2:|24|Z r1:|4|Z
+     (18, 17, 16, 15, 14, 7, 5, 4, 3, 2, 1, 0)      sat=2     banda+2s=0     r3:|46|T r2:|None|-
+     (18, 17, 16, 15, 14, 13, 11, 4, 3, 2, 1, 0)    sat=2     banda+2s=0     r3:|46|T r2:|None|-
+
+  t=8 r=3
+     (20, 18, 15, 14, 13, 8, 7, 6, 5, 4, 3, 2, 1, 0) sat=18    banda+2s=18    r3:|43|T r2:|18|Z r1:|None|-
+     (20, 19, 18, 17, 14, 8, 7, 6, 5, 4, 3, 2, 1, 0) sat=24    banda+2s=24    r3:|51|T r2:|24|Z r1:|4|Z
+     (20, 19, 18, 17, 15, 14, 8, 6, 5, 4, 3, 2, 1, 0) sat=24    banda+2s=24    r3:|51|T r2:|24|Z r1:|4|Z
+     (20, 19, 18, 17, 14, 13, 8, 7, 6, 4, 3, 2, 1, 0) sat=24    banda+2s=24    r3:|51|T r2:|24|Z r1:|4|Z
+
+  t=6 r=4
+     (18, 17, 16, 15, 14, 12, 7, 6, 5, 4, 3, 2, 1, 0) sat=2     banda+2s=40    r4:|58|T r3:|40|T r2:|24|Z r1:|4|Z
+     (18, 17, 16, 15, 14, 13, 12, 11, 6, 4, 3, 2, 1, 0) sat=2     banda+2s=40    r4:|58|T r3:|40|T r2:|24|Z r1:|4|Z
+     (20, 19, 18, 17, 16, 15, 8, 6, 5, 4, 3, 2, 1, 0) sat=2     banda+2s=46    r4:|66|T r3:|46|T r2:|None|-
+     (20, 19, 18, 17, 16, 15, 14, 12, 5, 4, 3, 2, 1, 0) sat=2     banda+2s=46    r4:|66|T r3:|46|T r2:|None|-
+
+====================================================================================================================
+N2  ALTURA DE LA BANDERA -- si fuera constante saldria UNA columna; sale un histograma
+====================================================================================================================
+
+     t=4 r=2 ( 64 formas) : (pisos, pisos con Phi == 0) -> {(2, 0): 8, (2, 1): 56}
+     t=6 r=3 ( 12 formas) : (pisos, pisos con Phi == 0) -> {(2, 0): 2, (3, 1): 6, (3, 2): 4}
+     t=8 r=3 ( 90 formas) : (pisos, pisos con Phi == 0) -> {(3, 1): 36, (3, 2): 54}
+     t=6 r=4 ( 14 formas) : (pisos, pisos con Phi == 0) -> {(3, 0): 2, (3, 1): 2, (4, 2): 8, (4, 3): 2}
+
+====================================================================================================================
+N3  LA HIPOTESIS QUE FALTABA -- y cierra la poblacion degenerada de saturation.py
+====================================================================================================================
+
+     primer pelado Z (Phi' == 0) | sat == |banda+2s| |  n
+        SI  | SI  | 164
+        no  | no  | 8
+     desacuerdos: 0  ->  LA HIPOTESIS ES EXACTA
+
+     SEÑUELO: pedir solo [Phi']_top == 0
+        SI  | SI  | 164
+        SI  | no  | 6
+        no  | no  | 2
+     desacuerdos del señuelo: 6  ->  NO separa: la anulacion TOTAL es lo portante, no la del estrato de arriba
+
+====================================================================================================================
+N4  VEREDICTO
+====================================================================================================================
+
+     sat = |banda +2s|  <=>  el primer pelado es TOTALMENTE anulante : 0 desacuerdos en 172 formas
+     el señuelo ([Phi']_top == 0 a secas) falla en 6, luego la Z es portante
+
+     Con esto, la ley de saturacion deja de tener poblacion sin describir: las formas con
+     sat = 2 son exactamente aquellas cuya BANDERA tarda mas de un piso en llegar a Phi == 0.
+
+     LO QUE NO ES: una prueba de que la bandera gobierne prof.  Eso NO esta testado.  Y el
+     alcance sigue siendo el de los barridos, con tope de reloj.
+
+DONE
+========================================================================================================
+¿SE MUEVE ALGO DE conj:gcom CUANDO CANCEL SUBE?
+========================================================================================================
+
+--- t=4 r=2  paso s=26  semilla (18, 17, 11, 8, 7, 6, 1, 0)
+      j |    W | CANCEL |    C |  tau | C==tau | simC | simTau | cero
+      0 |   18 |      2 |   18 |   18 |   True | 0.75 |   0.75 | False
+      1 |   70 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      2 |  122 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      3 |  174 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      4 |  226 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      5 |  278 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      6 |  330 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      7 |  382 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      8 |  434 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      9 |  486 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+     10 |  538 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+    -> CANCEL 2..4 (SE MUEVE).  Quietos: C==tau, simC, simTau, cero
+       VEREDICTO: CANCEL se mueve y NADA de conj:gcom se mueve  ->  poblaciones INDEPENDIENTES
+
+--- t=4 r=2  paso s=28  semilla (18, 17, 11, 8, 7, 6, 1, 0)
+      j |    W | CANCEL |    C |  tau | C==tau | simC | simTau | cero
+      0 |   18 |      2 |   18 |   18 |   True | 0.75 |   0.75 | False
+      1 |   74 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      2 |  130 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      3 |  186 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      4 |  242 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      5 |  298 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      6 |  354 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      7 |  410 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      8 |  466 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+      9 |  522 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+     10 |  578 |      4 |   18 |   18 |   True | 0.75 |   0.75 | False
+    -> CANCEL 2..4 (SE MUEVE).  Quietos: C==tau, simC, simTau, cero
+       VEREDICTO: CANCEL se mueve y NADA de conj:gcom se mueve  ->  poblaciones INDEPENDIENTES
+
+========================================================================================================
+  Si CANCEL sube mientras C, tau, la simetria y la anulacion no se mueven, la saturacion
+  no es parte de la historia de conj:gcom: es otro trabajo.
+========================================================================================================

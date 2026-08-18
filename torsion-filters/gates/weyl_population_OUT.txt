@@ -1,0 +1,23 @@
+======================================================================================================================
+LOS SUPERVIVIENTES EN mu_max COMO ELEMENTOS DEL GRUPO DE WEYL   (t=6, r=2, m=2)
+======================================================================================================================
+  (10, 9, 8, 7, 6, 4, 3, 2, 1, 0)  Phi = 0
+  (11, 9, 8, 7, 6, 5, 3, 2, 1, 0)  Phi = 0
+  (11, 10, 8, 7, 6, 5, 4, 2, 1, 0)  Phi = 0
+  (11, 10, 9, 7, 6, 5, 4, 3, 1, 0)  Phi = 0
+  (11, 10, 9, 8, 6, 5, 4, 3, 2, 0)  Phi = 0
+
+  FORMAS con mu_max unico: 50 | control suma == A: 50 | signos BALANCEADOS: 19
+  reparto (n+, n-): {(0, 1): 5, (1, 0): 26, (1, 1): 19}
+  numero de supervivientes: {1: 31, 2: 19}
+  DESBALANCEADAS (beta, n+, n-, A): [((9, 8, 7, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1), ((10, 8, 7, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1), ((11, 8, 7, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1), ((10, 9, 7, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1), ((11, 9, 7, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1), ((11, 10, 7, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1), ((10, 9, 8, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1), ((11, 9, 8, 6, 5, 4, 3, 2, 1, 0), 1, 0, 1)]
+
+======================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si alguna reflexion preserva el conjunto Y los |c_eta|, esa reflexion ES una involucion
+     que invierte el signo, y la conjetura de la unidad se reduce a contar los puntos fijos.
+   * si preserva el conjunto pero NO los coeficientes, la obstruccion esta localizada en B.
+   * si ninguna lo preserva, el grupo de Weyl no organiza la cancelacion y hay que volver a
+     los atomos.
+======================================================================================================================
+DONE

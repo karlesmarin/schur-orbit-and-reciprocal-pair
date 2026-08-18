@@ -1,0 +1,59 @@
+========================================================================================================
+EL FILTRO CONTRA EL INDICADOR DE FROBENIUS-SCHUR
+========================================================================================================
+
+  nu_2(V_eta) = (-1)^{|eta|} en Sp_{2m};   nu_2 = +1 en SO_{2m'+1}.  Los dos son clasicos.
+
+  F1  rama PAR:  .tau^C_t(eta) == (-1)^{|eta|} sobre el soporte?
+     t | m |  pesos | soporte | F1 acierta | C1 senuelo -(-1)^|eta| | C2 senuelo +1 | |eta| impar en el soporte
+     --------------------------------------------------------------------------------------------------------------------
+      4 | 1 |     25 |      13 |      7     |          6           |        7      | 0
+      6 | 2 |    153 |      36 |     18     |         18           |       18      | 0
+      8 | 3 |    455 |      64 |     32     |         32           |       32      | 0
+     10 | 4 |   1001 |      81 |     41     |         40           |       41      | 0
+     12 | 5 |   1287 |      48 |     24     |         24           |       24      | 0
+
+  F2  rama IMPAR:  .tau^B_t(eta) == +1 sobre el soporte?  (nu_2 = +1 siempre en SO_{2m'+1})
+     t | m'|  pesos | soporte | F2 acierta | tau^B = -1
+     ------------------------------------------------------------
+      3 | 1 |     25 |      17 |      9     |      8
+      5 | 2 |    153 |      49 |     25     |     24
+      7 | 3 |    455 |      80 |     40     |     40
+      9 | 4 |   1001 |      81 |     41     |     40
+     11 | 5 |   1287 |      72 |     36     |     36
+
+  F3  el elemento del indicador FS es rho^v(-1): PRINCIPAL DE ORDEN 2.
+      Nuestro elemento impar es principal de orden t = h+1  (probado, rem:kostant).
+      Nuestro elemento par NO es principal para m>=2        (probado, rem:kostant).
+      Luego FS y tau^B son d=2 y d=t de la MISMA familia chi(rho^v(zeta_d)); tau^C se sale.
+      Aritmetica comprobable: el orden de rho^v(-1) es 2, y t es 4,6,8,... o 3,5,7,...
+        t=4    .es t == 2?  False
+        t=6    .es t == 2?  False
+        t=8    .es t == 2?  False
+        t=3    .es t == 2?  False
+        t=5    .es t == 2?  False
+        t=7    .es t == 2?  False
+
+  F4  SUBPRODUCTO:  .es |eta| siempre PAR sobre el soporte de tau^C?  (y el paso a_j=sigma(j) mod 2)
+     t | soporte | |eta| par | a_j == sigma(j) mod 2 | SENUELO rama impar: |eta| par sobre supp tau^B
+     --------------------------------------------------------------------------------------------------------
+      4 |      13 |      13   |         13          | t= 3: 9 de 17
+      6 |      36 |      36   |         36          | t= 5: 25 de 49
+      8 |      64 |      64   |         64          | t= 7: 40 de 80
+     10 |      81 |      81   |         81          | t= 9: 41 de 81
+     12 |      48 |      48   |         48          | t=11: 40 de 72
+
+  VEREDICTO
+     F1  tau^C == (-1)^{|eta|} en TODO el soporte, en todos los t : False
+     C3  .es vacuo?  (|eta| siempre par en el soporte)            : True
+     F2  tau^B == +1 en TODO el soporte, en todos los t           : False
+     F4  |eta| PAR en todo el soporte de tau^C, y el paso mod 2   : True
+     F4  SENUELO: en la rama impar el enunciado FALLA              : True
+
+  LECTURA: la sospecha de Frobenius-Schur esta MUERTA.  El signo del filtro acierta el
+  indicador en aproximadamente la mitad del soporte y el senuelo opuesto en la otra
+  mitad: eso es una moneda, no una regla.  Y ademas la prueba era casi vacua, porque
+  nu_2 es CONSTANTE sobre el soporte -- que es justo lo que dice F4.
+
+========================================================================================================
+DONE

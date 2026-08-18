@@ -1,0 +1,39 @@
+A2  r=3 |lam|<=20 : shapes=2387(want 2387)  zeros=6(want 6)  Laplace-sum failures=0(want 0)  ->  PASS
+
+==========================================================================================
+WHAT THE REFLECTION ACTUALLY DOES TO A TERM,  t = 4
+==========================================================================================
+
+   r   N  |lam|<=  shapes  concentric  zeros   all pairs cancel   of those, vanish
+  --------------------------------------------------------------------------------------
+   1   6      30     4664        1541    141                141               141
+   2   8      26     6317         307     30                 30                30
+   3  10      34    40736         273     29                 29                29
+   4  12      18     1551          17      7                  7                 7
+
+  CONTROLS (all must be 0):
+    r=1   Laplace sum != det : 0    ratio not +-1 : 0    ratio depends on point : 0
+    r=2   Laplace sum != det : 0    ratio not +-1 : 0    ratio depends on point : 0
+    r=3   Laplace sum != det : 0    ratio not +-1 : 0    ratio depends on point : 0
+    r=4   Laplace sum != det : 0    ratio not +-1 : 0    ratio depends on point : 0
+
+  C2  'all pairs cancel' => 'vanishes'  (any exception kills the picture):
+    r=1   exceptions: 0
+    r=2   exceptions: 0
+    r=3   exceptions: 0
+    r=4   exceptions: 0
+
+  C3  zeros the reflection does NOT explain, per r:
+    r=1   0 of 141 zeros unexplained
+    r=2   0 of 30 zeros unexplained
+    r=3   0 of 29 zeros unexplained
+    r=4   0 of 7 zeros unexplained
+
+  the ratio multiset per r, over ALL concentric shapes -- if the pairing were governed by
+  the parity of r, the r odd rows and the r even rows would look different:
+    r=1  [((1,), 1400), ((-1,), 141)]
+    r=2  [((1,), 277), ((-1,), 30)]
+    r=3  [((1,), 244), ((-1,), 29)]
+    r=4  [((1,), 10), ((-1,), 7)]
+
+DONE

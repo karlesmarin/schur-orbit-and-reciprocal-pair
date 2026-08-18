@@ -1,0 +1,113 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal
+====================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+
+  C0 PASA
+
+====================================================================================================================
+N1  LA CADENA, paso a paso, sobre las formas con [Phi]_top == 0
+====================================================================================================================
+
+     P1  sigma_V(K) = K            (PROBADO el 12; se re-mide por si acaso)
+     P2  min S y max S estan en K  (= H*, la hipotesis aislada hoy por otra via)
+     P3  C = tau                   (lo que se quiere)
+     y la reduccion dice:  P1 y P2  =>  P3, por algebra.
+
+     t   r  | [Phi]_top=0 | e>2  |  P1   |  P2   |  P3   | P1&P2 pero no P3
+  --------------------------------------------------------------------------------------------------------
+     4   2  |         455 |  180 |   455 |   301 |   455 | 0
+     6   2  |         702 |  486 |   702 |   502 |   702 | 0
+     4   3  |         225 |  200 |   225 |   198 |   225 | 0
+     6   3  |         182 |  182 |   182 |   138 |   182 | 0
+     8   2  |         597 |  597 |   597 |   384 |   597 | 0
+     8   3  |         105 |  105 |   105 |    80 |   105 | 0
+    10   2  |         256 |  256 |   256 |     0 |   256 | 0
+
+     contingencia global (P1, P2, P3): {(True, True, True): 1603, (True, False, True): 919}
+     formas con P1 y P2 y SIN P3 : 0   <-- la reduccion aguanta
+
+====================================================================================================================
+N2  H*  =>  C = tau,  con la libreria de controles (avisa si la tabla no puede fallar)
+====================================================================================================================
+
+     habitantes del antecedente 'H* (extremos de S en K)': 1603
+     H* (extremos de S en K) => C == tau : SI  (0 fallos sobre 1603 habitantes, 2522 formas en total)
+     *** AVISO: la prediccion 'C == tau' se cumple SIEMPRE: el control no puede refutar
+
+     H* (extremos de S en K)            | C == tau                           |   n
+     ------------------------------------------------------------------------------
+        SI                              | SI                                 |   1603   ej: (10, 9, 7, 4, 3, 2, 1, 0)
+        no                              | SI                                 |    919   ej: (8, 7, 6, 5, 3, 2, 1, 0)
+     desacuerdos: 919 de 2522
+     *** AVISO: la prediccion 'C == tau' se cumple SIEMPRE: el control no puede refutar
+     veredicto: SIN VALOR -- el control no podia fallar.  Arreglalo antes de leerlo.
+
+====================================================================================================================
+N3  SEÑUELOS -- y el primero mide si el atajo era NECESARIO
+====================================================================================================================
+
+  (a) sigma_V(g_com) = g_com : es lo que el .tex decia que haria falta.  Si NO se cumple
+      siempre y aun asi C = tau, el atajo por los extremos no es un adorno: es lo que salva
+      el caso e > 2.
+     sigma_V(g_com) = g_com             | C == tau                           |   n
+     ------------------------------------------------------------------------------
+        SI                              | SI                                 |   1766   ej: (8, 7, 6, 5, 3, 2, 1, 0)
+        no                              | SI                                 |    756   ej: (10, 9, 7, 4, 3, 2, 1, 0)
+     desacuerdos: 756 de 2522
+     *** AVISO: la prediccion 'C == tau' se cumple SIEMPRE: el control no puede refutar
+     veredicto: SIN VALOR -- el control no podia fallar.  Arreglalo antes de leerlo.
+
+  (b) e == 2 : el caso que cor:ii YA cubre.  El denominador dice cuanto aporta lo nuevo.
+     e == 2 (el caso ya cubierto)       | C == tau                           |   n
+     ------------------------------------------------------------------------------
+        SI                              | SI                                 |    516   ej: (12, 10, 8, 4, 3, 2, 1, 0)
+        no                              | SI                                 |   2006   ej: (8, 7, 6, 5, 3, 2, 1, 0)
+     desacuerdos: 2006 de 2522
+     *** AVISO: la prediccion 'C == tau' se cumple SIEMPRE: el control no puede refutar
+     veredicto: SIN VALOR -- el control no podia fallar.  Arreglalo antes de leerlo.
+
+====================================================================================================================
+N4  VEREDICTO
+====================================================================================================================
+
+     formas con [Phi]_top == 0 : 2522,  de ellas con e > 2 : 2006  (el caso que cor:ii NO cubre)
+     H* (extremos en K)        : 1603 de 2522
+     C == tau                  : 2522 de 2522
+     P1 y P2 sin P3            : 0   
+
+     LA REDUCCION AGUANTA, pero H* FALLA en 919 formas: hay que mirar QUE pasa alli, porque
+     C = tau se cumple igual (2522 de 2522): hay una segunda razon, y N5 la busca.
+
+====================================================================================================================
+N5  LA FORMULACION GENERAL -- los dos RECORTES, que contiene a H* como caso 0 = 0
+====================================================================================================================
+
+     sigma_V(K) = K vale SIEMPRE (P1), luego min K + max K = V.  Con K subconjunto de S:
+         C = tau   <=>   (max S - max K)  ==  (min K - min S)
+     o sea: el recorte de arriba y el de abajo se COMPENSAN.  H* es el caso 0 = 0.
+
+     histograma de (recorte arriba, recorte abajo), los 12 mas frecuentes:
+        (0, 0)       :  1603   <-- H*
+        (1, 1)       :   327
+        (2, 2)       :   310
+        (3, 3)       :   174
+        (4, 4)       :    81
+        (5, 5)       :    25
+        (7, 7)       :     2
+     pares con recorte arriba != recorte abajo : 0 de 2522
+
+     recorte arriba == recorte abajo    | C == tau                           |   n
+     ------------------------------------------------------------------------------
+        SI                              | SI                                 |   2522   ej: (8, 7, 6, 5, 3, 2, 1, 0)
+     desacuerdos: 0 de 2522
+     *** AVISO: la hipotesis 'recorte arriba == recorte abajo' se cumple SIEMPRE (2522 formas): no discrimina nada
+     *** AVISO: la prediccion 'C == tau' se cumple SIEMPRE: el control no puede refutar
+     *** AVISO: CONTRAFACTUAL VACIO: no hay ni una forma con hipotesis falsa Y prediccion falsa, asi que '0 desacuerdos' no distingue esta hipotesis de una tautologia
+     veredicto: SIN VALOR -- el control no podia fallar.  Arreglalo antes de leerlo.
+
+     ALCANCE: barrido con tope de reloj (W <= 20, 20, 18, 18, 20, 19, 20).  Todo enunciado de aqui es MEDIDO.
+
+DONE

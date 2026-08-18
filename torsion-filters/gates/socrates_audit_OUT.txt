@@ -1,0 +1,42 @@
+========================================================================================================
+PAPER II: IDENTIDADES CICLOTOMICAS, POR REDUCCION EXACTA -- Y QUE DIJO SOCRATES
+========================================================================================================
+
+  identidad                                              exacto     Socrates     donde
+  ----------------------------------------------------------------------------------------------------
+  ok  epsdet t=3: prod_{k<t}(1-w^k z) = 1-z^t              0          no trivial   lem:epsdet
+  ok  epsdet t=4: prod_{k<t}(1-w^k z) = 1-z^t              0          TRIVIAL      lem:epsdet
+  ok  epsdet t=5: prod_{k<t}(1-w^k z) = 1-z^t              0          no trivial   lem:epsdet
+  ok  epsdet t=7: prod_{k<t}(1-w^k z) = 1-z^t              0          no trivial   lem:epsdet
+  ok  epsdet t=8: prod_{k<t}(1-w^k z) = 1-z^t              0          TRIVIAL      lem:epsdet
+  ok  SEÑUELO epsdet t=4 con 1-z^5                         no 0       no trivial   lem:epsdet
+  ok  crossden t=3: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t   0          no trivial   prop:crossden
+  ok  crossden t=5: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t   0          no trivial   prop:crossden
+  ok  crossden t=7: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t   0          no trivial   prop:crossden
+  ok  crossden t=9: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t   0          no trivial   prop:crossden
+  ok  SEÑUELO crossden t=5 sin el factor (1-z)             no 0       no trivial   prop:crossden
+  ok  even t=4: prod = (1-z^t)/((1-z)(1+z))                0          TRIVIAL      prop:eventransversal(i)
+  ok  even t=6: prod = (1-z^t)/((1-z)(1+z))                0          no trivial   prop:eventransversal(i)
+  ok  even t=8: prod = (1-z^t)/((1-z)(1+z))                0          TRIVIAL      prop:eventransversal(i)
+  ok  even t=10: prod = (1-z^t)/((1-z)(1+z))               0          no trivial   prop:eventransversal(i)
+  ok  SEÑUELO even t=6 con el denominador impar            no 0       no trivial   prop:eventransversal(i)
+
+--------------------------------------------------------------------------------------------------------
+  T1/T2  reduccion exacta, aciertos : 16 de 16
+  T3     casos donde Socrates discrepa de la verdad : 9 de 16
+         epsdet t=3: prod_{k<t}(1-w^k z) = 1-z^t                dijo no trivial
+         epsdet t=5: prod_{k<t}(1-w^k z) = 1-z^t                dijo no trivial
+         epsdet t=7: prod_{k<t}(1-w^k z) = 1-z^t                dijo no trivial
+         crossden t=3: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t     dijo no trivial
+         crossden t=5: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t     dijo no trivial
+         crossden t=7: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t     dijo no trivial
+         crossden t=9: (1-z)prod(1-w^i z)(1-w^-i z) = 1-z^t     dijo no trivial
+         even t=6: prod = (1-z^t)/((1-z)(1+z))                  dijo no trivial
+         even t=10: prod = (1-z^t)/((1-z)(1+z))                 dijo no trivial
+
+  LECTURA. La reduccion ciclotomica decide sin heuristica y acierta en todos.  Socrates falla
+  exactamente donde su simplify no cierra la raiz: el arreglo para el tool no es un simplify
+  mas agresivo, es reducir modulo Phi_t antes de preguntar.
+
+========================================================================================================
+DONE

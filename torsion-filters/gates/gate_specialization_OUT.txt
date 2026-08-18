@@ -1,0 +1,72 @@
+============================================================================================
+P1  mu_t = {1,-1} u (t-2)/2 reciprocal pairs, and the two evaluations agree
+============================================================================================
+  t= 2 : mu_t rebuilt from {1,-1} and 0 pairs -> SAME SET
+  t= 4 : mu_t rebuilt from {1,-1} and 1 pairs -> SAME SET
+  t= 6 : mu_t rebuilt from {1,-1} and 2 pairs -> SAME SET
+  t= 8 : mu_t rebuilt from {1,-1} and 3 pairs -> SAME SET
+  t=10 : mu_t rebuilt from {1,-1} and 4 pairs -> SAME SET
+
+  the evaluation identity Phi_t(z) = Psi_R(z, zeta, .., zeta^{t/2-1}), on 200 shapes each:
+    t=4 r=2 N= 8 : 200 / 200 shapes agree
+    t=6 r=2 N=10 : 200 / 200 shapes agree
+    t=8 r=1 N=10 : 200 / 200 shapes agree
+
+============================================================================================
+P2  at fixed N the zero sets must be NESTED INCREASING in t
+============================================================================================
+
+  N = 10,  |lambda| <= 26
+     t   r   zeros   new vs previous t   LOST (must be 0)   all-classes-occupied shapes
+    ------------------------------------------------------------------------------------
+     2   4      28                   -                  -           9294
+     4   3     291                 263                  0           9024
+     6   2    3060                2952                183           6269
+        LOST at t=6 (was a zero at t=4): lam=[3, 2, 2, 2, 1, 1, 1]
+        LOST at t=6 (was a zero at t=4): lam=[3, 3, 3, 2, 2, 2, 1, 1, 1]
+        LOST at t=6 (was a zero at t=4): lam=[4, 2, 2, 2, 1, 1, 1]
+        LOST at t=6 (was a zero at t=4): lam=[4, 3, 2, 2, 2, 1, 1, 1]
+     8   1    7408                4976                628           1914
+        LOST at t=8 (was a zero at t=6): lam=[2, 2, 1, 1, 1, 1, 1]
+        LOST at t=8 (was a zero at t=6): lam=[2, 2, 2, 1, 1, 1, 1, 1]
+        LOST at t=8 (was a zero at t=6): lam=[3, 1, 1, 1, 1, 1]
+        LOST at t=8 (was a zero at t=6): lam=[3, 2, 2, 1, 1, 1, 1, 1]
+
+  N = 12,  |lambda| <= 22
+     t   r   zeros   new vs previous t   LOST (must be 0)   all-classes-occupied shapes
+    ------------------------------------------------------------------------------------
+     2   5       8                   -                  -           4224
+     4   4      15                   7                  0           4216
+     6   3     394                 386                  7           3839
+        LOST at t=6 (was a zero at t=4): lam=[4, 3, 3, 3, 2, 2, 2, 1, 1, 1]
+        LOST at t=6 (was a zero at t=4): lam=[5, 3, 3, 2, 2, 2, 1, 1, 1]
+        LOST at t=6 (was a zero at t=4): lam=[5, 4, 3, 2, 2, 2, 1, 1, 1]
+        LOST at t=6 (was a zero at t=4): lam=[5, 4, 4, 2, 2, 2, 1, 1, 1]
+     8   2    1839                1660                215           2403
+        LOST at t=8 (was a zero at t=6): lam=[2, 2, 1, 1, 1, 1, 1]
+        LOST at t=8 (was a zero at t=6): lam=[2, 2, 2, 1, 1, 1, 1, 1]
+        LOST at t=8 (was a zero at t=6): lam=[2, 2, 2, 2, 1, 1, 1, 1, 1]
+        LOST at t=8 (was a zero at t=6): lam=[2, 2, 2, 2, 2, 1, 1, 1, 1, 1]
+    10   1    3539                1957                257            690
+        LOST at t=10 (was a zero at t=8): lam=[2, 2, 1, 1, 1, 1, 1, 1, 1]
+        LOST at t=10 (was a zero at t=8): lam=[2, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+        LOST at t=10 (was a zero at t=8): lam=[3, 1, 1, 1, 1, 1, 1, 1]
+        LOST at t=10 (was a zero at t=8): lam=[3, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+
+============================================================================================
+P3  for t odd  prod(mu_t) = +1, the element is in SO(N), and the second branch cannot exist
+============================================================================================
+
+     t   prod(mu_t)   component     r   N  |lam|<=  shapes  ZEROS (all classes occupied)
+    ----------------------------------------------------------------------------------
+     3           +1   SO(N)         2   7      24     3935      0
+     5           +1   SO(N)         2   9      20     1855      0
+     7           -1   O(N) minus    2  11      18     1044      0
+     4           -1   O(N) minus    2   8      24     4295     30
+     6           -1   O(N) minus    2  10      20     1778     12
+
+  The odd rows must show 0 zeros and the even rows must not.  That is the det-twist
+  argument of Section 9 of the paper, now as the reason the interior has one branch
+  for even t and none for odd t.
+
+DONE

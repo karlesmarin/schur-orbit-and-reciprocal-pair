@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "/work/npp_witness.sage.py", line 125, in <module>
+======================================================================================================================
+EL TESTIGO MINIMO DE QUE LA DICOTOMIA DE CENTRALIZADORES NO DECIDE FUERA DEL PRINCIPAL
+======================================================================================================================
+
+  t=6  C_2  h=4 :  eta probados 49 | R1 == R2 en 49 | TESTIGOS (centralizador toro y tau=0): 12
+     el minimo:  eta=(1, 0)   a = eta+rho = [3, 1]   a mod 6 = [3, 1]
+     tau por Freudenthal = 0 | por bialternante = 0
+     ninguna coraiz cumple 6 | <a, alpha^v>, y sin embargo el caracter se anula.
+     la pared que lo mata es  2*a_i = 0 (mod 6), o sea a_i = 3 : [3]
+     los 6 primeros testigos: [(1, 0), (1, 1), (2, 2), (3, 2), (7, 0), (5, 2)]
+
+  t=8  C_3  h=6 :  eta probados 204 | R1 == R2 en 204 | TESTIGOS (centralizador toro y tau=0): 39
+     el minimo:  eta=(1, 0, 0)   a = eta+rho = [4, 2, 1]   a mod 8 = [4, 2, 1]
+     tau por Freudenthal = 0 | por bialternante = 0
+     ninguna coraiz cumple 8 | <a, alpha^v>, y sin embargo el caracter se anula.
+     la pared que lo mata es  2*a_i = 0 (mod 8), o sea a_i = 4 : [4]
+     los 6 primeros testigos: [(1, 0, 0), (1, 1, 0), (1, 1, 1), (2, 2, 0), (3, 2, 0), (2, 2, 1)]
+
+======================================================================================================================
+  CONTROL C0: un eta que SI sobrevive, por las tres rutas, en t=6
+    eta=(2,0):  a = (4,1),  a mod 6 = (4,1)  -> ninguna pared  ->  tau = -1
+    json.dump(RES, open("npp_witness_DUMP.json", "w"), indent=_sage_const_1 )
+  File "/usr/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.12/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.12/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

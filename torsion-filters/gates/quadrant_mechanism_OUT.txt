@@ -1,0 +1,38 @@
+==============================================================================
+The Laplace decomposition of the vanishing, t = 4, r = 2, |lambda| <= 24
+==============================================================================
+
+  concentric shapes: 665, of which the signed sum vanishes: 30
+  CONTROL: the decomposition is the value up to a constant, so these counts must match
+           the earlier sweep at the same range.
+
+  VANISHING: 30 shapes
+    self-complementary                      : 13
+    term set closed under T -> C - T        : 30
+    ... and every matched pair opposite sign: 30
+
+  NOT vanishing: 635 shapes
+    self-complementary                      : 0
+    term set closed under T -> C - T        : 0
+    ... and every matched pair opposite sign: 0
+
+  the non-self-complementary zeros, with their term count:
+    lam=[5, 4, 3]                beta=[12, 10, 8, 4, 3, 2, 1, 0]     terms=8    centres=[12] closed=yes
+    lam=[6, 5, 4, 1]             beta=[13, 11, 9, 5, 3, 2, 1, 0]     terms=8    centres=[14] closed=yes
+    lam=[5, 4, 3, 3, 1]          beta=[12, 10, 8, 7, 4, 2, 1, 0]     terms=8    centres=[12] closed=yes
+    lam=[5, 4, 3, 1, 1, 1, 1]    beta=[12, 10, 8, 5, 4, 3, 2, 0]     terms=8    centres=[12] closed=yes
+    lam=[6, 5, 4, 2, 2, 1]       beta=[13, 11, 9, 6, 5, 3, 1, 0]     terms=8    centres=[14] closed=yes
+    lam=[6, 5, 4, 1, 1, 1, 1, 1] beta=[13, 11, 9, 5, 4, 3, 2, 1]     terms=8    centres=[14] closed=yes
+    lam=[9, 8, 7]                beta=[16, 14, 12, 4, 3, 2, 1, 0]    terms=8    centres=[16] closed=yes
+    lam=[9, 8, 5, 2]             beta=[16, 14, 10, 6, 3, 2, 1, 0]    terms=8    centres=[16] closed=yes
+    lam=[9, 6, 5, 2, 1, 1]       beta=[16, 12, 10, 6, 4, 3, 1, 0]    terms=8    centres=[16] closed=yes
+    lam=[8, 6, 5, 4, 1]          beta=[15, 12, 10, 8, 4, 2, 1, 0]    terms=8    centres=[12] closed=yes
+    lam=[7, 6, 5, 2, 1, 1, 1, 1] beta=[14, 12, 10, 6, 4, 3, 2, 1]    terms=8    centres=[16] closed=yes
+    lam=[6, 6, 5, 4, 1, 1, 1]    beta=[13, 12, 10, 8, 4, 3, 2, 0]    terms=8    centres=[12] closed=yes
+    lam=[6, 5, 5, 5, 2, 1]       beta=[13, 11, 10, 9, 5, 3, 1, 0]    terms=8    centres=[14] closed=yes
+    lam=[6, 5, 4, 4, 2, 1, 1, 1] beta=[13, 11, 9, 8, 5, 3, 2, 1]     terms=8    centres=[14] closed=yes
+    lam=[6, 5, 4, 2, 2, 2, 2, 1] beta=[13, 11, 9, 6, 5, 4, 3, 1]     terms=8    centres=[14] closed=yes
+    lam=[5, 5, 5, 4, 2, 2, 1]    beta=[12, 11, 10, 8, 5, 4, 2, 0]    terms=8    centres=[12] closed=yes
+    lam=[5, 4, 4, 4, 4, 2, 1]    beta=[12, 10, 9, 8, 7, 4, 2, 0]     terms=8    centres=[12] closed=yes
+
+DONE

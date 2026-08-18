@@ -1,0 +1,48 @@
+================================================================================================================
+E6: LA IDENTIDAD GKRS PAR, COMPLETA
+================================================================================================================
+
+  t=4 r=2 (m=1 R=3)  56 pesos  (4 con c y nu vacios)
+     E6  ( sum c A_mu ) . Delta^par == +- nu   :  56 de  56   <== FATAL
+     E6b signo global                          : {1: 52}
+     D1  SENUELO denominador del impar         :   0 de  52  (debe ser 0)
+     D2  SENUELO exponentes de t+2             :   0 de  52  (debe ser 0)
+     D3  SENUELO enderezar por W(D_r)          :   4 de  52  (debe ser 0)
+
+  t=6 r=2 (m=2 R=4)  70 pesos  (10 con c y nu vacios)
+     E6  ( sum c A_mu ) . Delta^par == +- nu   :  70 de  70   <== FATAL
+     E6b signo global                          : {1: 60}
+     D1  SENUELO denominador del impar         :   0 de  60  (debe ser 0)
+     D2  SENUELO exponentes de t+2             :   0 de  60  (debe ser 0)
+     D3  SENUELO enderezar por W(D_r)          :   1 de  60  (debe ser 0)
+
+  t=8 r=2 (m=3 R=5)  56 pesos  (18 con c y nu vacios)
+     E6  ( sum c A_mu ) . Delta^par == +- nu   :  56 de  56   <== FATAL
+     E6b signo global                          : {1: 38}
+     D1  SENUELO denominador del impar         :   0 de  38  (debe ser 0)
+     D2  SENUELO exponentes de t+2             :   0 de  38  (debe ser 0)
+     D3  SENUELO enderezar por W(D_r)          :   0 de  38  (debe ser 0)
+
+  t=6 r=3 (m=2 R=5)  56 pesos  (2 con c y nu vacios)
+     E6  ( sum c A_mu ) . Delta^par == +- nu   :  56 de  56   <== FATAL
+     E6b signo global                          : {1: 54}
+     D1  SENUELO denominador del impar         :   0 de  54  (debe ser 0)
+     D2  SENUELO exponentes de t+2             :   0 de  54  (debe ser 0)
+     D3  SENUELO enderezar por W(D_r)          :   0 de  54  (debe ser 0)
+
+  t=10 r=2 (m=4 R=6)  28 pesos  (10 con c y nu vacios)
+     E6  ( sum c A_mu ) . Delta^par == +- nu   :  28 de  28   <== FATAL
+     E6b signo global                          : {1: 18}
+     D1  SENUELO denominador del impar         :   0 de  18  (debe ser 0)
+     D2  SENUELO exponentes de t+2             :   0 de  18  (debe ser 0)
+     D3  SENUELO enderezar por W(D_r)          :   0 de  18  (debe ser 0)
+
+================================================================================================================
+  LECTURA, escrita ANTES de correr:
+   * si E6 acierta y los tres senuelos no, la identidad GKRS especializada vale TAMBIEN en el
+     par, con su propio denominador (1-z^t)/(1-z^2) -- y entonces la unica asimetria que
+     queda entre las paridades es la virtualidad de los a_Lambda, no el aparato.
+   * si E6 falla, el denominador par no es el que la cuenta de raices predice, y hay que
+     mirar que raiz complementaria se ha contado mal.
+================================================================================================================
+DONE

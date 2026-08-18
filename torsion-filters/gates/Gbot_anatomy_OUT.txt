@@ -1,0 +1,39 @@
+==========================================================================================================
+G1-G4  is Gbot a product over the classes, with factors of size <= 2?
+==========================================================================================================
+
+     t   r  shapes | G1 not a product  G2 max|A_k|  G3 non-adjacent  G4 |Gbot| != prod |A_k| | max|Gbot|
+  ------------------------------------------------------------------------------------------------------
+     2   2    2227 |              454            4              354                       454 |         6
+     2   3     795 |              270            6               31                       270 |        11
+     4   2    2874 |             1469            4              205                      1469 |         8
+     4   3     861 |              734            4               52                       734 |        16
+     6   2    1118 |              892            3                8                       892 |         6
+     6   3     484 |              473            3                5                       473 |        16
+     8   2     595 |              565            3                0                       565 |         6
+
+  G1 shapes where Gbot is NOT a product: 4857 of 8954
+  G2 largest factor seen: 6      G4 shapes where |Gbot| != prod|A_k|: 4857
+  G3 factors of size 2 whose members are NOT adjacent in their class: 655
+  G8 non-vacuity: factors of size 2 seen 10702 times, of size 1 11202 times.
+  largest |Gbot| in range: 16
+
+==========================================================================================================
+G5/G6  the reflection on Gbot, and G7 the same product question for the TOP stratum
+==========================================================================================================
+
+     t   r | crit shapes  sigma_C acts on Gbot  w(C-T) = -w(T) | Gbot closed & bot=0  closed only  bot=0 only | G7 top not a product
+  ------------------------------------------------------------------------------------------------------
+     2   2 |           32                    32               32 |                  32            92           83 |                  197
+     2   3 |            6                     6                6 |                   7            21           36 |                  103
+     4   2 |           19                    19               19 |                  28           161          235 |                  255
+     4   3 |            6                     6                6 |                   6            17          153 |                   93
+     6   2 |            7                     7                7 |                   8           111          146 |                   68
+     6   3 |            2                     2                2 |                   3            15           99 |                   36
+     8   2 |            3                     3                3 |                   3            97           82 |                   14
+
+  G7: shapes where the TOP maximiser set is not a product: 766.
+     If this is 0 too, being a product is a property of the CONSTRUCTION (one choice per
+     class), not something special about the bottom -- and it must be said that way.
+
+DONE

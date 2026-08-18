@@ -1,0 +1,164 @@
+======================================================================================================================
+(U)  ¿ES EL LUGAR DEL FILTRO INVARIANTE BAJO EL GRUPO DE UNIDADES?
+======================================================================================================================
+
+  t= 3 m=1   |lugar| = 2 de 3
+     U1  unidades que PRESERVAN el lugar : 2 de 2   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : si, valores [[1], [-1]]
+     U4  orbitas de Galois sobre el lugar : 1  ->  factor 2.00  (phi(t) = 2)
+  t= 3 m=2 : lugar VACIO, no mide
+  t= 3 m=3 : lugar VACIO, no mide
+
+  t= 4 m=1   |lugar| = 2 de 4
+     U1  unidades que PRESERVAN el lugar : 2 de 2   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (1 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : si, valores [[1], [-1]]
+     U4  orbitas de Galois sobre el lugar : 1  ->  factor 2.00  (phi(t) = 2)
+  t= 4 m=2 : lugar VACIO, no mide
+  t= 4 m=3 : lugar VACIO, no mide
+
+  t= 5 m=1   |lugar| = 4 de 5
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 1  ->  factor 4.00  (phi(t) = 4)
+
+  t= 5 m=2   |lugar| = 8 de 25
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : si, valores [[1], [1], [1], [1]]
+     U4  orbitas de Galois sobre el lugar : 2  ->  factor 4.00  (phi(t) = 4)
+  t= 5 m=3 : lugar VACIO, no mide
+
+  t= 6 m=1   |lugar| = 4 de 6
+     U1  unidades que PRESERVAN el lugar : 2 de 2   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (3 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : si, valores [[1], [-1]]
+     U4  orbitas de Galois sobre el lugar : 2  ->  factor 2.00  (phi(t) = 2)
+
+  t= 6 m=2   |lugar| = 8 de 36
+     U1  unidades que PRESERVAN el lugar : 2 de 2   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (3 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : si, valores [[1], [1]]
+     U4  orbitas de Galois sobre el lugar : 4  ->  factor 2.00  (phi(t) = 2)
+  t= 6 m=3 : lugar VACIO, no mide
+
+  t= 7 m=1   |lugar| = 6 de 7
+     U1  unidades que PRESERVAN el lugar : 6 de 6   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 1  ->  factor 6.00  (phi(t) = 6)
+
+  t= 7 m=2   |lugar| = 24 de 49
+     U1  unidades que PRESERVAN el lugar : 6 de 6   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 4  ->  factor 6.00  (phi(t) = 6)
+
+  t= 7 m=3   |lugar| = 48 de 343
+     U1  unidades que PRESERVAN el lugar : 6 de 6   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : si, valores [[1], [1], [-1], [1], [-1], [-1]]
+     U4  orbitas de Galois sobre el lugar : 8  ->  factor 6.00  (phi(t) = 6)
+
+  t= 8 m=1   |lugar| = 6 de 8
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (3 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 2  ->  factor 3.00  (phi(t) = 4)
+
+  t= 8 m=2   |lugar| = 24 de 64
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (3 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 6  ->  factor 4.00  (phi(t) = 4)
+
+  t= 8 m=3   |lugar| = 48 de 512
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (3 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : si, valores [[1], [1], [-1], [-1]]
+     U4  orbitas de Galois sobre el lugar : 12  ->  factor 4.00  (phi(t) = 4)
+
+  t= 9 m=1   |lugar| = 8 de 9
+     U1  unidades que PRESERVAN el lugar : 6 de 6   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (2 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 2  ->  factor 4.00  (phi(t) = 6)
+
+  t= 9 m=2   |lugar| = 48 de 81
+     U1  unidades que PRESERVAN el lugar : 6 de 6   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (2 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 8  ->  factor 6.00  (phi(t) = 6)
+
+  t= 9 m=3   |lugar| = 192 de 729
+     U1  unidades que PRESERVAN el lugar : 6 de 6   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (2 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 32  ->  factor 6.00  (phi(t) = 6)
+
+  t=10 m=1   |lugar| = 8 de 10
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (5 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 2  ->  factor 4.00  (phi(t) = 4)
+
+  t=10 m=2   |lugar| = 48 de 100
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (5 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 12  ->  factor 4.00  (phi(t) = 4)
+
+  t=10 m=3   |lugar| = 192 de 1000
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (5 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 48  ->  factor 4.00  (phi(t) = 4)
+
+  t=11 m=1   |lugar| = 10 de 11
+     U1  unidades que PRESERVAN el lugar : 10 de 10   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 1  ->  factor 10.00  (phi(t) = 10)
+
+  t=11 m=2   |lugar| = 80 de 121
+     U1  unidades que PRESERVAN el lugar : 10 de 10   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 8  ->  factor 10.00  (phi(t) = 10)
+
+  t=11 m=3   |lugar| = 480 de 1331
+     U1  unidades que PRESERVAN el lugar : 10 de 10   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (0 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 48  ->  factor 10.00  (phi(t) = 10)
+
+  t=12 m=1   |lugar| = 10 de 12
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (7 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 4  ->  factor 2.50  (phi(t) = 4)
+
+  t=12 m=2   |lugar| = 80 de 144
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (7 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 22  ->  factor 3.64  (phi(t) = 4)
+
+  t=12 m=3   |lugar| = 480 de 1728
+     U1  unidades que PRESERVAN el lugar : 4 de 4   todas
+     U2  NO-unidades que preservan el lugar : ninguna  (7 en total)
+     U3  signo(v).signo(k.v) constante en v, para cada unidad : NO
+     U4  orbitas de Galois sobre el lugar : 120  ->  factor 4.00  (phi(t) = 4)
+
+======================================================================================================================
+  RESUMEN   unidades que preservan : 118 de 118
+            NO-unidades que preservan : 0 de 58   <- el control; tiene que ser bajo
+  LECTURA, escrita ANTES de correr:
+   * si TODAS las unidades preservan el lugar y casi ninguna no-unidad lo hace, (U) vale y
+     el lugar del filtro es Galois-invariante -- y B/C coinciden a orden impar porque 2 es
+     unidad, no por una coincidencia de paredes.
+   * si alguna unidad fallara, (U) es falsa y la coincidencia B/C es solo con el 2.
+======================================================================================================================
+DONE

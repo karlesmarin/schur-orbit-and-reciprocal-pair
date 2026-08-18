@@ -1,0 +1,31 @@
+   hecho t=4 r=2 M=15 (objetivo acumulado 44)
+   hecho t=4 r=3 M=15 (objetivo acumulado 72)
+   hecho t=6 r=2 M=17 (objetivo acumulado 180)
+   hecho t=6 r=3 M=18 (objetivo acumulado 284)
+   hecho t=8 r=2 M=18 (objetivo acumulado 316)
+   hecho t=8 r=3 M=19 (objetivo acumulado 356)
+   hecho t=6 r=4 M=19 (objetivo acumulado 412)
+   hecho t=10 r=2 M=19 (objetivo acumulado 412)
+
+E1 CONTINGENCIA sobre la poblacion objetivo ([N_t]_top = 0 y (i) falsa):
+      e==t    superviviente   formas
+      False   False           216
+      True    False           184
+      True    True            12
+
+   e = t : 196 formas, de las cuales sobreviven 12
+   e < t : 216 formas, de las cuales sobreviven 0   <-- NECESIDAD si es 0
+
+E2 CONTROL CRUZADO contra dim_certificate_OUT.txt (Z3: objetivo 412, supervivientes 12)
+      total objetivo aqui : 412   OK
+      supervivientes aqui : 12   OK
+
+E3 formas con e = t, por configuracion:
+      t=4 r=2 superviviente=False : 44
+      t=4 r=3 superviviente=False : 28
+      t=6 r=3 superviviente=False : 60
+      t=6 r=3 superviviente=True  : 8
+      t=6 r=4 superviviente=False : 52
+      t=6 r=4 superviviente=True  : 4
+
+E4 barrera aritmetica: e = t exige t <= 2r.  Formas con e = t y t > 2r : 0  OK (ninguna, como debe)

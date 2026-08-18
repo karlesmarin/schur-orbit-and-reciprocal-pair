@@ -1,0 +1,28 @@
+field GF(1000000321); guard -> PASS
+
+============================================================================================
+C1  F1 as an identity:  N(m) = sum_{k non-fixed} C(n_k,2) + n_0^2 + n_{t/2}^2
+============================================================================================
+  1813 weight vectors tested, mismatches: 0  ->  IDENTITY
+
+============================================================================================
+C2/C3/C4  the GL side: |E| parity, and how the zeros treat their NON-fixed sigma_C classes
+============================================================================================
+
+   t   r   N |lam|<=  ZEROS  |E| odd   zeros missing a non-fixed class   controls missing one
+  --------------------------------------------------------------------------------------------
+   4   1   6     26     84        0                                84        664/852
+   4   2   8     22     19        0                                 9         66/153
+   4   3  10     20      6        0                                 0          8/48
+   6   2  10     18      7        0                                 7         97/112
+   6   3  12     16      2        0                                 1         14/27
+   8   2  12     16      3        0                                 3         97/97
+
+  C2: '|E| odd' must be 0 -- a sigma_C-stable set containing both fixed points has even size.
+  C3: 'zeros missing a non-fixed class' is the crossing.  If it is 0 the GL condition really
+      is 'occupy the fixed classes AND cover the non-fixed ones', the same shape as the Sp
+      lemma read the other way round.
+  C4: the control is the concentric NON-vanishing shapes.  If they miss classes just as
+      rarely, the crossing measures the concentric stratum and not the zeros.
+
+DONE

@@ -1,0 +1,46 @@
+============================================================================================================
+C0  ACEPTACION -- los atomos SON Phi, y su balance por fibra ES la anulacion
+============================================================================================================
+     400 formas comparadas atomo a atomo contra full_dict() y contra phi_zero()
+     C0 PASA
+
+============================================================================================================
+N1  LAS FORMAS QUE SE ANULAN  --  y C1, el DECOY: las que no, con la misma estadistica
+============================================================================================================
+
+   t  r   W | poblacion             n | fibras/forma | %K_2  | tam. de fibra mas comun
+    4  2  14 | Phi == 0 (conj 8.44)  28 |         89.6 |  62.2 | 2:1560, 4:648, 6:232, 8:60   (max 12)
+    4  2  14 | Phi != 0  [DECOY C1]  61 |        147.3 |   6.1 | 1:4304, 2:2876, 3:952, 4:436   (max 18)
+    4  2  15 | Phi == 0 (conj 8.44)  36 |         83.9 |  62.3 | 2:1880, 4:776, 6:296, 8:60   (max 12)
+    4  2  15 | Phi != 0  [DECOY C1]  61 |        150.4 |   5.8 | 1:4400, 2:2988, 3:928, 4:460   (max 18)
+    6  2  15 | Phi == 0 (conj 8.44)  33 |        144.0 |  66.7 | 2:3168, 4:1584   (max 4)
+    6  2  15 | Phi != 0  [DECOY C1]  61 |        152.1 |   5.2 | 1:3656, 2:3004, 3:1512, 4:616   (max 18)
+    4  3  15 | Phi == 0 (conj 8.44)  14 |       4860.6 |  32.4 | 4:24024, 2:22032, 8:8712, 6:6384   (max 72)
+    4  3  15 | Phi != 0  [DECOY C1]  61 |       5416.8 |   5.2 | 2:77088, 1:57072, 3:47904, 4:46368   (max 108)
+
+  LECTURA.  Si el %K_2 de la fila Phi==0 no es 100, la cancelacion NO tiene pareja unica y su
+  pregunta 1 se contesta que NO.  Si ademas el DECOY da un perfil parecido, la estadistica no
+  separa las dos poblaciones y no hay nada que leer en la primera fila.
+
+============================================================================================================
+N2  SU PREGUNTA 3 -- la familia testigo que NO se anula: ¿hay fibra desequilibrada AISLADA?
+============================================================================================================
+
+  familia:  max S sube n, min S baja n,  semilla (18, 17, 11, 8, 7, 6, 1, 0)
+
+     n |  W | fibras | desequilibradas | aisladas | exponentes de las aisladas (hasta 3)
+     0 | 18 |    204 |             124 |       80 | (-17, -5), (-17, -3), (-17, 3)
+     1 | 20 |     96 |               0 |        0 | (ninguna)
+     2 | 22 |    244 |             136 |      112 | (-19, -5), (-19, -3), (-19, 3)
+     3 | 24 |     80 |               0 |        0 | (ninguna)
+     4 | 26 |    228 |             152 |      104 | (-21, -5), (-21, -3), (-21, 3)
+     5 | 28 |     80 |               0 |        0 | (ninguna)
+     6 | 30 |    240 |             160 |      120 | (-23, -5), (-23, -3), (-23, 3)
+     7 | 32 |     96 |               0 |        0 | (ninguna)
+     8 | 34 |    240 |             160 |      120 | (-25, -5), (-25, -3), (-25, 3)
+
+  Si la columna 'aisladas' es > 0 y las mismas fibras siguen solas al crecer n, el monomio
+  testigo EXISTE en la familia y se puede intentar describir en cerrado.  Si es 0, su ruta
+  necesita un testigo que no sea un vertice aislado, y eso es mas trabajo, no menos.
+
+============================================================================================================

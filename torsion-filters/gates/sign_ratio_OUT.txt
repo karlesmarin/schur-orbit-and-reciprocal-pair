@@ -1,0 +1,39 @@
+========================================================================================================
+Q1-Q5  the sign ratio w_B / w_A, its closed form, its decoys, and the reduced question
+========================================================================================================
+
+     t   r  |G|=2 | Q1 bad | decoy (a+b)  (a'+b')  (a+b+1) | Q4 bad | Q5 REFUTED  Q6a bad  Q6b bad  Q6c bad
+  ----------------------------------------------------------------------------------------------------
+     4   1    141 |      0 |          58       83       83 |      0 |          0        0        0        0
+     4   2    359 |      0 |         133      150      226 |      0 |        175        0        0        0
+     4   3    162 |      0 |          59       70      103 |      0 |         55        0        0        0
+     6   2     68 |      0 |          35       48       33 |      0 |         17        0        0        0
+     6   3     36 |      0 |          15        9       21 |      0 |         15        0        0        0
+     8   2     14 |      0 |           3       13       11 |      0 |          7        0        0        0
+    10   2      7 |      0 |           6        0        1 |      0 |          6        0        0        0
+
+  Q1: the closed form (-1)^{a+b+a'+b'} disagrees with the true w_B/w_A on 0 of 787 shapes.
+  Q2 decoys, times each AGREES with the truth (they must agree less often than Q1's 787):
+       (-1)^{a+b}: 309      (-1)^{a'+b'}: 373      (-1)^{a+b+1}: 478
+  Q4: shapes with neither reflection nor translation where [Phi]_top vanishes anyway: 0
+  Q5 (MY REFUTED REDUCTION): exceptions to  w_B = -w_A  <=>  K = V - K : 275 of 787.
+  Q6a: exceptions to  [Phi]_top = 0  <=>  T_B = c - T_A for SOME c : 0
+  Q6b: reflections whose centre is NOT V (the crossed case): 0
+  Q6c: reflections about V where the signs are NOT opposite: 0
+
+  Q3 the 2x2 table:
+
+     reflection  translation | shapes  [Phi]_top = 0   w_B = -w_A
+  ----------------------------------------------------------------------------------------------------
+     yes         yes         |    151            151          151
+     yes         no          |     58             58           58
+     no          no          |    578              0          275
+
+  READING.  The sign ratio has the closed form (-1)^{a+b+a'+b'}, exact on every shape.
+  [Phi]_top = 0 is EXACTLY 'T_B is a reflection of T_A', the centre is always V, and there
+  the signs are always opposite.  The sign alone decides nothing -- 275 shapes have
+  opposite signs with no reflection, and there the two P are independent so nothing
+  cancels.  And the translation-only cell of the 2x2 table is EMPTY, so that branch of
+  the orbit never has to be ruled out separately.
+
+DONE

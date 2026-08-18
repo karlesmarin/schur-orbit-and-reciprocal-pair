@@ -1,0 +1,26 @@
+================================================================================================
+¿CANCEL queda determinado por |g_com| a (t,r) fijos?  Poblacion: supervivientes con CANCEL>=1
+================================================================================================
+
+--- t=4 r=2 W=16 :  32 supervivientes con CANCEL>=1
+    |g_com| | |G| |  CANCEL -> cuantas betas            | ¿determinado?
+          2 |   2 | 1:32                               | SI
+
+--- t=6 r=2 W=16 :  36 supervivientes con CANCEL>=1
+    |g_com| | |G| |  CANCEL -> cuantas betas            | ¿determinado?
+          2 |   2 | 1:36                               | SI
+
+--- t=8 r=2 W=17 :  0 supervivientes con CANCEL>=1
+    |g_com| | |G| |  CANCEL -> cuantas betas            | ¿determinado?
+
+--- t=4 r=3 W=15 :  12 supervivientes con CANCEL>=1
+    |g_com| | |G| |  CANCEL -> cuantas betas            | ¿determinado?
+          2 |   2 | 1:12                               | SI
+
+--- t=6 r=3 W=15 :  2 supervivientes con CANCEL>=1
+    |g_com| | |G| |  CANCEL -> cuantas betas            | ¿determinado?
+          4 |   2 | 1:2                                | SI
+
+================================================================================================
+  valores de |g_com| con CANCEL determinado: 4 ;  con CANCEL disperso: 0
+================================================================================================

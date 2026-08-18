@@ -1,0 +1,52 @@
+============================================================================================================
+EL EMPATE DEL SENUELO: .UMBRAL DE NIVEL O CANCELACION?   prob:threshold
+============================================================================================================
+
+  T1  los dos alcobas, de la desigualdad:
+     t=4  m=1 : filtro verdadero  C_1 al orden 4  ->  eta_1 < 1
+              senuelo  t+2      C_2 al orden 6  ->  eta_1 < 1
+              senuelo  t+4      C_3 al orden 8  ->  eta_1 < 1
+     t=6  m=2 : filtro verdadero  C_2 al orden 6  ->  eta_1 < 1
+              senuelo  t+2      C_3 al orden 8  ->  eta_1 < 1
+              senuelo  t+4      C_4 al orden 10  ->  eta_1 < 1
+
+  T0/T2/T3  por forma:
+     t | beta                              | #B  |sop| max eta_1 | senuelo t+2   | dif p.a p. | senuelo t+4
+     ----------------------------------------------------------------------------------------------------------------------
+     4 | (18, 17, 11, 8, 7, 6, 1, 0)       | 428 | 12 |     11    | discrepa (ok) |    4 de 12 | discrepa (ok)
+     4 | (10, 9, 7, 4, 3, 2, 1, 0)         |  20 |  4 |      3    | EMPATA        |    0 de  4 | EMPATA
+     4 | (14, 13, 11, 4, 3, 2, 1, 0)       | 144 |  8 |      7    | discrepa (ok) |    2 de  8 | discrepa (ok)
+     4 | (12, 11, 10, 5, 3, 2, 1, 0)       |  56 |  6 |      5    | discrepa (ok) |    1 de  6 | discrepa (ok)
+     4 | (14, 13, 11, 8, 3, 2, 1, 0)       | 144 |  8 |      7    | discrepa (ok) |    2 de  8 | discrepa (ok)
+     4 | (12, 11, 10, 9, 7, 2, 1, 0)       |  56 |  6 |      5    | discrepa (ok) |    1 de  6 | discrepa (ok)
+     4 | (13, 9, 8, 7, 5, 4, 2, 0)         |  38 |  7 |      6    | discrepa (ok) |    2 de  7 | discrepa (ok)
+     4 | (19, 17, 11, 8, 7, 6, 1, -1)      | 618 | 14 |     13    | discrepa (ok) |    4 de 14 | discrepa (ok)
+     4 | (21, 17, 11, 8, 7, 6, 1, -3)      | 1087 | 18 |     17    | discrepa (ok) |    5 de 18 | discrepa (ok)
+     6 | (13, 11, 9, 7, 5, 4, 3, 2, 1, 0)  |  83 | 14 |      4    | EMPATA        |    0 de 14 | EMPATA
+     6 | (15, 13, 11, 8, 6, 5, 3, 2, 1, 0) | 298 | 27 |      6    | discrepa (ok) |    4 de 27 | discrepa (ok)
+     6 | (17, 13, 11, 9, 7, 5, 3, 2, 1, 0) | 550 | 39 |      8    | discrepa (ok) |    8 de 39 | discrepa (ok)
+     6 | (12, 11, 10, 9, 8, 5, 3, 2, 1, 0) |  44 | 10 |      3    | EMPATA        |    0 de 10 | EMPATA
+
+  T0  FATAL  empates con el senuelo t+2 : 3 de 13   (branch_filter dice 3 de 13)
+  T2  de los que EMPATAN, cuantos coinciden punto a punto sobre supp(B) : 3 de 3
+  T2  de los que DISCREPAN, cuantos coinciden punto a punto              : 0 de 10
+  C1  SENUELO DEL SENUELO, empates con t+4 : 3 de 13
+
+  T4  el conjunto {eta : tau_t(eta) == tau_{t+2}(eta,0)}, barrido sobre eta_1 <= 12:
+     t=4 : coinciden en 9 de 13 pesos.  Por eta_1, (coinciden, difieren):
+        {0: (1, 0), 1: (1, 0), 2: (1, 0), 3: (1, 0), 4: (0, 1), 5: (1, 0), 6: (0, 1), 7: (1, 0), 8: (0, 1), 9: (1, 0), 10: (0, 1), 11: (1, 0), 12: (1, 0)}
+        eta_1 con coincidencia TOTAL: [0, 1, 2, 3, 5, 7, 9, 11, 12]  ->  NO es un corte inicial
+     t=6 : coinciden en 64 de 91 pesos.  Por eta_1, (coinciden, difieren):
+        {0: (1, 0), 1: (2, 0), 2: (3, 0), 3: (4, 0), 4: (5, 0), 5: (4, 2), 6: (4, 3), 7: (6, 2), 8: (5, 4), 9: (6, 4), 10: (8, 3), 11: (8, 4), 12: (8, 5)}
+        eta_1 con coincidencia TOTAL: [0, 1, 2, 3, 4]  ->  es un corte inicial (aspecto de alcoba)
+
+  LECTURA, escrita ANTES de correr:
+   * si T1 da la MISMA cota para los dos, la pregunta de prob:threshold no puede
+     responderse como esta escrita: los dos filtros estan en el nivel minimo.
+   * si T2 dice que los que empatan coinciden PUNTO A PUNTO, el empate es del filtro y
+     hay que buscar la region de coincidencia, que es T4.
+   * si T2 dice que difieren punto a punto y aun asi empatan, el empate es una
+     CANCELACION y no hay umbral ninguno: prob:threshold hay que reescribirlo.
+
+============================================================================================================
+DONE

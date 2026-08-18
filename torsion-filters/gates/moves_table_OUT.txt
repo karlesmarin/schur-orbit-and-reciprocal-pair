@@ -1,0 +1,18 @@
+   hecho t=4 r=2 M=15
+   hecho t=4 r=3 M=15
+   hecho t=6 r=2 M=16
+   hecho t=6 r=3 M=17
+   hecho t=8 r=2 M=17
+   hecho t=2 r=2 M=13
+   hecho t=2 r=3 M=15
+
+T1 delta REAL == formula de su fila : 0 fallos de 155556
+
+T2 COBERTURA de las cuatro filas:
+      subida g>u_r         : 70378    
+      subida g<u_r         : 7400     
+      bajada g<u_{r-1}     : 70378    
+      bajada g>u_{r-1}     : 7400     
+
+T3 SENUELO (formula del caso hermano) : coincide en 0 de 155556  -- tiene que ser BAJO
+T4 casos fuera de la tabla (g igual a u_{r-1} o u_r, imposible) : 0

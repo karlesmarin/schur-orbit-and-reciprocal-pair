@@ -1,0 +1,35 @@
+==============================================================================
+t = 4, r = 2 : the concentric shapes, 5 vanishing and 115 not
+==============================================================================
+
+  VANISHING:
+    lam=[1, 1, 1, 1]           prof=[2, 2, 2, 2]   conc=[(0, 2, 8)]       
+        beta=[8, 7, 6, 5, 3, 2, 1, 0]   quot=[[1, 0], [0, 0], [0, 0], [0, 0]]  sizes=[1, 0, 0, 0]
+    lam=[5, 4, 3]              prof=[4, 1, 2, 1]   conc=[(0, 2, 12)]      
+        beta=[12, 10, 8, 4, 3, 2, 1, 0] quot=[[0, 0, 0, 0], [0], [1, 0], [0]]  sizes=[0, 0, 1, 0]
+    lam=[3, 3, 3, 3]           prof=[2, 2, 2, 2]   conc=[(1, 3, 10)]      
+        beta=[10, 9, 8, 7, 3, 2, 1, 0]  quot=[[1, 0], [1, 0], [1, 0], [0, 0]]  sizes=[1, 1, 1, 0]
+    lam=[3, 3, 2, 2, 1, 1]     prof=[2, 2, 2, 2]   conc=[(1, 3, 10)]      
+        beta=[10, 9, 7, 6, 4, 3, 1, 0]  quot=[[0, 0], [1, 0], [1, 1], [0, 0]]  sizes=[0, 1, 2, 0]
+    lam=[2, 2, 2, 2, 1, 1, 1, 1] prof=[2, 2, 2, 2]   conc=[(1, 3, 10)]      
+        beta=[9, 8, 7, 6, 4, 3, 2, 1]   quot=[[1, 1], [1, 0], [0, 0], [0, 0]]  sizes=[2, 1, 0, 0]
+
+  NOT vanishing, a sample of the same size:
+    lam=[1]                    prof=[3, 2, 2, 1]   conc=[(0, 2, 8)]       
+        beta=[8, 6, 5, 4, 3, 2, 1, 0]   quot=[[0, 0, 0], [0, 0], [0, 0], [0]]  sizes=[0, 0, 0, 0]
+    lam=[2, 1]                 prof=[2, 3, 1, 2]   conc=[(1, 3, 10)]      
+        beta=[9, 7, 5, 4, 3, 2, 1, 0]   quot=[[0, 0], [0, 0, 0], [0], [0, 0]]  sizes=[0, 0, 0, 0]
+    lam=[1, 1, 1]              prof=[3, 1, 2, 2]   conc=[(0, 2, 8)]       
+        beta=[8, 7, 6, 4, 3, 2, 1, 0]   quot=[[0, 0, 0], [0], [0, 0], [0, 0]]  sizes=[0, 0, 0, 0]
+    lam=[2, 1, 1]              prof=[2, 2, 2, 2]   conc=[(1, 3, 10)]      
+        beta=[9, 7, 6, 4, 3, 2, 1, 0]   quot=[[0, 0], [1, 0], [0, 0], [0, 0]]  sizes=[0, 1, 0, 0]
+    lam=[2, 2, 1]              prof=[3, 2, 2, 1]   conc=[(0, 2, 8)]       
+        beta=[9, 8, 6, 4, 3, 2, 1, 0]   quot=[[0, 0, 0], [1, 0], [0, 0], [0]]  sizes=[0, 1, 0, 0]
+
+  quick separators, checked on both sets:
+    concentric pair is (0,2) or (1,3)        zeros 5/5   nonzeros 115/115
+    some concentric class has 3 elements     zeros 0/5   nonzeros 0/115
+    all quotient components empty            zeros 0/5   nonzeros 4/115
+    centre is even                           zeros 5/5   nonzeros 115/115
+
+DONE

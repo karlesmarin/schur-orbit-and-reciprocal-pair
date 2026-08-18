@@ -1,0 +1,44 @@
+========================================================================================================
+OTRA DESCOMPOSICION DE W^1: EL ELEMENTO w'' = w' . w^{-1} QUE UNE LOS DOS TERMINOS
+========================================================================================================
+
+  B1  w'' es una INVOLUCION (orden 2)                : 149 de 313
+  B2  w'' es una REFLEXION de B_{R'}                 : 149 de 313
+      reparto:
+        no es reflexion                    :   164
+        s_{e_i-e_j}  (transposicion)       :   100
+        s_{e_i}  (cambio de signo)         :    47
+        s_{e_i+e_j}  (transposicion con signo) :     2
+
+  B3  tipo de ciclo de w'' y numero de signos cambiados:
+        ciclos (2, 1)         signos- 0 :    65  ( 20.8%)
+        ciclos (3, 1)         signos- 0 :    50  ( 16.0%)
+        ciclos (3,)           signos- 0 :    44  ( 14.1%)
+        ciclos (1, 1, 1)      signos- 1 :    36  ( 11.5%)
+        ciclos (2, 1, 1)      signos- 0 :    35  ( 11.2%)
+        ciclos (2, 1)         signos- 1 :    28  (  8.9%)
+        ciclos (2, 1, 1)      signos- 1 :    16  (  5.1%)
+        ciclos (4,)           signos- 0 :    12  (  3.8%)
+        ciclos (1, 1, 1, 1)   signos- 1 :    11  (  3.5%)
+        ciclos (3,)           signos- 1 :     8  (  2.6%)
+        tipos distintos : 12
+
+  B4  cuando w'' mueve dos posiciones, .misma clase plegada? : 146 de 146
+
+  B5  det(w'') . (delta'/delta) = -1                  : 213 de 313
+
+  H1  SENUELO: tipo de ciclo entre progresiones DISTINTAS:
+        ciclos (2, 1, 1)      signos- 0 :   194  ( 20.4%)
+        ciclos (2, 1)         signos- 0 :   193  ( 20.3%)
+        ciclos (3, 1)         signos- 0 :   127  ( 13.3%)
+        ciclos (3,)           signos- 0 :   106  ( 11.1%)
+        ciclos (2, 1)         signos- 1 :    75  (  7.9%)
+        ciclos (1, 1, 1)      signos- 1 :    63  (  6.6%)
+        tipos distintos : 19
+
+  LECTURA: si B1 sale entero, la involucion existe literalmente y solo falta nombrarla.  Si
+  ademas B3 se concentra en un tipo, ese tipo ES el mecanismo, y ya no depende de como yo
+  parta el signo -- que es lo que fallaba en la descomposicion anterior.
+
+========================================================================================================
+DONE

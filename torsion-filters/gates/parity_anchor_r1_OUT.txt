@@ -1,0 +1,32 @@
+============================================================================================
+L1  the r = 1 anchor:  determinant  vs  the new criterion  vs  Corollary 3.2
+============================================================================================
+
+   t   N |lam|<=  shapes  ZEROS   DET!=NEW   DET!=PAPER   degenerate  zeros among them
+  ----------------------------------------------------------------------------------------
+   4   6     40    16653    412          0            0         4081                 0
+   6   8     30     4655    135          0            0          580                 0
+   8  10     26     1914     28          0            0          130                 0
+  10  12     22      690      5          0            0           27                 0
+   3   5     30     3867      0          0            0         1347                 0
+   5   7     24     1828      0          0            0          324                 0
+
+  L2  'degenerate' = one excess class of size 3, which Corollary 3.2 does not cover.
+      The new criterion predicts NO zeros there (s = 1); the last column is the test.
+
+============================================================================================
+L3  the control: is condition (ii) doing any work?  Same tally with (i) ALONE
+============================================================================================
+
+   t   r   N |lam|<=  concentric  ZEROS  (i)alone wrong on   (i)+(ii) wrong on
+  ------------------------------------------------------------------------------------
+   4   1   6     34        2436    224                2212                   0
+   4   2   8     30         518     63                 455                   0
+   4   3  10     26          97     21                  76                   0
+   6   2  10     20         169     12                 157                   0
+   6   3  12     18          52      9                  43                   0
+
+  If (ii) were idle the two last columns would be equal.  At r = 1 they are (concentricity
+  forces s = 2 there, which is why Corollary 3.2 needs only d3); from r = 2 they separate.
+
+DONE

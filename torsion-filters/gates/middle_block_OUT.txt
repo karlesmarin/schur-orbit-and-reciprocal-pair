@@ -1,0 +1,89 @@
+========================================================================================================
+C1  forced consequences on the shapes where the criterion HOLDS      C2  acceptance
+========================================================================================================
+
+     t   r  crit shapes  mid transv.  unique max.  [Phi]top!=0 | C2: Dmax!=bound  #max!=1  top=0  coef!=+-1
+  ----------------------------------------------------------------------------------------------------
+     2   1           95            0            0            0 |              0        0      0          0
+     2   2           32            0            0            0 |              0        0      0        501
+     2   3           21            0            0            0 |              0        0      0       1213
+     4   1          141            0            0            0 |              0        0      0          0
+     4   2           30            0            0            0 |              0        0      0        429
+     4   3            6            0            0            0 |              0        0      0        699
+     6   2            7            0            0            0 |              0        0      0        131
+     6   3            2            0            0            0 |              0        0      0        295
+     8   2            3            0            0            0 |              0        0      0         99
+
+  the last column is a PREDICTION OF MINE, and it is refuted: I wrote that the surviving
+  coefficients would be +-1.  They need not be -- a_H(z) a_L(1/z) is a PRODUCT of two
+  alternants, and two different (alpha,beta) can give the same exponent vector, e.g.
+  H={5,3}, L={2,0} sends both (5-2,3-0) and (3-0,5-2) to (3,3).  The theorem does not use
+  the value of the coefficient, only that the polynomial is nonzero, so it survives intact.
+
+  C1 PASS: on every shape the criterion calls a zero, the middle block is never a
+  transversal, the degree maximiser is never unique, and the top-degree part vanishes.
+  C2 PASS: whenever the middle block IS a transversal, Dmax equals the a priori bound, the
+  maximiser is unique, and the top-degree part is nonzero -- which is the whole theorem.
+
+========================================================================================================
+M1/M2  the converse, stratified by WHICH condition fails and by WHAT settles it
+========================================================================================================
+
+     t   r  crit fails | (i) only  (ii) only    both | theorem  corollary  [Phi]_top | LEFT
+  ----------------------------------------------------------------------------------------------------
+     2   1        3694 |      505       438    2751 |    3189       3694       3694 |    0
+     2   2        4487 |     1782       126    2579 |    3182       4161       4487 |    0
+     2   3        2078 |     1018        24    1036 |    1512       1837       2078 |    0
+     4   1        4523 |      196      1400    2927 |    3556       4523       4523 |    0
+     4   2        4265 |      858       223    3184 |    2558       3936       4251 |   14
+     4   3        1451 |      528        20     903 |     846       1295       1449 |    2
+     6   2        1111 |      128       112     871 |     761       1050       1108 |    3
+     6   3         482 |      112        16     354 |     348        448        481 |    1
+     8   2         592 |       41        97     454 |     490        581        592 |    0
+
+  totals: criterion fails 22683 = (i) only 5168 + (ii) only 2456 + both 15059
+          settled by the THEOREM (middle block a transversal): 16442  (72.5%)
+          settled by the COROLLARY (unique degree maximiser):  21525  (94.9%)
+          settled by the full top-degree part:                 22663  (99.9%)
+          C3 non-vacuity: theorem settles some (yes) and not all (yes)
+
+  M2  the sharp question -- does the top-degree part ever miss when (ii) FAILS?
+
+     concentric (i)   condition (ii)   shapes   [Phi]_top survives   misses
+  ----------------------------------------------------------------------------------------------------
+     fails            fails              15059                15059        0
+     fails            holds               5168                 5148       20
+     holds            fails               2456                 2456        0
+
+  (ii) FAILS: 17515 shapes, top-degree part misses 0 of them.  C4 non-vacuity: PASS
+
+========================================================================================================
+M3  the shapes the top-degree part misses: how far down is the first surviving degree?
+========================================================================================================
+
+     t   r  lambda                     |E|  Dmax  bound  #maximisers  first surviving deg
+  ----------------------------------------------------------------------------------------------------
+     4   2  [3, 3, 2]                    4    16     18            2             14   (gap 2)
+     4   2  [5, 5, 5, 1]                 4    20     22            2             18   (gap 2)
+     4   2  [4, 4, 3, 1, 1, 1, 1, 1]     4    16     18            2             14   (gap 2)
+     4   2  [3, 3, 3, 3, 3, 1]           4    16     18            2             14   (gap 2)
+     4   2  [7, 7, 6]                    4    24     26            2             22   (gap 2)
+     4   2  [7, 5, 4, 1, 1, 1, 1]        4    20     23            2             18   (gap 2)
+     4   2  [7, 7, 6, 4]                 4    24     26            2             22   (gap 2)
+     4   2  [7, 7, 6, 2, 1, 1]           4    24     26            2             20   (gap 4)
+     4   2  [7, 5, 4, 4, 2, 1, 1]        4    20     23            2             18   (gap 2)
+     4   2  [7, 5, 4, 2, 2, 2, 2]        4    20     22            2             16   (gap 4)
+     4   2  [6, 6, 6, 2, 1, 1, 1, 1]     4    20     22            2             18   (gap 2)
+     4   2  [5, 5, 5, 5, 4]              4    20     22            2             18   (gap 2)
+     4   2  [5, 5, 4, 2, 2, 2, 2, 2]     4    16     18            2             14   (gap 2)
+     4   2  [4, 4, 4, 4, 4, 2, 1, 1]     4    16     18            2             14   (gap 2)
+     4   3  [3, 3, 3, 2]                 4    28     30            2             26   (gap 2)
+     4   3  [5, 5, 4, 3]                 4    32     35            2             30   (gap 2)
+     6   2  [5, 5, 3]                    4    23     26            2             21   (gap 2)
+     6   2  [7, 6, 4]                    4    25     28            2             21   (gap 4)
+     6   2  [6, 6, 4, 1]                 4    23     26            2             21   (gap 2)
+     6   3  [3, 3, 2, 2, 2]              6    31     35            2             29   (gap 2)
+
+  gap below Dmax of the first surviving degree: [(2, 17), (4, 3)]
+
+DONE

@@ -1,0 +1,72 @@
+================================================================================================================
+LA CAPA DE SIGNOS DEL FILTRO IMPAR
+================================================================================================================
+
+  t   n  t%8   eps_t   sgn(sigma_.)   gamma_.        (2/t)  (-1)^{n(n+1)/2}
+  ----------------------------------------------------------------------------------------------------
+   3   1   3    +1     trivial        Jacobi          -1      -1
+   5   2   5    +1     Jacobi         trivial         -1      -1
+   7   3   7    -1     trivial        Jacobi          +1      +1
+   9   4   1    +1     trivial        trivial         +1      +1
+  11   5   3    +1     trivial        Jacobi          -1      -1
+  13   6   5    +1     Jacobi         trivial         -1      -1
+  15   7   7    -1     trivial        Jacobi          +1      +1
+  17   8   1    +1     Jacobi         trivial         +1      +1
+  19   9   3    +1     trivial        Jacobi          -1      -1
+  21  10   5    +1     Jacobi         trivial         -1      -1
+  23  11   7    -1     trivial        Jacobi          +1      +1
+  25  12   1    +1     trivial        trivial         +1      +1
+  27  13   3    +1     trivial        Jacobi          -1      -1
+  29  14   5    +1     Jacobi         trivial         -1      -1
+  31  15   7    -1     trivial        Jacobi          +1      +1
+  33  16   1    +1     Jacobi         trivial         +1      +1
+  35  17   3    +1     trivial        Jacobi          -1      -1
+  37  18   5    +1     Jacobi         trivial         -1      -1
+  39  19   7    -1     trivial        Jacobi          +1      +1
+  41  20   1    +1     Jacobi         trivial         +1      +1
+  43  21   3    +1     trivial        Jacobi          -1      -1
+  45  22   5    +1     Jacobi         trivial         -1      -1
+  47  23   7    -1     trivial        Jacobi          +1      +1
+  49  24   1    +1     trivial        trivial         +1      +1
+  51  25   3    +1     trivial        Jacobi          -1      -1
+  53  26   5    +1     Jacobi         trivial         -1      -1
+  55  27   7    -1     trivial        Jacobi          +1      +1
+  57  28   1    +1     Jacobi         trivial         +1      +1
+  59  29   3    +1     trivial        Jacobi          -1      -1
+  61  30   5    +1     Jacobi         trivial         -1      -1
+
+  C0  LEMA DE GAUSS (fatal):  prod eps_j(k) == (k/t)  :  788 de 788
+
+================================================================================================================
+S1  .tiene eps_t forma cerrada?   Se AJUSTA sobre t <= 31 y se PREDICE sobre 33..61.
+================================================================================================================
+   (2/t)  = (-1)^{(t^2-1)/8}         ajuste  3/15   prediccion  4/15
+   -(2/t)                            ajuste 12/15   prediccion 11/15
+   (-1)^{n(n+1)/2}                   ajuste  3/15   prediccion  4/15
+   (-1)^{floor(n/2)}                 ajuste 11/15   prediccion 11/15
+   (-1)^{floor((t+1)/4)}             ajuste  3/15   prediccion  4/15
+   por t mod 8: {1:+,3:+,5:+,7:-}    ajuste 15/15   prediccion 15/15  <== SOBREVIVE
+   trivial (+1)                      ajuste 11/15   prediccion 12/15
+
+================================================================================================================
+S2/S3  el caracter sgn(sigma) y gamma, tabulados por t mod 8
+================================================================================================================
+   t = 1 (mod 8) :  t = [9, 17, 25, 33, 41, 49, 57]   sgn(sigma) = ['Jacobi', 'trivial']  gamma = ['trivial']
+   t = 3 (mod 8) :  t = [3, 11, 19, 27, 35, 43, 51,   sgn(sigma) = ['trivial']           gamma = ['Jacobi']
+   t = 5 (mod 8) :  t = [5, 13, 21, 29, 37, 45, 53,   sgn(sigma) = ['Jacobi']            gamma = ['trivial']
+   t = 7 (mod 8) :  t = [7, 15, 23, 31, 39, 47, 55]   sgn(sigma) = ['trivial']           gamma = ['Jacobi']
+
+================================================================================================================
+S5  COMPUERTA DE LITERATURA: .lo dicen ya Gauss y Pan?
+================================================================================================================
+   Pan 2006 Thm 1   sgn(sigma_k) == (k/t)^{(t+1)/2}   : 788 de 788
+   corolario        gamma_t(k)   == (k/t)^{(t+3)/2}   : 788 de 788
+   A_rho == (-2).(1..n)  =>  eps_t == gamma_t(-2)     : 30 de 30
+   y por tanto      eps_t == (-2/t)^{(t+3)/2}         : 30 de 30
+
+   VEREDICTO: si estas cuatro salen completas, la capa de signos es Gauss + Pan y no hay
+   nada nuestro en el mecanismo.  Lo nuestro es solo que el vector congelado de tipo B es
+   el sistema medio multiplicado por la unidad -2.
+
+================================================================================================================
+DONE

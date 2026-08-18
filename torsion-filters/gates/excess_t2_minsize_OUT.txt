@@ -1,0 +1,19 @@
+============================================================================
+t = 2 : are the absent permutations blocked, or just larger than |lambda| <= 34 ?
+============================================================================
+
+  absent permutations examined      : 1399
+  realisable at a larger |lambda|   : 1087
+  with no solution at any size      : 312
+  their minimal |lambda|: min 36, median 42, max 135  (my sweep stopped at 34)
+    genuinely absent: (2, 2, 4) is attained, (2, 4, 2) has no solution
+    genuinely absent: (2, 2, 4) is attained, (4, 2, 2) has no solution
+    genuinely absent: (2, 4, 6) is attained, (2, 6, 4) has no solution
+    genuinely absent: (2, 4, 6) is attained, (4, 6, 2) has no solution
+    genuinely absent: (2, 4, 6) is attained, (6, 2, 4) has no solution
+    genuinely absent: (2, 4, 6) is attained, (6, 4, 2) has no solution
+
+  CONTROL: the same routine on triples I DID attain must find them all, at a size <= 34.
+           789 of 855 attained triples reproduced by the parametrisation
+
+DONE

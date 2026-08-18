@@ -1,0 +1,59 @@
+========================================================================================================
+V1-V6  every step of the proof, and V5 is the one that decides
+========================================================================================================
+
+     t   r  shapes | V1 bad  V2 bad  V3 bad  V4 bad | V5 bad  max|G|  |G|=2  | V6 bad  K2 decoy bad
+  ----------------------------------------------------------------------------------------------------
+     1   2    2225 |      0       0       0       0 |      0       1      0 |      0             0
+     2   2    2227 |      0       0       0       0 |      0       2    197 |      0           291
+     2   3    1313 |      0       0       0       0 |      0       2    165 |      0           116
+     3   2    2667 |      0       0       0       0 |      0       1      0 |      0           633
+     4   1    4664 |      0       0       0       0 |      0       2    141 |      0           758
+     4   2    4295 |      0       0       0       0 |      0       2    359 |      0           995
+     4   3    1457 |      0       0       0       0 |      0       2    162 |      0           299
+     5   2    1855 |      0       0       0       0 |      0       1      0 |      0           484
+     6   2    1118 |      0       0       0       0 |      0       2     68 |      0           220
+     6   3     484 |      0       0       0       0 |      0       2     36 |      0            82
+     7   2     375 |      0       0       0       0 |      0       1      0 |      0            61
+     8   2     595 |      0       0       0       0 |      0       2     14 |      0            83
+     9   2     331 |      0       0       0       0 |      0       1      0 |      0            36
+    10   2     836 |      0       0       0       0 |      0       2      7 |      0            95
+
+  totals: violations 0 (must be 0).  |G| = 2 occurs 1149 times.
+  K1 non-vacuity: |G|=2 occurs (yes); odd-t shapes exist (7453)
+  K2 the three decoys, WITH DENOMINATORS -- a decoy that is right 80% of the time is not a
+     decoy, and the first version of this file printed 3710 with no denominator at all:
+       rank by c_{k,j}       : wrong on   4153 of  24442 defined ( 17.0%), undefined on      0
+       rank by c_{k,j-1}     : wrong on   1613 of  24442 defined (  6.6%), undefined on      0
+       rank by f_k(j), level : wrong on   5585 of  13991 defined ( 39.9%), undefined on  10451
+     'up' is the NEAR MISS: if it fails at the same rate as 'low', then 'low' failing says
+     nothing about the PAIR -- it only says the ranking key matters.  Read the two together.
+
+  PROVED AND NON-VACUOUS: |G| <= 2 always, |G| = 1 whenever t is odd, and the greedy
+  selection of the r largest pair-sums reproduces the maximiser SET exactly.
+
+========================================================================================================
+V7  when |G| = 2, is the tie value V congruent to C = min S + max S mod t?
+========================================================================================================
+
+     t   r  |G|=2 | V=C mod t   V!=C mod t | of those with [Phi]top=0: V=C   V!=C   cond(ii)
+  ----------------------------------------------------------------------------------------------------
+     2   2    197 |         98          99 |                           32      0         32
+     2   3    165 |         82          83 |                            6      0          6
+     4   1    141 |        141           0 |                          141      0        141
+     4   2    359 |        106         253 |                           44      0         44
+     4   3    162 |         40         122 |                            8      0          8
+     6   2     68 |         21          47 |                           10      0         10
+     6   3     36 |          7          29 |                            3      0          3
+     8   2     14 |         10           4 |                            3      0          3
+    10   2      7 |          6           1 |                            0      0          0
+
+  |G| = 2 on 1149 shapes: V = C mod t on 511, V != C on 638.
+  restricted to the shapes where [Phi]_top vanishes: V = C on 247, V != C on 0.
+
+  READING.  Whenever the top-degree part vanishes -- which Phi_t = 0 forces -- the tied
+  classes ARE the two fixed classes of sigma_C.  With Corollary B that says
+        Phi_t = 0  =>  both fixed classes of sigma_C are excess classes  =  condition (ii),
+  measured with no exception; the missing lemma is exactly  [Phi]_top = 0  =>  V = C mod t.
+
+DONE

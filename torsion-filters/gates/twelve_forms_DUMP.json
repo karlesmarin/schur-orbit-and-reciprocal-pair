@@ -1,0 +1,7230 @@
+{
+ "t4_r2": {
+  "nulas": [
+   {
+    "beta": [
+     12,
+     10,
+     8,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     3
+    ],
+    "l_lambda": 3,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 12,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     8,
+     7,
+     6,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 4,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     9,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     4,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     6,
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     10,
+     9,
+     8,
+     7,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 12,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     5
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     2,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     8,
+     7,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     3,
+     3,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     8,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     4,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     7,
+     5,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     3,
+     2
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "cuota_pesos": [
+     2,
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "beta": [
+     10,
+     9,
+     7,
+     6,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     2,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 12,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     0,
+     1,
+     2,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     9,
+     6,
+     5,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     4,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     6,
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     5,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     5,
+     5,
+     2,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     6,
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     8,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     3,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     4,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     3,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     7,
+     5,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     4,
+     3,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     2,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     8,
+     7,
+     5,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     3,
+     3,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     8,
+     5,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     4,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     1,
+     2
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     7,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     4,
+     4,
+     4,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     7,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     4,
+     4,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 28,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     3,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     5,
+     5,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 28,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     1,
+     2
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     8,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     6,
+     6,
+     5,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 32,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     5,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     3,
+     1,
+     2
+    ]
+   }
+  ],
+  "n_no_nulas": 1420,
+  "no_nulas_muestra": [
+   {
+    "beta": [
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [],
+    "l_lambda": 0,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 0,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     4
+    ],
+    "l_lambda": 2,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 9,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     6,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     1
+    ],
+    "l_lambda": 3,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 11,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     10,
+     8,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     4,
+     3
+    ],
+    "l_lambda": 3,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     8,
+     6,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 10,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     7,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     2,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     10,
+     8,
+     7,
+     6,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 9,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     8,
+     6,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     3,
+     2
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     2,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     9,
+     7,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     4,
+     3
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     10,
+     7,
+     6,
+     5,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 7,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     7,
+     5,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     7,
+     6,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     2
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     2
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     7,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     4,
+     3,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     10,
+     9,
+     7,
+     6,
+     5,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 12,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     3,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     9,
+     8,
+     7,
+     5,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     3,
+     3,
+     3,
+     2
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     6,
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     5,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     5,
+     5,
+     2
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 23,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     6,
+     3,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     9,
+     8,
+     6,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     3
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 19,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     2
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     9,
+     7,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     6,
+     5,
+     4
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 27,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     2,
+     0,
+     2
+    ],
+    "cuota_pesos": [
+     2,
+     2,
+     0,
+     2
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     6,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     0,
+     2,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     8,
+     7,
+     6,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     2,
+     2,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     5,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     10,
+     9,
+     6,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     4,
+     4,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     2,
+     2,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     4,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 23,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     5,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     9,
+     8,
+     6,
+     5,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     3,
+     3,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     6,
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     7,
+     5,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     3,
+     2,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 21,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     0,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     7,
+     6,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     4,
+     3,
+     3,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     1,
+     2,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     1,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     6,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     6,
+     6,
+     3,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 28,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     1,
+     2,
+     1
+    ],
+    "cuota_pesos": [
+     2,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     9,
+     7,
+     6,
+     5,
+     4,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     3,
+     2,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     7,
+     5,
+     4,
+     1,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     4,
+     3,
+     2,
+     2
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     10,
+     9,
+     7,
+     6,
+     4,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     4,
+     4,
+     3,
+     3,
+     2
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 22,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     2,
+     2,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     7,
+     4,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     4,
+     4,
+     2
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 27,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     5,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     9,
+     7,
+     6,
+     5,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     4,
+     3,
+     3,
+     3
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     6,
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     2
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     7,
+     5,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     5,
+     5,
+     4,
+     3
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 28,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     6,
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     2
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     2,
+     2
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     8,
+     6,
+     1,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     5,
+     5,
+     5,
+     4
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 30,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     2,
+     2,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     2,
+     2
+    ]
+   },
+   {
+    "beta": [
+     12,
+     9,
+     6,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     3,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     2,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     10,
+     9,
+     8,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     2,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     9,
+     7,
+     6,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     3,
+     2,
+     2,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     9,
+     8,
+     7,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     3,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     5,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     5,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 25,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     2,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     4,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     8,
+     6,
+     5,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     4,
+     3,
+     2,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     2,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     8,
+     7,
+     5,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     3,
+     3,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 21,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     2,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     3,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     5,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     5,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 26,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     3,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     3,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     9,
+     8,
+     6,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     4,
+     4,
+     3,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     2,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     4,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     7,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     6,
+     6,
+     4,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 30,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     4,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     3,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     8,
+     6,
+     5,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     2,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     2
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     9,
+     7,
+     5,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     4,
+     3,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     3,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     3,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     10,
+     9,
+     7,
+     6,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     4,
+     4,
+     3,
+     3,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 23,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     2,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     4,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     7,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     5,
+     4,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 27,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     1,
+     2
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     1,
+     2
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     9,
+     7,
+     6,
+     5,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     4,
+     3,
+     3,
+     3,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 26,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     3,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     2,
+     3,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     7,
+     5,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     4,
+     4,
+     3,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 29,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     2,
+     2,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     2,
+     3,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     7,
+     6,
+     2,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     5,
+     4,
+     4,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 31,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     2,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     2,
+     4,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     9,
+     7,
+     6,
+     5,
+     4,
+     3,
+     0
+    ],
+    "lambda": [
+     6,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 19,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     3,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     3,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     6,
+     5,
+     4,
+     3,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     2,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 23,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     2,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     5,
+     4,
+     3,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     6,
+     6,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 30,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     2,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     3,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     8,
+     6,
+     4,
+     3,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     5,
+     4,
+     3,
+     2,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 27,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     2,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     3,
+     2,
+     1
+    ]
+   },
+   {
+    "beta": [
+     11,
+     9,
+     8,
+     7,
+     6,
+     5,
+     3,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     3,
+     3,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 21,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     2,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     9,
+     8,
+     6,
+     5,
+     3,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     4,
+     4,
+     3,
+     3,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 27,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     3,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     3,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     8,
+     5,
+     3,
+     0
+    ],
+    "lambda": [
+     6,
+     6,
+     5,
+     5,
+     5,
+     3,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 32,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     2,
+     3,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     3,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     7,
+     3,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 32,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [
+     4,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     2,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     2,
+     2,
+     2,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     7,
+     6,
+     5,
+     4,
+     0
+    ],
+    "lambda": [
+     6,
+     5,
+     5,
+     3,
+     3,
+     3,
+     3
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 28,
+    "par_lambda": 0,
+    "par_beta": 0,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     0,
+     2,
+     2,
+     2
+    ],
+    "cuota_pesos": [
+     0,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     5,
+     4,
+     0
+    ],
+    "lambda": [
+     5,
+     5,
+     5,
+     5,
+     5,
+     3,
+     3
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 31,
+    "par_lambda": 1,
+    "par_beta": 1,
+    "t_core": [
+     5,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     2,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     2,
+     2
+    ]
+   }
+  ]
+ },
+ "t6_r2": {
+  "nulas": [
+   {
+    "beta": [
+     12,
+     11,
+     9,
+     7,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     2,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 9,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 9,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     7,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     2,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     9,
+     8,
+     7,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     8,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 19,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     7,
+     5,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     2,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 21,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     7,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     8,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     3,
+     3,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 21,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     7,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 21,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     9,
+     8,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 27,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     0,
+     0,
+     0,
+     1
+    ]
+   }
+  ],
+  "n_no_nulas": 479,
+  "no_nulas_muestra": [
+   {
+    "beta": [
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [],
+    "l_lambda": 0,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 0,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     9,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     1
+    ],
+    "l_lambda": 2,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 4,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4
+    ],
+    "l_lambda": 2,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 8,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     10,
+     8,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     2,
+     1
+    ],
+    "l_lambda": 3,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 7,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     9,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     2
+    ],
+    "l_lambda": 3,
+    "estable": true,
+    "rect_impar": false,
+    "abs_lambda": 8,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     3,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     10,
+     9,
+     8,
+     7,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 4,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     8,
+     7,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     1,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 8,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     9,
+     7,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     2,
+     1
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 11,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     4,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     9,
+     8,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     2,
+     2
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 10,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     5,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "l_lambda": 4,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 12,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     8,
+     7,
+     6,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 10,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     9,
+     8,
+     6,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 9,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     6,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     1
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 14,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     8,
+     7,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     2,
+     2
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 14,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     2,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     9,
+     8,
+     4,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     3,
+     3
+    ],
+    "l_lambda": 5,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [],
+    "t_core_vacio": true,
+    "t_core_len": 0,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     9,
+     7,
+     6,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     2,
+     2,
+     2,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 9,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     6,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     2,
+     2,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 11,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     6,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     3,
+     1,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     7,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     8,
+     5,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     3,
+     1
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     7,
+     6,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     2,
+     2
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     8,
+     7,
+     3,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     3,
+     3
+    ],
+    "l_lambda": 6,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 22,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     0,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     9,
+     7,
+     6,
+     5,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     2,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 10,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     6,
+     5,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 12,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     6,
+     5,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     3,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     9,
+     8,
+     7,
+     5,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     2,
+     2,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     8,
+     5,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     3,
+     3,
+     1,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 19,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     7,
+     6,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     8,
+     7,
+     4,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     3,
+     3,
+     1
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     2,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     7,
+     6,
+     5,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     7,
+     5,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     2
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     0,
+     0,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     0,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     9,
+     7,
+     6,
+     2,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     3,
+     3
+    ],
+    "l_lambda": 7,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 26,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 10,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     6,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 13,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     6,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     8,
+     7,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     2,
+     2,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     8,
+     5,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     3,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 22,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     6,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 19,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     8,
+     7,
+     4,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     3,
+     3,
+     1,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 24,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     7,
+     6,
+     5,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     4,
+     4
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     8,
+     7,
+     5,
+     3,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     3,
+     3,
+     2,
+     1
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 25,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     4,
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     0,
+     1,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     1,
+     0
+    ],
+    "lambda": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 16,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     8,
+     6,
+     5,
+     4,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 22,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     1,
+     1,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     1,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     9,
+     8,
+     5,
+     4,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     2,
+     2
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 28,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     8,
+     7,
+     6,
+     5,
+     1,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "l_lambda": 8,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 25,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     4,
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     0,
+     1,
+     1,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     0,
+     1,
+     1,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 11,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 15,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     3,
+     3
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     8,
+     6,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 17,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     2,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     11,
+     10,
+     9,
+     8,
+     7,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     2,
+     2,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 14,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     8,
+     7,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 19,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 1,
+    "cuota_tam": [
+     1,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     8,
+     5,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     3,
+     1,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     2,
+     2,
+     2,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 4,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     8,
+     7,
+     6,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     11,
+     10,
+     9,
+     8,
+     6,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     3,
+     3,
+     3,
+     3,
+     2,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 21,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     1,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     9,
+     7,
+     4,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     3,
+     1,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 26,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     1,
+     2,
+     0,
+     0,
+     0,
+     1
+    ],
+    "cuota_pesos": [
+     1,
+     2,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     7,
+     6,
+     5,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 20,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     3,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     11,
+     10,
+     9,
+     6,
+     5,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     2,
+     2,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 26,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     3,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   {
+    "beta": [
+     12,
+     11,
+     10,
+     9,
+     8,
+     7,
+     6,
+     3,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     1,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 23,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     1,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     0,
+     1,
+     1
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     0,
+     1,
+     1
+    ]
+   },
+   {
+    "beta": [
+     12,
+     10,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 18,
+    "par_lambda": 0,
+    "par_beta": 1,
+    "t_core": [
+     3,
+     2,
+     1
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 3,
+    "cuota_tam": [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   {
+    "beta": [
+     13,
+     12,
+     10,
+     9,
+     7,
+     6,
+     5,
+     4,
+     2,
+     0
+    ],
+    "lambda": [
+     4,
+     4,
+     3,
+     3,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "l_lambda": 9,
+    "estable": false,
+    "rect_impar": false,
+    "abs_lambda": 23,
+    "par_lambda": 1,
+    "par_beta": 0,
+    "t_core": [
+     3,
+     2
+    ],
+    "t_core_vacio": false,
+    "t_core_len": 2,
+    "cuota_tam": [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ],
+    "cuota_pesos": [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,52 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal
+====================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+
+  C0 PASA
+
+====================================================================================================================
+N1  LA CAUSA, con contrafactual -- poblacion OBJETIVO entera, no solo supervivientes
+====================================================================================================================
+
+  t=4 r=2  (W <= 22)
+     interior Phi' == 0 | banda +2s cancela |   n   | ejemplo
+        SI  | SI  |   182 | (10, 9, 7, 4, 3, 2, 1, 0)
+     desacuerdos: 0   |   casilla no/no (el contrafactual): 0 <-- VACIA: aqui el control NO PUEDE FALLAR
+
+  t=6 r=3  (W <= 20)
+     interior Phi' == 0 | banda +2s cancela |   n   | ejemplo
+        SI  | SI  |    98 | (14, 13, 11, 10, 9, 6, 5, 4, 3, 2, 1, 0)
+        no  | no  |   142 | (16, 15, 14, 11, 7, 6, 5, 4, 3, 2, 1, 0)
+     desacuerdos: 0   |   casilla no/no (el contrafactual): 142 poblada
+
+  t=8 r=3  (W <= 21)
+     interior Phi' == 0 | banda +2s cancela |   n   | ejemplo
+        SI  | SI  |   100 | (18, 17, 15, 13, 11, 8, 7, 6, 5, 4, 3, 2, 1, 0)
+        no  | no  |    64 | (20, 19, 18, 14, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0)
+     desacuerdos: 0   |   casilla no/no (el contrafactual): 64 poblada
+
+====================================================================================================================
+N2  EL MECANISMO -- 'la banda factoriza como espectadores x Phi'' : REFUTADO
+====================================================================================================================
+
+     t  r | casos con Phi' != 0 | (|sop banda|, |sop Phi'|) | mismo tamaño | coefs iguales
+  --------------------------------------------------------------------------------------------------------
+     6  3 |                 142 | [(1350, 144), (1350, 144)] | 0 de 142     | 0 de 142
+     8  3 |                  64 | [(1392, 144), (1392, 144)] | 0 de 64      | 0 de 64
+
+====================================================================================================================
+N3  VEREDICTO
+====================================================================================================================
+
+     N1  banda +2s cancela  <=>  Phi'(interior) == 0 : 0 desacuerdos, contrafactual con 206 casos
+     N2  la banda es Phi' trasladado                 : 0 de 206  -> REFUTADO
+
+     LO QUE QUEDA: dos polinomios de tamaños INCOMPARABLES -- ~1350 monomios contra 144 -- que
+     se anulan EXACTAMENTE A LA VEZ.  No es una factorizacion.  El mecanismo esta ABIERTO, y
+     es mejor pregunta que la que habia: el eslabon que sostiene todo el dia tiene ahora una
+     causa medida con contrafactual, y una explicacion propuesta y MUERTA.
+
+DONE

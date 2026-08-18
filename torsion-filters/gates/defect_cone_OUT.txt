@@ -1,0 +1,60 @@
+================================================================================================================
+C0  ACEPTACION -- fatal
+================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+  C0b  la familia YA publicada (v = (4,2,2,2,2,2,2,0)) se re-mide: 21 miembros, prof 6..46   ok
+
+  C0 PASA
+
+================================================================================================================
+N1  LA PREDICCION, escrita en la cabecera ANTES de correr:  v* = (4,4,4,4,0,0,0,0)
+================================================================================================================
+
+     v* es concentrico (4+0 en los cuatro pares) y == 0 (mod 4): NO mueve las clases de residuos.
+     Si la ley es del DEFECTO, tiene que generar familia.
+
+  semilla A = (18, 17, 11, 8, 7, 6, 1, 0)
+        j    W   prof  cancelan  defecto
+        0   18      6         2   (0, 0, -1, -3)
+     -> 1 miembros; prof NO en progresion aritmetica  LA PREDICCION FALLA A MEDIAS; defecto CONSTANTE (0, 0, -1, -3)
+
+  semilla B = (18, 13, 11, 8, 7, 6, 5, 0)
+        j    W   prof  cancelan  defecto
+        0   18      6         2   (0, 0, -1, -3)
+     -> 1 miembros; prof NO en progresion aritmetica  LA PREDICCION FALLA A MEDIAS; defecto CONSTANTE (0, 0, -1, -3)
+
+================================================================================================================
+N2  EL CONO ENTERO contra EL SENUELO -- el control que decide si la causa es la concentricidad
+================================================================================================================
+
+     vectores no-crecientes con entradas 0..6 : 3002, de los cuales 118 concentricos y 2884 no
+
+  CONO (v concentrico)         : 3 de 118 generan familia (prof en progresion aritmetica, >=4 miembros)
+       (4, 2, 2, 2, 2, 2, 2, 0)     9 miembros, prof +2 por paso, cancelan 4
+       (5, 3, 3, 3, 3, 3, 3, 1)     9 miembros, prof +2 por paso, cancelan 4
+       (6, 4, 4, 4, 4, 4, 4, 2)     9 miembros, prof +2 por paso, cancelan 4
+       de esas, 0 tienen el defecto VARIANDO (la ley predice 0 en el cono)
+
+  SENUELO (v NO concentrico)   : 0 de 2884 generan familia (prof en progresion aritmetica, >=4 miembros)
+
+================================================================================================================
+N3  VEREDICTO
+================================================================================================================
+
+     cono     : 3 de 118 concentricos generan familia  (3%)
+     senuelo  : 0 de 2884 NO concentricos generan familia  (0%)
+     defecto que varia dentro del cono: 0  (la ley predice 0)
+
+     LA LEY AGUANTA: el defecto es invariante en TODO el cono, y ser concentrico separa
+     de verdad -- el senuelo no genera familias al mismo ritmo.  Luego 'para todo K existe
+     un beta de profundidad > K' no es una patologia: es que el lugar de ceros tiene un
+     CONO de direcciones que lo aproximan sin tocarlo, y la profundidad es el orden de
+     contacto a lo largo de cada rayo.
+
+     Lo que esto NO es: una prueba.  El defecto invariante SI esta probado (dos lineas de
+     algebra, arriba), pero 'defecto constante => la familia sigue siendo superviviente' es
+     MEDIDO, no probado: el criterio de superviviente no es solo el defecto.
+
+DONE

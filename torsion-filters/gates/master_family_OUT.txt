@@ -1,0 +1,29 @@
+====================================================================================================
+FAMILIA MAESTRA paso 1: ¿CANCEL eventualmente CONSTANTE, o solo periodica por clase?
+====================================================================================================
+
+--- t=4 r=2  semilla (18, 17, 11, 8, 7, 6, 1, 0)   (hi=18, lo=0)
+    rho | n con superviviente | CANCEL observados (n: valor)            | cola estable
+      0 |                  16 | 0:2  4:2  8:2  12:3  16:4  20:4  24:4  | [4]
+      1 |                   0 | (ninguno; 15 descartados)                  | --
+      2 |                  15 | 2:2  6:2  10:2  14:3  18:4  22:4  26:4 | [4]
+      3 |                   0 | (ninguno; 15 descartados)                  | --
+    *** las clases [1, 3] NO TIENEN NI UN SUPERVIVIENTE en el rango: c_rho no esta definido ahi.
+        No se dice 'constante en todas las clases' con clases vacias: una clase vacia no coincide, falta.
+    -> clases con cola de un solo valor: 2 de 2
+       VEREDICTO: CANCEL eventualmente CONSTANTE, valor 4, en las 2 clases QUE TIENEN supervivientes ([0, 2])
+
+--- t=6 r=3  semilla (16, 15, 14, 13, 11, 6, 5, 4, 3, 2, 1, 0)   (hi=16, lo=0)
+    rho | n con superviviente | CANCEL observados (n: valor)            | cola estable
+      0 |                   9 | 0:2  6:5  12:8  18:11  24:14  30:17  3 | [14, 17, 20, 23, 24]
+      1 |                   0 | (ninguno; 8 descartados)                  | --
+      2 |                   8 | 2:3  8:6  14:9  20:12  26:15  32:18  3 | [15, 18, 21, 24]
+      3 |                   0 | (ninguno; 8 descartados)                  | --
+      4 |                   0 | (ninguno; 8 descartados)                  | --
+      5 |                   0 | (ninguno; 8 descartados)                  | --
+    *** las clases [1, 3, 4, 5] NO TIENEN NI UN SUPERVIVIENTE en el rango: c_rho no esta definido ahi.
+        No se dice 'constante en todas las clases' con clases vacias: una clase vacia no coincide, falta.
+    -> clases con cola de un solo valor: 0 de 2
+       VEREDICTO: alguna clase no se ha estabilizado en el rango barrido
+
+====================================================================================================

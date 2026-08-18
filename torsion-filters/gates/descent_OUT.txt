@@ -1,0 +1,91 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal
+====================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+
+  C0b  Phi == 0  <=>  (i) y (ii)   t=4 r=2 : 5448 de 5448   ok
+  C0b  Phi == 0  <=>  (i) y (ii)   t=6 r=2 : 3033 de 3033   ok
+
+  C0 PASA
+
+====================================================================================================================
+N1  EL DESCENSO -- con el numero de habitantes de A ANTES de leer la implicacion
+====================================================================================================================
+
+  t=4 r=2  (14194 formas, W <= 17)
+     A: Phi_r == 0 | B: Phi' == 0 |   n
+        SI  | SI  |     88
+        no  | SI  |    624
+        no  | no  |  13482
+     habitantes de A: 88 
+     descartados ANTES de la tabla: {('el interior pierde ocupacion', True): 40, ('el interior pierde ocupacion', False): 1042}   (de ellos con A cierto: 40, o sea el 31% de A)
+     A => B : SI  (0 fallos de 88)
+
+  t=6 r=2  (14700 formas, W <= 17)
+     A: Phi_r == 0 | B: Phi' == 0 |   n
+        SI  | SI  |     48
+        no  | SI  |    468
+        no  | no  |  14184
+     habitantes de A: 48 
+     descartados ANTES de la tabla: {('el interior pierde ocupacion', False): 120, ('el interior pierde ocupacion', True): 30}   (de ellos con A cierto: 30, o sea el 38% de A)
+     A => B : SI  (0 fallos de 48)
+
+  t=6 r=3  (3695 formas, W <= 16)
+     A: Phi_r == 0 | B: Phi' == 0 |   n
+        SI  | SI  |     26
+        no  | SI  |     56
+        no  | no  |   3613
+     habitantes de A: 26 
+     descartados ANTES de la tabla: {('el interior pierde ocupacion', True): 1}   (de ellos con A cierto: 1, o sea el 4% de A)
+     A => B : SI  (0 fallos de 26)
+
+====================================================================================================================
+N2  LA FRONTERA -- dado B, es  Phi_r == 0  <=>  C' == C ?
+====================================================================================================================
+
+  t=4 r=2  (712 formas con B cierto)
+     A: Phi_r == 0 | C' == C |   n
+        SI  | SI  |     88
+        no  | SI  |     14
+        no  | no  |    610
+     desacuerdos: 14  ->  NO es C' == C sola
+     señuelo C' == C (mod t)         : 80 desacuerdos
+     señuelo interior concentrico    : 624 desacuerdos  (B ya lo implica, tiene que fallar)
+     con (ii) añadida: C' == C y (ii)  : 14 desacuerdos 
+
+  t=6 r=2  (516 formas con B cierto)
+     A: Phi_r == 0 | C' == C |   n
+        SI  | SI  |     48
+        no  | SI  |     48
+        no  | no  |    420
+     desacuerdos: 48  ->  NO es C' == C sola
+     señuelo C' == C (mod t)         : 48 desacuerdos
+     señuelo interior concentrico    : 468 desacuerdos  (B ya lo implica, tiene que fallar)
+     con (ii) añadida: C' == C y (ii)  : 48 desacuerdos 
+
+  t=6 r=3  (82 formas con B cierto)
+     A: Phi_r == 0 | C' == C |   n
+        SI  | SI  |     26
+        no  | SI  |      8
+        no  | no  |     48
+     desacuerdos: 8  ->  NO es C' == C sola
+     señuelo C' == C (mod t)         : 8 desacuerdos
+     señuelo interior concentrico    : 56 desacuerdos  (B ya lo implica, tiene que fallar)
+     con (ii) añadida: C' == C y (ii)  : 8 desacuerdos 
+
+====================================================================================================================
+N3  VEREDICTO
+====================================================================================================================
+
+     DESCENSO   Phi_r == 0 => Phi_{r-1} == 0 del interior : 0 fallos sobre 162 habitantes
+     FRONTERA   t=4 r=2 : C'==C -> 14 desacuerdos   |   C'==C y (ii) -> 14
+     FRONTERA   t=6 r=2 : C'==C -> 48 desacuerdos   |   C'==C y (ii) -> 48
+     FRONTERA   t=6 r=3 : C'==C -> 8 desacuerdos   |   C'==C y (ii) -> 8
+
+     LO QUE ESTO SERIA SI AGUANTA: la ruta deja de ser HORIZONTAL (acotar estratos, muerta
+     tres veces esta semana) y pasa a ser una INDUCCION EN r, con t=2 cerrado y r=1 de base.
+     LO QUE NO ES: una prueba.  El descenso esta MEDIDO, no probado, y la frontera tambien.
+
+DONE

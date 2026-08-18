@@ -1,0 +1,61 @@
+============================================================================================================
+N1  LA FAMILIA CON PASO 1 -- se anula y no se anula, alternando; y los testigos
+============================================================================================================
+
+    n | Phi==0 |  C | g_com      | fibras | aisladas | exponentes aislados (ordenados)
+    0 | False  | 18 | [6, 8]     |    204 |       80 | (-17, -5), (-17, -3), (-17, 3), (-17, 5) ...
+    1 | True   | 18 | []         |     96 |        0 | 
+    2 | False  | 18 | [6, 8]     |    244 |      112 | (-19, -5), (-19, -3), (-19, 3), (-19, 5) ...
+    3 | True   | 18 | []         |     80 |        0 | 
+    4 | False  | 18 | [6, 8]     |    228 |      104 | (-21, -5), (-21, -3), (-21, 3), (-21, 5) ...
+    5 | True   | 18 | []         |     80 |        0 | 
+    6 | False  | 18 | [6, 8]     |    240 |      120 | (-23, -5), (-23, -3), (-23, 3), (-23, 5) ...
+    7 | True   | 18 | []         |     96 |        0 | 
+    8 | False  | 18 | [6, 8]     |    240 |      120 | (-25, -5), (-25, -3), (-25, 3), (-25, 5) ...
+    9 | True   | 18 | []         |     80 |        0 | 
+   10 | False  | 18 | [6, 8]     |    240 |      120 | (-27, -5), (-27, -3), (-27, 3), (-27, 5) ...
+
+  C2  los miembros que SE ANULAN dan cero aislados: SI, como debe ser
+  y su g_com es [()] en los que se anulan
+  frente a [(6, 8)] en los que no
+
+============================================================================================================
+N2  ¿ES EL EXTREMO DE ALGUN ORDEN MONOMIAL UN TESTIGO AISLADO?
+============================================================================================================
+
+  Si lo es, 'Phi != 0' sale de mirar UN termino, que es la segunda filtracion que se propone.
+
+    n | grado total (señuelo)      | lex z1>>z2      | lex z1>>-z2     | -z1>>z2
+    0 | 4 cand, aislado? False     | (18, 10) no     | (18, -10) no    | (-18, 10) no   
+    2 | 4 cand, aislado? False     | (22, 10) no     | (22, -10) no    | (-22, 10) no   
+    4 | 4 cand, aislado? False     | (26, 10) no     | (26, -10) no    | (-26, 10) no   
+    6 | 4 cand, aislado? False     | (30, 10) no     | (30, -10) no    | (-30, 10) no   
+    8 | 4 cand, aislado? False     | (34, 10) no     | (34, -10) no    | (-34, 10) no   
+   10 | 4 cand, aislado? False     | (38, 10) no     | (38, -10) no    | (-38, 10) no   
+
+============================================================================================================
+N3  EL ATOMO QUE PRODUCE EL TESTIGO -- ¿es el mismo (T, S) en toda la familia?
+============================================================================================================
+
+    n | testigo lex-minimo | T del atomo                    | reparto S | rel. con C y g_com
+    0 | (-17, -5)          | (17, 11, 6, 0)                 | (2, 3)    | m1+C=1  m2=-5
+    2 | (-19, -5)          | (20, 11, 6, 1)                 | (2, 3)    | m1+C=-1  m2=-5
+    4 | (-21, -5)          | (17, 11, 6, -4)                | (2, 3)    | m1+C=-3  m2=-5
+    6 | (-23, -5)          | (24, 11, 6, 1)                 | (2, 3)    | m1+C=-5  m2=-5
+    8 | (-25, -5)          | (17, 11, 6, -8)                | (2, 3)    | m1+C=-7  m2=-5
+   10 | (-27, -5)          | (28, 11, 6, 1)                 | (2, 3)    | m1+C=-9  m2=-5
+
+============================================================================================================
+C1  DECOY CORREGIDO -- solo fibras EQUILIBRADAS, que es la comparacion de igual a igual
+============================================================================================================
+
+   t  r   W | poblacion            n | fibras equilibradas | de ellas, de tamaño 2
+    4  2  14 | Phi == 0              28 |                2508 |  62.2 %
+    4  2  14 | Phi != 0  [DECOY]     41 |                 412 |  83.5 %
+    6  2  15 | Phi == 0              33 |                4752 |  66.7 %
+    6  2  15 | Phi != 0  [DECOY]     41 |                 376 |  83.0 %
+
+  Si los dos porcentajes se parecen, el K_2 del guion anterior era en buena parte el efecto
+  de que en una forma que se anula NO HAY fibras impares, y no una diferencia de estructura.
+
+============================================================================================================

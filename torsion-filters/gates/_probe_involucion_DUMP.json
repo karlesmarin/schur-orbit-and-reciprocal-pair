@@ -1,0 +1,96 @@
+{
+ "I0": [
+  1196,
+  1196
+ ],
+ "I1": [
+  266,
+  313
+ ],
+ "I2": [
+  208,
+  266
+ ],
+ "I3": [
+  166,
+  266
+ ],
+ "I4": [
+  197,
+  333
+ ],
+ "E1_senuelo": [
+  208,
+  266
+ ],
+ "dist_intercambios": {
+  "0": 47,
+  "1": 266
+ },
+ "fallos": [
+  {
+   "que": "conjunto contribuyente NO conexo por intercambios",
+   "t": 3,
+   "r": 2,
+   "Lambda": [
+    3,
+    0,
+    0
+   ],
+   "X": [
+    8,
+    -6
+   ],
+   "n_objs": 2,
+   "alcanzados": 1
+  },
+  {
+   "que": "conjunto contribuyente NO conexo por intercambios",
+   "t": 3,
+   "r": 2,
+   "Lambda": [
+    3,
+    1,
+    1
+   ],
+   "X": [
+    8,
+    -6
+   ],
+   "n_objs": 2,
+   "alcanzados": 1
+  },
+  {
+   "que": "conjunto contribuyente NO conexo por intercambios",
+   "t": 3,
+   "r": 2,
+   "Lambda": [
+    3,
+    2,
+    1
+   ],
+   "X": [
+    8,
+    -6
+   ],
+   "n_objs": 2,
+   "alcanzados": 1
+  },
+  {
+   "que": "conjunto contribuyente NO conexo por intercambios",
+   "t": 3,
+   "r": 2,
+   "Lambda": [
+    3,
+    2,
+    2
+   ],
+   "X": [
+    4,
+    2
+   ],
+   "n_objs": 2,
+   "alcanzados": 1
+  }
+ ]
+}

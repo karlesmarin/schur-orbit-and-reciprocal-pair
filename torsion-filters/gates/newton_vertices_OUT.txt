@@ -1,0 +1,67 @@
+============================================================================================================
+N1  LA FAMILIA TESTIGO -- el poligono de Newton de Phi, vertice a vertice
+============================================================================================================
+
+    n | Phi==0 | soporte | vertices | atomos por vertice | los vertices
+    0 | False  |     124 |        8 | [1, 1, 1, 1, 1, 1, 1, 1] | [(-17, -5), (-17, 5), (-5, -17), (-5, 17), (
+    1 | True   |       0 | -- se anula: no hay poligono
+    2 | False  |     136 |        8 | [1, 1, 1, 1, 1, 1, 1, 1] | [(-19, -5), (-19, 5), (-5, -19), (-5, 19), (
+    3 | True   |       0 | -- se anula: no hay poligono
+    4 | False  |     152 |        8 | [1, 1, 1, 1, 1, 1, 1, 1] | [(-21, -5), (-21, 5), (-5, -21), (-5, 21), (
+    5 | True   |       0 | -- se anula: no hay poligono
+    6 | False  |     160 |        8 | [1, 1, 1, 1, 1, 1, 1, 1] | [(-23, -5), (-23, 5), (-5, -23), (-5, 23), (
+    7 | True   |       0 | -- se anula: no hay poligono
+    8 | False  |     160 |        8 | [1, 1, 1, 1, 1, 1, 1, 1] | [(-25, -5), (-25, 5), (-5, -25), (-5, 25), (
+    9 | True   |       0 | -- se anula: no hay poligono
+   10 | False  |     160 |        8 | [1, 1, 1, 1, 1, 1, 1, 1] | [(-27, -5), (-27, 5), (-5, -27), (-5, 27), (
+
+  Un vertice con UN atomo es un coeficiente +-1 que no puede cancelarse con nada:
+  demuestra Phi != 0 mirando un solo termino.
+
+============================================================================================================
+N2  LA POBLACION -- ¿es TODO vertice un atomo suelto?   C1  y el DECOY que tiene que fallar
+============================================================================================================
+
+   t  r   W |   n | N2: formas con TODOS los vertices sueltos | C1 decoy: idem con las fibras
+             |     |     (soporte real de Phi)                |     que cancelan incluidas
+    4  2  14 | 121 |   120  ( 99.2 %)                          |   111  ( 91.7 %)
+    4  2  15 | 121 |   120  ( 99.2 %)                          |   110  ( 90.9 %)
+    6  2  15 | 121 |   120  ( 99.2 %)                          |   117  ( 96.7 %)
+    4  3  14 | 121 |   110  ( 90.9 %)                          |   105  ( 86.8 %)
+             |     | primer contraejemplo: (12, 8, 7, 6, 5, 4, 3, 2, 1, 0)  atomos [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+    6  3  16 | 121 |   111  ( 91.7 %)                          |   113  ( 93.4 %)
+             |     | primer contraejemplo: (14, 13, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0)  atomos [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+
+  C1  el decoy TIENE que dar un porcentaje mas bajo: si los vertices de TODAS las fibras
+      fueran siempre sueltos, Phi no podria anularse jamas y N2 seria una tautologia.
+
+============================================================================================================
+C3  EL CONTROL DONDE SI PUEDE FALLAR -- sobre las formas que SE ANULAN
+============================================================================================================
+
+  Si Phi == 0, TODO vertice de la envolvente de los exponentes CANDIDATOS tiene que llevar
+  >= 2 atomos: un vertice con uno solo seria un +-1 que nada cancela, o sea Phi != 0.  Este
+  control PUEDE fallar y su fallo seria una contradiccion, no un matiz.
+
+   t  r   W |   n | vertices con 1 solo atomo | minimo de atomos por vertice
+    4  2  14 |  28 |                         0 | 2   consistente
+    6  2  15 |  33 |                         0 | 2   consistente
+    4  3  14 |  14 |                         0 | 2   consistente
+    6  3  16 |  27 |                         0 | 2   consistente
+
+  Esto es la version CON CONTENIDO de la 'residual rigidity' que se propone: la anulacion
+  no obliga a una involucion, pero SI obliga a colision en los EXTREMOS.
+
+============================================================================================================
+N3  ¿SE DESCRIBEN LOS VERTICES EN CERRADO?  contra invariantes de S
+============================================================================================================
+
+    n | S                                    | C  | vertices (a,b) con |a|>=|b| | a vs maxS-1
+    0 | [0, 1, 6, 7, 8, 11, 17, 18]          | 18 | [(17, 5)]                   | maxS-1 = 17  IGUAL
+    2 | [-2, 1, 6, 7, 8, 11, 17, 20]         | 18 | [(19, 5)]                   | maxS-1 = 19  IGUAL
+    4 | [-4, 1, 6, 7, 8, 11, 17, 22]         | 18 | [(21, 5)]                   | maxS-1 = 21  IGUAL
+    6 | [-6, 1, 6, 7, 8, 11, 17, 24]         | 18 | [(23, 5)]                   | maxS-1 = 23  IGUAL
+    8 | [-8, 1, 6, 7, 8, 11, 17, 26]         | 18 | [(25, 5)]                   | maxS-1 = 25  IGUAL
+   10 | [-10, 1, 6, 7, 8, 11, 17, 28]        | 18 | [(27, 5)]                   | maxS-1 = 27  IGUAL
+
+============================================================================================================

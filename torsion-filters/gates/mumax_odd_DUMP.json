@@ -1,0 +1,66 @@
+[
+ {
+  "t": 2,
+  "r": 2,
+  "tipo": "C",
+  "n": 122,
+  "sigma_C_acierta": 122,
+  "sigma_D_acierta": 0,
+  "sigma_C": [
+   5,
+   3
+  ],
+  "sigma_D": [
+   3,
+   1
+  ]
+ },
+ {
+  "t": 4,
+  "r": 2,
+  "tipo": "C",
+  "n": 303,
+  "sigma_C_acierta": 303,
+  "sigma_D_acierta": 0,
+  "sigma_C": [
+   7,
+   5
+  ],
+  "sigma_D": [
+   5,
+   3
+  ]
+ },
+ {
+  "t": 3,
+  "r": 2,
+  "tipo": "D",
+  "n": 82,
+  "sigma_C_acierta": 82,
+  "sigma_D_acierta": 0,
+  "sigma_C": [
+   6,
+   4
+  ],
+  "sigma_D": [
+   4,
+   2
+  ]
+ },
+ {
+  "t": 5,
+  "r": 2,
+  "tipo": "D",
+  "n": 41,
+  "sigma_C_acierta": 41,
+  "sigma_D_acierta": 0,
+  "sigma_C": [
+   8,
+   6
+  ],
+  "sigma_D": [
+   6,
+   4
+  ]
+ }
+]

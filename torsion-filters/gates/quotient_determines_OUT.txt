@@ -1,0 +1,28 @@
+t=3 : 489 cocientes distintos ; choques (mismo cociente, terna distinta): 695
+    lambda=(11, 3, 3)  terna=(6, 9, 15)  beta=[15, 6, 5, 1, 0]
+    lambda=(8, 2, 2, 2, 1)  terna=(3, 9, 10)  beta=[12, 5, 4, 3, 1]
+    -> mismo t-cociente, ternas DISTINTAS
+    lambda=(17, 1, 1, 1)  terna=(3, 18, 21)  beta=[21, 4, 3, 2, 0]
+    lambda=(14, 4)  terna=(6, 10, 18)  beta=[18, 7, 2, 1, 0]
+    -> mismo t-cociente, ternas DISTINTAS
+t=4 : 320 cocientes distintos ; choques (mismo cociente, terna distinta): 968
+    lambda=(10, 4, 3, 1, 1, 1)  terna=(4, 10, 12)  beta=[15, 8, 6, 3, 2, 1]
+    lambda=(10, 8)  terna=(6, 12, 12)  beta=[15, 12, 3, 2, 1, 0]
+    -> mismo t-cociente, ternas DISTINTAS
+    lambda=(7, 6, 1, 1, 1, 1)  terna=(4, 8, 8)  beta=[12, 10, 4, 3, 2, 1]
+    lambda=(7, 2, 2, 2, 2, 1)  terna=(4, 8, 10)  beta=[12, 6, 5, 4, 3, 1]
+    -> mismo t-cociente, ternas DISTINTAS
+t=5 : 226 cocientes distintos ; choques (mismo cociente, terna distinta): 1008
+    lambda=(10, 3, 3, 1)  terna=(5, 8, 15)  beta=[16, 8, 7, 4, 2, 1, 0]
+    lambda=(7, 6, 1, 1, 1, 1)  terna=(5, 10, 11)  beta=[13, 11, 5, 4, 3, 2, 0]
+    -> mismo t-cociente, ternas DISTINTAS
+    lambda=(10, 3, 3, 1)  terna=(5, 8, 15)  beta=[16, 8, 7, 4, 2, 1, 0]
+    lambda=(5, 3, 3, 2, 2, 1)  terna=(4, 5, 5)  beta=[11, 8, 7, 5, 4, 2, 0]
+    -> mismo t-cociente, ternas DISTINTAS
+t=6 : 126 cocientes distintos ; choques (mismo cociente, terna distinta): 1004
+    lambda=(9, 3, 3, 3, 2)  terna=(2, 6, 6)  beta=[16, 9, 8, 7, 5, 2, 1, 0]
+    lambda=(9, 5, 4, 2, 2)  terna=(6, 6, 10)  beta=[16, 11, 9, 6, 5, 2, 1, 0]
+    -> mismo t-cociente, ternas DISTINTAS
+    lambda=(10, 4, 3, 1, 1, 1)  terna=(6, 8, 12)  beta=[17, 10, 8, 5, 4, 3, 1, 0]
+    lambda=(10, 8)  terna=(6, 12, 12)  beta=[17, 14, 5, 4, 3, 2, 1, 0]
+    -> mismo t-cociente, ternas DISTINTAS

@@ -1,0 +1,49 @@
+casos: 315
+
+V1  A == B  (directo vs Levi)                    : 0 fallos de 315
+V2  grado total == 2|rho|-|nu|-|lambda|          : 0 fallos de 315
+V4  componente de grado maximo coincide          : 0 fallos de 315
+V3  Dmax(Levi) <= Dmax(transversales)            : 0 fallos de 262
+V5  s_nu(mu_t) = 0  <=>  t-nucleo NO vacio       : 0 fallos de 3460
+V6  SENUELO graduacion sum|e_j|  (debe fallar)   : 266 formas donde NO refina
+V7  SENUELO graduacion |rho|-|nu| (debe fallar)  : 166 formas donde NO refina
+
+V8  no vacuidad: [Phi]_top = 0 en 262 ; |G| = 2 en 19 ; nu con s_nu(mu_t) = 0 en 2364
+V9  PUENTE  (|G|, #pares (nu,rho) en grado maximo):
+        |G|=1  pares=0  : 251
+        |G|=2  pares=0  : 11
+
+================================================================================
+CORRECCION 2026-08-12 -- V8/V9 ESTABAN ROTOS, y al arreglarlos el marco de Levi
+sale VERIFICADO pero mi conclusion sobre el sale REFUTADA.
+
+DEFECTO.  Compare el grado maximo de Phi_t contra el Dmax de las transversales.  Ese Dmax es el del
+NUMERADOR det M, y Phi_t = det M / det M_0.  Falta el offset de lambda = vacio.  Las diferencias
+(g_ext, g_int) no lo notan porque se cancela; el Dmax absoluto si.  Por eso "[Phi]_top = 0 en 262 de
+262" y "pares = 0 siempre": no eran hallazgos, era el offset.
+
+CON EL OFFSET PUESTO:
+  dmax(Phi) == Dmax(beta) - Dmax(vacio)      261 de 262
+  la UNICA excepcion es  beta = (10,9,7,4,3,2,1,0),  t=4, r=2,  lambda = (3,3,2):  |G| = 2, el
+  estrato de arriba se CANCELA y el grado real cae 2.  Es nuestro beta canonico y la caida de 2 es
+  la misma que mide second_stratum.py por transversales.  Tres rutas sin nada en comun coinciden.
+
+EL PUENTE  (|G| por transversales,  #pares (nu,rho) en el grado maximo):
+        |G|=1  pares=1  : 213        |G|=2  pares=2 : 1
+        |G|=1  pares=2  :   4        |G|=2  pares=3 : 7
+        |G|=1  pares=3  :  24        |G|=2  pares=4 : 2
+        |G|=1  pares=4  :   6        |G|=2  pares=5 : 1
+        |G|=1  pares=5  :   3
+        |G|=1  pares=11 :   1
+
+LECTURA, y va contra lo que yo dije.  El trozo graduado de arriba NO es una sola componente de
+Levi: con |G| = 1 hay hasta ONCE pares (nu,rho) en el grado maximo.  O sea la descomposicion de
+Levi es mas FINA pero mas FLOJA: no acota el numero de terminos, mientras que el cuadro de
+transversales tiene |G| <= 2 como TEOREMA.  Mi frase "el segundo estrato es una suma de POCAS
+componentes LR con multiplicidades conocidas" esta REFUTADA por esta tabla.
+
+VEREDICTO.  El marco de Levi es exacto y queda verificado (V1, V2, V4 a 0), pero como INSTRUMENTO
+para el estrato de arriba es PEOR que el Laplace por transversales que ya teniamos.  Lo que si
+compra: (a) la atribucion -- el estrato de arriba es una degeneracion de Levi, clasica, no un
+lema ad hoc; (b) la localizacion exacta de la anulacion en el factor GL(t), que es Littlewood
+(V5: 0 fallos de 3460, con 2364 nu anulandose).  Seguimos con transversales.

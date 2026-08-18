@@ -1,0 +1,77 @@
+====================================================================================================================
+C0  ACEPTACION -- fatal.  La parametrizacion por incrementos contra la FUERZA BRUTA.
+====================================================================================================================
+
+     formas contrastadas               : 4049
+     G(incrementos) != G(fuerza bruta) : 0 
+     A no es la mitad de arriba de T   : 0
+
+  C0 PASA
+
+     formas con |G| = 2 : 24718 ;  de ellas con [Phi]_top = 0 : 2522  (archivado: 2522)  ok
+
+====================================================================================================================
+N1  EL MOTOR:  v en L_A n L_B  =>  tau - v en H_A n H_B   (de T_B = tau - T_A)
+====================================================================================================================
+
+     T_B = tau - T_A verificado en           : 2522 de 2522
+     habitantes de 'v en L_A n L_B'          : 3034   (si fuera 0, esto no diria nada)
+     fallos de 'tau - v en H_A n H_B'        : 0
+
+====================================================================================================================
+N2  A1, INSTRUMENTADA: la razon por la que cada extremo se salva
+====================================================================================================================
+
+     A1 falla en : 0 de 2522 []
+        Delta_k(1) >= tau          : 2522
+        Delta_last <= tau          : 2522
+        max: Delta_k(1) > tau      : 1024
+        max: clase empatada        : 1498
+        min: Delta_last > tau      : 1024
+        min: clase empatada        : 1498
+
+====================================================================================================================
+N3  EL CONTROL QUE PUEDE FALLAR: |G| = 2 pero SIN [Phi]_top = 0
+====================================================================================================================
+
+     Si A1 se cumpliera tambien aqui, la prueba estaria apoyandose en una hipotesis que no
+     hace falta, y habria que sospechar de ella.  El testigo construido a mano:
+        beta = (200, 199, 198, 197, 194, 193, 191, 4)   t=4 r=2
+        incrementos: [392, 390, 390, 204]
+        tau = 390 ;  clases empatadas = (1, 3) ;  |G| = 2
+        max0: j = [(0, 0), (1, 0), (2, 1), (3, 1)] H = [199, 198]       g = [200, 197, 194, 191] L = [193, 4]  deg = 200
+        max1: j = [(0, 0), (1, 1), (2, 1), (3, 0)] H = [198, 197]       g = [200, 199, 194, 193] L = [191, 4]  deg = 200
+        max S = 200 ;  descartado por los DOS: True
+        inv(T_A) = (5, ((0, 0), (188, 0)))
+        inv(T_B) = (6, ((0, 0), (186, 0)))   ->  iguales: False
+
+     Y el barrido: sobre TODAS las formas con |G| = 2, se cuenta A1 contra [Phi]_top = 0.
+     [Phi]_top = 0                      | A1 (ningun extremo descartado por los dos) |   n
+     ------------------------------------------------------------------------------
+        SI                              | SI                                 |   2522   ej: (8, 7, 6, 5, 3, 2, 1, 0)
+        no                              | SI                                 |  21782   ej: (9, 8, 7, 4, 3, 2, 1, 0)
+        no                              | no                                 |    414   ej: (12, 9, 7, 6, 3, 2, 1, 0)
+     desacuerdos: 21782 de 24718
+     veredicto: NO separa (21782 desacuerdos)
+
+     COMO SE LEE ESTA TABLA, y no es como la lee el 'veredicto' de arriba.  Aqui NO se afirma
+     un bicondicional: se afirma la IMPLICACION [Phi]_top = 0 => A1.  Lo que la hace portante
+     es que la casilla (top0 = no, A1 = no) tenga habitantes, y los tiene:
+        A1 FALSA con |G| = 2 y [Phi]_top != 0 : 414 formas
+        A1 FALSA con [Phi]_top  = 0           : 0 formas
+     Que A1 se cumpla ademas en 21782 formas con [Phi]_top != 0 no debilita nada: dice que la
+     hipotesis es SUFICIENTE y no necesaria, que es exactamente lo que la prueba afirma.
+     habitantes del antecedente '[Phi]_top = 0': 2522
+     [Phi]_top = 0 => A1 : SI  (0 fallos sobre 2522 habitantes, 24718 formas en total)
+
+====================================================================================================================
+VEREDICTO
+====================================================================================================================
+
+     A1 sobre [Phi]_top = 0 : 2522 de 2522, y la prueba de la cabecera la explica caso a caso.
+     A1 SIN esa hipotesis   : falla (ver la tabla de N3).  La hipotesis es NECESARIA.
+     Luego  C = tau  es TEOREMA, y  Phi_t == 0 => (ii)  queda INCONDICIONAL.
+
+     ALCANCE: mismo barrido que c_eq_tau.py (tope de reloj).  La PRUEBA no tiene alcance:
+     lo medido aqui es que el codigo dice lo que la prueba dice, no que la prueba valga.
+DONE

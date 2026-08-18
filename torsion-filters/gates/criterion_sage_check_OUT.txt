@@ -1,0 +1,15 @@
+Este fichero NO es una salida.  Lo que contenia era el error de Docker de la noche del 14 de agosto
+de 2026 -- el demonio no respondia y la corrida no escribio una sola linea.  Se deja como puntero y
+no se borra para que nadie lo lea como un resultado vacio.
+
+La salida buena de la corrida esta en:
+
+    criterion_sage_check_OUT_2026-08-15.txt      (la corrida, con su cabecera y sus tres controles)
+    ../paper/anc/outputs/criterion_sage.txt      (la copia archivada que check_numbers.py greppea)
+
+VEREDICTO de esa corrida: CONFIRMA -- 12937 formas, 131 ceros, 14 configuraciones, 0 falsos
+positivos y 0 falsos negativos, K1 a 0 desacuerdos, K2 disparando en 14 de 14, K3 con 0 falsos
+descartes.
+
+Por que el nombre lleva fecha desde ayer: relanzar con `> ..._OUT.txt` se comio la salida buena de
+las 18:24 y hubo que recuperarla a mano.  Ver [[stale-outputs-lie]].

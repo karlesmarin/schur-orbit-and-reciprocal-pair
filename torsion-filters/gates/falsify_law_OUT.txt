@@ -1,0 +1,96 @@
+================================================================================================================
+C0  ACEPTACION -- fatal
+================================================================================================================
+
+  C0a  probe() == scan()  t=4 r=2 M=15 : ok
+  C0a  probe() == scan()  t=6 r=2 M=17 : ok
+  C0a  probe() == scan()  t=6 r=3 M=18 : ok
+  C0b  la familia minima ya publicada se re-mide: 11 miembros, ok
+
+  C0 PASA
+
+================================================================================================================
+N1  UNIVERSALIDAD -- la ley contra TODOS los supervivientes de t=4 r=2 hasta W=30
+================================================================================================================
+
+  144 supervivientes en W = 7..30  (44 s)
+  la ley (prof +2 por paso, 10 pasos) se cumple en 134 de 144  (93.1%)
+  LOS QUE FALLAN, uno a uno (hasta 20):
+     (24, 23, 14, 10, 9, 7, 1, 0)               prof=6   canc=2   se rompe en j=1
+     (24, 23, 14, 13, 10, 7, 1, 0)              prof=6   canc=2   se rompe en j=1
+     (24, 23, 14, 11, 10, 9, 1, 0)              prof=8   canc=2   se rompe en j=1
+     (24, 23, 17, 14, 11, 10, 1, 0)             prof=6   canc=2   se rompe en j=1
+     (24, 23, 15, 14, 13, 10, 1, 0)             prof=8   canc=2   se rompe en j=1
+     (24, 23, 17, 15, 14, 10, 1, 0)             prof=6   canc=2   se rompe en j=1
+     (24, 21, 14, 11, 10, 9, 3, 0)              prof=6   canc=2   se rompe en j=1
+     (24, 21, 15, 14, 13, 10, 3, 0)             prof=6   canc=2   se rompe en j=1
+     (28, 27, 18, 13, 11, 10, 1, 0)             prof=10  canc=2   se rompe en j=1
+     (28, 27, 18, 17, 15, 10, 1, 0)             prof=10  canc=2   se rompe en j=1
+  los fallos por anchura: {24: 8, 28: 2}
+  los fallos por profundidad de partida: {6: 6, 8: 2, 10: 2}
+
+================================================================================================================
+N2  EL PASO -- por que 2, y por que simetrico
+================================================================================================================
+
+     generador                        de 60 semillas, cuantas dan familia de 10 pasos
+  --------------------------------------------------------------------------------------------
+     simetrico  s=1  (1,0..0,-1)        0 de 60   
+     simetrico  s=2  (2,0..0,-2)        52 de 60   <-- funciona
+     simetrico  s=3  (3,0..0,-3)        0 de 60   
+     simetrico  s=4  (4,0..0,-4)        0 de 60   
+     solo ARRIBA s=1                    0 de 60   
+     solo ARRIBA s=2                    0 de 60   
+     solo ABAJO  s=1                    0 de 60   
+     solo ABAJO  s=2                    0 de 60   
+
+================================================================================================================
+N3  SEÑUELO -- mover un punto INTERIOR en vez de los extremos
+================================================================================================================
+
+     mover beta[1] en +2 : 0 de 60 
+     mover beta[1] en -2 : 0 de 60 
+     mover beta[2] en +2 : 0 de 60 
+     mover beta[2] en -2 : 0 de 60 
+     mover beta[3] en +2 : 0 de 60 
+     mover beta[3] en -2 : 0 de 60 
+     mover beta[4] en +2 : 0 de 60 
+     mover beta[4] en -2 : 0 de 60 
+     mover beta[5] en +2 : 0 de 60 
+     mover beta[5] en -2 : 0 de 60 
+     mover beta[6] en +2 : 0 de 60 
+     mover beta[6] en -2 : 0 de 60 
+     ningun senuelo interior genera familia.  Son LOS EXTREMOS, no una deformacion cualquiera.
+
+================================================================================================================
+N4  LAS OTRAS (t, r) -- la pregunta original, sin barrido exhaustivo largo
+================================================================================================================
+
+     PREDICHO en la cabecera, antes de correr:  s = 2 si t = 2r,  s = 1 si no.
+
+     t   r   N | supervivientes | s=1  s=2  s=3  s=4 | s minimo | pendiente 1/s | t=2r?
+  --------------------------------------------------------------------------------------------------------
+     4   2   8 |     64 ( 60 us) | 0    52   0    0    | 2        | 1/2           | SI
+     6   2  10 |     64 ( 60 us) | 0    0    0    0    | ninguno  | -             | no
+     6   3  12 |     12 ( 12 us) | 0    0    0    0    | ninguno  | -             | SI
+     8   3  14 |     90 ( 60 us) | 0    0    0    0    | ninguno  | -             | no
+     6   4  14 |     14 ( 14 us) | 0    0    0    0    | ninguno  | -             | no
+     8   2  12 |  0 (hasta W=24) | -    -    -    -   | -        | -             | no
+    10   2  14 |  0 (hasta W=23) | -    -    -    -   | -        | -             | no
+
+================================================================================================================
+N5  VEREDICTO
+================================================================================================================
+
+  N1  universalidad : 134 de 144 supervivientes de t=4 r=2 cumplen la ley
+  N2  el paso       : simetricos=2=52
+  N3  senuelo       : 0 de todos -- son los extremos
+  N4  otras (t,r)   : familia encontrada en 1 de 7 configuraciones
+      la prediccion 's=2 si y solo si t=2r' : ACIERTA en las 1
+        t=4 r=2 : s = 2, pendiente 1/2 (t=2r)
+
+  ALCANCE: los supervivientes salen de barridos exhaustivos con tope de RELOJ, asi que
+  'ninguno falla' significa 'ninguno de los que hay hasta ese tope'.  Lo que NO depende del
+  tope es la iteracion: cada familia llega a anchuras que ningun barrido alcanza.
+
+DONE

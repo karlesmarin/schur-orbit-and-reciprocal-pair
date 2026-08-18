@@ -1,0 +1,18 @@
+  t= 3 r=2 cota  6 :    16 clases,    16 con entradas en {0,-1}
+  t= 5 r=2 cota  4 :    22 clases,    22 con entradas en {0,-1}
+  t= 7 r=2 cota  3 :    18 clases,    18 con entradas en {0,-1}
+  t= 3 r=3 cota  4 :    49 clases,    49 con entradas en {0,-1}
+  t= 3 r=2 cota 12 :    17 clases,    17 con entradas en {0,-1}
+  t= 5 r=2 cota  7 :    31 clases,    31 con entradas en {0,-1}
+  t= 7 r=2 cota  5 :    23 clases,    23 con entradas en {0,-1}
+  t= 3 r=3 cota  6 :    69 clases,    69 con entradas en {0,-1}
+  t= 5 r=3 cota  3 :    36 clases,    36 con entradas en {0,-1}
+  t= 3 r=4 cota  3 :    88 clases,    88 con entradas en {0,-1}
+
+  Z1  toda clase tiene entradas en {0,-1}  : 369 de 369
+  Z3  SENUELO: matrices 0/+-1 aleatorias   : 53 de 66
+
+  LECTURA: si Z1 sale entero y Z3 se hunde, M es -- salvo permutaciones con signo -- una
+  matriz 0/1, y la conjetura de unimodularidad cae en la teoria clasica en vez de ser nueva.
+
+DONE

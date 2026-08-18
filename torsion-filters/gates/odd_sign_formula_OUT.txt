@@ -1,0 +1,15 @@
+============================================================================================================
+EL SIGNO DEL FILTRO IMPAR:  ¿tau^B = sgn(sigma) prod eps ?
+============================================================================================================
+   t | m' | eta probados | vivos | la formula acierta | SEÑUELO sin prod eps | signo al azar
+   ----------------------------------------------------------------------------------------------------
+    3 |  1 |            7 |     5 |             7 de 7 |               5 de 7 | 3 de 5
+    5 |  2 |           36 |    13 |           23 de 36 |             30 de 36 | 6 de 13
+    7 |  3 |          147 |    29 |         147 de 147 |           131 de 147 | 18 de 29
+
+============================================================================================================
+  LECTURA, escrita ANTES de correr: si la formula acierta el 100 %, el signo impar queda
+  cerrado y la Figura 2 se puede colorear por el; si no, el panel impar se colorea solo por
+  supervivencia y se dice en el pie.
+============================================================================================================
+DONE
