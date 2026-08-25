@@ -18,12 +18,13 @@ The header of every script states what it tests and, where it applies, the *deco
 run against it --- a deliberately wrong variant which had to fail. That discipline is the
 reason the verification tables can distinguish a result from an agreement.
 
-## Gates (266)
+## Gates (267)
 
-> Tres guiones mas viven en el directorio de trabajo y **no viajan**: su asunto es el
-> proceso --- correspondencia y la herramienta de lectura de PDF de un tercero ---, no
-> un enunciado del articulo, y ninguno sostiene una cifra citada. Es el mismo criterio
-> que ya deja fuera a otros cuatro.
+> Once guiones mas viven en `_privado/` y **no viajan**: su asunto es el proceso ---
+> correspondencia, las rondas de un lector externo, la herramienta de lectura de PDF de
+> un tercero, y lo que lee nuestra biblioteca privada ---, no un enunciado del
+> articulo, y ninguno sostiene una cifra citada. Estan **aparte por su sitio**, no por
+> una lista de nombres: el empaquetador no mira ahi, asi que no puede olvidarse.
 
 | script | what it does | archived output |
 |---|---|---|
@@ -63,6 +64,7 @@ reason the verification tables can distinguish a result from an agreement.
 | `_probe_t3_coste.sage` | SONDA DE COSTE del bucle T0 de pIII_universal_t3.sage.   19 de agosto de 2026. | yes |
 | `_probe_tauC.sage` | .Tiene el filtro de tipo C una constante de normalizacion, como el de tipo B? | -- |
 | `_probe_timing.sage` | (sin titulo) | -- |
+| `_probe_toggle.py` | EL TOGGLE ESTRECHO: NO INTERCAMBIOS ARBITRARIOS, SINO EL PASO DENTRO DE UNA CLASE. | yes |
 | `_probe_univsp.sage` | SONDA: .por que univ_sp devuelve None?   19 de agosto de 2026. | yes |
 | `_probe_weyl_doble.py` | .CUANTA CANCELACION ES SOLO ANTISIMETRIA DE WEYL? | yes |
 | `_repl_safe.py` | Deja un .sage REPL-safe: ninguna linea en blanco dentro de NINGUN bloque compuesto de nivel | -- |

@@ -1,0 +1,44 @@
+========================================================================================================
+EL TOGGLE ESTRECHO: cambiar UN elemento por el de su clase a distancia 2t
+========================================================================================================
+
+  sobre los 313 pares que se cancelan (puntos distintos):
+
+  T1  ES el toggle exacto (|V_a - V_b| = 2t, misma quiralidad) : 175 de 313
+  T2  relajado a multiplo de 2t                                : 208 de 313
+  T3  relajado a multiplo de t                                 : 208 de 313
+
+  J1  SENUELO: el mismo toggle con paso 3t                     : 0 de 313
+
+  T6  el toggle AMPLIADO (un intercambio en UNA clase a distancia multiplo de t)
+      : 255 de 313
+
+  T7  el toggle COMPLETO, con la quiralidad ACOPLADA al signo de plegado : 313 de 313
+        misma clase, mismo signo de plegado, misma quiralidad :   208
+        misma clase, signo de plegado OPUESTO, quiralidad volteada :    58
+        quiralidad pura                                      :    47
+
+  NOTA sobre J1: los V_i son todos IMPARES, luego V_a - V_b es PAR; si ademas es multiplo
+      de t (impar), es multiplo de 2t.  Por eso T2 == T3 y por eso el paso 3t da 0 por
+      construccion.  El senuelo confirma la aritmetica, no discrimina hipotesis.
+
+  T4  los que NO son el toggle exacto, .que son?
+        un cambio PERO quiralidad distinta :    58
+        quiralidad pura (S igual)          :    47
+        un cambio, distancia no 2t         :    33
+
+  y en los que SI son el toggle, de donde sale el -1:
+        delta'/delta=+1   (s.sg)'/(s.sg)=-1  :   167
+        delta'/delta=-1   (s.sg)'/(s.sg)=+1  :     8
+
+  testigos de 'un cambio pero la distancia no es 2t':
+    t=3 Lambda=[4, 2, 0] V=[13, 7, 1] : V_a=13 V_b=1 dif=12 (2t=6)
+    t=3 Lambda=[4, 3, 0] V=[13, 9, 1] : V_a=13 V_b=1 dif=12 (2t=6)
+    t=3 Lambda=[4, 4, 0] V=[13, 11, 1] : V_a=13 V_b=1 dif=12 (2t=6)
+
+  LECTURA: si T1 sale entero, la involucion es el toggle y la cancelacion se demuestra sin
+  Kac-Walton.  Si no, T4 dice exactamente que otras piezas hacen falta -- y la observacion
+  afin (2t = producto de dos reflexiones, signo +1) dice que el -1 no puede venir del salto.
+
+========================================================================================================
+DONE

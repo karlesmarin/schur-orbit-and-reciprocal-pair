@@ -16,7 +16,7 @@ pair; this one takes up what happens with two or more.
 
 | directory | what it holds |
 |---|---|
-| `gates/` | the computations behind the claims — 266 scripts, 239 of them with the archived run that produced their numbers |
+| `gates/` | the computations behind the claims — 267 scripts, 240 of them with the archived run that produced their numbers |
 | `figures/` | the 15 scripts that draw the figures of the paper: the thirteen figures themselves, and the two that redraw them with Spanish labels |
 | `audits/` | the 25 checks run on the manuscript itself rather than on the mathematics |
 | `MANIFEST.md` | every script, one line on what it does, and whether its run is archived |
@@ -44,11 +44,18 @@ To check a number, find the script in `MANIFEST.md`, read its header, and either
 
 ## What is deliberately not here
 
-A handful of scripts stay in the working directory and do not travel: their subject is the *process*
-— correspondence, and a third party's PDF-reading tool — rather than a statement of the paper. None
-of them is the sole support of a number the paper quotes; that was checked against the source, not
-assumed. The paper's own verification section quotes a gate count from the version in which they
-still travelled, so it reads three higher than this bundle.
+Eleven scripts live in a private directory and do not travel: their subject is the *process* —
+correspondence, an external reader's rounds, a third party's PDF-reading tool, and one that reads a
+private library of PDFs — rather than a statement of the paper. None of them is the sole support of
+a number the paper quotes; that was checked against the source, not assumed.
+
+They are held apart **by location, not by a list of names**. A name list cannot see what is inside a
+file, and — worse — excluding a file by name leaves the references to it dangling in what does
+ship. A check now refuses to release a bundle in which anything imports or reads a file that is not
+in it.
+
+The paper's own verification section quotes a gate count taken before this separation, so it reads
+two higher than this bundle.
 
 ## What this material does not claim
 

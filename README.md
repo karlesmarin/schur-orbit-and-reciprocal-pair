@@ -40,8 +40,8 @@ The root of this repository is the bundle of the **first** paper, the one arXiv 
 [2608.09619](https://arxiv.org/abs/2608.09619). The **second** --- *Schur polynomials twisted by
 roots of unity and reciprocal pairs: torsion filters, fusion quotients, and total unimodularity at
 odd order*, [arXiv:2608.18302](https://arxiv.org/abs/2608.18302), announced 20 August 2026 and now
-at v2 --- has its own directory, [`torsion-filters/`](torsion-filters), with its own README: 266
-gate scripts, 239 of them with their archived run, the 15 that draw its figures and the 25 that
+at v2 --- has its own directory, [`torsion-filters/`](torsion-filters), with its own README: 267
+gate scripts, 240 of them with their archived run, the 15 that draw its figures and the 25 that
 check its manuscript. The PDF is not here: arXiv carries it, and one copy is enough. What is here is
 the code and the data behind it.
 

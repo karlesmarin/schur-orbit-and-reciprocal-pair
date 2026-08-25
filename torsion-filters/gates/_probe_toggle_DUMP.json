@@ -1,0 +1,94 @@
+{
+ "n_pares": 313,
+ "T1": 175,
+ "T2": 208,
+ "T3": 208,
+ "J1_senuelo": 0,
+ "T6_ampliado": [
+  255,
+  313
+ ],
+ "T7_completo": [
+  313,
+  313
+ ],
+ "forma": {
+  "misma clase, mismo signo de plegado, misma quiralidad": 208,
+  "misma clase, signo de plegado OPUESTO, quiralidad volteada": 58,
+  "quiralidad pura": 47
+ },
+ "resto": {
+  "un cambio PERO quiralidad distinta": 58,
+  "quiralidad pura (S igual)": 47,
+  "un cambio, distancia no 2t": 33
+ },
+ "signos_en_el_toggle": {
+  "(-1, 1)": 8,
+  "(1, -1)": 167
+ },
+ "testigos": [
+  {
+   "t": 3,
+   "Lambda": [
+    4,
+    2,
+    0
+   ],
+   "X": [
+    4,
+    -2
+   ],
+   "V": [
+    13,
+    7,
+    1
+   ],
+   "V_a": 13,
+   "V_b": 1,
+   "dif": 12,
+   "2t": 6
+  },
+  {
+   "t": 3,
+   "Lambda": [
+    4,
+    3,
+    0
+   ],
+   "X": [
+    6,
+    -2
+   ],
+   "V": [
+    13,
+    9,
+    1
+   ],
+   "V_a": 13,
+   "V_b": 1,
+   "dif": 12,
+   "2t": 6
+  },
+  {
+   "t": 3,
+   "Lambda": [
+    4,
+    4,
+    0
+   ],
+   "X": [
+    8,
+    -2
+   ],
+   "V": [
+    13,
+    11,
+    1
+   ],
+   "V_a": 13,
+   "V_b": 1,
+   "dif": 12,
+   "2t": 6
+  }
+ ]
+}
