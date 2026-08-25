@@ -1,0 +1,22 @@
+====================================================================================================
+ORCID Y DATACITE  ---  .llega el Paper II solo?
+====================================================================================================
+
+  10.48550/arXiv.2608.18302
+    estado        : findable   version 1   actualizado 2026-08-20T01:51:16.000Z
+    titulo        : Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion 
+    creator       : Mar�n, Carles                 nameIdentifiers: [] VACIO   <-- SIN iD: NO LLEGARA SOLO
+
+  10.48550/arXiv.2608.09619
+    estado        : findable   version 2   actualizado 2026-08-18T04:09:06.000Z
+    titulo        : Factorization and vanishing of Schur polynomials twisted by roots of unity and reciprocal 
+    creator       : Mar�n, Carles                 nameIdentifiers: [] VACIO   <-- SIN iD: NO LLEGARA SOLO
+
+  ORCID 0009-0007-5637-9688 : 44 grupos de obras
+    [2608.09619] put-code 223326737    fuente Carles Mar�n Mu�oz      Factorization and vanishing of Schur polynomials twisted by 
+    fuentes : {'DataCite': 43, 'Carles Mar�n Mu�oz': 1}
+
+    .esta 2608.18302 (Paper II) en ORCID? : NO
+
+====================================================================================================
+DONE

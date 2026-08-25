@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL CUADRADO CONMUTATIVO:  las dos factorizaciones del mismo objeto.   15 de agosto de 2026.
 #
-# DE DONDE SALE.  Reseña del Paper II, propuesta 2.  El mismo objeto admite dos ordenes de proceso:
-#
 #   CAMINO A (el del companion) -- primero la RAIZ, despues el alfabeto libre:
 #       s_lambda(mu_t u W) = sum_nu eps_nu s_nu(W),        eps_nu en {0,+-1}
 #   y luego, restringiendo GL_{2r} -> Sp_{2r} sobre el alfabeto reciproco,

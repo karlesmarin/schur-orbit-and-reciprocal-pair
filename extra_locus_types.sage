@@ -1,10 +1,10 @@
-# Problem 10.6, the computable half: does Theorem 5.2 (the extra locus) have an analogue for the
+# Problem 11.7, the computable half: does Theorem 5.2 (the extra locus) have an analogue for the
 # universal symplectic and orthogonal characters?
 #
 # THE QUESTION.  [AK25, Thm 5.3] says f_lambda(x, Y, zeta Y, ..., zeta^{t-1} Y) = f_lambda(x) iff
 # lambda is a t-core, for f of type s, sp or o.  Theorem 5.2 of this paper says that at OUR
 # specialization -- the free part being one reciprocal pair, and equality allowed up to SIGN -- the
-# criterion acquires exactly one extra family, and only for t even.  Problem 10.6 asks whether sp
+# criterion acquires exactly one extra family, and only for t even.  Problem 11.7 asks whether sp
 # and o behave the same way, and whether the extra family is again indexed by an order-two element.
 #
 # HOW IT IS TESTED.  Everything happens in Lambda, where adjoining letters is a specialization of
@@ -94,7 +94,7 @@ def tcore(lam, t):
 
 
 print("=" * 92)
-print("PROBLEM 10.6 -- the extra locus for the three types")
+print("PROBLEM 11.7 -- the extra locus for the three types")
 print("=" * 92)
 
 RESULT = {}
@@ -159,4 +159,4 @@ for tag, pairs in CONFIGS:
 print("")
 print("Read the two type-s rows against each other. If s keeps its extra family at two pairs, the")
 print("difference from sp and o is the TYPE. If it loses it, the extra family belongs to the")
-print("minimal alphabet, and Problem 10.6 is asking about minimality rather than about type.")
+print("minimal alphabet, and Problem 11.7 is asking about minimality rather than about type.")

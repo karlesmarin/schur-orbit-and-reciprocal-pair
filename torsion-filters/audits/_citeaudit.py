@@ -8,7 +8,11 @@ s = io.open('orbit_pair_ii.tex', encoding='utf-8').read()
 cuerpo = s.split(r'\begin{thebibliography}')[0]
 listadas = set(re.findall(r'\\bibitem\[[^\]]*\]\{([^}]*)\}', s))
 citadas = set()
-for m in re.findall(r'\\cite\{([^}]*)\}', cuerpo):
+# El argumento opcional de \cite[...] {...} lo tenia ciego: el 20 de agosto declaro Hall48 «nunca
+# citada» estando citada dos veces como \cite[Theorem 2]{Hall48}.  Un control que no ve una forma
+# valida del comando no es estricto, es incompleto --- y su falso positivo cuesta lo mismo que un
+# falso negativo, porque invita a «arreglar» lo que no esta roto.
+for m in re.findall(r'\\cite(?:\[[^\]]*\])?\{([^}]*)\}', cuerpo):
     for k in m.split(','):
         citadas.add(k.strip())
 print("entradas en la bibliografia :", len(listadas))

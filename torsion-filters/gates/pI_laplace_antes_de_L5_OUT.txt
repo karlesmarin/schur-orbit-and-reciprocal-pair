@@ -1,0 +1,32 @@
+====================================================================================================
+EL LADO DE LAPLACE, ANTES DE L5 --- Phi . (z^t-1)(z^-t-1)(z-z^-1) = suma sobre transversales
+====================================================================================================
+
+  t=2  (329 lambda, lambda_1 <= 7, 4 columnas de beta)
+    G1  FATAL  Phi.(z^t-1)(z^-t-1)(z-z^-1) == suma de transversales con signo Laplace
+        329 de 329   PASA
+    G2  numero de transversales admisibles : {0: 20, 3: 160, 4: 149}
+        el Paper I ya lo demuestra (0, 3 o 4); el instrumento lo reproduce --> SE CUMPLE
+    G3  ||lado de Laplace||_1 : {0: 40, 6: 160, 8: 129}     maximo 8
+    G4  el contraste, ||Phi||_1 contra ||Laplace||_1 :
+        ||Phi||_1   de 0 a 30
+        ||Lapl||_1  de 0 a 8
+        lambda con ||Phi||_1 > ||Lapl||_1 : 128 de 329
+    D1  SENUELO sin la condicion de residuos : rompe en 329 de 329  --> muerde
+    D2  SENUELO con todos los signos +1     : rompe en 309 de 329  --> muerde
+
+  t=3  (791 lambda, lambda_1 <= 7, 5 columnas de beta)
+    G1  FATAL  Phi.(z^t-1)(z^-t-1)(z-z^-1) == suma de transversales con signo Laplace
+        791 de 791   PASA
+    G2  numero de transversales admisibles : {0: 168, 3: 192, 4: 431}
+        el Paper I ya lo demuestra (0, 3 o 4); el instrumento lo reproduce --> SE CUMPLE
+    G3  ||lado de Laplace||_1 : {0: 168, 6: 192, 8: 431}     maximo 8
+    G4  el contraste, ||Phi||_1 contra ||Laplace||_1 :
+        ||Phi||_1   de 0 a 21
+        ||Lapl||_1  de 0 a 8
+        lambda con ||Phi||_1 > ||Lapl||_1 : 216 de 791
+    D1  SENUELO sin la condicion de residuos : rompe en 791 de 791  --> muerde
+    D2  SENUELO con todos los signos +1     : rompe en 623 de 791  --> muerde
+
+====================================================================================================
+DONE

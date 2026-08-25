@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # ¿VALE |A_mu| <= 1 PARA TODO mu, O SOLO PARA EL MAXIMO?   15 de agosto de 2026.
 #
-# DE DONDE SALE, Y POR QUE AHORA.  Yacobi (arXiv:0907.3247), verificado hoy en su abstract:
-#
 #   "each multiplicity space that arises in the restriction of an irreducible representation of
 #    Sp_{2n} to Sp_{2n-2} is canonically an irreducible module for the n-fold product of SL_2 ...
 #    This induces a canonical decomposition of the multiplicity spaces into one dimensional spaces"

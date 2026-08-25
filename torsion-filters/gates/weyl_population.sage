@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # ¿ES EL CONJUNTO DE SUPERVIVIENTES UN TORSOR DEL GRUPO DE WEYL?   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruce de dos cosas ya establecidas:
-#
 #   (a)  el filtro solo ve  a = eta + rho  MODULO t  (corolario de periodicidad), y si sobrevive las
 #        clases min(c_j, t-c_j) son una PERMUTACION de {1..m} con un vector de signos;
 #   (b)  el signo es  sgn(sigma) prod eps_j.

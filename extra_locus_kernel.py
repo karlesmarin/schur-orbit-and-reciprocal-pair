@@ -1,4 +1,4 @@
-"""extra_locus_kernel.py -- Problem 10.6 asks whether the extra locus can be read off the KERNEL of
+"""extra_locus_kernel.py -- Problem 11.7 asks whether the extra locus can be read off the KERNEL of
 the specialization.  This answers part of it: not from the kernel's existence, but from its size.
 
 Three free parts of size two are compared, each substituted into the criterion
@@ -89,7 +89,7 @@ FREE = [
 def main():
     bar = "=" * 76
     print(bar)
-    print("Problem 10.6: the extra locus against the kernel of the specialization")
+    print("Problem 11.7: the extra locus against the kernel of the specialization")
     print(bar)
     print("  %-9s %-4s %-10s %-8s %-9s %-8s" % ("free part", "t", "solutions", "cores", "[thm:extra]", "OTHER"))
     print("  " + "-" * 52)

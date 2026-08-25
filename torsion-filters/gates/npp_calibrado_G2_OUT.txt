@@ -1,0 +1,22 @@
+====================================================================================================
+CALIBRADO CONTRA EL G2 DE SU §7
+====================================================================================================
+
+G1  el reparto de paridad por casos, contra su analisis literal
+     169 de 169   COINCIDE con su tabla
+
+G2  dim Z_G(C2) desde rho : rango 2 + 2*2 = 6   = 6, el centralizador SL2xSL2/mu2  OK
+     y el producto de los emparejamientos pares de rho : 8   = 8, el denominador de su Prop 7.1
+
+G3  FATAL  la dicotomia de NPP contra su propia Proposicion 7.1
+     predice cero y ES cero :   36      predice cero y NO lo es :    0
+     predice no-cero y es 0 :    0      predice no-cero y no lo es:  133
+     acierta 169 de 169   EQUIVALENCIA -- el instrumento calibra
+
+G4  la mitad de IGUALDAD: |Theta| == (producto de los pares)/8
+     133 de 133   COINCIDE
+
+D1  SENUELO emparejar con la RAIZ en vez de la CORRAIZ : 169 de 169   *** NO DISCRIMINA: mi lectura no distingue raiz de corraiz ***
+
+====================================================================================================
+DONE

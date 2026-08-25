@@ -168,7 +168,7 @@ print("")
 # alcove es  A = { m_1 + 2m_2 + ... < ell - 2n + 1 }, y con nuestros numeros (n = m', ell = t = 2m'+1)
 # eso da  A = {0, omega_1}:  RANGO 2, o sea Z[J]/(J^2-1), no Z como en el caso par.
 # ADVERTENCIA, y va antes que el dato: A-S avisan (Warning 2.1.1) que para ell impar su grupo de Weyl
-# afin es el del sistema DUAL, y el amigo ya avisó en la vuelta 12 de que las normalizaciones B/C
+# afin es el del sistema DUAL, y ya se advirtio de que las normalizaciones B/C
 # cambian.  Asi que esto es CONJETURA pendiente de normalizacion, no hecho.
 #
 # La evaluacion en g manda J -> -1, luego tau pierde la etiqueta del alcove.  Aqui se mide si algun

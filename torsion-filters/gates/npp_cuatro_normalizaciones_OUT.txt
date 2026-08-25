@@ -1,0 +1,25 @@
+================================================================================================
+LAS CUATRO NORMALIZACIONES DE LA QUESTION 8.1 SOBRE NUESTRA FAMILIA
+================================================================================================
+   A = emparejar con la CORRAIZ de C_m (= raiz del dual B_m)
+   B = emparejar con la RAIZ de C_m (el propio grupo)
+   d_ad = orden en el grupo adjunto     d_G = orden en G
+
+  m=1  Sp(2)  t=4  d_ad=2  d_G=4   10 particiones
+      A con d_ad  :  10 de  10  <== EQUIVALENCIA
+      A con d_G   :   7 de  10
+      B con d_ad  :   5 de  10
+      B con d_G   :  10 de  10  <== EQUIVALENCIA
+
+  m=2  Sp(4)  t=6  d_ad=6  d_G=6   55 particiones
+      A con d_ad  :  39 de  55
+      A con d_G   :  39 de  55
+      B con d_ad  :  55 de  55  <== EQUIVALENCIA
+      B con d_G   :  55 de  55  <== EQUIVALENCIA
+
+  m=3  Sp(6)  t=8  d_ad=8  d_G=8   220 particiones
+      A con d_ad  : 166 de 220
+      A con d_G   : 166 de 220
+      B con d_ad  : 220 de 220  <== EQUIVALENCIA
+      B con d_G   : 220 de 220  <== EQUIVALENCIA
+

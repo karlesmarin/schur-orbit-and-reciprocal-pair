@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# LOS TESTIGOS DE LA VUELTA 28, verbatim.   16 de agosto de 2026.
 #
 # Hay dos contraejemplos concretos y el paper los cita ahora como \stverif.  Un
 # numero citado que no se ha corrido es exactamente lo que no se hace, asi que se corren aparte,
@@ -79,7 +77,7 @@ def delta_de(a, rk, t):
 
 OUT = {}
 print("=" * 110)
-print("LOS TESTIGOS DE LA VUELTA 28")
+print("LOS TESTIGOS")
 print("=" * 110)
 
 # (i)

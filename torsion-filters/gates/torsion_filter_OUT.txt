@@ -2,19 +2,19 @@
 C5  EL CASO t=4 A MANO:  su formula  tau_4(k) = (-1)^{k/2} si k par, 0 si impar
 ========================================================================================================
 
-    k= 0   tau_4(k) = 1        el dice 1        ok
-    k= 1   tau_4(k) = 0        el dice 0        ok
-    k= 2   tau_4(k) = -1       el dice -1       ok
-    k= 3   tau_4(k) = 0        el dice 0        ok
-    k= 4   tau_4(k) = 1        el dice 1        ok
-    k= 5   tau_4(k) = 0        el dice 0        ok
-    k= 6   tau_4(k) = -1       el dice -1       ok
-    k= 7   tau_4(k) = 0        el dice 0        ok
-    k= 8   tau_4(k) = 1        el dice 1        ok
-    k= 9   tau_4(k) = 0        el dice 0        ok
-    k=10   tau_4(k) = -1       el dice -1       ok
-    k=11   tau_4(k) = 0        el dice 0        ok
-    k=12   tau_4(k) = 1        el dice 1        ok
+    k= 0   tau_4(k) = 1        predice 1        ok
+    k= 1   tau_4(k) = 0        predice 0        ok
+    k= 2   tau_4(k) = -1       predice -1       ok
+    k= 3   tau_4(k) = 0        predice 0        ok
+    k= 4   tau_4(k) = 1        predice 1        ok
+    k= 5   tau_4(k) = 0        predice 0        ok
+    k= 6   tau_4(k) = -1       predice -1       ok
+    k= 7   tau_4(k) = 0        predice 0        ok
+    k= 8   tau_4(k) = 1        predice 1        ok
+    k= 9   tau_4(k) = 0        predice 0        ok
+    k=10   tau_4(k) = -1       predice -1       ok
+    k=11   tau_4(k) = 0        predice 0        ok
+    k=12   tau_4(k) = 1        predice 1        ok
 
     C5 PASA   (n = 13)
 

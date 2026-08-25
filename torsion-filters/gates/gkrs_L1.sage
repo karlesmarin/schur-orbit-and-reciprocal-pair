@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 # GKRS PARA (L1).   16 de agosto de 2026.
 #
-# DE DONDE SALE.  El factor cruzado  z_j^t - 1  que mato la ruta de Laplace (rem:L1route) es, por
-# prop:crossden, el denominador relativo del par de RANGO IGUAL  B_{R'} > B_{m'} x D_r.  Los pares de
-# rango igual tienen su formula de caracteres: Gross-Kostant-Ramond-Sternberg.  La ruta que se sigue
-# aqui es aplicar el filtro  tau^B_t  al factor  B_{m'}  de la identidad GKRS y preguntar por
-# que dividir por el denominador especializado deja  0, +-1  en la base de  D_r.
-#
 # LA IDENTIDAD, especializada.   Con  v = Lambda + rho_{B_{R'}}  y  W^1  los  w  tales que  w(v)  es
 # estrictamente H-dominante,
 #

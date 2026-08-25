@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA PRIMITIVIDAD IMPAR, LOCALIZADA POR Lambda.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  odd_extremal.sage abrio la descomposicion en mu_max y mato mi hipotesis H1 (el
-# Lambda maximo NO siempre es el que aporta).  Pero enseño algo mejor, y local:
-#
 #     para cada Lambda por separado,   c(Lambda, mu) := sum_eta B^odd_{Lambda;eta,mu} tau^B(eta)
 #     parecia valer  0 o +-1,  y en mu_max exactamente UN Lambda daba +-1.
 #
@@ -44,10 +41,8 @@ def phi(beta, tt, nvar):
     Lr = LaurentPolynomialRing(K, nvar, 'z')
     xx = [Lr(K(zeta) ** k) for k in range(tt)] + [g ** e for g in Lr.gens() for e in (1, -1)]
     delta = list(range(Nn - 1, -1, -1))
-
     def alt(expo):
         return matrix(Lr, Nn, Nn, lambda i, j: xx[i] ** expo[j]).determinant()
-
     den = alt(delta)
     if den == 0:
         return None
@@ -152,12 +147,16 @@ print("LA PRIMITIVIDAD IMPAR, LOCALIZADA POR Lambda")
 print("=" * 118)
 
 RES = []
+TOT = Counter()
+TOTQ = Counter()
 for (t, r, tope) in [(3, 2, 9), (5, 2, 10), (3, 3, 9)]:
     mp, Rp = (t - 1) // 2, (t - 1) // 2 + r
     N = t + 2 * r
     if r > 2 and t > 3:
         continue
     repC = Counter()
+    repC_q = Counter()
+    impares_quiral = []
     nL_en_mumax = Counter()
     ctrl = nform = 0
     cancelan = 0
@@ -196,6 +195,14 @@ for (t, r, tope) in [(3, 2, 9), (5, 2, 10), (3, 3, 9)]:
                 vivos_por_par[(Lam, mp_plus)] += 1
         for k, v in cLm.items():
             repC[int(v)] += 1
+            # Correccion quiral, anadida el 19 de agosto.  mp_plus pliega mu por abs(mu[-1]), asi que
+            # un mu con ultima coordenada NO NULA recibe las contribuciones de las dos D-pesas y c
+            # sale doblado.  El enunciado (L1) --- «c en {0,+-1}» --- es sobre el c SIN doblar, y sin
+            # dividir aqui la salida ensena +-2 y parece contradecirlo.  Ver HOJA_DE_SALIDA_HALLAZGOS.
+            div = 2 if k[1][-1] != 0 else 1
+            repC_q[int(v) // div if int(v) % div == 0 else int(v)] += 1
+            if int(v) % div != 0:
+                impares_quiral.append((tuple(int(x) for x in k[0]), tuple(int(x) for x in k[1]), int(v)))
             if v == 0 and vivos_por_par[k] > 0:
                 cancelan += 1
             if abs(v) > 2 and peor is None:
@@ -213,7 +220,19 @@ for (t, r, tope) in [(3, 2, 9), (5, 2, 10), (3, 3, 9)]:
     print("     L1  reparto de c(Lambda,mu) sobre TODOS los pares : %s" % dict(sorted(repC.items())))
     print("         (los +-2 son el factor quiral: mu con ultima coordenada no nula cuenta dos veces)")
     print("     L2  numero de Lambda con c != 0 en mu_max : %s" % dict(sorted(nL_en_mumax.items())))
+    print("     L1q reparto de c QUITADO el factor quiral (esto es lo que dice (L1)) : %s   %s"
+          % (dict(sorted(repC_q.items())),
+             "en {0,+-1}" if set(repC_q) <= {-1, 0, 1} else "OJO: fuera de {0,+-1}"))
+    if impares_quiral:
+        print("         !! %d pares con c impar y mu_ultimo != 0 (no divisible por 2): %s"
+              % (len(impares_quiral), impares_quiral[:3]))
     print("     C2  pares (Lambda,mu) con eta supervivientes que CANCELAN a 0 : %d" % cancelan)
+    print("     N   pares (Lambda,mu) en esta configuracion : %d" % sum(repC.values()))
+    TOT["pares"] += sum(repC.values())
+    TOT["cancelan"] += cancelan
+    TOT["formas"] += nform
+    for _k, _v in repC_q.items():
+        TOTQ[_k] += _v
     if peor:
         print("     !! un c con |c| > 2 : %s" % str(peor))
     sys.stdout.flush()
@@ -222,6 +241,16 @@ for (t, r, tope) in [(3, 2, 9), (5, 2, 10), (3, 3, 9)]:
                 "n_Lambda_en_mumax": {str(k): int(v) for k, v in nL_en_mumax.items()},
                 "pares_que_cancelan": int(cancelan)})
 
+print("")
+print("  TOTALES SOBRE LAS TRES CONFIGURACIONES --- son las cifras que cita el Paper II y que")
+print("  NINGUNA salida imprimia, por ser sumas entre bloques.  De ahi que la hoja de salida las")
+print("  marcara como sin respaldo.  Ver paper2/HOJA_DE_SALIDA_HALLAZGOS.md.")
+print("     formas con mu_max unico          : %d" % TOT["formas"])
+print("     pares (Lambda,mu) en total       : %d" % TOT["pares"])
+print("     de ellos, los que CANCELAN a 0   : %d" % TOT["cancelan"])
+print("     reparto de c sin el factor quiral: %s   %s"
+      % (dict(sorted(TOTQ.items())),
+         "(L1) SE SOSTIENE: c en {0,+-1}" if set(TOTQ) <= {-1, 0, 1} else "OJO: fuera de {0,+-1}"))
 print("")
 print("=" * 118)
 print("  LECTURA, escrita ANTES de correr:")

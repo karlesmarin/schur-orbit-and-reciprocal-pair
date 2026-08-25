@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL TOP TRANSVERSAL CONTRA LA LEY DE mu_max.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Quedan dos enunciados de "el top se lee de la entrada", en niveles distintos:
-#
 #   prop:transversal(v)  el top de nu(Lambda,.) lo da S_min, el transversal de v mas pequeno.
 #                        Es POR Lambda, y esta probado.
 #   eq:mumax             el top del compuesto Phi_{t,r}(beta) se lee de beta.  Es por BETA.

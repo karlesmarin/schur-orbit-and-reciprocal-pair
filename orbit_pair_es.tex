@@ -1,6 +1,6 @@
 % Autor: Carles Marin (Claude, Anthropic, como asistente de investigacion IA).
-% Version en castellano de "Factorization and vanishing of Schur polynomials twisted by roots of
-% unity and reciprocal pairs". Traduccion completa, no resumen: arXiv exige el articulo entero en ambos
+% Version en castellano de "Schur polynomials twisted by roots of unity and reciprocal pairs:
+% exactly three factors, and where they vanish". Traduccion completa, no resumen: arXiv exige el articulo entero en ambos
 % idiomas. Compilar: pdflatex x2.
 \documentclass[11pt,reqno]{amsart}
 \usepackage[utf8]{inputenc}
@@ -34,7 +34,7 @@
 % Las propiedades del documento que ve un lector en su visor de PDF. Estaban vacías, y no es un
 % valor por defecto de hyperref: \title lleva un salto de línea y macros, así que no vale tal cual.
 \hypersetup{
-  pdftitle={Factorizacion y anulacion de polinomios de Schur torcidos por raices de la unidad y pares reciprocos},
+  pdftitle={Polinomios de Schur torcidos por raices de la unidad y pares reciprocos: exactamente tres factores, y donde se anulan},
   pdfauthor={Carles Mar\'{\i}n},
   pdfsubject={Polinomios de Schur evaluados en una orbita completa de raices de la unidad junto con pares reciprocos libres},
   pdfkeywords={polinomios de Schur; raices de la unidad; variables reciprocas; factorizacion; nucleos y cocientes; enumeracion con signo}}
@@ -60,6 +60,7 @@
 \newtheorem{conjecture}[theorem]{Conjetura}
 \theoremstyle{definition}
 \newtheorem{remark}[theorem]{Observación}
+\newtheorem{definition}[theorem]{Definición}
 \newtheorem{example}[theorem]{Ejemplo}
 \newtheorem{problem}[theorem]{Problema}
 \newtheorem{question}[theorem]{Pregunta}
@@ -74,6 +75,8 @@
 \newcommand{\core}{\operatorname{core}}
 \newcommand{\quot}{\operatorname{quot}}
 \newcommand{\zb}{\bar z}
+\newcommand{\Fix}{\operatorname{Fix}}
+\newcommand{\wt}{\operatorname{wt}}
 
 % amsart imprime al pie de la primera página tres etiquetas fijas en inglés --- Date, Mathematics
 % Subject Classification, Key words and phrases --- y babel no las toca, porque no son cadenas
@@ -112,7 +115,10 @@
 
 % Ver la nota del titulo en orbit_pair.tex: cambia en la v2, y el corto con el.
 \title[Polinomios de Schur en raíces de la unidad y pares recíprocos]
-{Factorización y anulación de polinomios de Schur\\ torcidos por raíces de la unidad y pares recíprocos}
+% Sin \\, por la misma razón que la edición inglesa: cualquier corte forzado deja la línea corta
+% EN MEDIO, y partiendo en los dos puntos abría renglón con un signo de puntuación. Dejando que
+% LaTeX parta, la línea corta cae al final. Comprobado sobre el PDF.
+{Polinomios de Schur torcidos por raíces de la unidad y pares recíprocos: exactamente tres factores, y dónde se anulan}
 
 \author{Carles Mar\'in}
 \address{Investigador independiente}
@@ -123,7 +129,7 @@
 % la que se publica. Ésta es la fecha de publicación. La v1 llevaba el 10 de agosto de 2026; esta
 % es la v2, y la fecha tiene que ser la MISMA que la de la edición inglesa -- lo fue durante un día
 % y check_parity lo cazó por un «14» que aparecía en un fuente y no en el otro.
-\date{17 de agosto de 2026}
+\date{21 de agosto de 2026}
 
 \subjclass[2020]{Primario 05E05; Secundario 05A15, 05E10, 20G05}
 \keywords{polinomios de Schur, raíces de la unidad, variables recíprocas, factorización, núcleos y
@@ -201,7 +207,7 @@ un producto con signo de exactamente tres factores sobre un denominador fijo, o 
 argumentos leídos del núcleo y del cociente. Lo que ve de $\lambda$ es un multiconjunto de tres enteros y un
 signo, y exactamente eso: dos particiones de cualesquiera tamaños comparten un valor no
 nulo si y solo si coinciden en ese dato. La demostración es un desarrollo de Laplace a lo largo de
-las $t$ filas congeladas con un lema de cancelación, y da el signo, que ya es el de Littlewood.
+las $t$ filas congeladas con un lema de cancelación, y da el signo, del que el de ordenación de Littlewood es un factor.
 
 En $t=2$ y todo $r$, $s_\lambda(1,-1,z_1^{\pm1},\dots,z_r^{\pm1})$ se anula exactamente cuando el
 conjunto beta tiene paridad constante o $\lambda$ es autocomplementaria de anchura impar; esa
@@ -335,7 +341,8 @@ planas y para teselaciones de rombos. Las formas autocomplementarias de \cite{AB
 \S\ref{sec:zeros} por el otro lado: añadir la letra $-1$ cambia el determinante del alfabeto de $+1$
 a $-1$, y las formas que allí factorizan son exactamente las que aquí se anulan.
 
-Las dos líneas nunca han compartido alfabeto, y el obstáculo es estructural en ambas direcciones. El
+En la literatura de factorización que aquí repasamos las dos líneas no parecen haber compartido
+alfabeto, y el obstáculo es estructural en ambas direcciones. El
 motor de la primera es un operador ---la Verschiebung $\varphi_t$, en la formulación de Albion
 \cite{Alb23}, que actúa sobre los caracteres universales por $\varphi_t h_r=h_{r/t}$ si $t\mid r$ y
 $0$ en otro caso--- que exige que el alfabeto sea unión de $\zeta$-órbitas; toda extensión de esa
@@ -520,7 +527,21 @@ el lugar de anulación en $t=2$ para un número arbitrario de pares recíprocos 
 externo, también en todo $t$ impar---, lee ese criterio sobre el grupo como una rigidez frente al
 giro por el determinante, y da un criterio suficiente, con recíproco conjetural, para $t$ y $r$
 arbitrarios. La Sección \ref{sec:verif} recoge las
-comprobaciones numéricas y la Sección \ref{sec:open} los problemas abiertos.
+comprobaciones numéricas, la Sección \ref{sec:attr} separa lo que usamos de lo que reclamamos,
+enunciado a enunciado, la Sección \ref{sec:open} plantea los problemas abiertos, y la \S\ref{sec:closing} cierra donde
+empezó la introducción.
+
+Dos de esos problemas se han movido desde la primera versión, y los dos movimientos se registran
+donde los problemas están y no se anuncian aquí como resultados. El Problema \ref{prob:versch}
+preguntaba si los dos formalismos --- la Verschiebung $\varphi_t$ en la mitad torcida, los caracteres
+universales en la recíproca --- componen. Componen, y la Observación \ref{rem:composes} escribe la
+composición; es el Teorema 3.1 de Albion evaluado en $1$ y no un teorema nuestro, y corrige además
+una frase de ese problema que declaraba más ignorancia de la debida, porque el operador con una letra
+libre del que decía que no conocíamos nada está en \cite[\S6.1]{Alb23}, la referencia que el propio
+problema nombra. Tres de ellos los toca además el artículo compañero \cite{PaperII}, que continúa éste
+más allá de $r=1$; lo que mueve se dice donde cada problema está, con los límites que ese
+artículo le pone, y no se repite aquí. Y el análogo simpléctico \emph{clásico} del Problema \ref{prob:types} es el
+\cite[Teorema 2.8]{Kum24}, cuyo criterio de anulación hemos contrastado con el nuestro.
 
 %======================================================================
 \section{Preliminares y notación}\label{sec:background}
@@ -739,7 +760,7 @@ perfil de residuos & la rama degenerada de anulación\\
 las dos longitudes $d_1,d_2$ & los dos primeros factores\\
 la distancia entre los centros, $d_3$ & el factor de acoplamiento, y la rama concéntrica de anulación\\
 la orientación $\sgn(\tilde d_3)$ & un factor del signo\\
-el signo de ordenación $\varepsilon_\lambda$ & el signo global\\
+el signo total $\varepsilon_\lambda$ & el signo global\\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -783,7 +804,7 @@ sobre las formas de la \S\ref{sec:verif}. Es además la razón de que el lema ha
 la terna y no sobre el valor: para $t$ par el valor no es función de la clase de traslación de la
 terna.
 
-El signo \eqref{eq:sign} es un signo de ordenación, de la misma especie que el del Teorema
+El signo \eqref{eq:sign} refina el signo de ordenación del Teorema
 \ref{thm:LR}; la Proposición \ref{rem:sign} registra más abajo una expresión más corta para él, en la
 notación de \cite{AK25}.
 
@@ -1844,6 +1865,271 @@ $\left(\begin{smallmatrix}3\\4\end{smallmatrix}\right)$. Sus puntos fijos son un
 racha de longitud impar, y el Corolario \ref{cor:enum} los cuenta. La construcción es de Kumari; el
 ensamblaje es nuestro.
 
+\subsection{Más allá de \texorpdfstring{$t=2$}{t=2}: dónde puede vivir una involución así}\label{sec:lift}
+
+El ensamblaje anterior es un enunciado sobre $t=2$, y la razón es la Proposición
+\ref{rem:involution}: es un enunciado sobre una palabra, y esa palabra es la de $t=2$. Lo que sigue
+no es esa construcción para $t$ general. Es la pregunta más pequeña de \emph{dónde} podría vivir una
+involución de la especie requerida --- que sí tiene respuesta, y negativa para el candidato obvio.
+
+Fíjense $t$ y $\lambda$. Combinando la identidad de ramificación \eqref{eq:composes} de la
+Observación \ref{rem:composes} con el desarrollo en dos letras de $s_{\lambda/\mu}(z,\zb)$ se obtiene
+\begin{equation}\label{eq:Jlambda}
+\Phi_t(\lambda;z)\;=\;\sum_{(\mu,\nu)\in J_\lambda}\sgn_t(\mu)\;z^{\,2|\nu|-|\mu|-|\lambda|},
+\end{equation}
+donde $J_\lambda$ es el conjunto de pares $\mu\subseteq\nu\subseteq\lambda$ tales que
+$\core_t(\mu)=\varnothing$, cada componente de $\quot_t(\mu)$ tiene a lo sumo una fila, y tanto
+$\nu/\mu$ como $\lambda/\nu$ son bandas horizontales. Ése es el conjunto de términos que presenta la
+enumeración, y la involución que pide es una sobre $J_\lambda$: que conserve el peso, invierta el
+signo fuera de sus puntos fijos, y tenga por puntos fijos las transversales del Lema \ref{lem:L3}.
+Las dos primeras condiciones están disponibles; la tercera no, y el obstáculo es un recuento y no
+una falta de ingenio.
+
+\begin{lemma}[la cota estándar, espacio de peso a espacio de peso]\label{lem:fixbound}
+Sea $X$ un conjunto signado finito graduado por peso, y escríbase $n_\pm(e)$ para el número de sus
+elementos de peso $e$ y signo $\pm$. Si $\iota$ es una involución sobre $X$ que conserva el peso e
+invierte el signo fuera de sus puntos fijos, entonces
+\[
+\bigl|\Fix(\iota)\bigr|\;\ge\;\sum_e\bigl|n_+(e)-n_-(e)\bigr|,
+\]
+con igualdad si y sólo si, en cada espacio de peso, todos los puntos fijos llevan el mismo signo.
+\end{lemma}
+
+\noindent Nada de esto es nuevo. Que una involución que invierte el signo reduce una suma signada a
+sus puntos fijos es el recurso estándar, y la cota es esa identidad aplicada espacio de peso a
+espacio de peso junto con la desigualdad triangular; la enunciamos porque el resto de la subsección
+va del número que produce.
+
+\begin{proof}
+Fíjese $e$ y sea $F_\pm$ el número de puntos fijos de peso $e$ y signo $\pm$. Cada $2$-ciclo de
+$\iota$ vive dentro de un espacio de peso y retira un elemento de cada signo, así que
+$n_+(e)-n_-(e)=F_+-F_-$, de donde $F_++F_-\ge|F_+-F_-|=|n_+(e)-n_-(e)|$, con igualdad exactamente
+cuando $F_+$ o $F_-$ se anula. Sumando en $e$ salen los dos enunciados.
+\end{proof}
+
+Aplicado a $J_\lambda$ a través de \eqref{eq:Jlambda}, el acotamiento dice
+$|\Fix(\iota)|\ge\|\Phi_t(\lambda;z)\|_1$, la suma de los valores absolutos de los coeficientes. Así
+que $\|\Phi_t(\lambda;z)\|_1$ es el número \emph{mínimo} de puntos fijos de cualquier involución de
+esa especie sobre $J_\lambda$, y el mínimo se alcanza: emparejando $+$ con $-$ de cualquier manera
+dentro de cada espacio de peso quedan exactamente esos. No es una cantidad en la que una construcción
+pueda ahorrar ---
+el primer cruce, el último o cualquier otro---. No es una cantidad en la que una construcción pueda
+ahorrar.
+
+\begin{proposition}[$J_\lambda$ es el conjunto equivocado]\label{prop:wrongset}
+Por el Lema \ref{lem:L3} el numerador $D_t(z)\Phi_t(\lambda;z)$, con
+$D_t(z)=(z^t-1)(z^{-t}-1)(z-z^{-1})$, es una suma signada de $|\mathcal U|\le4$ términos
+$f(\beta_{j_1}-\beta_{j_2})$, o sea de a lo sumo ocho monomios. Pero $\|\Phi_t(\lambda;z)\|_1$ no
+está acotado por ocho. En $t=2$ y $\lambda=(7,4)$ el conjunto beta es $(10,6,1,0)$, el perfil es de
+tamaño tres con triple $(d_1,d_2,d_3)=(4,6,10)$, y por el Corolario \ref{cor:chars}
+$\Phi_2=\pm\chi_1\chi_2\chi_4$, un producto de caracteres con todos los coeficientes de un signo,
+así que
+\[
+\|\Phi_2\|_1=\chi_1(1)\chi_2(1)\chi_4(1)=2\cdot3\cdot5=30 .
+\]
+Esa sola forma lo zanja, y el barrido dice cuánto abunda: sobre $t=2,3$ y $\lambda_1\le7$ la norma
+llega a $30$ y a $21$, y pasa de ocho en $128$ de las $329$ formas y en $216$ de las $791$
+\stverif. Para esas $\lambda$ ninguna
+involución sobre $J_\lambda$ de la especie anterior puede tener por puntos fijos los objetos del
+Lema \ref{lem:L3}.
+\end{proposition}
+
+Los dos recuentos son de objetos que están a lados opuestos del denominador, y ése es todo el
+diagnóstico. $J_\lambda$ indexa el cociente; las transversales del Lema \ref{lem:L3} indexan el
+numerador; y una involución sobre $J_\lambda$ tendría que ocultar precisamente el factor $D_t$ que
+los separa. El remedio es multiplicar el conjunto de índices por ese factor en vez de dividir los
+objetos por él, y mantener el factor \emph{factorizado}, para que cada término conserve su
+procedencia.
+
+\begin{definition}\label{def:lift}
+Sea $\Omega_t$ el conjunto signado de las ocho elecciones de un término en cada factor de $D_t$,
+\[
+(z^t-1)\mapsto(t,+1)\ \text{o}\ (0,-1),\qquad
+(z^{-t}-1)\mapsto(-t,+1)\ \text{o}\ (0,-1),\qquad
+(z-z^{-1})\mapsto(1,+1)\ \text{o}\ (-1,-1),
+\]
+siendo cada par un peso y un signo, que escribimos $d(\omega)$ y $\sgn(\omega)$. El
+\emph{levantamiento al numerador} es $\widehat J_\lambda:=J_\lambda\times\Omega_t$, con
+\[
+\wt\bigl((\mu,\nu),\omega\bigr)=2|\nu|-|\mu|-|\lambda|+d(\omega),
+\qquad
+\sgn\bigl((\mu,\nu),\omega\bigr)=\sgn_t(\mu)\,\sgn(\omega).
+\]
+\end{definition}
+
+\begin{lemma}\label{lem:liftid}
+$\sum_{x\in\widehat J_\lambda}\sgn(x)z^{\wt(x)}=D_t(z)\,\Phi_t(\lambda;z)$, y
+$|\widehat J_\lambda|=8|J_\lambda|$, con los dos signos igual de numerosos.
+\end{lemma}
+
+\begin{proof}
+Una suma signada sobre un producto de conjuntos signados es el producto de las sumas; la suma sobre
+$\Omega_t$ es $D_t(z)$, factor a factor, y la suma sobre $J_\lambda$ es $\Phi_t(\lambda;z)$ por
+\eqref{eq:Jlambda}. Cada factor de $D_t$ aporta un signo de cada clase, así que los ocho elementos de
+$\Omega_t$ se reparten cuatro y cuatro.
+\end{proof}
+
+\begin{proposition}[sobre el levantamiento el recuento cuadra, y exactamente]\label{prop:liftcount}
+Escríbase $\mathcal L(\lambda)$ para el multiconjunto \emph{signado} que sale de desarrollar los
+términos del Lema \ref{lem:L3}, llevando cada monomio el producto del signo $\varepsilon_U$ de su
+término de Laplace por el signo del término elegido de $f(\beta_{j_1}-\beta_{j_2})$, de modo que
+$|\mathcal L(\lambda)|=2|\mathcal U(\lambda)|$. Si $\Phi_t(\lambda;z)\ne0$, entonces
+\[
+\bigl\|D_t(z)\,\Phi_t(\lambda;z)\bigr\|_1\;=\;2\,|\mathcal U(\lambda)| .
+\]
+\end{proposition}
+
+\begin{proof}
+Como $(z^t-1)(z^{-t}-1)=-f(t/2)^2$ y $D_t=(z^t-1)(z^{-t}-1)(z-z^{-1})=-f(t/2)^2f(1)$, la ecuación
+\eqref{eq:main} da
+\[
+D_t(z)\,\Phi_t(\lambda;z)\;=\;-\varepsilon_\lambda\,f(d_1/2)\,f(d_2/2)\,f(d_3/2).
+\]
+Al desarrollar, los ocho monomios llevan exponentes $\tfrac12(\pm d_1\pm d_2\pm d_3)$ y por signo el
+producto de las tres elecciones. Dos de ellos se cancelan exactamente cuando sus exponentes coinciden
+y sus signos difieren, y comparando los dos casos ---que las elecciones difieran en los tres signos o
+en uno--- eso sólo ocurre si algún $d_i$ se anula o si uno de $d_1,d_2,d_3$ es la suma de los otros
+dos. Los monomios de igual exponente e igual signo se refuerzan, y eso no cambia la norma $\ell^1$.
+
+En el perfil de dos clases $|\mathcal U|=4$ por el Lema \ref{lem:L3}, y no se cancela nada. En
+efecto,
+\[
+2(a_1-b_1)=\tilde d_3+d_1-d_2,\quad
+2(a_1-b_2)=\tilde d_3+d_1+d_2,\quad
+2(a_2-b_1)=\tilde d_3-d_1-d_2,\quad
+2(a_2-b_2)=\tilde d_3-d_1+d_2,
+\]
+así que cada una de las cuatro sumas $\pm d_1\pm d_2+\tilde d_3$ se anula sólo si algún $a_i$ es
+igual a algún $b_j$, imposible porque $A$ y $B$ viven en clases de residuo distintas; las cuatro con
+$-\tilde d_3$ son sus opuestas. Y $d_1,d_2\ne0$ porque cada clase lleva dos partes distintas,
+mientras que $d_3\ne0$ es la hipótesis $\Phi_t\ne0$ del Teorema \ref{thm:main}(ii). Luego la norma
+es $8=2|\mathcal U|$.
+
+En el perfil de tamaño tres $|\mathcal U|=3$, y $A=\{p,q\}$, $B=\{q,r\}$ con $p>q>r$, de modo que
+$d_3=p-r=d_1+d_2$. Se cancela exactamente un par, los dos monomios de exponente $0$, y
+\[
+f(d_1/2)f(d_2/2)f(d_3/2)=z^{d_1+d_2}-z^{d_1}-z^{d_2}+z^{-d_2}+z^{-d_1}-z^{-d_1-d_2},
+\]
+de norma $6=2|\mathcal U|$, sea $d_1=d_2$ o no. El seis no es un accidente del desarrollo. Escribiendo
+$x=z^{d_1/2}$ e $y=z^{d_2/2}$, el producto es $(x-x^{-1})(y-y^{-1})(xy-x^{-1}y^{-1})$, el producto
+sobre las tres raíces positivas de $A_2$; la fórmula del denominador de Weyl lo convierte en la suma
+alternada sobre $W(A_2)=S_3$, y $6=|W(A_2)|$; esa identidad es la fórmula estándar del
+denominador de Weyl para $A_2$.
+\end{proof}
+
+La cota $\|D_t\Phi\|_1\le2|\mathcal U|$ sale también del Lema \ref{lem:L3} y la desigualdad
+triangular a secas, que es como la vimos primero; lo de arriba es que hay igualdad. Por tanto, por el
+Lema \ref{lem:fixbound} aplicado a $\widehat J_\lambda$, una involución allí de la misma especie
+deja al menos $2|\mathcal U(\lambda)|$ puntos fijos --- exactamente el número de monomios que
+suministra el Lema \ref{lem:L3}, sin holgura por ningún lado. Sobre $t=2,3$ y $\lambda_1\le7$ la
+igualdad se midió antes de demostrarse, en $309$ de las $329$ formas y en las $791$, siendo las $20$
+excepciones las concéntricas, donde $\Phi_t\equiv0$ \stverif.
+
+Ésa es la mitad de la pregunta que el levantamiento resuelve, y la Figura \ref{fig:lift} es eso. Sobre $J_\lambda$ el requisito es
+aritméticamente imposible para un tercio de las formas del rango; sobre $\widehat J_\lambda$ no lo es
+para ninguna, y no porque la cota se haya vuelto generosa: para todo $\Phi_t$ no nulo se ha vuelto
+ajustada, y son los casos de anulación los que conservan holgura. Lo que el
+levantamiento no hace es exhibir la involución, y a eso volvemos en el Problema \ref{prob:toggle}.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_lift_es.pdf}
+\caption{Lo que el levantamiento le hace al recuento. Por el Lema \ref{lem:fixbound} una involución
+de la especie requerida deja al menos $\|\Phi_t(\lambda;z)\|_1$ puntos fijos sobre $J_\lambda$ y al
+menos $\|D_t\Phi_t(\lambda;z)\|_1$ sobre $\widehat J_\lambda$; las dos se dibujan como
+distribuciones sobre las mismas formas, en recuento logarítmico. La línea discontinua está en ocho,
+que es el máximo de monomios que el Lema \ref{lem:L3} puede dar, así que lo que hay que leer es la
+extensión horizontal y no la forma de ninguno de los dos histogramas: el requisito sin levantar pasa
+de la línea ---hasta $30$ en $t=2$ y $21$ en $t=3$, en $128$ y $216$ de las formas--- y el levantado
+no puede, tomando sólo los valores $0$, $6$ y $8$. Para $\Phi_t\ne0$ el mínimo levantado es $6$ u
+$8$, y la Proposición \ref{prop:liftcount} dice que es exactamente $2|\mathcal U(\lambda)|$; el valor
+$0$ corresponde a los casos de anulación, donde esa proposición no se aplica. Sobre el lugar no nulo
+el levantamiento no mueve el requisito: lo aplasta exactamente sobre el recuento de Laplace. El azul va hueco sobre el naranja para que los dos se vean donde se solapan, y
+la población excluye la partición vacía, como hace la corrida archivada. Calculada por
+\texttt{anc/fig\_lift.py}, que reconstruye $J_\lambda$ desde \eqref{eq:Jlambda} y no comparte
+código con los guiones de la \S\ref{sec:verif}.}
+\label{fig:lift}
+\end{figure}
+
+Sí hace, en cambio, que el problema se parta en piezas lo bastante pequeñas para atacarlas una a una.
+
+\begin{corollary}[el requisito es local]\label{cor:local}
+Supóngase $\Phi_t(\lambda;z)\ne0$, de modo que se aplica la Proposición \ref{prop:liftcount}. Entonces, para
+cada peso $e$,
+\[
+\bigl|[z^e]\,D_t\Phi_t(\lambda;z)\bigr|
+=\#\bigl\{\text{monomios de }\mathcal L(\lambda)\text{ de peso }e\bigr\},
+\]
+y todos esos monomios llevan el mismo signo. De modo que una involución sobre $\widehat J_\lambda$
+puede buscarse espacio de peso a espacio de peso: en el de peso $e$ tiene que dejar fijos exactamente
+los monomios de $\mathcal L(\lambda)$ de ese peso, y emparejar todo lo demás.
+\end{corollary}
+
+\begin{proof}
+Término a término $|[z^e]D_t\Phi|\le\#\{\cdots\}$ por la desigualdad triangular, y por (ii) los dos
+miembros tienen la misma suma en $e$ por la Proposición \ref{prop:liftcount}; luego coinciden
+para cada $e$. Y la igualdad en una desigualdad
+triangular obliga a los sumandos a compartir signo.
+\end{proof}
+
+Medido sobre el mismo rango, la forma local vale en $1696$ de $1696$ espacios de peso
+desequilibrados en $t=2$ y en $4074$ de $4074$ en $t=3$ \stverif; los $80$ pesos de Laplace que no
+llevan desequilibrio en $t=2$ son las $20$ formas con $\Phi_t\equiv0$ contra sus cuatro pesos, y en
+$t=3$ no hay ninguno. El contraste es lo que da sentido a todo esto: sobre $J_\lambda$ sin levantar
+los coeficientes de $\Phi$ llegan a $7$ y a $3$ en valor absoluto, así que allí el requisito tampoco
+es local \stverif.
+
+\begin{remark}[lo que el esqueleto ya obliga]\label{rem:skeleton}
+El Corolario \ref{cor:local} deja una construcción por hacer, pero no en todas partes: un espacio de
+peso con un solo elemento no admite elección, y allí la aplicación
+$\mathcal L(\lambda)\to\widehat J_\lambda$ se puede \emph{leer} en vez de diseñar. Esos espacios son
+$398$ de los $1696$ en $t=2$ y $1176$ de los $4074$ en $t=3$, y sobre ellos valen dos cosas sin
+excepción \stverif. Primero, el signo del elemento forzado coincide con el del monomio de Laplace de
+su peso --- $398$ de $398$ y $1176$ de $1176$ ---, que es condición necesaria para cualquier
+involución que cumpla el requisito. Segundo, su $\omega$ toma exactamente uno de los dos factores de
+torsión, nunca los dos y nunca ninguno: cuatro de los ocho elementos de $\Omega_t$ quedan excluidos
+de entrada, también sin excepción. Tres lecturas naturales fallan sobre los mismos datos, y las
+registramos porque cada una habría sido un ansatz plausible: que $\omega$ sea uno de los dos
+elementos de peso extremo $\pm(t+1)$ vale en $t=2$ y falla en $70$ de $1176$ casos en $t=3$; que
+$\beta(\mu)$ sea $\beta(\lambda)$ sin las dos columnas de la transversal falla en $384$ de $398$ y
+en $1092$ de $1176$; y que $\nu$ sea $\mu$ o $\lambda$ falla en $260$ de $398$ y en $860$ de $1176$,
+siendo allí $\nu$ estrictamente intermedio.
+\end{remark}
+
+La construcción de esta subsección surgió en el curso de una exploración asistida por IA, y sin
+ella el artículo no la tendría; la declaración de la \S\ref{sec:disclosure} dice qué significa eso
+aquí. La
+elección entre las dos lecturas ---que la involución no viva sobre $J_\lambda$ sino sobre un conjunto
+de índices del \emph{numerador}--- es suya, y también la razón: una involución sobre $J_\lambda$
+tendría que ocultar precisamente el factor que separa el cociente del numerador. Suyo es
+$\widehat J_\lambda$ mismo, junto con la instrucción de no desarrollar $D_t$ prematuramente sino
+mantenerlo factorizado, una elección signada por factor, para que cada término conserve su
+procedencia y los términos de peso coincidente sigan siendo objetos distintos por su etiqueta. Y suya es la corrección que hace verdadero el Lema
+\ref{lem:fixbound}: habíamos escrito el número de puntos fijos como una igualdad, y es una
+desigualdad, con igualdad exactamente bajo la condición que allí se enuncia. Suya, en fin, es la
+observación de que una transversal del Lema \ref{lem:L3} lleva un menor $2\times2$ y por tanto
+\emph{dos} monomios, que es lo que convierte un recuento de transversales en la Proposición
+\ref{prop:liftcount}. Nuestro es haberlo medido, la localidad del Corolario \ref{cor:local} y el
+esqueleto forzado. Se lo agradecemos.
+
+No conocemos un nombre para la construcción. Multiplicar un conjunto signado por otro que represente
+los términos de un denominador es el recurso estándar para convertir una identidad entre un cociente
+y una suma en una identidad entre dos conjuntos signados, y componer las involuciones resultantes es
+el principio de involución de Garsia y Milne \cite{GM81}; lo particular aquí es que $D_t$ se mantiene
+factorizado, de modo que la procedencia sobrevive. El formalismo de caminos en el que esas elecciones
+son pasos es el de Fulmek \cite{Fulmek}, donde Cauchy--Binet y Laplace ---los dos lados que habría
+que emparejar--- se obtienen biyectivamente en el mismo dibujo. Un control dice qué parte de la
+construcción hace el trabajo. Recoger las ocho elecciones etiquetadas por procedencia en el polinomio
+de Laurent ordinario $D_t$ funde las de igual peso y produce coeficientes de módulo mayor que uno
+---en $t=2$, $D_2=-z^3+3z-3z^{-1}+z^{-3}$---, de modo que el objeto recogido no es un conjunto
+signado de seis elementos con signos $\pm1$. Recoger los pesos iguales deja intacta la identidad de
+polinomios de Laurent del Lema \ref{lem:liftid} y olvida las ocho elecciones etiquetadas por
+procedencia que definen $\Omega_t$: el polinomio manda sobre la identidad, y el levantamiento
+factorizado sobre la procedencia. Dos
+señuelos confirman que el conjunto signado es el correcto: quitar el factor $(z-z^{-1})$ rompe la
+identidad en $289$ de $329$ formas y en $623$ de $791$, y dar signo $+1$ a todos los elementos de
+$\Omega_t$ la rompe en los mismos números.
+
 %======================================================================
 \section{La factorización está aislada}\label{sec:sharp}
 
@@ -2027,8 +2313,9 @@ Para todo $r$ y toda $\lambda\in\PP_N$, $\Psi_r(\lambda)=0$ si y solo si se cump
 Los Teoremas \ref{thm:zeros}--\ref{thm:stable} se demuestran en las
 \S\S\ref{sec:brancha}--\ref{sec:conv}, y el Teorema \ref{conj:crit} --- el criterio para todo
 $r$ --- al final de esta sección, por una vía independiente de los tres. Lo enunciamos aparte por dos
-razones. Es el único resultado del artículo que se apoya en algo ajeno, el Teorema
-\ref{thm:PvW}; y las dos vías que llevan a él no son la misma vía. La de Littlewood lo reduce, en la
+razones. Es el único de nuestros resultados principales cuya prueba se apoya en
+un input externo no elemental, el Teorema \ref{thm:PvW}; y las dos vías que llevan a él no son la
+misma vía. La de Littlewood lo reduce, en la
 \S\ref{sec:unstable}, a un único enunciado de existencia, y esa reducción no se completa: el rango
 $\ell(\lambda)>N/2$ es exactamente donde la regla de restricción deja de aplicarse y, aunque el
 Lema \ref{lem:AtoSp} resuelve allí los valores, el enunciado sobre los coeficientes no --- el
@@ -2205,10 +2492,10 @@ está disponible y el valor no es nulo.
 \end{proof}
 
 La identidad \eqref{eq:docagne} es clásica. El colapso que produce es un accidente de rango uno: dos
-letras admiten un solo hueco, luego $s_{(m,n)}(z,\bar z)=S_{m-n+1}$ depende solo de ese hueco. No hay
+letras admiten un solo hueco, luego $s_{(m,n)}(z,\bar z)=S_{m-n+1}$ depende solo de ese hueco. No conocemos
 análogo de rango $r$. Lo habría si existiera una forma cerrada de $s_\mu$ en alfabeto recíproco para
 \emph{toda} $\mu$; \cite{CK09} la dan para formas rectangulares y \cite{AB19} para las
-autocomplementarias, y nadie en general.
+autocomplementarias, y no conocemos ninguna para $\mu$ arbitraria.
 
 Para $r$ general usamos asociados, en el sentido de Littlewood \cite{Lit50}.
 En el coset $\det=-1$, la relación $[\nu^{*}]=[\nu]\otimes\det$ da
@@ -2262,15 +2549,30 @@ caso simpléctico, la demostración de Gavarini por álgebras de Brauer \cite{Ga
 Willenbring \cite{EW04}, cuyo Teorema 4 da la multiplicidad como una suma alternante sobre el grupo de
 Weyl que en casos favorables colapsa a una diferencia de dos coeficientes de Littlewood
 \cite[\S7.11]{EW04}. Esa observación de \cite{FJKW05} es de 2005, y conviene dejar escrito que el
-hueco que señala se ha llenado desde entonces por el lado que necesitamos: Frohmader
-\cite{Frohmader} da reglas de ramificación combinatorias para $GL_n\downarrow O_n$ y
-$GL_{2n}\downarrow Sp_{2n}$ que generalizan las reglas de restricción de Littlewood y son, en sus
-palabras, \emph{«válidas para todos los parámetros, es decir, no hay restricciones de rango
-estable»}; la multiplicidad pasa a ser una suma de coeficientes de Littlewood--Richardson
+hueco que señala se ha llenado desde entonces por el lado que necesitamos. Para
+$GL_n\downarrow O_n$, la primera fórmula combinatoria que extiende del todo la regla de restricción
+de Littlewood es la de Jang y Kwon \cite{JK20}, y la atribución la tomamos de Frohmader, que lo dice
+con esas palabras; tiene además una propiedad que conviene separar. Escriben
+\[
+\bigl[V^{\lambda}_{GL_n}:V^{\mu}_{O_n}\bigr]
+=\sum_{\delta\in\mathcal P(2)}\overline{c}^{\,\lambda}_{\delta\mu},
+\]
+su Teorema 1.1, donde $\overline{c}^{\,\lambda}_{\delta\mu}$ \emph{cuenta} las tablas de
+Littlewood--Richardson de forma $\lambda/\delta$ y contenido $\mu^{\pi}$ cuya tabla compañera cumple
+una condición de bandera, $\tau_j+n_j\le n+1$; su Corolario 4.12 reescribe la cuenta sobre la tabla
+ordinaria. La frase «desaparecen en un rango estable» tiene aquí un sentido preciso: cuando
+$\ell(\lambda)\le n/2$ las dos sucesiones pasan a ser $m_i=2i-1$ y $n_j=2j$, la desigualdad se cumple
+sola, y se recupera la regla de Littlewood --- su Corolario 4.13. Lo que la separa de las extensiones
+anteriores es que es una cuenta y no una suma alternada; ellos hacen notar que aquéllas se
+obtuvieron por vía algebraica y no son, por tanto, libres de restas, y la suya sí. Frohmader
+\cite{Frohmader} da después reglas de ramificación combinatorias para $GL_n\downarrow O_n$ y
+$GL_{2n}\downarrow Sp_{2n}$ a la vez, que generalizan las reglas de restricción de Littlewood y son,
+en sus palabras, \emph{«válidas para todos los parámetros, es decir, no hay restricciones de rango
+estable»}: allí la multiplicidad pasa a ser una suma de coeficientes de Littlewood--Richardson
 generalizados $c^{\lambda}_{\mu\nu}(O_n)$ leídos de condiciones de bandera sobre tablas de
-Littlewood--Richardson ordinarias, sin ninguna regla de modificación. No la usamos abajo, y decimos
-por qué en un momento; pero es el instrumento natural para la única pregunta que esta sección deja
-abierta, y volvemos a ella en el Problema \ref{prob:instrument}.
+Littlewood--Richardson ordinarias, sin ninguna regla de modificación. No usamos ninguna
+de las dos abajo, y decimos por qué en un momento; pero son los instrumentos naturales para la única
+pregunta que esta sección deja abierta, y volvemos a ellos en el Problema \ref{prob:instrument}.
 
 La ruta de aquí es la dual: mantener universales los coeficientes, que lo son en
 todo rango, y trasladar toda la dependencia del rango a los valores, donde un solo lema la liquida.
@@ -3461,7 +3763,11 @@ cota indicada. La expansión es $\Psi_r(\lambda)=\sum_\mu a_{\lambda\mu}\,sp_\mu
 quiere decir que todos los $a_{\lambda\mu}$ tienen el mismo signo, de modo que $\pm\Psi_r$ es un
 carácter, y \emph{mezclado} quiere decir que es genuinamente virtual. En $r=1$ la columna de mezclados
 está vacía, como fuerza el Teorema \ref{thm:main}; no lo está para ningún $r\ge2$ al que lleguemos.
-Calculada por \texttt{anc/fig\_v2.py}.}
+Calculada por \texttt{anc/folding\_t2.py}, cuya corrida archivada imprime cada fila como \emph{cero}
+/ \emph{no negativa} / \emph{no positiva} / \emph{MEZCLADA}; la columna \emph{un signo} de aquí es la
+suma de las dos clases de signo único, que esa corrida imprime ya también. La figura que la acompaña
+es \texttt{anc/fig\_v2.py}, que elige sus dos ejemplos de la misma población pero no produce este
+cuadro.}
 \label{tab:virtual}
 \begin{tabular}{@{}lrrrr@{}}
 \toprule
@@ -3502,6 +3808,7 @@ una línea de código ni una biblioteca. Los rangos y recuentos se recogen aquí
 \begingroup\footnotesize\setlength{\tabcolsep}{4.0pt}
 % Anchuras algo menores que en la edicion inglesa: el castellano es mas largo por palabra y con las
 % de alla la tabla se salia 4 pt.  Se miden en el PDF, no en el log.
+\rowcolors{2}{hband}{white}
 \begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.352\linewidth}%
                   >{\raggedright\arraybackslash}p{0.222\linewidth}%
                   >{\raggedleft\arraybackslash}p{0.272\linewidth}@{\hspace{4pt}}l@{}}
@@ -3554,42 +3861,42 @@ $4823$ menores; $217$ pares, $0$ fallos & \stproved\\
 (D3), (D4) de la \S\ref{sec:sharp} & $t\le6$, $|\lambda|\le10$ &
 $600$ / $383$ / $200$ de $600$ & \stverif\\
 \midrule
-\rowcolor{hband} Teor. \ref{conj:crit}, el criterio, todo $r$ & --- & prueba, \S\ref{sec:rigidity} & \stproved\\
-\rowcolor{hband} \quad lo mismo, leído sobre $O(N)$, Cor.~\ref{cor:dettwist} & --- &
+Teor. \ref{conj:crit}, el criterio, todo $r$ & --- & prueba, \S\ref{sec:rigidity} & \stproved\\
+\quad lo mismo, leído sobre $O(N)$, Cor.~\ref{cor:dettwist} & --- &
 reformulación, \S\ref{sec:conv} & \stproved\\
-\rowcolor{hband} \quad Teor. \ref{thm:PvW}, el input externo & --- & \cite{PvW} & \stext\\
-\rowcolor{hband} \quad Teorema \ref{thm:Ggen}, $|G|\le2$ & $t\le10$, $r\le3$ & voraz contra fuerza bruta, $0/4049$ & \stproved\\
-\rowcolor{hband} \quad Prop.~\ref{prop:A1gen}, los extremos & $t\le10$, $r\le3$ & $2522$ formas, $0$ fallos & \stproved\\
-\rowcolor{hband} \quad \quad la hipótesis hace falta & mismo & $414$ formas fallan sin ella & \stproved\\
-\rowcolor{hband} \quad las identidades mostradas, \S\S\ref{sec:extremal}--\ref{sec:rigidity} & $t=2$, $r\le3$ & $11$ identidades, $0$ fallos & \stverif\\
-\rowcolor{hband} Lema \ref{lem:step}, movimiento de columna, toda clase & $t\le6$, $r\le3$ &
+\quad Teor. \ref{thm:PvW}, el input externo & --- & \cite{PvW} & \stext\\
+\quad Teorema \ref{thm:Ggen}, $|G|\le2$ & $t\le10$, $r\le3$ & voraz contra fuerza bruta, $0/4049$ & \stproved\\
+\quad Prop.~\ref{prop:A1gen}, los extremos & $t\le10$, $r\le3$ & $2522$ formas, $0$ fallos & \stproved\\
+\quad \quad la hipótesis hace falta & mismo & $414$ formas fallan sin ella & \stproved\\
+\quad las identidades mostradas, \S\S\ref{sec:extremal}--\ref{sec:rigidity} & $t=2$, $r\le3$ & $11$ identidades, $0$ fallos & \stverif\\
+Lema \ref{lem:step}, movimiento de columna, toda clase & $t\le6$, $r\le3$ &
 $285\,600/285\,600$; señuelo de un término $149\,652$ & \stproved\\
-\rowcolor{hband} Teor. \ref{thm:suff}, la dirección suficiente & $t\le8$, $r\le4$ &
+Teor. \ref{thm:suff}, la dirección suficiente & $t\le8$, $r\le4$ &
 $438$ formas, $0$ fallos; \eqref{eq:wrefl} $438/438$ & \stproved\\
-\rowcolor{hband} Conj. \ref{conj:general}, ambas direcciones & $t\le12$, $r\le4$ &
+Conj. \ref{conj:general}, ambas direcciones & $t\le12$, $r\le4$ &
 $190\,443$ formas, $24$ configuraciones, $0$ fallos & \stverif\\
-\rowcolor{hband} \quad lo mismo, evaluación independiente & $t\le8$, $r\le4$ &
+\quad lo mismo, evaluación independiente & $t\le8$, $r\le4$ &
 $43\,010$ formas, $409$ ceros, $0$ fallos & \stverif\\
-\rowcolor{hband} \quad lo mismo otra vez, en Sage & $t\le8$, $r\le3$ &
+\quad lo mismo otra vez, en Sage & $t\le8$, $r\le3$ &
 $12\,937$ formas, $131$ ceros, $0$ fallos & \stverif\\
-\rowcolor{hband} \quad contra los Teoremas \ref{thm:main} y \ref{conj:crit} & $r=1$; $t=2$ &
+\quad contra los Teoremas \ref{thm:main} y \ref{conj:crit} & $r=1$; $t=2$ &
 $9913$ y $29\,508$ formas, $0$ discrepancias & \stproved\\
-\rowcolor{hband} \quad el señuelo que lee $\beta$ en vez de $\mathcal{S}$ & mismo &
+\quad el señuelo que lee $\beta$ en vez de $\mathcal{S}$ & mismo &
 falla en $24$ de $24$ y en $14$ de $14$ & \stproved\\
 \midrule
-\rowcolor{hband} Teor. \ref{conj:crit}, ambas direcciones, comprobación directa & $r\le3$, $|\lambda|\le28,26,22$ &
+Teor. \ref{conj:crit}, ambas direcciones, comprobación directa & $r\le3$, $|\lambda|\le28,26,22$ &
 $9961$ formas, $318$ ceros, $0$ fallos & \stproved\\
-\rowcolor{hband} \quad rama (a), Teor.~\ref{thm:zeros} & $r\le3$, $|\lambda|\le15$ &
+\quad rama (a), Teor.~\ref{thm:zeros} & $r\le3$, $|\lambda|\le15$ &
 $16/16$ & \stproved\\
-\rowcolor{hband} \quad rama (b), Teor.~\ref{thm:zeros} & $r\le3$ & $24/24$ & \stproved\\
-\rowcolor{hband} \quad control de anchura par para (b) & $r\le3$ & $56/56$ no nulos & \stproved\\
-\rowcolor{hband} \quad recíproco en $r=1$, Teor.~\ref{thm:r1} & $\beta_1\le25$ &
+\quad rama (b), Teor.~\ref{thm:zeros} & $r\le3$ & $24/24$ & \stproved\\
+\quad control de anchura par para (b) & $r\le3$ & $56/56$ no nulos & \stproved\\
+\quad recíproco en $r=1$, Teor.~\ref{thm:r1} & $\beta_1\le25$ &
 $14950$ conjuntos beta, $0$ fallos & \stproved\\
-\rowcolor{hband} \quad recíproco, $\ell(\lambda)\le N/2$, Teor.~\ref{thm:stable} & $r\le3$ &
+\quad recíproco, $\ell(\lambda)\le N/2$, Teor.~\ref{thm:stable} & $r\le3$ &
 $372/372$ testigos & \stproved\\
-\rowcolor{hband} \quad el testigo aislante, Prop.~\ref{conj:iso} & $r=2$, $|\lambda|\le14$ &
+\quad el testigo aislante, Prop.~\ref{conj:iso} & $r=2$, $|\lambda|\le14$ &
 $227$ testigos, $11$ de residuo & \stproved\\
-\rowcolor{hband} \quad lo mismo en $r=3$ & $r=3$, $|\lambda|\le13$ &
+\quad lo mismo en $r=3$ & $r=3$, $|\lambda|\le13$ &
 $149$ testigos, $0$ de residuo & \stproved\\
 \midrule
 Identidad \eqref{eq:compl} & $r\le2$ & $474/474$ & \stproved\\
@@ -3600,21 +3907,37 @@ identidad $0$ fallos; plegados $0$ fallos & \stproved\\
 \quad la reducción, llevada a cabo & $r\le2$ & $236$ etiquetas, $0$ sin resolver & \stproved\\
 \eqref{eq:Cmu} contra el objeto exacto & $r\le2$, ambos rangos & $184$ formas, $0$ fallos &
 \stverif\\
+\eqref{eq:Jlambda}, el conjunto de términos de la \S\ref{sec:lift} & $t=2,3$; $\lambda_1\le7$ &
+$329/329$ y $791/791$ & \stproved\\
+Prop. \ref{prop:wrongset}: $\|\Phi\|_1$ contra el recuento de Laplace & mismo &
+$\lambda=(7,4)$ da $30$ exacto; pasa de $8$ en $128$ y $216$ & \stproved\\
+Lema \ref{lem:liftid}, el levantamiento & mismo &
+$329/329$, $791/791$; dos señuelos rompen $289$ y $623$ & \stproved\\
+Prop. \ref{prop:liftcount}, igualdad si $\Phi\ne0$ & mismo &
+prueba, \S\ref{sec:lift}; control $309/329$ y $791/791$ & \stproved\\
+Cor. \ref{cor:local}, la forma local & mismo &
+prueba, \S\ref{sec:lift}; control $1696/1696$ y $4074/4074$ & \stproved\\
+Obs. \ref{rem:skeleton}, signo y torsión en los puntos forzados & mismo &
+$398/398$ y $1176/1176$; tres ansatz fallan & \stverif\\
+Prob. \ref{prob:instrument}: el lugar dentro del rango de Littlewood &
+$(t,r)=(2,2),(2,3),(4,2)$ & $1$ de $164$, $494$, $494$, las tres el
+Teor. \ref{thm:stable}(b) & \stverif\\
 \end{longtable}
 \endgroup
 
-\noindent El bloque sombreado es el Teorema \ref{thm:zeros} leído de arriba abajo: las dos ramas
-suficientes están demostradas para todo $r$, el recíproco está demostrado para un par y, para todo
-$r$, dentro del rango de Littlewood; y la línea que solía quedar ---el recíproco para $r\ge2$ fuera
-de ese rango y más allá de la franja $|\lambda|\le2r+2$ que resuelve el Lema \ref{lem:nonstd}---
-es el Teorema \ref{conj:crit}, demostrado en la \S\ref{sec:rigidity} por un argumento que no entra
-en el rango de Littlewood. Por eso el bloque lleva ya \stproved\ en todas sus filas, con una en
-\stext\ para el apoyo ajeno del que depende. La fila que registra lo que hace y lo que no hace el
-certificado que propusimos se queda, y lleva \stproved\ porque la Proposición \ref{conj:iso} es un
-contraejemplo y los contraejemplos son demostraciones; lo que acota ahora es una vía, no el
-enunciado. Las filas por debajo del bloque son las identidades y la reducción sobre
-las que se apoya la sección. En la columna, \stproved\ significa que aquí se da una demostración o se
-cita, y \stverif\ que el enunciado se comprueba de forma exhaustiva sobre el rango indicado y no se
+\noindent Los dos grupos de filas de la \S\ref{sec:zeros} son el único sitio del artículo donde
+el estado de una fila no se lee en su enunciado. El primero es la maquinaria y hasta dónde llega: el
+Teorema \ref{conj:crit} cierra $t=2$ para todo $r$, y la única fila en \stext\ es el apoyo ajeno
+del que depende; debajo, los pasos extremales, después el Teorema \ref{thm:suff}, que alcanza todo
+$t$ y todo $r$ y no necesita ningún apoyo externo; y por último la Conjetura \ref{conj:general}, en
+\stverif\ porque es el único enunciado de aquí que está medido y no demostrado. Sus dos subfilas
+son lo que hace que la medida merezca citarse: el criterio se contrasta contra los dos teoremas que
+ya deciden sus propios rangos, y a su lado corre un señuelo que lee la condición sobre $\beta$ en
+vez de sobre $\mathcal{S}$, y falla en todas partes. El segundo grupo es el mismo lugar comprobado
+directamente contra las definiciones, rama a rama, que es otro camino de código y no una
+reformulación. Las filas por debajo de los dos son las identidades y la reducción sobre las que se
+apoya la sección. En la columna, \stproved\ significa que aquí se da una demostración o se cita, y
+\stverif\ que el enunciado se comprueba de forma exhaustiva sobre el rango indicado y no se
 demuestra.
 
 \noindent La fila de (D3), (D4) es la que más importa del primer grupo: la identidad se cumple en los
@@ -3635,6 +3958,168 @@ recuento de la tabla anterior puede localizarse en una ejecución archivada en l
 confianza.
 
 %======================================================================
+\section{Atribución}\label{sec:attr}
+
+El artículo cede terreno en una docena de sitios distintos --- dentro de una demostración, después de
+un lema, en una observación ---, y quien quiera saber qué está tomado prestado no debería tener que
+buscarlos uno a uno. Esta sección es ese registro, en dos listas y no en una, porque las dos se leen
+por razones distintas. Nada de lo que hay aquí es nuevo: cada fila apunta a un enunciado de arriba, y
+donde el cuerpo ya dice de quién es un argumento, esta tabla lo repite en vez de sustituirlo.
+
+\subsection*{Lo que usamos}
+\begingroup\rowcolors{2}{hband}{white}\footnotesize\setlength{\tabcolsep}{4.0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.60\linewidth}%
+                   >{\raggedright\arraybackslash}p{0.34\linewidth}@{}}
+\toprule
+enunciado & de quién es\\
+\midrule
+\endfirsthead
+\multicolumn{2}{@{}l}{\footnotesize\itshape Lo que usamos, continuación}\\[1pt]
+\toprule
+enunciado & de quién es\\
+\midrule
+\endhead
+la factorización por $t$-cociente en una órbita de raíces de la unidad, y la contabilidad de
+$\beta$-conjuntos sobre la que se apoya toda la línea & Littlewood \cite{Lit50}; Ayyer--Kumari
+\cite{AK22}
+\stext\\
+la factorización en un alfabeto puramente recíproco, para formas rectangulares &
+Ciucu--Krattenthaler \cite{CK09} \stext\\
+lo mismo para formas autocomplementarias, con el punto fijo $+1$, y la obstrucción de paridad en un
+rectángulo $a\times b$ & Ayyer--Behrend \cite{AB19} \stext\\
+$o_\nu(A)=sp_\nu(z)$ --- \emph{el Lema \ref{lem:AtoSp} entero} & Ayyer--Kumari \cite{AK25}: la
+composición de su (2.13) con su Lema 3.2. Lo encontramos calculando y lo pasamos por el gate después
+\stext\\
+los caracteres universales, y la forma de la especialización de tipo $D$ & Koike--Terada \cite{KT87}
+\stext\\
+la regla de modificación simpléctica que usamos en la \S\ref{sec:unstable} & King \cite{King71}
+\stext\\
+el retorcimiento: el carácter de una clase lateral de un grupo desconectado es un carácter del
+álgebra plegada & Jantzen; Kumar--Lusztig--Prasad \cite{Jantzen,KLP} \stext\\
+la regla de restricción de Littlewood, y la involución asociada $[\nu^*]=[\nu]\otimes\det$ &
+Littlewood \cite{Lit50}; clásicas \stext\\
+la extensión de la regla de restricción que cubre todos los parámetros --- de modo que el espacio de
+relaciones entre los $s_\nu$ en un alfabeto recíproco \emph{no} está sin describir &
+King \cite{King71}; Koike--Terada \cite{KT87}; Enright--Willenbring \cite{EW04} \stext\\
+$S_bS_{b'-1}-S_{b'}S_{b-1}=-S_{b-b'}$ & d'Ocagne \cite{Doc}, para Chebyshev de segunda especie;
+clásica \stext\\
+que la forma inicial de un determinante es la suma con signo sobre los óptimos de un problema de
+asignación, y que la matriz es singular exactamente cuando dos óptimos empatan & álgebra lineal
+tropical, estándar \cite{TropCramer} \stext\\
+el levantamiento al numerador de la Definición \ref{def:lift}, la razón para preferirlo a
+una involución sobre $J_\lambda$, la corrección del recuento de puntos fijos de igualdad a
+desigualdad, y la observación de que una transversal lleva dos monomios & exploración asistida
+por IA; véase la \S\ref{sec:disclosure} \stext\\
+los valores del carácter en un elemento de orden dos & Karmakar \cite{Kar24} \stext\\
+que una involución que invierte el signo reduce una suma signada a sus puntos fijos, y con ello el
+Lema \ref{lem:fixbound} & estándar \stext\\
+el último eslabón de $\Phi_t=0\Rightarrow$ (ii), y su forma con $n$ factores & Purbhoo--van
+Willigenburg; Rajan \cite{PvW,Rajan} \stext\\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\subsection*{Lo que es nuestro}
+
+Una cosa hay que decirla antes de la tabla y no dentro. El alfabeto es lo que este artículo aporta
+antes que cualquier enunciado suyo: las extensiones de raíces de la unidad repasadas arriba añaden más estructura de raíces de la
+unidad, y la línea del par recíproco necesita formas autoduales; adjuntar un par recíproco
+\emph{libre} a una órbita completa es el paso que, hasta donde sabemos, no aparece en la literatura
+de factorización que aquí repasamos, y todo lo de abajo es lo que ese paso vuelve contestable.
+
+\begingroup\rowcolors{2}{hband}{white}\footnotesize\setlength{\tabcolsep}{4.0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.44\linewidth}%
+                   >{\raggedright\arraybackslash}p{0.50\linewidth}@{}}
+\toprule
+enunciado & estado\\
+\midrule
+\endfirsthead
+\multicolumn{2}{@{}l}{\footnotesize\itshape Lo que es nuestro, continuación}\\[1pt]
+\toprule
+enunciado & estado\\
+\midrule
+\endhead
+Teorema \ref{thm:main} y su demostración, Lemas \ref{lem:L1}--\ref{lem:L5} & \stproved; el desarrollo
+de Laplace por las filas congeladas es elemental, y lo nuestro es el recuento de residuos con exceso
+dos, el colapso y el signo\\
+Lema \ref{lem:L2} & \stproved; el determinante que allí se evalúa es de una especie que Ciucu y
+Krattenthaler tratan, y la evaluación no es el contenido --- lo es el bloque congelado al que se
+aplica\\
+Corolario \ref{cor:zero} & \stproved; contesta la pregunta en la forma en que Prasad la planteó, que
+es por lo que se enuncia aparte\\
+Proposiciones \ref{rem:lattice}, \ref{prop:fibrelattice} y Corolario \ref{cor:fibregf} --- el estrato
+de dos clases es un retículo, con función generatriz explícita & \stproved; nuestro\\
+Proposición \ref{prop:minimal}, Proposición \ref{rem:sign} --- el multiconjunto y el signo son
+exactamente lo que se ve & \stproved; nuestro\\
+Proposición \ref{rem:involution}: las rachas alternan & \stproved; \emph{la parte (i) es de
+Macdonald \cite[p.~91]{Mac95}, no nuestra}, y el artículo lo dice donde la proposición está\\
+Teorema \ref{thm:extra}, Lema \ref{lem:single} --- independencia en el lugar recíproco & \stproved;
+extiende un criterio de Ayyer--Kumari, y acota dónde se aplica su teorema\\
+Teorema \ref{thm:zeros}: las dos ramas & \stproved; la rama (a) es una línea --- con $\beta$ de
+paridad constante el bialternante factoriza por $A^2$ --- y \emph{la mitad autocomplementaria es un
+corolario corto} de la identidad de complementación estándar sobre la familia de índices que Ayyer y
+Behrend señalan. Lo que esta fila \emph{no} lleva es el recíproco; que no se anula nada más se prueba en las filas
+de abajo, y por fin para todo $r$ en el Teorema \ref{conj:crit}\\
+Teorema \ref{thm:r1}, Teorema \ref{thm:stable} --- el recíproco en $r=1$, y dentro del rango de
+Littlewood para todo $r$ & \stproved; nuestro, y no hemos encontrado esta mitad enunciada en las fuentes repasadas\\
+Corolario \ref{cor:dettwist}: rigidez bajo el giro por el determinante, un bicondicional para todo
+$r$; y que desde $r\ge2$ el extremo de orden dos deja de decidir la curva &
+\stproved; nuestro. Que el extremo deje de decidir la curva es el hallazgo, y $\lambda=(5,4,3,1)$ es
+el primer testigo\\
+Lema \ref{lem:AtoSp} & \stext; \emph{no es nuestro} --- véase la primera tabla; se enuncia aquí porque el
+argumento lo necesita, y su demostración es suya\\
+Lema \ref{lem:Arefl}: el menor reflejado & \stproved; la reflexión que se usa es la que Ayyer y
+Behrend ya manejan\\
+Lema \ref{lem:L3gen}, Lema \ref{lem:step}, Teorema \ref{thm:Ggen} --- la descomposición de Laplace y
+el conjunto extremal para $r$ general & \stproved; nuestro. La cota $|G|\le2$ es el enunciado
+tropical de arriba especializado a nuestra matriz, y lo que reclamamos es sólo la \emph{razón} de
+ella --- que un empate obliga a $t$ par y pone los dos incrementos empatados en las clases $i$ e
+$i+t/2$\\
+que la factorización en grado máximo es $[A(T)]_{\mathrm{top}}=a_H(z)a_L(1/z)$ & \stproved, y
+\emph{elemental}: una línea de Laplace y una cuenta de grados. No reclamamos nada de ella\\
+que el emparejamiento consecutivo es el único emparejamiento de peso mínimo sobre una recta & \stext;
+folclore; un argumento de intercambio de una línea, y no encontramos lema citable\\
+Teorema \ref{thm:suff}, Corolario \ref{cor:necgen} --- la dirección suficiente para todo $t$ y $r$, y
+una condición necesaria en $t$ par & \stproved; nuestro\\
+Lema \ref{lem:signformula}, Lema \ref{lem:signrefl} --- los signos de la reflexión parcial &
+\stproved; nuestro\\
+Conjeturas \ref{conj:general}, \ref{conj:gcom}, \ref{conj:rank2} & \stverif; abiertas, y medidas; los rangos
+están en \S\ref{sec:verif}\\
+Proposición \ref{conj:rank}: el rango es el invariante equivocado & \stproved; nuestra, y es un
+negativo --- quita un invariante candidato en vez de aportar uno\\
+Proposición \ref{prop:wrongset}, Lema \ref{lem:liftid}, Proposición \ref{prop:liftcount} y
+Corolario \ref{cor:local} --- dónde no puede vivir una involución así, y dónde sí
+& \stproved; \emph{la construcción sobre la que se enuncian no es nuestra}
+---véase la primera tabla--- y nuestro es haberlo medido\\
+Observación \ref{rem:skeleton} --- lo que fuerzan los espacios de peso de tamaño uno &
+\stverif; nuestra\\
+la medida de dentro del Problema \ref{prob:instrument}: el lugar de anulación corta
+el rango de Littlewood en una sola forma, y esa forma ya es un teorema & \stverif;
+nuestra, y es un negativo --- dice de qué especie tiene que ser el instrumento que la
+pregunta necesita, no cuál la contesta\\
+los enunciados restantes --- Corolarios \ref{cor:chars}, \ref{cor:enum}, \ref{cor:sizes},
+\ref{cor:uniquegen}, \ref{cor:midgen}, \ref{cor:oddgen}, \ref{cor:reflectgen}, \ref{cor:Ctaugen},
+\ref{cor:whenminus}, \ref{cor:suffgeom}; Proposiciones \ref{prop:quotient}, \ref{prop:rect},
+\ref{conj:iso}, \ref{prop:orbitgen}, \ref{prop:translgen}, \ref{prop:centregen}, \ref{prop:A1gen};
+Lemas \ref{lem:L3}, \ref{lem:L4}, \ref{lem:nonstd}, \ref{lem:reflgen}, \ref{lem:dictgen},
+\ref{lem:reflact}; y Teorema \ref{conj:crit} & \stproved; nuestros. Son la maquinaria interna de las
+demostraciones de arriba, y se listan por nombre para que esta tabla cubra \emph{todos} los
+enunciados del artículo y no sólo los memorables. Los hechos clásicos que invocan --- la regla de
+restricción de Littlewood y su rango, las reglas de modificación --- son los cedidos en la primera
+tabla\\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\noindent
+Tres negativos merecen enunciarse como negativos, porque cada uno costó una búsqueda. La
+$(z_1,z_2,k)$-asimetría de Kumari \emph{no} clasifica nuestro lugar de anulación. No hay análogo de
+d'Ocagne en rango $r$ --- sería una forma cerrada para $s_\mu$ en un alfabeto recíproco para todo
+$\mu$, y la literatura sólo la da para formas especiales. Y un criterio de anulación sobre
+$O(N)\setminus SO(N)$ --- que es de lo que trata la \S\ref{sec:zeros} --- no lo encontramos bajo
+ninguna de dos búsquedas con vocabularios distintos.
+
+%======================================================================
 \section{Problemas abiertos}\label{sec:open}
 
 La Figura \ref{fig:map} sitúa lo que sigue frente a lo que el artículo demuestra y lo que toma
@@ -3645,12 +4130,18 @@ prestado; los problemas de abajo son las cajas que deja abiertas.
 \includegraphics[width=\textwidth]{fig_map_es.pdf}
 \caption{Sobre qué se apoya el criterio de la \S\ref{sec:zeros} y qué queda. Las cajas son
 enunciados y las flechas dependencias; el color es la columna de estado de la \S\ref{sec:verif} ---
-relleno lo demostrado aquí, gris el único apoyo ajeno, discontinuo lo abierto. La rama de arriba es
-el argumento extremal de las \S\S\ref{sec:extremal} y \ref{sec:rigidity}; la de abajo es la
-reducción de Littlewood, cuyo certificado refuta la Proposición \ref{conj:iso} ---un contraejemplo,
-o sea una demostración---, de modo que la rama de abajo ya no toca el criterio sino la cuestión
-aparte de explicar los $C_\mu$, que es el Problema \ref{prob:instrument}. Los enunciados van por
-nombre y no por número, para que la figura no pueda desfasarse cuando la numeración lo haga.
+relleno lo demostrado aquí, gris el único apoyo ajeno, discontinuo lo abierto. La rama del \emph{medio} es
+el argumento extremal de las \S\S\ref{sec:extremal} y \ref{sec:rigidity}, que cierra el criterio
+en $t=2$ para todo $r$. La de \emph{abajo} es la reducción de Littlewood, cuyo certificado refuta
+la Proposición \ref{conj:iso} ---un contraejemplo, o sea una demostración---, de modo que ya no
+toca el criterio sino la cuestión aparte de explicar los $C_\mu$, que es el Problema
+\ref{prob:instrument}. La de \emph{arriba} arranca de una hipótesis y no del desarrollo, y es la
+única que alcanza todo $t$ y todo $r$: allí la reflexión empareja todos los términos a la vez y no
+sólo los dos maximizadores. Las tres se encuentran en la única implicación que falta, que es lo
+que hace de la Conjetura \ref{conj:general} una conjetura. Las cajas nombran sus enunciados, y los
+cuatro números que sí llevan se leen del \texttt{.aux} al dibujar, de modo que no pueden
+desfasarse cuando la numeración lo haga; \texttt{check\_figrefs.py} comprueba que cada uno sigue
+resolviendo, y a un enunciado del tipo correcto.
 Calculada por \texttt{anc/fig\_proof.py}.}
 \label{fig:map}
 \end{figure}
@@ -3664,8 +4155,23 @@ Lema \ref{lem:L1} y el recuento de exceso dos deberían sobrevivir palabra por p
 el colapso, los Lemas \ref{lem:L4} y \ref{lem:L5}, habría que rehacerlo una vez por tipo. El alfabeto
 \eqref{eq:object} es ya un elemento del toro de $O(t+2)$, de modo que los otros tipos no son la misma
 función en un punto nuevo sino objetos nuevos, y elegir los correctos es cuestión de criterio dentro
-de un programa que no hemos construido nosotros. Sí hemos medido, y lo damos como medición y nada
-más. Desarrollando los caracteres universales de Koike--Terada en la base de Schur y evaluando
+de un programa que no hemos construido nosotros.
+
+\emph{El análogo simpléctico clásico no está abierto, y deberíamos haberlo dicho aquí y no sólo
+en el Teorema 2.2.} La Observación \ref{rem:notacase} de más arriba compara nuestro alfabeto con el
+\cite[Teorema 2.2]{Kum24}, que es el enunciado de $GL$; pero el \cite[Teorema 2.8]{Kum24} del
+mismo artículo evalúa $sp_\lambda(X,\omega X,\dots,\omega^{t-1}X,\,y)$, y en un carácter
+simpléctico adjuntar $y$ es adjuntar el par recíproco $\{y,y^{-1}\}$. Ésa es la mitad simpléctica
+de este problema, contestada, con criterio de anulación --- su $(z_1,z_2,k)$-asimetría del
+$t$-núcleo ---, y hemos contrastado ese criterio con la anulación del carácter simpléctico
+universal sobre $\mu_t\cup\{z,z^{-1}\}$: coincide en $285$ de $285$ formas en $t=3,5,7$, en las
+cuatro casillas \stverif. La distinción que sobrevive no es de rango sino de objeto: su
+$sp_\lambda(W)$ es el carácter clásico, cuyo alfabeto de autovalores es $W$ junto con sus
+inversos, así que en $X=(1)$ la órbita está \emph{doblada}, y el carácter universal sobre la
+órbita tomada una vez es otra función --- los valores difieren en $155$, $96$ y $51$ de $219$
+formas, mientras que el lugar de anulación coincide en $219$ de $219$ \stverif. Así que lo que
+este problema sigue pidiendo son los casos ortogonales, y la brecha doblado/sin doblar en el
+simpléctico. \emph{El resto de este problema es una medición, y se da como tal y nada más.} Desarrollando los caracteres universales de Koike--Terada en la base de Schur y evaluando
 término a término con el Teorema \ref{thm:main}, sobre $|\lambda|\le12$ para $t\le3$ y
 $|\lambda|\le10$ para $t=4,5$, la fracción de formas con $\ell(\lambda)\ge2$ en las que el valor se
 anula es netamente mayor para $o_\lambda$ en la componente no identidad que en la identidad ---el
@@ -3724,9 +4230,39 @@ son el mismo. Las $\zeta$-órbitas son territorio de $\varphi_t$, en la formulac
 ortogonales universales, que admiten realizaciones por operadores de vértice de las que se siguen sus
 reglas de ramificación \cite{JJLW24}. Nuestro alfabeto es uno de cada, y el Lema \ref{lem:AtoSp} es
 el único sitio donde ambos se encuentran: allí la $\zeta$-órbita es $\{1,-1\}$, lo bastante pequeña
-como para que adjuntarla sea un par de mapas de letra y no un operador. No conocemos nada que actúe
-sobre las dos mitades a la vez, y la pregunta es si los dos formalismos componen.
+como para que adjuntarla sea un par de mapas de letra y no un operador.
+\emph{El artículo compañero \cite{PaperII} contesta esto en sentido débil, y lo dice.} Exhibe una
+aplicación que lleva el objeto con todos los pares libres al objeto con la órbita congelada ---una
+construcción para $t$ par y otra distinta para $t$ impar, quedando abierta allí una única que dé
+las dos---. Sus dos salvedades son las que dejan en pie la pregunta de arriba: la aplicación no es
+una Verschiebung y no se afirma que factorice ninguna, y está montada a posteriori a partir de una
+ramificación seguida de una evaluación, y no de una operación sobre funciones simétricas. Lo que
+aquí se pide es lo segundo.
 \end{problem}
+
+\begin{remark}[qué del Problema \ref{prob:versch} está ya saldado, y una corrección]\label{rem:composes}
+Una versión anterior de este problema afirmaba que no conocíamos nada que actuara sobre las dos
+mitades a la vez. Era falso, y el contraejemplo está en la referencia que el propio problema
+nombra para la mitad torcida: Albion \cite[\S6.1]{Alb23} define la Verschiebung con una letra
+libre adjuntada, $\varphi^q_t h_{at+b}:=q^b\sum_k q^{kt}h_{a-k}$, y su Proposición 6.2 la evalúa
+sobre $s_\lambda$. El caso de una letra estaba publicado. Lo que faltaba es el del \emph{par}, y
+ahí los dos formalismos sí componen:
+\begin{equation}\label{eq:composes}
+s_\lambda\bigl(\mu_t\cup\{z,z^{-1}\}\bigr)=\sum_{\mu}\operatorname{sgn}_t(\mu)\,
+s_{\lambda/\mu}(z,z^{-1}),
+\end{equation}
+con la suma sobre los $\mu\subseteq\lambda$ de $t$-núcleo vacío y con toda componente del
+$t$-cociente de a lo sumo una fila. No es un teorema nuevo: es el Teorema 3.1 de Albion evaluado
+en $1$, donde $s_\nu(1)=1$ si $\ell(\nu)\le1$ y $0$ en otro caso. Se deja escrito porque contesta
+la última frase del problema --- las dos mitades componen, y la composición es explícita --- y
+porque una pregunta no debe quedarse en pie sobre una premisa que su propia referencia refuta.
+Contrastado con el valor directo, $714/714$ en $t=2$ y $2001/2001$ en $t=3$; el señuelo sin la
+condición de núcleo vacío falla $709$ y $2001$ veces, el señuelo con $(z,z)$ en lugar de
+$(z,z^{-1})$ falla $664$ y $1496$, y el señuelo sin $\operatorname{sgn}_t(\mu)$ falla $665$ y
+$1884$ \stverif. Lo que \eqref{eq:composes} \emph{no} da es un operador: es una identidad de
+ramificación, no una factorización de $\varphi_t$ por un álgebra mayor, y el problema de arriba
+pide lo segundo.
+\end{remark}
 
 \begin{proposition}[el rango es el invariante equivocado]\label{conj:rank}
 Sea $A=\zt\cup B$ con $B$ cerrado bajo inversión y disjunto de $\zt$, y sea $\rho(B)$ el rango del
@@ -3784,8 +4320,16 @@ s_\lambda\big(1,-1,y,-y^{-1}\big)\;=\;i^{\,|\lambda|}\,s_\lambda\big(-i,\,i,\,w,
 \end{equation}
 y el alfabeto de la derecha sí lo es. La hipótesis que llevaría una forma proyectivamente invariante
 no es, por tanto, el cierre por inversión de $B$, sino que $A$ sea un múltiplo
-escalar de un conjunto cerrado por inversión. Una clase lateral $\zeta\zt$ es ella misma cerrada por
-inversión exactamente cuando $\zeta^{2}=\pm1$, que es donde (D3) rompe y donde no.
+escalar de un conjunto cerrado por inversión. Esa
+hipótesis es más débil de lo que parece, y (D3) es lo que mide cuánto. Una clase lateral $c\zt$ es ella misma
+cerrada por inversión exactamente cuando $c^{2}\in\zt$, porque $(c\zt)^{-1}=c^{-1}\zt$; y (D3) lo cumple
+para todo $t$, ya que su $\zeta'=e^{\pi i/t}$ tiene $(\zeta')^{2}=\zeta$. Su alfabeto son las potencias
+impares de una raíz $2t$-ésima, y la inversión conserva la paridad del exponente. Y sin embargo (D3)
+rompe la identidad, en $217$ de las $600$ formas barridas arriba. Así que la cerradura por inversión
+no sobrevive como hipótesis entera ni siquiera proyectivamente: lo que a (D3) le falta es la otra
+mitad de la \S\ref{sec:sharp}, que las letras congeladas sean una órbita \emph{entera} y no un coset
+de una. Una forma proyectiva de la Conjetura \ref{conj:rank2} tiene que llevar las dos, y es (D3)
+quien enseña que son independientes.
 
 \begin{problem}[el instrumento para el segundo par]\label{prob:instrument}
 La Sección \ref{sec:zeros} reduce la anulación en $r\ge2$ a un enunciado sobre los coeficientes
@@ -3813,12 +4357,38 @@ coeficientes, y lo que no hemos intentado es si esa recursión los calcula.
 Hay un segundo instrumento, y es el que probaríamos primero. Las reglas de ramificación de Frohmader
 \cite{Frohmader} calculan $\mathrm{mult}(\pi^{\nu}_{O_n},\pi^{\lambda}_{GL_n})$ como
 $\sum_{\mu}c^{\lambda}_{\mu\nu}(O_n)$ sobre las particiones $\mu$ de filas pares, sin restricción de
-rango estable y sin regla de modificación. Nuestros $C_\mu$ de \eqref{eq:Cmu} son sumas con signo de
+rango estable y sin regla de modificación. Jang--Kwon \cite{JK20} calculan esa misma multiplicidad,
+y su forma es la más afilada para lo que aquí hace falta: es una cuenta manifiestamente no negativa
+de tablas de Littlewood--Richardson con bandera. El obstáculo aquí es precisamente que nuestros
+$C_\mu$ llevan signos, y lo que la \S\ref{sec:unstable} deja sin cerrar es una igualdad
+$m_\nu(\lambda)=m_{\nu^{*}}(\lambda)$ entre dos multiplicidades exactamente de esa clase, en el
+rango $\ell(\lambda)>N/2$ donde la regla de Littlewood deja de aplicarse. Una expresión sin restas
+para cada lado es de donde querría partir una prueba allí. Nuestros $C_\mu$ de \eqref{eq:Cmu} son
+sumas con signo de
 exactamente las multiplicidades que esas reglas calculan, ensambladas por la involución asociada
 $\nu\mapsto\nu^{*}$. Así que la pregunta se vuelve concreta: ¿es $C_\mu(\lambda)=0$, en las dos
 ramas, una identidad entre coeficientes de Littlewood--Richardson generalizados que las condiciones
 de bandera hagan visible? Ésa es una pregunta sobre tablas, que es la forma en la que nos gustaría
 verla contestada.
+\emph{Desde que este problema se escribió, el artículo compañero \cite{PaperII} ha dado un
+instrumento de la especie que pide.} Allí los coeficientes se calculan como multiplicidades de
+ramificación simpléctica contra un filtro en forma cerrada, y los dos factores se calculan sin
+desarrollar un solo monomio; en el lado impar la matriz de ramificación sale del numerador por
+completo, y esa mitad queda como un recuento signado de transversales. Dos límites son suyos, y son
+la razón de que este problema siga abierto: no explica la cancelación y no dice que lo haga, y lo
+que entrega en lugar de una explicación es una única conjetura afilada. Damos el puntero y no el
+contenido.
+Una medida decide cuál es el instrumento al que hay que ir, y es un negativo. Por \eqref{eq:Cmu} la
+anulación en $r\ge2$ es la igualdad $m_\nu(\lambda)=m_{\nu^{*}}(\lambda)$ para toda $\nu$, así que
+cabe preguntar cuánto de ese lugar cae dentro del rango donde la regla de Littlewood calcula esas
+multiplicidades. Casi nada: sobre $(t,r)=(2,2)$, $(2,3)$ y $(4,2)$ ---$164$, $494$ y $494$ formas con
+$\ell(\lambda)\le N/2$--- exactamente una forma en cada caso cumple la igualdad, y en las tres es el
+rectángulo de anchura impar con $N/2$ filas \stverif. Esa forma no es un residuo que deje el
+barrido: es la rama (b) del Teorema \ref{thm:stable}, que la demuestra. De modo que dentro del rango
+de Littlewood la pregunta no tiene más contenido que un teorema que ya está, y los coeficientes por
+cuya cancelación pregunta \eqref{eq:Cmu} viven donde la regla no se aplica. Por eso un instrumento
+sin restricción de rango estable no es aquí una comodidad sino un requisito, y es lo que convierte
+las dos reglas de arriba en aquellas a las que hay que ir.
 \end{problem}
 
 \begin{problem}[el lugar adicional, en general]\label{prob:extralocus}
@@ -3910,13 +4480,31 @@ refinamiento que se pide, el criterio se cumple para casi toda pieza graduada en
 alcanzamos; pero también para un refinamiento deliberadamente equivocado, graduando por
 $m_{t+1}+m_{t+2}$, que pasa al mismo ritmo. A esos tamaños el criterio no discrimina, y damos el
 intento como evidencia en ninguna de las dos direcciones.
+\emph{Un negativo del artículo compañero \cite{PaperII} corresponde aquí, porque es fácil
+confundirlo con una respuesta a esta pregunta.} Lo que allí se mide y falla es el tamiz cíclico en
+el parámetro \emph{recíproco libre}. La pregunta de arriba es la otra ---una acción cíclica en la
+dirección congelada, refinada por el peso libre--- y nada de ese artículo la toca. Registramos la
+distinción para que no se confundan, que es la razón por la que ese artículo también la registra.
 \end{problem}
 
-Una laguna más estrecha queda registrada donde surge y no aquí, con la misma forma que los problemas
-anteriores y el mismo significado ---algo que querríamos saber y no hemos resuelto---: la involución
-de la \S\ref{sec:enum} queda ensamblada en $t=2$ y en ningún otro sitio, porque la Proposición
-\ref{rem:involution} es un enunciado sobre una palabra y esa palabra es la de $t=2$. La
-distinción que mantenemos en todo el texto es entre una \emph{conjetura}, que es un enunciado que
+\begin{problem}[el toggle sobre el levantamiento]\label{prob:toggle}
+La involución de la \S\ref{sec:enum} queda ensamblada en $t=2$ y en ningún otro sitio, y la
+\S\ref{sec:lift} dice por qué: sobre $J_\lambda$ el requisito es aritméticamente imposible para un
+tercio de las formas del rango, y el conjunto donde no lo es es el levantamiento
+$\widehat J_\lambda$ de la Definición \ref{def:lift}. Lo que falta es la involución misma ---que
+Enunciada de modo que los objetos casen: una inyección
+$\eta_\lambda:\mathcal L(\lambda)\hookrightarrow\widehat J_\lambda$ que conserve peso y signo,
+junto con una involución $\iota$ sobre $\widehat J_\lambda$ que conserve el peso, invierta el signo y
+cuyo conjunto de puntos fijos sea exactamente $\operatorname{im}\eta_\lambda$. Para $\Phi_t\ne0$ el Corolario \ref{cor:local} fija el objetivo de forma independiente en cada
+espacio de peso, así que puede construirse espacio a espacio; el caso nulo hay que tratarlo aparte; por la Observación \ref{rem:skeleton} sus valores ya están forzados en $398$ y
+$1176$ de esos espacios, y cualquier solución tiene que coincidir con ellos ahí. La forma que hay
+que intentar es un toggle sobre un modelo de caminos en el que las elecciones de $\Omega_t$ sean
+pasos, que es el marco de \cite{Fulmek}: allí Cauchy--Binet y Laplace, los dos lados que hay que
+emparejar, viven en un mismo dibujo. Lo que no tenemos es una regla candidata. Lo que sí tenemos es
+que nada numérico se interpone, y eso no era cierto antes del levantamiento.
+\end{problem}
+
+La distinción que mantenemos en todo el texto es entre una \emph{conjetura}, que es un enunciado que
 creemos y hemos testado, y un \emph{problema}, que no es una afirmación en absoluto.
 
 Tomados juntos, los problemas dicen dónde creemos que el objeto deja de ser nuestro. La evaluación
@@ -3926,26 +4514,60 @@ puede conservar una variable, y qué hacen los coeficientes $C_\mu$ una vez reti
 que habíamos propuesto para ellos. De los tres, el último es el que el artículo necesita y el primero
 es el que preferiríamos ver contestado.
 
-Conviene cerrar donde empezamos. La introducción nombró dos razones para que la evaluación de un
-carácter colapse ---que el alfabeto sea una órbita, y que sea cerrado por inversión--- y observó que
-ningún alfabeto había llevado una de cada. Éste sí, y las dos razones se comportan en él de manera
-muy distinta. La mitad de la órbita está agotada: el Teorema \ref{thm:main} la evalúa en forma
-cerrada para todo $t$, y el Teorema \ref{thm:extra} muestra que, dentro del problema de independencia
-para formas de dos filas, exactamente una familia más se comporta así. La mitad de la inversión no lo
-está: la letra $-1$ lleva el alfabeto a la componente no identidad de un grupo ortogonal, y eso ha
-bastado para decir bastante sobre \emph{dónde} se anula el carácter ---el Teorema \ref{conj:crit} lo
-resuelve en $t=2$ para cualquier número de pares, y el Teorema \ref{thm:suff} da una implicación para
-todo $t$ y todo $r$---, pero no nos ha dicho qué \emph{es} el carácter allí para más de un par, y la
-otra implicación es la Conjetura \ref{conj:general}. El valor no deja nunca de ser un valor de
-carácter: es $s_\lambda$ evaluado en un elemento del toro en todo momento. Lo que deja de valer,
-pasado un par, es que su expansión simpléctica plegada sea siempre un carácter genuino: a partir de
-dos pares aparecen ejemplos genuinamente virtuales. Eso es un enunciado sobre la expansión, no sobre
-el objeto. Lo que el artículo entrega es más pequeño que cualquiera de las dos mitades y más portátil: una
-forma cerrada que lleva su signo, lo que convierte a esta familia en un caso de prueba para cualquier
-implementación de caracteres torcidos o universales; un test de anulación que cuesta dos restas sobre
-el conjunto beta; y una enumeración en la que el parámetro sigue libre. Quien
-busque el alfabeto siguiente habrá de buscar el que deje la segunda razón tan completa como aquí ha
-quedado la primera; a la vista de la \S\ref{sec:sharp}, no lo encontrará añadiendo letras a éste.
+%======================================================================
+\section{Cierre: un alfabeto, leído de tres maneras}\label{sec:closing}
+
+La introducción llamó a \eqref{eq:object} un elemento del toro de $O(N)$ con una única dirección
+libre, y dijo que los tres resultados de aquí son tres lecturas de esa frase. Es fácil leerlos como
+tres resultados sueltos, así que cerramos diciendo qué los separa y qué queda después de ellos.
+
+\emph{El valor.} El Teorema \ref{thm:main} es lo que vale la dirección libre: tres factores sobre un
+denominador fijo, para todo $t$ y todo $\lambda\in\PP_N$, sin hipótesis sobre la forma. Las dos
+mitades del alfabeto lo producen juntas y ninguna lo produce sola. El perfil de residuos pone el
+esqueleto del lado de la órbita ---resuelve la rama degenerada y nombra las dos clases de exceso---
+y el par recíproco es quien acopla esas clases en el triple de intervalos, mientras el orden de la
+palabra beta da el signo. Quítese el par y el enunciado degenera en el de Littlewood; consérvese, y
+el perfil sigue sin alcanzar el triple, porque ya en $t=2$ el único perfil de dos clases lleva diez
+valores distintos de $d_3$ sobre $|\lambda|\le16$.
+
+\emph{El invariante.} El mismo teorema leído del revés dice que la evaluación no puede ver de
+$\lambda$ más que un triple de intervalos y un signo: dos particiones de tamaños cualesquiera que
+coincidan ahí toman el mismo valor. En el estrato de dos clases, el Corolario \ref{cor:fibregf}
+escribe la función generatriz de lo que el triple olvida; el estrato de tamaño tres y el degenerado
+son el Problema \ref{prob:fibres}, y por la Observación \ref{rem:signsees} el signo ve direcciones
+que el triple no ve. Ésa es la parte que esperamos que sobreviva a la fórmula, porque es un
+enunciado sobre el alfabeto y no sobre la demostración.
+
+\emph{El lugar de anulación.} Pasado un par, la fórmula de tres factores del Teorema \ref{thm:main} se ha
+ido ---(D1) ya da un contraejemplo en $r=2$, y que no exista tal fórmula para ningún $r\ge2$ es la
+Conjetura \ref{conj:rank2} y no un teorema--- y el conjunto de ceros no. Lo que la mitad de inversión aporta ahí es un segundo
+mecanismo, y en $t=2$ también una lectura: por el Teorema \ref{conj:crit} el carácter se anula exactamente cuando el
+conjunto beta tiene paridad constante, que es un enunciado sobre residuos, o la forma es
+autocomplementaria de anchura impar, que es complementación; y el Corolario \ref{cor:dettwist} lee ese criterio sobre el grupo
+como rigidez frente al giro por $\det$. El determinante $(-1)^{t+1}$ decide en qué componente de
+$O(N)$ vive el alfabeto, y con ella qué lectura hay disponible; no decide por sí solo qué $\lambda$
+se anulan. Que los dos mecanismos son de verdad dos lo enseña el Corolario \ref{cor:oddgen}: todo
+$t$ impar y todo $r$ sale sólo del argumento extremal, sin apoyo externo y sin apelar a la
+complementación.
+
+\emph{Lo que queda.} Las dos razones que nombró la introducción no acaban en el mismo sitio. La
+mitad de órbita está agotada sobre este alfabeto: el Teorema \ref{thm:main} la evalúa en forma
+cerrada para todo $t$, y
+el Teorema \ref{thm:extra} enseña que dentro del problema de independencia de dos filas hay
+exactamente una familia más que se comporta así. La de inversión no. Ha bastado para decir bastante
+sobre \emph{dónde} se anula el carácter ---el Teorema \ref{conj:crit} en $t=2$ para cualquier número
+de pares, el Teorema \ref{thm:suff} una implicación para todo $t$ y todo $r$--- pero no nos ha dicho
+qué \emph{es} el carácter ahí con más de un par, y la otra implicación es la Conjetura
+\ref{conj:general}. El valor no deja nunca de ser un valor de carácter: es $s_\lambda$ evaluado en
+un elemento del toro en todo momento. Lo que deja de valer pasado un par es que el desarrollo
+simpléctico plegado sea siempre un carácter genuino; desde dos pares aparecen ejemplos propiamente
+virtuales, y eso es un enunciado sobre el desarrollo y no sobre el objeto. Lo que el artículo entrega
+es más pequeño que cualquiera de las dos mitades y más portable: una forma cerrada que lleva su
+signo, lo que convierte a esta familia en un banco de pruebas para cualquier implementación de
+caracteres torcidos o universales; un test de anulación que cuesta dos restas sobre el conjunto beta;
+y una enumeración en la que el parámetro sigue libre. Quien busque el alfabeto siguiente debería
+buscar el que haga la segunda razón tan completa como la primera ha llegado a ser aquí; y a la vista
+de la \S\ref{sec:sharp} no se encontrará añadiendo letras a éste.
 
 \subsection*{Agradecimientos}
 Este artículo existe porque Arvind Ayyer preguntó si el caso de rango uno se generaliza a $t$
@@ -3965,41 +4587,40 @@ luego invertir un bloque de columnas --- es la maniobra de Ayyer y Behrend \cite
 lado de las raíces de la unidad por Albion \cite{Alb23,Alb25}. La adoptamos porque es a todas luces
 el instrumento adecuado para un alfabeto cerrado por inversión, y la mantuvimos porque resultó ser
 más robusta que el contexto para el que se escribió: en ningún momento usa que la reflexión se
-aplique al alfabeto entero, así que funciona igual sobre una parte de él. Todo lo que la
-\S\ref{sec:zeros} dice sobre $t\ge4$ se apoya en eso.
+aplique al alfabeto entero, así que funciona igual sobre una parte de él. El Teorema
+\ref{thm:suff}, y con él la parte de la \S\ref{sec:zeros} que va por reflexión, se apoya en
+esa maniobra; el Corolario \ref{cor:oddgen} no, y se prueba sólo con el argumento extremal.
 
-\subsection*{Código, datos y declaración}
+\subsection*{Código, datos y declaración}\label{sec:disclosure}\label{sec:disclosure}
 Todo cálculo citado en este artículo lo realiza un script con nombre, distribuido como fichero
 adjunto, y todo número citado lo reproduce una ejecución archivada de alguno de ellos; la
 \S\ref{sec:verif} tabula qué script responde por qué afirmación. Los mismos scripts y la misma salida
-están también en \url{https://github.com/karlesmarin/schur-orbit-and-reciprocal-pair}. Se ha usado IA generativa (Claude,
-Anthropic) como asistente de investigación durante todo el trabajo: para la búsqueda bibliográfica,
-para escribir y comprobar el código adjunto, y sobre la prosa. Las matemáticas, y la responsabilidad
-sobre ellas, son del autor.
+están también en \url{https://github.com/karlesmarin/schur-orbit-and-reciprocal-pair}. Se ha usado IA
+generativa como asistente de investigación durante todo el trabajo. Las matemáticas, y la
+responsabilidad sobre ellas, son del autor.
 
 %======================================================================
 \begin{thebibliography}{AAAA}
 
-\bibitem[FG86]{FG86} A.~Federgruen y H.~Groenevelt, \emph{The greedy procedure for resource
-allocation problems: necessary and sufficient conditions for optimality}, Oper. Res. \textbf{34}
-(1986), no.~6, 909--918.
+\bibitem[AA19]{AA19} P.~Alexandersson y N.~Amini, \emph{The cone of cyclic sieving
+phenomena}, Discrete Math. \textbf{342} (2019), n.º~6, 1581--1601; arXiv:1804.01447.
 
-\bibitem[HK16]{HK16} A.~Hanany y R.~Kalveks, \emph{Quiver theories for moduli spaces of classical
-group nilpotent orbits}, arXiv:1601.04020.
+\bibitem[AB19]{AB19} A.~Ayyer y R.~E.~Behrend, \emph{Factorization theorems for classical group
+characters, with applications to alternating sign matrices and plane partitions}, J. Combin. Theory
+Ser.~A \textbf{165} (2019), 78--105; arXiv:1804.04514.
 
-\bibitem[IK88]{IK88} T.~Ibaraki y N.~Katoh, \emph{Resource Allocation Problems: Algorithmic
-Approaches}, MIT Press, Cambridge MA, 1988.
+\bibitem[AF20]{AF20} A.~Ayyer e I.~Fischer, \emph{Bijective proofs of skew Schur polynomial
+factorizations}, J. Combin. Theory Ser.~A \textbf{174} (2020), 105241; arXiv:1905.05226.
 
-\bibitem[PvW08]{PvW} K.~Purbhoo y S.~van Willigenburg, \emph{On tensor products of polynomial
-representations}, Canad. Math. Bull. \textbf{51} (2008), no.~4, 584--592; arXiv:0706.3251.
+\bibitem[AK22]{AK22} A.~Ayyer y N.~Kumari, \emph{Factorization of classical characters twisted by
+roots of unity}, J. Algebra \textbf{609} (2022), 437--483; arXiv:2109.11310.
 
-\bibitem[Raj04]{Rajan} C.~S.~Rajan, \emph{Unique decomposition of tensor products of irreducible
-representations of simple algebraic groups}, Ann. of Math. (2) \textbf{160} (2004), no.~2, 683--704.
+\bibitem[AK25]{AK25} A.~Ayyer y N.~Kumari, \emph{Further results for classical and universal
+characters twisted by roots of unity}, J. Algebraic Combin. \textbf{63} (2026), Paper No.~2, 32 pp.;
+arXiv:2501.00275.
 
-\bibitem[RGST05]{TropCramer} J.~Richter-Gebert, B.~Sturmfels y T.~Theobald, \emph{First steps in
-tropical geometry}, en: Idempotent Mathematics and Mathematical Physics, Contemp. Math. \textbf{377},
-Amer. Math. Soc., 2005, pp.~289--317.
-
+\bibitem[AKL21]{AKL21} P.~Alexandersson, E.~Kantarc\i{} O\u{g}uz y S.~Linusson, \emph{Promotion and
+cyclic sieving on families of SSYT}, Ark. Mat. \textbf{59} (2021), 247--274; arXiv:2007.10478.
 
 \bibitem[Alb23]{Alb23} S.~P.~Albion, \emph{Universal characters twisted by roots of unity},
 Algebraic Combinatorics \textbf{6} (2023), 1653--1676; arXiv:2212.07343.
@@ -4013,38 +4634,65 @@ major index statistic}, European J. Combin. \textbf{73} (2018), 37--60; arXiv:17
 \bibitem[BRS08]{BRS08} H.~Barcelo, V.~Reiner y D.~Stanton, \emph{Bimahonian distributions},
 J. London Math. Soc. (2) \textbf{77} (2008), 627--646; arXiv:math/0703479.
 
-\bibitem[OP19]{OP19} Y.-T.~Oh y E.~Park, \emph{Crystals, semistandard tableaux and cyclic sieving
-phenomenon}, Electron. J. Combin. \textbf{26} (2019), no.~4, \#P4.39; arXiv:1906.07420.
-
-\bibitem[AKL21]{AKL21} P.~Alexandersson, E.~Kantarc\i{} O\u{g}uz y S.~Linusson, \emph{Promotion and
-cyclic sieving on families of SSYT}, Ark. Mat. \textbf{59} (2021), 247--274; arXiv:2007.10478.
-
-\bibitem[AA19]{AA19} P.~Alexandersson y N.~Amini, \emph{The cone of cyclic sieving
-phenomena}, Discrete Math. \textbf{342} (2019), n.º~6, 1581--1601; arXiv:1804.01447.
-
-\bibitem[AB19]{AB19} A.~Ayyer y R.~E.~Behrend, \emph{Factorization theorems for classical group
-characters, with applications to alternating sign matrices and plane partitions}, J. Combin. Theory
-Ser.~A \textbf{165} (2019), 78--105; arXiv:1804.04514.
-
-\bibitem[AK22]{AK22} A.~Ayyer y N.~Kumari, \emph{Factorization of classical characters twisted by
-roots of unity}, J. Algebra \textbf{609} (2022), 437--483; arXiv:2109.11310.
-
-\bibitem[AK25]{AK25} A.~Ayyer y N.~Kumari, \emph{Further results for classical and universal
-characters twisted by roots of unity}, J. Algebraic Combin. \textbf{63} (2026), Paper No.~2, 32 pp.;
-arXiv:2501.00275.
-
 \bibitem[CK09]{CK09} M.~Ciucu y C.~Krattenthaler, \emph{A factorization theorem for classical
 group characters, with applications to plane partitions and rhombus tilings}, in: Advances in
 Combinatorial Mathematics, Springer, Berlin, 2009.
 
+\bibitem[Doc]{Doc} Para el nombre y la familia de identidades que lo rodea (Cassini, Catalan,
+d'Ocagne, Vajda) véase p.\,ej.\ M.~Bunder y J.~Tonien, \emph{Cassini, d'Ocagne and Vajda identities
+for $n$-step Fibonacci numbers}, arXiv:2201.06269.
+
+\bibitem[Eis07]{Eis07} T.~Eisenk\"olbl, \emph{A Schur function identity related to the
+$(-1)$-enumeration of self-complementary plane partitions}, J. Combin. Theory Ser.~A \textbf{115}
+(2008), 199--212; arXiv:math/0602401.
+
+\bibitem[EW04]{EW04} T.~J.~Enright y J.~F.~Willenbring, \emph{Hilbert series, Howe duality and
+branching for classical groups}, Ann. of Math. \textbf{159} (2004), 337--375.
+
+\bibitem[FG86]{FG86} A.~Federgruen y H.~Groenevelt, \emph{The greedy procedure for resource
+allocation problems: necessary and sufficient conditions for optimality}, Oper. Res. \textbf{34}
+(1986), no.~6, 909--918.
+
+\bibitem[FJKW05]{FJKW05} B.~Fauser, P.~D.~Jarvis, R.~C.~King y B.~G.~Wybourne, \emph{New branching
+rules induced by plethysm}, J. Phys. A \textbf{39} (2006), 2611--2655; arXiv:math-ph/0508034.
+
+\bibitem[Fro25]{Frohmader} A.~Frohmader, \emph{Graded multiplicities in the Kostant--Rallis
+setting}, arXiv:2312.11295.
+
+\bibitem[Ful12]{Fulmek} M.~Fulmek, \emph{Viewing determinants as nonintersecting lattice
+paths yields classical determinantal identities bijectively}, Electron. J. Combin. \textbf{19}
+(2012), no.~3, Paper 21; arXiv:1010.3860.
+
+\bibitem[Gav99]{Gav99} F.~Gavarini, \emph{A Brauer algebra-theoretic proof of Littlewood's
+restriction rules}, J. Algebra \textbf{212} (1999), 240--271.
+
 \bibitem[GKS90]{GKS90} F.~Garvan, D.~Kim y D.~Stanton, \emph{Cranks and $t$-cores},
 Invent. Math. \textbf{101} (1990), no.~1, 1--18.
+
+\bibitem[GM81]{GM81} A.~M.~Garsia and S.~C.~Milne, \emph{A Rogers--Ramanujan bijection},
+J. Combin. Theory Ser. A \textbf{31} (1981), 289--339.
 
 \bibitem[HI24]{HI24} M.~Hidaka y M.~Itoh, \emph{The Schur polynomials in all primitive $n$th roots
 of unity}, J. Combin. Theory Ser.~A \textbf{218} (2026), Paper No.~106107; arXiv:2403.10817.
 
+\bibitem[HK16]{HK16} A.~Hanany y R.~Kalveks, \emph{Quiver theories for moduli spaces of classical
+group nilpotent orbits}, arXiv:1601.04020.
+
+\bibitem[IK88]{IK88} T.~Ibaraki y N.~Katoh, \emph{Resource Allocation Problems: Algorithmic
+Approaches}, MIT Press, Cambridge MA, 1988.
+
+\bibitem[IOTZ06]{IOTZ06} M.~Ishikawa, S.~Okada, H.~Tagawa y J.~Zeng, \emph{Generalizations of
+Cauchy's determinant and Schur's Pfaffian}, Adv. in Appl. Math. \textbf{36} (2006), 251--287.
+
 \bibitem[Jan73]{Jantzen} J.~C.~Jantzen, \emph{Darstellungen halbeinfacher algebraischer Gruppen},
 Bonner Math. Schriften \textbf{67} (1973).
+
+\bibitem[JJLW24]{JJLW24} Z.~Jin, N.~Jing, Z.~Li y D.~Wang, \emph{Universal symplectic/orthogonal
+functions and general branching rules}, arXiv:2209.00767.
+
+\bibitem[JK21]{JK20} I.-S.~Jang y J.-H.~Kwon, \emph{Flagged Littlewood--Richardson tableaux
+and branching rule for classical groups}, J. Combin. Theory Ser.~A \textbf{181} (2021),
+Paper No.~105419; arXiv:1908.11041.
 
 \bibitem[Kar22]{Kar22} C.~Karmakar, \emph{Character factorizations for representations of
 $GL(n,\CC)$}, arXiv:2210.03544.
@@ -4052,15 +4700,24 @@ $GL(n,\CC)$}, arXiv:2210.03544.
 \bibitem[Kar24]{Kar24} C.~Karmakar, \emph{Character values at elements of order $2$},
 Proc. Indian Acad. Sci. Math. Sci. \textbf{135} (2025), no.~2, Paper No.~41; arXiv:2412.17324.
 
-\bibitem[Mar26]{Mar26} C.~Mar\'in, \emph{Schur functions at $(1,-1,t,t^{-1})$: a closed form on the
-non-identity component of $O(4)$}, preprint, 2026; \texttt{doi:10.5281/zenodo.21463000}.
-
-\bibitem[JJLW24]{JJLW24} Z.~Jin, N.~Jing, Z.~Li y D.~Wang, \emph{Universal symplectic/orthogonal
-functions and general branching rules}, arXiv:2209.00767.
+\bibitem[Kin71]{King71} R.~C.~King, \emph{Modification rules and products of irreducible
+representations of the unitary, orthogonal, and symplectic groups}, J. Math. Phys. \textbf{12}
+(1971), 1588--1598.
 
 \bibitem[KLP09]{KLP} S.~Kumar, G.~Lusztig y D.~Prasad, \emph{Characters of simply-laced
 nonconnected groups versus characters of nonsimply-laced connected groups}, Contemp. Math.
 \textbf{478} (2009), 99--101; arXiv:math/0701615.
+
+\bibitem[Kra05]{KratADCC} C.~Krattenthaler, \emph{Advanced determinant calculus: a complement},
+Linear Algebra Appl. \textbf{411} (2005), 68--166; arXiv:math/0503507.
+
+\bibitem[KS26]{KS26} N.~Kumari y A.~Stokke, \emph{Murnaghan--Nakayama rules for symplectic,
+orthogonal and orthosymplectic Schur functions}, Discrete Math. \textbf{349} (2026), no.~2, Paper
+No.~114741; arXiv:2411.11447.
+
+\bibitem[KT87]{KT87} K.~Koike e I.~Terada, \emph{Young-diagrammatic methods for the representation
+theory of the classical groups of type $B_n$, $C_n$, $D_n$}, J. Algebra \textbf{107} (1987),
+466--511.
 
 \bibitem[KT99]{KT99} A.~Knutson y T.~Tao, \emph{The honeycomb model of $GL_n(\CC)$ tensor
 products I: proof of the saturation conjecture}, J. Amer. Math. Soc. \textbf{12} (1999), no.~4,
@@ -4072,12 +4729,15 @@ unity: II}, J. Pure Appl. Algebra \textbf{228} (2024), no.~11, 107714; arXiv:221
 \bibitem[KumT]{KumariThesis} N.~Kumari, \emph{Characters of classical groups twisted by roots of
 unity}, tesis doctoral, Indian Institute of Science, Bangalore, 2023.
 
+\bibitem[Kup02]{Kup02} G.~Kuperberg, \emph{Symmetry classes of alternating-sign matrices under one
+roof}, Ann. of Math. (2) \textbf{156} (2002), 835--866.
+
 \bibitem[Lec09]{Lec09} C.~Lecouvey, \emph{Parabolic Kazhdan--Lusztig polynomials, plethysm and
 generalized Hall--Littlewood functions for classical types}, European J. Combin. \textbf{30} (2009),
 no.~1, 157--191.
 
-\bibitem[LR34]{LR34} D.~E.~Littlewood y A.~R.~Richardson, \emph{Immanants of some special
-matrices}, Q. J. Math. \textbf{os-5} (1934), no.~1, 269--282.
+\bibitem[Lit50]{Lit50} D.~E.~Littlewood, \emph{The Theory of Group Characters and Matrix
+Representations of Groups}, 2.\textsuperscript{a} ed., Oxford University Press, 1950.
 
 \bibitem[LLT97]{LLT97} A.~Lascoux, B.~Leclerc y J.-Y.~Thibon, \emph{Ribbon tableaux,
 Hall--Littlewood functions, quantum affine algebras and unipotent varieties}, J. Math. Phys.
@@ -4086,81 +4746,57 @@ Hall--Littlewood functions, quantum affine algebras and unipotent varieties}, J.
 \bibitem[LO22]{LO22} S.-Y.~Lee and Y.-T.~Oh, \emph{Skew Schur polynomials and cyclic sieving
 phenomenon}, Electron. J. Combin. \textbf{29} (2022), no.~4, Paper 4.6; arXiv:2112.12394.
 
+\bibitem[LR34]{LR34} D.~E.~Littlewood y A.~R.~Richardson, \emph{Immanants of some special
+matrices}, Q. J. Math. \textbf{os-5} (1934), no.~1, 269--282.
+
 \bibitem[Mac95]{Mac95} I.~G.~Macdonald, \emph{Symmetric Functions and Hall Polynomials}, second
 edition, Oxford University Press, 1995.
 
-\bibitem[RSW04]{RSW04} V.~Reiner, D.~Stanton y D.~White, \emph{The cyclic sieving phenomenon},
-J. Combin. Theory Ser. A \textbf{108} (2004), no.~1, 17--50.
+\bibitem[Mar26]{Mar26} C.~Mar\'in, \emph{Schur functions at $(1,-1,t,t^{-1})$: a closed form on the
+non-identity component of $O(4)$}, preprint, 2026; \texttt{doi:10.5281/zenodo.21463000}.
 
-\bibitem[Ste94]{Ste94} J.~R.~Stembridge, \emph{On minuscule representations, plane partitions and
-involutions in complex Lie groups}, Duke Math. J. \textbf{73} (1994), no.~2, 469--490.
+\bibitem[Mar26b]{PaperII} C.~Mar\'in, \emph{Schur polynomials twisted by roots of unity
+and reciprocal pairs: torsion filters, fusion quotients, and total unimodularity at odd
+order}, arXiv:2608.18302.
+
+\bibitem[New51]{New51} M.~J.~Newell, \emph{Modification rules for the orthogonal and symplectic
+groups}, Proc. Roy. Irish Acad. Sect. A \textbf{54} (1951), 153--163.
 
 \bibitem[Oka98]{Oka98} S.~Okada, \emph{Applications of minor summation formulas to
 rectangular-shaped representations of classical groups}, J. Algebra \textbf{205} (1998), no.~2,
 337--367.
 
+\bibitem[OP19]{OP19} Y.-T.~Oh y E.~Park, \emph{Crystals, semistandard tableaux and cyclic sieving
+phenomenon}, Electron. J. Combin. \textbf{26} (2019), no.~4, \#P4.39; arXiv:1906.07420.
+
 \bibitem[Pra16]{Pra16} D.~Prasad, \emph{A character relationship on $GL_n(\CC)$}, Israel J. Math.
 \textbf{211} (2016), no.~1, 257--270.
 
-\bibitem[AF20]{AF20} A.~Ayyer e I.~Fischer, \emph{Bijective proofs of skew Schur polynomial
-factorizations}, J. Combin. Theory Ser.~A \textbf{174} (2020), 105241; arXiv:1905.05226.
+\bibitem[PvW08]{PvW} K.~Purbhoo y S.~van Willigenburg, \emph{On tensor products of polynomial
+representations}, Canad. Math. Bull. \textbf{51} (2008), no.~4, 584--592; arXiv:0706.3251.
 
-\bibitem[Doc]{Doc} Para el nombre y la familia de identidades que lo rodea (Cassini, Catalan,
-d'Ocagne, Vajda) véase p.\,ej.\ M.~Bunder y J.~Tonien, \emph{Cassini, d'Ocagne and Vajda identities
-for $n$-step Fibonacci numbers}, arXiv:2201.06269.
+\bibitem[Raj04]{Rajan} C.~S.~Rajan, \emph{Unique decomposition of tensor products of irreducible
+representations of simple algebraic groups}, Ann. of Math. (2) \textbf{160} (2004), no.~2, 683--704.
 
-\bibitem[Eis07]{Eis07} T.~Eisenk\"olbl, \emph{A Schur function identity related to the
-$(-1)$-enumeration of self-complementary plane partitions}, J. Combin. Theory Ser.~A \textbf{115}
-(2008), 199--212; arXiv:math/0602401.
+\bibitem[RGST05]{TropCramer} J.~Richter-Gebert, B.~Sturmfels y T.~Theobald, \emph{First steps in
+tropical geometry}, en: Idempotent Mathematics and Mathematical Physics, Contemp. Math. \textbf{377},
+Amer. Math. Soc., 2005, pp.~289--317.
 
-\bibitem[FJKW05]{FJKW05} B.~Fauser, P.~D.~Jarvis, R.~C.~King y B.~G.~Wybourne, \emph{New branching
-rules induced by plethysm}, J. Phys. A \textbf{39} (2006), 2611--2655; arXiv:math-ph/0508034.
-
-\bibitem[Gav99]{Gav99} F.~Gavarini, \emph{A Brauer algebra-theoretic proof of Littlewood's
-restriction rules}, J. Algebra \textbf{212} (1999), 240--271.
-
-\bibitem[EW04]{EW04} T.~J.~Enright y J.~F.~Willenbring, \emph{Hilbert series, Howe duality and
-branching for classical groups}, Ann. of Math. \textbf{159} (2004), 337--375.
-
-\bibitem[New51]{New51} M.~J.~Newell, \emph{Modification rules for the orthogonal and symplectic
-groups}, Proc. Roy. Irish Acad. Sect. A \textbf{54} (1951), 153--163.
-
-\bibitem[Sun90]{Sun90} S.~Sundaram, \emph{Tableaux in the representation theory of the classical Lie
-groups}, en \emph{Invariant Theory and Tableaux} (Minneapolis, MN, 1988), IMA Vol. Math. Appl.
-\textbf{19}, 191--225, Springer-Verlag, Nueva York, 1990.
-
-\bibitem[IOTZ06]{IOTZ06} M.~Ishikawa, S.~Okada, H.~Tagawa y J.~Zeng, \emph{Generalizations of
-Cauchy's determinant and Schur's Pfaffian}, Adv. in Appl. Math. \textbf{36} (2006), 251--287.
-
-\bibitem[Fro25]{Frohmader} A.~Frohmader, \emph{Graded multiplicities in the Kostant--Rallis
-setting}, arXiv:2312.11295.
-
-\bibitem[Kra05]{KratADCC} C.~Krattenthaler, \emph{Advanced determinant calculus: a complement},
-Linear Algebra Appl. \textbf{411} (2005), 68--166; arXiv:math/0503507.
-
-\bibitem[Kin71]{King71} R.~C.~King, \emph{Modification rules and products of irreducible
-representations of the unitary, orthogonal, and symplectic groups}, J. Math. Phys. \textbf{12}
-(1971), 1588--1598.
-
-\bibitem[KT87]{KT87} K.~Koike e I.~Terada, \emph{Young-diagrammatic methods for the representation
-theory of the classical groups of type $B_n$, $C_n$, $D_n$}, J. Algebra \textbf{107} (1987),
-466--511.
-
-\bibitem[KS26]{KS26} N.~Kumari y A.~Stokke, \emph{Murnaghan--Nakayama rules for symplectic,
-orthogonal and orthosymplectic Schur functions}, Discrete Math. \textbf{349} (2026), no.~2, Paper
-No.~114741; arXiv:2411.11447.
-
-\bibitem[Kup02]{Kup02} G.~Kuperberg, \emph{Symmetry classes of alternating-sign matrices under one
-roof}, Ann. of Math. (2) \textbf{156} (2002), 835--866.
-
-\bibitem[Lit50]{Lit50} D.~E.~Littlewood, \emph{The Theory of Group Characters and Matrix
-Representations of Groups}, 2.\textsuperscript{a} ed., Oxford University Press, 1950.
+\bibitem[RSW04]{RSW04} V.~Reiner, D.~Stanton y D.~White, \emph{The cyclic sieving phenomenon},
+J. Combin. Theory Ser. A \textbf{108} (2004), no.~1, 17--50.
 
 \bibitem[SK23]{SK23} V.~Sathish Kumar, \emph{Flagged skew Schur polynomials twisted by roots of
 unity}, arXiv:2306.10289.
 
 \bibitem[Sta86]{Sta86} R.~P.~Stanley, \emph{Symmetries of plane partitions}, J. Combin. Theory
 Ser.~A \textbf{43} (1986), 103--113.
+
+\bibitem[Ste94]{Ste94} J.~R.~Stembridge, \emph{On minuscule representations, plane partitions and
+involutions in complex Lie groups}, Duke Math. J. \textbf{73} (1994), no.~2, 469--490.
+
+\bibitem[Sun90]{Sun90} S.~Sundaram, \emph{Tableaux in the representation theory of the classical Lie
+groups}, en \emph{Invariant Theory and Tableaux} (Minneapolis, MN, 1988), IMA Vol. Math. Appl.
+\textbf{19}, 191--225, Springer-Verlag, Nueva York, 1990.
 
 \end{thebibliography}
 

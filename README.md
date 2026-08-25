@@ -2,16 +2,19 @@
 
 Verification code, **saved output** and the paper itself for
 
-> **Factorization and vanishing of Schur polynomials twisted by roots of unity and reciprocal pairs**
+> **Schur polynomials twisted by roots of unity and reciprocal pairs: exactly three factors, and where they vanish**
 > Carles Marín
 > [arXiv:2608.09619](https://arxiv.org/abs/2608.09619) · [doi:10.48550/arXiv.2608.09619](https://doi.org/10.48550/arXiv.2608.09619) · `math.CO` (cross-list `math.RT`) · CC BY 4.0
 
-**This repository tracks v2.** The first version, announced 11 August 2026, was titled *Factorization
-of Schur polynomials twisted by roots of unity and a reciprocal pair*: 39 pages, one reciprocal pair,
-the factorization and its three consequences. The title changed when the vanishing results for an
-arbitrary number of pairs were added — the zero locus at `t = 2` for every `r`, the odd-`t` criterion,
-and the reflection of the excess part — which is most of what the paper grew by. The arXiv identifier
-and the DOI are unchanged, and the old title stays on v1 in the version history.
+**This repository tracks v3**, announced 24 August 2026. The paper has carried three titles, and the
+arXiv identifier and the DOI are the same on all three; each old title stays on its own version in
+the history.
+
+| | announced | title | |
+|---|---|---|---|
+| v1 | 11 Aug 2026 | *Factorization of Schur polynomials twisted by roots of unity and a reciprocal pair* | 39 pp — one reciprocal pair: the factorization and its three consequences |
+| v2 | 18 Aug 2026 | *Factorization and vanishing of Schur polynomials twisted by roots of unity and reciprocal pairs* | 66 pp — the vanishing results for an arbitrary number of pairs: the zero locus at `t = 2` for every `r`, the odd-`t` criterion, the reflection of the excess part |
+| v3 | 24 Aug 2026 | *Schur polynomials twisted by roots of unity and reciprocal pairs: exactly three factors, and where they vanish* | 76 pp — the title now states what the paper proves instead of describing it |
 
 The object is the Schur polynomial at a full root-of-unity orbit together with one free reciprocal
 pair,
@@ -35,11 +38,12 @@ general-`t` sequel and is kept separate so that each paper has one artifact.
 
 The root of this repository is the bundle of the **first** paper, the one arXiv carries as
 [2608.09619](https://arxiv.org/abs/2608.09619). The **second** --- *Schur polynomials twisted by
-roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction
-at odd order* --- has its own directory, [`torsion-filters/`](torsion-filters), with its own README:
-241 gate scripts, 218 of them with their archived run, the 15 that draw its figures and the 27 that
-check its manuscript. Its preprint is not posted yet, so the PDF is not here; the code and the data
-are.
+roots of unity and reciprocal pairs: torsion filters, fusion quotients, and total unimodularity at
+odd order*, [arXiv:2608.18302](https://arxiv.org/abs/2608.18302), announced 20 August 2026 and now
+at v2 --- has its own directory, [`torsion-filters/`](torsion-filters), with its own README: 266
+gate scripts, 239 of them with their archived run, the 15 that draw its figures and the 25 that
+check its manuscript. The PDF is not here: arXiv carries it, and one copy is enough. What is here is
+the code and the data behind it.
 
 ## 📦 What is here
 
@@ -52,22 +56,20 @@ without running anything, and either edition rebuilds from what is in this direc
 |---|---|
 | **Group 1** — the evaluation and its sharpness | plain Python, needs only `mpmath` (plus `numpy`/`matplotlib` for figures) |
 | **Group 2** — the zero locus for every `r` | Sage: exact multivariate Laurent rings and linear systems over `Q` |
-| [`outputs/`](outputs) | full stdout of all **56** runs, 2026-07-30 to 2026-08-17 |
-| [`orbit_pair.pdf`](orbit_pair.pdf) | **the paper**, 66 pp — the file arXiv carries as v2 — with its source `orbit_pair.tex` |
-| [`orbit_pair_es.pdf`](orbit_pair_es.pdf) | **the Spanish edition**, 68 pp, with its source `orbit_pair_es.tex` |
+| [`outputs/`](outputs) | full stdout of all **63** runs, 2026-07-30 to 2026-08-21 |
+| [`orbit_pair.pdf`](orbit_pair.pdf) | **the paper**, 76 pp — the file arXiv carries as v3 — with its source `orbit_pair.tex` |
+| [`orbit_pair_es.pdf`](orbit_pair_es.pdf) | **the Spanish edition**, 79 pp, with its source `orbit_pair_es.tex` |
 | `orbit_pair_Z.pdf`, `orbit_pair_Z_es.pdf` | the same two with the **long abstract** |
-| `fig_*.pdf` | the figures the two sources include — 19 each; the twentieth is drawn in the source |
+| `fig_*.pdf` | the figures the two sources include — 20 each; the twenty-first is drawn in the source |
 
-**One figure was corrected after v2 was announced, and the paper here is still v2.** In
-`fig_alphabet` the label `z_1^{-1}` of panel (a) was drawn underneath the orbit dot — on that panel
-both letters sit on the unit circle, so the placement rule sent them both inwards, and the
-annotation carried no `zorder` — and the Spanish edition left `alphabet` untranslated inside the
-formula, three times. Both are fixed in the sources here (`fig_intro.py`, `figlang.py`,
-`figs_es.py`), and `test_figs_es_heuristic.py` pins the translation rule that hid the second one in
-twelve cases. Neither touches a statement: the figure is illustrative and its caption formula was
-correct. `orbit_pair.pdf` and `orbit_pair_es.pdf` are the files arXiv carries as v2 and still print
-the old label on page 3, so a rebuild from these sources differs from them in exactly that label.
-The correction travels with the next version that has content.
+**One figure defect that v2 printed is fixed in v3.** In `fig_alphabet` the label `z_1^{-1}` of
+panel (a) was drawn underneath the orbit dot — on that panel both letters sit on the unit circle, so
+the placement rule sent them both inwards, and the annotation carried no `zorder` — and the Spanish
+edition left `alphabet` untranslated inside the formula, three times. Both are fixed in the sources
+here (`fig_intro.py`, `figlang.py`, `figs_es.py`), and `test_figs_es_heuristic.py` pins the
+translation rule that hid the second one in twelve cases. Neither touches a statement: the figure is
+illustrative and its caption formula was correct. It is recorded here rather than dropped because
+`2608.09619v2` is still in the version history and still prints the old label on page 3.
 
 ```bash
 pip install mpmath numpy matplotlib     # group 1
@@ -216,7 +218,7 @@ reuse; if the scripts are useful in your own work, a citation of the preprint is
 ```bibtex
 @misc{marin2026orbitpair,
   author = {Carles Mar\'in},
-  title  = {Factorization and vanishing of {S}chur polynomials twisted by roots of unity and reciprocal pairs},
+  title  = {{S}chur polynomials twisted by roots of unity and reciprocal pairs: exactly three factors, and where they vanish},
   year   = {2026},
   eprint = {2608.09619},
   archivePrefix = {arXiv},

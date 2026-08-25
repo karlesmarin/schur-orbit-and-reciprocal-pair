@@ -1,0 +1,22 @@
+============================================================================================
+LA PRUEBA DE LA PROP. 6.10(ii), COMPROBADA
+============================================================================================
+
+  t=2   330 lambda: 20 degeneradas, 20 concentricas (Phi = 0, hipotesis excluida),
+         130 de dos clases y 160 de tamano tres con Phi != 0
+    C3  las cuatro combinaciones son 2(a_i - b_j) y ninguna se anula : 130 de 130 OK
+    C3  y por tanto la norma del producto es 8                       : 130 de 130 OK
+    C4  d3 = d1 + d2 en el perfil de tamano tres                     : 160 de 160 OK
+    C4  y por tanto la norma del producto es 6                       : 160 de 160 OK
+    D1  SENUELO: lambda donde alguna combinacion SI se anula         : 0 (ninguna, como exige el argumento)
+
+  t=3   792 lambda: 168 degeneradas, 0 concentricas (Phi = 0, hipotesis excluida),
+         432 de dos clases y 192 de tamano tres con Phi != 0
+    C3  las cuatro combinaciones son 2(a_i - b_j) y ninguna se anula : 432 de 432 OK
+    C3  y por tanto la norma del producto es 8                       : 432 de 432 OK
+    C4  d3 = d1 + d2 en el perfil de tamano tres                     : 192 de 192 OK
+    C4  y por tanto la norma del producto es 6                       : 192 de 192 OK
+    D1  SENUELO: lambda donde alguna combinacion SI se anula         : 0 (ninguna, como exige el argumento)
+
+============================================================================================
+VEREDICTO: el argumento del revisor PASA sobre todo el rango

@@ -10,7 +10,7 @@ C0  ACEPTACION -- fatal
   C0 PASA
 
 ====================================================================================================================
-N1  LA TORRE, entera.  Z = Phi == 0 ;  T = solo [Phi]_top == 0 ;  |n| = tamaño del espectro
+N1  LA TORRE, entera.  Z = Phi == 0 ;  T = solo [Phi]_top == 0 ;  |n| = tamaï¿½o del espectro
 ====================================================================================================================
 
   t=4 r=2
@@ -55,18 +55,18 @@ N3  LA HIPOTESIS QUE FALTABA -- y cierra la poblacion degenerada de saturation.p
         no  | no  | 8
      desacuerdos: 0  ->  LA HIPOTESIS ES EXACTA
 
-     SEÑUELO: pedir solo [Phi']_top == 0
+     SEï¿½UELO: pedir solo [Phi']_top == 0
         SI  | SI  | 164
         SI  | no  | 6
         no  | no  | 2
-     desacuerdos del señuelo: 6  ->  NO separa: la anulacion TOTAL es lo portante, no la del estrato de arriba
+     desacuerdos del seï¿½uelo: 6  ->  NO separa: la anulacion TOTAL es lo portante, no la del estrato de arriba
 
 ====================================================================================================================
 N4  VEREDICTO
 ====================================================================================================================
 
      sat = |banda +2s|  <=>  el primer pelado es TOTALMENTE anulante : 0 desacuerdos en 172 formas
-     el señuelo ([Phi']_top == 0 a secas) falla en 6, luego la Z es portante
+     el seï¿½uelo ([Phi']_top == 0 a secas) falla en 6, luego la Z es portante
 
      Con esto, la ley de saturacion deja de tener poblacion sin describir: las formas con
      sat = 2 son exactamente aquellas cuya BANDERA tarda mas de un piso en llegar a Phi == 0.

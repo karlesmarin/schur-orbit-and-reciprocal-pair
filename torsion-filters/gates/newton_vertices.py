@@ -1,19 +1,6 @@
 # -*- coding: utf-8 -*-
 # LOS VERTICES DEL POLIGONO DE NEWTON SON ATOMOS SUELTOS.  15 de agosto de 2026.
 #
-# DE DONDE SALE, y es una correccion a mi propia medida.  collision_graph2.py pregunto si el monomio
-# extremo de algun orden monomial es un testigo aislado y contesto QUE NO en los tres ordenes
-# probados.  Ese NO estaba MAL MEDIDO: tomaba el extremo sobre TODAS las fibras, incluidas las que se
-# cancelan.  El extremo de Phi no es el extremo de los candidatos: es el extremo de lo que SOBREVIVE.
-# Rehecho sobre el soporte real, el resultado se da la vuelta entera.
-#
-# LO QUE SE MIDE
-#   N1  la familia testigo: el poligono de Newton de Phi y cuantos atomos tiene cada vertice.
-#   N2  la POBLACION: en las formas con Phi != 0, ¿es TODO vertice del poligono de Newton un atomo
-#       suelto?  Si lo es en general, "Phi != 0" se certifica exhibiendo un vertice, y la segunda
-#       filtracion que propone la consulta externa -- un orden monomial sesgado -- existe de verdad.
-#   N3  la forma del poligono contra invariantes de S, para ver si los vertices se describen cerrados.
-#
 # EL TEST EN CUALQUIER DIMENSION.  Para r > 2 no se calcula la envolvente: se maximizan funcionales
 # lineales enteros al azar sobre el soporte.  El argmax de un funcional generico ES un vertice, y si
 # el argmax tiene un solo atomo, ese vertice es un testigo.  Sirve para r = 2 y para r = 3 igual.

@@ -276,17 +276,35 @@ FIGLANG = {
     "sign footprint, on the floor": "huella del signo, sobre el suelo",
     "the cut at rank $r=2$": "el corte en el rango $r=2$",
 
+    # --- fig_lift ---------------------------------------------------------------------------
+    # Los dos titulos y los dos recuentos llevan CIFRAS dentro, así que cada panel necesita su
+    # entrada: una clave con `%d` no existe --- lo que llega aquí es la cadena ya formateada.
+    "$128$ of $329$ lie beyond $8$": "$128$ de $329$ pasan de $8$",
+    "$216$ of $791$ lie beyond $8$": "$216$ de $791$ pasan de $8$",
+    "$t=2$,  329 shapes with $\\lambda_1\\leq 7$": "$t=2$,  329 formas con $\\lambda_1\\leq 7$",
+    "$t=3$,  791 shapes with $\\lambda_1\\leq 7$": "$t=3$,  791 formas con $\\lambda_1\\leq 7$",
+    "minimum number of fixed points": "mínimo de puntos fijos",
+    "number of shapes": "número de formas",
+    "the lift takes only $0,\\,6,\\,8$": "el levantamiento sólo toma $0,\\,6,\\,8$",
+    "on $J_\\lambda$: $\\|\\Phi_t(\\lambda;z)\\|_1$": "sobre $J_\\lambda$: $\\|\\Phi_t(\\lambda;z)\\|_1$",
+    "on the lift $\\widehat J_\\lambda$: $\\|D_t\\Phi_t(\\lambda;z)\\|_1$":
+        "sobre el levantamiento $\\widehat J_\\lambda$: $\\|D_t\\Phi_t(\\lambda;z)\\|_1$",
+
     # --- fig_map ----------------------------------------------------------------------------
     "three routes to the zero locus, and what each one reaches":
         "tres rutas al lugar de anulación, y hasta dónde llega cada una",
     "the criterion, every $r$\n(Theorem 8.6)": "el criterio, todo $r$\n(Teorema 8.6)",
     "vanishing, every $t$\nand $r$ (Thm 8.35)": "anulación, todo $t$\ny $r$ (Teo. 8.35)",
-    "Littlewood's reduction\nto the $C_\\mu$": "la reducción de Littlewood\na los $C_\\mu$",
+    # El corte va DESPUES de «de» y no despues de «Littlewood»: la linea castellana entera
+    # ---«la reduccion de Littlewood»--- mide 86.7 pt y la caja azul 80, asi que la «l» inicial y la
+    # «d» final caian FUERA del rectangulo, en blanco sobre blanco.  El texto estaba, el lector no
+    # lo veia: `check_text_over_art` no lo caza porque la mayor parte del span si tiene tinta.
+    "Littlewood's reduction\nto the $C_\\mu$": "la reducción de\nLittlewood a los $C_\\mu$",
     "the dictionary:\ntwo Schur factors": "el diccionario:\ndos factores de Schur",
     "external:\nrigidity of $s_\\lambda s_\\mu$": "externo:\nrigidez de $s_\\lambda s_\\mu$",
     "external input": "input externo",
     "a certificate for it\n(refuted)": "un certificado para ello\n(refutado)",
     "a counterexample, so proved": "un contraejemplo, luego demostrado",
     "OPEN: the converse\n(Conjecture 8.43)": "ABIERTO: el recíproco\n(Conjetura 8.43)",
-    "OPEN: explain the\n$C_\\mu$ (Problem 10.5)": "ABIERTO: explicar los\n$C_\\mu$ (Problema 10.5)",
+    "OPEN: explain the\n$C_\\mu$ (Problem 11.6)": "ABIERTO: explicar los\n$C_\\mu$ (Problema 11.6)",
 }

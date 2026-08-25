@@ -21,10 +21,10 @@ N1  LA IDENTIDAD, elemento a elemento -- no por conteo, que seria mucho mas debi
      t=6 r=4 : el MULTICONJUNTO coincide en 14 de 14
 
 ====================================================================================================================
-N2  LA LEY, con su alcance, y los tres SEÑUELOS con denominador
+N2  LA LEY, con su alcance, y los tres SEï¿½UELOS con denominador
 ====================================================================================================================
 
-     t  r | sat>2 | LEY |banda+2s| | señ. #bloques+2s | señ. banda 0 | señ. banda +s | espejo -2s
+     t  r | sat>2 | LEY |banda+2s| | seï¿½. #bloques+2s | seï¿½. banda 0 | seï¿½. banda +s | espejo -2s
   ----------------------------------------------------------------------------------------------------------------
      4  2 |    32 | 32 de 32        | 0 de 32          | 0 de 32      | 0 de 32       | 32 de 32
            histograma de saturacion: {4: 32}
@@ -35,7 +35,7 @@ N2  LA LEY, con su alcance, y los tres SEÑUELOS con denominador
      6  4 |     8 | 8 de 8          | 0 de 8           | 0 de 8       | 0 de 8        | 8 de 8
            histograma de saturacion: {2: 6, 32: 2, 36: 2, 38: 2, 42: 2}
 
-     El espejo -2s acierta lo mismo que la ley y NO es señuelo: es la imagen de la banda +2s
+     El espejo -2s acierta lo mismo que la ley y NO es seï¿½uelo: es la imagen de la banda +2s
      bajo sigma_C.  Se dice para que nadie lo lea como una confirmacion independiente.
 
 ====================================================================================================================
@@ -46,7 +46,7 @@ N3  VEREDICTO
      N2  sat == |banda +2s|, alcance sat > 2               : 90 de 90
      la poblacion degenerada sat == 2                      : 8 formas, NO descritas
 
-     LA SATURACION ES EL TAMAÑO DEL ESPECTRO DE GRADOS DEL INTERIOR CONGELADO, A RANGO r-1.
+     LA SATURACION ES EL TAMAï¿½O DEL ESPECTRO DE GRADOS DEL INTERIOR CONGELADO, A RANGO r-1.
      Y satura PORQUE el interior esta congelado: su espectro es finito y fijo, y los
      extremos solo lo trasladan.  El eslabon MEDIDO es que toda la banda +2s cancela;
      el otro es una identidad de una linea.

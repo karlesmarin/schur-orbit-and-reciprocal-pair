@@ -19,7 +19,7 @@ N1  LA FAMILIA TESTIGO -- el poligono de Newton de Phi, vertice a vertice
   demuestra Phi != 0 mirando un solo termino.
 
 ============================================================================================================
-N2  LA POBLACION -- ¿es TODO vertice un atomo suelto?   C1  y el DECOY que tiene que fallar
+N2  LA POBLACION -- ï¿½es TODO vertice un atomo suelto?   C1  y el DECOY que tiene que fallar
 ============================================================================================================
 
    t  r   W |   n | N2: formas con TODOS los vertices sueltos | C1 decoy: idem con las fibras
@@ -53,7 +53,7 @@ C3  EL CONTROL DONDE SI PUEDE FALLAR -- sobre las formas que SE ANULAN
   no obliga a una involucion, pero SI obliga a colision en los EXTREMOS.
 
 ============================================================================================================
-N3  ¿SE DESCRIBEN LOS VERTICES EN CERRADO?  contra invariantes de S
+N3  ï¿½SE DESCRIBEN LOS VERTICES EN CERRADO?  contra invariantes de S
 ============================================================================================================
 
     n | S                                    | C  | vertices (a,b) con |a|>=|b| | a vs maxS-1

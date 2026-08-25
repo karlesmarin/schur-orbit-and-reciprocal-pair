@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # (R_C): EL FILTRO ES REGULARIDAD EN EL GRUPO ORIGINAL, NO EN EL DUAL.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 22 de la consulta.  Nosotros habiamos leido la pared que sobra en el caso
-# par como "la pared AFIN del nivel".  El corrige, y mejor:
-#
 #   * el elemento que hay que mirar es  x_{eta,t} = (xi^{a_1},...,xi^{a_m}) en el grupo ORIGINAL,
 #     con  a_i = eta_i + rho_i;
 #   * las raices de C_m son  e_i - e_j,  e_i + e_j,  2 e_i,  y evaluan a  xi^{a_i-a_j},

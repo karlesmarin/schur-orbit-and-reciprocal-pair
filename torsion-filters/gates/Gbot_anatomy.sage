@@ -6,15 +6,6 @@
 # RECUENTO CON SIGNO, sum_{T in Gbot, sort d(T) = D} w(T) = 0 para cada multiconjunto D, probado a
 # partir de que la permutacion de bloques de tamano 2 tiene signo +1.  Falta la anatomia de Gbot.
 #
-# LOS DOS EXTREMOS SON EL MISMO TIPO DE OBJETO, con distinto patron de signos por POSICION:
-#       deg(T)    = +..+ - ..-   (bloques)      = sum_{i<=r} u_i - sum_{i>r} u_i
-#       degmin(T) = + - + - ...  (alternante)   = sum_i (-1)^{i-1} u_i
-# Arriba el patron de bloques se dejaba escribir como max_A (2 sum A - sum T) y de ahi salia la
-# separabilidad.  Abajo el signo de cada x depende de la PARIDAD del numero de elementos quitados por
-# encima de el: con j(x) = #{g por encima de x},   degmin = sum_{x no en g} (-1)^{p(x)-1+j(x)} x.
-# Eso ya NO es separable de la misma manera, y el tamano de Gbot lo confirma.  Pero 16 = 2^4 sugiere
-# otra estructura, y es la que se prueba aqui:
-#
 #   H7   Gbot es un PRODUCTO:  Gbot = prod_k A_k  con A_k subset de la clase k.  Es decir, la
 #        eleccion optima en cada clase es independiente de la de las demas.
 #   H8   y cada factor tiene |A_k| <= 2, de donde |Gbot| = 2^{#clases empatadas}.

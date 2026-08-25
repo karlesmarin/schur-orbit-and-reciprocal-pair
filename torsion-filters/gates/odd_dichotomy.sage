@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA DICOTOMIA DE PARIDAD, MEDIDA EN SUS PARAMETROS.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  odd_BD.sage midio que el reparto B_{m'} x D_r es el correcto (C0 9/9).  Pero eso
-# dice QUE funciona, no POR QUE.  Este guion audita cada parametro: que objeto es, de que grupo, y
-# cual es el mecanismo que separa el caso par del impar.  La pregunta es la correcta:
-# si los conceptos no cuadran, un C0 que pasa es un ajuste con suerte.
-#
 # LA HIPOTESIS DEL MECANISMO, escrita antes de medir.  El punto donde se evalua es
 #
 #       p_t = (1, zeta, ..., zeta^{t-1}, z_1^{+-}, ..., z_r^{+-}),     zeta = e^{2 pi i / t},
@@ -21,10 +16,6 @@
 #   t PAR   -> det = -1 -> p_t esta en la OTRA componente de O(N).  Ahi el caracter no es el de una
 #              restriccion: hay que torcerlo (twining / orbit algebra), y la expansion simplectica
 #              sale VIRTUAL, con coeficientes de los dos signos.
-#
-# Si eso es asi, su punto 1 de la reseña no es una observacion editorial: es que las dos mitades del
-# problema viven en componentes distintas de un mismo grupo ortogonal, y toda la cancelacion
-# colectiva que llevamos dos dias persiguiendo entra por ahi y solo por ahi.
 #
 # LO QUE SE MIDE
 #   A  det p_t para t = 2..11, contra la prediccion (-1)^{t+1}.

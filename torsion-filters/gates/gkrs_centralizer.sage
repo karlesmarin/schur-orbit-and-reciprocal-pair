@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # .EN QUE BASE VIVE (L1)?  EL CENTRALIZADOR DEL ELEMENTO DE TORSION.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  gkrs_L1.sage confirma la identidad GKRS especializada (T1) y deja el hueco entero
-# en UN sitio: dividir por  Delta_t = prod_j (z_j^{t/2} - z_j^{-t/2}).  Ese factor es, exactamente, el
-# denominador relativo del par  B_r > D_r  dilatado por t.  Y eso apunta a que la base equivocada
-# puede ser la nuestra:
-#
 #   xi_t actua sobre el bloque congelado con autovalores  1, zeta^{+-1}, ..., zeta^{+-m'}.  Su
 #   espacio propio de autovalor 1 dentro de  SO(2R'+1)  tiene dimension  1 + 2r.  Luego
 #

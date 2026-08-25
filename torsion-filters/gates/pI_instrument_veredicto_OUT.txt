@@ -1,0 +1,91 @@
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: sage: ....: ....: ....: ....: ....: ....: ....: sage: sage: sage: ....: ....: ....: ....: ....: sage: sage: ....: ....: ....: ....: ....: sage: sage: ====================================================================================================
+sage: prob:instrument --- VEREDICTO: quien sobrevive en el rango de Littlewood
+sage: ====================================================================================================
+sage: 
+sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:   t=2 r=2 (N=6): 164 lambda en el rango de Littlewood, 1 con m_mu = m_{mu*} para toda mu
+     quienes son : [(1, 1, 1)]
+     V1  .son rectangulos de lado IMPAR con N/2 filas --- la rama (b) de thm:stable? : SI, todos
+
+  t=2 r=3 (N=8): 494 lambda en el rango de Littlewood, 1 con m_mu = m_{mu*} para toda mu
+     quienes son : [(1, 1, 1, 1)]
+     V1  .son rectangulos de lado IMPAR con N/2 filas --- la rama (b) de thm:stable? : SI, todos
+
+  t=4 r=2 (N=8): 494 lambda en el rango de Littlewood, 1 con m_mu = m_{mu*} para toda mu
+     quienes son : [(1, 1, 1, 1)]
+     V1  .son rectangulos de lado IMPAR con N/2 filas --- la rama (b) de thm:stable? : SI, todos
+
+sage: ---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[51], line 1
+----> 1 json.dump(resumen, open("pI_instrument_veredicto_DUMP.json", "w"), indent=Integer(1))
+
+File /usr/lib/python3.12/json/__init__.py:179, in dump(obj, fp, skipkeys, ensure_ascii, check_circular, allow_nan, cls, indent, separators, default, sort_keys, **kw)
+    173     iterable = cls(skipkeys=skipkeys, ensure_ascii=ensure_ascii,
+    174         check_circular=check_circular, allow_nan=allow_nan, indent=indent,
+    175         separators=separators,
+    176         default=default, sort_keys=sort_keys, **kw).iterencode(obj)
+    177 # could accelerate with writelines in some versions of Python, at
+    178 # a debuggability cost
+--> 179 for chunk in iterable:
+    180     fp.write(chunk)
+
+File /usr/lib/python3.12/json/encoder.py:432, in _make_iterencode.<locals>._iterencode(o, _current_indent_level)
+    430     yield from _iterencode_list(o, _current_indent_level)
+    431 elif isinstance(o, dict):
+--> 432     yield from _iterencode_dict(o, _current_indent_level)
+    433 else:
+    434     if markers is not None:
+
+File /usr/lib/python3.12/json/encoder.py:406, in _make_iterencode.<locals>._iterencode_dict(dct, _current_indent_level)
+    404         else:
+    405             chunks = _iterencode(value, _current_indent_level)
+--> 406         yield from chunks
+    407 if newline_indent is not None:
+    408     _current_indent_level -= 1
+
+File /usr/lib/python3.12/json/encoder.py:406, in _make_iterencode.<locals>._iterencode_dict(dct, _current_indent_level)
+    404         else:
+    405             chunks = _iterencode(value, _current_indent_level)
+--> 406         yield from chunks
+    407 if newline_indent is not None:
+    408     _current_indent_level -= 1
+
+File /usr/lib/python3.12/json/encoder.py:326, in _make_iterencode.<locals>._iterencode_list(lst, _current_indent_level)
+    324         else:
+    325             chunks = _iterencode(value, _current_indent_level)
+--> 326         yield from chunks
+    327 if newline_indent is not None:
+    328     _current_indent_level -= 1
+
+File /usr/lib/python3.12/json/encoder.py:326, in _make_iterencode.<locals>._iterencode_list(lst, _current_indent_level)
+    324         else:
+    325             chunks = _iterencode(value, _current_indent_level)
+--> 326         yield from chunks
+    327 if newline_indent is not None:
+    328     _current_indent_level -= 1
+
+File /usr/lib/python3.12/json/encoder.py:439, in _make_iterencode.<locals>._iterencode(o, _current_indent_level)
+    437         raise ValueError("Circular reference detected")
+    438     markers[markerid] = o
+--> 439 o = _default(o)
+    440 yield from _iterencode(o, _current_indent_level)
+    441 if markers is not None:
+
+File /usr/lib/python3.12/json/encoder.py:180, in JSONEncoder.default(self, o)
+    161 def default(self, o):
+    162     """Implement this method in a subclass such that it returns
+    163     a serializable object for ``o``, or calls the base implementation
+    164     (to raise a ``TypeError``).
+   (...)    178 
+    179     """
+--> 180     raise TypeError(f'Object of type {o.__class__.__name__} '
+    181                     f'is not JSON serializable')
+
+TypeError: Object of type Integer is not JSON serializable
+sage: ====================================================================================================
+sage: DONE
+sage: 

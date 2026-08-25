@@ -5,14 +5,6 @@
 # POR QUE EXISTE ESTO.  Dos fallos reales del mismo dia, ninguno de los cuales veia ninguna de las
 # veinticinco auditorias que ya habia:
 #
-#   (1) Un heredoc de bash interpreto `\b` como RETROCESO y escribio 0x08 dentro de `$M(\beta)$` en
-#       la edicion castellana.  LaTeX compilo sin una queja --- el byte es invisible --- y el PDF
-#       salio con la macro comida.  Un fuente con caracteres de control es un fuente roto que no
-#       avisa.
-#   (2) Una lectura externa vio conj:H terminando en "=1" cuando pone "|...|=1": el extractor de
-#       texto convierte el glifo de la barra grande en 0x0c y se lo come.  El PDF esta bien; lo que falla es leerlo por extraccion.  137 delimitadores en
-#       26 de las 69 paginas.
-#
 # LO QUE COMPRUEBA
 #   C1  FATAL  cero caracteres de control en los dos .tex.  Ni uno.
 #   C2         los delimitadores grandes que caen DENTRO de un enunciado numerado --- theorem,

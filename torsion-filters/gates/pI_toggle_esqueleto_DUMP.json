@@ -1,0 +1,42 @@
+{
+ "t=2": {
+  "n": 329,
+  "forzados": 398,
+  "S1": 398,
+  "S2": {
+   "beta(lambda) sin {j1,j2} contenido en beta(mu)": 14,
+   "ninguna de las anteriores": 384
+  },
+  "S3": {
+   "nu == mu": 69,
+   "nu == lambda": 69,
+   "nu intermedio": 260
+  },
+  "S4": [
+   398,
+   398
+  ],
+  "lap_tot": 2152,
+  "libres": 1594
+ },
+ "t=3": {
+  "n": 791,
+  "forzados": 1176,
+  "S1": 1106,
+  "S2": {
+   "ninguna de las anteriores": 1092,
+   "beta(lambda) sin {j1,j2} contenido en beta(mu)": 84
+  },
+  "S3": {
+   "nu == mu": 154,
+   "nu == lambda": 162,
+   "nu intermedio": 860
+  },
+  "S4": [
+   1176,
+   1176
+  ],
+  "lap_tot": 4600,
+  "libres": 3424
+ }
+}

@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA LEY DEL DEFECTO INVARIANTE, y el cono de generadores.  13 de agosto de 2026.
 #
-# DE DONDE SALE.  contact_order.py encontro que los testigos profundos de t=4 r=2 se generan sumando
-# v = (4,2,2,2,2,2,2,0), que la familia aguanta 25 miembros hasta anchura 114, y que el defecto de
-# concentricidad  d_i(beta) = beta_i + beta_{N-1-i} - C  vale [0,0,-1,-3] en TODOS los miembros.  Que
-# sea constante no es suerte: sumale sus pares opuestos al generador y salen  4+0 = 2+2 = 2+2 = 2+2 = 4.
-# EL GENERADOR ES EL MISMO CONCENTRICO.  Y entonces, para cualquier v con v_i + v_{N-1-i} = c:
-#
 #     d_i(beta + j v) = (beta_i + j v_i) + (beta_{N-1-i} + j v_{N-1-i}) - (C + j c) = d_i(beta)
 #
 #     LEY DEL DEFECTO INVARIANTE.  El defecto de concentricidad es invariante al sumar cualquier

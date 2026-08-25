@@ -1,0 +1,35 @@
+====================================================================================================
+.POR QUE TRES SENOS?  El colapso del alternante, y las dos ramas como dos sistemas de raices
+====================================================================================================
+
+  C2  FATAL la identidad de los cuatro senos : 441 de 441   PASA
+      2*(sinh u - sinh v - sinh w + sinh x) = -(2sinh d1)(2sinh d2)(2sinh d3), en w = z^(1/2)
+  D1  senuelo con los cuatro signos + : 47 de 441   falla en 394 (bien)
+
+  t=2   C1  Vandermonde del alfabeto = -(2sinh(t))^2 . (z-1/z) : OK
+        ramas : {'dos clases con 2': 150, 'una clase con 3': 160, 'clase vacia -> cero': 20}
+        C4  en la rama SOLAPADA, .d3 = d1 + d2?  160 de 160   SIEMPRE
+        D2  senuelo d3 = |d1 - d2| : 0 de 160   falla (bien)
+
+  t=3   C1  Vandermonde del alfabeto = -(2sinh(t))^2 . (z-1/z) : OK
+        ramas : {'dos clases con 2': 252, 'una clase con 3': 112, 'clase vacia -> cero': 98}
+        C4  en la rama SOLAPADA, .d3 = d1 + d2?  112 de 112   SIEMPRE
+        D2  senuelo d3 = |d1 - d2| : 0 de 112   falla (bien)
+
+  t=4   C1  Vandermonde del alfabeto = -(2sinh(t))^2 . (z-1/z) : OK
+        ramas : {'dos clases con 2': 243, 'una clase con 3': 54, 'clase vacia -> cero': 165}
+        C4  en la rama SOLAPADA, .d3 = d1 + d2?  54 de 54   SIEMPRE
+        D2  senuelo d3 = |d1 - d2| : 0 de 54   falla (bien)
+
+  t=5   C1  Vandermonde del alfabeto = -(2sinh(t))^2 . (z-1/z) : OK
+        ramas : {'dos clases con 2': 168, 'una clase con 3': 16, 'clase vacia -> cero': 146}
+        C4  en la rama SOLAPADA, .d3 = d1 + d2?  16 de 16   SIEMPRE
+        D2  senuelo d3 = |d1 - d2| : 0 de 16   falla (bien)
+
+  t=6   C1  Vandermonde del alfabeto = -(2sinh(t))^2 . (z-1/z) : OK
+        ramas : {'dos clases con 2': 80, 'clase vacia -> cero': 85}
+        C4  en la rama SOLAPADA, .d3 = d1 + d2?  0 de 0   sin casos
+        D2  senuelo d3 = |d1 - d2| : 0 de 0   falla (bien)
+
+====================================================================================================
+DONE

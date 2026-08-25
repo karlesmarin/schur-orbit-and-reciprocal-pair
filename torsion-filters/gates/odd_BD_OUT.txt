@@ -58,7 +58,7 @@ EL IMPAR EN SU GRUPO:  B_{R'} -> B_{m'} x D_r     (propuesta 3 de la reseña)
   señuelos que DISCREPAN (tienen que discrepar todos): t+2 -> 9/9 | sin filtro -> 9/9 | C_m' -> 9/9
 
   LECTURA, escrita ANTES de correr:
-   * si C0 pasa en todas -> el reparto B_{m'} x D_r es el correcto y su punto 1 esta medido.
+   * si C0 pasa en todas -> el reparto B_{m'} x D_r es el correcto y el punto 1 esta medido.
    * si ademas mu_max es unico con |A| = 1 -> el impar tiene su propia (H) y hay dicotomia.
    * si C0 falla -> el 1 no va con la torsion, y hay que probar D_{m'} x B_r.
 

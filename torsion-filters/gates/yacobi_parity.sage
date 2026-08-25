@@ -2,10 +2,6 @@
 # LA RUTA DE YACOBI, EJECUTADA:  A_mu por paridad de los r_i, sin pasar por los eta.
 # 15 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 16 de la consulta, contestando nuestra P17: nuestro Sp_2 es la DIAGONAL
-# Delta SL_2 en (SL_2)^R, no uno de los factores.  Verificado en el texto de Yacobi (arXiv:0907.3247),
-# literalmente:
-#
 #   Corollary 3.3.  "Suppose (mu,lambda) in Lambda_B.  Then as SL_2-modules
 #                    W_{lambda/mu} ~= (x)_{i=1}^n F_{r_i(mu,lambda^+)},
 #                    where SL_2 acts by the tensor product representation on the right hand side."
@@ -16,10 +12,6 @@
 #   "Given (mu,lambda) in Lambda_{n-1,n+1} let (x_1 >= y_1 >= ... >= x_n >= y_n) be the
 #    non-increasing rearrangement of (mu_1,...,mu_{n-1}, lambda_1,...,lambda_{n+1}).
 #    Set r_i(mu,lambda) = x_i - y_i."
-#
-# CONSECUENCIA, y es la de el.  Sobre la diagonal el caracter de un producto tensorial es el
-# PRODUCTO de caracteres, luego los 2-6 eta que medimos son internos a la restriccion y se pueden
-# SALTAR:
 #
 #     chi_{W_{Lambda/mu}}(i)  =  prod_j chi_{r_j}(i)
 #                             =  0                       si algun r_j es impar,

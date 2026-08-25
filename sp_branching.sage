@@ -1,5 +1,5 @@
 # Authors: Carles Marin + Claude (AI assistant).
-# Problem 10.1, symplectic column: WHY there is no law of the orthogonal kind, and what replaces it.
+# Problem 11.1, symplectic column: WHY there is no law of the orthogonal kind, and what replaces it.
 #
 # Section 8 rests on  o_nu(W,1,-1) = sp_nu(W): adjoining the two letters collapses the orthogonal
 # universal character to a SINGLE symplectic one.  The symplectic column has no such law, and the

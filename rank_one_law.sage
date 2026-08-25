@@ -1,5 +1,5 @@
 # Authors: Carles Marin + Claude (AI assistant).
-# Does the paper's own Lemma 8.9 answer part of its own open Problem 10.1
+# Does the paper's own Lemma 8.9 answer part of its own open Problem 11.1
 # ("the other classical types")?  That problem reports, as a measurement with no
 # law, that o_lambda vanishes on 83.8% of the l(lambda)>=2 shapes at t=2.
 # At t=2 the alphabet is {1,-1,z,1/z} = our A at r=1, and Lemma 8.9 says

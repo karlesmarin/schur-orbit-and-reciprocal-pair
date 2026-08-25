@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA BANDERA: beta no es una configuracion con un numero, es una CADENA.  13 de agosto de 2026.
 #
-# DE DONDE SALE.  Siete lecturas mias han muerto hoy -- el cono, la ocupacion, s=2<=>t=2r, K_sop<=4,
-# las cuatro candidatas a ley de saturacion, la multiplicidad de factores y "una sola pareja rota" --
-# y las siete tenian la misma forma: buscaba UN ESCALAR.  Lo unico que no ha muerto es la recursion:
-# quitando los dos extremos de S queda una configuracion ANULANTE de rango r-1.  La pregunta que no
-# habia hecho es si eso se puede volver a hacer.
-#
 # SE PUEDE.  Pelando repetidamente -- quitar los dos extremos de S, bajar un rango -- sale una TORRE, y
 # [Phi]_top = 0 EN TODOS LOS PISOS.  Lo que cambia de piso en piso es cuando entra la anulacion TOTAL
 # Phi == 0.  Ejemplo (t=6 r=4):

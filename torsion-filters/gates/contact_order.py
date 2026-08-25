@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA PROFUNDIDAD ES ORDEN DE CONTACTO CON EL LUGAR CONCENTRICO.  13 de agosto de 2026.
 #
-# DE DONDE SALE.  witness_family.py saco los testigos de profundidad maxima de t=4 r=2 en las anchuras
-# 18..38, y todos tienen la misma anatomia: de los N/2 = 4 pares  beta_i + beta_{N-1-i},  TRES valen
-# exactamente C = W y UNO falla -- y falla SIEMPRE POR 4, en las cinco anchuras.  O sea el defecto de
-# concentricidad se queda FIJO mientras la escala W crece.
-#
 #     (38, 37, 23, 18, 16, 15,  1, 0)    37+1=38  23+15=38  18+16=34   defecto 4
 #     (34, 33, 23, 16, 14, 11,  1, 0)    33+1=34  23+11=34  16+14=30   defecto 4
 #     (18, 17, 11,  8,  7,  6,  1, 0)    17+1=18  11+ 6=17   8+ 7=15   defecto 1+3 = 4

@@ -8,12 +8,6 @@
 # saturacion, NO el numero", porque el valor depende de la semilla (4, 24, 18, 42 en las cuatro
 # familias medidas).
 #
-# LA HIPOTESIS QUE SE MIDE AQUI.  Una consulta externa propone cerrar la Conjetura 8.44 pelando
-# g_com por sus extremos -- probar c_1+c_{e-2}=C, luego c_2+c_{e-3}=C, etc. -- empujado por estratos
-# soportados sucesivos, y conjetura que la cancelacion genuina esta "controlada por la profundidad de
-# reflexion".  Si eso es asi, CANCEL tendria que ser una FUNCION de |g_com| a (t,r) fijos, porque
-# |g_com|/2 es exactamente el numero de capas que quedan por reflejar.
-#
 # ESTO ES LO QUE SE MIDE, y no otra cosa:
 #
 #     a (t,r) fijos, ¿CANCEL queda determinado por |g_com|?

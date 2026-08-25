@@ -1,0 +1,49 @@
+Paper I: orbit_pair.tex   274250 caracteres
+
+================================================================================================
+A1  ENUNCIADOS SIN FILA EN LA TABLA DE ATRIBUCION
+================================================================================================
+   enunciados: 54   con fila: 54   SIN fila: 0
+
+================================================================================================
+A2  ATRIBUCIONES NOMBRADAS SIN CITA EN LA MISMA FRASE
+================================================================================================
+   Littlewood        19 frases sin \cite
+        ej: The proof is a Laplace expansion along the $t$ frozen rows of the bialternant together with one cancellation lemma in the symmetric group, and it delivers the sign, which is the sorting sign
+   Schur             14 frases sin \cite
+        ej: % A closed form for the Schur function at a full root-of-unity orbit together with one free % reciprocal pair, with the sign derived;
+   Ayyer              9 frases sin \cite
+        ej: an extension of Ayyer-Kumari's % independence criterion on the reciprocal locus;
+   Kumari             7 frases sin \cite
+        ej: an extension of Ayyer-Kumari's % independence criterion on the reciprocal locus;
+   Behrend            3 frases sin \cite
+        ej: it is a short corollary of the complementation identity over an index family Ayyer and Behrend already single out, and at the same alphabet \emph{without} the letter $-1$ their theorems make
+   Prasad             1 frases sin \cite
+        ej: That is the form in which Prasad's question was posed in \S\ref{sec:background}, and the sense in which \eqref{eq:object} is read outside combinatorics --- the frozen half of the alphabet be
+   Ciucu              1 frases sin \cite
+        ej: Ciucu and Krattenthaler evaluate the corresponding determinants.
+   Krattenthaler      1 frases sin \cite
+        ej: Ciucu and Krattenthaler evaluate the corresponding determinants.
+   Macdonald          1 frases sin \cite
+        ej: Then \begin{enumerate} \item[\rm(i)] $\sigma_m\in\{0,\pm1\}$ --- this part is Macdonald's, not ours;
+   Koike              1 frases sin \cite
+        ej: \begin{lemma}[the alphabet is symplectic]\label{lem:AtoSp} $\iota_{-1}\iota_{1}\,o_\nu=sp_\nu$ for every partition $\nu$, as an identity between Koike--Terada \emph{universal} characters in 
+   Terada             1 frases sin \cite
+        ej: \begin{lemma}[the alphabet is symplectic]\label{lem:AtoSp} $\iota_{-1}\iota_{1}\,o_\nu=sp_\nu$ for every partition $\nu$, as an identity between Koike--Terada \emph{universal} characters in 
+   Pan                1 frases sin \cite
+        ej: Panel (b) is the reason Proposition \ref{prop:A1gen} cannot be proved from $|G|=2$ alone.
+
+================================================================================================
+A3  ETIQUETAS DE ENUNCIADO QUE NADA CITA
+================================================================================================
+   total: 0 de 54
+
+================================================================================================
+A4  FRASES QUE PUEDEN HABER QUEDADO DESFASADAS
+================================================================================================
+
+   [we know of no]
+      ...side $\lambda$. What an isolating $\mu$ asks for is not positivity but \emph{isolation}: that exactly one of them does. The positivity is what makes the question hard rather than what answers it, and we know of no tool aimed at the second question. \begin{figure}[tb] \centering \includegraphics[width=\textwidth]{fig_phase.pdf} \...
+
+   [We know of no]
+      ...is one of each, and Lemma  is the one place where the two meet: there the $\zeta$-orbit is $\{1,-1\}$, small enough that adjoining it is a pair of letter maps rather than an operator. We know of nothing that acts on both halves at once, and the question is whether the two formalisms compose. \end{problem} \begin{proposition}[the...

@@ -103,7 +103,7 @@ NODOS = {
     "otau":  (4.40, Y_IMP, W, "$\\tau^B$ at a principal\nelement", EXTERNO),
     "onum":  (6.60, Y_IMP, W, "$\\nu$ is a signed\ntransversal count", PROBADO),
     "odiv":  (8.80, Y_IMP, W, "the division inverts:\n$\\Delta_t=\\psi^t(\\Delta_1)$", PROBADO),
-    "odet":  (11.00, Y_IMP, W + 0.15, "$c=\\pm\\epsilon_t\\det M$,\nthen OPEN (L1)", ABIERTO),
+    "odet":  (11.00, Y_IMP, W + 0.15, "$c=\\pm\\epsilon_t\\det M$,\nand (L1): $M$ is TU", PROBADO),
 }
 
 ARISTAS = [("red", "epar"), ("red", "eimp"),

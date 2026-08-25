@@ -1,0 +1,47 @@
+{
+ "t=2,r=2": {
+  "nulos": 1,
+  "C1": 1,
+  "soporte_igual": 1,
+  "soporte_dist": 0,
+  "refina": {
+   "l(delta)": 1,
+   "delta_1": 1,
+   "|delta|/2": 1,
+   "num columnas": 1,
+   "num partes pares": 1
+  },
+  "nrefina": {},
+  "D1": 5414
+ },
+ "t=2,r=3": {
+  "nulos": 1,
+  "C1": 1,
+  "soporte_igual": 1,
+  "soporte_dist": 0,
+  "refina": {
+   "l(delta)": 1,
+   "delta_1": 1,
+   "|delta|/2": 1,
+   "num columnas": 1,
+   "num partes pares": 1
+  },
+  "nrefina": {},
+  "D1": 41026
+ },
+ "t=4,r=2": {
+  "nulos": 1,
+  "C1": 1,
+  "soporte_igual": 1,
+  "soporte_dist": 0,
+  "refina": {
+   "l(delta)": 1,
+   "delta_1": 1,
+   "|delta|/2": 1,
+   "num columnas": 1,
+   "num partes pares": 1
+  },
+  "nrefina": {},
+  "D1": 41026
+ }
+}

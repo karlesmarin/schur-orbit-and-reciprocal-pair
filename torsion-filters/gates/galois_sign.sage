@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# EL SIGNO DE GALOIS DEL FILTRO.   16 de agosto de 2026.   (vuelta 28, punto 6)
-#
-# DE DONDE SALE.  La Observacion 3.9 dice ahora "una evaluacion por orbita y el filtro queda conocido
-# en toda la orbita".  Un testigo de dos lineas la mata:  t=4, m=1,  tau(a=1)=+1
-# pero tau(a=3)=-1,  y 3 es una unidad.  Lo INVARIANTE en la orbita es el SOPORTE; el valor no.
 #
 # Y propone el arreglo, que es mejor que retirar la frase.  Multiplicar los residuos por una unidad
 # k induce sobre las CLASES PLEGADAS una permutacion con signo  w_k;  poniendo
@@ -385,7 +379,7 @@ for (t, typ) in [(x, "B") for x in IMPARES] + [(x, "C") for x in PARES]:
                 "identificacion": ident, "fallo": fallo})
 
 
-# --------------------------------------------------------------- G4  los dos testigos de la vuelta 28
+# --------------------------------------------------------------- G4  los dos testigos
 print("")
 print("=" * 118)
 print("G4  LOS DOS TESTIGOS QUE FIJAN EL ENUNCIADO")

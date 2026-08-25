@@ -1,5 +1,5 @@
 ============================================================================
-Problem 10.6: the extra locus against the kernel of the specialization
+Problem 11.7: the extra locus against the kernel of the specialization
 ============================================================================
   free part t    solutions  cores    [thm:extra] OTHER   
   ----------------------------------------------------

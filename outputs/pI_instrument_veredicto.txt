@@ -1,0 +1,18 @@
+====================================================================================================
+prob:instrument --- VEREDICTO: quien sobrevive en el rango de Littlewood
+====================================================================================================
+
+  t=2 r=2 (N=6): 164 lambda en el rango de Littlewood, 1 con m_mu = m_{mu*} para toda mu
+     quienes son : [(1, 1, 1)]
+     V1  .son rectangulos de lado IMPAR con N/2 filas --- la rama (b) de thm:stable? : SI, todos
+
+  t=2 r=3 (N=8): 494 lambda en el rango de Littlewood, 1 con m_mu = m_{mu*} para toda mu
+     quienes son : [(1, 1, 1, 1)]
+     V1  .son rectangulos de lado IMPAR con N/2 filas --- la rama (b) de thm:stable? : SI, todos
+
+  t=4 r=2 (N=8): 494 lambda en el rango de Littlewood, 1 con m_mu = m_{mu*} para toda mu
+     quienes son : [(1, 1, 1, 1)]
+     V1  .son rectangulos de lado IMPAR con N/2 filas --- la rama (b) de thm:stable? : SI, todos
+
+====================================================================================================
+DONE

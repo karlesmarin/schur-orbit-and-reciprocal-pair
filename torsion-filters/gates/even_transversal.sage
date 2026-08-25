@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL ANALOGO PAR DEL TRANSVERSAL.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  prop:transversal deja el numerador impar como un recuento con signo de
-# transversales.  El par tiene la misma forma de par de rango igual --- Sp_{2R} > Sp_{2m} x Sp_{2r},
-# rango R = m+r en los dos lados --- asi que GKRS aplica tambien ahi.  Lo que cambia es CUANTO:
-#
 #   (a) las raices complementarias son solo  e_i +- f_j  (en tipo B habia ademas  f_j  suelta),
 #       y congelando  y_i = xi^i  con  i = 1..m  y  t = 2m+2  faltan justo  +-1  del alfabeto, luego
 #

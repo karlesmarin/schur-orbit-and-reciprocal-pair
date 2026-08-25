@@ -2,16 +2,6 @@
 # ============================================================================================
 #  EL PLEGADO EN t = 2, VERSION 2.  14 de agosto de 2026.
 #
-#  HISTORIA (la v1 esta archivada en folding_t2_OUT.txt, y su cabecera en el commit anterior):
-#    - v1 predijo  s_lambda(1,-1,z^{+-1}) = +- monomio * UN caracter simplectico.  FALSA: 33 de 62.
-#    - la correccion "combinacion entera NO NEGATIVA" (folding_t2_refino.py) tambien FALLA:
-#      145 de 290, y las 145 que fallan son MENOS una combinacion no negativa.  Reparto 145/145.
-#    - consulta externa del 13: confirma que la factorizacion en un solo caracter NO esta publicada
-#      y NO PUEDE EXISTIR, con el mismo contraejemplo que ya habia salido aqui, y con la familia
-#      cerrada  s_(m)(1,-1,z,1/z) = sum_{j<=m/2} sp_(m-2j)  via  1/((1-u^2)(1-zu)(1-u/z)).
-#      Ruta correcta: branching GL_N -> O_N (Littlewood; Frohmader Thm 5.6 fuera del rango estable)
-#      y DESPUES plegado D_{r+1} -> C_r (Jantzen; Kumar-Lusztig-Prasad).
-#
 #  LO QUE ESTE GUION AÑADE, y que no estaba en la consulta: DOS TEOREMAS GRATIS que fijan el signo.
 #
 #    (T1)  prod(alfabeto) = 1 * (-1) * prod(z_i/z_i) = -1,  luego  s_{lambda + 1^N} = - s_lambda.
@@ -34,20 +24,6 @@
 #  que ya esta en el paper con |G| <= 2 PROBADO.  El plegado no abre una regla nueva: devuelve al
 #  cuadro de transversales.  Esta es la prediccion que N2 contrasta, con su caso no generico como
 #  denominador.
-#
-#  COLUMNAS
-#    C0  ACEPTACION, fatal.  a) valores conocidos.  b) sympy independiente sobre una muestra.
-#        c) LA FAMILIA CERRADA de la consulta externa (prediccion externa, no nuestra).
-#        d) dim sp_mu por la formula de Weyl de C_r.  e) invariancia de Weyl de la restriccion.
-#        f) T1 y T2 medidos (son teoremas: si fallan, el guion esta mal, no el teorema).
-#    N1  LA DICOTOMIA: s_lambda(1,-1,z^{+-1}) = +- (combinacion NO NEGATIVA de caracteres de Sp(2r)).
-#        Se cuenta todo-no-negativo / todo-no-positivo / MEZCLADO.  Un solo MEZCLADO la refuta.
-#    N2  LA REGLA DE SIGNO.  Prediccion combinatoria desde beta contra el signo MEDIDO, con
-#        Contingencia (que se niega a certificar si la casilla contrafactual esta vacia).
-#    N3  COTAS: la consulta dice que no hay ninguna.  Se mide el crecimiento de los coeficientes y
-#        se verifica el caso cerrado [z^0] s_(2M)(1,-1,z,1/z) = M+1.
-#    N4  EL CRITERIO t=2 (cero <=> (i) y (ii)) por esta via completamente independiente -- sin
-#        Laplace por estratos, sin probe(), sin scan() -- y ahora tambien para r = 2 y r = 3.
 #
 #  Authors: Carles Marin, Claude (AI assistant).
 #  Run: python folding_t2.py        (desde gates/)
@@ -536,7 +512,7 @@ FALLOS += malos
 print("       %d discrepancias sobre %d evaluaciones" % (malos, n3))
 print("")
 
-# --- C0c  la familia cerrada de la consulta externa ----------------------------------------------
+# --- C0c  la familia cerrada de el analisis previo ----------------------------------------------
 print("  C0c  PREDICCION EXTERNA (no nuestra):  s_(m)(1,-1,z,1/z) = sum_{j<=m/2} sp_(m-2j)")
 print("       viene de  sum_m h_m u^m = 1/((1-u^2)(1-zu)(1-u/z))  y  1/((1-zu)(1-u/z)) = sum sp_(n) u^n")
 malos = 0
@@ -682,6 +658,14 @@ for r, LM in CFG:
     print("     N1  DICOTOMIA")
     for k in ("cero", "no negativa", "no positiva", "MEZCLADA"):
         print("        %-14s : %d" % (k, cnt[k]))
+    # La columna «one sign» de la tabla tab:virtual del Paper I es la SUMA de las dos clases de signo
+    # unico, y esta salida las tenia por separado sin sumarlas: el 2531 de la fila r=2 no era
+    # localizable en ninguna corrida guardada.  Anadido el 19 de agosto de 2026.
+    # Ver paper/HOJA_DE_SALIDA_HALLAZGOS.md.
+    print("        %-14s : %d   <- la columna «one sign» de tab:virtual (no negativa + no positiva)"
+          % ("UN SOLO SIGNO", cnt["no negativa"] + cnt["no positiva"]))
+    print("        %-14s : %d   <- y la fila entera cuadra: cero + un signo + mezclada"
+          % ("total formas", cnt["cero"] + cnt["no negativa"] + cnt["no positiva"] + cnt["MEZCLADA"]))
     print("        -> %s" % ("*** REFUTADA: %d expansiones con signos MEZCLADOS ***" % cnt["MEZCLADA"]
                              if cnt["MEZCLADA"] else
                              "AGUANTA: toda expansion no nula es +- una combinacion no negativa"))
@@ -708,7 +692,7 @@ for r, LM in CFG:
 # ===================================================================== N3 ========================
 print("")
 print("=" * 112)
-print("N3  COTAS: la consulta externa dice que NO hay ninguna.  Se verifica el caso cerrado.")
+print("N3  COTAS: el analisis previo dice que NO hay ninguna.  Se verifica el caso cerrado.")
 print("=" * 112)
 print("")
 print("     [z^0] s_(2M)(1,-1,z,1/z) tiene que valer M+1, y s_(2M)(1,-1,1,1) = (M+1)^2")

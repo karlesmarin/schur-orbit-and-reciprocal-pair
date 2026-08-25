@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL SIGNO DEL FILTRO IMPAR, EN FORMA CERRADA.   16 de agosto de 2026.
 #
-# POR QUE HACE FALTA AHORA.  La Figura 2 hay que redibujarla con la regla ORTOGONAL (su vuelta 25),
-# y el panel colorea por el SIGNO de tau.  La Prop. 5.3 dice cuando tau^B != 0 y que |tau^B| = 1,
-# pero NO da el signo.  Antes de dibujarlo hay que saberlo, y con la formula correcta: si dibujamos
-# el signo por la formula del caso par, repetimos exactamente el defecto que el acaba de cazar.
-#
 # LA CANDIDATA, por analogia con el Lema 3.1 y con el plegado afin: con
 #
 #     A_j = 2 eta_j + 2(m'-j) + 1,   c_j = A_j mod t,   cl_j = min(c_j, t-c_j),

@@ -75,7 +75,14 @@ for panel, (lam, sub) in enumerate(PANELS):
     ax.set_xticks(list(range(0, mmax)))
     ax.set_xlabel(r"$m$", labelpad=-2, color=INK, fontsize=10)
     ax.set_ylabel(r"$k$", labelpad=2, color=INK, fontsize=10)
-    ax.set_zlabel(r"$\sigma_m(k)$", labelpad=-2, color=INK, fontsize=9, rotation=0)
+    # SIN rotulo en el eje vertical, y es una decision medida.  Lo llevaba, con `labelpad=-2`, y NO
+    # LLEGABA AL RENDER: `check_text_over_art --dpi 600` lo daba tapado al 0.0 % en las dos
+    # ediciones, mientras la capa de texto lo seguia declarando --- de modo que toda auditoria que
+    # EXTRAIGA texto lo daba por bueno.  Con este alto de caja (box_aspect z = 0.5) no hay
+    # `labelpad` que lo salve: negativo lo mete detras del panel y positivo lo mete ENCIMA de las
+    # barras, comprobado a 20.  Quien dice que es el eje vertical es el pie, que ya lo dice:
+    # «sigma_m = s_{lambda/(m+k,m)}(1,-1) is plotted against m and k».  Un rotulo declarado que
+    # nadie ve es peor que ninguno.
     ax.set_zticks([-1, 0, 1])
     ax.set_yticks(ks[::2] if len(ks) > 6 else ks)
     ax.tick_params(axis="x", colors=MUTED, labelsize=7, pad=-3)
@@ -96,7 +103,7 @@ for panel, (lam, sub) in enumerate(PANELS):
              all(abs(s) <= 1 for k in ks for s in seqs[k])))
 
 fig.subplots_adjust(left=0.01, right=0.99, top=0.99, bottom=0.03, wspace=0.04)
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fig_runs")
+out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "fig_runs")
 fig.savefig(out + ".pdf")
 fig.savefig(out + ".png", dpi=200)
 print("wrote", out + ".pdf/.png")

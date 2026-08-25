@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # LOS ETA QUE SOBREVIVEN EN EL PESO SUPERIOR, LADO IMPAR.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 22, P24 y P26.  El corrige nuestra frase "la cancelacion entra en el paso
-# del determinante y solo ahi": es demasiado fuerte.  Lo que entra ahi es branching ORDINARIO contra
-# TWINED; pero la suma final  A_mu = sum_eta B_{eta,mu} tau^B(eta)  con tau^B en {0,+-1} PUEDE
-# cancelar igual.  Y propone la medida que lo decide:
-#
 #     en mu_max^+ :   #{ eta : B_{eta,mu_max} != 0  y  tau^B_t(eta) != 0 },  con multiplicidades.
 #
 #   * si sale siempre 1 x 1  -> el Unit Theorem impar cae por extremal branching + NPP, sin

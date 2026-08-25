@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL NUMERADOR GKRS ES UN RECUENTO DE TRANSVERSALES.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruce de dos cosas de hoy que estaban en secciones distintas:
-#
 #   (a)  lem:muinj  --  w en W^1 ES el dato de un subconjunto S de tamano m' mas una quiralidad,
 #        y  eta_w  es el bloque S de  v = 2 Lambda + 2 rho_{B_{R'}}.
 #   (b)  cor:oddsign --  tau^B_t(eta) = eps_t . delta(A),  y delta != 0 exactamente cuando las
@@ -246,6 +244,6 @@ print("   * si G1-G3 salen limpias, el numerador de (L1) queda SIN representacio
 print("     con signo de transversales de una particion de R' residuos en m'+1 clases.")
 print("   * y G4 da un criterio de anulacion que no necesita calcular nada: basta una clase vacia.")
 print("   * si G2 sale y G3 no, la lectura acierta el SOPORTE y falla el signo -- que es justo la")
-print("     distincion que nos costo la vuelta 28.")
+print("     distincion que nos costo una pasada previa.")
 print("=" * 112)
 print("DONE")

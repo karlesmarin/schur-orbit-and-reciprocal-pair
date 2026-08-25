@@ -1,7 +1,7 @@
 ================================================================================================
 CANDIDATO:  Phi == 0  <=>  falta clase  o  ( |G| = 2  y  tau = C  y  C - S = S )
 ================================================================================================
-  t  r  W    ocupadas   Phi=0   S C-sim    FP    FN   |  seÃ±uelo beta C-sim: FP  FN
+  t  r  W    ocupadas   Phi=0   S C-sim    FP    FN   |  señuelo beta C-sim: FP  FN
    2  1 16        504      16       16     0     0   |                      28   0
    3  1 16       1285       0        0     0     0   |                      27   0
    4  1 16       2160      88       88     0     0   |                      48  72
@@ -27,6 +27,12 @@ CANDIDATO:  Phi == 0  <=>  falta clase  o  ( |G| = 2  y  tau = C  y  C - S = S )
    3  3 16      12660       0        0     0     0   |                      70   0
    5  3 16       7087       0        0     0     0   |                      55   0
 
+  TOTALES de la columna «ocupadas» --- las cifras que el paper cita y que esta tabla
+  tenia fila a fila sin sumar:
+     todas las configuraciones :  190443 formas en 24 configuraciones
+     las de r=1 (Teorema 3.1)  :    9913
+     las de t=2 (Teorema 8.6)  :   29508
+
 ================================================================================================
 C1  r = 1 contra el Teorema 3.1 (PROBADO)
 ================================================================================================
@@ -49,6 +55,6 @@ C2  t = 2 contra el Teorema 8.6 (PROBADO): S C-simetrico tiene que SER autocompl
    desacuerdos: 0   <- 0 dice que en t=2 el candidato ES el teorema
 
 ================================================================================================
-  fallos del candidato: 0      el seÃ±uelo (beta entero) falla en 24 de 24 configuraciones
+  fallos del candidato: 0      el señuelo (beta entero) falla en 24 de 24 configuraciones
   formas minimas:  Q2 tau=C & S-sim FP=0 FN=0   Q3 |G|=2 & S-sim FP=0 FN=0   R1 S-sim & 2 incr = C FP=0 FN=0   R2 S-sim & 1 incr = C FP=0 FN=0
 ================================================================================================

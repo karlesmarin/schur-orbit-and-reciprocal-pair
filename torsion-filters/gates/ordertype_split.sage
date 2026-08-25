@@ -1,13 +1,6 @@
 # -*- coding: utf-8 -*-
 # ¿LA CANCELACION OCURRE DENTRO DE CADA ORDER TYPE O ENTRE ELLOS?   15 de agosto de 2026.
 #
-# DE DONDE SALE.  Su sospecha de la vuelta 18: el emparejamiento, si existe, no vive en Lambda
-# crudo -- lo mato el argumento de paridad con 10 supervivientes -- sino en el ORDER TYPE de
-# Yacobi, la celda que dice que rama toma el min y que rama el max en cada posicion de la cadena.
-# Dentro de un order type fijo los min/max dejan de serlo, cada r_i se vuelve una FORMA LINEAL en
-# (Lambda,mu), y "r_i par" pasa a ser un sistema lineal modulo 2.  Es decir: dentro de una celda hay
-# mucha mas estructura que fuera.
-#
 # LA PREGUNTA, tal como el la formula, y es binaria:
 #
 #     ¿la cancelacion a +-1 ocurre DENTRO de cada order type, o ENTRE order types?

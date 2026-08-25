@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # Newt(N_delta) POR SUMAS DE MINKOWSKI, ENTERO.   16 de agosto de 2026.
 #
-# prop:newtden prueba UN vertice de Newt(N_delta), el dominante.  La vuelta 26 pedia el politopo
-# entero por sumas de Minkowski, y marcaba el teorema como el mas barato de la hoja de ruta.
-#
 # LA CUENTA, antes de programar.  N_delta = +- prod_{i<j} (x_i - x_j) sobre el alfabeto
 # (1, zeta, ..., zeta^{t-1}, z_1^{+-1}, ..., z_r^{+-1}).  Cada factor es un binomio, luego su Newton
 # en z es un SEGMENTO, y por Ostrowski el total es la suma de Minkowski.  Agrupando:

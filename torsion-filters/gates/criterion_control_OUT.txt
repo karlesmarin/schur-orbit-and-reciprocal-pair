@@ -2,7 +2,7 @@ checkpoint: 43010 formas ya calculadas
 ====================================================================================================
 CONTROL INDEPENDIENTE -- Jacobi-Trudi exacto sobre Q.  Sin Laplace, sin estratos, sin voraz.
 ====================================================================================================
-  t  r  W    formas   nulos  criterio    FP*   FN  | K1 r=1 | K2 señuelo FP FN | K3 no-nulos
+  t  r  W    formas   nulos  criterio    FP*   FN  | K1 r=1 | K2 seï¿½uelo FP FN | K3 no-nulos
    2  1 14       329      12        12      0    0  |      0 |             21  0 |         317
    3  1 14       750       0         0      0    0  |      0 |             20  0 |         750
    4  1 14      1084      40        40      0    0  |      0 |             30 32 |        1044
@@ -20,5 +20,5 @@ CONTROL INDEPENDIENTE -- Jacobi-Trudi exacto sobre Q.  Sin Laplace, sin estratos
 
   FP* son refutaciones EXACTAS: un punto racional no nulo prueba que no se anula.
   fallos del criterio: 0      K1 (contra el Teorema 3.1): 0 desacuerdos
-  K2 el señuelo falla en 14 de 14 configuraciones
+  K2 el seï¿½uelo falla en 14 de 14 configuraciones
 VEREDICTO: CONFIRMA

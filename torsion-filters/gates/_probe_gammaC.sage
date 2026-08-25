@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# LAS DOS PROPUESTAS DE LA VUELTA 29, verificadas antes de escribirlas.   16 de agosto de 2026.
 #
 # (A)  EL CARACTER CUADRATICO.  Una ruta para cerrar gamma_t es el determinante seno
 #

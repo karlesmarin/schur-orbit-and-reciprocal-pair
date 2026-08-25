@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # g_com EN EL LENGUAJE DEL BRANCHING.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Propuesta 4 de su reseña (vuelta 14), la unica de su hoja de ruta sin empezar: el
-# Paper II no menciona g_com ni una vez, y para una continuacion eso es demasiado corte.  Pide
-# traducir la Conjetura 8.43 del Paper I a un enunciado sobre los B_{eta,mu} tau_t(eta), y mostrar
-# QUE tendria que ser cierto de ellos para que 8.43 siguiera.
-#
 # LA TRADUCCION, escrita antes de medir.
 #
 #   Paper I:   bajo ocupacion,   Phi_{t,r} = 0  =>  C - g_com = g_com.          (8.43)
@@ -47,7 +42,7 @@ from peel_zero import phi_zero
 CFG = [(4, 2, 13), (6, 2, 13), (4, 2, 15)]
 
 print("=" * 118)
-print("g_com EN EL LENGUAJE DEL BRANCHING   --   la propuesta 4 de su reseña")
+print("g_com EN EL LENGUAJE DEL BRANCHING   --   la propuesta 4 de la reseña")
 print("=" * 118)
 
 RES = []

@@ -32,7 +32,7 @@ N1  LA CAUSA, con contrafactual -- poblacion OBJETIVO entera, no solo supervivie
 N2  EL MECANISMO -- 'la banda factoriza como espectadores x Phi'' : REFUTADO
 ====================================================================================================================
 
-     t  r | casos con Phi' != 0 | (|sop banda|, |sop Phi'|) | mismo tamaño | coefs iguales
+     t  r | casos con Phi' != 0 | (|sop banda|, |sop Phi'|) | mismo tamaï¿½o | coefs iguales
   --------------------------------------------------------------------------------------------------------
      6  3 |                 142 | [(1350, 144), (1350, 144)] | 0 de 142     | 0 de 142
      8  3 |                  64 | [(1392, 144), (1392, 144)] | 0 de 64      | 0 de 64
@@ -44,7 +44,7 @@ N3  VEREDICTO
      N1  banda +2s cancela  <=>  Phi'(interior) == 0 : 0 desacuerdos, contrafactual con 206 casos
      N2  la banda es Phi' trasladado                 : 0 de 206  -> REFUTADO
 
-     LO QUE QUEDA: dos polinomios de tamaños INCOMPARABLES -- ~1350 monomios contra 144 -- que
+     LO QUE QUEDA: dos polinomios de tamaï¿½os INCOMPARABLES -- ~1350 monomios contra 144 -- que
      se anulan EXACTAMENTE A LA VEZ.  No es una factorizacion.  El mecanismo esta ABIERTO, y
      es mejor pregunta que la que habia: el eslabon que sostiene todo el dia tiene ahora una
      causa medida con contrafactual, y una explicacion propuesta y MUERTA.

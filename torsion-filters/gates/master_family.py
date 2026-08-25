@@ -2,10 +2,6 @@
 # LA FAMILIA MAESTRA: ¿es CANCEL eventualmente CONSTANTE o solo eventualmente PERIODICA?
 # 15 de agosto de 2026.
 #
-# LA CORRECCION QUE ORIGINA ESTE GUION, y no es nuestra.  Habiamos medido la saturacion con pasos
-# s=26 y s=28 en t=4 y concluido "satura en 4 en los dos regimenes".  La consulta externa observa que
-# esas NO son dos familias distintas: son dos MUESTREOS de la misma semirrecta beta(n) = beta0 + n*v.
-#
 #     28j = 0 (mod 4)        -> solo ve el estado residual rho = 0
 #     26j = 0,2,0,2 (mod 4)  -> ve rho = 0 y rho = 2
 #

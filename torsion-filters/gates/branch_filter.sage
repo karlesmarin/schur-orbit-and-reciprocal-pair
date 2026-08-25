@@ -2,8 +2,6 @@
 # LA RUTA DEL BRANCHING FILTRADO.   Phi_{t,r} = sum_mu ( sum_eta B_{eta,mu} tau_t(eta) ) sp_mu.
 # 15 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 12, P12.  El propone factorizar en dos pasos:
-#
 #   (1)  Psi_R := Phi_{2,R}  =  sum_{eta,mu}  B_{eta,mu} sp_eta(y) sp_mu(z)     [branching Sp_{2m} x Sp_{2r}]
 #   (2)  Phi_{t,r} = Psi_R |_{y = (xi,...,xi^m)}  =  sum_mu ( sum_eta B_{eta,mu} tau_t(eta) ) sp_mu(z)
 #   (3)  A_mu = sum_eta B_{eta,mu} tau_t(eta),   tau_t(eta) en {0,+-1}  por (T), ya medida en torsion_filter.
@@ -11,19 +9,6 @@
 # Dado (1), el paso (2) es formalmente una tautologia -- PERO (1) no lo es, y la cadena entera
 # tampoco: hay que ver que nuestro Phi_{2,R} SE DEJA escribir asi con B enteros, y que el resultado
 # coincide monomio a monomio con el Phi_{t,r} que calculamos por otro camino.  Eso es lo que se mide.
-#
-# Y de paso sale la columna que el pide para P13:  que eta acompaña al mu maximal, y que PARED lo mata.
-#
-# CONTROLES
-#   C0  FATAL.  Reconstruccion del branching: sum B_{eta,mu} sp_eta sp_mu tiene que devolver Psi_R
-#       EXACTO.  Resto no nulo => la descomposicion no existe o el pelado no termino.
-#   C1  FATAL.  B entero.  Si sale un B racional, (1) es falsa tal como el la escribe.
-#   C2  FATAL.  La ruta de EL contra el Phi_{t,r} directo (bialternante en t), monomio a monomio.
-#   C3  SEÑUELO.  La misma ruta con tau' = "todo eta sobrevive con +1" (o sea, ignorando el filtro).
-#       Tiene que DISCREPAR de Phi_{t,r}.  Si coincidiera, el filtro no estaria haciendo nada y C2 no
-#       mediria nada.
-#   C4  SEÑUELO.  La ruta con tau'' = tau del t EQUIVOCADO (t+2 en vez de t).  Tiene que discrepar.
-#   C5  no vacuidad: n impreso siempre, y las formas que se anulan aparte.
 #
 # Authors: Carles Marin, Claude (AI assistant).
 # Run:  MSYS_NO_PATHCONV=1 docker run --rm -v "E:/proyectos/Curiosity/research/orbit-pair/gates:/work" \
@@ -211,7 +196,7 @@ for t in (4, 6):
 # ================================================================== P13 =========================
 print("")
 print("=" * 118)
-print("P13 -- LA COLUMNA QUE EL PIDE:  que eta acompaña al mu maximal, y que pared mata a los de arriba")
+print("P13 -- LA COLUMNA PEDIDA:  que eta acompaña al mu maximal, y que pared mata a los de arriba")
 print("=" * 118)
 print("")
 print("  t | beta                            | mu_max     | A    | eta que sobreviven en mu_max        | eta MAS ALTO del branching / su pared")

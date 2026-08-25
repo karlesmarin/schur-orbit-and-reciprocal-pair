@@ -1,0 +1,46 @@
+====================================================================================================
+LOS ELEMENTOS REGULARES NO PRINCIPALES, VERIFICADOS UNO A UNO
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+m = 1   SL(2)=Sp(2)   h = 2   t = h+2 = 4   xi = e^{2 pi i / 4}
+----------------------------------------------------------------------------------------------------
+  x_1 = diag( xi^1 ,  xi^{-1} )
+  E0  autovalores en pares inversos : SI
+  E1  orden del elemento : 4   = t = h+2  OK
+  E2  REGULAR: alpha(x) != 1 en las 2 raices de C_1 : SIN EXCEPCION
+  E3  alpha_i(x) sobre las raices simples, como exponente de xi : [2]
+      --> m=1: una sola raiz simple 2e_1, con alpha(x)=xi^2 y no xi: NO ES PRINCIPAL
+  E4  el PRINCIPAL de orden t pediria exponentes ['1/2']  --> SEMIENTEROS: no esta en este toro
+
+----------------------------------------------------------------------------------------------------
+m = 2   Sp(4)   h = 4   t = h+2 = 6   xi = e^{2 pi i / 6}
+----------------------------------------------------------------------------------------------------
+  x_2 = diag( xi^1, xi^2 ,  xi^{-2}, xi^{-1} )
+  E0  autovalores en pares inversos : SI
+  E1  orden del elemento : 6   = t = h+2  OK
+  E2  REGULAR: alpha(x) != 1 en las 8 raices de C_2 : SIN EXCEPCION
+  E3  alpha_i(x) sobre las raices simples, como exponente de xi : [5, 4]
+      --> NO ES PRINCIPAL: las 1 primeras dan xi^{-1} y la ultima xi^{-2}
+  E4  el PRINCIPAL de orden t pediria exponentes ['3/2', '1/2']  --> SEMIENTEROS: no esta en este toro
+
+----------------------------------------------------------------------------------------------------
+m = 3   Sp(6)   h = 6   t = h+2 = 8   xi = e^{2 pi i / 8}
+----------------------------------------------------------------------------------------------------
+  x_3 = diag( xi^1, xi^2, xi^3 ,  xi^{-3}, xi^{-2}, xi^{-1} )
+  E0  autovalores en pares inversos : SI
+  E1  orden del elemento : 8   = t = h+2  OK
+  E2  REGULAR: alpha(x) != 1 en las 18 raices de C_3 : SIN EXCEPCION
+  E3  alpha_i(x) sobre las raices simples, como exponente de xi : [7, 7, 6]
+      --> NO ES PRINCIPAL: las 2 primeras dan xi^{-1} y la ultima xi^{-2}
+  E4  el PRINCIPAL de orden t pediria exponentes ['5/2', '3/2', '1/2']  --> SEMIENTEROS: no esta en este toro
+
+====================================================================================================
+E5  VALORES DEL CARACTER  sp_lambda(x_m)  --- bialternante, aritmetica ciclotomica exacta
+====================================================================================================
+  m=1  t=4  5 particiones lambda_1<=4 : reparto de sp_lambda(x) {-1: 1, 0: 2, 1: 2}   todos en {0,+-1}
+  m=2  t=6  15 particiones lambda_1<=4 : reparto de sp_lambda(x) {-1: 2, 0: 11, 1: 2}   todos en {0,+-1}
+  m=3  t=8  35 particiones lambda_1<=4 : reparto de sp_lambda(x) {-1: 4, 0: 27, 1: 4}   todos en {0,+-1}
+
+====================================================================================================
+DONE

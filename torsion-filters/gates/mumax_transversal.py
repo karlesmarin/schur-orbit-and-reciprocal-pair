@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 # .ES EL TRANSVERSAL DE mu_max EL DE COORDENADAS MAS PEQUENAS?   16 de agosto de 2026.
 #
-# DE DONDE SALE.  prop:transversal deja el numerador nu indexado por transversales S de las clases
-# plegadas de  v = 2 Lambda + 2 rho_{B_{R'}},  y el indice alternante del lado libre es  v|_{S^c}.
-# Como v es estrictamente decreciente, "coordenadas mas pequenas" = "indices mas grandes".  Y
-# elegir en cada clase el indice MAS GRANDE minimiza v|_S coordenada a coordenada, luego deja en el
-# complemento los valores mas grandes.  La pregunta es si ESE es el que da el peso maximo.
-#
 # Es la pregunta que cruza prop:transversal con (L2) -- "en mu_max hay exactamente un Lambda con
 # c != 0" -- porque si el maximo lo da un transversal CANONICO, el peso maximo se lee de Lambda sin
 # recorrer W^1.

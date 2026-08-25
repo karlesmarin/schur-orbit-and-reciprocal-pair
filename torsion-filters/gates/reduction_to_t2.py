@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA REDUCCION A t=2, Y DOS CONTROLES QUE MATAN DOS IDEAS.  15 de agosto de 2026.
 #
-# ESTO NO SALE DE LA CONSULTA EXTERNA.  Sale de preguntarle al objeto qué es, hasta la raiz.
-#
 # LA RAIZ.  El alfabeto es mu_t = {1, zeta, ..., zeta^{t-1}}.  El paper ya dice (intro, "two
 # structural reasons") que ese alfabeto es CERRADO BAJO x -> 1/x.  Pero entonces se parte solo:
 #

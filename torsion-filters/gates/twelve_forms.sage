@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LAS DOCE.  El residuo del problema abierto, y es pequeño.   15 de agosto de 2026.
 #
-# DE DONDE SALE, Y POR QUE SON DOCE.  A W=13, t=4, r=2 hay 1716 formas.  De ellas:
-#
 #     275  NO ocupadas   -> Phi = 0 SIEMPRE, por el criterio clasico de t-core (type-A de julio:
 #                           alguna clase residual mod t vacia => bloque no cuadrado => 0)
 #    1441  ocupadas      -> de estas, 21 se anulan igual

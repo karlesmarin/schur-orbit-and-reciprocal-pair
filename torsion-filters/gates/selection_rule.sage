@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # UNA REGLA DE SELECCION QUE SALE DE CRUZAR DOS FORMULAS.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  De cruzar formulas: estas dos nunca se habian compuesto:
-#
 #   (a)  el lado ORBITA:   eps_{lambda,nu} = s_{lambda/nu}(mu_t) != 0  exige que lambda/nu se pueda
 #        teselar por t-ribbons, luego  t | |lambda| - |nu|.
 #   (b)  el lado LIBRE:    b_{nu,mu} != 0  (la restriccion GL_2r -> Sp_2r de Littlewood) exige que

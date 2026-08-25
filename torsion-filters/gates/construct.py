@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL CONSTRUCTOR: supervivientes de profundidad A LA CARTA, sin barrer.  13 de agosto de 2026.
 #
-# DE DONDE SALE.  La recursion medida hoy: quitando a un superviviente los DOS EXTREMOS DE S quedan
-# t + 2(r-1) elementos -- una configuracion del mismo t un rango mas abajo -- y esa configuracion es
-# ANULANTE: [Phi']_top = 0 en 96 de 96, y Phi' == 0 en 82 de 96 (las 14 restantes son la poblacion
-# degenerada sat = 2).  O sea:
-#
 #     un superviviente profundo = una configuracion ANULANTE de rango r-1 + dos extremos que le
 #     rompen la concentricidad
 #

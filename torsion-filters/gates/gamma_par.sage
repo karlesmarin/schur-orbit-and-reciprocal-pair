@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# .SE CIERRA gamma_t TAMBIEN EN LA RAMA PAR?   16 de agosto de 2026.  (vuelta 30, punto 7)
 #
 # cor:galoisquad cierra gamma_t para t impar con  D_t = det(zeta^{ij} - zeta^{-ij})_{1<=i,j<=n},
 # n = (t-1)/2,  via  D_t^2 = (-t)^n.  Se observa que el mismo determinante parece dar

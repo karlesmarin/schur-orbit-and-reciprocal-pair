@@ -53,6 +53,6 @@ EL NUMERADOR GKRS COMO RECUENTO DE TRANSVERSALES
      con signo de transversales de una particion de R' residuos en m'+1 clases.
    * y G4 da un criterio de anulacion que no necesita calcular nada: basta una clase vacia.
    * si G2 sale y G3 no, la lectura acierta el SOPORTE y falla el signo -- que es justo la
-     distincion que nos costo la vuelta 28.
+     distincion que nos costo una pasada previa.
 ================================================================================================================
 DONE

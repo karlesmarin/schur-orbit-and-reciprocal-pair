@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # DENTRO DE UN SOLO CORE:  6 se anulan y 6 no.  ¿QUE LAS SEPARA?   15 de agosto de 2026.
 #
-# DE DONDE SALE.  core_conditional.sage:  a t=6, r=2, W=13 hay 36 t-cores y solo TRES tienen alguna
-# anulacion.  El mejor es  core = (1,1,1):  12 formas ocupadas,  6 nulas y 6 no.
-#
 # POR QUE ESTE ES EL EXPERIMENTO.  core y quotient determinan lambda entre los dos.  Fijado el core,
 # lo unico que queda variar es el QUOTIENT.  Y 6 contra 6, mismo core, misma paridad, es el tamaño en
 # el que la diferencia esta OBLIGADA a verse -- o a no existir, que tambien es un resultado.

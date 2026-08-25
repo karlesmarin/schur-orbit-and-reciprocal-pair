@@ -12,7 +12,7 @@ C0 + N1  LA FORMULA v(T): Newt(A(T)) = orbit polytope de tipo B/C, y vertice = U
     C0 PASA -- (1) y (2) son ciertas en lo medido
 
 ============================================================================================================
-C1  ¿QUE MATROIDE HAY AQUI DEBAJO?  -- clases disjuntas => matroide de PARTICION
+C1  ï¿½QUE MATROIDE HAY AQUI DEBAJO?  -- clases disjuntas => matroide de PARTICION
 ============================================================================================================
 
     beta                          | clases        | prod |cl_k| | #transversales | disjuntas
@@ -48,7 +48,7 @@ N2 + N3  EL EXPERIMENTO -- v maximal en dominancia y su multiplicidad con signo
   Esos son los fallos, y van en N4.
 
 ============================================================================================================
-N4  LOS FALLOS -- Phi != 0 y m(v) = 0 en TODO maximal.  ¿Hasta donde hay que bajar?
+N4  LOS FALLOS -- Phi != 0 y m(v) = 0 en TODO maximal.  ï¿½Hasta donde hay que bajar?
 ============================================================================================================
 
   Aqui esta el contenido: el certificado es SANO por definicion, y la pregunta es si es

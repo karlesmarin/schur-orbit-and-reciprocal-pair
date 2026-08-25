@@ -1,0 +1,19 @@
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: kmax = 48
+sage: sage: parent de las letras: Univariate Laurent Polynomial Ring in z over Cyclotomic Field of order 6 and degree 2
+sage: sage: sage: sage: ....: ....: precision de f : +Infinity
+sage: sage: len(hs) = 49
+sage: hs[0] = 1
+sage: hs[1] = z^-1 + z
+sage: hs[13] = z^-13 + z^-11 + z^-10 + z^-9 + z^-8 + 2*z^-7 + z^-6 + 2*z^-5 + 2*z^-4 + 2*z^-3 + 2*z^-2 + 3*z^-1 + 2 + 3*z + 2*z^2 + 2*z^3 + 2*z^4 + 2*z^5 + z^6 + 2*z^7 + z^8 + z^9 + z^10 + z^11 + z^13
+sage: hs[48] = z^-48 + z^-46 + z^-45 + z^-44 + z^-43 + 2*z^-42 + z^-41 + 2*z^-40 + 2*z^-39 + 2*z^-38 + 2*z^-37 + 3*z^-36 + 2*z^-35 + 3*z^-34 + 3*z^-33 + 3*z^-32 + 3*z^-31 + 4*z^-30 + 3*z^-29 + 4*z^-28 + 4*z^-27 + 4*z^-26 + 4*z^-25 + 5*z^-24 + 4*z^-23 + 5*z^-22 + 5*z^-21 + 5*z^-20 + 5*z^-19 + 6*z^-18 + 5*z^-17 + 6*z^-16 + 6*z^-15 + 6*z^-14 + 6*z^-13 + 7*z^-12 + 6*z^-11 + 7*z^-10 + 7*z^-9 + 7*z^-8 + 7*z^-7 + 8*z^-6 + 7*z^-5 + 8*z^-4 + 8*z^-3 + 8*z^-2 + 8*z^-1 + 9 + 8*z + 8*z^2 + 8*z^3 + 8*z^4 + 7*z^5 + 8*z^6 + 7*z^7 + 7*z^8 + 7*z^9 + 7*z^10 + 6*z^11 + 7*z^12 + 6*z^13 + 6*z^14 + 6*z^15 + 6*z^16 + 5*z^17 + 6*z^18 + 5*z^19 + 5*z^20 + 5*z^21 + 5*z^22 + 4*z^23 + 5*z^24 + 4*z^25 + 4*z^26 + 4*z^27 + 4*z^28 + 3*z^29 + 4*z^30 + 3*z^31 + 3*z^32 + 3*z^33 + 3*z^34 + 2*z^35 + 3*z^36 + 2*z^37 + 2*z^38 + 2*z^39 + 2*z^40 + z^41 + 2*z^42 + z^43 + z^44 + z^45 + z^46 + z^48
+sage: sage: posiciones None en hs: [] total 0
+sage: sage: sage: sage: sage: sage: 
+sage: lambda=(1,0): indices que pide univ_sp:
+sage: ....: ....: ....:    x = hh(1),  y = hh(1)
+
+sage: DONE
+sage: 

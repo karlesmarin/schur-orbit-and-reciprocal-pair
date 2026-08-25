@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-# SU CONTRAEJEMPLO A "e <= 4", CON NUESTRA PROPIA ANATOMIA.   16 de agosto de 2026.
-#
-# El dice: t=6, r=3, beta = (12,11,10,9,8,7,5,4,3,2,1,0) tiene lambda = (1^6), e = 6, |g_com| = 4 y
-# Phi = 0.  Se comprueba con anatomia() y phi_zero(), que son NUESTRAS y no saben de esta discusion.
+# EL CONTRAEJEMPLO A "e <= 4", CON NUESTRA PROPIA ANATOMIA.   16 de agosto de 2026.
 #
 # Y se comprueba tambien el ALCANCE de nuestro hallazgo de ayer: si |g_com| = e - 2 y e <= 2r,
 # entonces con r = 2 forzosamente |g_com| <= 2, o sea nuestro "g_com es un par" era un artefacto del
@@ -17,7 +14,7 @@ from peel_gcom import anatomia, betas
 from peel_zero import phi_zero
 
 print("=" * 100)
-print("SU CONTRAEJEMPLO:  t=6, r=3, beta = (12,11,10,9,8,7,5,4,3,2,1,0)")
+print("EL CONTRAEJEMPLO:  t=6, r=3, beta = (12,11,10,9,8,7,5,4,3,2,1,0)")
 print("=" * 100)
 beta = (12, 11, 10, 9, 8, 7, 5, 4, 3, 2, 1, 0)
 t, r = 6, 3
@@ -63,6 +60,6 @@ for (t, r, W) in [(6, 2, 13), (6, 3, 13), (4, 3, 13)]:
           % (t, r, W, ceros, dict(sorted(tam.items()))))
 print("")
 print("  LECTURA: si con r=3 aparece |g_com| > 2, nuestro 'g_com es un par' era del rango y no del")
-print("  fenomeno, exactamente como el dice.")
+print("  fenomeno, exactamente como se predijo.")
 print("=" * 100)
 print("DONE")

@@ -20,7 +20,7 @@ N2  CUANTO DEL PROBLEMA ABIERTO ES 'YA ESTABA EN t=2' Y CUANTO ES TORSION
 
    La columna '23=0 & 42!=0' es el CONTRAEJEMPLO a la prediccion.  En 0 significa que la
    reduccion es cierta.  Y la ultima columna es lo que dice de verdad: la reduccion explica
-   una fraccion PEQUEÑA de los ceros.  Todo lo demas lo crea la especializacion.
+   una fraccion PEQUEï¿½A de los ceros.  Todo lo demas lo crea la especializacion.
 
 ========================================================================================================
 C1  SU CADENA omega_r -- se mide el vector Delta entero, no su norma

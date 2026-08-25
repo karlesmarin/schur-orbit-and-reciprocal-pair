@@ -70,6 +70,8 @@ def _solo_matematica(s):
 
 
 YA_TRADUCIDO = set(FIGLANG.values())
+_NUM = re.compile(r"\d+\.\d+")
+_YA_SIN_NUM = {_NUM.sub("#", v) for v in YA_TRADUCIDO}
 
 
 def tr(s):
@@ -78,9 +80,28 @@ def tr(s):
     VISTAS.append(s)
     if s in FIGLANG:
         return FIGLANG[s]
-    if s in YA_TRADUCIDO:
-        # algunos guiones releen un rotulo y lo vuelven a poner: ya esta en castellano
+    if s in YA_TRADUCIDO or _NUM.sub("#", s) in _YA_SIN_NUM:
+        # algunos guiones releen un rotulo y lo vuelven a poner: ya esta en castellano.  El segundo
+        # test es el mismo caso de abajo visto al reves: la traduccion con el numero NUEVO no esta
+        # en YA_TRADUCIDO, que guarda la del numero viejo, y se reportaba como sin traducir.
         return s
+    # Un rotulo que lleva DENTRO un numero de enunciado --- `fig_map` los lee del .aux --- cambia de
+    # cadena cada vez que la numeracion se mueve, y entonces deja de casar con su clave y sale en
+    # ingles sin que nadie lo note.  Paso el 20 de agosto de 2026: al insertar una seccion, «Problem
+    # 10.5» paso a «Problem 11.6» y la traduccion se descolgo.  Se busca la clave ignorando los
+    # digitos, y se reinyecta el numero real en la traduccion.
+    hueco = _NUM.sub("#", s)
+    for k, v in FIGLANG.items():
+        if _NUM.sub("#", k) == hueco and k != s:
+            nums = _NUM.findall(s)
+            out, i = v, 0
+
+            def _pon(m, _n=nums):
+                nonlocal i
+                r = _n[i] if i < len(_n) else m.group(0)
+                i += 1
+                return r
+            return _NUM.sub(_pon, out)
     if not _solo_matematica(s):
         SIN_TRADUCIR.add(s)
     return s

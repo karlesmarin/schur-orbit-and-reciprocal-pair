@@ -11,7 +11,7 @@ EL PELADO CONTRA g_com -- lo que aporta cada capa, medido sobre las formas que S
   ceros: 131   M1 C'=C: 61   M3 g_com cubierto en un paso: 24   M4 iterando cubre S: 24
 ====================================================================================================
 ====================================================================================================
-SU CONTRAEJEMPLO:  t=6, r=3, beta = (12,11,10,9,8,7,5,4,3,2,1,0)
+EL CONTRAEJEMPLO:  t=6, r=3, beta = (12,11,10,9,8,7,5,4,3,2,1,0)
 ====================================================================================================
   N = 12,  lambda = (1, 1, 1, 1, 1, 1)
   clases mod 6: {0: 2, 1: 2, 2: 2, 3: 2, 4: 2, 5: 2}
@@ -31,6 +31,6 @@ EL ALCANCE DE NUESTRO HALLAZGO: |g_com| sobre los ceros, r = 2 contra r = 3
   t=4 r=3 W=13 :     5 ceros | reparto de |g_com| entre los de |G|=2 : {2: 5}
 
   LECTURA: si con r=3 aparece |g_com| > 2, nuestro 'g_com es un par' era del rango y no del
-  fenomeno, exactamente como el dice.
+  fenomeno, exactamente como se predijo.
 ====================================================================================================
 DONE

@@ -2,11 +2,6 @@
 # ¿ES EL t-CORE EL DISCRIMINANTE?   Condicionar, que es lo que convierte una señal en criterio.
 # 15 de agosto de 2026.
 #
-# DE DONDE SALE.  twelve_forms.sage encontro que las anulaciones residuales se concentran en TRES
-# t-cores por configuracion (t=4: (5,2,1), (), (6,3,2,1);  t=6: (1,1,1), (2,1), (2,2,2,1)).
-# Eso NO es todavia un criterio: falta el reciproco.  La pregunta correcta no es "que core tienen
-# las nulas" sino "de las formas con ESE core, cuantas se anulan".
-#
 #   * si P(nula | core = c) es 1 para esos c y 0 para el resto  -> EL CORE ES EL CRITERIO.
 #   * si es baja, el core solo es una condicion necesaria mas, como la paridad, y se dice.
 #

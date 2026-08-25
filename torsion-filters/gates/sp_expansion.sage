@@ -1,14 +1,7 @@
 # -*- coding: utf-8 -*-
 # LA EXPANSION SIMPLECTICA  Phi_{t,r} = sum_mu A_mu · sp_mu.  15 de agosto de 2026.
 #
-# DE DONDE SALE.  La consulta externa, vuelta 10, reformula el problema: el v(T) maximal no es el
-# objeto intrinseco -- es un candidato de NUESTRA presentacion de Laplace, y se puede cancelar
-# entero.  El objeto intrinseco seria
-#
 #     mu_max  =  el peso dominante mas alto con  A_mu != 0     en   Phi_{t,r} = sum_mu A_mu sp_mu
-#
-# y su pregunta: ¿hay UN solo mu maximal?  Si lo hay, Newt(Phi) = conv(W(C_r) mu_max) y el rombo que
-# medimos es P_{C_2}(10,0).  Y su test 4: atacar UN coeficiente A_mu en vez de todo Phi.
 #
 # POR QUE EN SAGE, Y POR QUE POR EL BIALTERNANTE.  Nuestra maquinaria de Python calcula Phi por la
 # expansion de Laplace sobre las t filas congeladas.  Si escribiera aqui lo mismo, no seria un
@@ -136,7 +129,7 @@ if malo:
 # ===================================================================== N1 ========================
 print("")
 print("=" * 100)
-print("N1  LA EXPANSION, Y SU PREGUNTA: ¿hay UN SOLO mu maximal?")
+print("N1  LA EXPANSION, Y LA PREGUNTA: ¿hay UN SOLO mu maximal?")
 print("=" * 100)
 print("")
 print("   beta                        | Phi==0 | #mu | mu maximales           | A(mu_max) | C1 resto")

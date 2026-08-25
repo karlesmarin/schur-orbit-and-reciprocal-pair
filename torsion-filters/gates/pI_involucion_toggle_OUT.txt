@@ -1,0 +1,111 @@
+====================================================================================================
+EL EMPAREJAMIENTO AL NIVEL (mu,nu) DENTRO DE CADA EXPONENTE --- .cuantos puntos fijos MINIMOS?
+====================================================================================================
+
+  t=2  (329 lambda, lambda_1 <= 7, hasta 4 filas)
+    G0  CALIBRACION identidad refinada contra el valor directo : 329 de 329   PASA
+    G1  F(lambda) == ||Phi||_1, el MINIMO alcanzable (verificado) : 329 de 329   PASA
+        --> TODA involucion que cumpla (2) y (3) deja AL MENOS ||Phi||_1 puntos fijos.
+            (43_IN: es una DESIGUALDAD; la igualdad exige cancelacion maximal en cada
+             weight space.  La conclusion es la misma y el argumento mas limpio.)
+            Su condicion (4) es por tanto SOLO sobre CUALES sobreviven.
+    G4  la norma que el lado de Laplace tiene que reproducir
+        histograma de ||Phi||_1 : {0: 40, 1: 7, 2: 38, 3: 16, 4: 18, 5: 6, 6: 54, 7: 2, 8: 20, 9: 12, 12: 48, 15: 8, 16: 22, 20: 14, 24: 12, 27: 2, 30: 10}
+        maximo : 30     media : 8.54
+        ||Phi||_1 por |lambda| (min..max) :
+           |lambda| =  1 : n=   1   F de 2 a 2
+           |lambda| =  2 : n=   2   F de 0 a 4
+           |lambda| =  3 : n=   3   F de 2 a 6
+           |lambda| =  4 : n=   5   F de 1 a 9
+           |lambda| =  5 : n=   6   F de 2 a 12
+           |lambda| =  6 : n=   9   F de 0 a 16
+           |lambda| =  7 : n=  11   F de 2 a 20
+           |lambda| =  8 : n=  14   F de 0 a 24
+           |lambda| =  9 : n=  16   F de 2 a 30
+           |lambda| = 10 : n=  19   F de 0 a 24
+           |lambda| = 11 : n=  20   F de 2 a 30
+           |lambda| = 12 : n=  23   F de 0 a 27
+           |lambda| = 13 : n=  23   F de 2 a 30
+           |lambda| = 14 : n=  24   F de 0 a 24
+           |lambda| = 15 : n=  23   F de 2 a 30
+           |lambda| = 16 : n=  23   F de 0 a 27
+           |lambda| = 17 : n=  20   F de 2 a 30
+           |lambda| = 18 : n=  19   F de 0 a 24
+           |lambda| = 19 : n=  16   F de 2 a 30
+           |lambda| = 20 : n=  14   F de 0 a 24
+           |lambda| = 21 : n=  11   F de 2 a 20
+           |lambda| = 22 : n=   9   F de 0 a 16
+           |lambda| = 23 : n=   6   F de 2 a 12
+           |lambda| = 24 : n=   5   F de 1 a 9
+           |lambda| = 25 : n=   3   F de 2 a 6
+           |lambda| = 26 : n=   2   F de 0 a 4
+           |lambda| = 27 : n=   1   F de 2 a 2
+           |lambda| = 28 : n=   1   F de 1 a 1
+    G2  compresion : 12231 terminos (mu,nu) en total --> 2809 puntos fijos  (23.0%)
+    G3  lambda con algun coeficiente de Phi distinto de +-1 : 220 de 329
+        F = numero de monomios de Phi : 109 de 329
+    (el senuelo D1 que habia escrito --- «sin signos F seria |J|» --- NO PUEDE FALLAR
+     y se ha retirado, no maquillado.  Ver la nota de correccion en la cabecera.)
+    D2  SENUELO DE ALCANCE (emparejar sin respetar el exponente):
+        da MENOS puntos fijos en 0 de 329 lambda ; igual en 329
+        --> *** la condicion (2) no aporta nada ***
+    peores casos (lambda, |J|, F) : [((4, 2), 26, 12), ((4, 2, 2), 20, 12), ((4, 4, 2), 26, 12), ((5,), 12, 12)]
+
+  t=3  (791 lambda, lambda_1 <= 7, hasta 5 filas)
+    G0  CALIBRACION identidad refinada contra el valor directo : 791 de 791   PASA
+    G1  F(lambda) == ||Phi||_1, el MINIMO alcanzable (verificado) : 791 de 791   PASA
+        --> TODA involucion que cumpla (2) y (3) deja AL MENOS ||Phi||_1 puntos fijos.
+            (43_IN: es una DESIGUALDAD; la igualdad exige cancelacion maximal en cada
+             weight space.  La conclusion es la misma y el argumento mas limpio.)
+            Su condicion (4) es por tanto SOLO sobre CUALES sobreviven.
+    G4  la norma que el lado de Laplace tiene que reproducir
+        histograma de ||Phi||_1 : {0: 168, 1: 31, 2: 28, 3: 168, 4: 40, 5: 56, 6: 24, 7: 40, 8: 20, 9: 128, 11: 16, 12: 16, 13: 8, 15: 24, 16: 8, 18: 4, 20: 4, 21: 8}
+        maximo : 21     media : 5.12
+        ||Phi||_1 por |lambda| (min..max) :
+           |lambda| =  1 : n=   1   F de 2 a 2
+           |lambda| =  2 : n=   2   F de 1 a 3
+           |lambda| =  3 : n=   3   F de 1 a 5
+           |lambda| =  4 : n=   5   F de 0 a 7
+           |lambda| =  5 : n=   7   F de 0 a 9
+           |lambda| =  6 : n=  10   F de 0 a 12
+           |lambda| =  7 : n=  13   F de 0 a 15
+           |lambda| =  8 : n=  17   F de 0 a 12
+           |lambda| =  9 : n=  21   F de 0 a 15
+           |lambda| = 10 : n=  26   F de 0 a 21
+           |lambda| = 11 : n=  30   F de 0 a 15
+           |lambda| = 12 : n=  35   F de 0 a 16
+           |lambda| = 13 : n=  39   F de 0 a 21
+           |lambda| = 14 : n=  43   F de 0 a 16
+           |lambda| = 15 : n=  46   F de 0 a 16
+           |lambda| = 16 : n=  48   F de 0 a 21
+           |lambda| = 17 : n=  49   F de 0 a 16
+           |lambda| = 18 : n=  49   F de 0 a 16
+           |lambda| = 19 : n=  48   F de 0 a 21
+           |lambda| = 20 : n=  46   F de 0 a 16
+           |lambda| = 21 : n=  43   F de 0 a 16
+           |lambda| = 22 : n=  39   F de 0 a 21
+           |lambda| = 23 : n=  35   F de 0 a 16
+           |lambda| = 24 : n=  30   F de 0 a 15
+           |lambda| = 25 : n=  26   F de 0 a 21
+           |lambda| = 26 : n=  21   F de 0 a 15
+           |lambda| = 27 : n=  17   F de 0 a 12
+           |lambda| = 28 : n=  13   F de 0 a 15
+           |lambda| = 29 : n=  10   F de 0 a 12
+           |lambda| = 30 : n=   7   F de 0 a 9
+           |lambda| = 31 : n=   5   F de 0 a 7
+           |lambda| = 32 : n=   3   F de 1 a 5
+           |lambda| = 33 : n=   2   F de 1 a 3
+           |lambda| = 34 : n=   1   F de 2 a 2
+           |lambda| = 35 : n=   1   F de 1 a 1
+    G2  compresion : 33903 terminos (mu,nu) en total --> 4047 puntos fijos  (11.9%)
+    G3  lambda con algun coeficiente de Phi distinto de +-1 : 108 de 791
+        F = numero de monomios de Phi : 683 de 791
+    (el senuelo D1 que habia escrito --- «sin signos F seria |J|» --- NO PUEDE FALLAR
+     y se ha retirado, no maquillado.  Ver la nota de correccion en la cabecera.)
+    D2  SENUELO DE ALCANCE (emparejar sin respetar el exponente):
+        da MENOS puntos fijos en 72 de 791 lambda ; igual en 719
+        --> la condicion (2) HACE TRABAJO
+    peores casos (lambda, |J|, F) : [((6,), 12, 12), ((6, 1, 1, 1), 25, 11), ((6, 2, 1), 54, 12), ((6, 2, 2, 2), 31, 11)]
+
+====================================================================================================
+DONE

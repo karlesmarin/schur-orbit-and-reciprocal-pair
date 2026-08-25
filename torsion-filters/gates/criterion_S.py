@@ -106,6 +106,13 @@ def run():
     global MIN, INCR
     MIN = {}
     INCR = {}
+    # Los TOTALES, anadidos el 19 de agosto de 2026.  El Paper I cita «190 443 formas en veinticuatro
+    # configuraciones», y los subtotales «9 913» (r=1, contra el Teorema 3.1) y «29 508» (t=2, contra
+    # el 8.6) --- y esta tabla los tenia fila a fila SIN sumarlos, de modo que las tres cifras mas
+    # visibles de la seccion de verificacion no eran localizables en ninguna corrida guardada.  Lo
+    # cazo paper/_hoja_de_salida.py; ver paper/HOJA_DE_SALIDA_HALLAZGOS.md.
+    tot_n = tot_r1 = tot_t2 = 0
+    tot_cfg = 0
     for (t, r, W) in CFG:
         n = nz = ns = fp = fn = 0
         dfp = dfn = 0
@@ -137,6 +144,19 @@ def run():
             ctl_fires += 1
         print("  %2d %2d %2d %10d %7d %8d %5d %5d   |                     %3d %3d"
               % (t, r, W, n, nz, ns, fp, fn, dfp, dfn))
+        tot_cfg += 1
+        tot_n += n
+        if r == 1:
+            tot_r1 += n
+        if t == 2:
+            tot_t2 += n
+
+    print()
+    print("  TOTALES de la columna «ocupadas» --- las cifras que el Paper I cita y que esta tabla")
+    print("  tenia fila a fila sin sumar:")
+    print("     todas las configuraciones : %7d formas en %d configuraciones" % (tot_n, tot_cfg))
+    print("     las de r=1 (Teorema 3.1)  : %7d" % tot_r1)
+    print("     las de t=2 (Teorema 8.6)  : %7d" % tot_t2)
 
     print()
     print("=" * 96)

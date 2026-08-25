@@ -1,5 +1,5 @@
 ============================================================================================
-PROBLEM 10.6 -- the extra locus for the three types
+PROBLEM 11.7 -- the extra locus for the three types
 ============================================================================================
   s   1 pair(s), 2 free letters, t=3 :  locus   6   t-cores   6   EXTRA   0   
   s   1 pair(s), 2 free letters, t=4 :  locus  12   t-cores  10   EXTRA   2     extras: [(7, 2), (8, 3)]
@@ -36,4 +36,4 @@ THE ANSWER, per type: does the criterion acquire extras, and only at even t?
 
 Read the two type-s rows against each other. If s keeps its extra family at two pairs, the
 difference from sp and o is the TYPE. If it loses it, the extra family belongs to the
-minimal alphabet, and Problem 10.6 is asking about minimality rather than about type.
+minimal alphabet, and Problem 11.7 is asking about minimality rather than about type.

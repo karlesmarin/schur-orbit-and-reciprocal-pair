@@ -1,6 +1,6 @@
 Ancillary material for
 
-    "Factorization and vanishing of Schur polynomials twisted by roots of unity and reciprocal pairs"
+    "Schur polynomials twisted by roots of unity and reciprocal pairs: exactly three factors, and where they vanish"
     Carles Marin
 
 Every numerical claim in the paper regenerates from these scripts, and the saved output of each run
@@ -166,7 +166,7 @@ fig_v2.py               Draws fig_increments (Lemma 8.15 carried out on one shap
                         single box, genuine against properly virtual).  Also computes Table 3.
                         (Section 8)
 
-extra_locus_kernel.py   Problem 10.6.  The extra locus of the independence criterion against the
+extra_locus_kernel.py   Problem 11.7.  The extra locus of the independence criterion against the
                         KERNEL of the specialization, over three free parts of size two: the
                         reciprocal pair, the zeta_2-orbit (z,-z), and a genuinely free pair.  The
                         third is Remark 5.3's control and must return the t-cores and nothing else.
@@ -309,6 +309,20 @@ figlang.py              Spanish edition of this paper, WITHOUT duplicating the d
                         The Spanish edition and its figures are not part of the arXiv submission;
                         the two files are here because they belong beside the scripts they wrap.
 
+test_figs_es_heuristic.py
+                        The regression test for the `_solo_matematica` rule of `figs_es.py`, kept
+                        because that rule failed once in print. On 18 August 2026 the formula
+                        \prod(alphabet) = (-1)^{t-1} = -1 was drawn in ENGLISH in all three panels
+                        of fig_alphabet_es.pdf and did NOT appear in the run's `untranslated` list:
+                        the rule stripped the whole math mode and looked only at what was left, so
+                        a string that was entirely math was untranslatable by construction. It
+                        reached the published copy, arXiv:2608.09619v2 page 3. The test pins the
+                        behaviour in both directions -- that text inside math mode is detected, and
+                        that real mathematics is still let through, which is what makes the rule
+                        worth having. A test that could only fail in one direction would have
+                        passed on the day of the defect.
+                        Usage: python test_figs_es_heuristic.py
+
 --------------------------------------------------------------------------------------------------
 GROUP 1b -- THE OPEN PROBLEMS, ATTACKED  (Sage)
 --------------------------------------------------------------------------------------------------
@@ -316,7 +330,7 @@ GROUP 1b -- THE OPEN PROBLEMS, ATTACKED  (Sage)
 These are not part of the proof of any theorem. Each one attacks a statement the paper leaves open,
 and two of them killed a conjecture we had believed.
 
-coupling_rank.sage      Proposition 10.3 as first stated, tested where it had never been run: rank one
+coupling_rank.sage      Proposition 11.4 as first stated, tested where it had never been run: rank one
                         with B LARGER than a single reciprocal pair. A first attempt counted
                         irreducible factors, which is wrong -- chi_k is itself reducible.
 
@@ -325,7 +339,7 @@ coupling_rank_tight.sage  The same, done properly. "A product of characters" is 
                         decidable numerically and cannot be an artefact of factoring over the wrong
                         field. The paper's own theorem is the control.
                         -> control 0 off-circle; z,z^2: 17; z,z^3: 18. Rank one is
-                           therefore NOT the condition.                     (Proposition 10.3)
+                           therefore NOT the condition.                     (Proposition 11.4)
 
 iso_first_row.sage      The isolating-witness mechanism at r = 2, on the shapes where the certificate
                         was expected to be easiest.
@@ -343,19 +357,19 @@ _prove_W_r3.sage        The same at r = 3, which is the control on the explanati
                         than the range provides, and it does.
                         -> |lambda| <= 13: 149 proved witnesses, 0 residue.  (Section 8)
 
-sp_at_A.sage            Problem 10.1, the symplectic column: what is sp_nu(W,1,-1)? Adjoining a
+sp_at_A.sage            Problem 11.1, the symplectic column: what is sp_nu(W,1,-1)? Adjoining a
                         letter is the ring map p_k -> p_k + c^k, so the question is an identity in
                         Lambda and needs no length hypothesis.
 
 sp_branching.sage       The answer, via branching: 247 coefficients over 74 distinct skew shapes with
                         0 clashes, values 0 and +-1, and the orthogonal identity of Section 8 still
-                        holding as the control (45 hold, 0 fail).           (Problem 10.1)
+                        holding as the control (45 hold, 0 fail).           (Problem 11.1)
 
 so_at_A.sage            The odd-orthogonal column of the same problem. Recorded as it stands: Sage
                         carries no so basis, and doubling is not adjunction, which is why that
                         column resists where the symplectic one gave way.
 
-extra_locus_types.sage  Problem 10.6: does Theorem 5.2 have an analogue for sp and o? Both sides of
+extra_locus_types.sage  Problem 11.7: does Theorem 5.2 have an analogue for sp and o? Both sides of
                         the criterion are specializations of power sums -- the orbit sends p_k to
                         p_k + t when t | k, the reciprocal pair to p_k + z^k + z^-k -- so the locus
                         { lambda : LHS = +- RHS } is computable in Lambda. Type s is the control and
@@ -384,6 +398,72 @@ sign_lemma.py           The closed form of the sign behind Theorem 8.35, w(sigma
                         eta = 2, and the criterion has to forbid eta = 1.
                         -> 438/438 over thirteen configurations; eta = 1 occurs 0 times.
 
+fig_lift.py             Figure 12: the two fixed-point requirements as distributions over the same
+                        shapes, on J_lambda and on the lift.  Rebuilds J_lambda from equation (20)
+                        and shares no code with the gates, so its histograms are a second
+                        implementation of the counts the verification table quotes.
+                        -> t = 2: ||Phi||_1 spreads over 0..30 while the lift takes only 0, 6, 8;
+                           128 of the 329 shapes lie beyond 8.  t = 3: 0..21 against 0, 6, 8, and
+                           216 of 791.  The population excludes the empty partition, as the
+                           archived run does.
+
+pI_L1_norma_probada.py  The PROOF of Proposition 6.10 checked step by step rather than its
+                        conclusion, so that a disagreement could be localised: that the four sums
+                        are 2(a_i - b_j) and none of them vanishes, that d3 = d1 + d2 in the
+                        size-three profile, and that the resulting L1 norms are 8 and 6.
+                        -> 130/130 and 432/432 in the two-class profile, 160/160 and 192/192 in
+                           the size-three one; the shapes the hypothesis excludes are the
+                           concentric ones, 20 at t = 2 and none at t = 3, which is Proposition
+                           3.5 again.  Its decoy asks how many shapes would give a cancellation
+                           if the residue-class condition were dropped: none, as the argument
+                           requires.
+
+pI_numerator_lift.py    The numerator lift of Definition 6.8, built rather than described.
+                        Checks that the signed sum over J_lambda is Phi (calibration), that
+                        the sum over the lift is D_t . Phi, that its minimum number of fixed
+                        points equals 2|U|, and prints the contrast with ||Phi||_1 on
+                        J_lambda itself.  Three decoys: Omega without the (z - 1/z) factor,
+                        Omega with every sign +1, and D_t expanded to six monomials.
+                        -> t = 2, 3 with lambda_1 <= 7: 329/329 and 791/791 for the identity;
+                           F_K = 2|U| in 309/329 and 791/791, the 20 exceptions all with
+                           Phi = 0; ||Phi||_1 reaches 30 and 21 against at most 8 monomials,
+                           exceeding 8 in 128 and 216 shapes; the first two decoys break in
+                           289 and 623.
+
+pI_toggle_espacios_de_peso.py
+                        Whether the fixed-point requirement splits by weight space, which is
+                        what Corollary 6.11 asserts.  Records a prediction of ours that died:
+                        |coefficient| <= 1 in every weight space is FALSE, since two Laplace
+                        monomials of the same weight and sign reinforce.
+                        -> the local form holds in 1696/1696 unbalanced weight spaces at
+                           t = 2 and 4074/4074 at t = 3; on J_lambda unlifted the
+                           coefficients reach 7 and 3, so there it is not local.
+
+pI_toggle_esqueleto.py  What the weight spaces of size one already force, which is Remark
+                        6.12: there the map from a Laplace monomial to an element of the lift
+                        is read off rather than chosen.
+                        -> 398 and 1176 such spaces; the sign agrees in 398/398 and
+                           1176/1176, and the omega takes exactly one torsion factor in all
+                           of them.  Three ansatzes fail: extreme omega (1106/1176 at t = 3),
+                           beta(mu) as beta(lambda) minus two columns (384/398, 1092/1176),
+                           and nu in {mu, lambda} (260/398, 860/1176).
+
+pI_instrument_veredicto.sage
+                        Problem 11.6, measured: how much of the vanishing locus lies inside
+                        the range where Littlewood's rule computes the multiplicities.
+                        -> over (t,r) = (2,2), (2,3), (4,2), i.e. 164, 494 and 494 shapes
+                           with l(lambda) <= N/2, exactly ONE in each satisfies
+                           m_mu = m_{mu*} for every mu, and all three are the odd-width
+                           rectangle with N/2 rows, which is branch (b) of Theorem 8.4.
+
+pI_instrument_asociadas.sage
+                        The companion sweep: whether the equality m_mu = m_{mu*} is refined
+                        by any statistic of the even partition delta, which is what a
+                        bijective answer would need.
+                        -> the number of even parts refines it, and the decoy control
+                           reports 1175 shapes outside the locus, so the sweep is not
+                           vacuous.
+
 criterion_S.py          The criterion itself, swept over the WHOLE population rather than the
                         restricted one: Phi = 0 iff a class is missing, or C - S = S. Its decoy
                         asks for the symmetry of the whole beta set instead of S.
@@ -402,6 +482,18 @@ criterion_sage_check.sage   And a third time, in Sage, through the generating fu
                         behind -- see the docstring of value().
                         -> 12937 shapes, 14 configurations; VEREDICTO: CONFIRMA; the decoy fails
                            in 14 of 14; the sieve makes 0 false discards.
+
+folding_t2.py           Table 8 (genuine against properly virtual). Sweeps every lambda up to the
+_control.py             bound shown and classifies each expansion as zero / non-negative /
+                        non-positive / mixed. The "one sign" column of the table is the sum of the
+                        two single-sign classes, which the run prints as UN SOLO SIGNO. Needs
+                        _control.py, included beside it.
+                        -> r=1, lambda_1<=14: 3060 shapes, 352 zero, 2708 one sign, 0 mixed;
+                           r=2, lambda_1<=8:  3003 shapes,  78 zero, 2531 one sign, 394 mixed.
+                        This script and its output were added on 2026-08-19: the table's caption
+                        used to credit fig_v2.py, which selects the two examples the figure draws
+                        but does not compute the table, and the script that does was travelling
+                        only with the sequel's supplement. Found by _hoja_de_salida.py.
 
 --------------------------------------------------------------------------------------------------
 GROUP 2 -- THE ZERO LOCUS FOR EVERY r  (Sage)

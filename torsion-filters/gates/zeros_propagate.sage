@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL LOCUS DE ANULACION ES UN IDEAL, Y ESO LE PROHIBE COSAS.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Encadenando dos cosas que ya estan:
-#
 #   (a)  Phi es una EVALUACION, luego un homomorfismo de anillos.  De hecho es la composicion de
 #        tres homomorfismos: Littlewood (restriccion), branching (restriccion), y -- por el teorema
 #        de fusion -- la proyeccion de fusion minima.  Los tres son mapas de anillos.

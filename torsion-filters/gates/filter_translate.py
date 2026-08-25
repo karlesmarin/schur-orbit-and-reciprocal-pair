@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # ¿SON LOS DOS FILTROS LA MISMA FUNCION, TRASLADADA?   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruzando las dos formulas de exponentes que el paper usa por separado:
-#
 #     tipo C, rango m :   x^C_i = xi^{ eta_i + m - i + 1 }          = xi^{c_i},  c = eta + rho_C
 #     tipo B, rango m':   x^B_i = xi^{ 2 eta_i + 2(m'-i) + 1 }      = xi^{2u_i+1},  u_i = eta_i + m'-i
 #

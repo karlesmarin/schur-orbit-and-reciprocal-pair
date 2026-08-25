@@ -6,11 +6,6 @@
 # producto de 0,+-1 => |A_mu| <= 1".  Pero antes de devolverle ese negativo hay que separar dos
 # cosas que se parecen y no son lo mismo:
 #
-#   (a) la idea es correcta y el enunciado |A_mu|<=1 simplemente no se sigue;  o
-#   (b) nuestro Sp_2 NO es uno de los factores SL_2 de Yacobi -- por ejemplo es una diagonal, o el
-#       espacio de multiplicidad relevante es el de OTRA ramificacion -- y entonces el caracter
-#       nunca fue un producto, y el negativo mide mi aplicacion y no su propuesta.
-#
 # Mandar (b) como si fuera (a) seria devolverle un negativo falso.
 #
 # LO QUE DISTINGUE (a) DE (b), Y ES MEDIBLE.  Si nuestro Sp_2 fuera un factor tensorial, entonces

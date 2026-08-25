@@ -1,0 +1,46 @@
+====================================================================================================
+EL NUMERATOR LIFT  K_lambda = J_lambda x Omega_t  --- CONSTRUIDO
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+t=2   329 lambda,  lambda_1 <= 7,  4 columnas de beta   |Omega_t| = 8
+----------------------------------------------------------------------------------------------------
+  L0  CALIBRACION  suma signada sobre J_lambda == Phi_t : 329 de 329   CALIBRA
+  L1  FATAL  sum_{K} sgn . z^wt == D_t . Phi_t : 329 de 329   EL OBJETO ES ESE
+  L2  |K_lambda| = 8 |J_lambda| : 329 de 329 ;  total 97848 = 8 x 12231 ;  signos {1: 48924, -1: 48924}
+  L3  IDENTIDAD  F_K(lambda) == ||D_t . Phi||_1 : 329 de 329   PASA
+  L4  FATAL  F_K(lambda) == 2 . |U(lambda)|  (monomios de Laplace) : 309 de 329   no exacto en 20, ej. (lambda, F_K, |U|, ||Phi||_1) [((1, 1), 0, 4, 0), ((2, 2, 1, 1), 0, 4, 0), ((3, 3), 0, 4, 0), ((3, 3, 2, 2), 0, 4, 0)]
+      L4b  la COTA  F_K <= 2|U| : 329 de 329   SIEMPRE
+      L4c  de las 20 sin igualdad, cuantas tienen Phi == 0 : 20   TODAS -- la igualdad vale siempre que Phi != 0
+  L5  EL CONTRASTE
+        F_J = ||Phi||_1  sobre J_lambda : {0: 40, 1: 7, 2: 38, 3: 16, 4: 18, 5: 6, 6: 54, 7: 2, 8: 20, 9: 12, 12: 48, 15: 8, 16: 22, 20: 14, 24: 12, 27: 2, 30: 10}    maximo 30
+        F_K              sobre K_lambda : {0: 40, 6: 160, 8: 129}    maximo 8
+        lambda con F_J > 8 (donde (4) es IMPOSIBLE sobre J) : 128 de 329
+  E1  SENUELO Omega sin el factor (z - z^-1) : rompe en 289 de 329   DISCRIMINA
+  E2  SENUELO Omega con todos los signos +1 : rompe en 289 de 329   DISCRIMINA
+  E3  CONTROL Omega = D_t EXPANDIDO (6 piezas) : la identidad sigue pasando en 329 de 329,
+        y |K| = 8|J| deja de valer en 329 de 329  --> lo que decide es el POLINOMIO, no la
+        particion; las 8 piezas son la eleccion de 43_IN para conservar la procedencia
+
+----------------------------------------------------------------------------------------------------
+t=3   791 lambda,  lambda_1 <= 7,  5 columnas de beta   |Omega_t| = 8
+----------------------------------------------------------------------------------------------------
+  L0  CALIBRACION  suma signada sobre J_lambda == Phi_t : 791 de 791   CALIBRA
+  L1  FATAL  sum_{K} sgn . z^wt == D_t . Phi_t : 791 de 791   EL OBJETO ES ESE
+  L2  |K_lambda| = 8 |J_lambda| : 791 de 791 ;  total 271224 = 8 x 33903 ;  signos {1: 135612, -1: 135612}
+  L3  IDENTIDAD  F_K(lambda) == ||D_t . Phi||_1 : 791 de 791   PASA
+  L4  FATAL  F_K(lambda) == 2 . |U(lambda)|  (monomios de Laplace) : 791 de 791   EXACTO
+      L4b  la COTA  F_K <= 2|U| : 791 de 791   SIEMPRE
+      L4c  de las 0 sin igualdad, cuantas tienen Phi == 0 : 0   TODAS -- la igualdad vale siempre que Phi != 0
+  L5  EL CONTRASTE
+        F_J = ||Phi||_1  sobre J_lambda : {0: 168, 1: 31, 2: 28, 3: 168, 4: 40, 5: 56, 6: 24, 7: 40, 8: 20, 9: 128, 11: 16, 12: 16, 13: 8, 15: 24, 16: 8, 18: 4, 20: 4, 21: 8}    maximo 21
+        F_K              sobre K_lambda : {0: 168, 6: 192, 8: 431}    maximo 8
+        lambda con F_J > 8 (donde (4) es IMPOSIBLE sobre J) : 216 de 791
+  E1  SENUELO Omega sin el factor (z - z^-1) : rompe en 623 de 791   DISCRIMINA
+  E2  SENUELO Omega con todos los signos +1 : rompe en 623 de 791   DISCRIMINA
+  E3  CONTROL Omega = D_t EXPANDIDO (6 piezas) : la identidad sigue pasando en 791 de 791,
+        y |K| = 8|J| deja de valer en 791 de 791  --> lo que decide es el POLINOMIO, no la
+        particion; las 8 piezas son la eleccion de 43_IN para conservar la procedencia
+
+====================================================================================================
+DONE

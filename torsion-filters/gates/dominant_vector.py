@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL VECTOR DOMINANTE v(T), Y SI SU MAXIMO DECIDE.  15 de agosto de 2026.
 #
-# DE DONDE SALE.  La consulta externa, vuelta 08, propone dejar de contar atomos y comprimir cada
-# minor a UN vector:
-#
 #     v(T) = ( t_1 - t_{2r},  t_2 - t_{2r-1},  ...,  t_r - t_{r+1} )        con T ordenado decreciente
 #
 # y afirma tres cosas encadenadas:

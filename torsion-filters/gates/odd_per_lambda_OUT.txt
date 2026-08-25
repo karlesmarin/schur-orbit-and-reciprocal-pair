@@ -1,3 +1,7 @@
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
 ======================================================================================================================
 LA PRIMITIVIDAD IMPAR, LOCALIZADA POR Lambda
 ======================================================================================================================
@@ -7,22 +11,32 @@ LA PRIMITIVIDAD IMPAR, LOCALIZADA POR Lambda
      L1  reparto de c(Lambda,mu) sobre TODOS los pares : {-2: 86, -1: 163, 0: 918, 1: 236, 2: 123}
          (los +-2 son el factor quiral: mu con ultima coordenada no nula cuenta dos veces)
      L2  numero de Lambda con c != 0 en mu_max : {1: 82}
+     L1q reparto de c QUITADO el factor quiral (esto es lo que dice (L1)) : {-1: 249, 0: 918, 1: 359}   en {0,+-1}
      C2  pares (Lambda,mu) con eta supervivientes que CANCELAN a 0 : 918
-
+     N   pares (Lambda,mu) en esta configuracion : 1526
   t=5 r=2  (41 formas con mu_max unico)
      C0  control sum_Lambda a_L c(L,mu_max) = A : 41 de 41
      L1  reparto de c(Lambda,mu) sobre TODOS los pares : {-2: 15, -1: 25, 0: 81, 1: 50, 2: 25}
          (los +-2 son el factor quiral: mu con ultima coordenada no nula cuenta dos veces)
      L2  numero de Lambda con c != 0 en mu_max : {1: 41}
+     L1q reparto de c QUITADO el factor quiral (esto es lo que dice (L1)) : {-1: 40, 0: 81, 1: 75}   en {0,+-1}
      C2  pares (Lambda,mu) con eta supervivientes que CANCELAN a 0 : 81
-
+     N   pares (Lambda,mu) en esta configuracion : 196
   t=3 r=3  (9 formas con mu_max unico)
      C0  control sum_Lambda a_L c(L,mu_max) = A : 9 de 9
      L1  reparto de c(Lambda,mu) sobre TODOS los pares : {1: 11, 2: 2}
          (los +-2 son el factor quiral: mu con ultima coordenada no nula cuenta dos veces)
      L2  numero de Lambda con c != 0 en mu_max : {1: 9}
+     L1q reparto de c QUITADO el factor quiral (esto es lo que dice (L1)) : {1: 13}   en {0,+-1}
      C2  pares (Lambda,mu) con eta supervivientes que CANCELAN a 0 : 0
-
+     N   pares (Lambda,mu) en esta configuracion : 13
+  TOTALES SOBRE LAS TRES CONFIGURACIONES --- son las cifras que cita el Paper II y que
+  NINGUNA salida imprimia, por ser sumas entre bloques.  De ahi que la hoja de salida las
+  marcara como sin respaldo.  Ver paper2/HOJA_DE_SALIDA_HALLAZGOS.md.
+     formas con mu_max unico          : 132
+     pares (Lambda,mu) en total       : 1735
+     de ellos, los que CANCELAN a 0   : 999
+     reparto de c sin el factor quiral: {-1: 289, 0: 999, 1: 447}   (L1) SE SOSTIENE: c en {0,+-1}
 ======================================================================================================================
   LECTURA, escrita ANTES de correr:
    * si el reparto de c vive en {0,+-1,+-2} (con el +-2 quiral) y en mu_max hay UN SOLO

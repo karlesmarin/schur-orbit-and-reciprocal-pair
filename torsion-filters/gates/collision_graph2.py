@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL MONOMIO TESTIGO: anatomia de las fibras AISLADAS.  15 de agosto de 2026.
 #
-# DE DONDE VIENE.  collision_graph.py contesta las dos primeras preguntas de la consulta externa:
-#
 #   1. ¿pareja unica en las formas que se anulan?   NO -- el K_2 es el 62 % (t=4 r=2), el 32 % (r=3),
 #      y hay fibras de hasta 12 y 72 atomos.  La cancelacion NO tiene partner unico.
 #   3. ¿vertice aislado en la familia testigo?      SI -- 80 a 120 fibras de UN SOLO atomo en cada

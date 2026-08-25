@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LOS ATOMOS (nu,Q) Y SUS DISTANCIAS.   15 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 20: atomizar por el lado que NO es el branching.  Con
-#
 #     A_mu = sum_nu eps_{lambda,nu}^{(t)} * m_{nu,mu},     eps en {0,+-1},
 #
 # el signed set es  X = {(nu,Q) : eps_nu != 0, Q cuenta la multiplicidad m_{nu,mu}}, y cada atomo

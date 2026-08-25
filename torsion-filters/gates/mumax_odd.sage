@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA LEY DEL PESO SUPERIOR EN EL IMPAR: ¿que rho lleva el desplazamiento?   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruzar dos formulas del paper que nunca se habian mirado juntas.
-#
 #   (A)  la ley del peso superior, medida SOLO en el caso par:
 #            mu_max = top Newt(N_beta)  -  sigma_r,     sigma_r = 2 rho_{C_r} + (t-1) (1,...,1)
 #

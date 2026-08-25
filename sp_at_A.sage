@@ -1,9 +1,9 @@
 # Authors: Carles Marin + Claude (AI assistant).
-# Problem 10.1, the case the paper singles out: sp_lambda at the alphabet (1,-1,z,zbar).
+# Problem 11.1, the case the paper singles out: sp_lambda at the alphabet (1,-1,z,zbar).
 #
 # Section 8 rests on   o_nu(W,1,-1) = sp_nu(W)   [AK25 (2.13) + Lemma 3.2 composed],
 # so at r = 1 the orthogonal universal character on A = (1,-1,z,zbar) is a RANK-ONE
-# symplectic character, and its law follows.  The symplectic column of Problem 10.1
+# symplectic character, and its law follows.  The symplectic column of Problem 11.1
 # has no law recorded.  The companion question is therefore
 #
 #         what is   sp_nu(W, 1, -1)  ?

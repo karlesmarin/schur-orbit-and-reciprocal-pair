@@ -172,7 +172,7 @@ NODOS = {
     "litt":  (4.10, -1.55, 1.62, "Littlewood's reduction\nto the $C_\\mu$", PROBADO),
     "cert":  (6.15, -1.55, 1.62, "a certificate for it\n(refuted)", PROBADO),
     "p105":  (8.20, -1.55, 1.78, "OPEN: explain the\n$C_\\mu$ (Problem %s)"
-              % num_del_aux("prob:instrument", "10.5"), ABIERTO),
+              % num_del_aux("prob:instrument", "11.6"), ABIERTO),
     # ---- la tercera via, anadida el 14 de agosto: la direccion SUFICIENTE para todo t y r.
     #      Empieza en la hipotesis, no en el Laplace, y por eso arranca su propia fila: no es un
     #      refinamiento del argumento extremal sino otro mecanismo, una involucion GLOBAL.

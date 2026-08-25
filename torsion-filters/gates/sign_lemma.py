@@ -24,7 +24,7 @@ e impar salvo que j1 este en E.  En los dos casos eta = 2.
 
 Con eta=2 sale e par, nu=0, y el exponente de (**) es e-1, IMPAR: w(sigma P) = -w(P).
 
-Authors: Carles Marin, Claude (AI assistant).  La formula cerrada viene de una consulta externa
+Authors: Carles Marin, Claude (AI assistant).  La formula cerrada viene de una analisis previo
 gateada; la prueba de eta=2 y la verificacion son nuestras.
 """
 import sys

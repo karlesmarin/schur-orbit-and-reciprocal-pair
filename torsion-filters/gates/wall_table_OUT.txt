@@ -5,7 +5,7 @@ LA TABLA DE LOS 16   --   t=6, r=2,  branching  Sp_8 > Sp_4 x Sp_4,  filtro tau_
   C_dic  EL DICCIONARIO Newton -> peso.   sigma_r = (9, 7)
          forma simplificada  (t-1) + 2*rho_{C_r} = (9, 7)   ->   COINCIDE
 
-  n = 16 formas (las de la vuelta 11, reconstruidas y verificadas por sixteen_betas.py)
+  n = 16 formas (las de la tabla previa, reconstruidas y verificadas por sixteen_betas.py)
 
   #  beta                             | mu_cand | mu_max | Delta | A_max | eta+alto de mu_cand / pared | #eta en mu_cand: muertos/vivos | eta 1o superviviente de mu_max
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ LA TABLA DE LOS 16   --   t=6, r=2,  branching  Sp_8 > Sp_4 x Sp_4,  filtro tau_
 
   C0  mu_max por branching == v_1 por Laplace, y Delta=(1,1) por el camino simplectico : PASA en 16/16
   C1  A_{mu_cand} = 0 en los 16 (el candidato muere)                                   : PASA
-  C2  |A_{mu_max}| = 1  --  la (H) de su vuelta 12                                     : PASA
+  C2  |A_{mu_max}| = 1  --  la (H)  previa                                     : PASA
 
 ====================================================================================================================================
 LA PREGUNTA QUE LA TABLA CONTESTA
@@ -54,11 +54,11 @@ LA PREGUNTA QUE LA TABLA CONTESTA
     * si el histograma de C3 esta concentrado en 0 supervivientes y una sola especie manda,
       el (1,1) es del FILTRO DE TORSION;
     * si hay formas con supervivientes que se cancelan, el (1,1) NO es del filtro: es de la
-      regla de branching, que es la segunda rama de su vuelta 12.
+      regla de branching, que es la segunda rama  previa.
 
   DATOS GUARDADOS, no solo la tabla impresa:
       wall_table_DUMP.json   volcado completo -- cada bloque eta a eta, con B, tau y especie
-      wall_table.csv         las 16 filas, para pegar en la carta
+      wall_table.csv         las 16 filas, listas para pegar donde hagan falta
       wall_table_OUT.txt     esta salida
 
 ====================================================================================================================================

@@ -239,7 +239,7 @@ FIGLANG = {
     "$\\nu$ is a signed\ntransversal count": "$\\nu$ es un recuento con\nsigno de transversales",
     "the division inverts:\n$\\Delta_t=\\psi^t(\\Delta_1)$":
         "la división se invierte:\n$\\Delta_t=\\psi^t(\\Delta_1)$",
-    "$c=\\pm\\epsilon_t\\det M$,\nthen OPEN (L1)": "$c=\\pm\\epsilon_t\\det M$,\ny ABIERTO (L1)",
+    "$c=\\pm\\epsilon_t\\det M$,\nand (L1): $M$ is TU": "$c=\\pm\\epsilon_t\\det M$,\ny (L1): $M$ es TU",
     "why primitive": "por qué primitiva",
     "where two filters agree": "dónde coinciden\ndos filtros",
     "a discriminant for the\nresidue": "un discriminante para\nel residuo",

@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # NUESTRO FILTRO CONTRA LA QUESTION 8.1 DE NADIMPALLI-PATTANAYAK-PRASAD.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Gate de literatura por la FORMULA, no por las palabras.  NPP25 (arXiv:2504.14684,
-# "Character theory at a torsion element") tiene:
-#
 #   * Teorema 4.1, para el elemento PRINCIPAL  C_m = rho^v(e^{2 pi i/m}):
 #         dim Z_{Ghat}((lambda+rho)^(e^{2 pi i/m}))  >=  dim Z_{Ghat}(rho^(e^{2 pi i/m})),
 #         con IGUALDAD  <=>  Theta_lambda(C_m) != 0,

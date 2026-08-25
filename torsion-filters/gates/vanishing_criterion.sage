@@ -10,8 +10,6 @@
 # identicamente, luego no hay soporte y no hay vector.  El criterio saldria "Phi = 0 <=> N_beta = 0",
 # que es la definicion devuelta.  Ver [[circular-artifact-measurement-returns-definition]].
 #
-# LA QUE SI CONTESTA LA MISMA PREGUNTA.  Con la cadena de la vuelta 12 delante,
-#
 #     Phi_{t,r} = sum_mu A_mu sp_mu,      A_mu = sum_eta B_{eta,mu} tau_t(eta)
 #
 # hay EXACTAMENTE TRES maneras de que Phi se anule, y son excluyentes:
@@ -179,7 +177,7 @@ for (t, r, W, TOPE) in CONF:
     R = r + m
     # MUESTREO.  La primera corrida tomo las PRIMERAS TOPE nulas en orden de enumeracion, o sea las
     # beta mas bajas: sesgo hacia lo degenerado, y salio 42,9 % heredadas contra el 3-6 % de la
-    # vuelta 11.  Aqui se recorre la poblacion ENTERA, se cuentan los totales, y se submuestrea con
+    # pasada previa.  Aqui se recorre la poblacion ENTERA, se cuentan los totales, y se submuestrea con
     # PASO CONSTANTE para cubrir todo el rango.  El total se imprime siempre, para que la proporcion
     # que se cite sea la de la poblacion y no la de la muestra.
     nulas_all, nonulas_all = [], []

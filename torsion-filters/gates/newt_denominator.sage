@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL VERTICE DOMINANTE DEL DENOMINADOR, POR SUMAS DE MINKOWSKI.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  mumax_odd.sage midio que el desplazamiento de la ley del peso superior es el mismo
-# en las dos paridades, luego NO es el rho del factor libre (que cambia con la paridad) sino
-# top Newt(N_delta).  Y eso se puede DEMOSTRAR contando, que es el teorema que la reseña marcaba
-# como el mas barato de los que quedan.
-#
 # EL ARGUMENTO, y este guion ES el argumento, no solo su comprobacion.  El denominador es el
 # Vandermonde del alfabeto,
 #

@@ -14,11 +14,11 @@
 #     eso es lo que hace atacable una prueba combinatoria.  Como es SUYO y no de Yacobi, se verifica
 #     contra el rearrangement de verdad antes de usarlo.  Es exactamente lo que la regla pide.
 #
-# (B) LA ANATOMIA.  Sus tres escenarios para la suma que da +-1, sobre los c_Lambda = a_Lambda * eps:
+# (B) LA ANATOMIA.  Los tres escenarios de la suma que da +-1, sobre los c_Lambda = a_Lambda * eps:
 #         A  cancelacion por magnitud   {7,-7,3,-3,1}  -> hay involucion al nivel Lambda
 #         B  cancelacion tras atomizar  {5,-3,-1}      -> no hay pairing de Lambda, quiza de objetos
 #         C  telescopaje                q1-q2, q2-q3.. -> colapsa a un borde
-#     Y su observacion de conteo, que mata nuestra P18 tal como estaba: con 10 supervivientes, una
+#     Y el conteo, que mata nuestra P18 tal como estaba: con 10 supervivientes, una
 #     involucion con parejas y UN punto fijo necesitaria 10-1 = 9 par.  Cierto.
 #
 # CONTROLES

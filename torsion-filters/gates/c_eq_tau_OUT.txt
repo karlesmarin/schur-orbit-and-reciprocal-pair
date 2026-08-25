@@ -46,7 +46,7 @@ N2  H*  =>  C = tau,  con la libreria de controles (avisa si la tabla no puede f
      veredicto: SIN VALOR -- el control no podia fallar.  Arreglalo antes de leerlo.
 
 ====================================================================================================================
-N3  SEÑUELOS -- y el primero mide si el atajo era NECESARIO
+N3  SEï¿½UELOS -- y el primero mide si el atajo era NECESARIO
 ====================================================================================================================
 
   (a) sigma_V(g_com) = g_com : es lo que el .tex decia que haria falta.  Si NO se cumple

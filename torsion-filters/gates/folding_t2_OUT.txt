@@ -99,6 +99,8 @@ N1  LA DICOTOMIA  |  N2  LA REGLA DE SIGNO  |  N4  el criterio, por via independ
         no negativa    : 1456
         no positiva    : 1252
         MEZCLADA       : 0
+        UN SOLO SIGNO  : 2708   <- la columna �one sign� de tab:virtual (no negativa + no positiva)
+        total formas   : 3060   <- y la fila entera cuadra: cero + un signo + mezclada
         -> AGUANTA: toda expansion no nula es +- una combinacion no negativa
 
      N2  REGLA DE SIGNO  (generico = beta_1 y beta_2 de paridad distinta)
@@ -137,6 +139,8 @@ N1  LA DICOTOMIA  |  N2  LA REGLA DE SIGNO  |  N4  el criterio, por via independ
         no negativa    : 1397
         no positiva    : 1134
         MEZCLADA       : 394
+        UN SOLO SIGNO  : 2531   <- la columna �one sign� de tab:virtual (no negativa + no positiva)
+        total formas   : 3003   <- y la fila entera cuadra: cero + un signo + mezclada
         -> *** REFUTADA: 394 expansiones con signos MEZCLADOS ***
            contraejemplo (8, 8, 7, 7, 6, 6)   [((2, 2), -1), ((1, 1), 1)]
            contraejemplo (8, 8, 7, 7, 6, 4)   [((4, 2), -1), ((2, 2), -1), ((1, 1), 1)]
@@ -183,6 +187,8 @@ N1  LA DICOTOMIA  |  N2  LA REGLA DE SIGNO  |  N4  el criterio, por via independ
         no negativa    : 504
         no positiva    : 504
         MEZCLADA       : 252
+        UN SOLO SIGNO  : 1008   <- la columna �one sign� de tab:virtual (no negativa + no positiva)
+        total formas   : 1287   <- y la fila entera cuadra: cero + un signo + mezclada
         -> *** REFUTADA: 252 expansiones con signos MEZCLADOS ***
            contraejemplo (5, 5, 5, 4, 4, 4, 3, 3) [((2, 2, 1), 1), ((1, 1, 1), -1)]
            contraejemplo (5, 5, 5, 4, 4, 4, 3, 1) [((4, 2, 1), 1), ((2, 2, 1), 1), ((1, 1, 1), -1)]
@@ -229,6 +235,8 @@ N1  LA DICOTOMIA  |  N2  LA REGLA DE SIGNO  |  N4  el criterio, por via independ
         no negativa    : 39
         no positiva    : 19
         MEZCLADA       : 6
+        UN SOLO SIGNO  : 58   <- la columna �one sign� de tab:virtual (no negativa + no positiva)
+        total formas   : 66   <- y la fila entera cuadra: cero + un signo + mezclada
         -> *** REFUTADA: 6 expansiones con signos MEZCLADOS ***
            contraejemplo (2, 2, 2, 2, 1, 1, 1, 1, 0, 0) [((2, 2, 1, 1), -1), ((1, 1, 1, 1), 1)]
            contraejemplo (2, 2, 2, 2, 1, 1, 1, 0, 0, 0) [((2, 2, 2, 1), -1), ((2, 1, 1, 1), 1), ((1, 1, 1, 0), 1)]
@@ -259,7 +267,7 @@ N1  LA DICOTOMIA  |  N2  LA REGLA DE SIGNO  |  N4  el criterio, por via independ
      N3  coeficiente maximo |a_mu| = 1 ;  suma de |a_mu| maxima = 5
 
 ================================================================================================================
-N3  COTAS: la consulta externa dice que NO hay ninguna.  Se verifica el caso cerrado.
+N3  COTAS: el analisis previo dice que NO hay ninguna.  Se verifica el caso cerrado.
 ================================================================================================================
 
      [z^0] s_(2M)(1,-1,z,1/z) tiene que valer M+1, y s_(2M)(1,-1,1,1) = (M+1)^2

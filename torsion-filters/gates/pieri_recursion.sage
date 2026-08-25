@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # UNA RECURSION DE PIERI PARA LOS A_mu, Y QUE LE HACE AL PESO SUPERIOR.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruzar dos cosas obvias por separado y que nunca se habian juntado:
-#
 #   (a)  Phi_{t,r} es una EVALUACION de funciones simetricas, luego es un homomorfismo de ANILLOS
 #            Phi(lambda) Phi(nu) = sum_rho c^rho_{lambda nu} Phi(rho).
 #   (b)  Phi de la particion (1) es la suma del alfabeto:

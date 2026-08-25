@@ -1,5 +1,5 @@
 ============================================================================================================
-S1  ¿SON OCHO?  orbitas bajo traslacion (beta+1) y complemento (M-beta)
+S1  ï¿½SON OCHO?  orbitas bajo traslacion (beta+1) y complemento (M-beta)
 ============================================================================================================
 
   orbitas encontradas: 2
@@ -31,7 +31,7 @@ S2  CROSS-VALIDACION: mi pipeline sobre el MUESTREO VIEJO (|lambda| <= MAX)
   (bottom_stratum.sage: 10 289 formas con el criterio falso, 0 excepciones)
 
 ============================================================================================================
-S3  ¿DONDE ESTA EL PRIMERO POR |lambda|?   t = 6, r = 3, barrido creciente
+S3  ï¿½DONDE ESTA EL PRIMERO POR |lambda|?   t = 6, r = 3, barrido creciente
 ============================================================================================================
 
   |lambda| = 24 :   1207 formas, 2 EXCEPCIONES
@@ -40,7 +40,7 @@ S3  ¿DONDE ESTA EL PRIMERO POR |lambda|?   t = 6, r = 3, barrido creciente
   el barrido viejo llegaba a |lambda| <= 14, o sea le faltaban 10 tallas.
 
 ============================================================================================================
-S4  ¿SPORADICOS O SISTEMATICOS?   subir M y ver si la poblacion crece
+S4  ï¿½SPORADICOS O SISTEMATICOS?   subir M y ver si la poblacion crece
 ============================================================================================================
 
      t   r    M | formas | criterio falla | EXCEPCIONES | e=t entre ellas

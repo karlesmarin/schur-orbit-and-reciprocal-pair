@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
 # E^{(4)} COMO OPERADOR, independiente de beta.   15 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 18: separar lo que viene del Paper I (el vector a_Lambda) de lo que es
-# UNIVERSAL (el operador).  Con la formula local verificada en la vuelta anterior,
-#
 #     E_{Lambda,mu}  =  1[mu << Lambda] * 1[todos los r_i pares] * (-1)^{sum r_i / 2}
 #     r_i  =  min(Lambda_i, mu_{i-1}) - max(Lambda_{i+1}, mu_i)
 #
 # y A = E a.  El operador se puede estudiar UNA VEZ y sirve para todas las formas.
-#
-# LO QUE SE VE ANTES DE CALCULAR, y es la respuesta a su pregunta 4.  Como
 #
 #     eps = prod_i ( [r_i par] * (-1)^{r_i/2} )
 #

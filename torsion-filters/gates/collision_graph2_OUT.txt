@@ -20,12 +20,12 @@ N1  LA FAMILIA CON PASO 1 -- se anula y no se anula, alternando; y los testigos
   frente a [(6, 8)] en los que no
 
 ============================================================================================================
-N2  ¿ES EL EXTREMO DE ALGUN ORDEN MONOMIAL UN TESTIGO AISLADO?
+N2  ï¿½ES EL EXTREMO DE ALGUN ORDEN MONOMIAL UN TESTIGO AISLADO?
 ============================================================================================================
 
   Si lo es, 'Phi != 0' sale de mirar UN termino, que es la segunda filtracion que se propone.
 
-    n | grado total (señuelo)      | lex z1>>z2      | lex z1>>-z2     | -z1>>z2
+    n | grado total (seï¿½uelo)      | lex z1>>z2      | lex z1>>-z2     | -z1>>z2
     0 | 4 cand, aislado? False     | (18, 10) no     | (18, -10) no    | (-18, 10) no   
     2 | 4 cand, aislado? False     | (22, 10) no     | (22, -10) no    | (-22, 10) no   
     4 | 4 cand, aislado? False     | (26, 10) no     | (26, -10) no    | (-26, 10) no   
@@ -34,7 +34,7 @@ N2  ¿ES EL EXTREMO DE ALGUN ORDEN MONOMIAL UN TESTIGO AISLADO?
    10 | 4 cand, aislado? False     | (38, 10) no     | (38, -10) no    | (-38, 10) no   
 
 ============================================================================================================
-N3  EL ATOMO QUE PRODUCE EL TESTIGO -- ¿es el mismo (T, S) en toda la familia?
+N3  EL ATOMO QUE PRODUCE EL TESTIGO -- ï¿½es el mismo (T, S) en toda la familia?
 ============================================================================================================
 
     n | testigo lex-minimo | T del atomo                    | reparto S | rel. con C y g_com
@@ -49,7 +49,7 @@ N3  EL ATOMO QUE PRODUCE EL TESTIGO -- ¿es el mismo (T, S) en toda la familia?
 C1  DECOY CORREGIDO -- solo fibras EQUILIBRADAS, que es la comparacion de igual a igual
 ============================================================================================================
 
-   t  r   W | poblacion            n | fibras equilibradas | de ellas, de tamaño 2
+   t  r   W | poblacion            n | fibras equilibradas | de ellas, de tamaï¿½o 2
     4  2  14 | Phi == 0              28 |                2508 |  62.2 %
     4  2  14 | Phi != 0  [DECOY]     41 |                 412 |  83.5 %
     6  2  15 | Phi == 0              33 |                4752 |  66.7 %

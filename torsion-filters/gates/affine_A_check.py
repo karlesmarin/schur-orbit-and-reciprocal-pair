@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# ¿SE CUMPLE LA HIPOTESIS (A) DE LA CONSULTA EXTERNA?  -- 15 de agosto de 2026.
 #
 # LA AFIRMACION QUE SE VERIFICA.  La consulta propone que la saturacion de CANCELAN no necesita nada
 # tropical: bastaria con que la expansion se escriba

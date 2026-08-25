@@ -1,37 +1,39 @@
-============================================================================================================================
-NUESTRO FILTRO CONTRA LA QUESTION 8.1 DE NPP25   (arXiv:2504.14684)
-============================================================================================================================
+====================================================================================================
+LA QUESTION 8.1 DE NPP, MEDIDA CONTRA NUESTRA FAMILIA
+====================================================================================================
 
-  t=3   B1   h=2  t-h=1   |   PRINCIPAL: SI   (raices simples -> [1])   orden en el adjunto: 3
-       eta probados   10 | vivos    7 | Question 8.1 acierta   10  (falsos cero 0, falsos no-cero 0)
-       nuestras paredes aciertan   10 | SEÑUELO d+1 acierta    7  (tiene que fallar mucho)
+----------------------------------------------------------------------------------------------------
+m=1  Sp(2)   t = 4   d (orden en el adjunto) = 2   rango = 1
+----------------------------------------------------------------------------------------------------
+  C1  FATAL  su dicotomia:  sp_lambda(x) = 0  <=>  algun alpha de B_1 con d | <alpha,lambda+rho>
+        predice cero y ES cero :    3      predice cero y NO lo es :    0
+        predice no-cero y es 0 :    0      predice no-cero y no lo es:    4
+        acierta 7 de 7   EQUIVALENCIA
+  C2  en los no nulos, |valor| : {1: 4}   todos 1, como pide la mitad de igualdad
+  D1  SENUELO raices de C_1 (el grupo) en vez de B_1 (el dual) : 3 de 7   falla en 4 (bien)
+  D2  SENUELO d = t = 4 en vez del orden en el adjunto : 5 de 7   falla en 2 (bien)
 
-  t=4   C1   h=2  t-h=2   |   PRINCIPAL: SI   (raices simples -> [2])   orden en el adjunto: 2
-       eta probados   13 | vivos    7 | Question 8.1 acierta   13  (falsos cero 0, falsos no-cero 0)
-       nuestras paredes aciertan   13 | SEÑUELO d+1 acierta    7  (tiene que fallar mucho)
+----------------------------------------------------------------------------------------------------
+m=2  Sp(4)   t = 6   d (orden en el adjunto) = 6   rango = 2
+----------------------------------------------------------------------------------------------------
+  C1  FATAL  su dicotomia:  sp_lambda(x) = 0  <=>  algun alpha de B_2 con d | <alpha,lambda+rho>
+        predice cero y ES cero :   13      predice cero y NO lo es :    0
+        predice no-cero y es 0 :    6      predice no-cero y no lo es:    9
+        acierta 22 de 28   *** falla en 6: [((1, 0), 0, 0), ((1, 1), 0, 0), ((2, 2), 0, 0), ((3, 2), 0, 0)] ***
+  C2  en los no nulos, |valor| : {1: 9}   todos 1, como pide la mitad de igualdad
+  D1  SENUELO raices de C_2 (el grupo) en vez de B_2 (el dual) : 28 de 28   NO DISCRIMINA
+  D2  SENUELO d = t = 6 en vez del orden en el adjunto : 22 de 28   falla en 6 (bien)
 
-  t=5   B2   h=4  t-h=1   |   PRINCIPAL: NO   (raices simples -> [2, 4])   orden en el adjunto: 5
-       eta probados   72 | vivos   25 | Question 8.1 acierta   72  (falsos cero 0, falsos no-cero 0)
-       nuestras paredes aciertan   72 | SEÑUELO d+1 acierta   29  (tiene que fallar mucho)
+----------------------------------------------------------------------------------------------------
+m=3  Sp(6)   t = 8   d (orden en el adjunto) = 8   rango = 3
+----------------------------------------------------------------------------------------------------
+  C1  FATAL  su dicotomia:  sp_lambda(x) = 0  <=>  algun alpha de B_3 con d | <alpha,lambda+rho>
+        predice cero y ES cero :   56      predice cero y NO lo es :    0
+        predice no-cero y es 0 :   16      predice no-cero y no lo es:   12
+        acierta 68 de 84   *** falla en 16: [((1, 0, 0), 0, 0), ((1, 1, 0), 0, 0), ((1, 1, 1), 0, 0), ((2, 2, 0), 0, 0)] ***
+  C2  en los no nulos, |valor| : {1: 12}   todos 1, como pide la mitad de igualdad
+  D1  SENUELO raices de C_3 (el grupo) en vez de B_3 (el dual) : 84 de 84   NO DISCRIMINA
+  D2  SENUELO d = t = 8 en vez del orden en el adjunto : 68 de 84   falla en 16 (bien)
 
-  t=6   C2   h=4  t-h=2   |   PRINCIPAL: NO   (raices simples -> [4, 5])   orden en el adjunto: 6
-       eta probados  100 | vivos   28 | Question 8.1 acierta   76  (falsos cero 0, falsos no-cero 24)
-       nuestras paredes aciertan  100 | SEÑUELO d+1 acierta   42  (tiene que fallar mucho)
-
-  t=7   B3   h=6  t-h=1   |   PRINCIPAL: NO   (raices simples -> [3, 6])   orden en el adjunto: 7
-       eta probados  406 | vivos   72 | Question 8.1 acierta  406  (falsos cero 0, falsos no-cero 0)
-       nuestras paredes aciertan  406 | SEÑUELO d+1 acierta  208  (tiene que fallar mucho)
-
-  t=8   C3   h=6  t-h=2   |   PRINCIPAL: NO   (raices simples -> [6, 7])   orden en el adjunto: 8
-       eta probados  575 | vivos   78 | Question 8.1 acierta  473  (falsos cero 0, falsos no-cero 102)
-       nuestras paredes aciertan  575 | SEÑUELO d+1 acierta  337  (tiene que fallar mucho)
-
-============================================================================================================================
-  LECTURA, escrita ANTES de correr:
-   * si la Question 8.1 acierta en todos los eta y g NO es principal para t >= 5, entonces
-     nuestra (T) es el caso REGULAR de una pregunta abierta de Prasad, y eso se cita asi.
-   * si falla en algun eta, ese eta es un dato sobre la pregunta, y hay que mirarlo despacio.
-   * si el señuelo d+1 acierta parecido, la coincidencia no significa nada.
-
-============================================================================================================================
+====================================================================================================
 DONE

@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA CAPA DE SIGNOS DEL FILTRO: .que modulo ve?   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruzando dos cosas de hoy que parecian sueltas:
-#
 #   (a)  galois_sign.sage encontro que en tipo B la formula cerrada vale SALVO UNA CONSTANTE
 #            tau^B_t = eps_t . delta(a),        eps_t = +1, +1, -1, +1   en t = 3, 5, 7, 9
 #        y esa constante no la enuncia el paper (prop:oddfilter solo da |tau^B| = 1).

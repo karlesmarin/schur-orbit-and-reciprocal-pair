@@ -18,12 +18,11 @@ N1  LAS FORMAS QUE SE ANULAN  --  y C1, el DECOY: las que no, con la misma estad
     4  3  15 | Phi == 0 (conj 8.44)  14 |       4860.6 |  32.4 | 4:24024, 2:22032, 8:8712, 6:6384   (max 72)
     4  3  15 | Phi != 0  [DECOY C1]  61 |       5416.8 |   5.2 | 2:77088, 1:57072, 3:47904, 4:46368   (max 108)
 
-  LECTURA.  Si el %K_2 de la fila Phi==0 no es 100, la cancelacion NO tiene pareja unica y su
-  pregunta 1 se contesta que NO.  Si ademas el DECOY da un perfil parecido, la estadistica no
+  LECTURA.  Si el %K_2 de la fila Phi==0 no es 100, la cancelacion NO tiene pareja unica y la pregunta 1 se contesta que NO.  Si ademas el DECOY da un perfil parecido, la estadistica no
   separa las dos poblaciones y no hay nada que leer en la primera fila.
 
 ============================================================================================================
-N2  SU PREGUNTA 3 -- la familia testigo que NO se anula: ¿hay fibra desequilibrada AISLADA?
+N2  LA PREGUNTA 3 -- la familia testigo que NO se anula: ï¿½hay fibra desequilibrada AISLADA?
 ============================================================================================================
 
   familia:  max S sube n, min S baja n,  semilla (18, 17, 11, 8, 7, 6, 1, 0)

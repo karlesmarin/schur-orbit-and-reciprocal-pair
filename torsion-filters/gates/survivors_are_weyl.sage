@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LOS SUPERVIVIENTES SON EL GRUPO DE WEYL, Y tau ES SU CARACTER SIGNO.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruzar tres cosas que ya estan probadas y nunca se habian compuesto:
-#
 #   (a)  Cor. "el filtro es una funcion sobre (Z/t)^rango"  --  tau solo ve  a mod t.
 #   (b)  Lema 3.1: si sobrevive, las clases  min(c_j, t-c_j)  son una PERMUTACION de {1,...,m},
 #        y  tau = sgn(sigma) prod_j eps_j  con eps_j = +-1 segun de que lado del corte cae c_j.

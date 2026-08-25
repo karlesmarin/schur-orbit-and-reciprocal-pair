@@ -1,0 +1,30 @@
+====================================================================================================
+LA INVOLUCION AL NIVEL CORRECTO --- indice refinado (mu,nu), y L5 contra Plucker
+====================================================================================================
+
+  G4a  la relacion de Plucker de tres terminos sobre p_ij = f(beta_i-beta_j) :
+       p_ij p_kl - p_ik p_jl + p_il p_jk = 0  en  126 de 126 cuadruplas
+  G4b  L5(a) sum_{eps,eta} eps.eta f(c+eps.p+eta.q) = f(c)f(p)f(q) : 80 de 80
+       GRADOS: Plucker es CUADRATICA en los p; L5 iguala una suma LINEAL de f a un producto
+       de TRES f.  Son identidades distintas: L5 no es Plucker ni una degeneracion suya.
+       Pero las dos valen sobre el MISMO objeto --- los menores 2x2 son coordenadas de
+       Plucker de rango dos ---, que es lo que esa lectura senala.
+
+  t=2  (329 lambda, lambda_1 <= 7, hasta 4 filas)
+    G2  la identidad refinada (mu,nu) contra el valor directo : 329 de 329   PASA
+    G1  terminos SIN emparejar al nivel de mu (igual polinomio, signo opuesto):
+        histograma : {0: 13, 1: 18, 2: 47, 3: 38, 4: 75, 5: 30, 6: 41, 7: 17, 8: 31, 9: 4, 10: 6, 11: 2, 12: 6, 14: 1}
+        con <= 4 sin emparejar (lo que Laplace deja) : 191 de 329 ; con mas : 138 p.ej. [((4, 1, 1), 5, 5), ((4, 1, 1, 1), 5, 5), ((4, 2), 7, 5)]
+        4289 terminos en total sobre las 329 lambda
+    G3  por exponente de z, .hay signos de los dos tipos donde debe? : 329 de 329
+
+  t=3  (791 lambda, lambda_1 <= 7, hasta 5 filas)
+    G2  la identidad refinada (mu,nu) contra el valor directo : 791 de 791   PASA
+    G1  terminos SIN emparejar al nivel de mu (igual polinomio, signo opuesto):
+        histograma : {1: 9, 2: 20, 3: 21, 4: 41, 5: 39, 6: 77, 7: 53, 8: 77, 9: 65, 10: 65, 11: 50, 12: 68, 13: 46, 14: 46, 15: 23, 16: 37, 17: 14, 18: 17, 19: 6, 20: 10, 21: 2, 22: 2, 24: 3}
+        con <= 4 sin emparejar (lo que Laplace deja) : 91 de 791 ; con mas : 700 p.ej. [((3, 2, 1), 5, 5), ((3, 3, 2), 7, 5), ((3, 3, 2, 1), 7, 7)]
+        16072 terminos en total sobre las 791 lambda
+    G3  por exponente de z, .hay signos de los dos tipos donde debe? : 791 de 791
+
+====================================================================================================
+DONE

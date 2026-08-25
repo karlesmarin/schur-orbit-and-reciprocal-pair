@@ -51,9 +51,9 @@ N2  LA FRONTERA -- dado B, es  Phi_r == 0  <=>  C' == C ?
         no  | SI  |     14
         no  | no  |    610
      desacuerdos: 14  ->  NO es C' == C sola
-     señuelo C' == C (mod t)         : 80 desacuerdos
-     señuelo interior concentrico    : 624 desacuerdos  (B ya lo implica, tiene que fallar)
-     con (ii) añadida: C' == C y (ii)  : 14 desacuerdos 
+     seï¿½uelo C' == C (mod t)         : 80 desacuerdos
+     seï¿½uelo interior concentrico    : 624 desacuerdos  (B ya lo implica, tiene que fallar)
+     con (ii) aï¿½adida: C' == C y (ii)  : 14 desacuerdos 
 
   t=6 r=2  (516 formas con B cierto)
      A: Phi_r == 0 | C' == C |   n
@@ -61,9 +61,9 @@ N2  LA FRONTERA -- dado B, es  Phi_r == 0  <=>  C' == C ?
         no  | SI  |     48
         no  | no  |    420
      desacuerdos: 48  ->  NO es C' == C sola
-     señuelo C' == C (mod t)         : 48 desacuerdos
-     señuelo interior concentrico    : 468 desacuerdos  (B ya lo implica, tiene que fallar)
-     con (ii) añadida: C' == C y (ii)  : 48 desacuerdos 
+     seï¿½uelo C' == C (mod t)         : 48 desacuerdos
+     seï¿½uelo interior concentrico    : 468 desacuerdos  (B ya lo implica, tiene que fallar)
+     con (ii) aï¿½adida: C' == C y (ii)  : 48 desacuerdos 
 
   t=6 r=3  (82 formas con B cierto)
      A: Phi_r == 0 | C' == C |   n
@@ -71,9 +71,9 @@ N2  LA FRONTERA -- dado B, es  Phi_r == 0  <=>  C' == C ?
         no  | SI  |      8
         no  | no  |     48
      desacuerdos: 8  ->  NO es C' == C sola
-     señuelo C' == C (mod t)         : 8 desacuerdos
-     señuelo interior concentrico    : 56 desacuerdos  (B ya lo implica, tiene que fallar)
-     con (ii) añadida: C' == C y (ii)  : 8 desacuerdos 
+     seï¿½uelo C' == C (mod t)         : 8 desacuerdos
+     seï¿½uelo interior concentrico    : 56 desacuerdos  (B ya lo implica, tiene que fallar)
+     con (ii) aï¿½adida: C' == C y (ii)  : 8 desacuerdos 
 
 ====================================================================================================================
 N3  VEREDICTO

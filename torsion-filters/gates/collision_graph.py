@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL GRAFO DE COLISIONES: ¿la cancelacion de Phi tiene PAREJA UNICA?  15 de agosto de 2026.
 #
-# DE DONDE SALE.  La consulta externa, vuelta 06, contesta P6 con un NO honesto (no hay teorema de
-# extension de involuciones que sirva) y propone en su lugar reformular la Conjetura 8.44 asi:
-#
 #     RESIDUAL RIGIDITY:  g_com asimetrico  =>  alguna FIBRA DE EXPONENTE esta desequilibrada
 #
 # El puente es elemental y correcto: Phi es un polinomio de Laurent en z, luego Phi == 0 obliga a que
@@ -195,7 +192,7 @@ if __name__ == "__main__":
     # ===================================================================== N2 ========================
     print("")
     print("=" * 108)
-    print("N2  SU PREGUNTA 3 -- la familia testigo que NO se anula: ¿hay fibra desequilibrada AISLADA?")
+    print("N2  LA PREGUNTA 3 -- la familia testigo que NO se anula: ¿hay fibra desequilibrada AISLADA?")
     print("=" * 108)
     SEMILLA = (18, 17, 11, 8, 7, 6, 1, 0)
     t, r = 4, 2

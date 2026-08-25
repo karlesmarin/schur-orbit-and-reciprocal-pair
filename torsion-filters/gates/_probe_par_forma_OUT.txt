@@ -1,0 +1,11 @@
+====================================================================================================
+SONDA: LA FORMA DE UNA COLUMNA LIBRE PAR
+====================================================================================================
+
+  valores que toma una entrada        : {-1: 375, 0: 2776, 1: 659}
+  bloques de clase que toca la columna: {1: 612, 2: 189}
+  forma dentro de cada bloque tocado  : {'prefijo': 916, 'sufijo': 60, 'ROTO': 14}
+  cuando toca DOS bloques, los signos : {'opuestos': 64, 'iguales': 125}
+
+====================================================================================================
+DONE

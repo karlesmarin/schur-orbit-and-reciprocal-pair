@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LOS FILTROS COMO COCIENTES DE FUSION DE NIVEL MINIMO.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 24.  Andersen-Stroppel presentan el anillo de fusion de nivel k como
-#
 #     Z[chi(omega_1), ..., chi(omega_n)] / < chi(k omega_1 + omega_i) >,
 #
 # y con nuestros parametros el nivel sale MINIMO en las dos paridades:

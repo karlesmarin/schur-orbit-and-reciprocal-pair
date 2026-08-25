@@ -27,7 +27,7 @@ t = 6   m = 2   R = 4   ->   branching  Sp_8  >  Sp_4 x Sp_4
   (12, 11, 10, 9, 8, 5, 3, 2, 1, 0) |  44 |        0 |         OK |                OK |         discrepa (ok) | *** COINCIDE: no mide ***
 
 ======================================================================================================================
-P13 -- LA COLUMNA QUE EL PIDE:  que eta acompaña al mu maximal, y que pared mata a los de arriba
+P13 -- LA COLUMNA PEDIDA:  que eta acompaña al mu maximal, y que pared mata a los de arriba
 ======================================================================================================================
 
   t | beta                            | mu_max     | A    | eta que sobreviven en mu_max        | eta MAS ALTO del branching / su pared

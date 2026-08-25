@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA TABLA DE LOS 16:  que pared mata al candidato, y quien sobrevive.   15 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 12, recomendacion final: no barrer mas beta, sino hacer UNA tabla sobre
-# t=6,r=2 con las columnas
-#
 #     ( mu_candidate, eta_candidate, wall-type de eta, mu_max, eta_first surviving )
 #
 # y su prediccion bifurcada, que es lo que la hace util:
@@ -16,23 +13,6 @@
 #     W0   a_i = 0 mod 6           (pared a=0)
 #     W3   a_i = 3 mod 6           (pared a=t/2)
 #     WC   a_1 = +- a_2 mod 6      (colision entre columnas)
-#
-# LAS 16 SON LAS DE LA CARTA.  sixteen_betas.py las reconstruye y su C1 verifica que son las mismas
-# que se mandaron en la vuelta 11 (16 fallos, Delta=(1,1) en los 16, poblacion critica n=299).
-#
-# CONTROLES
-#   C0  FATAL, Y ES NUEVO.  mu_max calculado por el branching (esta maquinaria, Sage) tiene que
-#       coincidir con v_1 -- el primer nivel no nulo de la expansion de Laplace (la otra maquinaria,
-#       Python).  Son dos caminos completamente distintos al mismo peso.  Y Delta = v_max - mu_max
-#       tiene que salir (1,1) otra vez, ahora por el camino simplectico.
-#   C1  FATAL.  A_{mu_cand} = sum_eta B tau  tiene que dar EXACTAMENTE 0 en los 16: es la definicion
-#       de que el candidato muere.  Si diera != 0, la poblacion no es la que creo.
-#   C2  |A_{mu_max}| = 1 en los 16  (la (H) de su vuelta 12), medida aqui de nuevo.
-#   C3  SEÑUELO.  Se cuenta tambien cuantos eta del bloque de mu_cand mueren por pared y cuantos
-#       sobreviven-pero-se-cancelan.  Si TODOS murieran por pared, el (1,1) seria del filtro; si el
-#       bloque tiene supervivientes que se cancelan entre si, NO lo es.  Las dos ramas se imprimen:
-#       la tabla no puede "confirmar" por construccion.
-#   C4  no vacuidad: n impreso siempre, y el reparto por especie de pared con sus 16 filas visibles.
 #
 # Authors: Carles Marin, Claude (AI assistant).
 # Run:  MSYS_NO_PATHCONV=1 docker run --rm -v "E:/proyectos/Curiosity/research/orbit-pair/gates:/work" \
@@ -186,7 +166,7 @@ print("         forma simplificada  (t-1) + 2*rho_{C_r} = %s   ->   %s"
       % (sigma_r_simplificada(),
          "COINCIDE" if sigma_r() == sigma_r_simplificada() else "*** NO COINCIDE ***"))
 print("")
-print("  n = %d formas (las de la vuelta 11, reconstruidas y verificadas por sixteen_betas.py)" % len(D))
+print("  n = %d formas (las de la tabla previa, reconstruidas y verificadas por sixteen_betas.py)" % len(D))
 print("")
 print("  #  beta                             | mu_cand | mu_max | Delta | A_max | eta+alto de mu_cand / pared | #eta en mu_cand: muertos/vivos | eta 1o superviviente de mu_max")
 print("  " + "-" * 176)
@@ -276,7 +256,7 @@ print("  C0  mu_max por branching == v_1 por Laplace, y Delta=(1,1) por el camin
       % ("PASA en %d/%d" % (len(D) - malo0, len(D)) if malo0 == 0 else "*** FALLA en %d ***" % malo0))
 print("  C1  A_{mu_cand} = 0 en los 16 (el candidato muere)                                   : %s"
       % ("PASA" if malo1 == 0 else "*** FALLA en %d ***" % malo1))
-print("  C2  |A_{mu_max}| = 1  --  la (H) de su vuelta 12                                     : %s"
+print("  C2  |A_{mu_max}| = 1  --  la (H)  previa                                     : %s"
       % ("PASA" if malo2 == 0 else "*** FALLA en %d ***" % malo2))
 print("")
 print("=" * 132)
@@ -300,10 +280,10 @@ print("  LECTURA, y las dos ramas estaban escritas ANTES de correr:")
 print("    * si el histograma de C3 esta concentrado en 0 supervivientes y una sola especie manda,")
 print("      el (1,1) es del FILTRO DE TORSION;")
 print("    * si hay formas con supervivientes que se cancelan, el (1,1) NO es del filtro: es de la")
-print("      regla de branching, que es la segunda rama de su vuelta 12.")
+print("      regla de branching, que es la segunda rama  previa.")
 
 # ================================================================== EL VOLCADO ==================
-# [[save-the-outputs-not-just-the-scripts]], y su reciproco: la vuelta 11 mando una tabla cuyo guion
+# [[save-the-outputs-not-just-the-scripts]], y su reciproco: una pasada previa mando una tabla cuyo guion
 # no se guardo.  Aqui se guardan LAS DOS COSAS, y ademas los datos en formato presentable.
 # int() TAMBIEN en config: la primera vez se corrigieron las filas y no esto, y el volcado murio
 # tras escribir 22 bytes -- con la tabla ya impresa, o sea con la corrida pareciendo un exito.
@@ -331,7 +311,7 @@ with open("wall_table.csv", "w", newline="") as fh:
 print("")
 print("  DATOS GUARDADOS, no solo la tabla impresa:")
 print("      wall_table_DUMP.json   volcado completo -- cada bloque eta a eta, con B, tau y especie")
-print("      wall_table.csv         las %d filas, para pegar en la carta" % len(VOLCADO))
+print("      wall_table.csv         las %d filas, listas para pegar donde hagan falta" % len(VOLCADO))
 print("      wall_table_OUT.txt     esta salida")
 print("")
 print("=" * 132)

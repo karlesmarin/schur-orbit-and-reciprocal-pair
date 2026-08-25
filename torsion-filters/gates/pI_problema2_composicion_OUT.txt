@@ -1,0 +1,20 @@
+====================================================================================================
+PROBLEMA 2 DEL PAPER I --- .componen phi_t y el par reciproco?
+====================================================================================================
+
+  t=2,  alfabeto de 4 letras
+    C0  la recursion h_k(A) = chi_k + h_{k-t}(A) : 12 de 12
+    C1  FATAL la composicion contra el valor directo : 714 de 714   PASA
+    C2  mu supervivientes por lambda : {1: 1, 2: 5, 3: 5, 4: 11, 5: 11, 6: 13, 7: 9, 8: 19, 9: 18, 10: 19, 11: 21, 12: 31, 13: 6, 14: 31, 15: 21, 16: 53, 18: 31, 19: 43, 20: 36, 21: 36, 23: 28, 24: 57, 25: 45, 26: 28, 28: 36, 29: 45, 30: 55}
+    D1  senuelo sin la condicion de core vacio : 5 de 714   falla en 709 (bien)
+    D2  senuelo con (z,z) en vez de (z,1/z)    : 50 de 714   falla en 664 (bien)
+    D3  senuelo sin el signo sgn_t(mu)         : 49 de 714   falla en 665 (bien)
+
+  t=3,  alfabeto de 5 letras
+    C0  la recursion h_k(A) = chi_k + h_{k-t}(A) : 12 de 12
+    C1  FATAL la composicion contra el valor directo : 2001 de 2001   PASA
+    C2  mu supervivientes por lambda : {1: 3, 2: 8, 3: 13, 4: 15, 5: 11, 6: 19, 7: 25, 8: 24, 9: 21, 10: 31, 11: 29, 12: 38, 13: 15, 14: 22, 15: 18, 16: 60, 17: 21, 18: 49, 19: 25, 20: 28, 21: 28, 22: 19, 23: 31, 24: 65, 25: 27, 26: 34, 27: 62, 28: 49, 29: 22, 30: 31, 32: 82, 33: 28, 34: 58, 35: 53, 36: 52, 37: 6, 38: 36, 39: 53, 40: 36, 42: 31, 43: 15, 44: 59, 45: 36, 46: 59, 47: 51, 48: 73, 50: 36, 52: 15, 53: 28, 54: 57, 56: 21, 57: 28, 59: 36, 60: 73, 62: 36, 63: 45, 64: 55}
+    D1  senuelo sin la condicion de core vacio : 0 de 2001   falla en 2001 (bien)
+    D2  senuelo con (z,z) en vez de (z,1/z)    : 505 de 2001   falla en 1496 (bien)
+    D3  senuelo sin el signo sgn_t(mu)         : 117 de 2001   falla en 1884 (bien)
+

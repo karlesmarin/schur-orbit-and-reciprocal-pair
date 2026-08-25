@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# EL IMPAR EN SU GRUPO:  B_{R'} -> B_{m'} x D_r,  la propuesta 3 de su reseña.   16 de agosto de 2026.
-#
-# DE DONDE SALE.  Su reseña (vuelta 14, punto 1) dice que el pipeline de §4 no cubre el impar y que la
-# lectura correcta no es "el par con una pared menos" sino OTRO symmetric pair:
 #
 #       t par:    C_R  -> C_m  x C_r          (lo que llevamos hecho)
 #       t impar:  B_R' -> B_m' x D_r          (esto, y sin orbit algebra)
@@ -403,7 +398,7 @@ if RES:
              sum(1 for d in RES if d["senuelo_C_discrepa"]), len(RES)))
 print("")
 print("  LECTURA, escrita ANTES de correr:")
-print("   * si C0 pasa en todas -> el reparto B_{m'} x D_r es el correcto y su punto 1 esta medido.")
+print("   * si C0 pasa en todas -> el reparto B_{m'} x D_r es el correcto y el punto 1 esta medido.")
 print("   * si ademas mu_max es unico con |A| = 1 -> el impar tiene su propia (H) y hay dicotomia.")
 print("   * si C0 falla -> el 1 no va con la torsion, y hay que probar D_{m'} x B_r.")
 json.dump({"C0": RES, "poblacion": POB}, open("odd_BD_DUMP.json", "w"), indent=1)

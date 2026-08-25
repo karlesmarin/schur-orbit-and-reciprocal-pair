@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 # LAS 16 FORMAS DE  t=6, r=2  CON  Delta != 0.   15 de agosto de 2026.
 #
-# POR QUE EXISTE ESTE FICHERO.  La tabla de la vuelta 11
-#
 #     t=6 r=2   16 fallos   Delta: {(1,1):16}     omega_2 en 100 %
 #
-# se mando en una carta y su GUION NO SE GUARDO: quedo la salida, no el instrumento.  Es el fallo
+# se dio por buena y su GUION NO SE GUARDO: quedo la salida, no el instrumento.  Es el fallo
 # inverso al de [[save-the-outputs-not-just-the-scripts]] y cuesta lo mismo.  Aqui se reconstruye,
 # se deja escrito, y se vuelca la lista de betas para que la tabla de paredes (wall_table.sage)
 # trabaje sobre EL MISMO conjunto y no sobre uno parecido.
@@ -14,19 +12,6 @@
 # g_com ASIMETRICO, Phi != 0.  Un fallo es una forma donde TODO v maximal en dominancia entre las
 # transversales tiene coeficiente 0 -- o sea, el candidato de arriba de NUESTRA presentacion de
 # Laplace se cancela entero y hay que bajar.  Delta = v_maximal - v_primero_no_nulo.
-#
-# OJO, Y VA EN LA SALIDA.  coef(v) suma sobre las r! permutaciones de v: es el numero contaminado
-# de la vuelta 09/11 ([[a-number-i-hand-over-carries-my-instrument]]).  Para DETECTAR si la orbita
-# entera se cancela es lo correcto -- una orbita se anula o no como orbita.  Para dar un valor no
-# lo es.  Aqui solo se usa para detectar, y no se exporta ningun coeficiente.
-#
-# CONTROLES
-#   C0  se imprime n de la poblacion critica ANTES de filtrar, y cuantas se caen en cada filtro.
-#   C1  ACEPTACION: el recuento tiene que dar  16 fallos  y  Delta = (1,1) en los 16, que es lo que
-#       se mando en la vuelta 11.  Si no coincide, la reconstruccion NO es la de la carta y hay que
-#       decirlo antes de usarla.
-#   C2  se vuelca tambien t=4,r=2 (16 fallos, Delta variado) como CONTROL: si la reconstruccion
-#       reprodujera los 16 de t=6 pero no los de t=4, seria casualidad y no reconstruccion.
 #
 # Authors: Carles Marin, Claude (AI assistant).
 # Run: python sixteen_betas.py
@@ -90,7 +75,7 @@ def fallos_de(t, r, W):
 
 
 print("=" * 108)
-print("LAS FORMAS CON Delta != 0  --  reconstruccion del recuento de la vuelta 11")
+print("LAS FORMAS CON Delta != 0  --  reconstruccion del recuento previo")
 print("=" * 108)
 print("")
 
@@ -109,7 +94,7 @@ for (t, r, W) in [(6, 2, 15), (4, 2, 15)]:
                                 for (b, vm, v1, D, k) in fal]
 
 print("")
-print("  C1  ACEPTACION contra lo que se mando en la vuelta 11:")
+print("  C1  ACEPTACION contra lo que se mando en una pasada previa:")
 c1 = DUMP["t6_r2"]
 d6 = defaultdict(int)
 for x in c1:

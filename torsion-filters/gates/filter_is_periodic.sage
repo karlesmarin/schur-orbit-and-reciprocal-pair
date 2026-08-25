@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL FILTRO ES UNA FUNCION SOBRE (Z/t)^rango, NO SOBRE PARTICIONES.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Cruzar (R) con la formula del signo del Lema 3.1.
-#
 #   (R) dice:  tau_t(eta) != 0  <=>  (eta+rho)(xi) regular,  y esa condicion se escribe entera con
 #       los residuos  c_j = a_j mod t,  a = eta + rho.
 #   El Lema 3.1 da el SIGNO tambien en terminos de los c_j: los epsilon_j = +-1 segun c_j <= m, y la

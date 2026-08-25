@@ -22,7 +22,9 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 s = io.open("orbit_pair_ii.tex", encoding="utf-8").read()
 
-CITE = re.compile(r"\\cite\{([^}]+)\}")
+# \cite takes an optional argument: \cite[Theorem 2]{Hall48}. Without the (?:\[...\])? this
+# audit reported such sources as cited 0 times -- Hall48 was, on 2026-08-20.
+CITE = re.compile(r"\\cite[a-zA-Z]*(?:\[[^\]]*\])?\{([^}]+)\}")
 BIB = re.compile(r"\\bibitem\[[^\]]*\]\{([^}]+)\}")
 
 i_ours = s.index(r"\subsection*{What is ours}")
@@ -46,14 +48,14 @@ huerfanas = [k for k in claves_bib if k not in en_prestado and k not in en_nuest
 print("")
 print("A2  fuentes que NO aparecen en NINGUNA de las dos tablas de Attribution (%d):" % len(huerfanas))
 for k in huerfanas:
-    n = len(re.findall(r"\\cite\{[^}]*\b" + re.escape(k) + r"\b[^}]*\}", s))
+    n = len(re.findall(r"\\cite[a-zA-Z]*(?:\[[^\]]*\])?\{[^}]*\b" + re.escape(k) + r"\b[^}]*\}", s))
     print("   %-18s  citada %d vez/veces en el cuerpo" % (k, n))
 if not huerfanas:
     print("   ninguna: toda fuente citada esta declarada en Attribution")
 
 print("")
 print("A3  filas de 'What is ours' que citan una fuente, con su clausula:")
-filas = [f for f in nuestro.split("\\\\") if "\\cite{" in f]
+filas = [f for f in nuestro.split("\\\\") if "\\cite" in f]
 for f in filas:
     txt = " ".join(f.split())
     amp = txt.rfind("&")

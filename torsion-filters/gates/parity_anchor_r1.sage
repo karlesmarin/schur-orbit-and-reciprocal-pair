@@ -14,11 +14,6 @@
 #                                       C = min S + max S, and
 #                                  (ii) BOTH residues k with 2k = C (mod t) are excess classes.
 #
-# At r = 1 the answer is already in print: Corollary 3.2 of arXiv:2608.09619 says Phi_t vanishes
-# iff a residue class is empty or d3 = 0, and d3 = |a1 + a2 - b1 - b2| on the two excess classes.
-# If the new criterion is right it must agree with that on the nose -- and if it does not, every
-# number produced today is wrong, because Corollary 3.2 is refereed and this is not.
-#
 # Three predicates are compared on the same shapes:
 #   DET    the bialternant over GF(p), the ground truth;
 #   NEW    (i) and (ii) above;

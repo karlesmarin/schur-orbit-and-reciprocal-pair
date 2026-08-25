@@ -1,0 +1,41 @@
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: sage: sage: sage: ....: ....: ....: ....: ....: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: sage: ====================================================================================================
+sage: prob:instrument --- .es  m_mu = m_{mu*}  una identidad VISIBLE en tableaux?
+sage: ====================================================================================================
+sage: 
+sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:   t=2 r=1  (N=4):  1 lambda en el locus de anulacion, de 93
+    C1  m_mu = m_{mu*} en todo el locus : 1   (es la definicion, sirve de calibracion)
+    C3  pares (mu,mu*) no triviales : soporte del MISMO cardinal 1, de cardinal DISTINTO 0
+    C2  .refina alguna estadistica sobre delta?
+        l(delta)           refina en    1, NO refina en    0   REFINA SIEMPRE
+        delta_1            refina en    1, NO refina en    0   REFINA SIEMPRE
+        |delta|/2          refina en    1, NO refina en    0   REFINA SIEMPRE
+        num partes pares   refina en    1, NO refina en    0   REFINA SIEMPRE
+    D1  pares con m_mu != m_{mu*} fuera del locus : 607
+
+  t=2 r=2  (N=6):  1 lambda en el locus de anulacion, de 124
+    C1  m_mu = m_{mu*} en todo el locus : 1   (es la definicion, sirve de calibracion)
+    C3  pares (mu,mu*) no triviales : soporte del MISMO cardinal 1, de cardinal DISTINTO 0
+    C2  .refina alguna estadistica sobre delta?
+        l(delta)           refina en    1, NO refina en    0   REFINA SIEMPRE
+        delta_1            refina en    1, NO refina en    0   REFINA SIEMPRE
+        |delta|/2          refina en    1, NO refina en    0   REFINA SIEMPRE
+        num partes pares   refina en    1, NO refina en    0   REFINA SIEMPRE
+    D1  pares con m_mu != m_{mu*} fuera del locus : 1175
+
+  t=4 r=1  (N=6):  1 lambda en el locus de anulacion, de 124
+    C1  m_mu = m_{mu*} en todo el locus : 1   (es la definicion, sirve de calibracion)
+    C3  pares (mu,mu*) no triviales : soporte del MISMO cardinal 1, de cardinal DISTINTO 0
+    C2  .refina alguna estadistica sobre delta?
+        l(delta)           refina en    1, NO refina en    0   REFINA SIEMPRE
+        delta_1            refina en    1, NO refina en    0   REFINA SIEMPRE
+        |delta|/2          refina en    1, NO refina en    0   REFINA SIEMPRE
+        num partes pares   refina en    1, NO refina en    0   REFINA SIEMPRE
+    D1  pares con m_mu != m_{mu*} fuera del locus : 1175
+
+sage: sage: ====================================================================================================
+sage: DONE
+sage: 

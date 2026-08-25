@@ -7,8 +7,6 @@
 # maximo en dominancia de su poligono de Newton REAL -- el del soporte que sobrevive, no el de los
 # candidatos --, y el vector que se resta es top(Newt(N_delta)), que solo depende de (t, r).
 #
-# DE DONDE SALE, Y NO ES UN AJUSTE.  Por Ostrowski, Newt(fg) = Newt(f) (+) Newt(g), luego
-#
 #     Newt(N_beta) = Newt(Phi) (+) Newt(N_delta)
 #
 # porque Phi = N_beta / N_delta.  Y para politopos de ORBITA de Weyl con u, v dominantes se tiene

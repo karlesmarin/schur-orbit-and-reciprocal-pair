@@ -1,0 +1,50 @@
+====================================================================================================
+EL ESQUELETO FORZADO --- .que elemento de K_lambda es cada monomio de Laplace?
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+t=2   329 lambda,  lambda_1 <= 7
+----------------------------------------------------------------------------------------------------
+  S0  espacios desequilibrados de tamano 1 (punto fijo FORZADO) : 398
+  S1  H1  su omega es uno de los DOS extremos de Omega_t : 398 de 398   SIN EXCEPCION
+        etiquetas que aparecen : {'-1|z^-t|-z^-1': 199, 'z^t|-1|z': 199}
+  S1b H1b .cuantos factores de torsion (z^t, z^-t) toma su omega? : {1: 398}
+        --> EXACTAMENTE UNO, sin excepcion
+  S2  H2  beta(mu) contra beta(lambda) menos las dos cuentas de la transversal
+           384  ninguna de las anteriores
+            14  beta(lambda) sin {j1,j2} contenido en beta(mu)
+  S3  H3  que es nu en un punto fijo forzado : {'nu == mu': 69, 'nu == lambda': 69, 'nu intermedio': 260}
+  S4  H4  signo del elemento == signo del monomio de Laplace : 398 de 398   SIEMPRE
+  S5  monomios de Laplace TOTALES 2152 ; forzados 398 ; por decidir (espacios >= 2) 1594
+  ejemplos (lambda, peso, omega, mu, nu, sgn_t(mu), (j1,j2), signo Laplace):
+        ((1,), -4, '-1|z^-t|-z^-1', (), (), 1, (0, 3), 1)
+        ((1,), 4, 'z^t|-1|z', (), (1,), 1, (0, 3), -1)
+        ((1, 1, 1), -4, '-1|z^-t|-z^-1', (1, 1), (1, 1), -1, (0, 3), -1)
+        ((1, 1, 1), 4, 'z^t|-1|z', (1, 1), (1, 1, 1), -1, (0, 3), 1)
+        ((1, 1, 1, 1), 3, 'z^t|-1|z', (1, 1), (1, 1, 1), -1, (0, 3), 1)
+        ((1, 1, 1, 1), -3, '-1|z^-t|-z^-1', (1, 1), (1, 1, 1), -1, (0, 3), -1)
+
+----------------------------------------------------------------------------------------------------
+t=3   791 lambda,  lambda_1 <= 7
+----------------------------------------------------------------------------------------------------
+  S0  espacios desequilibrados de tamano 1 (punto fijo FORZADO) : 1176
+  S1  H1  su omega es uno de los DOS extremos de Omega_t : 1106 de 1176   *** FALLA ***
+        etiquetas que aparecen : {'z^t|-1|-z^-1': 35, '-1|z^-t|-z^-1': 553, 'z^t|-1|z': 553, '-1|z^-t|z': 35}
+  S1b H1b .cuantos factores de torsion (z^t, z^-t) toma su omega? : {1: 1176}
+        --> EXACTAMENTE UNO, sin excepcion
+  S2  H2  beta(mu) contra beta(lambda) menos las dos cuentas de la transversal
+          1092  ninguna de las anteriores
+            84  beta(lambda) sin {j1,j2} contenido en beta(mu)
+  S3  H3  que es nu en un punto fijo forzado : {'nu == mu': 154, 'nu == lambda': 162, 'nu intermedio': 860}
+  S4  H4  signo del elemento == signo del monomio de Laplace : 1176 de 1176   SIEMPRE
+  S5  monomios de Laplace TOTALES 4600 ; forzados 1176 ; por decidir (espacios >= 2) 3424
+  ejemplos (lambda, peso, omega, mu, nu, sgn_t(mu), (j1,j2), signo Laplace):
+        ((1,), 1, 'z^t|-1|-z^-1', (), (), 1, (1, 2), 1)
+        ((1,), -5, '-1|z^-t|-z^-1', (), (), 1, (0, 4), 1)
+        ((1,), 5, 'z^t|-1|z', (), (1,), 1, (0, 4), -1)
+        ((1,), -1, '-1|z^-t|z', (), (1,), 1, (1, 2), -1)
+        ((1, 1), 4, 'z^t|-1|z', (), (1,), 1, (0, 3), -1)
+        ((1, 1), 2, 'z^t|-1|-z^-1', (), (1,), 1, (1, 2), 1)
+
+====================================================================================================
+DONE

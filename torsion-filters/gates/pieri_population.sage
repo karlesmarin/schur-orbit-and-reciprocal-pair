@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA RECURSION DE PIERI SOBRE POBLACION, Y DONDE SE ROMPE.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  pieri_recursion.sage midio, sobre nueve formas, que la identidad
-#
 #        sum_{rho = lambda + caja}  Phi(rho)  =  chi_natural . Phi(lambda)
 #
 # vale siempre (es un teorema: Phi es una evaluacion, luego un homomorfismo de anillos), y que en

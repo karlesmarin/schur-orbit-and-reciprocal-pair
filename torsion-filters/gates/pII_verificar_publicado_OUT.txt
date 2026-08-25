@@ -1,0 +1,33 @@
+====================================================================================================
+LO QUE LLEGO CONTRA LO QUE SALIO  ---  arXiv 2608.18302 (Paper II)
+====================================================================================================
+
+  publico arXiv   :  72 paginas   arxiv_2608.18302.pdf
+  enviado (af04581):  72 paginas
+  copia de trabajo :  76 paginas   (ya lleva el teorema de la v2)
+
+  SHA-256 del texto extraido
+    publico : 9d36dbc969d68fada74a708ff07c071647d44337954e53948ca5f0f90a2c62a4
+    enviado : df0cd5aff647f84570bfab42f6b208fbb0460a0bc60f376bc645d3ad83765ba9
+    trabajo : 082acee0424307a067f9421a50397bcd25097947d3553e8e1e3848391eaade0a
+
+  COMPARACION PAGINA A PAGINA (publico contra ENVIADO)
+    paginas que difieren: 1 de 72   -->  [1]
+
+    --- pagina 1, primera divergencia en el caracter 2871 ---
+      publico : ...ements, divided differences, total unimodularity, Newton polytopes, cores and quotients. 1 arXiv:2608.18302v1 [math.CO] 18 Aug 2026...
+      enviado : ...ements, divided differences, total unimodularity, Newton polytopes, cores and quotients. 1...
+
+  Y EL CONTRASTE CON LA COPIA DE TRABAJO (que NO tiene que coincidir: es la v2)
+    paginas que difieren del publico: 71 de 72 ; paginas 72 contra 76
+
+  METADATOS del PDF publico
+    title         : Schur polynomials twisted by roots of unity and reciprocal pairs: torsion filters, fusion quotients, and an equal-rank reduction at odd order
+    author        : Carles Mar�n
+    producer      : pikepdf 8.15.1
+    creator       : arXiv GenPDF (tex2pdf:4af3385)
+    creationDate  : 
+    modDate       : 
+
+====================================================================================================
+DONE

@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # EL LUGAR DEL FILTRO ES GALOIS-INVARIANTE.   16 de agosto de 2026.
 #
-# DE DONDE SALE.  filter_translate.py encontro que a orden impar el lugar regular de tipo B es el de
-# tipo C trasladado por s = 2^{-1}.  Reescrito en exponentes, la traslacion NO es una traslacion:
-#
 #     b = 2u+1  (tipo B),   c = u+s  =>  c = s(2u+1) = s.b .
 #
 # O sea, el vector de exponentes de tipo C es el de tipo B MULTIPLICADO POR LA UNIDAD 2^{-1}.

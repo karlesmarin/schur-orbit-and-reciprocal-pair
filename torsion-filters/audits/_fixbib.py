@@ -4,16 +4,6 @@
 # nombres aparecian en prosa sin enlace -- y CINCO referencias mencionadas no tenian entrada, entre
 # ellas Kostant con ocho menciones, que es el hecho externo mas usado del paper.
 #
-# Las entradas compartidas con el companion se copian VERBATIM de el: ya estan verificadas alli, y
-# asi los dos hermanos citan igual.  Las tres que el companion no tiene se verificaron hoy, una a
-# una, antes de escribirlas:
-#   Kostant   Adv. Math. 20 (1976), 179-212, el articulo donde vive el teorema de los valores
-#             {1,0,-1}; localizado via Prasad arXiv:1402.5504, cuyo titulo lo nombra.
-#   Ostrowski Jahresber. DMV 30 (1921), 98-99, la charla del Mathematikertag de Jena; hay traduccion
-#             inglesa en ACM SIGSAM Bull. 33 (1999), 5.
-#   FSS       Comm. Math. Phys. 180 (1996), 39-97, donde se definen el algebra de orbita y el
-#             caracter twining.
-# Y se adopta el estilo del companion: \bibitem[Etiqueta]{clave}, no numerico.
 import sys
 
 p = 'orbit_pair_ii.tex'

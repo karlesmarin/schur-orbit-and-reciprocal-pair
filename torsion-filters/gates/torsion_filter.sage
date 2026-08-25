@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
 # EL FILTRO DE TORSION  tau_t(eta) = sp_eta(xi, xi^2, ..., xi^m).   15 de agosto de 2026.
 #
-# DE DONDE SALE.  Vuelta 12 de la consulta externa.  Afirma DOS cosas, sin conjetura segun el:
-#
 #   (T)   tau_t(eta) != 0  <=>  a_1..a_m ocupan una vez cada clase {+-1},...,{+-m} mod t,
 #                              con  a_j = eta_j + m - j + 1,   t = 2m+2,  xi = e^{2 pi i / t}
 #   (T')  y cuando ocurre,  tau_t(eta) = +-1.
-#
-# Su lectura: pared => 0, fuera de paredes => plegado con signo.  Es el mecanismo de Kac-Walton /
-# Andersen-Stroppel, verificado en su texto (12_IN, tabla de verificacion).
 #
 # POR QUE ESTO IMPORTA.  Nuestra reduccion dice  Phi_{t,r} = Phi_{2,R}|_{y=(xi,...,xi^m)}  con
 # R = r+m, y el 94-97% de los ceros los crea esa especializacion.  Si (T) vale, el bloque de raices
@@ -141,7 +136,7 @@ for k in range(0, 13):
     suyo = K4((-1) ** (k // 2)) if k % 2 == 0 else K4(0)
     ok = (real == suyo)
     malo5 += (not ok)
-    print("    k=%2d   tau_4(k) = %-6s   el dice %-6s   %s" % (k, real, suyo, "ok" if ok else "*** NO ***"))
+    print("    k=%2d   tau_4(k) = %-6s   predice %-6s   %s" % (k, real, suyo, "ok" if ok else "*** NO ***"))
 print("")
 print("    C5 %s   (n = 13)" % ("PASA" if not malo5 else "*** FALLA en %d de 13 ***" % malo5))
 

@@ -1,7 +1,7 @@
 ==========================================================================================================================
 (R): EL FILTRO ES REGULARIDAD EN EL GRUPO ORIGINAL.  Verificacion independiente, sin Sage.
 ==========================================================================================================================
-  t | G     | rk | eta probados | tau!=0 | (R) en G ORIGINAL | (R) en el DUAL | señuelo A_{m-1}
+  t | G     | rk | eta probados | tau!=0 | (R) en G ORIGINAL | (R) en el DUAL | seï¿½uelo A_{m-1}
   --------------------------------------------------------------------------------------------------------------------
    3 | B_1   |  1 |           10 |      7 |           10 / 10 |        10 / 10 | 7 / 10
    4 | C_1   |  1 |           13 |      7 |           13 / 13 |        10 / 13 | 7 / 13
@@ -27,6 +27,6 @@
    * si (R) en el ORIGINAL acierta el 100 % en las dos paridades, el Lema 3.1 se reenuncia
      como 'regularidad de (eta+rho)(xi) en G' y deja de necesitar tres casos.
    * si el DUAL acierta en t impar y falla en t par, la discrepancia B/C esta medida.
-   * si el señuelo A_{m-1} acierta parecido, las otras dos familias de raices no decidian.
+   * si el seï¿½uelo A_{m-1} acierta parecido, las otras dos familias de raices no decidian.
 ==========================================================================================================================
 DONE

@@ -1,4 +1,4 @@
-# Problem 10.1 has three columns -- o, sp, so -- and the paper answers only two of them.
+# Problem 11.1 has three columns -- o, sp, so -- and the paper answers only two of them.
 #
 #   o :  Lemma 8.9,  o_nu(W,1,-1) = sp_nu(W).  The two letters COLLAPSE the character.
 #   sp:  the branching expansion added in Section 10, sp_nu(W,1,-1) = sum c_{nu/gamma} sp_gamma(W).

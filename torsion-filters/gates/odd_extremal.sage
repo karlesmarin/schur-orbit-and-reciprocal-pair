@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 # LA ESTRUCTURA EXTREMAL DEL LADO IMPAR: ¿por que sale +-1?   16 de agosto de 2026.
 #
-# DE DONDE SALE.  Su vuelta 26 propone demostrar la MITAD IMPAR de la primitividad extremal, donde
-# hay branching genuino, elemento principal y 123/123 casos medidos.  Pero antes de intentar una
-# prueba hay que saber QUE hay que probar, y lo que sabemos no basta:
-#
 #   * 93 de 123 formas tienen UN SOLO eta en mu_max -- pero 30 tienen dos o tres;
 #   * y "un solo eta" no es "un solo termino": varios Lambda pueden aportar el mismo eta.
 #

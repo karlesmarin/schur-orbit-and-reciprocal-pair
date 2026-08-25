@@ -45,7 +45,7 @@ N2  EL PASO -- por que 2, y por que simetrico
      solo ABAJO  s=2                    0 de 60   
 
 ================================================================================================================
-N3  SEÑUELO -- mover un punto INTERIOR en vez de los extremos
+N3  SEï¿½UELO -- mover un punto INTERIOR en vez de los extremos
 ================================================================================================================
 
      mover beta[1] en +2 : 0 de 60 

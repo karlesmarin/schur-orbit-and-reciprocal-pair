@@ -1,0 +1,30 @@
+====================================================================================================
+QUESTION 8.1 CON EL INSTRUMENTO CALIBRADO --- LAS DOS LECTURAS
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+m=1  Sp(2)  t=4  d=2   10 particiones (lambda_1 <= 9)
+----------------------------------------------------------------------------------------------------
+  lectura A  CORRAICES de C_m  (= raices del dual B_m) : 10 de 10   EQUIVALENCIA
+  lectura B  RAICES de C_m     (el propio grupo)       : 5 de 10   falla en 5, p.ej. [((0,), 1, 2), ((2,), -1, 2), ((4,), 1, 2)]
+  Q3  lambda donde las dos lecturas DIFIEREN : 5   el eje ES visible aqui
+      la menor: lambda=(0,)  sp=1  hits(corraiz)=0  hits(raiz)=2
+
+----------------------------------------------------------------------------------------------------
+m=2  Sp(4)  t=6  d=6   55 particiones (lambda_1 <= 9)
+----------------------------------------------------------------------------------------------------
+  lectura A  CORRAICES de C_m  (= raices del dual B_m) : 39 de 55   falla en 16, p.ej. [((1, 0), 0, 0), ((1, 1), 0, 0), ((2, 2), 0, 0)]
+  lectura B  RAICES de C_m     (el propio grupo)       : 55 de 55   EQUIVALENCIA
+  Q3  lambda donde las dos lecturas DIFIEREN : 16   el eje ES visible aqui
+      la menor: lambda=(1, 0)  sp=0  hits(corraiz)=0  hits(raiz)=2
+
+----------------------------------------------------------------------------------------------------
+m=3  Sp(6)  t=8  d=8   220 particiones (lambda_1 <= 9)
+----------------------------------------------------------------------------------------------------
+  lectura A  CORRAICES de C_m  (= raices del dual B_m) : 166 de 220   falla en 54, p.ej. [((1, 0, 0), 0, 0), ((1, 1, 0), 0, 0), ((1, 1, 1), 0, 0)]
+  lectura B  RAICES de C_m     (el propio grupo)       : 220 de 220   EQUIVALENCIA
+  Q3  lambda donde las dos lecturas DIFIEREN : 54   el eje ES visible aqui
+      la menor: lambda=(1, 0, 0)  sp=0  hits(corraiz)=0  hits(raiz)=2
+
+====================================================================================================
+DONE
