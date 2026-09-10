@@ -1,0 +1,73 @@
+============================================================================================
+P1 -- INVENTARIO ESTRUCTURAL
+                              EN    ES
+     ecuaciones en display    52    52
+   OK   P1: mismo numero de ecuaciones en display   EN 52, ES 52
+      ecuaciones numeradas     6     6
+   OK   P1: mismo numero de ecuaciones numeradas   EN 6, ES 6
+                  teoremas     7     7
+   OK   P1: mismo numero de teoremas   EN 7, ES 7
+             proposiciones     5     5
+   OK   P1: mismo numero de proposiciones   EN 5, ES 5
+                corolarios     2     2
+   OK   P1: mismo numero de corolarios   EN 2, ES 2
+             observaciones     1     1
+   OK   P1: mismo numero de observaciones   EN 1, ES 1
+            demostraciones    11    11
+   OK   P1: mismo numero de demostraciones   EN 11, ES 11
+           fichas (keybox)    23    23
+   OK   P1: mismo numero de fichas (keybox)   EN 23, ES 23
+                   figuras     6     6
+   OK   P1: mismo numero de figuras   EN 6, ES 6
+                 secciones    17    17
+   OK   P1: mismo numero de secciones   EN 17, ES 17
+              subsecciones     8     8
+   OK   P1: mismo numero de subsecciones   EN 8, ES 8
+                 etiquetas    46    46
+   OK   P1: mismo numero de etiquetas   EN 46, ES 46
+============================================================================================
+P2 -- LOS MARCADORES DE GUION \ver{}: las dos versiones tienen que citar los MISMOS
+   OK   P2: el mismo conjunto de guiones citados   37 guiones
+   OK   P2: y el mismo numero de citas a guion   EN 48, ES 48
+============================================================================================
+P2b -- TODO \ver{} TIENE QUE NOMBRAR UN GUION DE VERDAD
+   OK   P2b: en EN todo \ver{} nombra un guion .py   []
+   OK   P2b: en ES todo \ver{} nombra un guion .py   []
+   OK   P2b: y todos existen en gates/   []
+   OK   P2b: SENUELO, un marcador vacio SI se detecta y uno bueno no
+============================================================================================
+P3 -- LAS ETIQUETAS Y LAS CITAS
+   OK   P3: las mismas etiquetas   46
+   OK   P3: las mismas fuentes citadas   23
+============================================================================================
+P3b -- REFERENCIAS DEICTICAS: las que LaTeX no puede comprobar
+      ⚠ Al mover la seccion de G2 delante de los avisos, se rompieron TRES referencias que
+        no son \ref y por tanto no dan 'undefined': el bloque de cierre se quedo DENTRO de
+        la seccion de G2, 'the next section' paso a apuntar a los avisos, y 'two paragraphs
+        below' dejo de contar bien.  Un documento con secciones moviles no puede apuntar
+        por posicion.
+   OK   P3b: en EN no hay referencias por posicion de seccion   []
+   OK   P3b: en ES no hay referencias por posicion de seccion   []
+   OK   P3b: en EN la frase de cierre esta DENTRO de la seccion de cierre
+   OK   P3b: en ES la frase de cierre esta DENTRO de la seccion de cierre
+============================================================================================
+P3c -- EL RECUENTO DE PARRAFOS DE PROSA
+      ⚠ La castellana llevaba un parrafo entero DESPUES de su frase de cierre, sin
+        equivalente en ingles, que resucitaba LA OBSTRUCCION FALSA --- 'la diferencia
+        segunda no sale del determinante como un producto' --- desmentida por el lema de
+        filas tres parrafos antes.  Comparar entornos y ecuaciones no lo veia: era prosa.
+   OK   P3c: las dos versiones tienen (casi) los mismos parrafos de prosa   EN 190, ES 191
+   OK   P3c: SENUELO, un parrafo de mas SI se detecta   191 -> 192
+============================================================================================
+P4 -- SENUELO: el control tiene que ver una ecuacion que falte
+   OK   P4: quitar una ecuacion a la castellana SI se detecta
+============================================================================================
+P5 -- ORTOGRAFIA: palabras que SIEMPRE llevan tilde, escritas sin ella
+   OK   P5: ninguna de las 77 palabras vigiladas va sin tilde
+============================================================================================
+P5b -- SENUELOS: los dos casos reales del 9-sep tienen que saltar
+   OK   P5b: una tilde quitada en minusculas SI se detecta   0 -> 1
+   OK   P5b: y con MAYUSCULA inicial tambien --- 'Ahi', el caso que ocurrio   0 -> 1
+============================================================================================
+RESULTADO: la copia castellana tiene la misma estructura que la que viaja,
+           y ninguna palabra de la lista vigilada le falta la tilde.

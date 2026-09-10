@@ -1,0 +1,29 @@
+================================================================================================
+(1) ESTABILIDAD DE GALOIS DEL ESPECTRO   contra   LA CONDICION (I)
+================================================================================================
+  pares (m,q) contrastados: 11800    ACUERDOS 11800    DESACUERDOS 0
+
+================================================================================================
+(2) INTEGRIDAD REAL DE LOS CARACTERES  contra  ESTABILIDAD DE GALOIS
+    chi como limite de  prod_{alpha>0} sin(pi p (l,a)/q) / sin(pi p (rho,a)/q)
+================================================================================================
+  pares (m,q): 44   ACUERDOS 44   DESACUERDOS 0
+============================================================================================
+(U) esta contenida en (I)?  y cuantos puntos hay en (I) y no en (U)?
+============================================================================================
+   en (U) y en (I): 1119      en (U) pero NO en (I): 0   <- deberia ser 0
+   en (I) pero NO en (U): 177   <- enteros, pero con corrector
+   ejemplos: m=2 q=4, m=6 q=4, m=10 q=4, m=14 q=4, m=18 q=4, m=22 q=4, m=26 q=4, m=30 q=4, m=34 q=4, m=38 q=4
+
+============================================================================================
+EL EJEMPLO NUEVO:  Sp(8), q=6, lambda=(2,1,0,0)  ->  dice que vale -6
+============================================================================================
+   2m=8 mod q=2 | 2m+1=9 mod q=3 | 2m+2=10 mod q=4 | q=6 y m mod 3=1
+   en (I): True     en (U): False
+   chi_(2,1,0,0)(g_{1/6}) = -5.999999999999999999999991293763051675754
+   redondeado: -6
+   y el denominador de a_P aqui seria 2m+2 = 10, asi que q=6 NO es potencia de a_P
+
+   y el que separa integridad de cancelacion:  Sp(4), q=4, lambda=(1,0)
+   en (I): True (porque 4 | 2m=4)   en (U): False
+   chi_(1,0)(g_{1/4}) = -2.000000000000000000000001256637061435917   -> entero, y sin embargo |U| = 2

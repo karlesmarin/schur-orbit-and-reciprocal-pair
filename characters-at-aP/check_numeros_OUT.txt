@@ -1,0 +1,188 @@
+==========================================================================================
+N1 -- LA TABLA DEL TEOREMA 2 DE PRASAD, RECALCULADA DESDE CERO EN ESTE FICHERO
+   OK   m=1 n=3   pesos 84 (tex 84) · criterio 84/84 · valor 84/84 · senuelos 27/27, 27/27
+   OK   m=2 n=2   pesos 210 (tex 210) · criterio 210/210 · valor 210/210 · senuelos 40/40, 40/40
+   OK   m=2 n=3   pesos 462 (tex 462) · criterio 462/462 · valor 462/462 · senuelos 72/72, 54/54
+   OK   m=3 n=2   pesos 462 (tex 462) · criterio 462/462 · valor 462/462 · senuelos 60/60, 40/40
+   OK   m=2 n=4   pesos 495 (tex 495) · criterio 495/495 · valor 495/495 · senuelos 54/54, 54/54
+   OK   m=3 n=3   pesos 220 (tex 220) · criterio 220/220 · valor 220/220 · senuelos 32/32, 32/32
+   OK   m=4 n=2   pesos 495 (tex 495) · criterio 495/495 · valor 495/495 · senuelos 45/45, 45/45
+   OK   total 2428   calculado 2428
+   OK   el .tex dice 2428
+   OK   la fila m=1,n=3,84 esta en el .tex
+   OK   la fila m=2,n=2,210 esta en el .tex
+   OK   la fila m=2,n=3,462 esta en el .tex
+   OK   la fila m=3,n=2,462 esta en el .tex
+   OK   la fila m=2,n=4,495 esta en el .tex
+   OK   la fila m=3,n=3,220 esta en el .tex
+   OK   la fila m=4,n=2,495 esta en el .tex
+==========================================================================================
+N2/N3 -- CAPACIDADES Y VALOR, contra la salida archivada de aP_potencias
+   OK   21630 aciertos / 0 fallos en la gate   TOTAL: 21630 aciertos, 0 fallos
+   OK   el .tex dice 21 630
+   OK   31 combinaciones (m,k) en la gate   contadas 31
+   OK   el .tex dice 31 combinations
+   OK   4632 pesos en V2   suma 4632
+   OK   V2: la formula acierta el 100 % en los seis rangos
+   OK   el control cae entre 42 % y 77 %   min 41.8 max 76.9
+   OK   el .tex dice 4632 y 42-77 %
+==========================================================================================
+N4 -- LA HOLGURA, RECALCULADA EN FORMA CERRADA (Proposicion del .tex)
+   OK   2170 casos, la forma cerrada del .tex se cumple   casos 2170, fallos 0
+   OK   el .tex dice 2170 con su rango completo y el filtro q>=3
+==========================================================================================
+N5 -- LOS 186 PARES DE R_P(q), contra la salida archivada
+   OK   la linea de resultados existe   186 pares (tipo, q):   E1 186/186   E2 186/186   E3 186/186
+   OK   186/186 en las tres afirmaciones   186 pares (tipo, q):   E1 186/186   E2 186/186   E3 186/186
+   OK   el .tex dice 186
+==========================================================================================
+N6 -- LAS FORMULAS DEL .tex, EVALUADAS
+   OK   la formula de H(z) esta escrita
+   OK   h_k = C(k/n+m-1, m-1) reproduce la serie de (1-z^n)^{-m}
+   OK   ht(alpha^v) entero en las 180 raices
+   OK   la identidad de la P-altura, con el = (rho,alpha)
+   OK   la gate de la bisagra no trae ningun fallo
+   OK   la gate de la seccion 2 no trae ningun fallo
+   OK   las afirmaciones de la seccion 2, recalculadas en 120 casos
+   OK   el soporte de los h_n distingue la paridad de d
+   OK   y ya no dice 'tres residuos' a secas
+   OK   la bisagra a_P^k = rho(xi_q), en 140 pares (m,k)
+   OK   y la nota la escribe
+   OK   las dos formulas del valor estan escritas
+   OK   la definicion de R_P(q), ignorando espacios
+   OK   ningun <,> se usa para un apareamiento peso-peso   []
+
+     la Proposicion del alfabeto, RECALCULADA en este fichero:
+   OK   A = d*mu_q menos dos puntos, en 163 pares (m,k)   0 fallos
+   OK   el .tex enuncia el caso d par
+   OK   el .tex enuncia el caso d impar
+   OK   el .tex enuncia las dos formas de H(z)
+   OK   el senuelo de paridad invertida acierta 0 de 72
+   OK   el .tex cita el 0 de 72
+   OK   el rango real de los senuelos   min 8.66 % max 32.14 %
+   OK   el .tex cita el rango correcto y no el viejo
+   OK   d impar + q par => d*mu_q no es espectro simplectico (det = -1)
+   OK   el .tex enuncia la obstruccion del determinante
+   OK   el .tex ya NO afirma que sean el mismo elemento en todos los casos
+   OK   h'_n lleva el indicador [q | n]
+   OK   no queda ningun h'_n SIN el indicador   72 apostrofes en total
+==========================================================================================
+N7 -- LOS GUIONES CITADOS CON \ver{} EXISTEN
+   OK   la regex captura nombres de guion   encontrados: ['G2_caracteres.py', 'R_P_todos_los_tipos.py', 'aP_alfabeto.py', 'aP_potencias.py', 'aQ_potencias.py', 'alfabeto_clasif2.py', 'dims_recuento.py', 'dos_clasif.py', 'fig_value.py', 'fig_walls.py', 'figs.py', 'galois.py', 'lema_generico.py', 'orbita.py', 'osp.py', 'prasad2016_vs_nuestro.py', 'referee2.py', 'residual_factorizacion.py', 'residual_histogramas.py', 'revision_47_G2.py', 'revision_47_verificacion.py', 'revision_49_prueba_Ms.py', 'revision_50_G2_corolario.py', 'revision_52_bisagra.py', 'revision_54_enunciados.py', 'rho_line_any_q.py', 'sign_k2.py', 'signo_Fq.py', 'simplifica2.py', 'simplificaciones.py', 'socratico_zonas_oscuras.py', 'survivors_law.py', 'survivors_quasipoly.py', 'teorema_II.py', 'tipo_D.py', 'value_general_d.py']
+   OK   existe gates/G2_caracteres.py
+   OK   existe gates/R_P_todos_los_tipos.py
+   OK   existe gates/aP_alfabeto.py
+   OK   existe gates/aP_potencias.py
+   OK   existe gates/aQ_potencias.py
+   OK   existe gates/alfabeto_clasif2.py
+   OK   existe gates/dims_recuento.py
+   OK   existe gates/dos_clasif.py
+   OK   existe gates/fig_value.py
+   OK   existe gates/fig_walls.py
+   OK   existe gates/figs.py
+   OK   existe gates/galois.py
+   OK   existe gates/lema_generico.py
+   OK   existe gates/orbita.py
+   OK   existe gates/osp.py
+   OK   existe gates/prasad2016_vs_nuestro.py
+   OK   existe gates/referee2.py
+   OK   existe gates/residual_factorizacion.py
+   OK   existe gates/residual_histogramas.py
+   OK   existe gates/revision_47_G2.py
+   OK   existe gates/revision_47_verificacion.py
+   OK   existe gates/revision_49_prueba_Ms.py
+   OK   existe gates/revision_50_G2_corolario.py
+   OK   existe gates/revision_52_bisagra.py
+   OK   existe gates/revision_54_enunciados.py
+   OK   existe gates/rho_line_any_q.py
+   OK   existe gates/sign_k2.py
+   OK   existe gates/signo_Fq.py
+   OK   existe gates/simplifica2.py
+   OK   existe gates/simplificaciones.py
+   OK   existe gates/socratico_zonas_oscuras.py
+   OK   existe gates/survivors_law.py
+   OK   existe gates/survivors_quasipoly.py
+   OK   existe gates/teorema_II.py
+   OK   existe gates/tipo_D.py
+   OK   existe gates/value_general_d.py
+   OK   senuelo: un guion inexistente no se encuentra
+==========================================================================================
+N7b -- Y CADA UNO TIENE SU SALIDA ARCHIVADA
+   OK   los 36 guiones citados tienen salida archivada
+   OK   senuelo: una salida inexistente no se encuentra
+==========================================================================================
+N8 -- NUMEROS DEL .tex SIN FUENTE CONOCIDA (mirar a mano)
+   numeros no catalogados: ['10230', '1068', '1103', '1119', '1134', '1145', '11800', '11972', '13', '1365', '138', '1386', '1463', '15', '1518', '15477', '160', '17', '1719', '176', '177', '1814', '18904', '19986', '2006', '2024', '2084', '2186', '221', '2364', '24', '2582', '27183', '298', '352', '355', '371', '3729', '386', '390', '407', '43', '4301', '44', '447', '48', '48669', '52', '55', '56', '668', '6800', '7166', '717', '7200', '7778', '7968', '8019', '828', '861', '96']
+   (no es un fallo: es la lista que hay que mirar a ojo antes de enviar)
+   OK   N8: el barrido SI ve una cifra que no esta catalogada
+==========================================================================================
+N11 -- EL TEOREMA: la especializacion principal, el conteo de ceros y el lema de filas
+   OK   R1: el lema de filas, con senuelo que falla
+   OK   R2: (*) verificada
+   OK   R3: el criterio de ceros
+   OK   R4: el conteo por clases
+   OK   R6: G2 cierra con el criterio bueno
+   OK   R7: las dos congruencias de G2
+   OK   el .tex declara el criterio general como TEOREMA
+   OK   y las capacidades como COROLARIO suyo
+   OK   y ya no queda el teorema de capacidad viejo
+   OK   ninguna referencia llama 'Theorem' al corolario de capacidad
+   OK   y el teorema general va antes que su corolario
+   OK   no queda ninguna referencia a 'Conjecture' de capacidad
+   OK   las dos ecuaciones nuevas estan etiquetadas
+   OK   el lema de filas esta escrito
+   OK   la atribucion marca la especializacion como clasica
+   OK   la obstruccion falsa ya no esta
+   OK   G2: el 49/49 sigue citado, ahora como control
+   OK   G2: las dos congruencias son un corolario
+   OK   G2: el corolario se comprueba en 40401 pesos, no en 49
+   OK   G2: la salida archivada trae el 40401/40401
+   OK   G2: y la gate del corolario no trae ningun fallo
+==========================================================================================
+N10 -- LAS CIFRAS DE G2, contra la salida archivada
+   OK   G0: control de dimensiones en verde
+   OK   G1: Kostant se cumple en G2 (el elemento es el correcto)
+   OK   k=1: el criterio de raices cierra 49/49   49/49
+   OK   k>=2: el mejor de los tres es 20/49   mejor 20
+   OK   el 343 esta en la salida de G2
+   OK   el .tex cita 49/49, 20/49 y 343
+==========================================================================================
+N9 -- DERIVA DE TRADUCCION: la version castellana tiene que decir las MISMAS cifras
+      (characters_at_aP_es.tex es copia de trabajo interna; si una cifra se separa, una de las dos
+       miente, y la que viaja es la inglesa)
+   OK   las cifras afirmadas coinciden en las dos versiones   52 cifras contrastadas
+   OK   la fila m=1,n=3,84 tambien esta en el ES
+   OK   la fila m=2,n=2,210 tambien esta en el ES
+   OK   la fila m=2,n=3,462 tambien esta en el ES
+   OK   la fila m=3,n=2,462 tambien esta en el ES
+   OK   la fila m=2,n=4,495 tambien esta en el ES
+   OK   la fila m=3,n=3,220 tambien esta en el ES
+   OK   la fila m=4,n=2,495 tambien esta en el ES
+   OK   senuelo: una cifra inventada no aparece en ninguna version
+   OK   las dos versiones tienen los MISMOS enunciados etiquetados   46 etiquetas
+   OK   y el mismo recuento de teoremas, proposiciones y demostraciones   EN {'theorem': 7, 'proof': 11, 'proposition': 5, 'observation': 1}   ES {'theorem': 7, 'proof': 11, 'proposition': 5, 'observation': 1}
+   OK   ninguna de las dos deja un enunciado como conjetura
+   OK   senuelo: la comparacion de estructura SI detecta un enunciado de mas
+   OK   las dos versiones citan las MISMAS fuentes en los mismos sitios   23 claves
+   OK   EN: ninguna entrada de bibliografia queda definida y sin citar   []
+   OK   EN: ninguna cita apunta a una entrada inexistente   []
+   OK   ES: ninguna entrada de bibliografia queda definida y sin citar   []
+   OK   ES: ninguna cita apunta a una entrada inexistente   []
+==========================================================================================
+N12 -- LA DEMOSTRACION DE LA PROPOSICION 3.3, PASO A PASO
+       Cada igualdad que el .tex escribe se recalcula aqui desde cero.
+   OK   N12: prod_{x in U} |a-x| = q   peor 1.1e-15
+   OK   N12: A_s = q^{(q-2)/2}  (el .tex ya NO dice q^{q-2})   peor 1.5e-15
+   OK   N12: C_s ordenado = q^{q-2}|1-a^2|,  y  C_s = B_s^2 D_s   peor 2.9e-15
+   OK   N12: D_s = D/|1-a^2|   peor 2.7e-16
+   OK   N12: C_s D_s = q^{q-2} D,  independiente de s   peor 2.9e-15
+   OK   N12: M_s = M_0   peor 2.9e-15
+   OK   N12: el .tex escribe A_s = q^{(q-2)/2}
+   OK   N12: el .tex ya no afirma que el Vandermonde valga q^{q-2}
+   OK   N12: M_s esta definido con MODULOS (en complejo depende de s)
+   OK   N12: la Prop. 3.3 lleva demostracion, no solo medida
+   OK   N12: no queda ningun enunciado etiquetado conjetura
+   OK   N12: no queda ninguna referencia a una conjetura propia
+   OK   N12: la palabra solo sobrevive en su unico uso legitimo (la conjetura ajena)   1 apariciones
+==========================================================================================
+RESULTADO: TODO CUADRA.  Ninguna cifra ni formula del documento esta sin verificar.

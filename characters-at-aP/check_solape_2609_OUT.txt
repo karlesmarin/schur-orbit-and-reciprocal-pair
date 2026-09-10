@@ -1,0 +1,24 @@
+nuestro: 13993 palabras de prosa    2609.02630: 6922 palabras
+================================================================================================
+X1 -- PROSA COMPARTIDA
+   12-gramas compartidos: 0
+    9-gramas compartidos: 0
+    7-gramas compartidos: 0
+================================================================================================
+X2 -- LOS OBJETOS NUESTROS, BUSCADOS EN SU TEXTO
+   OK   el caracter simplectico en una raiz de la unidad 
+   OK   nuestra recta de rho / a_P                       
+   OK   la clasificacion q | 2m, 2m+1, 2m+2              
+   OK   la excepcion q=6, m = 1 mod 3                    
+  MIRAR el alfabeto de residuos                          ['alphabet']
+  MIRAR clases de equivalencia                           ['equivalence class']
+   OK   dimensiones / factorizacion en dimensiones       
+   OK   Sp(2m) / grupo simplectico                       
+  MIRAR integridad de caracteres                         ['integer']
+================================================================================================
+X3 -- SENUELO: algo que SI comparten tiene que salir
+   'carles mar':  nuestro=False  suyo=True
+   'orbifold':  nuestro=False  suyo=True
+   OK   X3: el control ve el texto del otro articulo
+================================================================================================
+RESULTADO: sin prosa reaprovechada y sin objeto compartido con arXiv:2609.02630.

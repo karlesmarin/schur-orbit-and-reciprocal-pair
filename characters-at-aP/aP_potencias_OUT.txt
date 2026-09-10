@@ -1,0 +1,99 @@
+============================================================================================
+C0 -- QUE VARIANTE DE JACOBI-TRUDI SIMPLECTICA ES LA CORRECTA (punto regular, bialternante)
+     A: det(h_{l_i-i+j} - h_{l_i-i-j})        B: (1/2) det(h_{l_i-i+j} + h_{l_i-i-j+2})
+     m=2: 15 pesos   variante A: 3/15   variante B: 15/15   <- B es la buena, y A falla: el test puede fallar
+     m=3: 35 pesos   variante A: 4/35   variante B: 35/35   <- B es la buena, y A falla: el test puede fallar
+     m=4: 70 pesos   variante A: 5/70   variante B: 70/70   <- B es la buena, y A falla: el test puede fallar
+============================================================================================
+C1 -- EL ALFABETO DE a_P^2 COLAPSA:  H(z) = ((1-z)/(1-z^{m+1}))^2,  h_n ENTEROS
+     m=2: max|h_serie - h_forma_cerrada| = 9.67e-14   h_n reales: True   h_0..h_8 = [1, -2, 1, 2, -4, 2, 3, -6, 3]
+     m=3: max|h_serie - h_forma_cerrada| = 6.04e-14   h_n reales: True   h_0..h_8 = [1, -2, 1, 0, 2, -4, 2, 0, 3]
+     m=4: max|h_serie - h_forma_cerrada| = 3.40e-14   h_n reales: True   h_0..h_8 = [1, -2, 1, 0, 0, 2, -4, 2, 0]
+     m=5: max|h_serie - h_forma_cerrada| = 4.87e-14   h_n reales: True   h_0..h_8 = [1, -2, 1, 0, 0, 0, 2, -4, 2]
+     m=6: max|h_serie - h_forma_cerrada| = 3.60e-14   h_n reales: True   h_0..h_8 = [1, -2, 1, 0, 0, 0, 0, 2, -4]
+============================================================================================
+V1 -- REGLA DE CAPACIDAD.   d = gcd(k,t),  q = t/d = orden de a_P^k
+     chi != 0  <=>  cada clase plegada mod q recibe <= d filas (<= floor(d/2) si es fija)
+     k=1 da (1,0), que es el Teorema 4.1 de la nota: clase fija -> 0, colision -> 0
+
+  m   k    q   cap  capF   pesos  aciertos  fallos
+  2   1    6     1     0      45        45       0
+  2   2    3     2     1      45        45       0
+  2   4    3     2     1      45        45       0
+  2   5    6     1     0      45        45       0
+  3   1    8     1     0     165       165       0
+  3   2    4     2     1     165       165       0
+  3   3    8     1     0     165       165       0
+  3   5    8     1     0     165       165       0
+  3   6    4     2     1     165       165       0
+  4   1   10     1     0     495       495       0
+  4   2    5     2     1     495       495       0
+  4   3   10     1     0     495       495       0
+  4   4    5     2     1     495       495       0
+  4   6    5     2     1     495       495       0
+  5   1   12     1     0     462       462       0
+  5   2    6     2     1     462       462       0
+  5   3    4     3     1     462       462       0
+  5   4    3     4     2     462       462       0
+  5   5   12     1     0     462       462       0
+  6   1   14     1     0     924       924       0
+  6   2    7     2     1     924       924       0
+  6   3   14     1     0     924       924       0
+  6   4    7     2     1     924       924       0
+  6   5   14     1     0     924       924       0
+  6   6    7     2     1     924       924       0
+  7   1   16     1     0    1716      1716       0
+  7   2    8     2     1    1716      1716       0
+  7   3   16     1     0    1716      1716       0
+  7   4    4     4     2    1716      1716       0
+  7   5   16     1     0    1716      1716       0
+  7   6    8     2     1    1716      1716       0
+
+     TOTAL: 21630 aciertos, 0 fallos
+============================================================================================
+V2 -- EL VALOR EN a_P^2.   |chi| = prod_bloques (dimension de Weyl)
+     clase no fija con dos filas -> |ell_i -+ ell_j| / q   (el signo que hace entero)
+     clase fija con una fila     -> 2*ell_i / q
+     CONTROL: quitando el factor de las clases fijas la formula debe EMPEORAR
+
+  m    q   pesos   |chi| = pred   CONTROL sin fijas   #fact = |R_P^+|
+  2    3      45          45/45               24/45                42
+  3    4     165        165/165              69/165               111
+  4    5     495        495/495             295/495               300
+  5    6    1287      1287/1287            827/1287               520
+  6    7     924        924/924             672/924               360
+  7    8    1716      1716/1716           1320/1716               450
+============================================================================================
+V3 -- LA DUALIDAD.   R_P(q) en C_m, leido por corraices,  frente a  R(q) = {ht = 0 mod q} en B_m
+     control: alturas de las raices simples de B_m (deben ser todo 1)
+        m=3: [1, 1, 1]
+        m=5: [1, 1, 1, 1, 1]
+
+  m   k    q  |R_P(q)|  |R(q) en B|  iguales   diferencia
+  2   1    6         0            0       SI   
+  2   2    3         1            1       SI   
+  2   3    2         2            1       NO   solo a_P: {'corta': 1}   solo Coxeter: {}
+  3   1    8         0            0       SI   
+  3   2    4         2            1       NO   solo a_P: {'corta': 1}   solo Coxeter: {}
+  3   4    2         5            3       NO   solo a_P: {'corta': 2}   solo Coxeter: {}
+  4   1   10         0            0       SI   
+  4   2    5         2            2       SI   
+  5   1   12         0            0       SI   
+  5   2    6         3            2       NO   solo a_P: {'corta': 1}   solo Coxeter: {}
+  5   3    4         5            4       NO   solo a_P: {'corta': 1}   solo Coxeter: {}
+  5   4    3         7            7       SI   
+  6   1   14         0            0       SI   
+  6   2    7         3            3       SI   
+  7   1   16         0            0       SI   
+  7   2    8         4            3       NO   solo a_P: {'corta': 1}   solo Coxeter: {}
+  7   4    4        11            9       NO   solo a_P: {'corta': 2}   solo Coxeter: {}
+  8   1   18         0            0       SI   
+  8   2    9         4            4       SI   
+  8   3    6         8            7       NO   solo a_P: {'corta': 1}   solo Coxeter: {}
+
+     LECTURA: coinciden exactamente cuando q es IMPAR.  Cuando q es par, R_P(q) es
+     ESTRICTAMENTE MAYOR, y lo que sobra son siempre corraices e_i --- las raices LARGAS
+     2e_i de C_m con q | 2<e_i,rho> pero q no divide <e_i,rho>, o sea <e_i,rho> = q/2.
+     Es la clase plegada FIJA q/2: la misma unica raiz larga que en la nota bloquea t=h y
+     crea el segundo mecanismo de anulacion.  Un solo objeto, ahora en tres sitios.
+============================================================================================

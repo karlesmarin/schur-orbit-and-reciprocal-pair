@@ -1,0 +1,7 @@
+fig_map.pdf
+fig_capacity.pdf
+fig_folding.pdf
+fig_types.pdf
+fig_values.pdf
+fig_union3d.pdf
+OK

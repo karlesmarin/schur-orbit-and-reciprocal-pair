@@ -1,0 +1,18 @@
+====================================================================================================
+REGLA DEL ALFABETO  contra  LA CLASIFICACION
+====================================================================================================
+  ACUERDOS 507   DESACUERDOS 0
+
+====================================================================================================
+LAS CUATRO FAMILIAS, EN LENGUAJE DE ALFABETO
+====================================================================================================
+  esporadica q=6, v=1
+       ej: m=1,q=6 faltan r=nada | m=7,q=6 faltan r=nada | m=13,q=6 faltan r=nada
+  v=0    : A = c.mu_q EXACTO           (alfabeto completo)
+       ej: m=2,q=2 faltan r=nada | m=4,q=2 faltan r=nada | m=6,q=2 faltan r=nada
+  v=a, q impar : A = c.mu_q - {1}      (UNA letra, el punto fijo r=0)
+       ej: m=1,q=3 faltan r=[0] | m=4,q=3 faltan r=[0] | m=7,q=3 faltan r=[0]
+  v=a, q par   : A = c.mu_q - {1, -1}  (los dos puntos fijos)
+       ej: m=1,q=4 faltan r=[0, 2] | m=5,q=4 faltan r=[0, 2] | m=9,q=4 faltan r=[0, 2]
+  v=q-1  : A = c.mu_q - {1, 1}         (dos veces el punto fijo r=0)
+       ej: m=1,q=2 faltan r=[0, 0] | m=3,q=2 faltan r=[0, 0] | m=5,q=2 faltan r=[0, 0]

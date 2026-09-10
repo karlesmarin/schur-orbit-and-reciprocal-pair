@@ -1,0 +1,39 @@
+================================================================================================
+(1) ESTABILIDAD DE GALOIS DEL ESPECTRO   contra   LA CONDICION (I)
+================================================================================================
+  pares (m,q) contrastados: 11800    ACUERDOS 11800    DESACUERDOS 0
+
+================================================================================================
+(2) INTEGRIDAD REAL DE LOS CARACTERES  contra  ESTABILIDAD DE GALOIS
+    chi como limite de  prod_{alpha>0} sin(pi p (l,a)/q) / sin(pi p (rho,a)/q)
+================================================================================================
+  pares (m,q): 44   ACUERDOS 44   DESACUERDOS 0
+====================================================================================================
+(a)  Z_q(l)/Z_q(rho) = kappa . D(lambda,q)  con kappa in {1,2},  para CUALQUIER q
+====================================================================================================
+   supervivientes contrastados: 2186   fuera de la forma kappa.D: 0
+   reparto de kappa: {1: 1518, 2: 668}
+
+====================================================================================================
+(b)  chi = +- gamma . D   con gamma in {1,2,3,4,6},  bajo la condicion (I)
+====================================================================================================
+   supervivientes contrastados: 828   con gamma fuera de {1,2,3,4,6}: 0
+   reparto de gamma: {1: 501, 2: 291, 3: 9, 4: 18, 6: 9}
+================================================================================================
+H0 -- LA FORMA DE LA PROP. 8.5, CONTRA EL HISTOGRAMA CONTADO A MANO
+   44499 casos (q, rango, x, tipo)
+   OK   H0: (P^2 +- P(X^2))/2 - n es el histograma de <x,alpha> sobre las raices
+================================================================================================
+H1 -- LA IDENTIDAD:  R_ell^{C_m} - R_rho^{C_m}  =  R_s^H - R_{rho_H}^H
+H2 -- y el reparto por tipo: v<=a da C, v>a da D
+   3729 supervivientes con perfil minimo
+   OK   H1: la identidad de histogramas se cumple en los 3729
+   reparto (regimen, tipo residual): {('v<=a', 'C'): 1365, ('v>a', 'D'): 2364}
+   OK   H2: v<=a siempre da tipo C y v>a siempre da tipo D
+================================================================================================
+H3 -- SENUELOS: tres maneras de romper la identidad
+   OK   H3: usar el tipo equivocado (C por D)        rompe 447 de 1103
+   OK   H3: desplazar eta en uno                     rompe 407 de 1103
+   OK   H3: no restar el rho del grupo residual      rompe 717 de 1103
+================================================================================================
+RESULTADO: la identidad de histogramas se sostiene, y es la que explica la factorizacion.

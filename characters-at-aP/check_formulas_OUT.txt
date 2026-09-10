@@ -1,0 +1,24 @@
+   fuente Lec07a   lecouvey_math_0607038.txt  (74260 caracteres)
+   fuente AK22     arxiv_2109.11310.txt  (78551 caracteres)
+   fuente CMP06    cellini_moseneder_papi_math_0507610.txt  (44238 caracteres)
+   fuente Kar24    karmakar_2412.17324.txt  (29628 caracteres)
+====================================================================================================
+F1/F2 -- CADA FORMULA ATRIBUIDA, TOKEN A TOKEN, EN LA VENTANA DE SU FUENTE
+   OK   Lecouvey, Delta de la clase 0: lleva r<=s, o sea la raiz LARGA --- tipo C, no D
+   OK   Lecouvey, Delta de los pares plegados: solo i<j --- tipo A
+   OK   Lecouvey, la semisuma del bloque de tipo B: (1/2, ..., r_p-1/2)
+   OK   AK22 Thm 2.11(2): el factor ortogonal so_{lambda(t/2-1)}(X^t), en la rama t PAR
+   OK   CMP Cor. 3.2: el criterio con 1/2 Z, y el signo con el SUELO DE 2(lambda+rho,alpha)
+   OK   Karmakar Thm 5.1: las dos recetas van con /2
+====================================================================================================
+F3 -- Y LA FORMULA QUE EL ARTICULO IMPRIME LLEVA ESOS MISMOS TOKENS
+   OK   el articulo escribe el Delta de la clase 0 con r\le s, no con r<s
+   OK   y la semisuma del bloque B con r_p - 1/2
+====================================================================================================
+F4 -- SENUELOS: cambiar un token TIENE que romperlo
+   OK   F4: 'r<s' NO esta en la ventana de la clase 0 --- si estuviera, seria tipo D
+   OK   F4: y el articulo NO imprime la version con r<s
+   OK   F4: un operando cambiado (x_t por x_s) tampoco esta
+   OK   F4: y un token INVENTADO no se encuentra en esa ventana --- F1 sabe fallar
+====================================================================================================
+RESULTADO: las formulas que atribuimos coinciden, token a token, con las de su fuente.

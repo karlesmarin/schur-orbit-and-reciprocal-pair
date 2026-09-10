@@ -1,0 +1,44 @@
+============================================================================================
+B1/B2/B3 -- a_P^k = rho(xi_q):  el espectro de rho(xi_q) ES el alfabeto de la Prop. 2.1
+  m    t   k   d    q  ord(zeta^k)  espectros iguales
+  2    6   1   1    6            6               True
+  2    6   2   2    3            3               True
+  2    6   3   3    2            2               True
+  5   12   1   1   12           12               True
+  5   12   2   2    6            6               True
+  5   12   3   3    4            4               True
+   OK   B1-B3: rho(xi_q) tiene el alfabeto de a_P^k, y xi_q es primitiva q-esima   140/140
+============================================================================================
+B4/B5 -- (rho, alpha) = ht_P(alpha),  y por tanto R_P(q) se puede leer de las dos maneras
+ tipo  raices+  (rho,a)=ht_P?  R_P(q) igual?  senuelo co-altura
+   B3        9           True           True               True
+   OK   B4 B3: (rho,alpha) = ht_P(alpha) en las 9 raices positivas
+   OK   B5 B3: R_P(q) igual por las dos lecturas, q=2..24
+   OK   B6 B3: la co-altura sola NO coincide (la distincion no es vacia)   6 de 9 raices difieren
+   B4       16           True           True               True
+   OK   B4 B4: (rho,alpha) = ht_P(alpha) en las 16 raices positivas
+   OK   B5 B4: R_P(q) igual por las dos lecturas, q=2..24
+   OK   B6 B4: la co-altura sola NO coincide (la distincion no es vacia)   12 de 16 raices difieren
+   C3        9           True           True               True
+   OK   B4 C3: (rho,alpha) = ht_P(alpha) en las 9 raices positivas
+   OK   B5 C3: R_P(q) igual por las dos lecturas, q=2..24
+   OK   B6 C3: la co-altura sola NO coincide (la distincion no es vacia)   3 de 9 raices difieren
+   C4       16           True           True               True
+   OK   B4 C4: (rho,alpha) = ht_P(alpha) en las 16 raices positivas
+   OK   B5 C4: R_P(q) igual por las dos lecturas, q=2..24
+   OK   B6 C4: la co-altura sola NO coincide (la distincion no es vacia)   4 de 16 raices difieren
+   C5       25           True           True               True
+   OK   B4 C5: (rho,alpha) = ht_P(alpha) en las 25 raices positivas
+   OK   B5 C5: R_P(q) igual por las dos lecturas, q=2..24
+   OK   B6 C5: la co-altura sola NO coincide (la distincion no es vacia)   5 de 25 raices difieren
+   F4       24           True           True               True
+   OK   B4 F4: (rho,alpha) = ht_P(alpha) en las 24 raices positivas
+   OK   B5 F4: R_P(q) igual por las dos lecturas, q=2..24
+   OK   B6 F4: la co-altura sola NO coincide (la distincion no es vacia)   12 de 24 raices difieren
+   G2        6           True           True               True
+   OK   B4 G2: (rho,alpha) = ht_P(alpha) en las 6 raices positivas
+   OK   B5 G2: R_P(q) igual por las dos lecturas, q=2..24
+   OK   B6 G2: la co-altura sola NO coincide (la distincion no es vacia)   3 de 6 raices difieren
+============================================================================================
+RESULTADO: la bisagra a_P^k = rho(xi_q) se cumple, y (rho,alpha) = ht_P(alpha) tambien.
+           Las dos se pueden escribir en la nota.

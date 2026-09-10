@@ -1,0 +1,48 @@
+============================================================================================
+B1/B2 -- CADA ENTRADA CONTRA SU REGISTRO, EN LAS DOS EDICIONES
+   EN: 23 entradas en la bibliografia
+   ES: 23 entradas en la bibliografia
+   OK   EN/AF02  Adv. Appl. Math. 33 (2004), 492--511
+   OK   ES/AF02  Adv. Appl. Math. 33 (2004), 492--511
+   OK   EN/AK22  J. Algebra 609 (2022), 437--483
+   OK   ES/AK22  J. Algebra 609 (2022), 437--483
+   OK   EN/AK25  J. Algebraic Combin. 63 (2026), art. 2, 32 pp.
+   OK   ES/AK25  J. Algebraic Combin. 63 (2026), art. 2, 32 pp.
+   OK   EN/Alb25  sin revista, y la entrada no la finge
+   OK   ES/Alb25  sin revista, y la entrada no la finge
+   OK   EN/CMP06  J. Pure Appl. Algebra 208 (2007), no. 3, 1103--1119
+   OK   ES/CMP06  J. Pure Appl. Algebra 208 (2007), no. 3, 1103--1119
+   OK   EN/KP24  J. Algebra 676 (2025), 69--81
+   OK   ES/KP24  J. Algebra 676 (2025), 69--81
+   OK   EN/Kar24  Proc. Indian Acad. Sci. Math. Sci. 135 (2025), art. 41
+   OK   ES/Kar24  Proc. Indian Acad. Sci. Math. Sci. 135 (2025), art. 41
+   OK   EN/Kum24  J. Pure Appl. Algebra 228 (2024), 107714
+   OK   ES/Kum24  J. Pure Appl. Algebra 228 (2024), 107714
+   OK   EN/LP20  J. Combin. Theory Ser. A 179 (2021), 105368
+   OK   ES/LP20  J. Combin. Theory Ser. A 179 (2021), 105368
+   OK   EN/Lec07a  European J. Combin. 30 (2009), 157--191
+   OK   ES/Lec07a  European J. Combin. 30 (2009), 157--191
+   OK   EN/Lec07b  J. Combin. Theory Ser. A 116 (2009), 757--771
+   OK   ES/Lec07b  J. Combin. Theory Ser. A 116 (2009), 757--771
+   OK   EN/NPP25  sin revista, y la entrada no la finge
+   OK   ES/NPP25  sin revista, y la entrada no la finge
+   OK   EN/OP1  sin revista, y la entrada no la finge
+   OK   ES/OP1  sin revista, y la entrada no la finge
+   OK   EN/OP2  sin revista, y la entrada no la finge
+   OK   ES/OP2  sin revista, y la entrada no la finge
+   OK   EN/Polo25  sin revista, y la entrada no la finge
+   OK   ES/Polo25  sin revista, y la entrada no la finge
+   OK   EN/Prasad16  Forum Math. 28 (2016), no. 1, 193--199
+   OK   ES/Prasad16  Forum Math. 28 (2016), no. 1, 193--199
+============================================================================================
+B3 -- PARIDAD: las dos ediciones citan lo mismo
+   OK   mismo juego de entradas  (23 vs 23)
+   OK   mismo arXiv y mismas cifras en cada entrada
+============================================================================================
+B4 -- SENUELOS: el control tiene que fallar cuando toca
+   OK   B4: un volumen cambiado (CMP 208 -> 209) SI se detecta
+   OK   B4: una revista inventada donde no hay ninguna (Kar24) SI se detecta
+   OK   B4: un arXiv perdido en la castellana (Kum24, el caso real del 9-sep) SI se detecta
+============================================================================================
+RESULTADO: cada referencia de publicacion esta comprobada contra su fuente,
+           las dos ediciones citan lo mismo, y lo que no tiene revista no la finge.

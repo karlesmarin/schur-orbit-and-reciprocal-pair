@@ -1,0 +1,21 @@
+================================================================================================
+T3 -- CONTROL DEL INSTRUMENTO y recogida de datos
+   m= 2  q= 3  supervivientes      60   discrepancias |chi| vs prod D_c: 0
+   m= 3  q= 4  supervivientes     189   discrepancias |chi| vs prod D_c: 0
+   m= 4  q= 5  supervivientes     585   discrepancias |chi| vs prod D_c: 0
+   m= 5  q= 6  supervivientes    1100   discrepancias |chi| vs prod D_c: 0
+   m= 6  q= 7  supervivientes     648   discrepancias |chi| vs prod D_c: 0
+   m= 7  q= 8  supervivientes     828   discrepancias |chi| vs prod D_c: 0
+   m= 8  q= 9  supervivientes     405   discrepancias |chi| vs prod D_c: 0
+   m= 9  q=10  supervivientes     486   discrepancias |chi| vs prod D_c: 0
+================================================================================================
+T4 -- ¿DEPENDE EL SIGNO SOLO DE LA FORMA?   patron = que clases llevan 0, 1 o 2 filas
+   32 patrones distintos; el signo es constante en 0 de ellos
+   CONTRAEJEMPLO minimo:  m=2, patron ((0, 1), (1, 1))
+      lambda=(10, 10) da signo +   y   lambda=(10, 9) da signo -
+   => el signo NO es funcion del patron de ocupacion: mira los numeros, no la forma.
+================================================================================================
+T1/T2 -- LEY DEL SIGNO: se ajusta con m<=6 y se valida en m=7,8,9
+   NO hay ninguna combinacion lineal de estas paridades que de el signo.
+   RESULTADO: el signo NO es una paridad de estos quince estadisticos.  Queda abierto,
+              y ahora se sabe que no esta aqui.

@@ -1,0 +1,31 @@
+   fuente CMP06      cellini_moseneder_papi_math_0507610.txt  (44240 caracteres)
+   fuente NPP25      NPP25_2504.14684.txt  (107307 caracteres)
+   fuente Kar24      karmakar_2412.17324.txt  (29628 caracteres)
+   fuente Prasad16b  _prasad_israe.txt  (26386 caracteres)
+   fuente AK22       arxiv_2109.11310.txt  (78552 caracteres)
+   fuente Kum24      kumari_2212.12477.txt  (74229 caracteres)
+   fuente Lec07a     lecouvey_math_0607038.txt  (74263 caracteres)
+   fuente Lec07b     lecouvey_math_0703514.txt  (37386 caracteres)
+   fuente AK25       arxiv_2501.00275.txt  (58999 caracteres)
+================================================================================================
+M1/M2 -- CADA RESULTADO NUMERADO, EN SU FUENTE, Y CON SU CONTENIDO CERCA
+   OK   CMP Cor. 3.2 --- el criterio, literal
+   OK   CMP Cor. 3.2 --- ...y que ahi lambda cae en el reticulo de raices
+   OK   CMP Prop. 3.5 --- nuestro conj:cap con d=1   ('proposition 3.5' aparece 2 vez/veces)
+   OK   NPP Cor. 3.7 --- el recuento en el estadistico de CORRAICES   ('corollary 3.7' aparece 5 vez/veces)
+   OK   NPP Prop. 3.8 --- los dos miembros como centralizadores   ('proposition 3.8' aparece 3 vez/veces)
+   OK   Karmakar Thm 5.1 --- es de Sp(2n,C)
+   OK   AK22 Thm 2.11 --- es de Sp_{2tn}
+   OK   AK22 Thm 2.11 --- su rama que factoriza
+   OK   Kumari Thm 2.2 --- el alfabeto con una tirada parcial   ('theorem 2.2' aparece 7 vez/veces)
+   OK   Kumari Thm 2.8 --- el alfabeto con una letra de mas, en el grupo SIMPLECTICO
+   OK   Kumari Thm 2.8 --- y su alfabeto lleva la letra suelta y
+   OK   Lec07a Thm 3.2.3 --- es el caso ell IMPAR
+   OK   Lec07a Prop 3.2.5 --- es de Sp_2n
+   OK   Lec07b Thm 4.5.1
+================================================================================================
+M3 -- SENUELOS
+   OK   M3: un numero inventado NO se encuentra
+   OK   M3: y la ventana discrimina --- el Thm 5.1 de Karmakar no abre hablando de SO(2n+1)
+================================================================================================
+RESULTADO: los resultados numerados que atribuimos existen y dicen lo que les atribuimos.

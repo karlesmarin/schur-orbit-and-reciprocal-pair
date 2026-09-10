@@ -1,0 +1,20 @@
+====================================================================================================
+B1 -- LAS FORMULAS ENMARCADAS SIGUEN AHI
+   \boxed en el .tex: 11
+   OK   B1: son once, como cuando se hizo este mapa
+====================================================================================================
+B2 -- CADA UNA CON SU GUION, SU SALIDA Y LA FRASE QUE LA ACREDITA
+   OK   la forma de Weyl en la recta, y que p se cae               referee2.py
+   OK   el criterio: no anularse <=> N_q(ell) = r_q                revision_47_verificacion.py
+   OK   el signo por residuos ordenados, F_q                       referee2.py
+   OK   la factorizacion en dimensiones, por clases                dims_recuento.py
+   OK   el lema de residuos (Prop. 8.5)                            referee2.py
+   OK   el lema de residuos leido como caracter de la adjunta      simplifica2.py
+   OK   la diferencia de histogramas es la de otro grupo (Prop. 8.6) residual_histogramas.py
+   OK   el modulo factorizado, kappa D_0 D_{q/2} prod D_c          teorema_II.py
+   OK   el recuento cerrado, todo q                                dims_recuento.py
+====================================================================================================
+B3 -- SENUELO
+   OK   B3: una frase inventada NO se encuentra en la salida --- B2 sabe fallar
+====================================================================================================
+RESULTADO: cada formula enmarcada tiene guion, salida archivada y frase que la acredita.

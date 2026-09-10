@@ -1,0 +1,66 @@
+================================================================================================
+R1 -- CITAS: toda \cite tiene entrada, y toda entrada se cita
+   OK   characters_at_aP: ninguna cita sin entrada   []
+   OK   characters_at_aP: ninguna entrada sin citar   []
+   OK   characters_at_aP_es: ninguna cita sin entrada   []
+   OK   characters_at_aP_es: ninguna entrada sin citar   []
+================================================================================================
+R2 -- FIGURAS: pie, etiqueta y al menos una referencia en el texto
+   characters_at_aP: 6 figuras
+   OK   characters_at_aP: fig_map.pdf (fig:map) referenciada en el texto   2 referencias
+   OK   characters_at_aP: fig_capacity.pdf (fig:capacity) referenciada en el texto   1 referencias
+   OK   characters_at_aP: fig_value.pdf (fig:value) referenciada en el texto   1 referencias
+   OK   characters_at_aP: fig_union3d.pdf (fig:union3d) referenciada en el texto   2 referencias
+   OK   characters_at_aP: fig_walls.pdf (fig:walls) referenciada en el texto   1 referencias
+   OK   characters_at_aP: fig_types.pdf (fig:types) referenciada en el texto   3 referencias
+   characters_at_aP_es: 6 figuras
+   OK   characters_at_aP_es: fig_map.pdf (fig:map) referenciada en el texto   2 referencias
+   OK   characters_at_aP_es: fig_capacity.pdf (fig:capacity) referenciada en el texto   1 referencias
+   OK   characters_at_aP_es: fig_value.pdf (fig:value) referenciada en el texto   1 referencias
+   OK   characters_at_aP_es: fig_union3d.pdf (fig:union3d) referenciada en el texto   2 referencias
+   OK   characters_at_aP_es: fig_walls.pdf (fig:walls) referenciada en el texto   1 referencias
+   OK   characters_at_aP_es: fig_types.pdf (fig:types) referenciada en el texto   3 referencias
+================================================================================================
+R3 -- DUPLICADOS: parrafos largos repetidos (firma de un bloque pegado dos veces)
+   OK   characters_at_aP: ningun parrafo largo duplicado   0 duplicados
+   OK   characters_at_aP_es: ningun parrafo largo duplicado   0 duplicados
+================================================================================================
+R4 -- HUERFANAS: remisiones que apuntan a una seccion posterior con 'above/arriba'
+   OK   characters_at_aP: ninguna remision 'arriba' a una seccion posterior   []
+   OK   characters_at_aP_es: ninguna remision 'arriba' a una seccion posterior   []
+================================================================================================
+R5 -- OBSOLETAS: el articulo no puede seguir declarando abierto lo que ya cierra
+   OK   characters_at_aP: no dice «the general value is open»   el valor general ya no esta abierto
+   OK   characters_at_aP: no dice «even the absolute value is open»   el valor absoluto en d>=3 ya no esta abierto
+   OK   characters_at_aP: no dice «its sign, open»   el signo ya no esta abierto: Teorema del valor con signo
+   OK   characters_at_aP: no dice «what its sign is, I do not know»   idem
+   OK   characters_at_aP: no dice «the sign I have not determined»   idem
+   OK   characters_at_aP_es: no dice «el valor general está abierto»   el valor general ya no esta abierto
+   OK   characters_at_aP_es: no dice «está abierto hasta el valor absoluto»   idem
+   OK   characters_at_aP_es: no dice «el signo, abierto»   el signo ya no esta abierto
+   OK   characters_at_aP_es: no dice «cuál es su signo, no lo sé»   idem
+   OK   characters_at_aP_es: no dice «su signo no lo he determinado»   idem
+================================================================================================
+R6 -- PREGUNTAS: las abiertas no pueden estar contestadas en el propio articulo
+   OK   characters_at_aP: seis preguntas   6
+      - What is the value in the other three families?
+      - Which group has the $D_c$ as its representations?
+      - What do the two deleted letters do to the quotient?
+      - Outside type $C$, the open half is the modulus, not the sign.
+      - What is the count outside type $C$?
+      - The $\rho$-line does not contain $a_Q$: what family contains both?
+   OK   characters_at_aP: ninguna pregunta se contesta a si misma
+   OK   characters_at_aP_es: seis preguntas   6
+      - ¿Cuánto vale en las otras tres familias?
+      - ¿De qué grupo son representaciones los $D_c$?
+      - ¿Qué le hacen al cociente las dos letras borradas?
+      - Fuera del tipo $C$, la mitad abierta es el módulo, no el signo.
+      - ¿Cuál es el recuento fuera del tipo $C$?
+      - La recta de $\rho$ no contiene a $a_Q$: ¿qué familia contiene a los dos?
+   OK   characters_at_aP_es: ninguna pregunta se contesta a si misma
+================================================================================================
+R7 -- HUECOS: paginas con poca tinta
+   characters_at_aP: 33 paginas; con menos de 900 caracteres y sin figura: []
+   characters_at_aP_es: 33 paginas; con menos de 900 caracteres y sin figura: []
+================================================================================================
+RESULTADO: la reestructuracion no ha dejado huerfanas, duplicados ni obsoletas.

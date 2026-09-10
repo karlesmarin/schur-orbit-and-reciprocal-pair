@@ -1,0 +1,73 @@
+========================================================================================
+(a) INFORME 1.3:  Sp(6), q=4.  rho=(3,2,1) y l=(5,4,3) -- mismo dato de raices?
+    t=8 k=2 -> d=2 q=4
+    residuos por raiz iguales: True
+    N_q(rho)=2  N_q(l)=2   (r_q=2, los dos sobreviven: True)
+    ocupaciones plegadas   rho ((1, 2), (2, 1))   l ((0, 1), (1, 2))   -> DISTINTAS: True
+    Z_q(l)/Z_q(rho) = 64/16 = 4
+    caracteres exactos:  chi_0 = 1    chi_(2,2,2) = 4
+
+========================================================================================
+(b) INFORME 1.3 bis:  el testigo minimo del signo en Sp(4), k=2
+    lambda=(1, 0)    l=(3, 1)    ocupaciones ((0, 1), (1, 1)) chi = -2
+    lambda=(1, 1)    l=(3, 2)    ocupaciones ((0, 1), (1, 1)) chi = +2
+    lambda=(10, 10)  l=(12, 11)  ocupaciones ((0, 1), (1, 1)) chi = +8
+    lambda=(10, 9)   l=(12, 10)  ocupaciones ((0, 1), (1, 1)) chi = -8
+    -> (1,0) y (1,1) tienen las MISMAS ocupaciones y signos opuestos, con |lambda| 1 y 2.
+       El articulo llama minimo al par (10,10)/(10,9), de |lambda| 20 y 19.
+
+========================================================================================
+(c) INFORME 1.2:  la definicion literal del resumen aplicada a lambda=0
+    Sp(6), q=4:  N_q(0) leido literalmente = 9  (= todas las 9 raices positivas)
+    r_q = N_q(rho) = 2.   El resumen pide N_q(lambda)=r_q, o sea 9=2: FALSO
+    pero chi_0(a_P^2) = 1, que no es cero.  La convencion del Teorema si funciona:
+    N_q(lambda+rho)=2 = r_q=2.
+
+========================================================================================
+(d) INFORME 1.1:  S(q)=S(q-1) en el regimen regular, por rango
+    C_2 (regimen regular, q>2m=4):  q=6: SI  q=8: SI  q=10: SI  q=12: SI  q=14: SI
+    C_3 (regimen regular, q>2m=6):  q=8: SI  q=10: SI  q=12: SI  q=14: SI  q=16: SI
+    C_4 (regimen regular, q>2m=8):  q=10: SI  q=12: SI  q=14: SI  q=16: SI  q=18: SI
+    C_5 (regimen regular, q>2m=10):  q=12: SI  q=14: SI  q=16: SI  q=18: SI  q=20: SI
+    C_6 (regimen regular, q>2m=12):  q=14: SI  q=16: SI  q=18: SI  q=20: SI  q=22: SI
+    -> se cumple en TODO rango pasado el rango singular.
+    C_2 dentro del rango singular: S(4)=12  S(3)=8
+    C_3 dentro del rango singular: S(6)=96  S(5)=72
+====================================================================================================
+chi != 0   <=>   ell in W_q . rho   (sin el nucleo)  /  in W_q^+ . rho  (con el nucleo)
+====================================================================================================
+  C_2 k=1  d=1  q=6  | sin nucleo: captura    9, PIERDE    0, falsos    0 | con nucleo: captura    9, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_2 k=2  d=2  q=3  | sin nucleo: captura   15, PIERDE   12, falsos    0 | con nucleo: captura   15, pierde   12, falsos    0
+  C_2 k=3  d=3  q=2  | sin nucleo: captura   16, PIERDE    0, falsos    0 | con nucleo: captura   16, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_2 k=4  d=2  q=3  | sin nucleo: captura   15, PIERDE   12, falsos    0 | con nucleo: captura   15, pierde   12, falsos    0
+  C_2 k=5  d=1  q=6  | sin nucleo: captura    9, PIERDE    0, falsos    0 | con nucleo: captura    9, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_3 k=1  d=1  q=8  | sin nucleo: captura   12, PIERDE    0, falsos    0 | con nucleo: captura   12, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_3 k=2  d=2  q=4  | sin nucleo: captura   20, PIERDE   40, falsos    0 | con nucleo: captura   40, pierde   20, falsos    0
+  C_3 k=3  d=1  q=8  | sin nucleo: captura   12, PIERDE    0, falsos    0 | con nucleo: captura   12, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_3 k=4  d=4  q=2  | sin nucleo: captura   40, PIERDE   30, falsos    0 | con nucleo: captura   70, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_3 k=5  d=1  q=8  | sin nucleo: captura   12, PIERDE    0, falsos    0 | con nucleo: captura   12, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_3 k=6  d=2  q=4  | sin nucleo: captura   20, PIERDE   40, falsos    0 | con nucleo: captura   40, pierde   20, falsos    0
+  C_3 k=7  d=1  q=8  | sin nucleo: captura   12, PIERDE    0, falsos    0 | con nucleo: captura   12, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_4 k=1  d=1  q=10 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_4 k=2  d=2  q=5  | sin nucleo: captura   18, PIERDE   30, falsos    0 | con nucleo: captura   18, pierde   30, falsos    0
+  C_4 k=3  d=1  q=10 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_4 k=4  d=2  q=5  | sin nucleo: captura   18, PIERDE   30, falsos    0 | con nucleo: captura   18, pierde   30, falsos    0
+  C_4 k=5  d=5  q=2  | sin nucleo: captura   36, PIERDE    0, falsos    0 | con nucleo: captura   36, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_4 k=6  d=2  q=5  | sin nucleo: captura   18, PIERDE   30, falsos    0 | con nucleo: captura   18, pierde   30, falsos    0
+  C_4 k=7  d=1  q=10 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_4 k=8  d=2  q=5  | sin nucleo: captura   18, PIERDE   30, falsos    0 | con nucleo: captura   18, pierde   30, falsos    0
+  C_4 k=9  d=1  q=10 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_5 k=1  d=1  q=12 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_5 k=2  d=2  q=6  | sin nucleo: captura   18, PIERDE   45, falsos    0 | con nucleo: captura   27, pierde   36, falsos    0
+  C_5 k=3  d=3  q=4  | sin nucleo: captura   40, PIERDE    0, falsos    0 | con nucleo: captura   40, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_5 k=4  d=4  q=3  | sin nucleo: captura   45, PIERDE   60, falsos    0 | con nucleo: captura   45, pierde   60, falsos    0
+  C_5 k=5  d=1  q=12 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_5 k=6  d=6  q=2  | sin nucleo: captura   60, PIERDE   40, falsos    0 | con nucleo: captura  100, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_5 k=7  d=1  q=12 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_5 k=8  d=4  q=3  | sin nucleo: captura   45, PIERDE   60, falsos    0 | con nucleo: captura   45, pierde   60, falsos    0
+  C_5 k=9  d=3  q=4  | sin nucleo: captura   40, PIERDE    0, falsos    0 | con nucleo: captura   40, pierde    0, falsos    0  <-- con nucleo: EXACTO
+  C_5 k=10 d=2  q=6  | sin nucleo: captura   18, PIERDE   45, falsos    0 | con nucleo: captura   27, pierde   36, falsos    0
+  C_5 k=11 d=1  q=12 | sin nucleo: captura    8, PIERDE    0, falsos    0 | con nucleo: captura    8, pierde    0, falsos    0  <-- con nucleo: EXACTO
+
+TOTAL sin nucleo : captura 630, PIERDE 504, falsos 0
+TOTAL con nucleo : captura 758, pierde 376, falsos 0

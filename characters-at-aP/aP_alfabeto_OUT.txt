@@ -1,0 +1,102 @@
+============================================================================================
+A0 -- CONTROL: el alfabeto tiene 2m elementos y es cerrado por inverso
+   OK   m=3 k=1   6 elementos, cerrado por inverso: True
+   OK   m=5 k=2   10 elementos, cerrado por inverso: True
+   OK   m=7 k=4   14 elementos, cerrado por inverso: True
+   OK   m=6 k=3   12 elementos, cerrado por inverso: True
+============================================================================================
+A1 -- LA IDENTIDAD DE MULTICONJUNTOS
+     d par   ->  A = d*mu_q  -  2*{+1}
+     d impar ->  A = d*mu_q  -  {+1} - {-1}
+
+  m   k    t   d    q  paridad  coincide   diferencia si no
+  2   1    6   1    6    impar        SI   
+  2   2    6   2    3      par        SI   
+  2   3    6   3    2    impar        SI   
+  2   4    6   2    3      par        SI   
+  3   1    8   1    8    impar        SI   
+  3   2    8   2    4      par        SI   
+  3   3    8   1    8    impar        SI   
+  3   4    8   4    2      par        SI   
+  4   1   10   1   10    impar        SI   
+  4   2   10   2    5      par        SI   
+  4   3   10   1   10    impar        SI   
+  4   4   10   2    5      par        SI   
+  5   1   12   1   12    impar        SI   
+  5   2   12   2    6      par        SI   
+  5   3   12   3    4    impar        SI   
+  5   4   12   4    3      par        SI   
+   OK   A1: la identidad se cumple en todo el rango barrido
+============================================================================================
+A2 -- CONTROL: con la paridad de d CAMBIADA, el enunciado tiene que FALLAR
+   OK   el enunciado con la paridad invertida no acierta nunca   0 aciertos de 72 --- si fuera >0, A1 no estaria midiendo la paridad
+============================================================================================
+A3 -- LA CONSECUENCIA SOBRE H(z)
+     d par:  H(z) = (1-z)^2 / (1-z^q)^d        d impar:  H(z) = (1-z^2) / (1-z^q)^d
+  m   k   d    q   max|serie-cerrada|                     h_0..h_6
+  2   1   1    6             1.12e-14       [1, 0, -1, 0, 0, 0, 1]
+  3   2   2    4             1.65e-13      [1, -2, 1, 0, 2, -4, 2]
+  4   1   1   10             1.13e-14       [1, 0, -1, 0, 0, 0, 0]
+  5   2   2    6             3.01e-13       [1, -2, 1, 0, 0, 0, 2]
+  5   3   3    4             1.87e-12      [1, 0, -1, 0, 3, 0, -3]
+  5   4   4    3             9.50e-12     [1, -2, 1, 4, -8, 4, 10]
+  7   4   4    4             1.50e-11      [1, -2, 1, 0, 4, -8, 4]
+  6   3   1   14             5.36e-15       [1, 0, -1, 0, 0, 0, 0]
+  9   5   5    4             3.03e-10      [1, 0, -1, 0, 5, 0, -5]
+ 11   6   6    4             3.20e-09     [1, -2, 1, 0, 6, -12, 6]
+   OK   A3: la forma cerrada reproduce la serie
+============================================================================================
+A4 -- LO QUE ESO SIGNIFICA: es EL MISMO ELEMENTO, visto en Sp(t) y en Sp(t-2)
+     d*mu_q tiene dq = t elementos y es cerrado por inverso, luego es el multiconjunto de
+     autovalores de un elemento de Sp(t) --- y ese elemento es el del Teorema 2 de Prasad
+     con (m,n) = (d,q) evaluado en t=1.  Nuestro a_P^k es ESE MISMO con un plano
+     simplectico quitado:  {1,1} si d es par,  {1,-1} si d es impar.
+
+  m   k    t   d    q  |d*mu_q|   = t  inv-cerrado     plano
+  2   1    6   1    6         6  True         True    {1,-1}
+  2   2    6   2    3         6  True         True     {1,1}
+  2   3    6   3    2         6  True         True    {1,-1}
+  2   4    6   2    3         6  True         True     {1,1}
+  3   1    8   1    8         8  True         True    {1,-1}
+  3   2    8   2    4         8  True         True     {1,1}
+  3   3    8   1    8         8  True         True    {1,-1}
+  3   4    8   4    2         8  True         True     {1,1}
+  4   1   10   1   10        10  True         True    {1,-1}
+  4   2   10   2    5        10  True         True     {1,1}
+  4   3   10   1   10        10  True         True    {1,-1}
+  4   4   10   2    5        10  True         True     {1,1}
+  5   1   12   1   12        12  True         True    {1,-1}
+  5   2   12   2    6        12  True         True     {1,1}
+  5   3   12   3    4        12  True         True    {1,-1}
+  5   4   12   4    3        12  True         True     {1,1}
+  6   1   14   1   14        14  True         True    {1,-1}
+  6   2   14   2    7        14  True         True     {1,1}
+  6   3   14   1   14        14  True         True    {1,-1}
+  6   4   14   2    7        14  True         True     {1,1}
+   OK   d*mu_q tiene t elementos y es inverso-cerrado en todo el rango
+
+A5 -- Y AL NIVEL DE LOS h, quitar el plano es una DIFERENCIA FINITA explicita:
+        d par   ->  h^A = (1 - S)^2 h'        d impar ->  h^A = (1 - S^2) h'
+     con h'_n = C(n/q + d - 1, d - 1) los del alfabeto grande y S el desplazamiento.
+     m= 3 k= 2 d=2 q= 4:  max|h_nuestro - (diferencia)(h_grande)| = 1.2e-13
+     m= 5 k= 2 d=2 q= 6:  max|h_nuestro - (diferencia)(h_grande)| = 3.0e-13
+     m= 5 k= 3 d=3 q= 4:  max|h_nuestro - (diferencia)(h_grande)| = 1.6e-12
+     m= 5 k= 4 d=4 q= 3:  max|h_nuestro - (diferencia)(h_grande)| = 3.9e-12
+     m= 7 k= 4 d=4 q= 4:  max|h_nuestro - (diferencia)(h_grande)| = 1.5e-11
+     m= 9 k= 5 d=5 q= 4:  max|h_nuestro - (diferencia)(h_grande)| = 2.0e-10
+     m=11 k= 6 d=6 q= 4:  max|h_nuestro - (diferencia)(h_grande)| = 1.0e-09
+     m= 6 k= 3 d=1 q=14:  max|h_nuestro - (diferencia)(h_grande)| = 5.4e-15
+   OK   la diferencia finita reproduce nuestros h a partir de los suyos
+============================================================================================
+LECTURA.
+  El alfabeto del Teorema 2 de Prasad en t=1 es mu_n con multiplicidad m.  El de a_P^k es
+  mu_q con multiplicidad d, MENOS DOS PUNTOS.  Luego su m ES nuestro d y su n ES nuestro q,
+  y no por parecido: por identidad de multiconjuntos.  Y los dos puntos que se quitan son
+  +1 y +1 (d par) o +1 y -1 (d impar) --- que son exactamente los dos elementos fijados por
+  la involucion w -> w^{-1}, o sea LAS DOS CLASES FIJAS DEL PLEGADO.
+
+  Eso convierte la tabla de la nota de parecido en correspondencia: las tres primeras filas
+  quedan demostradas, y la cuarta --- la naranja --- queda explicada, porque la diferencia
+  entre los dos enunciados es exactamente la diferencia entre los dos alfabetos.
+============================================================================================
+RESULTADO: la identidad de alfabetos se cumple, y su control con la paridad invertida falla.

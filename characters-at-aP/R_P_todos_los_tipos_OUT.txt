@@ -1,0 +1,79 @@
+================================================================================================
+C1 -- CONTROL: numero de raices positivas por tipo
+     A4:  10 positivas, esperadas  10   ok
+     D4:  12 positivas, esperadas  12   ok
+     D5:  20 positivas, esperadas  20   ok
+     B2:   4 positivas, esperadas   4   ok
+     B3:   9 positivas, esperadas   9   ok
+     B4:  16 positivas, esperadas  16   ok
+     B5:  25 positivas, esperadas  25   ok
+     C2:   4 positivas, esperadas   4   ok
+     C3:   9 positivas, esperadas   9   ok
+     C4:  16 positivas, esperadas  16   ok
+     C5:  25 positivas, esperadas  25   ok
+     F4:  24 positivas, esperadas  24   ok
+     G2:   6 positivas, esperadas   6   ok
+     13 tipos, 0 fallos  <-- el generador es correcto
+================================================================================================
+C2 -- CONTROL QUE FALTABA: la forma simetrizada  d_i * A[i][j] = d_j * A[j][i].
+      Es el que caza una matriz de Cartan TRANSPUESTA, cosa que el conteo de raices no ve.
+      13 tipos, 0 fallos  <-- las matrices son coherentes con las longitudes
+================================================================================================
+C3 -- CONTROL: cuantas raices positivas CORTAS y LARGAS hay de verdad, contra lo conocido
+      (B_n: n cortas;  C_n: n largas;  F4: 12 y 12;  G2: 3 y 3;  A,D: todas iguales)
+      A4: cortas=10 largas= 0   (simplemente enlazado)
+      D4: cortas=12 largas= 0   (simplemente enlazado)
+      D5: cortas=20 largas= 0   (simplemente enlazado)
+      B2: cortas= 2 largas= 2   esperado (2, 2)   ok
+      B3: cortas= 3 largas= 6   esperado (3, 6)   ok
+      B4: cortas= 4 largas=12   esperado (4, 12)   ok
+      B5: cortas= 5 largas=20   esperado (5, 20)   ok
+      C2: cortas= 2 largas= 2   esperado (2, 2)   ok
+      C3: cortas= 6 largas= 3   esperado (6, 3)   ok
+      C4: cortas=12 largas= 4   esperado (12, 4)   ok
+      C5: cortas=20 largas= 5   esperado (20, 5)   ok
+      F4: cortas=12 largas=12   esperado (12, 12)   ok
+      G2: cortas= 3 largas= 3   esperado (3, 3)   ok
+      0 fallos
+================================================================================================
+V1 -- ht_P(alpha) = ((alpha,alpha)/2) * ht(alpha^v).
+      ⚠ NO es una comprobacion: ht(alpha^v) se CALCULA dividiendo, asi que la igualdad es
+      una tautologia.  Se deja escrita como DEFINICION, no como control.  Lo que si se
+      comprueba es que ht(alpha^v) sale ENTERO en las 180 raices --- eso no es gratis, y
+      es lo que dice que la formula c_i^v = c_i d_i / nrm es la correcta.
+      180 raices, 0 no enteros
+================================================================================================
+V2 -- LOS TRES ENUNCIADOS, medidos por separado.  (La primera version de esta gate afirmaba
+      'iguales <=> gcd(q,r)=1' y daba 32 discrepancias: 26 porque los dos conjuntos estaban
+      VACIOS --- iguales por vacuidad --- y 6 por la matriz de G2 transpuesta.  Lo correcto
+      es una INCLUSION mas una caracterizacion de lo que sobra, y la coprimalidad solo da
+      una implicacion.)
+
+      E1  INCLUSION:  R_P(q)^v contiene siempre a R(q) del dual.
+      E2  LO QUE SOBRA es exactamente { alpha LARGA de G : q | r*ht(alpha^v), q no| ht(alpha^v) }.
+      E3  gcd(q,r) = 1  =>  iguales.   (El reciproco es FALSO: fallan por vacuidad.)
+
+      186 pares (tipo, q):   E1 186/186   E2 186/186   E3 186/186
+
+      Donde los dos sistemas DIFIEREN de verdad, por tipo (q: cuantas raices sobran):
+          B2: 2:1, 4:1
+          B3: 2:3, 4:2, 6:1, 8:1
+          B4: 2:6, 4:4, 6:2, 8:2, 10:1, 12:1
+          B5: 2:10, 4:6, 6:3, 8:3, 10:2, 12:2, 14:1, 16:1
+          C2: 2:1, 4:1
+          C3: 2:2, 4:1, 6:1
+          C4: 2:2, 4:1, 6:1, 8:1
+          C5: 2:3, 4:1, 6:1, 8:1, 10:1
+          F4: 2:6, 4:3, 6:2, 8:2, 10:1, 12:1, 14:1, 16:1
+          G2: 3:2, 6:1, 9:1
+================================================================================================
+LECTURA.
+  1. En los simplemente enlazados los dos sistemas son el MISMO: rho = rho^v.  La pregunta
+     solo tiene contenido en B, C, F4 y G2.
+  2. R_P(q)^v CONTIENE siempre a R(q) del dual, y lo que sobra son siempre raices LARGAS de
+     G, con una caracterizacion explicita.  Coincidencia garantizada si gcd(q,r)=1; el
+     reciproco no vale, porque para q grande los dos conjuntos se vacian.
+  3. Luego la clasificacion de Polo DA la del lado a_P: R_P(q)^v es su R(q) mas un conjunto
+     explicito de raices largas.  La pregunta que Polo deja abierta tiene gemela, y la
+     gemela se contesta con la suya mas un termino que se escribe en una linea.
+================================================================================================

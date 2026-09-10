@@ -1,0 +1,78 @@
+   fuente prasad2016: _prasad_israe.txt  (26384 caracteres)
+   fuente klp: _klp.txt  (36672 caracteres)
+   fuente polo: polo_2504.09204.txt  (30199 caracteres)
+   fuente lpa: lubeck_prasad_ayyer_1912.08576.pdf  (57994 caracteres)
+   fuente ak: arxiv_2109.11310.txt  (78548 caracteres)
+   fuente npp: NPP25.txt  (107973 caracteres)
+   fuente lec_a: lecouvey_math_0607038.txt  (74117 caracteres)
+   fuente lec_b: lecouvey_math_0703514.txt  (37280 caracteres)
+============================================================================================
+C1 -- LAS FRASES QUE EL DOCUMENTO ATRIBUYE, CONTRA SU FUENTE
+   OK   Thm 2: el criterio, literal
+   OK   Thm 2: 'exactly m-times'
+   OK   el resumen de 2016: 'generalizing a theorem of Kostant'
+   OK   su Teorema 1 = Kostant: valores {1,0,-1}
+   OK   KLP Thm 1.1 (forma con simbolos; si falla se prueba la variante)
+   OK   KLP: el titulo
+   OK   KLP: G_sigma es el dual del subgrupo de puntos fijos
+   OK   KLP §2: h=1 para exactamente una orbita en A_2n
+   OK   Polo: R(m) por ALTURA
+   OK   Polo: d_m es una dimension de Weyl
+   OK   Polo: elementos PRINCIPALES
+   OK   LPA Thm 6.1: +- una dimension
+   OK   LPA: Ayyer firma el APENDICE, no el articulo
+   OK   LPA: cita a Littlewood por ecuaciones
+   OK   LPA: Littlewood ec. 7.3.1-7.3.2, pagina 132
+   OK   LPA: la forma para S_n, paginas 143-146
+   OK   LPA: [P] ES el Israel J. Math. 211 (2016) 257-270
+   OK   Lec07a: el titulo
+   OK   Lec07a: la seccion 3.2.2 ES de Sp_2n, que es donde miramos
+   OK   Lec07a: la clase 0 lleva el factor de raiz LARGA -- por eso es tipo C, no tipo A
+   OK   Lec07a: la semisuma que identifica el bloque de tipo B
+   OK   Lec07a: ...y la nombra, tipo B_{r_p}
+   OK   Lec07a: esas raices NO estan en el reticulo de Sp_2n -- el obstaculo, dicho por el
+   OK   Lec07a: con l par NO hay analogo de su Thm 3.2.3
+   OK   Lec07a: su Prop. 3.2.5 es de Sp_2n
+   OK   Lec07a Prop. 3.2.5: los coeficientes no son de ramificacion
+   OK   Lec07a Prop. 3.2.5: ...y sus signos alternan
+   OK   Lec07a Thm 3.2.3: es el caso l IMPAR, que es el que cierra como identidad
+   OK   Lec07b: el titulo
+   OK   Lec07b Thm 4.5.1: vale para simplectico u ortogonal
+   OK   Lec07b: en el rango estable SI son coeficientes de ramificacion a un Levi
+   OK   AK22 Thm 2.11: es de Sp_{2tn}, con el alfabeto COMPLETO
+   OK   AK22 Thm 2.11(2): la rama que SI factoriza
+   OK   AK22 Thm 2.11(2): y su factor ORTOGONAL IMPAR, el del caso t par
+============================================================================================
+C1b -- LAS AFIRMACIONES NEGATIVAS DE LA NOTA, CONTRA LAS FUENTES
+      ⚠ Aqui es donde esta compuerta fallo.  Probaba los senuelos que YO recorde, no las
+        afirmaciones que la NOTA hace.  El pie de la figura 1 decia que Ayyer-Kumari no
+        mencionan a Kostant 'ni una vez', y su introduccion dice literalmente 'motivated
+        by a celebrated result of Kostant [Kos76]'.  Una afirmacion negativa sobre el
+        articulo de un tercero es la peor de equivocar, y nadie la estaba mirando.
+   OK   Ayyer-Kumari SI mencionan a Kostant (por eso la nota ya no dice lo contrario)
+   INFO   informativo: ¿mencionan el elemento de Coxeter?: no aparece
+   INFO   informativo: ¿mencionan elementos de torsion?: no aparece
+   OK   la nota no afirma 'never mention' sin prueba en C1b
+   OK   la nota no afirma 'not once' sin prueba en C1b
+   OK   la nota no afirma 'nobody on that line'
+============================================================================================
+C2 -- SENUELOS: frases plausibles que NO deben estar (si aparecen, el test no discrimina)
+   OK   Prasad 2016 NO habla de a_P
+   OK   Prasad 2016 NO habla de clases plegadas
+   OK   Polo NO menciona el segundo elemento de Kostant
+   OK   Polo NO usa el criterio de residuos de 2016
+   OK   KLP NO menciona a_P
+   OK   LPA NO habla de potencias de a_P
+   OK   Lecouvey NO trata el alfabeto BORRADO -- ese es el nuestro
+   OK   Lecouvey NO quita dos letras del alfabeto
+   OK   Lecouvey NO menciona el segundo elemento de Kostant
+   OK   Lecouvey NO habla de a_P
+   OK   Lecouvey descompone, no evalua en un punto
+   OK   Lec07b tampoco borra letras
+   OK   la imposibilidad con l par esta en Lec07a, NO en Lec07b -- no confundir de articulo
+============================================================================================
+C3 -- SITIO: este directorio no viaja
+   ficheros en los dos paquetes: 871
+   OK   note_prasad2/ no esta en ningun paquete
+============================================================================================
+RESULTADO: todas las atribuciones estan en su fuente, y los senuelos no.

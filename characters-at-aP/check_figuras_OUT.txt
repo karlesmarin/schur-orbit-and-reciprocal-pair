@@ -1,0 +1,51 @@
+============================================================================================
+characters_at_aP
+   OK   characters_at_aP: al menos cinco figuras   6
+   OK   F1 fig_map.pdf: existe en disco
+   OK   F1 fig_capacity.pdf: existe en disco
+   OK   F1 fig_value.pdf: existe en disco
+   OK   F1 fig_union3d.pdf: existe en disco
+   OK   F1 fig_walls.pdf: existe en disco
+   OK   F1 fig_types.pdf: existe en disco
+   OK   F2 fig:map (fig. 1, pag. 3): citada en la misma pagina o vecina   citada en [1, 2]
+   OK   F2 fig:capacity (fig. 2, pag. 10): citada en la misma pagina o vecina   citada en [9]
+   OK   F2 fig:value (fig. 3, pag. 12): citada en la misma pagina o vecina   citada en [11]
+   OK   F2 fig:union3d (fig. 4, pag. 17): citada en la misma pagina o vecina   citada en [16, 31]
+   OK   F2 fig:walls (fig. 5, pag. 21): citada en la misma pagina o vecina   citada en [21]
+   OK   F2 fig:types (fig. 6, pag. 25): citada en la misma pagina o vecina   citada en [24, 31]
+============================================================================================
+characters_at_aP_es
+   OK   characters_at_aP_es: al menos cinco figuras   6
+   OK   F1 fig_map.pdf: existe en disco
+   OK   F1 fig_capacity.pdf: existe en disco
+   OK   F1 fig_value.pdf: existe en disco
+   OK   F1 fig_union3d.pdf: existe en disco
+   OK   F1 fig_walls.pdf: existe en disco
+   OK   F1 fig_types.pdf: existe en disco
+   OK   F2 fig:map (fig. 1, pag. 3): citada en la misma pagina o vecina   citada en [1, 2]
+   OK   F2 fig:capacity (fig. 2, pag. 10): citada en la misma pagina o vecina   citada en [9]
+   OK   F2 fig:value (fig. 3, pag. 11): citada en la misma pagina o vecina   citada en [11]
+   OK   F2 fig:union3d (fig. 4, pag. 17): citada en la misma pagina o vecina   citada en [16, 32]
+   OK   F2 fig:walls (fig. 5, pag. 21): citada en la misma pagina o vecina   citada en [21]
+   OK   F2 fig:types (fig. 6, pag. 25): citada en la misma pagina o vecina   citada en [24, 31]
+============================================================================================
+F3 -- las cifras que afirman los pies, contra la salida de su guion
+   OK   F3 fig_walls.pdf: encuentro su pie
+   OK   F3 fig_walls.pdf: la cifra 8 del pie esta en la salida del guion   pie=True salida=True
+   OK   F3 fig_walls.pdf: la cifra 15 del pie esta en la salida del guion   pie=True salida=True
+   OK   F3 fig_walls.pdf: la cifra 24 del pie esta en la salida del guion   pie=True salida=True
+   OK   F3 fig_walls.pdf: la cifra 48 del pie esta en la salida del guion   pie=True salida=True
+   OK   F3 fig_value.pdf: encuentro su pie
+   OK   F3 fig_value.pdf: la cifra 352 del pie esta en la salida del guion   pie=True salida=True
+   OK   F3 fig_value.pdf: la cifra 176 del pie esta en la salida del guion   pie=True salida=True
+   OK   F3 fig_value.pdf: la cifra 56 del pie esta en la salida del guion   pie=True salida=True
+============================================================================================
+F4 -- las fechas impresas DENTRO de fig_map.pdf, contra la bibliografia
+   OK   F4: la figura imprime 2021 para Lübeck
+   OK   F4: la figura imprime 1976 para Kostant
+   OK   F4: la figura imprime 2025 para NPP
+   OK   F4: la figura imprime 2002 para Adin
+   OK   F4: y ya no imprime el 2020 de Lübeck-Prasad
+   OK   F4: la bibliografia dice 2021 para Lübeck-Prasad
+============================================================================================
+RESULTADO: cada figura esta donde la citan, con las cifras de su guion y sin fechas viejas.

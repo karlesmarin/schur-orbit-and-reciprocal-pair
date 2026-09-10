@@ -1,0 +1,39 @@
+============================================================================================
+E1/E2 -- ¿ES UNICO EL SIGNO DE ∓ EN EL TEOREMA 3.2?
+        Se recorren todos los lambda supervivientes de k=2 y, en cada clase NO fija con dos
+        filas, se mira si q divide a l_i-l_j, a l_i+l_j, o a LOS DOS.
+   parejas examinadas: 27208
+   de ellas, con LOS DOS divisibles por q: 0
+   OK   E1/E2: el signo de ∓ no es ambiguo, o si lo es da el mismo cociente   0 ambiguos, 0 de ellos inofensivos
+============================================================================================
+E3 -- EL CONTEO DEL PASO (iii):  plazas de coste < d
+  d   q   m=dq/2-1   plazas   esperado
+  1   4          1        1          1
+  1   6          2        2          2
+  2   2          1        2          2
+  2   3          2        3          3
+  2   4          3        4          4
+  2   5          4        5          5
+  2   6          5        6          6
+  3   2          2        2          2
+  3   4          5        5          5
+  3   6          8        8          8
+  4   2          3        4          4
+  4   3          5        6          6
+  4   4          7        8          8
+  4   5          9       10         10
+  4   6         11       12         12
+   OK   E3: son m plazas si d impar y m+1 si d par
+============================================================================================
+E4 -- LA PROPOSICION 4.1:  la capacidad total
+   OK   E4: capacidad = dq/2 (d par) y dq/2-1 (d impar); satura si d impar
+============================================================================================
+E5/E6 -- EL TEOREMA 3.2 CONTRA EL EVALUADOR, Y LOS CASOS QUE D_c NO NOMBRA
+   OK   E5: |chi| = prod D_c en todos los supervivientes de k=2   1244/1244
+   los casos de ocupacion que aparecen, y cuantas veces:
+                fija, 1 fila: 1970
+            no fija, 1 filas: 726
+            no fija, 2 filas: 2510
+   OK   E6: los casos que D_c manda a 1 son exactamente los de ocupacion incompleta   no nombrados: ['no fija, 1 filas']
+============================================================================================
+RESULTADO: los enunciados leidos al pie de la letra.

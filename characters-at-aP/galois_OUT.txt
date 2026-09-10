@@ -1,0 +1,10 @@
+================================================================================================
+(1) ESTABILIDAD DE GALOIS DEL ESPECTRO   contra   LA CONDICION (I)
+================================================================================================
+  pares (m,q) contrastados: 11800    ACUERDOS 11800    DESACUERDOS 0
+
+================================================================================================
+(2) INTEGRIDAD REAL DE LOS CARACTERES  contra  ESTABILIDAD DE GALOIS
+    chi como limite de  prod_{alpha>0} sin(pi p (l,a)/q) / sin(pi p (rho,a)/q)
+================================================================================================
+  pares (m,q): 44   ACUERDOS 44   DESACUERDOS 0

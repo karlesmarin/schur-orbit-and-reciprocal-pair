@@ -1,0 +1,24 @@
+============================================================================================
+R5 -- LOS SEIS VALORES (lambda+rho, alpha)  =  u, v, u+v, 2u+v, 3u+v, 3u+2v
+     con u = a+1,  v = 3(b+1)
+   a=0 b=0:  u=1 v=3   observado [1, 3, 4, 5, 6, 9]   predicho [1, 3, 4, 5, 6, 9]
+   a=0 b=1:  u=1 v=6   observado [1, 6, 7, 8, 9, 15]   predicho [1, 6, 7, 8, 9, 15]
+   a=1 b=0:  u=2 v=3   observado [2, 3, 5, 7, 9, 12]   predicho [2, 3, 5, 7, 9, 12]
+   a=2 b=3:  u=3 v=12   observado [3, 12, 15, 18, 21, 33]   predicho [3, 12, 15, 18, 21, 33]
+   OK   R5: los seis valores son los de la formula   0 fallos en 36 pesos
+============================================================================================
+R6 -- EL CRITERIO (+) EN G2, contra Freudenthal
+  k   d    q  r_q  pesos  (+) acierta  nulos
+  1   1   12    0     49        49/49     33
+  2   2    6    1     49        49/49     20
+  3   3    4    1     49        49/49      9
+  4   4    3    3     49        49/49     14
+  5   1   12    0     49        49/49     33
+  6   6    2    2     49        49/49      9
+   OK   R6: el criterio (+) cierra en G2
+============================================================================================
+R7 -- LAS DOS SIMPLIFICACIONES
+   OK   q=3: chi=0 <=> a = 2 mod 3   49/49
+   OK   q=2: chi=0 <=> a=b=1 mod 2   49/49
+============================================================================================
+RESULTADO: R5-R7 verificados.  El criterio de G2 esta cerrado.

@@ -1,0 +1,48 @@
+==============================================================================================
+P1 -- ¿VALE q EL DENOMINADOR?   rho_P = semisuma de R_P(q)^+,  no rho.
+     R_P(q) en C_m con a_P^k:  { alpha : q | <alpha, a> },  a = (1,2,...,m) la escalera.
+
+  m   k    q  |R_P^+|  <rho,alpha> distintos  <rho_P,alpha> distintos
+  2   2    3        1                    [3]                    ['1']
+  2   4    3        1                    [3]                    ['1']
+  3   2    4        2                    [4]               ['1', '2']
+  4   2    5        2                    [5]                    ['1']
+  4   4    5        2                    [5]                    ['1']
+  5   2    6        3                    [6]               ['1', '2']
+  5   4    3        7          [-3, 3, 6, 9]          ['1', '2', '3']
+  6   2    7        3                    [7]                    ['1']
+  6   4    7        3                    [7]                    ['1']
+  7   2    8        4                    [8]               ['1', '2']
+  7   4    4       11         [-4, 4, 8, 12]     ['1', '2', '3', '4']
+  8   2    9        4                    [9]                    ['1']
+  8   4    9        4                    [9]                    ['1']
+
+  FALLA P1a: <rho, alpha> = q para toda alpha de R_P(q)
+
+   LECTURA P1.  <rho,alpha> = q siempre.  Pero <rho_P,alpha> NO es q: rho_P es la semisuma
+   del subsistema y toma otros valores.  Luego el enunciado abstracto del .tex, que divide
+   por <rho_P,alpha>, NO es el que se midio.  Lo medido divide por q.
+==============================================================================================
+P2 -- JACOBI-TRUDI EN UN PUNTO NO REGULAR, contra el bialternante POR LIMITE
+     a_P^k con k>=2 no es regular: el bialternante es 0/0.  Testigo independiente: se
+     perturba el elemento, x_j -> x_j * exp(eps * v_j) con v generico, y se toma eps -> 0.
+
+     ⚠ LA PERTURBACION VA DENTRO DEL TORO COMPACTO:  x_j -> x_j * exp(i*eps*v_j).
+       La primera version de esta prueba uso exp(eps*v_j), REAL, que saca al elemento del
+       circulo unidad; alli el caracter deja de ser real y aparece una parte imaginaria de
+       orden eps que hacia 'fallar' un limite que en realidad convergia.  El control estaba
+       roto, no Jacobi-Trudi.
+
+  m   k         lambda   JT (exacto)               bialternante, eps->0 extrapolado     error
+  3   2      [3, 1, 0]       -3.0000          -2.9889  -2.9999  -3.0000   -3.000011   1.1e-05
+  3   2      [4, 2, 1]        2.0000          +1.9454  +1.9959  +1.9996   +2.000015   1.5e-05
+      (el elemento es regular: False --- si fuera True, P2 no mediria nada)
+  4   2   [3, 2, 1, 0]       -4.0000          -3.4986  -3.9526  -3.9953   -4.000034   3.4e-05
+  4   2   [5, 3, 1, 0]        0.0000          +0.8161  +0.0870  +0.0087   +0.000048   4.8e-05
+  5   2 [4, 3, 2, 1, 0]        0.0000          +0.0021  +0.0000  +0.0000   -0.000000   2.6e-08
+  5   2 [6, 4, 2, 1, 0]        0.0000          -0.4232  -0.0466  -0.0047   -0.000014   1.4e-05
+  5   3 [4, 3, 2, 1, 0]        0.0000          +0.0001  +0.0000  +0.0000   -0.000000   7.6e-11
+  5   3 [6, 4, 2, 1, 0]        0.0000          -0.1140  -0.0013  -0.0000   +0.000133   1.3e-04
+   OK   P2: el limite del bialternante coincide con Jacobi-Trudi en puntos NO regulares
+==============================================================================================
+RESULTADO: 3 problemas -> ['P1a m=5 k=4: <rho,alpha> no es siempre q', 'P1a m=7 k=4: <rho,alpha> no es siempre q', 'P1a: <rho, alpha> = q para toda alpha de R_P(q)']

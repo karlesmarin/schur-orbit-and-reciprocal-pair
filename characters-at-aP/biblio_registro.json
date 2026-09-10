@@ -1,0 +1,92 @@
+{
+  "_": "REGISTRO DE PUBLICACION DE LA BIBLIOGRAFIA.  9 de septiembre de 2026.",
+  "_por_que": "El 8-sep la bibliografia citaba seis articulos SOLO por arXiv y dos con revista sin volumen ni paginas. Punto 2 de SEGUIR_AQUI_2026-09-09. Cada cifra de aqui se comprobo contra una fuente que no es nuestra: el campo journal-ref del propio arXiv, o Crossref. Lo que ponga 'revista': null es una AFIRMACION NEGATIVA comprobada, no un hueco: ese preprint no tiene revista.",
+  "_como_se_reverifica": "python check_biblio.py --online  vuelve a preguntar a arXiv Y A CROSSREF, y avisa si algun 'null' ha dejado de serlo.",
+  "_leccion_del_9_sep": "La primera version de este registro preguntaba SOLO al campo journal-ref de arXiv, que lo rellena el autor y falta a menudo. Daba por preprints a Kar24, KP24 y AF02, los tres publicados. Un 'null' solo vale si lo firman las dos fuentes.",
+  "fecha": "2026-09-09",
+  "entradas": {
+    "CMP06": {
+      "arxiv": "math/0507610",
+      "revista": "J. Pure Appl. Algebra 208 (2007), no. 3, 1103--1119",
+      "fuente": "campo journal-ref de arXiv math/0507610v2",
+      "aviso": "citamos Cor. 3.2, Prop. 3.5 y Obs. 3.2 con la numeracion de la version de arXiv, que es la que leimos; la bibliografia lo dice"
+    },
+    "Lec07a": {
+      "arxiv": "math/0607038",
+      "revista": "European J. Combin. 30 (2009), 157--191",
+      "fuente": "Crossref 10.1016/j.ejc.2008.02.007 (el arXiv solo dice 'to appear')"
+    },
+    "Lec07b": {
+      "arxiv": "math/0703514",
+      "revista": "J. Combin. Theory Ser. A 116 (2009), 757--771",
+      "fuente": "Crossref 10.1016/j.jcta.2008.11.004 (el arXiv no lleva journal-ref)"
+    },
+    "AK25": {
+      "arxiv": "2501.00275",
+      "revista": "J. Algebraic Combin. 63 (2026), art. 2, 32 pp.",
+      "fuente": "campo journal-ref de arXiv 2501.00275v2 + Crossref 10.1007/s10801-025-01486-4",
+      "aviso": "el 8-sep esto figuraba como preprint; salio publicado. En disco tenemos la v2 (28 pp de texto extraido), que es la revisada del 30-mar-2026"
+    },
+    "AK22": {
+      "arxiv": "2109.11310",
+      "revista": "J. Algebra 609 (2022), 437--483",
+      "fuente": "campo journal-ref de arXiv 2109.11310v3 + Crossref 10.1016/j.jalgebra.2022.06.015"
+    },
+    "Kum24": {
+      "arxiv": "2212.12477",
+      "revista": "J. Pure Appl. Algebra 228 (2024), 107714",
+      "fuente": "Crossref 10.1016/j.jpaa.2024.107714"
+    },
+    "LP20": {
+      "arxiv": "1912.08576",
+      "revista": "J. Combin. Theory Ser. A 179 (2021), 105368",
+      "fuente": "Crossref 10.1016/j.jcta.2020.105368"
+    },
+    "Prasad16": {
+      "arxiv": "1402.5504",
+      "revista": "Forum Math. 28 (2016), no. 1, 193--199",
+      "fuente": "Crossref 10.1515/forum-2014-0052"
+    },
+    "Kar24": {
+      "arxiv": "2412.17324",
+      "revista": "Proc. Indian Acad. Sci. Math. Sci. 135 (2025), art. 41",
+      "fuente": "Crossref 10.1007/s12044-025-00847-0",
+      "aviso": "el arXiv NO lleva journal-ref y por eso el primer registro de hoy lo daba por preprint. Esta publicado y revisado: el defecto de la constante de su Teorema 5.1B (ver KARMAKAR_CONSTANTE_2026-09-09.md) esta en una revista, no en un preprint"
+    },
+    "Alb25": {
+      "arxiv": "2501.18520",
+      "revista": null,
+      "fuente": "arXiv 2501.18520v1 sin journal-ref a 9-sep-2026; Crossref no lo encuentra"
+    },
+    "AF02": {
+      "arxiv": "math/0201003",
+      "revista": "Adv. Appl. Math. 33 (2004), 492--511",
+      "fuente": "Crossref 10.1016/j.aam.2003.06.004 (el arXiv no lleva journal-ref)"
+    },
+    "KP24": {
+      "arxiv": "2412.01742",
+      "revista": "J. Algebra 676 (2025), 69--81",
+      "fuente": "Crossref 10.1016/j.jalgebra.2025.03.030 (el arXiv no lleva journal-ref)"
+    },
+    "NPP25": {
+      "arxiv": "2504.14684",
+      "revista": null,
+      "fuente": "arXiv 2504.14684v1 sin journal-ref a 9-sep-2026"
+    },
+    "Polo25": {
+      "arxiv": "2504.09204",
+      "revista": null,
+      "fuente": "arXiv 2504.09204v2 sin journal-ref a 9-sep-2026"
+    },
+    "OP1": {
+      "arxiv": "2608.09619",
+      "revista": null,
+      "fuente": "nuestro; arXiv 2608.09619v3 sin journal-ref"
+    },
+    "OP2": {
+      "arxiv": "2608.18302",
+      "revista": null,
+      "fuente": "nuestro; arXiv 2608.18302v2 sin journal-ref"
+    }
+  }
+}

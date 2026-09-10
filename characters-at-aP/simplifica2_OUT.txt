@@ -1,0 +1,28 @@
+============================================================================================
+sum_{alpha in Phi} X^{(x,alpha)}  ==  char(adjunto)(x) - rango ?
+   tipo C : adjunto = Sym^2(estandar)      tipo B : adjunto = Lambda^2(estandar)
+============================================================================================
+  C_2 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  C_3 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  C_4 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  C_5 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  C_6 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  C_7 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  B_2 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  B_3 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  B_4 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  B_5 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  B_6 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  B_7 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  D_2 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  D_3 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  D_4 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  D_5 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  D_6 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+  D_7 :  400 vectores aleatorios,  discrepancias: 0  <-- identidad
+
+============================================================================================
+Y por tanto el 'lema de residuos' del articulo es, palabra por palabra:
+     R_x(X) = char(adjunto)(x) - rango,
+y su segunda mitad (R_ell = R_rho) es:  el CARACTER ADJUNTO de ell y de rho
+coinciden en Z[X]/(X^q-1).  Eso no menciona el tipo.

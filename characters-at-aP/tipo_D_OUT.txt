@@ -1,0 +1,17 @@
+============================================================================================
+TIPO D:  suma sobre raices  ==  char Lambda^2(natural) - m ?
+   natural de D_m: pesos +-x_i, dimension 2m, SIN peso cero  ->  A_x = P_x
+   la que escribi:  A_x = P_x + 1   (que es la de B)
+============================================================================================
+  D_2 : #raices=4   | con A=P_x  discrepancias 0    | con A=P_x+1  discrepancias 300 
+  D_3 : #raices=12  | con A=P_x  discrepancias 0    | con A=P_x+1  discrepancias 300 
+  D_4 : #raices=24  | con A=P_x  discrepancias 0    | con A=P_x+1  discrepancias 300 
+  D_5 : #raices=40  | con A=P_x  discrepancias 0    | con A=P_x+1  discrepancias 300 
+  D_6 : #raices=60  | con A=P_x  discrepancias 0    | con A=P_x+1  discrepancias 300 
+  D_7 : #raices=84  | con A=P_x  discrepancias 0    | con A=P_x+1  discrepancias 300 
+
+============================================================================================
+EL CONTROL DE UNA LINEA, evaluando en X=1  (cada termino cuenta multiplicidades)
+  D_3 : raices reales = 12  |  (P^2-P)/2 - m = 12    |  (A^2-A)/2 - m = 18    <- la que escribi, y falla
+  D_4 : raices reales = 24  |  (P^2-P)/2 - m = 24    |  (A^2-A)/2 - m = 32    <- la que escribi, y falla
+  D_5 : raices reales = 40  |  (P^2-P)/2 - m = 40    |  (A^2-A)/2 - m = 50    <- la que escribi, y falla

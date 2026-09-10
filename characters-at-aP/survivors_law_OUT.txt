@@ -1,0 +1,29 @@
+================================================================================================
+HIPOTESIS:  S(q) = prod(q - m_i)   <=>   r_q = 0  y  gcd(q, primos malos) = 1
+================================================================================================
+   A1   hecho
+   A2   hecho
+   A3   hecho
+   A4   hecho
+   A5   hecho
+   B2   hecho
+   B3   hecho
+   B4   hecho
+   B5   hecho
+   C2   hecho
+   C3   hecho
+   C4   hecho
+   C5   hecho
+   D4   hecho
+   D5   hecho
+   G2   hecho
+   F4   hecho
+   E6   hecho
+
+   LAS CUATRO CELDAS
+                          hipotesis SI      hipotesis NO
+   formula acierta              138                 0
+   formula falla                  0               160
+
+RESULTADO: la equivalencia se cumple en todos los casos medidos, y las dos diagonales
+           estan pobladas, luego no es trivial en ninguno de los dos sentidos.

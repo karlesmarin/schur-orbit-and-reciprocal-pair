@@ -1,0 +1,37 @@
+============================================================================================
+TIPO C  (donde el articulo lo demuestra)
+============================================================================================
+  C_2
+     q=6   d=1   r_q=0    supervivientes 12      fallos del lema: 0 
+     q=3   d=2   r_q=1    supervivientes 42      fallos del lema: 0 
+     q=2   d=3   r_q=2    supervivientes 25      fallos del lema: 0 
+  C_3
+     q=8   d=1   r_q=0    supervivientes 27      fallos del lema: 0 
+     q=4   d=2   r_q=2    supervivientes 111     fallos del lema: 0 
+     q=2   d=4   r_q=5    supervivientes 135     fallos del lema: 0 
+  C_4
+     q=10  d=1   r_q=0    supervivientes 36      fallos del lema: 0 
+     q=5   d=2   r_q=2    supervivientes 300     fallos del lema: 0 
+     q=2   d=5   r_q=8    supervivientes 225     fallos del lema: 0 
+
+============================================================================================
+TIPO B  (que el articulo declara ABIERTO).  rho semientero: se trabaja con y = 2(lambda+rho)
+============================================================================================
+  B_2  q=6   d=1   r_q=0    supervivientes 21      fallos: 0 
+  B_2  q=3   d=2   r_q=1    supervivientes 75      fallos: 0 
+  B_2  q=2   d=3   r_q=2    supervivientes 45      fallos: 0 
+  B_3  q=10  d=1   r_q=0    supervivientes 40      fallos: 0 
+  B_3  q=5   d=2   r_q=1    supervivientes 190     fallos: 0 
+  B_3  q=2   d=5   r_q=6    supervivientes 165     fallos: 0 
+  B_4  q=14  d=1   r_q=0    supervivientes 72      fallos: 0 
+  B_4  q=7   d=2   r_q=1    supervivientes 360     fallos: 0 
+  B_4  q=2   d=7   r_q=12   supervivientes 495     fallos: 0 
+
+============================================================================================
+G2.  Seis raices positivas con (x,alpha) = u, v, u+v, 2u+v, 3u+v, 3u+2v;  t=12
+============================================================================================
+  G2   q=12  d=1   r_q=0    supervivientes 368     fallos: 0 
+  G2   q=6   d=2   r_q=1    supervivientes 210     fallos: 0 
+  G2   q=4   d=3   r_q=1    supervivientes 147     fallos: 0 
+  G2   q=3   d=4   r_q=3    supervivientes 88      fallos: 0 
+  G2   q=2   d=6   r_q=2    supervivientes 48      fallos: 0 

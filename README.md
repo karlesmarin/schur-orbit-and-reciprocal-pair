@@ -34,7 +34,7 @@ The published rank-one case at `t = 2` is Part IV of the series,
 [`schur-nonidentity-o4`](https://github.com/karlesmarin/schur-nonidentity-o4). This repository is the
 general-`t` sequel and is kept separate so that each paper has one artifact.
 
-## 📚 Two papers, two bundles
+## 📚 Three bundles
 
 The root of this repository is the bundle of the **first** paper, the one arXiv carries as
 [2608.09619](https://arxiv.org/abs/2608.09619). The **second** --- *Schur polynomials twisted by
@@ -44,6 +44,14 @@ at v2 --- has its own directory, [`torsion-filters/`](torsion-filters), with its
 gate scripts, 240 of them with their archived run, the 15 that draw its figures and the 25 that
 check its manuscript. The PDF is not here: arXiv carries it, and one copy is enough. What is here is
 the code and the data behind it.
+
+A **third**, and not a third part of that series: *Integer character values on the `rho`-line of
+`Sp(2m)`*, [doi:10.5281/zenodo.22683560](https://doi.org/10.5281/zenodo.22683560), on characters of
+`Sp(2m)` at the rational points of Kostant's `rho`-line and at the powers of his element `a_P`. Its
+directory is [`characters-at-aP/`](characters-at-aP): 101 files --- 47 scripts, 44 of them with
+their archived run, the ten gates that check its manuscript, its six figures and the two LaTeX
+editions. The PDFs are on Zenodo, in English and Spanish. It is kept here rather than in a
+repository of its own so that the material of one line of work is found in one place.
 
 ## 📦 What is here
 
