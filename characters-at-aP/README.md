@@ -6,9 +6,9 @@ Companion material for *Integer character values on the $\rho$-line of $\mathrm{
 DOI** — it always resolves to the current version — and it carries the paper in both editions,
 English (33 pp) and Spanish (33 pp), under CC BY 4.0.
 
-The PDFs are not duplicated here: Zenodo carries them, and one copy is enough. What is here is the
-code, the archived output, and the two LaTeX sources with their figures, so that either edition
-rebuilds from this directory alone.
+Both PDFs are here too — `characters_at_aP.pdf` and `characters_at_aP_es.pdf`, byte for byte the
+files deposited on Zenodo — together with the code, the archived output, and the two LaTeX sources
+with their figures, so that either edition also rebuilds from this directory alone.
 
 This is **not** a third part of the series in the root of this repository. Those two papers are
 about Schur polynomials at a root-of-unity orbit; this one is about characters of $\mathrm{Sp}(2m)$
@@ -47,10 +47,11 @@ the factorisation into dimensions at $q \ge 3$, and the closed counts.
 
 ## What is here
 
-101 files, flat, named after what they do.
+The two PDFs and 101 files of material, flat, named after what they do.
 
 | | |
 |---|---|
+| `characters_at_aP.pdf`, `characters_at_aP_es.pdf` | the paper, 33 pp in each language — the same files Zenodo carries |
 | `*.py` with a `*_OUT.txt` beside it | the computation behind a framed formula or a quoted count, and the run that produced it |
 | `check_*.py` | the ten verification gates that run over the manuscript itself — figures, formulas, numbering, cited attributions, bibliography, EN/ES parity, and the overlap with the author's own [arXiv:2609.02630](https://arxiv.org/abs/2609.02630) |
 | `characters_at_aP.tex`, `characters_at_aP_es.tex` | the two editions; `pdflatex` needs nothing that is not in this directory |

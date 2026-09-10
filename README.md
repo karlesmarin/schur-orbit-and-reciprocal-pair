@@ -48,10 +48,10 @@ the code and the data behind it.
 A **third**, and not a third part of that series: *Integer character values on the `rho`-line of
 `Sp(2m)`*, [doi:10.5281/zenodo.22683560](https://doi.org/10.5281/zenodo.22683560), on characters of
 `Sp(2m)` at the rational points of Kostant's `rho`-line and at the powers of his element `a_P`. Its
-directory is [`characters-at-aP/`](characters-at-aP): 101 files --- 47 scripts, 44 of them with
-their archived run, the ten gates that check its manuscript, its six figures and the two LaTeX
-editions. The PDFs are on Zenodo, in English and Spanish. It is kept here rather than in a
-repository of its own so that the material of one line of work is found in one place.
+directory is [`characters-at-aP/`](characters-at-aP): the paper itself in both languages, 33 pp
+each, and 101 files of material --- 47 scripts, 44 of them with their archived run, the ten gates
+that check its manuscript, its six figures and the two LaTeX editions. It is kept here rather than
+in a repository of its own so that the material of one line of work is found in one place.
 
 ## 📦 What is here
 
