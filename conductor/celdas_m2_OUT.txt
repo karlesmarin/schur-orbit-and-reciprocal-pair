@@ -1,0 +1,1003 @@
+== un proceso por casilla ==  lista: 2:7,2:8,2:9,2:11,2:12,2:13,2:15,2:16,2:17,2:19,2:20,2:21,2:23,2:24,2:25,2:27,2:28,2:29,2:31,2:32,2:33,2:35,2:36,2:37,2:39,2:40,2:41,2:44,2:45,2:48,2:51,2:52,2:55,2:56,2:57,2:60,2:63,2:64,2:68,2:72,2:75,2:76,2:80,2:84,2:88,2:96,2:100,2:108,2:120,2:132
+== inicio: 2026-09-16T03:59:32Z ==
+--- casilla 2:7 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:7
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:8 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:8
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:9 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:9
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:11 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:11
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:12 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:12
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:13 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:13
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:15 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:15
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   15   4        3        9       3  SI     (3,2,1)                                  ok    ok    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:16 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:16
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:17 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:17
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:19 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:19
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:20 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:20
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   20   4        2        4       2  SI     (2,2,1)                                  ok    ok    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:21 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:21
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:23 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:23
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:24 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:24
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:25 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:25
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   25  10        5       25       5  SI     (5,1,2)                                  ok    ok    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:27 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:27
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:28 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:28
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:29 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:29
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:31 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:31
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:32 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:32
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:33 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:33
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:35 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:35
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   35  12        7       49       7  SI     (7,2,1)                                  ok    ok    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:36 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:36
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:37 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:37
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:39 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:39
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:40 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:40
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   40   8        2        4       2  SI     (2,2,1)                                  ok    ok    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:41 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:41
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:44 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:44
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:45 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:45
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   45  12        3        9       3  SI     (3,2,1)                                  ok    ok    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:48 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:48
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:51 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:51
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:52 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:52
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:55 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:55
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   55  20       11      121      11  SI     (11,1,1)  (11,1,1)                       NO    NO    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:56 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:56
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:57 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:57
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:60 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:60
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:63 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:63
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:64 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:64
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:68 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:68
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:72 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:72
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:75 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:75
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:76 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:76
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:80 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:80
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:     2   80  16        2        4       2  SI     (2,2,1)                                  ok    ok    ok   
+
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:    F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 1 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:84 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:84
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:88 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:88
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:96 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:96
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:100 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:100
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:108 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:108
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:120 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:120
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: --- casilla 2:132 ---
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ======================================================================================================================
+sage: F1-F5   el conductor factorizado en las casillas caras, y P1 puesta a prueba donde puede morir
+sage: ======================================================================================================================
+sage:    casillas pedidas: 2:132
+sage:    m    q   d   [O+:A]     N(c)   [A:c]  Goren  primos de c (p,f,e)                P1    P2   leyVieja
+sage:    ----------------------------------------------------------------------------------------------------------------
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: 
+sage:    REGLA: cada control cuenta sus MEDIDAS.  Un veredicto con 0 medidas no es un veredicto.
+sage: ....: ....:      descartadas por conductor trivial                                    1
+   F1  COHERENCIA prod N(P)^e == N(c) :  fallos 0
+sage:    F2  COHERENCIA [O+:A].[A:c] == N(c) :  fallos 0
+sage: ....: ....: ....: ....: ....: ....:    F3  P1  [A:c] == prod_{P|c} p :  medidas 0 (solo NO Gorenstein)  fallos 0   *** 0 MEDIDAS: todas las casillas de la lista son Gorenstein y P1 no se ha probado ***
+sage:    F4  P2  [O+:A] == prod p^(fe-1) :  NO es control aparte -- es F3 dividida por F2.  No se cuenta.
+sage: ....: ....: ....: ....: ....: ....:    F5  SENUELO ley vieja prod p^ceil(v/2) :  casillas con algun f.e >= 4: 0 ; medidas (y no Gorenstein) 0 ; falla en 0   *** sin casilla no-Gorenstein con f.e >= 4, la ley vieja y P2 son la MISMA formula aqui: F5 no distingue ***
+sage:    Gorenstein 0 / no Gorenstein 0 en la lista.
+sage: == fin: 2026-09-16T04:01:39Z ==

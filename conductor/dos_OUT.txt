@@ -1,0 +1,1084 @@
+n=9 comp t=6 -1inH=True d=3 delta=None h^-=1
+  p= 5 N=1 v=1 q=45 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p= 5 N=3 v=1 q=45 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p= 7 N=1 v=1 q=63 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p= 7 N=3 v=1 q=63 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p= 7 N=5 v=1 q=63 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=11 N=1 v=1 q=99 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=11 N=3 v=1 q=99 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=11 N=5 v=1 q=99 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=13 N=1 v=1 q=117 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=13 N=3 v=1 q=117 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=13 N=5 v=1 q=117 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=17 N=1 v=1 q=153 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=17 N=3 v=1 q=153 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=17 N=5 v=1 q=153 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=19 N=1 v=1 q=171 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=19 N=3 v=1 q=171 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=19 N=5 v=1 q=171 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=23 N=1 v=1 q=207 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=23 N=3 v=1 q=207 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=23 N=5 v=1 q=207 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=29 N=1 v=1 q=261 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=29 N=3 v=1 q=261 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=29 N=5 v=1 q=261 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=31 N=1 v=1 q=279 m=4 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=31 N=3 v=1 q=279 m=13 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+  p=31 N=5 v=1 q=279 m=22 W=[1, 3, 3] pred=[1, 3, 3] OK rank[S]=3 OK
+n=15 comp t=4 -1inH=False d=4 delta=1 h^-=1
+  p= 7 N=1 v=1 q=105 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4 | capas W1=3 kappa=1 type_Fp=1 pred=1 OK
+  p= 7 N=3 v=1 q=105 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p= 7 N=5 v=1 q=105 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=11 N=1 v=1 q=165 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4 | capas W1=3 kappa=1 type_Fp=1 pred=1 OK
+  p=11 N=3 v=1 q=165 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=11 N=5 v=1 q=165 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=13 N=1 v=1 q=195 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=13 N=3 v=1 q=195 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=13 N=5 v=1 q=195 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=17 N=1 v=1 q=255 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=17 N=3 v=1 q=255 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=17 N=5 v=1 q=255 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=19 N=1 v=1 q=285 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=19 N=3 v=1 q=285 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=19 N=5 v=1 q=285 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=23 N=1 v=1 q=345 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=23 N=3 v=1 q=345 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=23 N=5 v=1 q=345 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=29 N=1 v=1 q=435 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=29 N=3 v=1 q=435 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=29 N=5 v=1 q=435 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=31 N=1 v=1 q=465 m=7 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=31 N=3 v=1 q=465 m=22 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+  p=31 N=5 v=1 q=465 m=37 W=[1, 3, 4] pred=[1, 3, 4] OK rank[S]=3 OK v_p[O:A]=4 v_p[A:f]=4
+n=21 comp t=6 -1inH=False d=6 delta=1 h^-=1
+  p= 5 N=1 v=1 q=105 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6 | capas W1=5 kappa=1 type_Fp=1 pred=1 OK
+  p= 5 N=3 v=1 q=105 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=11 N=1 v=1 q=231 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6 | capas W1=5 kappa=1 type_Fp=1 pred=1 OK
+  p=11 N=3 v=1 q=231 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=11 N=5 v=1 q=231 m=52 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=13 N=1 v=1 q=273 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=13 N=3 v=1 q=273 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=13 N=5 v=1 q=273 m=52 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=17 N=1 v=1 q=357 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=17 N=3 v=1 q=357 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=17 N=5 v=1 q=357 m=52 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=19 N=1 v=1 q=399 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=19 N=3 v=1 q=399 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=19 N=5 v=1 q=399 m=52 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=23 N=1 v=1 q=483 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=23 N=3 v=1 q=483 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=23 N=5 v=1 q=483 m=52 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=29 N=1 v=1 q=609 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=29 N=3 v=1 q=609 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=29 N=5 v=1 q=609 m=52 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=31 N=1 v=1 q=651 m=10 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=31 N=3 v=1 q=651 m=31 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+  p=31 N=5 v=1 q=651 m=52 W=[1, 5, 6] pred=[1, 5, 6] OK rank[S]=5 OK v_p[O:A]=6 v_p[A:f]=6
+n=25 comp t=20 -1inH=True d=10 delta=None h^-=1
+  p= 3 N=1 v=2 q=225 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 3 N=5 v=2 q=225 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 7 N=1 v=1 q=175 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 7 N=3 v=1 q=175 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 7 N=5 v=1 q=175 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=11 N=1 v=1 q=275 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=11 N=3 v=1 q=275 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=11 N=5 v=1 q=275 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=13 N=1 v=1 q=325 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=13 N=3 v=1 q=325 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=13 N=5 v=1 q=325 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=17 N=1 v=1 q=425 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=17 N=3 v=1 q=425 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=17 N=5 v=1 q=425 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=19 N=1 v=1 q=475 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=19 N=3 v=1 q=475 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=19 N=5 v=1 q=475 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=23 N=1 v=1 q=575 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=23 N=3 v=1 q=575 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=23 N=5 v=1 q=575 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=29 N=1 v=1 q=725 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=29 N=3 v=1 q=725 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=29 N=5 v=1 q=725 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=31 N=1 v=1 q=775 m=12 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=31 N=3 v=1 q=775 m=37 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=31 N=5 v=1 q=775 m=62 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+n=27 comp t=18 -1inH=True d=9 delta=None h^-=1
+  p= 5 N=1 v=1 q=135 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 5 N=3 v=1 q=135 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 7 N=1 v=1 q=189 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 7 N=3 v=1 q=189 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 7 N=5 v=1 q=189 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=11 N=1 v=1 q=297 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=11 N=3 v=1 q=297 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=11 N=5 v=1 q=297 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=13 N=1 v=1 q=351 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=13 N=3 v=1 q=351 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=13 N=5 v=1 q=351 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=17 N=1 v=1 q=459 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=17 N=3 v=1 q=459 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=17 N=5 v=1 q=459 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=19 N=1 v=1 q=513 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=19 N=3 v=1 q=513 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=19 N=5 v=1 q=513 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=23 N=1 v=1 q=621 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=23 N=3 v=1 q=621 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=23 N=5 v=1 q=621 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=29 N=1 v=1 q=783 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=29 N=3 v=1 q=783 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=29 N=5 v=1 q=783 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=31 N=1 v=1 q=837 m=13 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=31 N=3 v=1 q=837 m=40 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=31 N=5 v=1 q=837 m=67 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+n=33 comp t=10 -1inH=True d=10 delta=None h^-=1
+  p= 5 N=1 v=1 q=165 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 5 N=3 v=1 q=165 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 7 N=1 v=1 q=231 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 7 N=3 v=1 q=231 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p= 7 N=5 v=1 q=231 m=82 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=13 N=1 v=1 q=429 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=13 N=3 v=1 q=429 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=13 N=5 v=1 q=429 m=82 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=17 N=1 v=1 q=561 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=17 N=3 v=1 q=561 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=17 N=5 v=1 q=561 m=82 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=19 N=1 v=1 q=627 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=19 N=3 v=1 q=627 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=19 N=5 v=1 q=627 m=82 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=23 N=1 v=1 q=759 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=23 N=3 v=1 q=759 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=23 N=5 v=1 q=759 m=82 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=29 N=1 v=1 q=957 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=29 N=3 v=1 q=957 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=29 N=5 v=1 q=957 m=82 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=31 N=1 v=1 q=1023 m=16 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=31 N=3 v=1 q=1023 m=49 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+  p=31 N=5 v=1 q=1023 m=82 W=[1, 10, 10] pred=[1, 10, 10] OK rank[S]=10 OK
+n=35 comp t=12 -1inH=False d=12 delta=1 h^-=1
+  p= 3 N=1 v=2 q=315 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12 | capas W1=11 kappa=1 type_Fp=1 pred=1 OK
+  p= 3 N=5 v=2 q=315 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=1 v=1 q=385 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=3 v=1 q=385 m=52 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=5 v=1 q=385 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=13 N=1 v=1 q=455 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=13 N=3 v=1 q=455 m=52 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=13 N=5 v=1 q=455 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=1 v=1 q=595 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=3 v=1 q=595 m=52 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=5 v=1 q=595 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=1 v=1 q=665 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=3 v=1 q=665 m=52 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=5 v=1 q=665 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=1 v=1 q=805 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=3 v=1 q=805 m=52 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=5 v=1 q=805 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=1 v=1 q=1015 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=3 v=1 q=1015 m=52 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=5 v=1 q=1015 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=1 v=1 q=1085 m=17 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=3 v=1 q=1085 m=52 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=5 v=1 q=1085 m=87 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+n=39 comp t=12 -1inH=False d=12 delta=1 h^-=2
+  p= 5 N=1 v=1 q=195 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12 | capas W1=11 kappa=1 type_Fp=1 pred=1 OK
+  p= 5 N=3 v=1 q=195 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p= 7 N=1 v=1 q=273 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12 | capas W1=11 kappa=1 type_Fp=1 pred=1 OK
+  p= 7 N=3 v=1 q=273 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p= 7 N=5 v=1 q=273 m=97 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=1 v=1 q=429 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=3 v=1 q=429 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=5 v=1 q=429 m=97 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=1 v=1 q=663 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=3 v=1 q=663 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=5 v=1 q=663 m=97 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=1 v=1 q=741 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=3 v=1 q=741 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=5 v=1 q=741 m=97 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=1 v=1 q=897 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=3 v=1 q=897 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=5 v=1 q=897 m=97 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=1 v=1 q=1131 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=3 v=1 q=1131 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=5 v=1 q=1131 m=97 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=1 v=1 q=1209 m=19 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=3 v=1 q=1209 m=58 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=5 v=1 q=1209 m=97 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+n=45 comp t=12 -1inH=False d=12 delta=1 h^-=1
+  p= 7 N=1 v=1 q=315 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12 | capas W1=11 kappa=1 type_Fp=1 pred=1 OK
+  p= 7 N=3 v=1 q=315 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p= 7 N=5 v=1 q=315 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=1 v=1 q=495 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=3 v=1 q=495 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=11 N=5 v=1 q=495 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=13 N=1 v=1 q=585 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=13 N=3 v=1 q=585 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=13 N=5 v=1 q=585 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=1 v=1 q=765 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=3 v=1 q=765 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=17 N=5 v=1 q=765 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=1 v=1 q=855 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=3 v=1 q=855 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=19 N=5 v=1 q=855 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=1 v=1 q=1035 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=3 v=1 q=1035 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=23 N=5 v=1 q=1035 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=1 v=1 q=1305 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=3 v=1 q=1305 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=29 N=5 v=1 q=1305 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=1 v=1 q=1395 m=22 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=3 v=1 q=1395 m=67 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+  p=31 N=5 v=1 q=1395 m=112 W=[1, 11, 12] pred=[1, 11, 12] OK rank[S]=11 OK v_p[O:A]=12 v_p[A:f]=12
+n=49 comp t=21 -1inH=False d=21 delta=1 h^-=43
+  p= 3 N=1 v=2 q=441 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p= 3 N=5 v=2 q=441 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p= 5 N=1 v=1 q=245 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21 | capas W1=20 kappa=1 type_Fp=1 pred=1 OK
+  p= 5 N=3 v=1 q=245 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=11 N=1 v=1 q=539 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=11 N=3 v=1 q=539 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=11 N=5 v=1 q=539 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=13 N=1 v=1 q=637 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=13 N=3 v=1 q=637 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=13 N=5 v=1 q=637 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=17 N=1 v=1 q=833 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=17 N=3 v=1 q=833 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=17 N=5 v=1 q=833 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=19 N=1 v=1 q=931 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=19 N=3 v=1 q=931 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=19 N=5 v=1 q=931 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=23 N=1 v=1 q=1127 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=23 N=3 v=1 q=1127 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=23 N=5 v=1 q=1127 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=29 N=1 v=1 q=1421 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=29 N=3 v=1 q=1421 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=29 N=5 v=1 q=1421 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=31 N=1 v=1 q=1519 m=24 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=31 N=3 v=1 q=1519 m=73 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+  p=31 N=5 v=1 q=1519 m=122 W=[1, 20, 21] pred=[1, 20, 21] OK rank[S]=20 OK v_p[O:A]=21 v_p[A:f]=21
+n=51 comp t=8 -1inH=False d=16 delta=2 h^-=5
+  p= 7 N=1 v=1 q=357 m=25 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15 | capas W1=14 kappa=2 type_Fp=3 pred=3 OK
+  p= 7 N=3 v=1 q=357 m=76 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p= 7 N=5 v=1 q=357 m=127 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=11 N=1 v=1 q=561 m=25 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=11 N=3 v=1 q=561 m=76 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=11 N=5 v=1 q=561 m=127 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=13 N=1 v=1 q=663 m=25 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=13 N=3 v=1 q=663 m=76 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=13 N=5 v=1 q=663 m=127 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=19 N=1 v=1 q=969 m=25 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=19 N=3 v=1 q=969 m=76 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=19 N=5 v=1 q=969 m=127 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=23 N=1 v=1 q=1173 m=25 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=23 N=3 v=1 q=1173 m=76 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=23 N=5 v=1 q=1173 m=127 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=29 N=1 v=1 q=1479 m=25 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=29 N=3 v=1 q=1479 m=76 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=29 N=5 v=1 q=1479 m=127 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=31 N=1 v=1 q=1581 m=25 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=31 N=3 v=1 q=1581 m=76 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+  p=31 N=5 v=1 q=1581 m=127 W=[1, 14, 16] pred=[1, 14, 16] OK rank[S]=14 OK v_p[O:A]=17 v_p[A:f]=15
+n=55 comp t=20 -1inH=False d=20 delta=1 h^-=10
+  p= 3 N=1 v=2 q=495 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p= 3 N=5 v=2 q=495 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p= 7 N=1 v=1 q=385 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p= 7 N=3 v=1 q=385 m=82 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p= 7 N=5 v=1 q=385 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=13 N=1 v=1 q=715 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=13 N=3 v=1 q=715 m=82 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=13 N=5 v=1 q=715 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=17 N=1 v=1 q=935 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=17 N=3 v=1 q=935 m=82 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=17 N=5 v=1 q=935 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=19 N=1 v=1 q=1045 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=19 N=3 v=1 q=1045 m=82 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=19 N=5 v=1 q=1045 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=23 N=1 v=1 q=1265 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=23 N=3 v=1 q=1265 m=82 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=23 N=5 v=1 q=1265 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=29 N=1 v=1 q=1595 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=29 N=3 v=1 q=1595 m=82 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=29 N=5 v=1 q=1595 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=31 N=1 v=1 q=1705 m=27 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=31 N=3 v=1 q=1705 m=82 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=31 N=5 v=1 q=1705 m=137 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+n=57 comp t=18 -1inH=True d=18 delta=None h^-=9
+  p= 5 N=1 v=1 q=285 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 5 N=3 v=1 q=285 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 7 N=1 v=1 q=399 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 7 N=3 v=1 q=399 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 7 N=5 v=1 q=399 m=142 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=11 N=1 v=1 q=627 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=11 N=3 v=1 q=627 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=11 N=5 v=1 q=627 m=142 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=13 N=1 v=1 q=741 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=13 N=3 v=1 q=741 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=13 N=5 v=1 q=741 m=142 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=17 N=1 v=1 q=969 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=17 N=3 v=1 q=969 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=17 N=5 v=1 q=969 m=142 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=23 N=1 v=1 q=1311 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=23 N=3 v=1 q=1311 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=23 N=5 v=1 q=1311 m=142 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=29 N=1 v=1 q=1653 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=29 N=3 v=1 q=1653 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=29 N=5 v=1 q=1653 m=142 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=31 N=1 v=1 q=1767 m=28 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=31 N=3 v=1 q=1767 m=85 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=31 N=5 v=1 q=1767 m=142 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+n=63 comp t=6 -1inH=False d=18 delta=3 h^-=7
+  p= 5 N=1 v=1 q=315 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16 | capas W1=15 kappa=3 type_Fp=5 pred=5 OK
+  p= 5 N=3 v=1 q=315 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=11 N=1 v=1 q=693 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=11 N=3 v=1 q=693 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=11 N=5 v=1 q=693 m=157 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=13 N=1 v=1 q=819 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=13 N=3 v=1 q=819 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=13 N=5 v=1 q=819 m=157 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=17 N=1 v=1 q=1071 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=17 N=3 v=1 q=1071 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=17 N=5 v=1 q=1071 m=157 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=19 N=1 v=1 q=1197 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=19 N=3 v=1 q=1197 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=19 N=5 v=1 q=1197 m=157 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=23 N=1 v=1 q=1449 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=23 N=3 v=1 q=1449 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=23 N=5 v=1 q=1449 m=157 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=29 N=1 v=1 q=1827 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=29 N=3 v=1 q=1827 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=29 N=5 v=1 q=1827 m=157 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=31 N=1 v=1 q=1953 m=31 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=31 N=3 v=1 q=1953 m=94 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+  p=31 N=5 v=1 q=1953 m=157 W=[1, 15, 18] pred=[1, 15, 18] OK rank[S]=15 OK v_p[O:A]=20 v_p[A:f]=16
+n=65 comp t=12 -1inH=True d=24 delta=None h^-=64
+  p= 3 N=1 v=2 q=585 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p= 3 N=5 v=2 q=585 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p= 7 N=1 v=1 q=455 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p= 7 N=3 v=1 q=455 m=97 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p= 7 N=5 v=1 q=455 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=11 N=1 v=1 q=715 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=11 N=3 v=1 q=715 m=97 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=11 N=5 v=1 q=715 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=17 N=1 v=1 q=1105 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=17 N=3 v=1 q=1105 m=97 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=17 N=5 v=1 q=1105 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=19 N=1 v=1 q=1235 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=19 N=3 v=1 q=1235 m=97 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=19 N=5 v=1 q=1235 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=23 N=1 v=1 q=1495 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=23 N=3 v=1 q=1495 m=97 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=23 N=5 v=1 q=1495 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=29 N=1 v=1 q=1885 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=29 N=3 v=1 q=1885 m=97 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=29 N=5 v=1 q=1885 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=31 N=1 v=1 q=2015 m=32 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=31 N=3 v=1 q=2015 m=97 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+  p=31 N=5 v=1 q=2015 m=162 W=[1, 24, 24] pred=[1, 24, 24] OK rank[S]=24 OK
+n=69 comp t=22 -1inH=False d=22 delta=1 h^-=69
+  p= 5 N=1 v=1 q=345 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22 | capas W1=21 kappa=1 type_Fp=1 pred=1 OK
+  p= 5 N=3 v=1 q=345 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p= 7 N=1 v=1 q=483 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p= 7 N=3 v=1 q=483 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p= 7 N=5 v=1 q=483 m=172 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=11 N=1 v=1 q=759 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=11 N=3 v=1 q=759 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=11 N=5 v=1 q=759 m=172 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=13 N=1 v=1 q=897 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=13 N=3 v=1 q=897 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=13 N=5 v=1 q=897 m=172 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=17 N=1 v=1 q=1173 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=17 N=3 v=1 q=1173 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=17 N=5 v=1 q=1173 m=172 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=19 N=1 v=1 q=1311 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=19 N=3 v=1 q=1311 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=19 N=5 v=1 q=1311 m=172 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=29 N=1 v=1 q=2001 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=29 N=3 v=1 q=2001 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=29 N=5 v=1 q=2001 m=172 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=31 N=1 v=1 q=2139 m=34 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=31 N=3 v=1 q=2139 m=103 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+  p=31 N=5 v=1 q=2139 m=172 W=[1, 21, 22] pred=[1, 21, 22] OK rank[S]=21 OK v_p[O:A]=22 v_p[A:f]=22
+n=75 comp t=20 -1inH=False d=20 delta=1 h^-=11
+  p= 7 N=1 v=1 q=525 m=37 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p= 7 N=3 v=1 q=525 m=112 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p= 7 N=5 v=1 q=525 m=187 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=13 N=1 v=1 q=975 m=37 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=13 N=3 v=1 q=975 m=112 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=13 N=5 v=1 q=975 m=187 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=17 N=1 v=1 q=1275 m=37 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=17 N=3 v=1 q=1275 m=112 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=17 N=5 v=1 q=1275 m=187 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=19 N=1 v=1 q=1425 m=37 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=19 N=3 v=1 q=1425 m=112 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=19 N=5 v=1 q=1425 m=187 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=23 N=1 v=1 q=1725 m=37 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=23 N=3 v=1 q=1725 m=112 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=23 N=5 v=1 q=1725 m=187 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=29 N=1 v=1 q=2175 m=37 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=29 N=3 v=1 q=2175 m=112 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=29 N=5 v=1 q=2175 m=187 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=31 N=1 v=1 q=2325 m=37 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=31 N=3 v=1 q=2325 m=112 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+  p=31 N=5 v=1 q=2325 m=187 W=[1, 19, 20] pred=[1, 19, 20] OK rank[S]=19 OK v_p[O:A]=20 v_p[A:f]=20
+n=77 comp t=30 -1inH=False d=30 delta=1 h^-=1280
+  p= 3 N=1 v=2 q=693 m=38 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p= 3 N=5 v=2 q=693 m=192 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=13 N=1 v=1 q=1001 m=38 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=13 N=3 v=1 q=1001 m=115 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=13 N=5 v=1 q=1001 m=192 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=17 N=1 v=1 q=1309 m=38 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=17 N=3 v=1 q=1309 m=115 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=17 N=5 v=1 q=1309 m=192 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=19 N=1 v=1 q=1463 m=38 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=19 N=3 v=1 q=1463 m=115 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=19 N=5 v=1 q=1463 m=192 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=23 N=1 v=1 q=1771 m=38 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=23 N=3 v=1 q=1771 m=115 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=23 N=5 v=1 q=1771 m=192 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=29 N=1 v=1 q=2233 m=38 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=29 N=3 v=1 q=2233 m=115 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=29 N=5 v=1 q=2233 m=192 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=31 N=1 v=1 q=2387 m=38 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=31 N=3 v=1 q=2387 m=115 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+  p=31 N=5 v=1 q=2387 m=192 W=[1, 29, 30] pred=[1, 29, 30] OK rank[S]=29 OK v_p[O:A]=30 v_p[A:f]=30
+n=85 comp t=8 -1inH=False d=32 delta=4 h^-=6205
+  p= 3 N=1 v=2 q=765 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p= 3 N=5 v=2 q=765 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p= 7 N=1 v=1 q=595 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p= 7 N=3 v=1 q=595 m=127 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p= 7 N=5 v=1 q=595 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=11 N=1 v=1 q=935 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=11 N=3 v=1 q=935 m=127 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=11 N=5 v=1 q=935 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=13 N=1 v=1 q=1105 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=13 N=3 v=1 q=1105 m=127 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=13 N=5 v=1 q=1105 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=19 N=1 v=1 q=1615 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=19 N=3 v=1 q=1615 m=127 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=19 N=5 v=1 q=1615 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=23 N=1 v=1 q=1955 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=23 N=3 v=1 q=1955 m=127 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=23 N=5 v=1 q=1955 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=29 N=1 v=1 q=2465 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=29 N=3 v=1 q=2465 m=127 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=29 N=5 v=1 q=2465 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=31 N=1 v=1 q=2635 m=42 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=31 N=3 v=1 q=2635 m=127 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+  p=31 N=5 v=1 q=2635 m=212 W=[1, 28, 32] pred=[1, 28, 32] OK rank[S]=28 OK v_p[O:A]=35 v_p[A:f]=29
+n=87 comp t=28 -1inH=False d=28 delta=1 h^-=1536
+  p= 5 N=1 v=1 q=435 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p= 5 N=3 v=1 q=435 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p= 7 N=1 v=1 q=609 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p= 7 N=3 v=1 q=609 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p= 7 N=5 v=1 q=609 m=217 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=11 N=1 v=1 q=957 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=11 N=3 v=1 q=957 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=11 N=5 v=1 q=957 m=217 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=13 N=1 v=1 q=1131 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=13 N=3 v=1 q=1131 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=13 N=5 v=1 q=1131 m=217 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=17 N=1 v=1 q=1479 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=17 N=3 v=1 q=1479 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=17 N=5 v=1 q=1479 m=217 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=19 N=1 v=1 q=1653 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=19 N=3 v=1 q=1653 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=19 N=5 v=1 q=1653 m=217 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=23 N=1 v=1 q=2001 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=23 N=3 v=1 q=2001 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=23 N=5 v=1 q=2001 m=217 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=31 N=1 v=1 q=2697 m=43 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=31 N=3 v=1 q=2697 m=130 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+  p=31 N=5 v=1 q=2697 m=217 W=[1, 27, 28] pred=[1, 27, 28] OK rank[S]=27 OK v_p[O:A]=28 v_p[A:f]=28
+n=5 prime t=4 -1inH=True d=2 delta=None h^-=1
+  p= 3 N=1 v=2 q=45 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p= 3 N=5 v=2 q=45 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p= 7 N=1 v=1 q=35 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p= 7 N=3 v=1 q=35 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p= 7 N=5 v=1 q=35 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=11 N=1 v=1 q=55 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=11 N=3 v=1 q=55 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=11 N=5 v=1 q=55 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=13 N=1 v=1 q=65 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=13 N=3 v=1 q=65 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=13 N=5 v=1 q=65 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=17 N=1 v=1 q=85 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=17 N=3 v=1 q=85 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=17 N=5 v=1 q=85 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=19 N=1 v=1 q=95 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=19 N=3 v=1 q=95 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=19 N=5 v=1 q=95 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=23 N=1 v=1 q=115 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=23 N=3 v=1 q=115 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=23 N=5 v=1 q=115 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=29 N=1 v=1 q=145 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=29 N=3 v=1 q=145 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=29 N=5 v=1 q=145 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=31 N=1 v=1 q=155 m=2 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=31 N=3 v=1 q=155 m=7 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+  p=31 N=5 v=1 q=155 m=12 W=[1, 2, 2] pred=[1, 2, 2] OK rank[S]=2 OK
+n=7 prime t=3 -1inH=False d=3 delta=1 h^-=1
+  p= 3 N=1 v=2 q=63 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3 | capas W1=2 kappa=1 type_Fp=1 pred=1 OK
+  p= 3 N=5 v=2 q=63 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p= 5 N=1 v=1 q=35 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3 | capas W1=2 kappa=1 type_Fp=1 pred=1 OK
+  p= 5 N=3 v=1 q=35 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=11 N=1 v=1 q=77 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=11 N=3 v=1 q=77 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=11 N=5 v=1 q=77 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=13 N=1 v=1 q=91 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=13 N=3 v=1 q=91 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=13 N=5 v=1 q=91 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=17 N=1 v=1 q=119 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=17 N=3 v=1 q=119 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=17 N=5 v=1 q=119 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=19 N=1 v=1 q=133 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=19 N=3 v=1 q=133 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=19 N=5 v=1 q=133 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=23 N=1 v=1 q=161 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=23 N=3 v=1 q=161 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=23 N=5 v=1 q=161 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=29 N=1 v=1 q=203 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=29 N=3 v=1 q=203 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=29 N=5 v=1 q=203 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=31 N=1 v=1 q=217 m=3 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=31 N=3 v=1 q=217 m=10 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+  p=31 N=5 v=1 q=217 m=17 W=[1, 2, 3] pred=[1, 2, 3] OK rank[S]=2 OK v_p[O:A]=3 v_p[A:f]=3
+n=11 prime t=10 -1inH=True d=5 delta=None h^-=1
+  p= 3 N=1 v=2 q=99 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p= 3 N=5 v=2 q=99 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p= 5 N=1 v=1 q=55 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p= 5 N=3 v=1 q=55 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p= 7 N=1 v=1 q=77 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p= 7 N=3 v=1 q=77 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p= 7 N=5 v=1 q=77 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=13 N=1 v=1 q=143 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=13 N=3 v=1 q=143 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=13 N=5 v=1 q=143 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=17 N=1 v=1 q=187 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=17 N=3 v=1 q=187 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=17 N=5 v=1 q=187 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=19 N=1 v=1 q=209 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=19 N=3 v=1 q=209 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=19 N=5 v=1 q=209 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=23 N=1 v=1 q=253 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=23 N=3 v=1 q=253 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=23 N=5 v=1 q=253 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=29 N=1 v=1 q=319 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=29 N=3 v=1 q=319 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=29 N=5 v=1 q=319 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=31 N=1 v=1 q=341 m=5 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=31 N=3 v=1 q=341 m=16 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+  p=31 N=5 v=1 q=341 m=27 W=[1, 5, 5] pred=[1, 5, 5] OK rank[S]=5 OK
+n=13 prime t=12 -1inH=True d=6 delta=None h^-=1
+  p= 3 N=1 v=2 q=117 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p= 3 N=5 v=2 q=117 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p= 5 N=1 v=1 q=65 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p= 5 N=3 v=1 q=65 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p= 7 N=1 v=1 q=91 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p= 7 N=3 v=1 q=91 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p= 7 N=5 v=1 q=91 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=11 N=1 v=1 q=143 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=11 N=3 v=1 q=143 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=11 N=5 v=1 q=143 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=17 N=1 v=1 q=221 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=17 N=3 v=1 q=221 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=17 N=5 v=1 q=221 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=19 N=1 v=1 q=247 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=19 N=3 v=1 q=247 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=19 N=5 v=1 q=247 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=23 N=1 v=1 q=299 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=23 N=3 v=1 q=299 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=23 N=5 v=1 q=299 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=29 N=1 v=1 q=377 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=29 N=3 v=1 q=377 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=29 N=5 v=1 q=377 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=31 N=1 v=1 q=403 m=6 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=31 N=3 v=1 q=403 m=19 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+  p=31 N=5 v=1 q=403 m=32 W=[1, 6, 6] pred=[1, 6, 6] OK rank[S]=6 OK
+n=17 prime t=8 -1inH=True d=8 delta=None h^-=1
+  p= 3 N=1 v=2 q=153 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p= 3 N=5 v=2 q=153 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p= 5 N=1 v=1 q=85 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p= 5 N=3 v=1 q=85 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p= 7 N=1 v=1 q=119 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p= 7 N=3 v=1 q=119 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p= 7 N=5 v=1 q=119 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=11 N=1 v=1 q=187 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=11 N=3 v=1 q=187 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=11 N=5 v=1 q=187 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=13 N=1 v=1 q=221 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=13 N=3 v=1 q=221 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=13 N=5 v=1 q=221 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=19 N=1 v=1 q=323 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=19 N=3 v=1 q=323 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=19 N=5 v=1 q=323 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=23 N=1 v=1 q=391 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=23 N=3 v=1 q=391 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=23 N=5 v=1 q=391 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=29 N=1 v=1 q=493 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=29 N=3 v=1 q=493 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=29 N=5 v=1 q=493 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=31 N=1 v=1 q=527 m=8 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=31 N=3 v=1 q=527 m=25 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+  p=31 N=5 v=1 q=527 m=42 W=[1, 8, 8] pred=[1, 8, 8] OK rank[S]=8 OK
+n=19 prime t=18 -1inH=True d=9 delta=None h^-=1
+  p= 3 N=1 v=2 q=171 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 3 N=5 v=2 q=171 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 5 N=1 v=1 q=95 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 5 N=3 v=1 q=95 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 7 N=1 v=1 q=133 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 7 N=3 v=1 q=133 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p= 7 N=5 v=1 q=133 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=11 N=1 v=1 q=209 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=11 N=3 v=1 q=209 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=11 N=5 v=1 q=209 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=13 N=1 v=1 q=247 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=13 N=3 v=1 q=247 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=13 N=5 v=1 q=247 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=17 N=1 v=1 q=323 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=17 N=3 v=1 q=323 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=17 N=5 v=1 q=323 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=23 N=1 v=1 q=437 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=23 N=3 v=1 q=437 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=23 N=5 v=1 q=437 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=29 N=1 v=1 q=551 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=29 N=3 v=1 q=551 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=29 N=5 v=1 q=551 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=31 N=1 v=1 q=589 m=9 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=31 N=3 v=1 q=589 m=28 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+  p=31 N=5 v=1 q=589 m=47 W=[1, 9, 9] pred=[1, 9, 9] OK rank[S]=9 OK
+n=23 prime t=11 -1inH=False d=11 delta=1 h^-=3
+  p= 5 N=1 v=1 q=115 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11 | capas W1=10 kappa=1 type_Fp=1 pred=1 OK
+  p= 5 N=3 v=1 q=115 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p= 7 N=1 v=1 q=161 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11 | capas W1=10 kappa=1 type_Fp=1 pred=1 OK
+  p= 7 N=3 v=1 q=161 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p= 7 N=5 v=1 q=161 m=57 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=11 N=1 v=1 q=253 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=11 N=3 v=1 q=253 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=11 N=5 v=1 q=253 m=57 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=13 N=1 v=1 q=299 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=13 N=3 v=1 q=299 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=13 N=5 v=1 q=299 m=57 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=17 N=1 v=1 q=391 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=17 N=3 v=1 q=391 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=17 N=5 v=1 q=391 m=57 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=19 N=1 v=1 q=437 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=19 N=3 v=1 q=437 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=19 N=5 v=1 q=437 m=57 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=29 N=1 v=1 q=667 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=29 N=3 v=1 q=667 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=29 N=5 v=1 q=667 m=57 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=31 N=1 v=1 q=713 m=11 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=31 N=3 v=1 q=713 m=34 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+  p=31 N=5 v=1 q=713 m=57 W=[1, 10, 11] pred=[1, 10, 11] OK rank[S]=10 OK v_p[O:A]=11 v_p[A:f]=11
+n=29 prime t=28 -1inH=True d=14 delta=None h^-=8
+  p= 3 N=1 v=2 q=261 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p= 3 N=5 v=2 q=261 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p= 5 N=1 v=1 q=145 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p= 5 N=3 v=1 q=145 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p= 7 N=1 v=1 q=203 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p= 7 N=3 v=1 q=203 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p= 7 N=5 v=1 q=203 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=11 N=1 v=1 q=319 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=11 N=3 v=1 q=319 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=11 N=5 v=1 q=319 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=13 N=1 v=1 q=377 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=13 N=3 v=1 q=377 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=13 N=5 v=1 q=377 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=17 N=1 v=1 q=493 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=17 N=3 v=1 q=493 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=17 N=5 v=1 q=493 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=19 N=1 v=1 q=551 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=19 N=3 v=1 q=551 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=19 N=5 v=1 q=551 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=23 N=1 v=1 q=667 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=23 N=3 v=1 q=667 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=23 N=5 v=1 q=667 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=31 N=1 v=1 q=899 m=14 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=31 N=3 v=1 q=899 m=43 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+  p=31 N=5 v=1 q=899 m=72 W=[1, 14, 14] pred=[1, 14, 14] OK rank[S]=14 OK
+n=31 prime t=5 -1inH=False d=15 delta=3 h^-=9
+  p= 5 N=1 v=1 q=155 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13 | capas W1=12 kappa=3 type_Fp=5 pred=5 OK
+  p= 5 N=3 v=1 q=155 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p= 7 N=1 v=1 q=217 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13 | capas W1=12 kappa=3 type_Fp=5 pred=5 OK
+  p= 7 N=3 v=1 q=217 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p= 7 N=5 v=1 q=217 m=77 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=11 N=1 v=1 q=341 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=11 N=3 v=1 q=341 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=11 N=5 v=1 q=341 m=77 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=13 N=1 v=1 q=403 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=13 N=3 v=1 q=403 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=13 N=5 v=1 q=403 m=77 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=17 N=1 v=1 q=527 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=17 N=3 v=1 q=527 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=17 N=5 v=1 q=527 m=77 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=19 N=1 v=1 q=589 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=19 N=3 v=1 q=589 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=19 N=5 v=1 q=589 m=77 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=23 N=1 v=1 q=713 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=23 N=3 v=1 q=713 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=23 N=5 v=1 q=713 m=77 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=29 N=1 v=1 q=899 m=15 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=29 N=3 v=1 q=899 m=46 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+  p=29 N=5 v=1 q=899 m=77 W=[1, 12, 15] pred=[1, 12, 15] OK rank[S]=12 OK v_p[O:A]=17 v_p[A:f]=13
+n=37 prime t=36 -1inH=True d=18 delta=None h^-=37
+  p= 3 N=1 v=2 q=333 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 3 N=5 v=2 q=333 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 5 N=1 v=1 q=185 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 5 N=3 v=1 q=185 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 7 N=1 v=1 q=259 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 7 N=3 v=1 q=259 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p= 7 N=5 v=1 q=259 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=11 N=1 v=1 q=407 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=11 N=3 v=1 q=407 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=11 N=5 v=1 q=407 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=13 N=1 v=1 q=481 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=13 N=3 v=1 q=481 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=13 N=5 v=1 q=481 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=17 N=1 v=1 q=629 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=17 N=3 v=1 q=629 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=17 N=5 v=1 q=629 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=19 N=1 v=1 q=703 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=19 N=3 v=1 q=703 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=19 N=5 v=1 q=703 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=23 N=1 v=1 q=851 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=23 N=3 v=1 q=851 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=23 N=5 v=1 q=851 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=29 N=1 v=1 q=1073 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=29 N=3 v=1 q=1073 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=29 N=5 v=1 q=1073 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=31 N=1 v=1 q=1147 m=18 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=31 N=3 v=1 q=1147 m=55 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+  p=31 N=5 v=1 q=1147 m=92 W=[1, 18, 18] pred=[1, 18, 18] OK rank[S]=18 OK
+n=41 prime t=20 -1inH=True d=20 delta=None h^-=121
+  p= 3 N=1 v=2 q=369 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p= 3 N=5 v=2 q=369 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p= 5 N=1 v=1 q=205 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p= 5 N=3 v=1 q=205 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p= 7 N=1 v=1 q=287 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p= 7 N=3 v=1 q=287 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p= 7 N=5 v=1 q=287 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=13 N=1 v=1 q=533 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=13 N=3 v=1 q=533 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=13 N=5 v=1 q=533 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=17 N=1 v=1 q=697 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=17 N=3 v=1 q=697 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=17 N=5 v=1 q=697 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=19 N=1 v=1 q=779 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=19 N=3 v=1 q=779 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=19 N=5 v=1 q=779 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=23 N=1 v=1 q=943 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=23 N=3 v=1 q=943 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=23 N=5 v=1 q=943 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=29 N=1 v=1 q=1189 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=29 N=3 v=1 q=1189 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=29 N=5 v=1 q=1189 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=31 N=1 v=1 q=1271 m=20 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=31 N=3 v=1 q=1271 m=61 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+  p=31 N=5 v=1 q=1271 m=102 W=[1, 20, 20] pred=[1, 20, 20] OK rank[S]=20 OK
+n=43 prime t=14 -1inH=True d=21 delta=None h^-=211
+  p= 3 N=1 v=2 q=387 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p= 3 N=5 v=2 q=387 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p= 5 N=1 v=1 q=215 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p= 5 N=3 v=1 q=215 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p= 7 N=1 v=1 q=301 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p= 7 N=3 v=1 q=301 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p= 7 N=5 v=1 q=301 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=11 N=1 v=1 q=473 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=11 N=3 v=1 q=473 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=11 N=5 v=1 q=473 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=13 N=1 v=1 q=559 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=13 N=3 v=1 q=559 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=13 N=5 v=1 q=559 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=17 N=1 v=1 q=731 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=17 N=3 v=1 q=731 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=17 N=5 v=1 q=731 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=19 N=1 v=1 q=817 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=19 N=3 v=1 q=817 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=19 N=5 v=1 q=817 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=23 N=1 v=1 q=989 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=23 N=3 v=1 q=989 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=23 N=5 v=1 q=989 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=29 N=1 v=1 q=1247 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=29 N=3 v=1 q=1247 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=29 N=5 v=1 q=1247 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=31 N=1 v=1 q=1333 m=21 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=31 N=3 v=1 q=1333 m=64 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+  p=31 N=5 v=1 q=1333 m=107 W=[1, 21, 21] pred=[1, 21, 21] OK rank[S]=21 OK
+n=47 prime t=23 -1inH=False d=23 delta=1 h^-=695
+  p= 3 N=1 v=2 q=423 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p= 3 N=5 v=2 q=423 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p= 7 N=1 v=1 q=329 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p= 7 N=3 v=1 q=329 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p= 7 N=5 v=1 q=329 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=11 N=1 v=1 q=517 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=11 N=3 v=1 q=517 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=11 N=5 v=1 q=517 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=13 N=1 v=1 q=611 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=13 N=3 v=1 q=611 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=13 N=5 v=1 q=611 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=17 N=1 v=1 q=799 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=17 N=3 v=1 q=799 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=17 N=5 v=1 q=799 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=19 N=1 v=1 q=893 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=19 N=3 v=1 q=893 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=19 N=5 v=1 q=893 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=23 N=1 v=1 q=1081 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=23 N=3 v=1 q=1081 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=23 N=5 v=1 q=1081 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=29 N=1 v=1 q=1363 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=29 N=3 v=1 q=1363 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=29 N=5 v=1 q=1363 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=31 N=1 v=1 q=1457 m=23 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=31 N=3 v=1 q=1457 m=70 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+  p=31 N=5 v=1 q=1457 m=117 W=[1, 22, 23] pred=[1, 22, 23] OK rank[S]=22 OK v_p[O:A]=23 v_p[A:f]=23
+n=53 prime t=52 -1inH=True d=26 delta=None h^-=4889
+  p= 3 N=1 v=2 q=477 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p= 3 N=5 v=2 q=477 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p= 5 N=1 v=1 q=265 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p= 5 N=3 v=1 q=265 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p= 7 N=1 v=1 q=371 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p= 7 N=3 v=1 q=371 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p= 7 N=5 v=1 q=371 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=11 N=1 v=1 q=583 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=11 N=3 v=1 q=583 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=11 N=5 v=1 q=583 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=13 N=1 v=1 q=689 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=13 N=3 v=1 q=689 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=13 N=5 v=1 q=689 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=17 N=1 v=1 q=901 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=17 N=3 v=1 q=901 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=17 N=5 v=1 q=901 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=19 N=1 v=1 q=1007 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=19 N=3 v=1 q=1007 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=19 N=5 v=1 q=1007 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=23 N=1 v=1 q=1219 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=23 N=3 v=1 q=1219 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=23 N=5 v=1 q=1219 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=29 N=1 v=1 q=1537 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=29 N=3 v=1 q=1537 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=29 N=5 v=1 q=1537 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=31 N=1 v=1 q=1643 m=26 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=31 N=3 v=1 q=1643 m=79 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+  p=31 N=5 v=1 q=1643 m=132 W=[1, 26, 26] pred=[1, 26, 26] OK rank[S]=26 OK
+n=59 prime t=58 -1inH=True d=29 delta=None h^-=41241
+  p= 5 N=1 v=1 q=295 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p= 5 N=3 v=1 q=295 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p= 7 N=1 v=1 q=413 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p= 7 N=3 v=1 q=413 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p= 7 N=5 v=1 q=413 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=11 N=1 v=1 q=649 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=11 N=3 v=1 q=649 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=11 N=5 v=1 q=649 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=13 N=1 v=1 q=767 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=13 N=3 v=1 q=767 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=13 N=5 v=1 q=767 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=17 N=1 v=1 q=1003 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=17 N=3 v=1 q=1003 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=17 N=5 v=1 q=1003 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=19 N=1 v=1 q=1121 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=19 N=3 v=1 q=1121 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=19 N=5 v=1 q=1121 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=23 N=1 v=1 q=1357 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=23 N=3 v=1 q=1357 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=23 N=5 v=1 q=1357 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=29 N=1 v=1 q=1711 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=29 N=3 v=1 q=1711 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=29 N=5 v=1 q=1711 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=31 N=1 v=1 q=1829 m=29 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=31 N=3 v=1 q=1829 m=88 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+  p=31 N=5 v=1 q=1829 m=147 W=[1, 29, 29] pred=[1, 29, 29] OK rank[S]=29 OK
+n=61 prime t=60 -1inH=True d=30 delta=None h^-=76301
+  p= 3 N=1 v=2 q=549 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p= 3 N=5 v=2 q=549 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p= 5 N=1 v=1 q=305 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p= 5 N=3 v=1 q=305 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p= 7 N=1 v=1 q=427 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p= 7 N=3 v=1 q=427 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p= 7 N=5 v=1 q=427 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=11 N=1 v=1 q=671 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=11 N=3 v=1 q=671 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=11 N=5 v=1 q=671 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=13 N=1 v=1 q=793 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=13 N=3 v=1 q=793 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=13 N=5 v=1 q=793 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=17 N=1 v=1 q=1037 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=17 N=3 v=1 q=1037 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=17 N=5 v=1 q=1037 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=19 N=1 v=1 q=1159 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=19 N=3 v=1 q=1159 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=19 N=5 v=1 q=1159 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=23 N=1 v=1 q=1403 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=23 N=3 v=1 q=1403 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=23 N=5 v=1 q=1403 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=29 N=1 v=1 q=1769 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=29 N=3 v=1 q=1769 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=29 N=5 v=1 q=1769 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=31 N=1 v=1 q=1891 m=30 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=31 N=3 v=1 q=1891 m=91 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+  p=31 N=5 v=1 q=1891 m=152 W=[1, 30, 30] pred=[1, 30, 30] OK rank[S]=30 OK
+n=67 prime t=66 -1inH=True d=33 delta=None h^-=853513
+  p= 3 N=1 v=2 q=603 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p= 3 N=5 v=2 q=603 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p= 5 N=1 v=1 q=335 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p= 5 N=3 v=1 q=335 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p= 7 N=1 v=1 q=469 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p= 7 N=3 v=1 q=469 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p= 7 N=5 v=1 q=469 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=11 N=1 v=1 q=737 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=11 N=3 v=1 q=737 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=11 N=5 v=1 q=737 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=13 N=1 v=1 q=871 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=13 N=3 v=1 q=871 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=13 N=5 v=1 q=871 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=17 N=1 v=1 q=1139 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=17 N=3 v=1 q=1139 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=17 N=5 v=1 q=1139 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=19 N=1 v=1 q=1273 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=19 N=3 v=1 q=1273 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=19 N=5 v=1 q=1273 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=23 N=1 v=1 q=1541 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=23 N=3 v=1 q=1541 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=23 N=5 v=1 q=1541 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=29 N=1 v=1 q=1943 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=29 N=3 v=1 q=1943 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=29 N=5 v=1 q=1943 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=31 N=1 v=1 q=2077 m=33 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=31 N=3 v=1 q=2077 m=100 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+  p=31 N=5 v=1 q=2077 m=167 W=[1, 33, 33] pred=[1, 33, 33] OK rank[S]=33 OK
+n=71 prime t=35 -1inH=False d=35 delta=1 h^-=3882809
+  p= 3 N=1 v=2 q=639 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p= 3 N=5 v=2 q=639 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p= 5 N=1 v=1 q=355 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p= 5 N=3 v=1 q=355 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=11 N=1 v=1 q=781 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=11 N=3 v=1 q=781 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=11 N=5 v=1 q=781 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=13 N=1 v=1 q=923 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=13 N=3 v=1 q=923 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=13 N=5 v=1 q=923 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=17 N=1 v=1 q=1207 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=17 N=3 v=1 q=1207 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=17 N=5 v=1 q=1207 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=19 N=1 v=1 q=1349 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=19 N=3 v=1 q=1349 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=19 N=5 v=1 q=1349 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=23 N=1 v=1 q=1633 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=23 N=3 v=1 q=1633 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=23 N=5 v=1 q=1633 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=29 N=1 v=1 q=2059 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=29 N=3 v=1 q=2059 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=29 N=5 v=1 q=2059 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=31 N=1 v=1 q=2201 m=35 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=31 N=3 v=1 q=2201 m=106 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+  p=31 N=5 v=1 q=2201 m=177 W=[1, 34, 35] pred=[1, 34, 35] OK rank[S]=34 OK v_p[O:A]=35 v_p[A:f]=35
+n=73 prime t=9 -1inH=False d=36 delta=4 h^-=11957417
+  p= 3 N=1 v=2 q=657 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p= 3 N=5 v=2 q=657 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p= 5 N=1 v=1 q=365 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p= 5 N=3 v=1 q=365 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p= 7 N=1 v=1 q=511 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p= 7 N=3 v=1 q=511 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p= 7 N=5 v=1 q=511 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=11 N=1 v=1 q=803 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=11 N=3 v=1 q=803 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=11 N=5 v=1 q=803 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=13 N=1 v=1 q=949 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=13 N=3 v=1 q=949 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=13 N=5 v=1 q=949 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=17 N=1 v=1 q=1241 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=17 N=3 v=1 q=1241 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=17 N=5 v=1 q=1241 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=19 N=1 v=1 q=1387 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=19 N=3 v=1 q=1387 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=19 N=5 v=1 q=1387 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=23 N=1 v=1 q=1679 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=23 N=3 v=1 q=1679 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=23 N=5 v=1 q=1679 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=29 N=1 v=1 q=2117 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=29 N=3 v=1 q=2117 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=29 N=5 v=1 q=2117 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=31 N=1 v=1 q=2263 m=36 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=31 N=3 v=1 q=2263 m=109 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+  p=31 N=5 v=1 q=2263 m=182 W=[1, 32, 36] pred=[1, 32, 36] OK rank[S]=32 OK v_p[O:A]=39 v_p[A:f]=33
+n=79 prime t=39 -1inH=False d=39 delta=1 h^-=100146415
+  p= 3 N=1 v=2 q=711 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p= 3 N=5 v=2 q=711 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p= 7 N=1 v=1 q=553 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p= 7 N=3 v=1 q=553 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p= 7 N=5 v=1 q=553 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=11 N=1 v=1 q=869 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=11 N=3 v=1 q=869 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=11 N=5 v=1 q=869 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=13 N=1 v=1 q=1027 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=13 N=3 v=1 q=1027 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=13 N=5 v=1 q=1027 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=17 N=1 v=1 q=1343 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=17 N=3 v=1 q=1343 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=17 N=5 v=1 q=1343 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=19 N=1 v=1 q=1501 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=19 N=3 v=1 q=1501 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=19 N=5 v=1 q=1501 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=23 N=1 v=1 q=1817 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=23 N=3 v=1 q=1817 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=23 N=5 v=1 q=1817 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=29 N=1 v=1 q=2291 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=29 N=3 v=1 q=2291 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=29 N=5 v=1 q=2291 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=31 N=1 v=1 q=2449 m=39 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=31 N=3 v=1 q=2449 m=118 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+  p=31 N=5 v=1 q=2449 m=197 W=[1, 38, 39] pred=[1, 38, 39] OK rank[S]=38 OK v_p[O:A]=39 v_p[A:f]=39
+n=83 prime t=82 -1inH=True d=41 delta=None h^-=838216959
+  p= 5 N=1 v=1 q=415 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p= 5 N=3 v=1 q=415 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p= 7 N=1 v=1 q=581 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p= 7 N=3 v=1 q=581 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p= 7 N=5 v=1 q=581 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=11 N=1 v=1 q=913 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=11 N=3 v=1 q=913 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=11 N=5 v=1 q=913 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=13 N=1 v=1 q=1079 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=13 N=3 v=1 q=1079 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=13 N=5 v=1 q=1079 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=17 N=1 v=1 q=1411 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=17 N=3 v=1 q=1411 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=17 N=5 v=1 q=1411 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=19 N=1 v=1 q=1577 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=19 N=3 v=1 q=1577 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=19 N=5 v=1 q=1577 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=23 N=1 v=1 q=1909 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=23 N=3 v=1 q=1909 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=23 N=5 v=1 q=1909 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=29 N=1 v=1 q=2407 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=29 N=3 v=1 q=2407 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=29 N=5 v=1 q=2407 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=31 N=1 v=1 q=2573 m=41 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=31 N=3 v=1 q=2573 m=124 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+  p=31 N=5 v=1 q=2573 m=207 W=[1, 41, 41] pred=[1, 41, 41] OK rank[S]=41 OK
+n=89 prime t=11 -1inH=False d=44 delta=4 h^-=13379363737
+  p= 3 N=1 v=2 q=801 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p= 3 N=5 v=2 q=801 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p= 5 N=1 v=1 q=445 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p= 5 N=3 v=1 q=445 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p= 7 N=1 v=1 q=623 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p= 7 N=3 v=1 q=623 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p= 7 N=5 v=1 q=623 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=11 N=1 v=1 q=979 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=11 N=3 v=1 q=979 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=11 N=5 v=1 q=979 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=13 N=1 v=1 q=1157 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=13 N=3 v=1 q=1157 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=13 N=5 v=1 q=1157 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=17 N=1 v=1 q=1513 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=17 N=3 v=1 q=1513 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=17 N=5 v=1 q=1513 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=19 N=1 v=1 q=1691 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=19 N=3 v=1 q=1691 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=19 N=5 v=1 q=1691 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=23 N=1 v=1 q=2047 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=23 N=3 v=1 q=2047 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=23 N=5 v=1 q=2047 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=29 N=1 v=1 q=2581 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=29 N=3 v=1 q=2581 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=29 N=5 v=1 q=2581 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=31 N=1 v=1 q=2759 m=44 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=31 N=3 v=1 q=2759 m=133 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+  p=31 N=5 v=1 q=2759 m=222 W=[1, 40, 44] pred=[1, 40, 44] OK rank[S]=40 OK v_p[O:A]=47 v_p[A:f]=41
+TOTAL layer_cases=1038 layer_fail=0 rank_fail=0 | type_cases=18 type_fail=0
+t even and -1 not in H: [(15, 4, 4, 1), (21, 6, 6, 1), (35, 12, 12, 1), (39, 12, 12, 1), (45, 12, 12, 1), (51, 8, 16, 2), (55, 20, 20, 1), (63, 6, 18, 3), (69, 22, 22, 1), (75, 20, 20, 1), (77, 30, 30, 1), (85, 8, 32, 4), (87, 28, 28, 1)]
+t odd: [(49, 21, 21, 1), (7, 3, 3, 1), (23, 11, 11, 1), (31, 5, 15, 3), (47, 23, 23, 1), (71, 35, 35, 1), (73, 9, 36, 4), (79, 39, 39, 1), (89, 11, 44, 4)]
+delta>=2: [(51, 8, 2), (63, 6, 3), (85, 8, 4), (31, 5, 3), (73, 9, 4), (89, 11, 4)]

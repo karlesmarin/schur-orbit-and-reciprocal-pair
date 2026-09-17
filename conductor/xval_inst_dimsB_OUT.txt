@@ -1,0 +1,732 @@
+descent q=45 p=3 m=7 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=175 p=5 m=17 K=6 dims_B W=[1, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=135 p=3 m=22 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=275 p=5 m=27 K=6 dims_B W=[1, 0, 0, 0, 1, 5] inst W=[1, 0, 0, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=175 p=5 m=52 K=6 dims_B W=[1, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=847 p=11 m=38 K=12 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=207 p=3 m=34 K=4 dims_B W=[1, 0, 1, 10] inst W=[1, 0, 1, 10] | A0 W1 10 vs 10 OK
+descent q=735 p=7 m=52 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=425 p=5 m=42 K=6 dims_B W=[1, 0, 0, 0, 1, 8] inst W=[1, 0, 0, 0, 1, 8] | A0 W1 8 vs 8 OK
+descent q=297 p=3 m=49 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 5] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=279 p=3 m=46 K=4 dims_B W=[1, 0, 1, 12] inst W=[1, 0, 1, 12] | A0 W1 12 vs 12 OK
+descent q=405 p=3 m=67 K=28 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=135 p=3 m=7 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=875 p=5 m=17 K=6 dims_B W=[1, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=405 p=3 m=22 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=1375 p=5 m=27 K=6 dims_B W=[1, 0, 0, 0, 1, 5] inst W=[1, 0, 0, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=875 p=5 m=52 K=6 dims_B W=[1, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=9317 p=11 m=38 K=12 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=621 p=3 m=34 K=4 dims_B W=[1, 0, 1, 10] inst W=[1, 0, 1, 10] | A0 W1 10 vs 10 OK
+descent q=5145 p=7 m=52 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=2125 p=5 m=42 K=6 dims_B W=[1, 0, 0, 0, 1, 8] inst W=[1, 0, 0, 0, 1, 8] | A0 W1 8 vs 8 OK
+descent q=891 p=3 m=49 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 5] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=837 p=3 m=46 K=4 dims_B W=[1, 0, 1, 12] inst W=[1, 0, 1, 12] | A0 W1 12 vs 12 OK
+descent q=1215 p=3 m=67 K=28 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=63 p=3 m=10 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=99 p=3 m=16 K=4 dims_B W=[1, 0, 1, 5] inst W=[1, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=117 p=3 m=19 K=4 dims_B W=[1, 0, 1, 6] inst W=[1, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=441 p=7 m=31 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=245 p=7 m=52 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=171 p=3 m=28 K=4 dims_B W=[1, 0, 1, 9] inst W=[1, 0, 1, 9] | A0 W1 9 vs 9 OK
+descent q=539 p=7 m=38 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 5] inst W=[1, 0, 0, 0, 0, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=1089 p=11 m=49 K=12 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=637 p=7 m=45 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 6] inst W=[1, 0, 0, 0, 0, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=675 p=5 m=67 K=6 dims_B W=[1, 0, 0, 0, 1, 9] inst W=[1, 0, 0, 0, 1, 9] | A0 W1 9 vs 9 OK
+descent q=189 p=3 m=10 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=297 p=3 m=16 K=4 dims_B W=[1, 0, 1, 5] inst W=[1, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=351 p=3 m=19 K=4 dims_B W=[1, 0, 1, 6] inst W=[1, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=3087 p=7 m=31 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=1715 p=7 m=52 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=513 p=3 m=28 K=4 dims_B W=[1, 0, 1, 9] inst W=[1, 0, 1, 9] | A0 W1 9 vs 9 OK
+descent q=3773 p=7 m=38 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 5] inst W=[1, 0, 0, 0, 0, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=11979 p=11 m=49 K=12 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=4459 p=7 m=45 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 6] inst W=[1, 0, 0, 0, 0, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=3375 p=5 m=67 K=6 dims_B W=[1, 0, 0, 0, 1, 9] inst W=[1, 0, 0, 0, 1, 9] | A0 W1 9 vs 9 OK
+descent q=245 p=7 m=17 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=225 p=5 m=22 K=6 dims_B W=[1, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=189 p=3 m=52 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=325 p=5 m=32 K=6 dims_B W=[1, 0, 0, 0, 1, 6] inst W=[1, 0, 0, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=525 p=5 m=52 K=6 dims_B W=[1, 0, 0, 0, 1, 5] inst W=[1, 0, 0, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=315 p=3 m=52 K=4 dims_B W=[1, 0, 1, 11] inst W=[1, 0, 1, 11] | A0 W1 11 vs 11 OK
+descent q=1715 p=7 m=17 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=1125 p=5 m=22 K=6 dims_B W=[1, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=567 p=3 m=52 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=1625 p=5 m=32 K=6 dims_B W=[1, 0, 0, 0, 1, 6] inst W=[1, 0, 0, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=2625 p=5 m=52 K=6 dims_B W=[1, 0, 0, 0, 1, 5] inst W=[1, 0, 0, 0, 1, 5] | A0 W1 5 vs 5 OK
+descent q=945 p=3 m=52 K=4 dims_B W=[1, 0, 1, 11] inst W=[1, 0, 1, 11] | A0 W1 11 vs 11 OK
+descent q=135 p=3 m=37 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=135 p=3 m=52 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=605 p=11 m=27 K=12 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=153 p=3 m=25 K=4 dims_B W=[1, 0, 1, 8] inst W=[1, 0, 1, 8] | A0 W1 8 vs 8 OK
+descent q=189 p=3 m=31 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=225 p=5 m=67 K=6 dims_B W=[1, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=225 p=3 m=37 K=4 dims_B W=[1, 0, 1, 10] inst W=[1, 0, 1, 10] | A0 W1 10 vs 10 OK
+descent q=261 p=3 m=43 K=4 dims_B W=[1, 0, 1, 14] inst W=[1, 0, 1, 14] | A0 W1 14 vs 14 OK
+descent q=475 p=5 m=47 K=6 dims_B W=[1, 0, 0, 0, 1, 9] inst W=[1, 0, 0, 0, 1, 9] | A0 W1 9 vs 9 OK
+descent q=351 p=3 m=58 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 6] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=833 p=7 m=59 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 8] inst W=[1, 0, 0, 0, 0, 0, 1, 8] | A0 W1 8 vs 8 OK
+descent q=405 p=3 m=37 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=405 p=3 m=52 K=4 dims_B W=[1, 0, 1, 2] inst W=[1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=6655 p=11 m=27 K=12 dims_B W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=459 p=3 m=25 K=4 dims_B W=[1, 0, 1, 8] inst W=[1, 0, 1, 8] | A0 W1 8 vs 8 OK
+descent q=567 p=3 m=31 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 2] | A0 W1 2 vs 2 OK
+descent q=1125 p=5 m=67 K=6 dims_B W=[1, 0, 0, 0, 1, 3] inst W=[1, 0, 0, 0, 1, 3] | A0 W1 3 vs 3 OK
+descent q=675 p=3 m=37 K=4 dims_B W=[1, 0, 1, 10] inst W=[1, 0, 1, 10] | A0 W1 10 vs 10 OK
+descent q=783 p=3 m=43 K=4 dims_B W=[1, 0, 1, 14] inst W=[1, 0, 1, 14] | A0 W1 14 vs 14 OK
+descent q=2375 p=5 m=47 K=6 dims_B W=[1, 0, 0, 0, 1, 9] inst W=[1, 0, 0, 0, 1, 9] | A0 W1 9 vs 9 OK
+descent q=1053 p=3 m=58 K=10 dims_B W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 6] inst W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 6] | A0 W1 6 vs 6 OK
+descent q=5831 p=7 m=59 K=8 dims_B W=[1, 0, 0, 0, 0, 0, 1, 8] inst W=[1, 0, 0, 0, 0, 0, 1, 8] | A0 W1 8 vs 8 OK
+dos n=9 q=45 p=5 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=45 p=5 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=63 p=7 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=63 p=7 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=63 p=7 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=99 p=11 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=99 p=11 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=99 p=11 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=117 p=13 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=117 p=13 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=117 p=13 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=153 p=17 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=153 p=17 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=153 p=17 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=171 p=19 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=171 p=19 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=171 p=19 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=207 p=23 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=207 p=23 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=207 p=23 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=261 p=29 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=261 p=29 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=261 p=29 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=279 p=31 m=4 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=279 p=31 m=13 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=9 q=279 p=31 m=22 dims_B W=[1, 3, 3] inst W=[1, 3, 3] OK
+dos n=15 q=105 p=7 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=105 p=7 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=105 p=7 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=165 p=11 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=165 p=11 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=165 p=11 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=195 p=13 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=195 p=13 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=195 p=13 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=255 p=17 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=255 p=17 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=255 p=17 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=285 p=19 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=285 p=19 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=285 p=19 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=345 p=23 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=345 p=23 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=345 p=23 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=435 p=29 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=435 p=29 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=435 p=29 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=465 p=31 m=7 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=465 p=31 m=22 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=15 q=465 p=31 m=37 dims_B W=[1, 3, 4] inst W=[1, 3, 4] OK
+dos n=21 q=105 p=5 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=105 p=5 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=231 p=11 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=231 p=11 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=231 p=11 m=52 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=273 p=13 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=273 p=13 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=273 p=13 m=52 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=357 p=17 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=357 p=17 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=357 p=17 m=52 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=399 p=19 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=399 p=19 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=399 p=19 m=52 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=483 p=23 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=483 p=23 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=483 p=23 m=52 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=609 p=29 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=609 p=29 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=609 p=29 m=52 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=651 p=31 m=10 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=651 p=31 m=31 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=21 q=651 p=31 m=52 dims_B W=[1, 5, 6] inst W=[1, 5, 6] OK
+dos n=25 q=225 p=3 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=225 p=3 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=175 p=7 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=175 p=7 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=175 p=7 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=275 p=11 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=275 p=11 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=275 p=11 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=325 p=13 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=325 p=13 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=325 p=13 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=425 p=17 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=425 p=17 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=425 p=17 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=475 p=19 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=475 p=19 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=475 p=19 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=575 p=23 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=575 p=23 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=575 p=23 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=725 p=29 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=725 p=29 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=725 p=29 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=775 p=31 m=12 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=775 p=31 m=37 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=25 q=775 p=31 m=62 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=27 q=135 p=5 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=135 p=5 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=189 p=7 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=189 p=7 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=189 p=7 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=297 p=11 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=297 p=11 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=297 p=11 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=351 p=13 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=351 p=13 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=351 p=13 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=459 p=17 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=459 p=17 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=459 p=17 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=513 p=19 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=513 p=19 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=513 p=19 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=621 p=23 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=621 p=23 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=621 p=23 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=783 p=29 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=783 p=29 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=783 p=29 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=837 p=31 m=13 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=837 p=31 m=40 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=27 q=837 p=31 m=67 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=33 q=165 p=5 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=165 p=5 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=231 p=7 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=231 p=7 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=429 p=13 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=429 p=13 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=561 p=17 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=561 p=17 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=627 p=19 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=627 p=19 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=759 p=23 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=759 p=23 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=957 p=29 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=957 p=29 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=1023 p=31 m=16 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=33 q=1023 p=31 m=49 dims_B W=[1, 10, 10] inst W=[1, 10, 10] OK
+dos n=35 q=315 p=3 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=385 p=11 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=385 p=11 m=52 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=455 p=13 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=455 p=13 m=52 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=595 p=17 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=595 p=17 m=52 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=665 p=19 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=665 p=19 m=52 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=805 p=23 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=805 p=23 m=52 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=1015 p=29 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=1015 p=29 m=52 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=1085 p=31 m=17 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=35 q=1085 p=31 m=52 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=195 p=5 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=195 p=5 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=273 p=7 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=273 p=7 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=429 p=11 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=429 p=11 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=663 p=17 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=663 p=17 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=741 p=19 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=741 p=19 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=897 p=23 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=897 p=23 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=1131 p=29 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=1131 p=29 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=1209 p=31 m=19 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=39 q=1209 p=31 m=58 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=315 p=7 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=315 p=7 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=495 p=11 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=495 p=11 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=585 p=13 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=585 p=13 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=765 p=17 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=765 p=17 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=855 p=19 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=855 p=19 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=1035 p=23 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=1035 p=23 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=1305 p=29 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=1305 p=29 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=1395 p=31 m=22 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=45 q=1395 p=31 m=67 dims_B W=[1, 11, 12] inst W=[1, 11, 12] OK
+dos n=49 q=441 p=3 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=245 p=5 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=539 p=11 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=637 p=13 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=833 p=17 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=931 p=19 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=1127 p=23 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=1421 p=29 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=49 q=1519 p=31 m=24 dims_B W=[1, 20, 21] inst W=[1, 20, 21] OK
+dos n=51 q=357 p=7 m=25 dims_B W=[1, 14, 16] inst W=[1, 14, 16] OK
+dos n=51 q=561 p=11 m=25 dims_B W=[1, 14, 16] inst W=[1, 14, 16] OK
+dos n=51 q=663 p=13 m=25 dims_B W=[1, 14, 16] inst W=[1, 14, 16] OK
+dos n=51 q=969 p=19 m=25 dims_B W=[1, 14, 16] inst W=[1, 14, 16] OK
+dos n=51 q=1173 p=23 m=25 dims_B W=[1, 14, 16] inst W=[1, 14, 16] OK
+dos n=51 q=1479 p=29 m=25 dims_B W=[1, 14, 16] inst W=[1, 14, 16] OK
+dos n=51 q=1581 p=31 m=25 dims_B W=[1, 14, 16] inst W=[1, 14, 16] OK
+dos n=55 q=495 p=3 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=55 q=385 p=7 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=55 q=715 p=13 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=55 q=935 p=17 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=55 q=1045 p=19 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=55 q=1265 p=23 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=55 q=1595 p=29 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=55 q=1705 p=31 m=27 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=57 q=285 p=5 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=57 q=399 p=7 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=57 q=627 p=11 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=57 q=741 p=13 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=57 q=969 p=17 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=57 q=1311 p=23 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=57 q=1653 p=29 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=57 q=1767 p=31 m=28 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=63 q=315 p=5 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=63 q=693 p=11 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=63 q=819 p=13 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=63 q=1071 p=17 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=63 q=1197 p=19 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=63 q=1449 p=23 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=63 q=1827 p=29 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=63 q=1953 p=31 m=31 dims_B W=[1, 15, 18] inst W=[1, 15, 18] OK
+dos n=75 q=525 p=7 m=37 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=75 q=975 p=13 m=37 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=75 q=1275 p=17 m=37 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=75 q=1425 p=19 m=37 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=75 q=1725 p=23 m=37 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=75 q=2175 p=29 m=37 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=75 q=2325 p=31 m=37 dims_B W=[1, 19, 20] inst W=[1, 19, 20] OK
+dos n=5 q=45 p=3 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=45 p=3 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=35 p=7 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=35 p=7 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=35 p=7 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=55 p=11 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=55 p=11 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=55 p=11 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=65 p=13 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=65 p=13 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=65 p=13 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=85 p=17 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=85 p=17 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=85 p=17 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=95 p=19 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=95 p=19 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=95 p=19 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=115 p=23 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=115 p=23 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=115 p=23 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=145 p=29 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=145 p=29 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=145 p=29 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=155 p=31 m=2 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=155 p=31 m=7 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=5 q=155 p=31 m=12 dims_B W=[1, 2, 2] inst W=[1, 2, 2] OK
+dos n=7 q=63 p=3 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=63 p=3 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=35 p=5 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=35 p=5 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=77 p=11 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=77 p=11 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=77 p=11 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=91 p=13 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=91 p=13 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=91 p=13 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=119 p=17 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=119 p=17 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=119 p=17 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=133 p=19 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=133 p=19 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=133 p=19 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=161 p=23 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=161 p=23 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=161 p=23 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=203 p=29 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=203 p=29 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=203 p=29 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=217 p=31 m=3 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=217 p=31 m=10 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=7 q=217 p=31 m=17 dims_B W=[1, 2, 3] inst W=[1, 2, 3] OK
+dos n=11 q=99 p=3 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=99 p=3 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=55 p=5 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=55 p=5 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=77 p=7 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=77 p=7 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=77 p=7 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=143 p=13 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=143 p=13 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=143 p=13 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=187 p=17 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=187 p=17 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=187 p=17 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=209 p=19 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=209 p=19 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=209 p=19 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=253 p=23 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=253 p=23 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=253 p=23 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=319 p=29 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=319 p=29 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=319 p=29 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=341 p=31 m=5 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=341 p=31 m=16 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=11 q=341 p=31 m=27 dims_B W=[1, 5, 5] inst W=[1, 5, 5] OK
+dos n=13 q=117 p=3 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=117 p=3 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=65 p=5 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=65 p=5 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=91 p=7 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=91 p=7 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=91 p=7 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=143 p=11 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=143 p=11 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=143 p=11 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=221 p=17 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=221 p=17 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=221 p=17 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=247 p=19 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=247 p=19 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=247 p=19 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=299 p=23 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=299 p=23 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=299 p=23 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=377 p=29 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=377 p=29 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=377 p=29 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=403 p=31 m=6 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=403 p=31 m=19 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=13 q=403 p=31 m=32 dims_B W=[1, 6, 6] inst W=[1, 6, 6] OK
+dos n=17 q=153 p=3 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=153 p=3 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=85 p=5 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=85 p=5 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=119 p=7 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=119 p=7 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=119 p=7 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=187 p=11 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=187 p=11 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=187 p=11 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=221 p=13 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=221 p=13 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=221 p=13 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=323 p=19 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=323 p=19 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=323 p=19 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=391 p=23 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=391 p=23 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=391 p=23 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=493 p=29 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=493 p=29 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=493 p=29 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=527 p=31 m=8 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=527 p=31 m=25 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=17 q=527 p=31 m=42 dims_B W=[1, 8, 8] inst W=[1, 8, 8] OK
+dos n=19 q=171 p=3 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=171 p=3 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=95 p=5 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=95 p=5 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=133 p=7 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=133 p=7 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=133 p=7 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=209 p=11 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=209 p=11 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=209 p=11 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=247 p=13 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=247 p=13 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=247 p=13 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=323 p=17 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=323 p=17 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=323 p=17 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=437 p=23 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=437 p=23 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=437 p=23 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=551 p=29 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=551 p=29 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=551 p=29 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=589 p=31 m=9 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=589 p=31 m=28 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=19 q=589 p=31 m=47 dims_B W=[1, 9, 9] inst W=[1, 9, 9] OK
+dos n=23 q=115 p=5 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=115 p=5 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=161 p=7 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=161 p=7 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=161 p=7 m=57 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=253 p=11 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=253 p=11 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=253 p=11 m=57 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=299 p=13 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=299 p=13 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=299 p=13 m=57 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=391 p=17 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=391 p=17 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=391 p=17 m=57 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=437 p=19 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=437 p=19 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=437 p=19 m=57 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=667 p=29 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=667 p=29 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=667 p=29 m=57 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=713 p=31 m=11 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=713 p=31 m=34 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=23 q=713 p=31 m=57 dims_B W=[1, 10, 11] inst W=[1, 10, 11] OK
+dos n=29 q=261 p=3 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=145 p=5 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=145 p=5 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=203 p=7 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=203 p=7 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=319 p=11 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=319 p=11 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=377 p=13 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=377 p=13 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=493 p=17 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=493 p=17 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=551 p=19 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=551 p=19 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=667 p=23 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=667 p=23 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=899 p=31 m=14 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=29 q=899 p=31 m=43 dims_B W=[1, 14, 14] inst W=[1, 14, 14] OK
+dos n=31 q=155 p=5 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=155 p=5 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=217 p=7 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=217 p=7 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=341 p=11 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=341 p=11 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=403 p=13 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=403 p=13 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=527 p=17 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=527 p=17 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=589 p=19 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=589 p=19 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=713 p=23 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=713 p=23 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=899 p=29 m=15 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=31 q=899 p=29 m=46 dims_B W=[1, 12, 15] inst W=[1, 12, 15] OK
+dos n=37 q=333 p=3 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=185 p=5 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=185 p=5 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=259 p=7 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=259 p=7 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=407 p=11 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=407 p=11 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=481 p=13 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=481 p=13 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=629 p=17 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=629 p=17 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=703 p=19 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=703 p=19 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=851 p=23 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=851 p=23 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=1073 p=29 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=1073 p=29 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=1147 p=31 m=18 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=37 q=1147 p=31 m=55 dims_B W=[1, 18, 18] inst W=[1, 18, 18] OK
+dos n=41 q=369 p=3 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=205 p=5 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=205 p=5 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=287 p=7 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=287 p=7 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=533 p=13 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=533 p=13 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=697 p=17 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=697 p=17 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=779 p=19 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=779 p=19 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=943 p=23 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=943 p=23 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=1189 p=29 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=1189 p=29 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=1271 p=31 m=20 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=41 q=1271 p=31 m=61 dims_B W=[1, 20, 20] inst W=[1, 20, 20] OK
+dos n=43 q=387 p=3 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=215 p=5 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=215 p=5 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=301 p=7 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=301 p=7 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=473 p=11 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=473 p=11 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=559 p=13 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=559 p=13 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=731 p=17 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=731 p=17 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=817 p=19 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=817 p=19 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=989 p=23 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=989 p=23 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=1247 p=29 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=1247 p=29 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=1333 p=31 m=21 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+dos n=43 q=1333 p=31 m=64 dims_B W=[1, 21, 21] inst W=[1, 21, 21] OK
+l2r q'=10 q=30 p=3 m=10 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=30 p=3 m=9 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=20 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=19 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=40 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=39 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=270 p=3 m=50 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=270 p=3 m=49 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=270 p=3 m=70 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=270 p=3 m=69 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=30 p=3 m=5 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=30 p=3 m=4 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=25 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=24 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=35 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=90 p=3 m=34 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=10 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=9 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=20 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=19 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=30 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=29 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=490 p=7 m=40 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=490 p=7 m=39 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=490 p=7 m=50 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=490 p=7 m=49 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=5 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=4 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=15 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=14 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=25 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=10 q=70 p=7 m=24 dims_B W=[1, 2] inst W=[1, 2] OK
+l2r q'=14 q=42 p=3 m=14 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=42 p=3 m=13 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=28 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=27 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=56 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=55 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=378 p=3 m=70 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=378 p=3 m=69 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=42 p=3 m=7 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=42 p=3 m=6 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=35 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=34 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=49 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=126 p=3 m=48 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=14 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=13 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=28 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=27 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=350 p=5 m=42 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=350 p=5 m=41 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=350 p=5 m=56 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=350 p=5 m=55 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=7 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=6 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=21 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=70 p=5 m=20 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=350 p=5 m=49 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=14 q=350 p=5 m=48 dims_B W=[1, 3] inst W=[1, 3] OK
+l2r q'=22 q=66 p=3 m=22 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=66 p=3 m=21 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=198 p=3 m=44 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=198 p=3 m=43 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=66 p=3 m=11 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=66 p=3 m=10 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=198 p=3 m=55 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=198 p=3 m=54 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=22 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=21 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=44 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=43 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=550 p=5 m=66 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=550 p=5 m=65 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=11 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=10 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=33 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=110 p=5 m=32 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=22 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=21 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=44 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=43 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=66 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=65 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=11 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=10 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=33 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=32 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=55 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=22 q=154 p=7 m=54 dims_B W=[1, 5] inst W=[1, 5] OK
+l2r q'=26 q=78 p=3 m=26 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=78 p=3 m=25 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=234 p=3 m=52 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=234 p=3 m=51 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=78 p=3 m=13 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=78 p=3 m=12 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=234 p=3 m=65 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=234 p=3 m=64 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=26 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=25 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=52 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=51 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=13 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=12 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=39 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=130 p=5 m=38 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=26 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=25 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=52 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=51 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=13 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=12 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=39 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=38 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=65 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=26 q=182 p=7 m=64 dims_B W=[1, 6] inst W=[1, 6] OK
+l2r q'=46 q=138 p=3 m=46 dims_B W=[1, 10] inst W=[1, 10] OK
+l2r q'=46 q=138 p=3 m=45 dims_B W=[1, 10] inst W=[1, 10] OK
+l2r q'=46 q=138 p=3 m=23 dims_B W=[1, 10] inst W=[1, 10] OK
+l2r q'=46 q=138 p=3 m=22 dims_B W=[1, 10] inst W=[1, 10] OK
+l2r q'=46 q=230 p=5 m=46 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=230 p=5 m=45 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=230 p=5 m=23 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=230 p=5 m=22 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=230 p=5 m=69 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=230 p=5 m=68 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=322 p=7 m=46 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=322 p=7 m=45 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=322 p=7 m=23 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=322 p=7 m=22 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=322 p=7 m=69 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=46 q=322 p=7 m=68 dims_B W=[1, 11] inst W=[1, 11] OK
+l2r q'=58 q=174 p=3 m=58 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=174 p=3 m=57 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=174 p=3 m=29 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=174 p=3 m=28 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=290 p=5 m=58 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=290 p=5 m=57 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=290 p=5 m=29 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=290 p=5 m=28 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=406 p=7 m=58 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=406 p=7 m=57 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=406 p=7 m=29 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=58 q=406 p=7 m=28 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=62 q=186 p=3 m=62 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=62 q=186 p=3 m=61 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=62 q=186 p=3 m=31 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=62 q=186 p=3 m=30 dims_B W=[1, 14] inst W=[1, 14] OK
+l2r q'=62 q=310 p=5 m=62 dims_B W=[1, 15] inst W=[1, 15] OK
+l2r q'=62 q=310 p=5 m=61 dims_B W=[1, 15] inst W=[1, 15] OK
+l2r q'=62 q=310 p=5 m=31 dims_B W=[1, 15] inst W=[1, 15] OK
+l2r q'=62 q=310 p=5 m=30 dims_B W=[1, 15] inst W=[1, 15] OK
+l2r q'=62 q=434 p=7 m=62 dims_B W=[1, 15] inst W=[1, 15] OK
+l2r q'=62 q=434 p=7 m=61 dims_B W=[1, 15] inst W=[1, 15] OK
+l2r q'=62 q=434 p=7 m=31 dims_B W=[1, 15] inst W=[1, 15] OK
+l2r q'=62 q=434 p=7 m=30 dims_B W=[1, 15] inst W=[1, 15] OK
+XVAL dims_B TOTAL=731 mismatches=0

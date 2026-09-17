@@ -1,0 +1,363 @@
+m=2 q=15 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=15 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=15 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=2 q=20 p=2 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=20 p=2 E=2 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=20 p=2 E=2 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=20 p=2 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=3 q=21 p=3 E=2 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=21 p=3 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=21 p=3 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=3 q=24 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=24 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=24 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=8 q=24 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=3 q=28 p=2 E=2 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=28 p=2 E=2 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=28 p=2 E=2 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=10 q=28 p=2 E=2 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=30 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=30 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=30 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=10 q=30 p=3 E=2 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=33 p=3 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=10 q=33 p=3 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=11 q=33 p=3 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=3 q=35 p=5 E=4 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=35 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=35 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=10 q=35 p=5 E=4 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=13 q=35 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=14 q=35 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=2 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=10 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=35 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=36 p=2 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=8 q=36 p=2 E=2 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=9 q=36 p=2 E=2 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=13 q=36 p=2 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=6 q=39 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=12 q=39 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=13 q=39 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=2 q=40 p=2 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=40 p=2 E=4 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=40 p=2 E=4 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=40 p=2 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=40 p=2 E=4 d=2 g=1 e=4 W=[1, 0, 1, 1, 2] lOA=5 lAC=3 type=3 pred_gor=False gor=False HS1223=True OK
+m=10 q=40 p=2 E=4 d=2 g=1 e=4 W=[1, 0, 1, 1, 2] lOA=5 lAC=3 type=3 pred_gor=False gor=False HS1223=True OK
+m=12 q=40 p=2 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=40 p=2 E=4 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=40 p=2 E=4 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=17 q=40 p=2 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=3 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=8 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=11 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=16 q=40 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=42 p=3 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=42 p=3 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=13 q=42 p=3 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=14 q=42 p=3 E=2 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=5 q=44 p=2 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=10 q=44 p=2 E=2 d=5 g=1 e=2 W=[1, 1, 5] lOA=8 lAC=2 type=4 pred_gor=False gor=False HS1223=True OK
+m=11 q=44 p=2 E=2 d=5 g=1 e=2 W=[1, 1, 5] lOA=8 lAC=2 type=4 pred_gor=False gor=False HS1223=True OK
+m=16 q=44 p=2 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=2 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=45 p=3 E=6 d=2 g=1 e=5 W=[1, 0, 1, 2, 1, 2] lOA=5 lAC=5 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=10 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=45 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=15 q=45 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=17 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=19 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=45 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=45 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=8 q=45 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=9 q=45 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=13 q=45 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=17 q=45 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=18 q=45 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=48 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=8 q=48 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=15 q=48 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=16 q=48 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=8 q=51 p=3 E=2 d=8 g=1 e=1 W=[1, 8] lOA=7 lAC=1 type=7 pred_gor=False gor=False HS1223=True OK
+m=16 q=51 p=3 E=2 d=8 g=1 e=1 W=[1, 8] lOA=7 lAC=1 type=7 pred_gor=False gor=False HS1223=True OK
+m=17 q=51 p=3 E=2 d=8 g=1 e=1 W=[1, 8] lOA=7 lAC=1 type=7 pred_gor=False gor=False HS1223=True OK
+m=6 q=52 p=2 E=2 d=6 g=1 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=12 q=52 p=2 E=2 d=6 g=1 e=2 W=[1, 1, 6] lOA=10 lAC=2 type=5 pred_gor=False gor=False HS1223=True OK
+m=13 q=52 p=2 E=2 d=6 g=1 e=2 W=[1, 1, 6] lOA=10 lAC=2 type=5 pred_gor=False gor=False HS1223=True OK
+m=19 q=52 p=2 E=2 d=6 g=1 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=5 q=55 p=5 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=10 q=55 p=5 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=11 q=55 p=5 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=16 q=55 p=5 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=21 q=55 p=5 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=22 q=55 p=5 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=2 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=10 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=17 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=19 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=22 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=25 q=55 p=11 E=10 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=3 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=10 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=13 q=56 p=2 E=4 d=3 g=1 e=4 W=[1, 0, 1, 1, 3] lOA=9 lAC=3 type=5 pred_gor=False gor=False HS1223=True OK
+m=14 q=56 p=2 E=4 d=3 g=1 e=4 W=[1, 0, 1, 1, 3] lOA=9 lAC=3 type=5 pred_gor=False gor=False HS1223=True OK
+m=17 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=21 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=24 q=56 p=2 E=4 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=3 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=8 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=11 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=16 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=19 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=23 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=56 p=7 E=6 d=2 g=2 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=57 p=3 E=2 d=9 g=1 e=1 W=[1, 9] lOA=8 lAC=1 type=8 pred_gor=False gor=False HS1223=True OK
+m=18 q=57 p=3 E=2 d=9 g=1 e=1 W=[1, 9] lOA=8 lAC=1 type=8 pred_gor=False gor=False HS1223=True OK
+m=19 q=57 p=3 E=2 d=9 g=1 e=1 W=[1, 9] lOA=8 lAC=1 type=8 pred_gor=False gor=False HS1223=True OK
+m=7 q=60 p=2 E=2 d=4 g=1 e=2 W=[1, 3, 4] lOA=4 lAC=4 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=60 p=2 E=2 d=4 g=1 e=2 W=[1, 1, 4] lOA=6 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=15 q=60 p=2 E=2 d=4 g=1 e=2 W=[1, 1, 4] lOA=6 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=22 q=60 p=2 E=2 d=4 g=1 e=2 W=[1, 3, 4] lOA=4 lAC=4 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=60 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=10 q=60 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=19 q=60 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=20 q=60 p=3 E=2 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=5 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=11 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=17 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=18 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=23 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=60 p=5 E=4 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=3 q=63 p=3 E=6 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=63 p=3 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=63 p=3 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=10 q=63 p=3 E=6 d=3 g=1 e=6 W=[1, 0, 1, 2, 3, 2, 3] lOA=9 lAC=9 type=1 pred_gor=True gor=True HS1223=True OK
+m=13 q=63 p=3 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=14 q=63 p=3 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=17 q=63 p=3 E=6 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=63 p=3 E=6 d=3 g=1 e=3 W=[1, 0, 1, 3] lOA=7 lAC=2 type=5 pred_gor=False gor=False HS1223=True OK
+m=21 q=63 p=3 E=6 d=3 g=1 e=3 W=[1, 0, 1, 3] lOA=7 lAC=2 type=5 pred_gor=False gor=False HS1223=True OK
+m=24 q=63 p=3 E=6 d=3 g=1 e=2 W=[1, 2, 3] lOA=3 lAC=3 type=1 pred_gor=True gor=True HS1223=True OK
+m=27 q=63 p=3 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=28 q=63 p=3 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=4 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=8 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=9 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=13 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=17 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=18 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=22 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=26 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=27 q=63 p=7 E=6 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=10 q=66 p=3 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=11 q=66 p=3 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=21 q=66 p=3 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=22 q=66 p=3 E=2 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=8 q=68 p=2 E=2 d=8 g=2 e=2 W=[1, 7, 8] lOA=8 lAC=8 type=1 pred_gor=True gor=True HS1223=True OK
+m=16 q=68 p=2 E=2 d=8 g=2 e=2 W=[1, 1, 8] lOA=14 lAC=2 type=7 pred_gor=False gor=False HS1223=True OK
+m=17 q=68 p=2 E=2 d=8 g=2 e=2 W=[1, 1, 8] lOA=14 lAC=2 type=7 pred_gor=False gor=False HS1223=True OK
+m=25 q=68 p=2 E=2 d=8 g=2 e=2 W=[1, 7, 8] lOA=8 lAC=8 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=7 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=13 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=14 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=20 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=21 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=27 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=28 q=70 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=4 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=10 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=19 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=25 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=29 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=30 q=70 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=72 p=2 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=8 q=72 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=9 q=72 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=13 q=72 p=2 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=17 q=72 p=2 E=4 d=3 g=1 e=4 W=[1, 0, 1, 1, 3] lOA=9 lAC=3 type=5 pred_gor=False gor=False HS1223=True OK
+m=18 q=72 p=2 E=4 d=3 g=1 e=4 W=[1, 0, 1, 1, 3] lOA=9 lAC=3 type=5 pred_gor=False gor=False HS1223=True OK
+m=22 q=72 p=2 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=26 q=72 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=27 q=72 p=2 E=4 d=3 g=1 e=2 W=[1, 1, 3] lOA=4 lAC=2 type=2 pred_gor=False gor=False HS1223=True OK
+m=31 q=72 p=2 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=3 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=8 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=11 q=72 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=12 q=72 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=15 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=16 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=19 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=23 q=72 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=24 q=72 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=27 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=28 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=31 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=32 q=72 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=75 p=3 E=2 d=10 g=1 e=1 W=[1, 10] lOA=9 lAC=1 type=9 pred_gor=False gor=False HS1223=True OK
+m=24 q=75 p=3 E=2 d=10 g=1 e=1 W=[1, 10] lOA=9 lAC=1 type=9 pred_gor=False gor=False HS1223=True OK
+m=25 q=75 p=3 E=2 d=10 g=1 e=1 W=[1, 10] lOA=9 lAC=1 type=9 pred_gor=False gor=False HS1223=True OK
+m=9 q=76 p=2 E=2 d=9 g=1 e=1 W=[1, 9] lOA=8 lAC=1 type=8 pred_gor=False gor=False HS1223=True OK
+m=18 q=76 p=2 E=2 d=9 g=1 e=2 W=[1, 1, 9] lOA=16 lAC=2 type=8 pred_gor=False gor=False HS1223=True OK
+m=19 q=76 p=2 E=2 d=9 g=1 e=2 W=[1, 1, 9] lOA=16 lAC=2 type=8 pred_gor=False gor=False HS1223=True OK
+m=28 q=76 p=2 E=2 d=9 g=1 e=1 W=[1, 9] lOA=8 lAC=1 type=8 pred_gor=False gor=False HS1223=True OK
+m=12 q=78 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=13 q=78 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=25 q=78 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=26 q=78 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=2 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=80 p=2 E=8 d=2 g=1 e=4 W=[1, 0, 1, 1, 2] lOA=5 lAC=3 type=3 pred_gor=False gor=False HS1223=True OK
+m=10 q=80 p=2 E=8 d=2 g=1 e=4 W=[1, 0, 1, 1, 2] lOA=5 lAC=3 type=3 pred_gor=False gor=False HS1223=True OK
+m=12 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=17 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=19 q=80 p=2 E=8 d=2 g=1 e=8 W=[1, 0, 0, 0, 1, 0, 1, 1, 2] lOA=12 lAC=4 type=7 pred_gor=False gor=False HS1223=True OK
+m=20 q=80 p=2 E=8 d=2 g=1 e=8 W=[1, 0, 0, 0, 1, 0, 1, 1, 2] lOA=12 lAC=4 type=7 pred_gor=False gor=False HS1223=True OK
+m=22 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=25 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=27 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=29 q=80 p=2 E=8 d=2 g=1 e=4 W=[1, 0, 1, 1, 2] lOA=5 lAC=3 type=3 pred_gor=False gor=False HS1223=True OK
+m=30 q=80 p=2 E=8 d=2 g=1 e=4 W=[1, 0, 1, 1, 2] lOA=5 lAC=3 type=3 pred_gor=False gor=False HS1223=True OK
+m=32 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=34 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=35 q=80 p=2 E=8 d=2 g=1 e=2 W=[1, 1, 2] lOA=2 lAC=2 type=1 pred_gor=True gor=True HS1223=True OK
+m=37 q=80 p=2 E=8 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=8 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=15 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=16 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=23 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=24 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=31 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=32 q=80 p=5 E=4 d=4 g=1 e=1 W=[1, 4] lOA=3 lAC=1 type=3 pred_gor=False gor=False HS1223=True OK
+m=10 q=84 p=2 E=2 d=6 g=1 e=2 W=[1, 5, 6] lOA=6 lAC=6 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=84 p=2 E=2 d=6 g=1 e=2 W=[1, 1, 6] lOA=10 lAC=2 type=5 pred_gor=False gor=False HS1223=True OK
+m=21 q=84 p=2 E=2 d=6 g=1 e=2 W=[1, 1, 6] lOA=10 lAC=2 type=5 pred_gor=False gor=False HS1223=True OK
+m=31 q=84 p=2 E=2 d=6 g=1 e=2 W=[1, 5, 6] lOA=6 lAC=6 type=1 pred_gor=True gor=True HS1223=True OK
+m=13 q=84 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=14 q=84 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=27 q=84 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=28 q=84 p=3 E=2 d=6 g=2 e=1 W=[1, 6] lOA=5 lAC=1 type=5 pred_gor=False gor=False HS1223=True OK
+m=5 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=6 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=11 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=17 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=18 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=23 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=29 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=30 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=35 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=36 q=84 p=7 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=88 p=2 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=10 q=88 p=2 E=4 d=5 g=1 e=2 W=[1, 1, 5] lOA=8 lAC=2 type=4 pred_gor=False gor=False HS1223=True OK
+m=11 q=88 p=2 E=4 d=5 g=1 e=2 W=[1, 1, 5] lOA=8 lAC=2 type=4 pred_gor=False gor=False HS1223=True OK
+m=16 q=88 p=2 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=21 q=88 p=2 E=4 d=5 g=1 e=4 W=[1, 0, 1, 1, 5] lOA=17 lAC=3 type=9 pred_gor=False gor=False HS1223=True OK
+m=22 q=88 p=2 E=4 d=5 g=1 e=4 W=[1, 0, 1, 1, 5] lOA=17 lAC=3 type=9 pred_gor=False gor=False HS1223=True OK
+m=27 q=88 p=2 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=32 q=88 p=2 E=4 d=5 g=1 e=2 W=[1, 1, 5] lOA=8 lAC=2 type=4 pred_gor=False gor=False HS1223=True OK
+m=33 q=88 p=2 E=4 d=5 g=1 e=2 W=[1, 1, 5] lOA=8 lAC=2 type=4 pred_gor=False gor=False HS1223=True OK
+m=38 q=88 p=2 E=4 d=5 g=1 e=1 W=[1, 5] lOA=4 lAC=1 type=4 pred_gor=False gor=False HS1223=True OK
+m=3 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=7 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=8 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=11 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=12 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=15 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=16 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=19 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=23 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=27 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=28 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=31 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=32 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=35 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=36 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=39 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=40 q=88 p=11 E=10 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=4 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=5 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=9 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=10 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=14 q=90 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=15 q=90 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=19 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=20 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=24 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=25 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=29 q=90 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=30 q=90 p=3 E=6 d=2 g=1 e=3 W=[1, 0, 1, 2] lOA=4 lAC=2 type=3 pred_gor=False gor=False HS1223=True OK
+m=34 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=35 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=39 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=40 q=90 p=3 E=6 d=2 g=1 e=1 W=[1, 2] lOA=1 lAC=1 type=1 pred_gor=True gor=True HS1223=True OK
+m=8 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=9 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=17 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=18 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=26 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=27 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=35 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=36 q=90 p=5 E=4 d=3 g=1 e=1 W=[1, 3] lOA=2 lAC=1 type=2 pred_gor=False gor=False HS1223=True OK
+m=15 q=96 p=3 E=2 d=8 g=1 e=1 W=[1, 8] lOA=7 lAC=1 type=7 pred_gor=False gor=False HS1223=True OK
+m=16 q=96 p=3 E=2 d=8 g=1 e=1 W=[1, 8] lOA=7 lAC=1 type=7 pred_gor=False gor=False HS1223=True OK
+m=31 q=96 p=3 E=2 d=8 g=1 e=1 W=[1, 8] lOA=7 lAC=1 type=7 pred_gor=False gor=False HS1223=True OK
+m=32 q=96 p=3 E=2 d=8 g=1 e=1 W=[1, 8] lOA=7 lAC=1 type=7 pred_gor=False gor=False HS1223=True OK
+m=12 q=100 p=2 E=2 d=10 g=1 e=1 W=[1, 10] lOA=9 lAC=1 type=9 pred_gor=False gor=False HS1223=True OK
+m=24 q=100 p=2 E=2 d=10 g=1 e=2 W=[1, 1, 10] lOA=18 lAC=2 type=9 pred_gor=False gor=False HS1223=True OK
+m=25 q=100 p=2 E=2 d=10 g=1 e=2 W=[1, 1, 10] lOA=18 lAC=2 type=9 pred_gor=False gor=False HS1223=True OK
+m=37 q=100 p=2 E=2 d=10 g=1 e=1 W=[1, 10] lOA=9 lAC=1 type=9 pred_gor=False gor=False HS1223=True OK
+rc=0

@@ -1,0 +1,5 @@
+A_15(155) D=60 closure_iters=3 index=5^17 * 31  [0.4s]
+  p=5 E=4 d=15 v_p[O:A]=17  e(lattice sum test)=2  [0.5s]
+  W(lattice)=[1, 12, 15]  l(O/A)=17  l(A/f)=13  sum(d-W_i,i<e)=17 sum(W_i,i<e)=13  [0.9s]
+  capas: W=[1, 12] W1=12 kappa=3 type_Fp=5  pred(d-W1+kappa-1)=5  [1.0s]
+  type(colon lattice)=5  HS12.2.3: l(O/A)-l(A/f)=4 >= type-1=4 : True  [366.1s]

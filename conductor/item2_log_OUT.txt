@@ -1,0 +1,23 @@
+[ctrl=None] p=3 a=1 n=5 v=2  s=2 nP=15 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {5: 1, 10: 2}
+[ctrl=None] p=3 a=1 n=5 v=3  s=2 nP=15 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {5: 1, 10: 2}
+[ctrl=None] p=3 a=2 n=5 v=3  s=6 nP=45 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {15: 1, 30: 2}
+[ctrl=None] p=3 a=2 n=5 v=4  s=6 nP=45 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {15: 1, 30: 2}
+[ctrl=None] p=5 a=1 n=7 v=2  s=4 nP=35 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {7: 1, 14: 3, 21: 2, 28: 4}
+[ctrl=None] p=5 a=1 n=7 v=3  s=4 nP=35 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {7: 1, 14: 3, 21: 2, 28: 4}
+[ctrl=None] p=3 a=1 n=7 v=2  s=2 nP=21 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {7: 1, 14: 2}
+[ctrl=None] p=3 a=1 n=7 v=3  s=2 nP=21 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {7: 1, 14: 2}
+[ctrl=None] p=5 a=2 n=7 v=3  s=20 nP=175 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {35: 1, 70: 3, 105: 2, 140: 4}
+[ctrl=None] p=5 a=2 n=7 v=4  s=20 nP=175 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {35: 1, 70: 3, 105: 2, 140: 4}
+[ctrl=None] p=7 a=1 n=5 v=2  s=6 nP=35 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {5: 1, 10: 4, 15: 5, 20: 2, 25: 3, 30: 6}
+[ctrl=None] p=7 a=1 n=5 v=3  s=6 nP=35 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {5: 1, 10: 4, 15: 5, 20: 2, 25: 3, 30: 6}
+[ctrl=None] p=3 a=3 n=5 v=4  s=18 nP=135 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {45: 1, 90: 2}
+[ctrl=None] p=3 a=3 n=5 v=5  s=18 nP=135 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {45: 1, 90: 2}
+[ctrl=None] p=3 a=1 n=11 v=2  s=2 nP=33 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {11: 1, 22: 2}
+[ctrl=None] p=3 a=1 n=11 v=3  s=2 nP=33 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {11: 1, 22: 2}
+controls (must show mismatches):
+[ctrl=neg] p=3 a=1 n=5 v=2  s=2 nP=15 : mismatched coefficients=2, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {5: 1, 10: 2}
+[ctrl=shift] p=3 a=1 n=5 v=2  s=2 nP=15 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {5: 1, 10: 2}
+[ctrl=neg] p=5 a=1 n=7 v=2  s=4 nP=35 : mismatched coefficients=4, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {7: 1, 14: 3, 21: 2, 28: 4}
+[ctrl=shift] p=5 a=1 n=7 v=2  s=4 nP=35 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {7: 1, 14: 3, 21: 2, 28: 4}
+[ctrl=neg] p=3 a=2 n=5 v=3  s=6 nP=45 : mismatched coefficients=2, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {15: 1, 30: 2}
+[ctrl=shift] p=3 a=2 n=5 v=3  s=6 nP=45 : mismatched coefficients=0, omega-dependent coefficients=0 ; pi^s part (T-degree: [const, w, ...]) = {15: 1, 30: 2}

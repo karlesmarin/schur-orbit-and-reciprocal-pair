@@ -1,0 +1,188 @@
+=== (A) 2*hat_s_n(c) = s_n(2c) - s_n(c) for every n; = s_n(c+n/2) for n even ===
+n=3..100: fallos de la identidad general = 0 ; fallos de la version par = 0
+corolario: para n par, s_n(2c) - s_n(c) = s_n(c+n/2) (el operador [2] degenera en una traslacion)
+
+=== (B) first moment = count x midpoint, on the four stable families ===
+family            q'  m     | N_c const | midpoint = | S = N_c*mu
+q'|h      m=Nq'     7    7 | [2]       | s/2        | OK
+q'|h      m=Nq'     7   14 | [4]       | s/2        | OK
+q'|h      m=Nq'     7   21 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1   7    6 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1   7   13 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1   7   20 | [6]       | s/2        | OK
+q'|h+1    2m+1=Nq'  7    3 | [1]       | hat c      | OK
+q'|h+1    2m+1=Nq'  7   10 | [3]       | hat c      | OK
+q'|h      m=Nq'     8    8 | [2]       | s/2        | OK
+q'|h      m=Nq'     8   16 | [4]       | s/2        | OK
+q'|h      m=Nq'     8   24 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1   8    7 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1   8   15 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1   8   23 | [6]       | s/2        | OK
+half per. m=Br      8    4 | [1]       | hat c      | OK
+half per. m=Br      8   12 | [3]       | hat c      | OK
+half per. m=Br-1    8    3 | [1]       | hat c      | OK
+half per. m=Br-1    8   11 | [3]       | hat c      | OK
+q'|h      m=Nq'     9    9 | [2]       | s/2        | OK
+q'|h      m=Nq'     9   18 | [4]       | s/2        | OK
+q'|h      m=Nq'     9   27 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1   9    8 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1   9   17 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1   9   26 | [6]       | s/2        | OK
+q'|h+1    2m+1=Nq'  9    4 | [1]       | hat c      | OK
+q'|h+1    2m+1=Nq'  9   13 | [3]       | hat c      | OK
+q'|h      m=Nq'    12   12 | [2]       | s/2        | OK
+q'|h      m=Nq'    12   24 | [4]       | s/2        | OK
+q'|h      m=Nq'    12   36 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  12   11 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  12   23 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  12   35 | [6]       | s/2        | OK
+half per. m=Br     12    6 | [1]       | hat c      | OK
+half per. m=Br     12   18 | [3]       | hat c      | OK
+half per. m=Br-1   12    5 | [1]       | hat c      | OK
+half per. m=Br-1   12   17 | [3]       | hat c      | OK
+q'|h      m=Nq'    13   13 | [2]       | s/2        | OK
+q'|h      m=Nq'    13   26 | [4]       | s/2        | OK
+q'|h      m=Nq'    13   39 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  13   12 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  13   25 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  13   38 | [6]       | s/2        | OK
+q'|h+1    2m+1=Nq' 13    6 | [1]       | hat c      | OK
+q'|h+1    2m+1=Nq' 13   19 | [3]       | hat c      | OK
+q'|h      m=Nq'    15   15 | [2]       | s/2        | OK
+q'|h      m=Nq'    15   30 | [4]       | s/2        | OK
+q'|h      m=Nq'    15   45 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  15   14 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  15   29 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  15   44 | [6]       | s/2        | OK
+q'|h+1    2m+1=Nq' 15    7 | [1]       | hat c      | OK
+q'|h+1    2m+1=Nq' 15   22 | [3]       | hat c      | OK
+q'|h      m=Nq'    16   16 | [2]       | s/2        | OK
+q'|h      m=Nq'    16   32 | [4]       | s/2        | OK
+q'|h      m=Nq'    16   48 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  16   15 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  16   31 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  16   47 | [6]       | s/2        | OK
+half per. m=Br     16    8 | [1]       | hat c      | OK
+half per. m=Br     16   24 | [3]       | hat c      | OK
+half per. m=Br-1   16    7 | [1]       | hat c      | OK
+half per. m=Br-1   16   23 | [3]       | hat c      | OK
+q'|h      m=Nq'    20   20 | [2]       | s/2        | OK
+q'|h      m=Nq'    20   40 | [4]       | s/2        | OK
+q'|h      m=Nq'    20   60 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  20   19 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  20   39 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  20   59 | [6]       | s/2        | OK
+half per. m=Br     20   10 | [1]       | hat c      | OK
+half per. m=Br     20   30 | [3]       | hat c      | OK
+half per. m=Br-1   20    9 | [1]       | hat c      | OK
+half per. m=Br-1   20   29 | [3]       | hat c      | OK
+q'|h      m=Nq'    21   21 | [2]       | s/2        | OK
+q'|h      m=Nq'    21   42 | [4]       | s/2        | OK
+q'|h      m=Nq'    21   63 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  21   20 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  21   41 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  21   62 | [6]       | s/2        | OK
+q'|h+1    2m+1=Nq' 21   10 | [1]       | hat c      | OK
+q'|h+1    2m+1=Nq' 21   31 | [3]       | hat c      | OK
+q'|h      m=Nq'    24   24 | [2]       | s/2        | OK
+q'|h      m=Nq'    24   48 | [4]       | s/2        | OK
+q'|h      m=Nq'    24   72 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  24   23 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  24   47 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  24   71 | [6]       | s/2        | OK
+half per. m=Br     24   12 | [1]       | hat c      | OK
+half per. m=Br     24   36 | [3]       | hat c      | OK
+half per. m=Br-1   24   11 | [1]       | hat c      | OK
+half per. m=Br-1   24   35 | [3]       | hat c      | OK
+q'|h      m=Nq'    25   25 | [2]       | s/2        | OK
+q'|h      m=Nq'    25   50 | [4]       | s/2        | OK
+q'|h      m=Nq'    25   75 | [6]       | s/2        | OK
+q'|h+2    m=Nq'-1  25   24 | [2]       | s/2        | OK
+q'|h+2    m=Nq'-1  25   49 | [4]       | s/2        | OK
+q'|h+2    m=Nq'-1  25   74 | [6]       | s/2        | OK
+q'|h+1    2m+1=Nq' 25   12 | [1]       | hat c      | OK
+q'|h+1    2m+1=Nq' 25   37 | [3]       | hat c      | OK
+FAMILIES TOTAL=98 fail=0
+
+=== (C) the two branches of the same operator family, on odd q' ===
+S_l = (s(lc)-s(c))/2  [T_l - 1]   vs   C_l = (s(lc)-l*s(c))/(2q')  [T_l - l]
+q'  l  d  t=ord(l) -1 in <l> | rank_Q S_l  pred d-delta | rank_Q C_l  vals(C_l) | p-sweep
+ 5  2  2    4      True  |  2   2 |  2  [-1, 0, 1]   | p=3:S=2,C=2 p=7:S=2,C=2 p=11:S=2,C=2 p=13:S=2,C=2 OK
+ 5  3  2    4      True  |  2   2 |  2  [-1, 0, 1]   | p=3:S=2,C=2 p=7:S=2,C=2 p=11:S=2,C=2 p=13:S=2,C=2 OK
+ 5  7  2    4      True  |  2   2 |  2  [-2, -1, 0, 1, 2] | p=3:S=2,C=2 p=7:S=2,C=2 p=11:S=2,C=2 p=13:S=2,C=2 OK
+ 7  2  3    3      False |  2   2 |  3  [-1, 0, 1]   | p=3:S=2,C=3 p=5:S=2,C=3 p=11:S=2,C=3 p=13:S=2,C=3 OK
+ 7  3  3    6      True  |  3   3 |  3  [-1, 0, 1]   | p=3:S=3,C=3 p=5:S=3,C=3 p=11:S=3,C=3 p=13:S=3,C=3 OK
+ 7  5  3    6      True  |  3   3 |  3  [-2, -1, 0, 1, 2] | p=3:S=3,C=2(baja;p|l^t-1:True) p=5:S=3,C=3 p=11:S=3,C=3 p=13:S=3,C=3 OK
+ 9  2  3    6      True  |  3   3 |  3  [-1, 0, 1]   | p=5:S=3,C=3 p=7:S=3,C=3 p=11:S=3,C=3 p=13:S=3,C=3 OK
+ 9  5  3    6      True  |  3   3 |  3  [-2, -1, 0, 1, 2] | p=5:S=3,C=3 p=7:S=3,C=2(baja;p|l^t-1:True) p=11:S=3,C=3 p=13:S=3,C=3 OK
+ 9  7  3    3      False |  2   2 |  3  [-3, -2, -1, 0, 1, 2, 3] | p=5:S=2,C=3 p=7:S=2,C=3 p=11:S=2,C=3 p=13:S=2,C=3 OK
+11  2  5   10      True  |  5   5 |  5  [-1, 0, 1]   | p=3:S=5,C=4(baja;p|l^t-1:True) p=5:S=5,C=5 p=7:S=5,C=5 p=13:S=5,C=5 OK
+11  3  5    5      False |  4   4 |  5  [-1, 0, 1]   | p=3:S=4,C=5 p=5:S=4,C=5 p=7:S=4,C=5 p=13:S=4,C=5 OK
+11  5  5    5      False |  4   4 |  5  [-2, -1, 0, 1, 2] | p=3:S=4,C=5 p=5:S=4,C=5 p=7:S=4,C=5 p=13:S=4,C=5 OK
+11  7  5   10      True  |  5   5 |  5  [-3, -2, -1, 0, 1, 2, 3] | p=3:S=5,C=5 p=5:S=5,C=5 p=7:S=5,C=5 p=13:S=5,C=5 OK
+13  2  6   12      True  |  6   6 |  6  [-1, 0, 1]   | p=3:S=6,C=6 p=5:S=6,C=5(baja;p|l^t-1:True) p=7:S=6,C=6 p=11:S=6,C=6 OK
+13  3  6    3      False |  4   4 |  6  [-1, 0, 1]   | p=3:S=4,C=6 p=5:S=4,C=6 p=7:S=4,C=6 p=11:S=4,C=6 OK
+13  5  6    4      True  |  6   6 |  6  [-2, -1, 0, 1, 2] | p=3:S=6,C=6 p=5:S=6,C=6 p=7:S=6,C=6 p=11:S=6,C=6 OK
+13  7  6   12      True  |  6   6 |  6  [-3, -2, -1, 0, 1, 2, 3] | p=3:S=6,C=6 p=5:S=6,C=5(baja;p|l^t-1:True) p=7:S=6,C=6 p=11:S=6,C=6 OK
+15  2  4    4      False |  3   3 |  4  [-1, 0, 1]   | p=7:S=3,C=4 p=11:S=3,C=4 p=13:S=3,C=4 OK
+15  7  4    4      False |  3   3 |  4  [-3, -2, -1, 0, 1, 2, 3] | p=7:S=3,C=4 p=11:S=3,C=4 p=13:S=3,C=4 OK
+17  2  8    8      True  |  8   8 |  8  [-1, 0, 1]   | p=3:S=8,C=8 p=5:S=8,C=8 p=7:S=8,C=8 p=11:S=8,C=8 p=13:S=8,C=8 OK
+17  3  8   16      True  |  8   8 |  8  [-1, 0, 1]   | p=3:S=8,C=8 p=5:S=8,C=8 p=7:S=8,C=8 p=11:S=8,C=8 p=13:S=8,C=8 OK
+17  5  8   16      True  |  8   8 |  8  [-2, -1, 0, 1, 2] | p=3:S=8,C=8 p=5:S=8,C=8 p=7:S=8,C=8 p=11:S=8,C=8 p=13:S=8,C=8 OK
+17  7  8   16      True  |  8   8 |  8  [-3, -2, -1, 0, 1, 2, 3] | p=3:S=8,C=8 p=5:S=8,C=8 p=7:S=8,C=8 p=11:S=8,C=8 p=13:S=8,C=8 OK
+19  2  9   18      True  |  9   9 |  9  [-1, 0, 1]   | p=3:S=9,C=8(baja;p|l^t-1:True) p=5:S=9,C=9 p=7:S=9,C=9 p=11:S=9,C=9 p=13:S=9,C=9 OK
+19  3  9   18      True  |  9   9 |  9  [-1, 0, 1]   | p=3:S=9,C=9 p=5:S=9,C=9 p=7:S=9,C=8(baja;p|l^t-1:True) p=11:S=9,C=9 p=13:S=9,C=9 OK
+19  5  9    9      False |  8   8 |  9  [-2, -1, 0, 1, 2] | p=3:S=8,C=9 p=5:S=8,C=9 p=7:S=8,C=9 p=11:S=8,C=9 p=13:S=8,C=9 OK
+19  7  9    3      False |  6   6 |  9  [-3, -2, -1, 0, 1, 2, 3] | p=3:S=6,C=6(baja;p|l^t-1:True) p=5:S=6,C=9 p=7:S=6,C=9 p=11:S=6,C=9 p=13:S=6,C=9 OK
+21  2  6    6      False |  5   5 |  6  [-1, 0, 1]   | p=5:S=5,C=6 p=11:S=5,C=6 p=13:S=5,C=6 OK
+21  5  6    6      True  |  6   6 |  6  [-2, -1, 0, 1, 2] | p=5:S=6,C=6 p=11:S=6,C=6 p=13:S=6,C=6 OK
+23  2 11   11      False | 10  10 | 11  [-1, 0, 1]   | p=5:S=10,C=11 p=7:S=10,C=11 p=11:S=10,C=11 p=13:S=10,C=11 OK
+23  3 11   11      False | 10  10 | 11  [-1, 0, 1]   | p=5:S=10,C=11 p=7:S=10,C=11 p=11:S=10,C=11 p=13:S=10,C=11 OK
+23  5 11   22      True  | 11  11 | 11  [-2, -1, 0, 1, 2] | p=5:S=11,C=11 p=7:S=11,C=11 p=11:S=11,C=11 p=13:S=11,C=11 OK
+23  7 11   22      True  | 11  11 | 11  [-3, -2, -1, 0, 1, 2, 3] | p=5:S=11,C=11 p=7:S=11,C=11 p=11:S=11,C=11 p=13:S=11,C=11 OK
+25  2 10   20      True  | 10  10 | 10  [-1, 0, 1]   | p=3:S=10,C=10 p=7:S=10,C=10 p=11:S=10,C=10 p=13:S=10,C=10 OK
+25  3 10   20      True  | 10  10 | 10  [-1, 0, 1]   | p=3:S=10,C=10 p=7:S=10,C=10 p=11:S=10,C=10 p=13:S=10,C=10 OK
+25  7 10    4      True  | 10  10 | 10  [-3, -2, -1, 0, 1, 2, 3] | p=3:S=10,C=10 p=7:S=10,C=10 p=11:S=10,C=10 p=13:S=10,C=10 OK
+27  2  9   18      True  |  9   9 |  9  [-1, 0, 1]   | p=5:S=9,C=9 p=7:S=9,C=9 p=11:S=9,C=9 p=13:S=9,C=9 OK
+27  5  9   18      True  |  9   9 |  9  [-2, -1, 0, 1, 2] | p=5:S=9,C=9 p=7:S=9,C=8(baja;p|l^t-1:True) p=11:S=9,C=9 p=13:S=9,C=9 OK
+27  7  9    9      False |  8   8 |  9  [-3, -2, -1, 0, 1, 2, 3] | p=5:S=8,C=9 p=7:S=8,C=9 p=11:S=8,C=9 p=13:S=8,C=9 OK
+29  2 14   28      True  | 14  14 | 14  [-1, 0, 1]   | p=3:S=14,C=14 p=5:S=14,C=13(baja;p|l^t-1:True) p=7:S=14,C=14 p=11:S=14,C=14 p=13:S=14,C=14 OK
+29  3 14   28      True  | 14  14 | 14  [-1, 0, 1]   | p=3:S=14,C=14 p=5:S=14,C=13(baja;p|l^t-1:True) p=7:S=14,C=14 p=11:S=14,C=14 p=13:S=14,C=14 OK
+29  5 14   14      True  | 14  14 | 14  [-2, -1, 0, 1, 2] | p=3:S=14,C=12(baja;p|l^t-1:True) p=5:S=14,C=14 p=7:S=14,C=14 p=11:S=14,C=14 p=13:S=14,C=14 OK
+29  7 14    7      False | 12  12 | 14  [-3, -2, -1, 0, 1, 2, 3] | p=3:S=12,C=12(baja;p|l^t-1:True) p=5:S=12,C=14 p=7:S=12,C=14 p=11:S=12,C=14 p=13:S=12,C=14 OK
+31  2 15    5      False | 12  12 | 15  [-1, 0, 1]   | p=5:S=12,C=15 p=7:S=12,C=15 p=11:S=12,C=15 p=13:S=12,C=15 OK
+31  3 15   30      True  | 15  15 | 15  [-1, 0, 1]   | p=5:S=15,C=15 p=7:S=15,C=14(baja;p|l^t-1:True) p=11:S=15,C=15 p=13:S=15,C=15 OK
+31  5 15    3      False | 10  10 | 15  [-2, -1, 0, 1, 2] | p=5:S=10,C=15 p=7:S=10,C=15 p=11:S=10,C=15 p=13:S=10,C=15 OK
+31  7 15   15      False | 14  14 | 15  [-3, -2, -1, 0, 1, 2, 3] | p=5:S=14,C=15 p=7:S=14,C=15 p=11:S=14,C=15 p=13:S=14,C=15 OK
+33  2 10   10      True  | 10  10 | 10  [-1, 0, 1]   | p=5:S=10,C=10 p=7:S=10,C=10 p=13:S=10,C=10 OK
+33  5 10   10      False |  9   9 | 10  [-2, -1, 0, 1, 2] | p=5:S=9,C=10 p=7:S=9,C=10 p=13:S=9,C=10 OK
+33  7 10   10      False |  9   9 | 10  [-3, -2, -1, 0, 1, 2, 3] | p=5:S=9,C=10 p=7:S=9,C=10 p=13:S=9,C=10 OK
+35  2 12   12      False | 11  11 | 12  [-1, 0, 1]   | p=3:S=11,C=11(baja;p|l^t-1:True) p=11:S=11,C=12 p=13:S=11,C=11(baja;p|l^t-1:True) OK
+35  3 12   12      False | 11  11 | 12  [-1, 0, 1]   | p=3:S=11,C=12 p=11:S=11,C=12 p=13:S=11,C=11(baja;p|l^t-1:True) OK
+OPERATOR TOTAL=52 fail=0
+
+=== (C2) control: the rank d - delta_l needs p ODD ===
+the formula is stated over Q and modulo odd p not dividing n*h^-; at p=2 it fails
+n= 5 l=4 d= 2 | prediccion d-delta= 2 | rango mod 2 = 1  FALLA (por eso p impar)   [h^-(5)=1]
+n= 5 l=2 d= 2 | prediccion d-delta= 2 | rango mod 2 = 2  coincide   [h^-(5)=1]
+n= 7 l=2 d= 3 | prediccion d-delta= 2 | rango mod 2 = 2  coincide   [h^-(7)=1]
+n= 9 l=2 d= 3 | prediccion d-delta= 3 | rango mod 2 = 3  coincide   [h^-(9)=1]
+n=11 l=2 d= 5 | prediccion d-delta= 5 | rango mod 2 = 5  coincide   [h^-(11)=1]
+n=13 l=4 d= 6 | prediccion d-delta= 6 | rango mod 2 = 5  FALLA (por eso p impar)   [h^-(13)=1]
+n= 7 l=4 d= 3 | prediccion d-delta= 2 | rango mod 2 = 2  coincide   [h^-(7)=1]
+controles en p=2: 2 de 7 fallan la formula, con p no dividiendo n*h^-
+
+=== (D) second order: which moment does the next layer see? ===
+eta_j = gamma_j + j*delta_j*pi + [ (j^2/2) gamma_j - (j/2) delta_j ] pi^2 + O(pi^3)
+expansion checked on 130 pairs (n,j); mismatches = 0
+consequence: the pi-coefficient carries the FIRST moment (odd, weight delta),
+the pi^2-coefficient carries the SECOND moment (even, weight gamma) and the first again.
+
+second moment on the centred families: S2(c) = sum_{|j|<=m, j=c} j^2
+q'= 5 m= 7 N=3 | S2(c) = N*hat_c^2 + S2(0) : True  (S2(0)=50)
+q'= 5 m=12 N=5 | S2(c) = N*hat_c^2 + S2(0) : True  (S2(0)=250)
+q'= 7 m=10 N=3 | S2(c) = N*hat_c^2 + S2(0) : True  (S2(0)=98)
+q'= 7 m=17 N=5 | S2(c) = N*hat_c^2 + S2(0) : True  (S2(0)=490)
+q'= 9 m=13 N=3 | S2(c) = N*hat_c^2 + S2(0) : True  (S2(0)=162)
+q'=11 m=16 N=3 | S2(c) = N*hat_c^2 + S2(0) : True  (S2(0)=242)
+q'=13 m=19 N=3 | S2(c) = N*hat_c^2 + S2(0) : True  (S2(0)=338)

@@ -1,0 +1,2 @@
+control de h^-: {23: 3, 31: 9, 39: 2, 41: 121, 65: 64}  (esperado 23:3 31:9 39:2 41:121 65:64)
+n in [3,90), n no = 2 mod 4;  p impar <= 60, p no | n:  pares 984   coinciden 984   (p | h^-: 17)   fallos []

@@ -1,0 +1,211 @@
+=== (A) shift identity, lattices and elementary divisors, even n ===
+n= 4 (n mod 4 = 0) d= 1 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n= 6 (n mod 4 = 2) d= 1 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n= 8 (n mod 4 = 0) d= 2 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=10 (n mod 4 = 2) d= 2 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=12 (n mod 4 = 0) d= 2 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=14 (n mod 4 = 2) d= 3 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=16 (n mod 4 = 0) d= 4 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=18 (n mod 4 = 2) d= 3 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=20 (n mod 4 = 0) d= 4 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=22 (n mod 4 = 2) d= 5 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=24 (n mod 4 = 0) d= 4 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=26 (n mod 4 = 2) d= 6 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=28 (n mod 4 = 0) d= 6 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=30 (n mod 4 = 2) d= 4 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=32 (n mod 4 = 0) d= 8 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=34 (n mod 4 = 2) d= 8 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=36 (n mod 4 = 0) d= 6 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=38 (n mod 4 = 2) d= 9 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=40 (n mod 4 = 0) d= 8 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=42 (n mod 4 = 2) d= 6 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=44 (n mod 4 = 0) d=10 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=46 (n mod 4 = 2) d=11 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=48 (n mod 4 = 0) d= 8 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=50 (n mod 4 = 2) d=10 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=52 (n mod 4 = 0) d=12 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=54 (n mod 4 = 2) d= 9 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=56 (n mod 4 = 0) d=12 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=58 (n mod 4 = 2) d=14 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=60 (n mod 4 = 0) d= 8 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=62 (n mod 4 = 2) d=15 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=64 (n mod 4 = 0) d=16 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=66 (n mod 4 = 2) d=10 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=68 (n mod 4 = 0) d=16 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+n=70 (n mod 4 = 2) d=12 | hat=shift/2 True | L=2L' True | ed(M)=2ed(Mhat) True | odd parts equal True | rank_p equal True | OK
+IDENTITY TOTAL=34 fail=0
+
+=== (B) end-to-end: 4 | q', m = Br and Br-1 with B odd, p odd, p not dividing B ===
+q'= 8 p= 3 B=1 m=   4 v=1 q=    24 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 3 B=1 m=   3 v=1 q=    24 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 3 B=5 m=  20 v=2 q=    72 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 3 B=5 m=  19 v=2 q=    72 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 5 B=1 m=   4 v=1 q=    40 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 5 B=1 m=   3 v=1 q=    40 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 5 B=3 m=  12 v=1 q=    40 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 5 B=3 m=  11 v=1 q=    40 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 7 B=1 m=   4 v=1 q=    56 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 7 B=1 m=   3 v=1 q=    56 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 7 B=3 m=  12 v=1 q=    56 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 7 B=3 m=  11 v=1 q=    56 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 7 B=5 m=  20 v=1 q=    56 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'= 8 p= 7 B=5 m=  19 v=1 q=    56 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 5 B=1 m=   6 v=1 q=    60 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 5 B=1 m=   5 v=1 q=    60 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 5 B=3 m=  18 v=1 q=    60 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 5 B=3 m=  17 v=1 q=    60 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 7 B=1 m=   6 v=1 q=    84 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 7 B=1 m=   5 v=1 q=    84 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 7 B=3 m=  18 v=1 q=    84 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 7 B=3 m=  17 v=1 q=    84 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 7 B=5 m=  30 v=1 q=    84 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=12 p= 7 B=5 m=  29 v=1 q=    84 | S=B*hat_s True | W=[1, 2] | rank_p M=2 Mhat=2 [S]=2 | d= 2 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 3 B=1 m=   8 v=1 q=    48 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 3 B=1 m=   7 v=1 q=    48 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 3 B=5 m=  40 v=2 q=   144 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 3 B=5 m=  39 v=2 q=   144 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 5 B=1 m=   8 v=1 q=    80 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 5 B=1 m=   7 v=1 q=    80 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 5 B=3 m=  24 v=1 q=    80 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 5 B=3 m=  23 v=1 q=    80 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 7 B=1 m=   8 v=1 q=   112 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 7 B=1 m=   7 v=1 q=   112 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 7 B=3 m=  24 v=1 q=   112 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 7 B=3 m=  23 v=1 q=   112 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 7 B=5 m=  40 v=1 q=   112 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=16 p= 7 B=5 m=  39 v=1 q=   112 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 3 B=1 m=  10 v=1 q=    60 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 3 B=1 m=   9 v=1 q=    60 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 3 B=5 m=  50 v=2 q=   180 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 3 B=5 m=  49 v=2 q=   180 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 7 B=1 m=  10 v=1 q=   140 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 7 B=1 m=   9 v=1 q=   140 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 7 B=3 m=  30 v=1 q=   140 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 7 B=3 m=  29 v=1 q=   140 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 7 B=5 m=  50 v=1 q=   140 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=20 p= 7 B=5 m=  49 v=1 q=   140 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 5 B=1 m=  12 v=1 q=   120 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 5 B=1 m=  11 v=1 q=   120 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 5 B=3 m=  36 v=1 q=   120 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 5 B=3 m=  35 v=1 q=   120 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 7 B=1 m=  12 v=1 q=   168 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 7 B=1 m=  11 v=1 q=   168 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 7 B=3 m=  36 v=1 q=   168 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 7 B=3 m=  35 v=1 q=   168 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 7 B=5 m=  60 v=1 q=   168 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=24 p= 7 B=5 m=  59 v=1 q=   168 | S=B*hat_s True | W=[1, 4] | rank_p M=4 Mhat=4 [S]=4 | d= 4 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 3 B=1 m=  14 v=1 q=    84 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 3 B=1 m=  13 v=1 q=    84 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 3 B=5 m=  70 v=2 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 3 B=5 m=  69 v=2 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 5 B=1 m=  14 v=1 q=   140 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 5 B=1 m=  13 v=1 q=   140 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 5 B=3 m=  42 v=1 q=   140 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=28 p= 5 B=3 m=  41 v=1 q=   140 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 3 B=1 m=  16 v=1 q=    96 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 3 B=1 m=  15 v=1 q=    96 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 3 B=5 m=  80 v=2 q=   288 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 3 B=5 m=  79 v=2 q=   288 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 5 B=1 m=  16 v=1 q=   160 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 5 B=1 m=  15 v=1 q=   160 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 5 B=3 m=  48 v=1 q=   160 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 5 B=3 m=  47 v=1 q=   160 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 7 B=1 m=  16 v=1 q=   224 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 7 B=1 m=  15 v=1 q=   224 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 7 B=3 m=  48 v=1 q=   224 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 7 B=3 m=  47 v=1 q=   224 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 7 B=5 m=  80 v=1 q=   224 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=32 p= 7 B=5 m=  79 v=1 q=   224 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 5 B=1 m=  18 v=1 q=   180 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 5 B=1 m=  17 v=1 q=   180 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 5 B=3 m=  54 v=1 q=   180 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 5 B=3 m=  53 v=1 q=   180 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 7 B=1 m=  18 v=1 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 7 B=1 m=  17 v=1 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 7 B=3 m=  54 v=1 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 7 B=3 m=  53 v=1 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 7 B=5 m=  90 v=1 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=36 p= 7 B=5 m=  89 v=1 q=   252 | S=B*hat_s True | W=[1, 6] | rank_p M=6 Mhat=6 [S]=6 | d= 6 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 3 B=1 m=  20 v=1 q=   120 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 3 B=1 m=  19 v=1 q=   120 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 3 B=5 m= 100 v=2 q=   360 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 3 B=5 m=  99 v=2 q=   360 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 7 B=1 m=  20 v=1 q=   280 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 7 B=1 m=  19 v=1 q=   280 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 7 B=3 m=  60 v=1 q=   280 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 7 B=3 m=  59 v=1 q=   280 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=40 p= 7 B=5 m= 100 v=1 q=   280 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.1s OK
+q'=40 p= 7 B=5 m=  99 v=1 q=   280 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 3 B=1 m=  22 v=1 q=   132 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 3 B=1 m=  21 v=1 q=   132 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 3 B=5 m= 110 v=2 q=   396 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 3 B=5 m= 109 v=2 q=   396 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 5 B=1 m=  22 v=1 q=   220 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 5 B=1 m=  21 v=1 q=   220 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 5 B=3 m=  66 v=1 q=   220 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 5 B=3 m=  65 v=1 q=   220 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 7 B=1 m=  22 v=1 q=   308 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 7 B=1 m=  21 v=1 q=   308 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 7 B=3 m=  66 v=1 q=   308 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 7 B=3 m=  65 v=1 q=   308 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 7 B=5 m= 110 v=1 q=   308 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=44 p= 7 B=5 m= 109 v=1 q=   308 | S=B*hat_s True | W=[1, 10] | rank_p M=10 Mhat=10 [S]=10 | d=10 #ed(p)=0 h^-=1 p|h^- False | 0.1s OK
+q'=48 p= 5 B=1 m=  24 v=1 q=   240 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 5 B=1 m=  23 v=1 q=   240 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 5 B=3 m=  72 v=1 q=   240 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 5 B=3 m=  71 v=1 q=   240 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 7 B=1 m=  24 v=1 q=   336 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 7 B=1 m=  23 v=1 q=   336 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 7 B=3 m=  72 v=1 q=   336 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 7 B=3 m=  71 v=1 q=   336 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 7 B=5 m= 120 v=1 q=   336 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=48 p= 7 B=5 m= 119 v=1 q=   336 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.1s OK
+q'=52 p= 3 B=1 m=  26 v=1 q=   156 | S=B*hat_s True | W=[1, 11] | rank_p M=11 Mhat=11 [S]=11 | d=12 #ed(p)=1 h^-=3 p|h^- True | 0.0s OK
+q'=52 p= 3 B=1 m=  25 v=1 q=   156 | S=B*hat_s True | W=[1, 11] | rank_p M=11 Mhat=11 [S]=11 | d=12 #ed(p)=1 h^-=3 p|h^- True | 0.0s OK
+q'=52 p= 3 B=5 m= 130 v=2 q=   468 | S=B*hat_s True | W=[1, 11] | rank_p M=11 Mhat=11 [S]=11 | d=12 #ed(p)=1 h^-=3 p|h^- True | 0.1s OK
+q'=52 p= 3 B=5 m= 129 v=2 q=   468 | S=B*hat_s True | W=[1, 11] | rank_p M=11 Mhat=11 [S]=11 | d=12 #ed(p)=1 h^-=3 p|h^- True | 0.1s OK
+q'=52 p= 5 B=1 m=  26 v=1 q=   260 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 5 B=1 m=  25 v=1 q=   260 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 5 B=3 m=  78 v=1 q=   260 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 5 B=3 m=  77 v=1 q=   260 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 7 B=1 m=  26 v=1 q=   364 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 7 B=1 m=  25 v=1 q=   364 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 7 B=3 m=  78 v=1 q=   364 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 7 B=3 m=  77 v=1 q=   364 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.0s OK
+q'=52 p= 7 B=5 m= 130 v=1 q=   364 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.1s OK
+q'=52 p= 7 B=5 m= 129 v=1 q=   364 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=3 p|h^- False | 0.1s OK
+q'=56 p= 3 B=1 m=  28 v=1 q=   168 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.0s OK
+q'=56 p= 3 B=1 m=  27 v=1 q=   168 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.0s OK
+q'=56 p= 3 B=5 m= 140 v=2 q=   504 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.1s OK
+q'=56 p= 3 B=5 m= 139 v=2 q=   504 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.1s OK
+q'=56 p= 5 B=1 m=  28 v=1 q=   280 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.0s OK
+q'=56 p= 5 B=1 m=  27 v=1 q=   280 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.0s OK
+q'=56 p= 5 B=3 m=  84 v=1 q=   280 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.0s OK
+q'=56 p= 5 B=3 m=  83 v=1 q=   280 | S=B*hat_s True | W=[1, 12] | rank_p M=12 Mhat=12 [S]=12 | d=12 #ed(p)=0 h^-=2 p|h^- False | 0.0s OK
+q'=60 p= 7 B=1 m=  30 v=1 q=   420 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=60 p= 7 B=1 m=  29 v=1 q=   420 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=60 p= 7 B=3 m=  90 v=1 q=   420 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=60 p= 7 B=3 m=  89 v=1 q=   420 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=60 p= 7 B=5 m= 150 v=1 q=   420 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=60 p= 7 B=5 m= 149 v=1 q=   420 | S=B*hat_s True | W=[1, 8] | rank_p M=8 Mhat=8 [S]=8 | d= 8 #ed(p)=0 h^-=1 p|h^- False | 0.0s OK
+q'=52 p= 3 B=1 m=  26 v=1 q=   156 | S=B*hat_s True | W=[1, 11] | rank_p M=11 Mhat=11 [S]=11 | d=12 #ed(p)=1 h^-=3 p|h^- True | 0.0s OK
+q'=52 p= 3 B=1 m=  25 v=1 q=   156 | S=B*hat_s True | W=[1, 11] | rank_p M=11 Mhat=11 [S]=11 | d=12 #ed(p)=1 h^-=3 p|h^- True | 0.0s OK
+q'=64 p=17 B=1 m=  32 v=1 q=  1088 | S=B*hat_s True | W=[1, 15] | rank_p M=15 Mhat=15 [S]=15 | d=16 #ed(p)=1 h^-=17 p|h^- True | 0.0s OK
+q'=64 p=17 B=1 m=  31 v=1 q=  1088 | S=B*hat_s True | W=[1, 15] | rank_p M=15 Mhat=15 [S]=15 | d=16 #ed(p)=1 h^-=17 p|h^- True | 0.0s OK
+q'=88 p= 5 B=1 m=  44 v=1 q=   440 | S=B*hat_s True | W=[1, 19] | rank_p M=19 Mhat=19 [S]=19 | d=20 #ed(p)=1 h^-=55 p|h^- True | 0.0s OK
+q'=88 p= 5 B=1 m=  43 v=1 q=   440 | S=B*hat_s True | W=[1, 19] | rank_p M=19 Mhat=19 [S]=19 | d=20 #ed(p)=1 h^-=55 p|h^- True | 0.0s OK
+END-TO-END TOTAL=158 fail=0
+
+=== (C) controls: p | B (the hypothesis p does not divide ceil(m/r)) ===
+q'= 8 p=3 B=3 m=  12 v=2 q=    72 | W=[1, 0] rank[S]=0 rank_p M=2 d= 2 | prediction FAILS (as expected)
+q'= 8 p=3 B=3 m=  11 v=1 q=    24 | W=[1, 0] rank[S]=0 rank_p M=2 d= 2 | prediction FAILS (as expected)
+q'=20 p=3 B=3 m=  30 v=2 q=   180 | W=[1, 0] rank[S]=0 rank_p M=4 d= 4 | prediction FAILS (as expected)
+q'=20 p=3 B=3 m=  29 v=1 q=    60 | W=[1, 0] rank[S]=0 rank_p M=4 d= 4 | prediction FAILS (as expected)
+q'=28 p=3 B=3 m=  42 v=2 q=   252 | W=[1, 0] rank[S]=0 rank_p M=6 d= 6 | prediction FAILS (as expected)
+q'=28 p=3 B=3 m=  41 v=1 q=    84 | W=[1, 0] rank[S]=0 rank_p M=6 d= 6 | prediction FAILS (as expected)
+q'=52 p=3 B=3 m=  78 v=2 q=   468 | W=[1, 0] rank[S]=0 rank_p M=11 d=12 | prediction FAILS (as expected)
+q'=52 p=3 B=3 m=  77 v=1 q=   156 | W=[1, 0] rank[S]=0 rank_p M=11 d=12 | prediction FAILS (as expected)
+q'=16 p=5 B=5 m=  40 v=2 q=   400 | W=[1, 0] rank[S]=0 rank_p M=4 d= 4 | prediction FAILS (as expected)
+q'=16 p=5 B=5 m=  39 v=1 q=    80 | W=[1, 0] rank[S]=0 rank_p M=4 d= 4 | prediction FAILS (as expected)
+q'=24 p=5 B=5 m=  60 v=2 q=   600 | W=[1, 0] rank[S]=0 rank_p M=4 d= 4 | prediction FAILS (as expected)
+q'=24 p=5 B=5 m=  59 v=1 q=   120 | W=[1, 0] rank[S]=0 rank_p M=4 d= 4 | prediction FAILS (as expected)

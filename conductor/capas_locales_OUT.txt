@@ -1,0 +1,25 @@
+RETICULO (perfil_W_OUT.txt):
+   B fallos                                           0
+   B medidas                                          240
+   G Gorenstein (a == b)                              101
+   G coincide                                         168
+   G desigualdad 2 sum W <= e d falla                 0
+   G filas con capas < e completas                    168
+   M fallos                                           0
+   M medidas                                          240
+   W_1>0 con g>1                                      20
+   e != primera capa llena (W_1>0)                    0
+   e == primera capa llena (W_1>0)                    145
+   fuera de las hipotesis del Teorema 5               16
+   ejemplos G no coincide: []
+CATALOGO SINTETICO (dims_B, mismo rango que catalogo_e.py):
+     de ellos con g>1                                 10
+   2W_1 > d medidas                                   780
+   2W_1 > d y W_2 < d (falla)                         0
+   B fallos                                           0
+   B medidas                                          2842
+   M fallos                                           0
+   M medidas                                          16186
+   certificados por (M), cualquier g                  215
+   decidibles (1<=W_1<d, K>=4)                        215
+   exponente certificado: {2: 215}

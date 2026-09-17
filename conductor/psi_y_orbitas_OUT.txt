@@ -1,0 +1,14 @@
+(a) Psi_q == Psi_{q'}^E (mod p)
+   q=35 p=5 q'=7 E=4  deg 12 = 12  congruentes: True
+   q=45 p=3 q'=5 E=6  deg 12 = 12  congruentes: True
+   q=56 p=2 q'=7 E=4  deg 12 = 12  congruentes: True
+   q=63 p=3 q'=7 E=6  deg 18 = 18  congruentes: True
+   q=175 p=5 q'=7 E=20  deg 60 = 60  congruentes: True
+   q=99 p=3 q'=11 E=6  deg 30 = 30  congruentes: True
+   q=40 p=2 q'=5 E=4  deg 8 = 8  congruentes: True
+   q=147 p=7 q'=3 E=42  deg 42 = 42  congruentes: True
+(b) q'=15, p=7, S(c)=2c-15 (c!=0): rangos por orbita gcd(c,15) y total
+   gcd=1  rango 4
+   gcd=3  rango 2
+   gcd=5  rango 1
+   total  rango 4

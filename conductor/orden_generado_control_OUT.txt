@@ -1,0 +1,28 @@
+   m    q   d  prod(grados)   idx_sage  idx_og   HNF igual   decoy: sage distinto / og distinto
+    2   20   4           16          2       2   SI          True / True
+    3   21   6          216         27      27   SI          False / False
+    3   28   6          108          8       8   SI          False / False
+    4   20   4          128          4       4   SI          False / False
+    4   27   9         6561          9       9   SI          False / False
+    4   36   6          648          4       4   SI          False / False
+    5   33  10       100000         81      81   SI          True / True
+    6   21   6        46656          9       9   SI          False / False
+    6   28   6        15552         16      16   SI          False / False
+    7   21   6       279936          9       9   SI          False / False
+    7   28   6        15552         16      16   SI          False / False
+    2   13   6           36          1       1   SI          True / True
+    3   15   4           64          1       1   SI          False / False
+    4   15   4          256          3       3   SI          False / False
+    3   16   4           16          2       2   SI          False / False
+    5   16   4          256          1       1   SI          False / False
+    4   24   4          128          3       3   SI          False / False
+    5   24   4          512          2       2   SI          False / False
+    6   13   6            1   rango incompleto: sage falla, og falla   SI
+    6   15   4         4096          1       1   SI          False / False
+    6   16   4          256          1       1   SI          False / False
+    6   17   8       262144          1       1   SI          False / False
+
+   C1  og_orden == L.order :  medidas 22  (con indice > 1: 15)   discrepancias 0   PASA
+   C2  senuelo (quitar una simetrica cambia el anillo, y og lo ve):  medidas 21   ambos distintos 3   PASA
+   C3  (7,19) con og_orden:  indice 1   0.0 s
+rc=0

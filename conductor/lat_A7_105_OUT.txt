@@ -1,0 +1,7 @@
+A_7(105) D=24 closure_iters=3 index=7^4  [0.0s]
+  p=7 E=6 d=4 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 3, 4]  l(O/A)=4  l(A/f)=4  sum(d-W_i,i<e)=4 sum(W_i,i<e)=4  [0.1s]
+  capas: W=[1, 3] W1=3 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.1s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.4s]
+PRED (Cor dos, -1 not in <2>): W1=3 e=2 v_p[O:A]=4 v_p[A:f]=4 type=1
+GOT: W=[1, 3, 4] e=2 v_p[O:A]=4 v_p[A:f]=4 typeF=1 typeC=1

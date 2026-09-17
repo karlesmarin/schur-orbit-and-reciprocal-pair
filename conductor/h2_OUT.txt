@@ -1,0 +1,1653 @@
+
+== sesion: 2026-09-16T12:44:19Z  guion=h2_residuo.sage  modo=fichero  tope=1200s ==  lista: 4:9,4:10,4:11,4:12,4:13,4:14,4:17,4:18,4:19,4:21,4:22,4:23,4:26,4:28,4:29,4:30,4:31,4:33,4:34,4:37,4:38,4:39,4:41,4:42,4:43,4:44,4:46,4:47,4:48,4:49,4:50,4:51,4:52,4:53,4:54,4:57,4:58,4:59,4:60,4:61,4:62,4:65,4:66,4:68,4:69,4:70,4:74,4:75,4:76,4:77,4:78,4:81,4:82,4:84,4:86,4:87,4:90,4:92,4:93,4:94,4:96,4:98,4:99,4:100,4:102,4:104,4:105,4:106,4:108,4:110,4:112,4:114,4:116,4:118,4:120,4:122,4:124,4:126,4:130,4:132,5:11,5:12,5:13,5:14,5:16,5:17,5:18,5:19,5:21,5:22,5:23,5:26,5:27,5:28,5:29,5:30,5:31,5:32,5:34,5:37,5:38,5:39,5:41,5:42,5:43,5:46,5:47,5:49,5:50,5:51,5:52,5:53,5:54,5:55,5:56,5:57,5:58,5:59,5:61,5:62,5:63,5:64,5:65,5:66,5:68,5:69,5:70,5:72,5:74,5:75,5:76,5:77,5:78,5:80,5:81,5:82,5:84,5:86,5:87,5:88,5:90,5:92,5:93,5:94,5:96,5:98,5:99,5:100,5:102,5:104,5:105,5:106,5:108,5:110,5:112,5:114,5:116,5:118,5:120,5:122,5:124,5:126,5:130,5:132,9:19,9:20,9:21,9:22,9:23,9:24,9:25,9:26,9:27,9:28,9:29,9:30,9:31,9:32,9:33,9:34,9:35,9:36,9:37,9:38,9:39,9:40,9:41,9:42,9:43,9:44,9:45,9:46,9:47,9:48,9:49,9:50,9:51,9:52,9:53,9:54,9:55,9:56,9:57,9:58,9:59,9:60,9:61,9:62,9:63,9:64,9:65,9:66,9:68,9:69,9:70,9:72,9:74,9:75,9:76,9:77,9:78,9:80,9:81,9:82,9:84,9:86,9:87,9:88,9:90,9:92,9:93,9:94,9:96,9:98,9:99,9:100,9:102,9:104,9:105,9:106,9:108,9:110,9:112,9:114,9:116,9:118,9:120,9:122,9:124,9:126,9:130,9:132,10:21,10:22,10:23,10:24,10:25,10:26,10:27,10:28,10:29,10:30,10:31,10:32,10:33,10:34,10:35,10:36,10:37,10:38,10:39,10:40,10:41,10:42,10:43,10:44,10:45,10:46,10:47,10:48,10:49,10:50,10:51,10:52,10:53,10:54,10:55,10:56,10:57,10:58,10:59,10:60,10:61,10:62,10:63,10:64,10:65,10:66,10:68,10:69,10:70,10:72,10:74,10:75,10:76,10:77,10:78,10:80,10:81,10:82,10:84,10:86,10:87,10:88,10:90,10:92,10:93,10:94,10:96,10:98,10:99,10:100,10:102,10:104,10:105,10:106,10:108,10:110,10:112,10:114,10:116,10:118,10:120,10:122,10:124,10:126,10:130,10:132,6:138,6:140,6:144,6:150,6:154,6:156,7:138,7:140,7:144,7:150,7:154,7:156,8:138,8:140,8:144,8:150,8:154,8:156
+--- casilla 4:9 ---  2026-09-16T12:44:19Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 3)
+
+=== fallo 4:9 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 4:10 ---  2026-09-16T12:44:22Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 2)
+
+=== fallo 4:10 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 4:11 ---  2026-09-16T12:44:24Z
+H2NADA|4|11|conductor trivial
+
+=== hecha 4:11 ===
+--- casilla 4:12 ---  2026-09-16T12:44:25Z
+H2NADA|4|12|conductor trivial
+
+=== hecha 4:12 ===
+--- casilla 4:13 ---  2026-09-16T12:44:26Z
+H2NADA|4|13|conductor trivial
+
+=== hecha 4:13 ===
+--- casilla 4:14 ---  2026-09-16T12:44:27Z
+H2NADA|4|14|conductor trivial
+
+=== hecha 4:14 ===
+--- casilla 4:17 ---  2026-09-16T12:44:29Z
+H2NADA|4|17|conductor trivial
+
+=== hecha 4:17 ===
+--- casilla 4:18 ---  2026-09-16T12:44:30Z
+H2|4|18|2|2|1|1|3.1|forzado|forzado
+H2S2|4|18|2|f=3|dim=3|ok
+H2FIN|4|18|idx=4|Nc=8|T_medidas=1|T_fallos=0
+
+=== hecha 4:18 ===
+--- casilla 4:19 ---  2026-09-16T12:44:31Z
+H2NADA|4|19|conductor trivial
+
+=== hecha 4:19 ===
+--- casilla 4:21 ---  2026-09-16T12:44:33Z
+H2NADA|4|21|conductor trivial
+
+=== hecha 4:21 ===
+--- casilla 4:22 ---  2026-09-16T12:44:34Z
+H2NADA|4|22|conductor trivial
+
+=== hecha 4:22 ===
+--- casilla 4:23 ---  2026-09-16T12:44:35Z
+H2NADA|4|23|conductor trivial
+
+=== hecha 4:23 ===
+--- casilla 4:26 ---  2026-09-16T12:44:36Z
+H2NADA|4|26|conductor trivial
+
+=== hecha 4:26 ===
+--- casilla 4:28 ---  2026-09-16T12:44:37Z
+H2NADA|4|28|conductor trivial
+
+=== hecha 4:28 ===
+--- casilla 4:29 ---  2026-09-16T12:44:39Z
+H2NADA|4|29|conductor trivial
+
+=== hecha 4:29 ===
+--- casilla 4:30 ---  2026-09-16T12:44:40Z
+H2|4|30|3|1|1|1|2.1|forzado|forzado
+H2S2|4|30|3|f=2|dim=2|ok
+H2FIN|4|30|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 4:30 ===
+--- casilla 4:31 ---  2026-09-16T12:44:41Z
+H2NADA|4|31|conductor trivial
+
+=== hecha 4:31 ===
+--- casilla 4:33 ---  2026-09-16T12:44:43Z
+H2NADA|4|33|conductor trivial
+
+=== hecha 4:33 ===
+--- casilla 4:34 ---  2026-09-16T12:44:44Z
+H2NADA|4|34|conductor trivial
+
+=== hecha 4:34 ===
+--- casilla 4:37 ---  2026-09-16T12:44:45Z
+H2NADA|4|37|conductor trivial
+
+=== hecha 4:37 ===
+--- casilla 4:38 ---  2026-09-16T12:44:46Z
+H2NADA|4|38|conductor trivial
+
+=== hecha 4:38 ===
+--- casilla 4:39 ---  2026-09-16T12:44:48Z
+H2NADA|4|39|conductor trivial
+
+=== hecha 4:39 ===
+--- casilla 4:41 ---  2026-09-16T12:44:49Z
+H2NADA|4|41|conductor trivial
+
+=== hecha 4:41 ===
+--- casilla 4:42 ---  2026-09-16T12:44:50Z
+H2NADA|4|42|conductor trivial
+
+=== hecha 4:42 ===
+--- casilla 4:43 ---  2026-09-16T12:44:52Z
+H2NADA|4|43|conductor trivial
+
+=== hecha 4:43 ===
+--- casilla 4:44 ---  2026-09-16T12:44:53Z
+H2NADA|4|44|conductor trivial
+
+=== hecha 4:44 ===
+--- casilla 4:46 ---  2026-09-16T12:44:54Z
+H2NADA|4|46|conductor trivial
+
+=== hecha 4:46 ===
+--- casilla 4:47 ---  2026-09-16T12:44:56Z
+H2NADA|4|47|conductor trivial
+
+=== hecha 4:47 ===
+--- casilla 4:48 ---  2026-09-16T12:44:57Z
+H2NADA|4|48|conductor trivial
+
+=== hecha 4:48 ===
+--- casilla 4:49 ---  2026-09-16T12:44:58Z
+H2NADA|4|49|conductor trivial
+
+=== hecha 4:49 ===
+--- casilla 4:50 ---  2026-09-16T12:44:59Z
+H2|4|50|5|1|1|1|1.2|na|forzado
+H2FIN|4|50|idx=5|Nc=25|T_medidas=0|T_fallos=0
+
+=== hecha 4:50 ===
+--- casilla 4:51 ---  2026-09-16T12:45:01Z
+H2NADA|4|51|conductor trivial
+
+=== hecha 4:51 ===
+--- casilla 4:52 ---  2026-09-16T12:45:02Z
+H2NADA|4|52|conductor trivial
+
+=== hecha 4:52 ===
+--- casilla 4:53 ---  2026-09-16T12:45:04Z
+H2NADA|4|53|conductor trivial
+
+=== hecha 4:53 ===
+--- casilla 4:54 ---  2026-09-16T12:45:05Z
+H2NADA|4|54|conductor trivial
+
+=== hecha 4:54 ===
+--- casilla 4:57 ---  2026-09-16T12:45:06Z
+H2NADA|4|57|conductor trivial
+
+=== hecha 4:57 ===
+--- casilla 4:58 ---  2026-09-16T12:45:08Z
+H2NADA|4|58|conductor trivial
+
+=== hecha 4:58 ===
+--- casilla 4:59 ---  2026-09-16T12:45:09Z
+H2NADA|4|59|conductor trivial
+
+=== hecha 4:59 ===
+--- casilla 4:60 ---  2026-09-16T12:45:11Z
+H2NADA|4|60|conductor trivial
+
+=== hecha 4:60 ===
+--- casilla 4:61 ---  2026-09-16T12:45:12Z
+H2NADA|4|61|conductor trivial
+
+=== hecha 4:61 ===
+--- casilla 4:62 ---  2026-09-16T12:45:14Z
+H2NADA|4|62|conductor trivial
+
+=== hecha 4:62 ===
+--- casilla 4:65 ---  2026-09-16T12:45:15Z
+H2|4|65|13|1|1|1|2.1|forzado|forzado
+H2S2|4|65|13|f=2|dim=2|ok
+H2FIN|4|65|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 4:65 ===
+--- casilla 4:66 ---  2026-09-16T12:45:17Z
+H2NADA|4|66|conductor trivial
+
+=== hecha 4:66 ===
+--- casilla 4:68 ---  2026-09-16T12:45:18Z
+H2NADA|4|68|conductor trivial
+
+=== hecha 4:68 ===
+--- casilla 4:69 ---  2026-09-16T12:45:19Z
+H2NADA|4|69|conductor trivial
+
+=== hecha 4:69 ===
+--- casilla 4:70 ---  2026-09-16T12:45:21Z
+H2|4|70|7|1|1|1|2.1|forzado|forzado
+H2S2|4|70|7|f=2|dim=2|ok
+H2FIN|4|70|idx=7|Nc=49|T_medidas=1|T_fallos=0
+
+=== hecha 4:70 ===
+--- casilla 4:74 ---  2026-09-16T12:45:22Z
+H2NADA|4|74|conductor trivial
+
+=== hecha 4:74 ===
+--- casilla 4:75 ---  2026-09-16T12:45:24Z
+H2NADA|4|75|conductor trivial
+
+=== hecha 4:75 ===
+--- casilla 4:76 ---  2026-09-16T12:45:25Z
+H2NADA|4|76|conductor trivial
+
+=== hecha 4:76 ===
+--- casilla 4:77 ---  2026-09-16T12:45:26Z
+H2NADA|4|77|conductor trivial
+
+=== hecha 4:77 ===
+--- casilla 4:78 ---  2026-09-16T12:45:28Z
+H2NADA|4|78|conductor trivial
+
+=== hecha 4:78 ===
+--- casilla 4:81 ---  2026-09-16T12:45:29Z
+H2|4|81|3|2|1|1|1.3|na|forzado
+H2FIN|4|81|idx=9|Nc=27|T_medidas=0|T_fallos=0
+
+=== hecha 4:81 ===
+--- casilla 4:82 ---  2026-09-16T12:45:32Z
+H2NADA|4|82|conductor trivial
+
+=== hecha 4:82 ===
+--- casilla 4:84 ---  2026-09-16T12:45:33Z
+H2NADA|4|84|conductor trivial
+
+=== hecha 4:84 ===
+--- casilla 4:86 ---  2026-09-16T12:45:35Z
+H2NADA|4|86|conductor trivial
+
+=== hecha 4:86 ===
+--- casilla 4:87 ---  2026-09-16T12:45:36Z
+H2NADA|4|87|conductor trivial
+
+=== hecha 4:87 ===
+--- casilla 4:90 ---  2026-09-16T12:45:37Z
+H2|4|90|3|1|1|1|2.1|forzado|forzado
+H2S2|4|90|3|f=2|dim=2|ok
+H2FIN|4|90|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 4:90 ===
+--- casilla 4:92 ---  2026-09-16T12:45:38Z
+H2NADA|4|92|conductor trivial
+
+=== hecha 4:92 ===
+--- casilla 4:93 ---  2026-09-16T12:45:40Z
+H2NADA|4|93|conductor trivial
+
+=== hecha 4:93 ===
+--- casilla 4:94 ---  2026-09-16T12:45:41Z
+H2NADA|4|94|conductor trivial
+
+=== hecha 4:94 ===
+--- casilla 4:96 ---  2026-09-16T12:45:42Z
+H2NADA|4|96|conductor trivial
+
+=== hecha 4:96 ===
+--- casilla 4:98 ---  2026-09-16T12:45:44Z
+H2NADA|4|98|conductor trivial
+
+=== hecha 4:98 ===
+--- casilla 4:99 ---  2026-09-16T12:45:45Z
+H2|4|99|11|2|1|1|3.1|forzado|forzado
+H2S2|4|99|11|f=3|dim=3|ok
+H2FIN|4|99|idx=121|Nc=1331|T_medidas=1|T_fallos=0
+
+=== hecha 4:99 ===
+--- casilla 4:100 ---  2026-09-16T12:45:49Z
+H2NADA|4|100|conductor trivial
+
+=== hecha 4:100 ===
+--- casilla 4:102 ---  2026-09-16T12:45:50Z
+H2NADA|4|102|conductor trivial
+
+=== hecha 4:102 ===
+--- casilla 4:104 ---  2026-09-16T12:45:51Z
+H2|4|104|13|1|1|1|2.1|forzado|forzado
+H2S2|4|104|13|f=2|dim=2|ok
+H2FIN|4|104|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 4:104 ===
+--- casilla 4:105 ---  2026-09-16T12:45:54Z
+H2NADA|4|105|conductor trivial
+
+=== hecha 4:105 ===
+--- casilla 4:106 ---  2026-09-16T12:45:55Z
+H2NADA|4|106|conductor trivial
+
+=== hecha 4:106 ===
+--- casilla 4:108 ---  2026-09-16T12:45:57Z
+H2NADA|4|108|conductor trivial
+
+=== hecha 4:108 ===
+--- casilla 4:110 ---  2026-09-16T12:45:58Z
+H2|4|110|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|4|110|idx=11|Nc=121|T_medidas=1|T_fallos=0
+
+=== hecha 4:110 ===
+--- casilla 4:112 ---  2026-09-16T12:46:00Z
+H2NADA|4|112|conductor trivial
+
+=== hecha 4:112 ===
+--- casilla 4:114 ---  2026-09-16T12:46:01Z
+H2NADA|4|114|conductor trivial
+
+=== hecha 4:114 ===
+--- casilla 4:116 ---  2026-09-16T12:46:03Z
+H2NADA|4|116|conductor trivial
+
+=== hecha 4:116 ===
+--- casilla 4:118 ---  2026-09-16T12:46:04Z
+H2NADA|4|118|conductor trivial
+
+=== hecha 4:118 ===
+--- casilla 4:120 ---  2026-09-16T12:46:05Z
+H2NADA|4|120|conductor trivial
+
+=== hecha 4:120 ===
+--- casilla 4:122 ---  2026-09-16T12:46:07Z
+H2NADA|4|122|conductor trivial
+
+=== hecha 4:122 ===
+--- casilla 4:124 ---  2026-09-16T12:46:08Z
+H2NADA|4|124|conductor trivial
+
+=== hecha 4:124 ===
+--- casilla 4:126 ---  2026-09-16T12:46:09Z
+H2NADA|4|126|conductor trivial
+
+=== hecha 4:126 ===
+--- casilla 4:130 ---  2026-09-16T12:46:11Z
+H2|4|130|13|1|1|1|2.1|forzado|forzado
+H2S2|4|130|13|f=2|dim=2|ok
+H2FIN|4|130|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 4:130 ===
+--- casilla 4:132 ---  2026-09-16T12:46:13Z
+H2NADA|4|132|conductor trivial
+
+=== hecha 4:132 ===
+--- casilla 5:11 ---  2026-09-16T12:46:14Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 5)
+
+=== fallo 5:11 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 5:12 ---  2026-09-16T12:46:16Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 2)
+
+=== fallo 5:12 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 5:13 ---  2026-09-16T12:46:17Z
+H2NADA|5|13|conductor trivial
+
+=== hecha 5:13 ===
+--- casilla 5:14 ---  2026-09-16T12:46:18Z
+H2NADA|5|14|conductor trivial
+
+=== hecha 5:14 ===
+--- casilla 5:16 ---  2026-09-16T12:46:20Z
+H2NADA|5|16|conductor trivial
+
+=== hecha 5:16 ===
+--- casilla 5:17 ---  2026-09-16T12:46:21Z
+H2NADA|5|17|conductor trivial
+
+=== hecha 5:17 ===
+--- casilla 5:18 ---  2026-09-16T12:46:23Z
+H2NADA|5|18|conductor trivial
+
+=== hecha 5:18 ===
+--- casilla 5:19 ---  2026-09-16T12:46:24Z
+H2NADA|5|19|conductor trivial
+
+=== hecha 5:19 ===
+--- casilla 5:21 ---  2026-09-16T12:46:25Z
+H2NADA|5|21|conductor trivial
+
+=== hecha 5:21 ===
+--- casilla 5:22 ---  2026-09-16T12:46:27Z
+H2|5|22|2|4|1|1|5.1|forzado|forzado
+H2S2|5|22|2|f=5|dim=5|ok
+H2FIN|5|22|idx=16|Nc=32|T_medidas=1|T_fallos=0
+
+=== hecha 5:22 ===
+--- casilla 5:23 ---  2026-09-16T12:46:28Z
+H2NADA|5|23|conductor trivial
+
+=== hecha 5:23 ===
+--- casilla 5:26 ---  2026-09-16T12:46:29Z
+H2NADA|5|26|conductor trivial
+
+=== hecha 5:26 ===
+--- casilla 5:27 ---  2026-09-16T12:46:31Z
+H2NADA|5|27|conductor trivial
+
+=== hecha 5:27 ===
+--- casilla 5:28 ---  2026-09-16T12:46:32Z
+H2NADA|5|28|conductor trivial
+
+=== hecha 5:28 ===
+--- casilla 5:29 ---  2026-09-16T12:46:33Z
+H2NADA|5|29|conductor trivial
+
+=== hecha 5:29 ===
+--- casilla 5:30 ---  2026-09-16T12:46:34Z
+H2|5|30|3|1|1|1|2.1|forzado|forzado
+H2S2|5|30|3|f=2|dim=2|ok
+H2FIN|5|30|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 5:30 ===
+--- casilla 5:31 ---  2026-09-16T12:46:36Z
+H2NADA|5|31|conductor trivial
+
+=== hecha 5:31 ===
+--- casilla 5:32 ---  2026-09-16T12:46:37Z
+H2NADA|5|32|conductor trivial
+
+=== hecha 5:32 ===
+--- casilla 5:34 ---  2026-09-16T12:46:38Z
+H2NADA|5|34|conductor trivial
+
+=== hecha 5:34 ===
+--- casilla 5:37 ---  2026-09-16T12:46:39Z
+H2NADA|5|37|conductor trivial
+
+=== hecha 5:37 ===
+--- casilla 5:38 ---  2026-09-16T12:46:40Z
+H2NADA|5|38|conductor trivial
+
+=== hecha 5:38 ===
+--- casilla 5:39 ---  2026-09-16T12:46:42Z
+H2NADA|5|39|conductor trivial
+
+=== hecha 5:39 ===
+--- casilla 5:41 ---  2026-09-16T12:46:43Z
+H2NADA|5|41|conductor trivial
+
+=== hecha 5:41 ===
+--- casilla 5:42 ---  2026-09-16T12:46:44Z
+H2NADA|5|42|conductor trivial
+
+=== hecha 5:42 ===
+--- casilla 5:43 ---  2026-09-16T12:46:45Z
+H2NADA|5|43|conductor trivial
+
+=== hecha 5:43 ===
+--- casilla 5:46 ---  2026-09-16T12:46:47Z
+H2NADA|5|46|conductor trivial
+
+=== hecha 5:46 ===
+--- casilla 5:47 ---  2026-09-16T12:46:48Z
+H2NADA|5|47|conductor trivial
+
+=== hecha 5:47 ===
+--- casilla 5:49 ---  2026-09-16T12:46:49Z
+H2NADA|5|49|conductor trivial
+
+=== hecha 5:49 ===
+--- casilla 5:50 ---  2026-09-16T12:46:51Z
+H2|5|50|5|1|1|1|1.2|na|forzado
+H2FIN|5|50|idx=5|Nc=25|T_medidas=0|T_fallos=0
+
+=== hecha 5:50 ===
+--- casilla 5:51 ---  2026-09-16T12:46:52Z
+H2NADA|5|51|conductor trivial
+
+=== hecha 5:51 ===
+--- casilla 5:52 ---  2026-09-16T12:46:53Z
+H2NADA|5|52|conductor trivial
+
+=== hecha 5:52 ===
+--- casilla 5:53 ---  2026-09-16T12:46:55Z
+H2NADA|5|53|conductor trivial
+
+=== hecha 5:53 ===
+--- casilla 5:54 ---  2026-09-16T12:46:56Z
+H2NADA|5|54|conductor trivial
+
+=== hecha 5:54 ===
+--- casilla 5:55 ---  2026-09-16T12:46:57Z
+H2|5|55|5|4|1|1|5.1|forzado|forzado
+H2S2|5|55|5|f=5|dim=5|ok
+H2|5|55|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|5|55|idx=6875|Nc=378125|T_medidas=2|T_fallos=0
+
+=== hecha 5:55 ===
+--- casilla 5:56 ---  2026-09-16T12:46:59Z
+H2NADA|5|56|conductor trivial
+
+=== hecha 5:56 ===
+--- casilla 5:57 ---  2026-09-16T12:47:00Z
+H2NADA|5|57|conductor trivial
+
+=== hecha 5:57 ===
+--- casilla 5:58 ---  2026-09-16T12:47:02Z
+H2NADA|5|58|conductor trivial
+
+=== hecha 5:58 ===
+--- casilla 5:59 ---  2026-09-16T12:47:03Z
+H2NADA|5|59|conductor trivial
+
+=== hecha 5:59 ===
+--- casilla 5:61 ---  2026-09-16T12:47:04Z
+H2NADA|5|61|conductor trivial
+
+=== hecha 5:61 ===
+--- casilla 5:62 ---  2026-09-16T12:47:06Z
+H2NADA|5|62|conductor trivial
+
+=== hecha 5:62 ===
+--- casilla 5:63 ---  2026-09-16T12:47:07Z
+H2NADA|5|63|conductor trivial
+
+=== hecha 5:63 ===
+--- casilla 5:64 ---  2026-09-16T12:47:09Z
+H2NADA|5|64|conductor trivial
+
+=== hecha 5:64 ===
+--- casilla 5:65 ---  2026-09-16T12:47:10Z
+H2|5|65|13|1|1|1|2.1|forzado|forzado
+H2S2|5|65|13|f=2|dim=2|ok
+H2FIN|5|65|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 5:65 ===
+--- casilla 5:66 ---  2026-09-16T12:47:12Z
+H2NADA|5|66|conductor trivial
+
+=== hecha 5:66 ===
+--- casilla 5:68 ---  2026-09-16T12:47:14Z
+H2NADA|5|68|conductor trivial
+
+=== hecha 5:68 ===
+--- casilla 5:69 ---  2026-09-16T12:47:15Z
+H2NADA|5|69|conductor trivial
+
+=== hecha 5:69 ===
+--- casilla 5:70 ---  2026-09-16T12:47:16Z
+H2|5|70|7|1|1|1|2.1|forzado|forzado
+H2S2|5|70|7|f=2|dim=2|ok
+H2FIN|5|70|idx=7|Nc=49|T_medidas=1|T_fallos=0
+
+=== hecha 5:70 ===
+--- casilla 5:72 ---  2026-09-16T12:47:18Z
+H2NADA|5|72|conductor trivial
+
+=== hecha 5:72 ===
+--- casilla 5:74 ---  2026-09-16T12:47:19Z
+H2NADA|5|74|conductor trivial
+
+=== hecha 5:74 ===
+--- casilla 5:75 ---  2026-09-16T12:47:20Z
+H2NADA|5|75|conductor trivial
+
+=== hecha 5:75 ===
+--- casilla 5:76 ---  2026-09-16T12:47:22Z
+H2NADA|5|76|conductor trivial
+
+=== hecha 5:76 ===
+--- casilla 5:77 ---  2026-09-16T12:47:23Z
+H2|5|77|7|4|1|1|5.1|forzado|forzado
+H2S2|5|77|7|f=5|dim=5|ok
+H2FIN|5|77|idx=2401|Nc=16807|T_medidas=1|T_fallos=0
+
+=== hecha 5:77 ===
+--- casilla 5:78 ---  2026-09-16T12:47:27Z
+H2NADA|5|78|conductor trivial
+
+=== hecha 5:78 ===
+--- casilla 5:80 ---  2026-09-16T12:47:28Z
+H2|5|80|2|2|2|1|2.2|na|libre
+H2S2|5|80|2|f=2|dim=2|ok
+H2FIN|5|80|idx=4|Nc=16|T_medidas=0|T_fallos=0
+
+=== hecha 5:80 ===
+--- casilla 5:81 ---  2026-09-16T12:47:29Z
+H2NADA|5|81|conductor trivial
+
+=== hecha 5:81 ===
+--- casilla 5:82 ---  2026-09-16T12:47:31Z
+H2NADA|5|82|conductor trivial
+
+=== hecha 5:82 ===
+--- casilla 5:84 ---  2026-09-16T12:47:32Z
+H2|5|84|7|1|1|1|2.1|forzado|forzado
+H2S2|5|84|7|f=2|dim=2|ok
+H2FIN|5|84|idx=7|Nc=49|T_medidas=1|T_fallos=0
+
+=== hecha 5:84 ===
+--- casilla 5:86 ---  2026-09-16T12:47:34Z
+H2NADA|5|86|conductor trivial
+
+=== hecha 5:86 ===
+--- casilla 5:87 ---  2026-09-16T12:47:35Z
+H2NADA|5|87|conductor trivial
+
+=== hecha 5:87 ===
+--- casilla 5:88 ---  2026-09-16T12:47:36Z
+H2|5|88|2|4|1|1|5.1|forzado|forzado
+H2S2|5|88|2|f=5|dim=5|ok
+H2FIN|5|88|idx=16|Nc=32|T_medidas=1|T_fallos=0
+
+=== hecha 5:88 ===
+--- casilla 5:90 ---  2026-09-16T12:47:39Z
+H2|5|90|3|1|1|1|2.1|forzado|forzado
+H2S2|5|90|3|f=2|dim=2|ok
+H2FIN|5|90|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 5:90 ===
+--- casilla 5:92 ---  2026-09-16T12:47:40Z
+H2NADA|5|92|conductor trivial
+
+=== hecha 5:92 ===
+--- casilla 5:93 ---  2026-09-16T12:47:42Z
+H2NADA|5|93|conductor trivial
+
+=== hecha 5:93 ===
+--- casilla 5:94 ---  2026-09-16T12:47:43Z
+H2NADA|5|94|conductor trivial
+
+=== hecha 5:94 ===
+--- casilla 5:96 ---  2026-09-16T12:47:44Z
+H2|5|96|2|1|1|1|1.2|na|forzado
+H2FIN|5|96|idx=2|Nc=4|T_medidas=0|T_fallos=0
+
+=== hecha 5:96 ===
+--- casilla 5:98 ---  2026-09-16T12:47:46Z
+H2NADA|5|98|conductor trivial
+
+=== hecha 5:98 ===
+--- casilla 5:99 ---  2026-09-16T12:47:47Z
+H2|5|99|3|4|1|1|5.1|forzado|forzado
+H2S2|5|99|3|f=5|dim=5|ok
+H2FIN|5|99|idx=81|Nc=243|T_medidas=1|T_fallos=0
+
+=== hecha 5:99 ===
+--- casilla 5:100 ---  2026-09-16T12:47:51Z
+H2NADA|5|100|conductor trivial
+
+=== hecha 5:100 ===
+--- casilla 5:102 ---  2026-09-16T12:47:53Z
+H2NADA|5|102|conductor trivial
+
+=== hecha 5:102 ===
+--- casilla 5:104 ---  2026-09-16T12:47:54Z
+H2NADA|5|104|conductor trivial
+
+=== hecha 5:104 ===
+--- casilla 5:105 ---  2026-09-16T12:47:55Z
+H2NADA|5|105|conductor trivial
+
+=== hecha 5:105 ===
+--- casilla 5:106 ---  2026-09-16T12:47:57Z
+H2NADA|5|106|conductor trivial
+
+=== hecha 5:106 ===
+--- casilla 5:108 ---  2026-09-16T12:47:58Z
+H2|5|108|3|1|1|1|1.2|na|forzado
+H2FIN|5|108|idx=3|Nc=9|T_medidas=0|T_fallos=0
+
+=== hecha 5:108 ===
+--- casilla 5:110 ---  2026-09-16T12:48:00Z
+H2|5|110|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|5|110|idx=11|Nc=121|T_medidas=1|T_fallos=0
+
+=== hecha 5:110 ===
+--- casilla 5:112 ---  2026-09-16T12:48:02Z
+H2NADA|5|112|conductor trivial
+
+=== hecha 5:112 ===
+--- casilla 5:114 ---  2026-09-16T12:48:03Z
+H2NADA|5|114|conductor trivial
+
+=== hecha 5:114 ===
+--- casilla 5:116 ---  2026-09-16T12:48:04Z
+H2NADA|5|116|conductor trivial
+
+=== hecha 5:116 ===
+--- casilla 5:118 ---  2026-09-16T12:48:06Z
+H2NADA|5|118|conductor trivial
+
+=== hecha 5:118 ===
+--- casilla 5:120 ---  2026-09-16T12:48:07Z
+H2NADA|5|120|conductor trivial
+
+=== hecha 5:120 ===
+--- casilla 5:122 ---  2026-09-16T12:48:08Z
+H2NADA|5|122|conductor trivial
+
+=== hecha 5:122 ===
+--- casilla 5:124 ---  2026-09-16T12:48:10Z
+H2NADA|5|124|conductor trivial
+
+=== hecha 5:124 ===
+--- casilla 5:126 ---  2026-09-16T12:48:11Z
+H2NADA|5|126|conductor trivial
+
+=== hecha 5:126 ===
+--- casilla 5:130 ---  2026-09-16T12:48:12Z
+H2|5|130|13|1|1|1|2.1|forzado|forzado
+H2S2|5|130|13|f=2|dim=2|ok
+H2FIN|5|130|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 5:130 ===
+--- casilla 5:132 ---  2026-09-16T12:48:15Z
+H2|5|132|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|5|132|idx=11|Nc=121|T_medidas=1|T_fallos=0
+
+=== hecha 5:132 ===
+--- casilla 9:19 ---  2026-09-16T12:48:17Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 9)
+
+=== fallo 9:19 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 9:20 ---  2026-09-16T12:48:18Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 4)
+
+=== fallo 9:20 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 9:21 ---  2026-09-16T12:48:19Z
+H2NADA|9|21|conductor trivial
+
+=== hecha 9:21 ===
+--- casilla 9:22 ---  2026-09-16T12:48:20Z
+H2NADA|9|22|conductor trivial
+
+=== hecha 9:22 ===
+--- casilla 9:23 ---  2026-09-16T12:48:21Z
+H2NADA|9|23|conductor trivial
+
+=== hecha 9:23 ===
+--- casilla 9:24 ---  2026-09-16T12:48:22Z
+H2NADA|9|24|conductor trivial
+
+=== hecha 9:24 ===
+--- casilla 9:25 ---  2026-09-16T12:48:24Z
+H2|9|25|5|1|1|1|1.2|na|forzado
+H2FIN|9|25|idx=5|Nc=25|T_medidas=0|T_fallos=0
+
+=== hecha 9:25 ===
+--- casilla 9:26 ---  2026-09-16T12:48:25Z
+H2NADA|9|26|conductor trivial
+
+=== hecha 9:26 ===
+--- casilla 9:27 ---  2026-09-16T12:48:26Z
+H2|9|27|3|2|1|1|1.3|na|forzado
+H2FIN|9|27|idx=9|Nc=27|T_medidas=0|T_fallos=0
+
+=== hecha 9:27 ===
+--- casilla 9:28 ---  2026-09-16T12:48:28Z
+H2NADA|9|28|conductor trivial
+
+=== hecha 9:28 ===
+--- casilla 9:29 ---  2026-09-16T12:48:29Z
+H2NADA|9|29|conductor trivial
+
+=== hecha 9:29 ===
+--- casilla 9:30 ---  2026-09-16T12:48:30Z
+H2|9|30|3|1|1|1|2.1|forzado|forzado
+H2S2|9|30|3|f=2|dim=2|ok
+H2FIN|9|30|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 9:30 ===
+--- casilla 9:31 ---  2026-09-16T12:48:32Z
+H2NADA|9|31|conductor trivial
+
+=== hecha 9:31 ===
+--- casilla 9:32 ---  2026-09-16T12:48:33Z
+H2NADA|9|32|conductor trivial
+
+=== hecha 9:32 ===
+--- casilla 9:33 ---  2026-09-16T12:48:34Z
+H2NADA|9|33|conductor trivial
+
+=== hecha 9:33 ===
+--- casilla 9:34 ---  2026-09-16T12:48:36Z
+H2NADA|9|34|conductor trivial
+
+=== hecha 9:34 ===
+--- casilla 9:35 ---  2026-09-16T12:48:37Z
+H2|9|35|7|1|1|1|2.1|forzado|forzado
+H2S2|9|35|7|f=2|dim=2|ok
+H2FIN|9|35|idx=7|Nc=49|T_medidas=1|T_fallos=0
+
+=== hecha 9:35 ===
+--- casilla 9:36 ---  2026-09-16T12:48:38Z
+H2|9|36|2|4|2|1|3.2|na|libre
+H2S2|9|36|2|f=3|dim=3|ok
+H2FIN|9|36|idx=16|Nc=64|T_medidas=0|T_fallos=0
+
+=== hecha 9:36 ===
+--- casilla 9:37 ---  2026-09-16T12:48:39Z
+H2NADA|9|37|conductor trivial
+
+=== hecha 9:37 ===
+--- casilla 9:38 ---  2026-09-16T12:48:41Z
+H2|9|38|2|8|1|1|9.1|libre|libre
+H2S2|9|38|2|f=9|dim=9|ok
+H2S1|9|38|2|f=9|k=3|dim=3|ok
+H2FIN|9|38|idx=256|Nc=512|T_medidas=1|T_fallos=0
+
+=== hecha 9:38 ===
+--- casilla 9:39 ---  2026-09-16T12:48:42Z
+H2NADA|9|39|conductor trivial
+
+=== hecha 9:39 ===
+--- casilla 9:40 ---  2026-09-16T12:48:43Z
+H2|9|40|2|5|3|1|2.4|na|libre
+H2S2|9|40|2|f=2|dim=2|ok
+H2FIN|9|40|idx=32|Nc=256|T_medidas=0|T_fallos=0
+
+=== hecha 9:40 ===
+--- casilla 9:41 ---  2026-09-16T12:48:45Z
+H2NADA|9|41|conductor trivial
+
+=== hecha 9:41 ===
+--- casilla 9:42 ---  2026-09-16T12:48:46Z
+H2NADA|9|42|conductor trivial
+
+=== hecha 9:42 ===
+--- casilla 9:43 ---  2026-09-16T12:48:47Z
+H2NADA|9|43|conductor trivial
+
+=== hecha 9:43 ===
+--- casilla 9:44 ---  2026-09-16T12:48:48Z
+H2NADA|9|44|conductor trivial
+
+=== hecha 9:44 ===
+--- casilla 9:45 ---  2026-09-16T12:48:49Z
+H2|9|45|3|1|1|1|2.1|forzado|forzado
+H2S2|9|45|3|f=2|dim=2|ok
+H2|9|45|5|2|1|1|3.1|forzado|forzado
+H2S2|9|45|5|f=3|dim=3|ok
+H2FIN|9|45|idx=75|Nc=1125|T_medidas=2|T_fallos=0
+
+=== hecha 9:45 ===
+--- casilla 9:46 ---  2026-09-16T12:48:51Z
+H2NADA|9|46|conductor trivial
+
+=== hecha 9:46 ===
+--- casilla 9:47 ---  2026-09-16T12:48:52Z
+H2NADA|9|47|conductor trivial
+
+=== hecha 9:47 ===
+--- casilla 9:48 ---  2026-09-16T12:48:53Z
+H2NADA|9|48|conductor trivial
+
+=== hecha 9:48 ===
+--- casilla 9:49 ---  2026-09-16T12:48:55Z
+H2NADA|9|49|conductor trivial
+
+=== hecha 9:49 ===
+--- casilla 9:50 ---  2026-09-16T12:48:56Z
+H2|9|50|5|1|1|1|1.2|na|forzado
+H2FIN|9|50|idx=5|Nc=25|T_medidas=0|T_fallos=0
+
+=== hecha 9:50 ===
+--- casilla 9:51 ---  2026-09-16T12:48:57Z
+H2NADA|9|51|conductor trivial
+
+=== hecha 9:51 ===
+--- casilla 9:52 ---  2026-09-16T12:48:59Z
+H2NADA|9|52|conductor trivial
+
+=== hecha 9:52 ===
+--- casilla 9:53 ---  2026-09-16T12:49:00Z
+H2NADA|9|53|conductor trivial
+
+=== hecha 9:53 ===
+--- casilla 9:54 ---  2026-09-16T12:49:01Z
+H2|9|54|3|2|1|1|1.3|na|forzado
+H2FIN|9|54|idx=9|Nc=27|T_medidas=0|T_fallos=0
+
+=== hecha 9:54 ===
+--- casilla 9:55 ---  2026-09-16T12:49:02Z
+H2|9|55|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|9|55|idx=11|Nc=121|T_medidas=1|T_fallos=0
+
+=== hecha 9:55 ===
+--- casilla 9:56 ---  2026-09-16T12:49:04Z
+H2NADA|9|56|conductor trivial
+
+=== hecha 9:56 ===
+--- casilla 9:57 ---  2026-09-16T12:49:05Z
+H2|9|57|3|8|1|1|9.1|libre|libre
+H2S2|9|57|3|f=9|dim=9|ok
+H2S1|9|57|3|f=9|k=3|dim=3|ok
+H2FIN|9|57|idx=6561|Nc=19683|T_medidas=1|T_fallos=0
+
+=== hecha 9:57 ===
+--- casilla 9:58 ---  2026-09-16T12:49:07Z
+H2NADA|9|58|conductor trivial
+
+=== hecha 9:58 ===
+--- casilla 9:59 ---  2026-09-16T12:49:08Z
+H2NADA|9|59|conductor trivial
+
+=== hecha 9:59 ===
+--- casilla 9:60 ---  2026-09-16T12:49:09Z
+H2|9|60|3|3|1|1|4.1|libre|libre
+H2S2|9|60|3|f=4|dim=4|ok
+H2S1|9|60|3|f=4|k=2|dim=2|ok
+H2FIN|9|60|idx=27|Nc=81|T_medidas=1|T_fallos=0
+
+=== hecha 9:60 ===
+--- casilla 9:61 ---  2026-09-16T12:49:11Z
+H2NADA|9|61|conductor trivial
+
+=== hecha 9:61 ===
+--- casilla 9:62 ---  2026-09-16T12:49:12Z
+H2NADA|9|62|conductor trivial
+
+=== hecha 9:62 ===
+--- casilla 9:63 ---  2026-09-16T12:49:13Z
+H2|9|63|7|2|1|1|3.1|forzado|forzado
+H2S2|9|63|7|f=3|dim=3|ok
+H2FIN|9|63|idx=49|Nc=343|T_medidas=1|T_fallos=0
+
+=== hecha 9:63 ===
+--- casilla 9:64 ---  2026-09-16T12:49:15Z
+H2NADA|9|64|conductor trivial
+
+=== hecha 9:64 ===
+--- casilla 9:65 ---  2026-09-16T12:49:16Z
+H2|9|65|13|1|1|1|2.1|forzado|forzado
+H2S2|9|65|13|f=2|dim=2|ok
+H2FIN|9|65|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 9:65 ===
+--- casilla 9:66 ---  2026-09-16T12:49:18Z
+H2NADA|9|66|conductor trivial
+
+=== hecha 9:66 ===
+--- casilla 9:68 ---  2026-09-16T12:49:20Z
+H2NADA|9|68|conductor trivial
+
+=== hecha 9:68 ===
+--- casilla 9:69 ---  2026-09-16T12:49:21Z
+H2NADA|9|69|conductor trivial
+
+=== hecha 9:69 ===
+--- casilla 9:70 ---  2026-09-16T12:49:23Z
+H2|9|70|7|1|1|1|2.1|forzado|forzado
+H2S2|9|70|7|f=2|dim=2|ok
+H2FIN|9|70|idx=7|Nc=49|T_medidas=1|T_fallos=0
+
+=== hecha 9:70 ===
+--- casilla 9:72 ---  2026-09-16T12:49:24Z
+H2|9|72|2|4|2|1|3.2|na|libre
+H2S2|9|72|2|f=3|dim=3|ok
+H2FIN|9|72|idx=16|Nc=64|T_medidas=0|T_fallos=0
+
+=== hecha 9:72 ===
+--- casilla 9:74 ---  2026-09-16T12:49:26Z
+H2NADA|9|74|conductor trivial
+
+=== hecha 9:74 ===
+--- casilla 9:75 ---  2026-09-16T12:49:27Z
+H2NADA|9|75|conductor trivial
+
+=== hecha 9:75 ===
+--- casilla 9:76 ---  2026-09-16T12:49:28Z
+H2|9|76|2|8|1|1|9.1|libre|libre
+H2S2|9|76|2|f=9|dim=9|ok
+H2S1|9|76|2|f=9|k=3|dim=3|ok
+H2FIN|9|76|idx=256|Nc=512|T_medidas=1|T_fallos=0
+
+=== hecha 9:76 ===
+--- casilla 9:77 ---  2026-09-16T12:49:30Z
+H2NADA|9|77|conductor trivial
+
+=== hecha 9:77 ===
+--- casilla 9:78 ---  2026-09-16T12:49:31Z
+H2NADA|9|78|conductor trivial
+
+=== hecha 9:78 ===
+--- casilla 9:80 ---  2026-09-16T12:49:33Z
+H2|9|80|2|5|3|1|2.4|na|libre
+H2S2|9|80|2|f=2|dim=2|ok
+H2FIN|9|80|idx=32|Nc=256|T_medidas=0|T_fallos=0
+
+=== hecha 9:80 ===
+--- casilla 9:81 ---  2026-09-16T12:49:34Z
+H2|9|81|3|2|1|1|1.3|na|forzado
+H2FIN|9|81|idx=9|Nc=27|T_medidas=0|T_fallos=0
+
+=== hecha 9:81 ===
+--- casilla 9:82 ---  2026-09-16T12:49:37Z
+H2NADA|9|82|conductor trivial
+
+=== hecha 9:82 ===
+--- casilla 9:84 ---  2026-09-16T12:49:39Z
+H2NADA|9|84|conductor trivial
+
+=== hecha 9:84 ===
+--- casilla 9:86 ---  2026-09-16T12:49:41Z
+H2NADA|9|86|conductor trivial
+
+=== hecha 9:86 ===
+--- casilla 9:87 ---  2026-09-16T12:49:42Z
+H2NADA|9|87|conductor trivial
+
+=== hecha 9:87 ===
+--- casilla 9:88 ---  2026-09-16T12:49:43Z
+H2NADA|9|88|conductor trivial
+
+=== hecha 9:88 ===
+--- casilla 9:90 ---  2026-09-16T12:49:45Z
+H2|9|90|3|1|1|1|2.1|forzado|forzado
+H2S2|9|90|3|f=2|dim=2|ok
+H2|9|90|5|2|1|1|3.1|forzado|forzado
+H2S2|9|90|5|f=3|dim=3|ok
+H2FIN|9|90|idx=75|Nc=1125|T_medidas=2|T_fallos=0
+
+=== hecha 9:90 ===
+--- casilla 9:92 ---  2026-09-16T12:49:46Z
+H2NADA|9|92|conductor trivial
+
+=== hecha 9:92 ===
+--- casilla 9:93 ---  2026-09-16T12:49:48Z
+H2NADA|9|93|conductor trivial
+
+=== hecha 9:93 ===
+--- casilla 9:94 ---  2026-09-16T12:49:49Z
+H2NADA|9|94|conductor trivial
+
+=== hecha 9:94 ===
+--- casilla 9:96 ---  2026-09-16T12:49:51Z
+H2NADA|9|96|conductor trivial
+
+=== hecha 9:96 ===
+--- casilla 9:98 ---  2026-09-16T12:49:52Z
+H2NADA|9|98|conductor trivial
+
+=== hecha 9:98 ===
+--- casilla 9:99 ---  2026-09-16T12:49:53Z
+H2|9|99|11|2|1|1|3.1|forzado|forzado
+H2S2|9|99|11|f=3|dim=3|ok
+H2FIN|9|99|idx=121|Nc=1331|T_medidas=1|T_fallos=0
+
+=== hecha 9:99 ===
+--- casilla 9:100 ---  2026-09-16T12:49:57Z
+H2|9|100|5|3|1|1|1.4|na|forzado
+H2FIN|9|100|idx=125|Nc=625|T_medidas=0|T_fallos=0
+
+=== hecha 9:100 ===
+--- casilla 9:102 ---  2026-09-16T12:49:59Z
+H2NADA|9|102|conductor trivial
+
+=== hecha 9:102 ===
+--- casilla 9:104 ---  2026-09-16T12:50:01Z
+H2NADA|9|104|conductor trivial
+
+=== hecha 9:104 ===
+--- casilla 9:105 ---  2026-09-16T12:50:02Z
+H2NADA|9|105|conductor trivial
+
+=== hecha 9:105 ===
+--- casilla 9:106 ---  2026-09-16T12:50:03Z
+H2NADA|9|106|conductor trivial
+
+=== hecha 9:106 ===
+--- casilla 9:108 ---  2026-09-16T12:50:05Z
+H2NADA|9|108|conductor trivial
+
+=== hecha 9:108 ===
+--- casilla 9:110 ---  2026-09-16T12:50:06Z
+H2|9|110|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|9|110|idx=11|Nc=121|T_medidas=1|T_fallos=0
+
+=== hecha 9:110 ===
+--- casilla 9:112 ---  2026-09-16T12:50:08Z
+H2NADA|9|112|conductor trivial
+
+=== hecha 9:112 ===
+--- casilla 9:114 ---  2026-09-16T12:50:09Z
+H2NADA|9|114|conductor trivial
+
+=== hecha 9:114 ===
+--- casilla 9:116 ---  2026-09-16T12:50:11Z
+H2NADA|9|116|conductor trivial
+
+=== hecha 9:116 ===
+--- casilla 9:118 ---  2026-09-16T12:50:12Z
+H2NADA|9|118|conductor trivial
+
+=== hecha 9:118 ===
+--- casilla 9:120 ---  2026-09-16T12:50:14Z
+H2NADA|9|120|conductor trivial
+
+=== hecha 9:120 ===
+--- casilla 9:122 ---  2026-09-16T12:50:15Z
+H2NADA|9|122|conductor trivial
+
+=== hecha 9:122 ===
+--- casilla 9:124 ---  2026-09-16T12:50:16Z
+H2NADA|9|124|conductor trivial
+
+=== hecha 9:124 ===
+--- casilla 9:126 ---  2026-09-16T12:50:18Z
+H2|9|126|7|2|1|1|3.1|forzado|forzado
+H2S2|9|126|7|f=3|dim=3|ok
+H2FIN|9|126|idx=49|Nc=343|T_medidas=1|T_fallos=0
+
+=== hecha 9:126 ===
+--- casilla 9:130 ---  2026-09-16T12:50:19Z
+H2|9|130|13|1|1|1|2.1|forzado|forzado
+H2S2|9|130|13|f=2|dim=2|ok
+H2FIN|9|130|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 9:130 ===
+--- casilla 9:132 ---  2026-09-16T12:50:22Z
+H2NADA|9|132|conductor trivial
+
+=== hecha 9:132 ===
+--- casilla 10:21 ---  2026-09-16T12:50:23Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 6)
+
+=== fallo 10:21 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 10:22 ---  2026-09-16T12:50:24Z
+Traceback (most recent call last):
+  File "/work/h2_residuo.sage.py", line 124, in <module>
+    A = og_orden(L, simetricas(m, L))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 48, in og_orden
+ValueError: og_orden: los generadores no dan rango completo (1 de 5)
+
+=== fallo 10:22 rc=1 ===  (137=OOM, 124=timeout) -- NO es un nulo
+--- casilla 10:23 ---  2026-09-16T12:50:25Z
+H2NADA|10|23|conductor trivial
+
+=== hecha 10:23 ===
+--- casilla 10:24 ---  2026-09-16T12:50:27Z
+H2NADA|10|24|conductor trivial
+
+=== hecha 10:24 ===
+--- casilla 10:25 ---  2026-09-16T12:50:28Z
+H2|10|25|5|1|1|1|1.2|na|forzado
+H2FIN|10|25|idx=5|Nc=25|T_medidas=0|T_fallos=0
+
+=== hecha 10:25 ===
+--- casilla 10:26 ---  2026-09-16T12:50:29Z
+H2NADA|10|26|conductor trivial
+
+=== hecha 10:26 ===
+--- casilla 10:27 ---  2026-09-16T12:50:30Z
+H2NADA|10|27|conductor trivial
+
+=== hecha 10:27 ===
+--- casilla 10:28 ---  2026-09-16T12:50:32Z
+H2|10|28|2|3|3|1|3.2|na|libre
+H2S2|10|28|2|f=3|dim=3|ok
+H2FIN|10|28|idx=8|Nc=64|T_medidas=0|T_fallos=0
+
+=== hecha 10:28 ===
+--- casilla 10:29 ---  2026-09-16T12:50:33Z
+H2NADA|10|29|conductor trivial
+
+=== hecha 10:29 ===
+--- casilla 10:30 ---  2026-09-16T12:50:34Z
+H2|10|30|3|1|1|1|2.1|forzado|forzado
+H2S2|10|30|3|f=2|dim=2|ok
+H2FIN|10|30|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 10:30 ===
+--- casilla 10:31 ---  2026-09-16T12:50:35Z
+H2NADA|10|31|conductor trivial
+
+=== hecha 10:31 ===
+--- casilla 10:32 ---  2026-09-16T12:50:36Z
+H2NADA|10|32|conductor trivial
+
+=== hecha 10:32 ===
+--- casilla 10:33 ---  2026-09-16T12:50:38Z
+H2|10|33|3|4|1|1|5.1|forzado|forzado
+H2S2|10|33|3|f=5|dim=5|ok
+H2FIN|10|33|idx=81|Nc=243|T_medidas=1|T_fallos=0
+
+=== hecha 10:33 ===
+--- casilla 10:34 ---  2026-09-16T12:50:39Z
+H2NADA|10|34|conductor trivial
+
+=== hecha 10:34 ===
+--- casilla 10:35 ---  2026-09-16T12:50:40Z
+H2|10|35|5|3|3|1|3.2|na|libre
+H2S2|10|35|5|f=3|dim=3|ok
+H2|10|35|7|1|1|1|2.1|forzado|forzado
+H2S2|10|35|7|f=2|dim=2|ok
+H2FIN|10|35|idx=875|Nc=765625|T_medidas=1|T_fallos=0
+
+=== hecha 10:35 ===
+--- casilla 10:36 ---  2026-09-16T12:50:42Z
+H2NADA|10|36|conductor trivial
+
+=== hecha 10:36 ===
+--- casilla 10:37 ---  2026-09-16T12:50:43Z
+H2NADA|10|37|conductor trivial
+
+=== hecha 10:37 ===
+--- casilla 10:38 ---  2026-09-16T12:50:44Z
+H2NADA|10|38|conductor trivial
+
+=== hecha 10:38 ===
+--- casilla 10:39 ---  2026-09-16T12:50:46Z
+H2NADA|10|39|conductor trivial
+
+=== hecha 10:39 ===
+--- casilla 10:40 ---  2026-09-16T12:50:47Z
+H2|10|40|2|5|3|1|2.4|na|libre
+H2S2|10|40|2|f=2|dim=2|ok
+H2FIN|10|40|idx=32|Nc=256|T_medidas=0|T_fallos=0
+
+=== hecha 10:40 ===
+--- casilla 10:41 ---  2026-09-16T12:50:49Z
+H2NADA|10|41|conductor trivial
+
+=== hecha 10:41 ===
+--- casilla 10:42 ---  2026-09-16T12:50:50Z
+H2|10|42|2|6|6|1|6.2|na|libre
+H2S2|10|42|2|f=6|dim=6|ok
+H2S1|10|42|2|f=6|k=2|dim=2|ok
+H2FIN|10|42|idx=64|Nc=4096|T_medidas=0|T_fallos=0
+
+=== hecha 10:42 ===
+--- casilla 10:43 ---  2026-09-16T12:50:51Z
+H2NADA|10|43|conductor trivial
+
+=== hecha 10:43 ===
+--- casilla 10:44 ---  2026-09-16T12:50:53Z
+H2|10|44|2|8|2|1|5.2|na|libre
+H2S2|10|44|2|f=5|dim=5|ok
+H2FIN|10|44|idx=256|Nc=1024|T_medidas=0|T_fallos=0
+
+=== hecha 10:44 ===
+--- casilla 10:45 ---  2026-09-16T12:50:54Z
+H2|10|45|3|1|1|1|2.1|forzado|forzado
+H2S2|10|45|3|f=2|dim=2|ok
+H2FIN|10|45|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 10:45 ===
+--- casilla 10:46 ---  2026-09-16T12:50:56Z
+H2NADA|10|46|conductor trivial
+
+=== hecha 10:46 ===
+--- casilla 10:47 ---  2026-09-16T12:50:57Z
+H2NADA|10|47|conductor trivial
+
+=== hecha 10:47 ===
+--- casilla 10:48 ---  2026-09-16T12:50:58Z
+H2NADA|10|48|conductor trivial
+
+=== hecha 10:48 ===
+--- casilla 10:49 ---  2026-09-16T12:50:59Z
+H2|10|49|7|3|3|1|1.6|na|forzado
+H2FIN|10|49|idx=343|Nc=117649|T_medidas=0|T_fallos=0
+
+=== hecha 10:49 ===
+--- casilla 10:50 ---  2026-09-16T12:51:01Z
+H2|10|50|5|1|1|1|1.2|na|forzado
+H2FIN|10|50|idx=5|Nc=25|T_medidas=0|T_fallos=0
+
+=== hecha 10:50 ===
+--- casilla 10:51 ---  2026-09-16T12:51:03Z
+H2NADA|10|51|conductor trivial
+
+=== hecha 10:51 ===
+--- casilla 10:52 ---  2026-09-16T12:51:04Z
+H2NADA|10|52|conductor trivial
+
+=== hecha 10:52 ===
+--- casilla 10:53 ---  2026-09-16T12:51:06Z
+H2NADA|10|53|conductor trivial
+
+=== hecha 10:53 ===
+--- casilla 10:54 ---  2026-09-16T12:51:07Z
+H2NADA|10|54|conductor trivial
+
+=== hecha 10:54 ===
+--- casilla 10:55 ---  2026-09-16T12:51:08Z
+H2|10|55|5|4|1|1|5.1|forzado|forzado
+H2S2|10|55|5|f=5|dim=5|ok
+H2|10|55|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|10|55|idx=6875|Nc=378125|T_medidas=2|T_fallos=0
+
+=== hecha 10:55 ===
+--- casilla 10:56 ---  2026-09-16T12:51:10Z
+H2|10|56|2|3|3|1|3.2|na|libre
+H2S2|10|56|2|f=3|dim=3|ok
+H2FIN|10|56|idx=8|Nc=64|T_medidas=0|T_fallos=0
+
+=== hecha 10:56 ===
+--- casilla 10:57 ---  2026-09-16T12:51:12Z
+H2NADA|10|57|conductor trivial
+
+=== hecha 10:57 ===
+--- casilla 10:58 ---  2026-09-16T12:51:13Z
+H2NADA|10|58|conductor trivial
+
+=== hecha 10:58 ===
+--- casilla 10:59 ---  2026-09-16T12:51:15Z
+H2NADA|10|59|conductor trivial
+
+=== hecha 10:59 ===
+--- casilla 10:60 ---  2026-09-16T12:51:16Z
+H2|10|60|3|3|1|1|4.1|libre|libre
+H2S2|10|60|3|f=4|dim=4|ok
+H2S1|10|60|3|f=4|k=2|dim=2|ok
+H2FIN|10|60|idx=27|Nc=81|T_medidas=1|T_fallos=0
+
+=== hecha 10:60 ===
+--- casilla 10:61 ---  2026-09-16T12:51:17Z
+H2NADA|10|61|conductor trivial
+
+=== hecha 10:61 ===
+--- casilla 10:62 ---  2026-09-16T12:51:19Z
+H2NADA|10|62|conductor trivial
+
+=== hecha 10:62 ===
+--- casilla 10:63 ---  2026-09-16T12:51:20Z
+H2|10|63|3|9|9|1|3.6|na|libre
+H2S2|10|63|3|f=3|dim=3|ok
+H2FIN|10|63|idx=19683|Nc=387420489|T_medidas=0|T_fallos=0
+
+=== hecha 10:63 ===
+--- casilla 10:64 ---  2026-09-16T12:51:22Z
+H2NADA|10|64|conductor trivial
+
+=== hecha 10:64 ===
+--- casilla 10:65 ---  2026-09-16T12:51:23Z
+H2|10|65|13|1|1|1|2.1|forzado|forzado
+H2S2|10|65|13|f=2|dim=2|ok
+H2FIN|10|65|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 10:65 ===
+--- casilla 10:66 ---  2026-09-16T12:51:25Z
+H2|10|66|3|4|1|1|5.1|forzado|forzado
+H2S2|10|66|3|f=5|dim=5|ok
+H2FIN|10|66|idx=81|Nc=243|T_medidas=1|T_fallos=0
+
+=== hecha 10:66 ===
+--- casilla 10:68 ---  2026-09-16T12:51:27Z
+H2NADA|10|68|conductor trivial
+
+=== hecha 10:68 ===
+--- casilla 10:69 ---  2026-09-16T12:51:28Z
+H2NADA|10|69|conductor trivial
+
+=== hecha 10:69 ===
+--- casilla 10:70 ---  2026-09-16T12:51:29Z
+H2|10|70|7|1|1|1|2.1|forzado|forzado
+H2S2|10|70|7|f=2|dim=2|ok
+H2FIN|10|70|idx=7|Nc=49|T_medidas=1|T_fallos=0
+
+=== hecha 10:70 ===
+--- casilla 10:72 ---  2026-09-16T12:51:31Z
+H2NADA|10|72|conductor trivial
+
+=== hecha 10:72 ===
+--- casilla 10:74 ---  2026-09-16T12:51:32Z
+H2NADA|10|74|conductor trivial
+
+=== hecha 10:74 ===
+--- casilla 10:75 ---  2026-09-16T12:51:33Z
+H2NADA|10|75|conductor trivial
+
+=== hecha 10:75 ===
+--- casilla 10:76 ---  2026-09-16T12:51:35Z
+H2NADA|10|76|conductor trivial
+
+=== hecha 10:76 ===
+--- casilla 10:77 ---  2026-09-16T12:51:36Z
+H2|10|77|7|4|1|1|5.1|forzado|forzado
+H2S2|10|77|7|f=5|dim=5|ok
+H2|10|77|11|3|3|1|3.2|na|libre
+H2S2|10|77|11|f=3|dim=3|ok
+H2FIN|10|77|idx=3195731|Nc=29774625727|T_medidas=1|T_fallos=0
+
+=== hecha 10:77 ===
+--- casilla 10:78 ---  2026-09-16T12:51:40Z
+H2NADA|10|78|conductor trivial
+
+=== hecha 10:78 ===
+--- casilla 10:80 ---  2026-09-16T12:51:41Z
+H2|10|80|2|5|3|1|2.4|na|libre
+H2S2|10|80|2|f=2|dim=2|ok
+H2FIN|10|80|idx=32|Nc=256|T_medidas=0|T_fallos=0
+
+=== hecha 10:80 ===
+--- casilla 10:81 ---  2026-09-16T12:51:43Z
+H2NADA|10|81|conductor trivial
+
+=== hecha 10:81 ===
+--- casilla 10:82 ---  2026-09-16T12:51:44Z
+H2NADA|10|82|conductor trivial
+
+=== hecha 10:82 ===
+--- casilla 10:84 ---  2026-09-16T12:51:45Z
+H2|10|84|2|6|6|1|6.2|na|libre
+H2S2|10|84|2|f=6|dim=6|ok
+H2S1|10|84|2|f=6|k=2|dim=2|ok
+H2FIN|10|84|idx=64|Nc=4096|T_medidas=0|T_fallos=0
+
+=== hecha 10:84 ===
+--- casilla 10:86 ---  2026-09-16T12:51:46Z
+H2NADA|10|86|conductor trivial
+
+=== hecha 10:86 ===
+--- casilla 10:87 ---  2026-09-16T12:51:48Z
+H2NADA|10|87|conductor trivial
+
+=== hecha 10:87 ===
+--- casilla 10:88 ---  2026-09-16T12:51:49Z
+H2|10|88|2|8|2|1|5.2|na|libre
+H2S2|10|88|2|f=5|dim=5|ok
+H2FIN|10|88|idx=256|Nc=1024|T_medidas=0|T_fallos=0
+
+=== hecha 10:88 ===
+--- casilla 10:90 ---  2026-09-16T12:51:51Z
+H2|10|90|3|1|1|1|2.1|forzado|forzado
+H2S2|10|90|3|f=2|dim=2|ok
+H2FIN|10|90|idx=3|Nc=9|T_medidas=1|T_fallos=0
+
+=== hecha 10:90 ===
+--- casilla 10:92 ---  2026-09-16T12:51:52Z
+H2NADA|10|92|conductor trivial
+
+=== hecha 10:92 ===
+--- casilla 10:93 ---  2026-09-16T12:51:53Z
+H2NADA|10|93|conductor trivial
+
+=== hecha 10:93 ===
+--- casilla 10:94 ---  2026-09-16T12:51:55Z
+H2NADA|10|94|conductor trivial
+
+=== hecha 10:94 ===
+--- casilla 10:96 ---  2026-09-16T12:51:56Z
+H2NADA|10|96|conductor trivial
+
+=== hecha 10:96 ===
+--- casilla 10:98 ---  2026-09-16T12:51:57Z
+H2NADA|10|98|conductor trivial
+
+=== hecha 10:98 ===
+--- casilla 10:99 ---  2026-09-16T12:51:58Z
+H2|10|99|3|4|1|1|5.1|forzado|forzado
+H2S2|10|99|3|f=5|dim=5|ok
+H2FIN|10|99|idx=81|Nc=243|T_medidas=1|T_fallos=0
+
+=== hecha 10:99 ===
+--- casilla 10:100 ---  2026-09-16T12:52:02Z
+H2|10|100|5|3|1|1|1.4|na|forzado
+H2FIN|10|100|idx=125|Nc=625|T_medidas=0|T_fallos=0
+
+=== hecha 10:100 ===
+--- casilla 10:102 ---  2026-09-16T12:52:04Z
+H2NADA|10|102|conductor trivial
+
+=== hecha 10:102 ===
+--- casilla 10:104 ---  2026-09-16T12:52:06Z
+H2NADA|10|104|conductor trivial
+
+=== hecha 10:104 ===
+--- casilla 10:105 ---  2026-09-16T12:52:07Z
+H2|10|105|5|6|6|1|3.2+3.2|na|libre
+H2S2|10|105|5|f=3|dim=3|ok
+H2FIN|10|105|idx=15625|Nc=244140625|T_medidas=0|T_fallos=0
+
+=== hecha 10:105 ===
+--- casilla 10:106 ---  2026-09-16T12:52:10Z
+H2NADA|10|106|conductor trivial
+
+=== hecha 10:106 ===
+--- casilla 10:108 ---  2026-09-16T12:52:11Z
+H2NADA|10|108|conductor trivial
+
+=== hecha 10:108 ===
+--- casilla 10:110 ---  2026-09-16T12:52:13Z
+H2|10|110|5|4|1|1|5.1|forzado|forzado
+H2S2|10|110|5|f=5|dim=5|ok
+H2|10|110|11|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|10|110|idx=6875|Nc=378125|T_medidas=2|T_fallos=0
+
+=== hecha 10:110 ===
+--- casilla 10:112 ---  2026-09-16T12:52:15Z
+H2|10|112|2|3|3|1|3.2|na|libre
+H2S2|10|112|2|f=3|dim=3|ok
+H2FIN|10|112|idx=8|Nc=64|T_medidas=0|T_fallos=0
+
+=== hecha 10:112 ===
+--- casilla 10:114 ---  2026-09-16T12:52:17Z
+H2NADA|10|114|conductor trivial
+
+=== hecha 10:114 ===
+--- casilla 10:116 ---  2026-09-16T12:52:18Z
+H2NADA|10|116|conductor trivial
+
+=== hecha 10:116 ===
+--- casilla 10:118 ---  2026-09-16T12:52:20Z
+H2NADA|10|118|conductor trivial
+
+=== hecha 10:118 ===
+--- casilla 10:120 ---  2026-09-16T12:52:21Z
+H2NADA|10|120|conductor trivial
+
+=== hecha 10:120 ===
+--- casilla 10:122 ---  2026-09-16T12:52:22Z
+H2NADA|10|122|conductor trivial
+
+=== hecha 10:122 ===
+--- casilla 10:124 ---  2026-09-16T12:52:24Z
+H2NADA|10|124|conductor trivial
+
+=== hecha 10:124 ===
+--- casilla 10:126 ---  2026-09-16T12:52:25Z
+H2NADA|10|126|conductor trivial
+
+=== hecha 10:126 ===
+--- casilla 10:130 ---  2026-09-16T12:52:27Z
+H2|10|130|13|1|1|1|2.1|forzado|forzado
+H2S2|10|130|13|f=2|dim=2|ok
+H2FIN|10|130|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 10:130 ===
+--- casilla 10:132 ---  2026-09-16T12:52:29Z
+H2NADA|10|132|conductor trivial
+
+=== hecha 10:132 ===
+--- casilla 6:138 ---  2026-09-16T12:52:30Z
+H2NADA|6|138|conductor trivial
+
+=== hecha 6:138 ===
+--- casilla 6:140 ---  2026-09-16T12:52:32Z
+H2NADA|6|140|conductor trivial
+
+=== hecha 6:140 ===
+--- casilla 6:144 ---  2026-09-16T12:52:33Z
+H2NADA|6|144|conductor trivial
+
+=== hecha 6:144 ===
+--- casilla 6:150 ---  2026-09-16T12:52:35Z
+H2NADA|6|150|conductor trivial
+
+=== hecha 6:150 ===
+--- casilla 6:154 ---  2026-09-16T12:52:36Z
+H2|6|154|11|2|1|1|3.1|forzado|forzado
+H2S2|6|154|11|f=3|dim=3|ok
+H2FIN|6|154|idx=121|Nc=1331|T_medidas=1|T_fallos=0
+
+=== hecha 6:154 ===
+--- casilla 6:156 ---  2026-09-16T12:52:39Z
+H2|6|156|13|1|1|1|1.1+1.1|forzado|forzado
+H2FIN|6|156|idx=13|Nc=169|T_medidas=1|T_fallos=0
+
+=== hecha 6:156 ===
+--- casilla 7:138 ---  2026-09-16T12:52:41Z
+H2NADA|7|138|conductor trivial
+
+=== hecha 7:138 ===
+--- casilla 7:140 ---  2026-09-16T12:52:42Z
+H2NADA|7|140|conductor trivial
+
+=== hecha 7:140 ===
+--- casilla 7:144 ---  2026-09-16T12:52:44Z
+H2|7|144|3|3|1|1|4.1|libre|libre
+H2S2|7|144|3|f=4|dim=4|ok
+H2S1|7|144|3|f=4|k=2|dim=2|ok
+H2FIN|7|144|idx=27|Nc=81|T_medidas=1|T_fallos=0
+
+=== hecha 7:144 ===
+--- casilla 7:150 ---  2026-09-16T12:52:46Z
+H2NADA|7|150|conductor trivial
+
+=== hecha 7:150 ===
+--- casilla 7:154 ---  2026-09-16T12:52:47Z
+H2|7|154|11|2|1|1|3.1|forzado|forzado
+H2S2|7|154|11|f=3|dim=3|ok
+H2FIN|7|154|idx=121|Nc=1331|T_medidas=1|T_fallos=0
+
+=== hecha 7:154 ===
+--- casilla 7:156 ---  2026-09-16T12:52:50Z
+H2NADA|7|156|conductor trivial
+
+=== hecha 7:156 ===
+--- casilla 8:138 ---  2026-09-16T12:52:51Z
+H2NADA|8|138|conductor trivial
+
+=== hecha 8:138 ===
+--- casilla 8:140 ---  2026-09-16T12:52:52Z
+H2NADA|8|140|conductor trivial
+
+=== hecha 8:140 ===
+--- casilla 8:144 ---  2026-09-16T12:52:54Z
+H2|8|144|2|4|2|1|3.2|na|libre
+H2S2|8|144|2|f=3|dim=3|ok
+H2|8|144|3|3|1|1|4.1|libre|libre
+H2S2|8|144|3|f=4|dim=4|ok
+H2S1|8|144|3|f=4|k=2|dim=2|ok
+H2FIN|8|144|idx=432|Nc=5184|T_medidas=1|T_fallos=0
+
+=== hecha 8:144 ===
+--- casilla 8:150 ---  2026-09-16T12:52:56Z
+H2NADA|8|150|conductor trivial
+
+=== hecha 8:150 ===
+--- casilla 8:154 ---  2026-09-16T12:52:57Z
+H2NADA|8|154|conductor trivial
+
+=== hecha 8:154 ===
+--- casilla 8:156 ---  2026-09-16T12:52:58Z
+H2NADA|8|156|conductor trivial
+
+=== hecha 8:156 ===
+== fin de sesion: 2026-09-16T12:53:00Z  lista 356  saltadas 0  hechas 348  fallidas 8 ==
+casillas vistas 356   hechas 348   fallidas 8   cortadas 0   codigos {1: 8}
+   4:9      fallo rc=1
+   4:10     fallo rc=1
+   5:11     fallo rc=1
+   5:12     fallo rc=1
+   9:19     fallo rc=1
+   9:20     fallo rc=1
+   10:21    fallo rc=1
+   10:22    fallo rc=1

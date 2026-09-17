@@ -1,0 +1,416 @@
+archived rows parsed: 362
+[item5 archived all e] rows=362  HS12.2.3 violations=0  equality(almost Gorenstein, incl. Gorenstein)=322  of which Gorenstein(type 1)=188  strict=40
+[item5 archived e=2] rows=62  HS12.2.3 violations=0  equality(almost Gorenstein, incl. Gorenstein)=32  of which Gorenstein(type 1)=32  strict=30
+[item5] e=2 almost-Gorenstein non-Gorenstein cases:
+[item5] e=2 strict (not almost Gorenstein):
+   m=6 q=28 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=7 q=28 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=8 q=36 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=9 q=36 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=10 q=44 p=2 d=5 W=[1, 1, 5] lOA=8 lAf=2 type=4
+   m=11 q=44 p=2 d=5 W=[1, 1, 5] lOA=8 lAf=2 type=4
+   m=12 q=52 p=2 d=6 W=[1, 1, 6] lOA=10 lAf=2 type=5
+   m=13 q=52 p=2 d=6 W=[1, 1, 6] lOA=10 lAf=2 type=5
+   m=6 q=56 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=7 q=56 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=20 q=56 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=21 q=56 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=14 q=60 p=2 d=4 W=[1, 1, 4] lOA=6 lAf=2 type=3
+   m=15 q=60 p=2 d=4 W=[1, 1, 4] lOA=6 lAf=2 type=3
+   m=16 q=68 p=2 d=8 W=[1, 1, 8] lOA=14 lAf=2 type=7
+   m=17 q=68 p=2 d=8 W=[1, 1, 8] lOA=14 lAf=2 type=7
+   m=8 q=72 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=9 q=72 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=26 q=72 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=27 q=72 p=2 d=3 W=[1, 1, 3] lOA=4 lAf=2 type=2
+   m=18 q=76 p=2 d=9 W=[1, 1, 9] lOA=16 lAf=2 type=8
+   m=19 q=76 p=2 d=9 W=[1, 1, 9] lOA=16 lAf=2 type=8
+   m=20 q=84 p=2 d=6 W=[1, 1, 6] lOA=10 lAf=2 type=5
+   m=21 q=84 p=2 d=6 W=[1, 1, 6] lOA=10 lAf=2 type=5
+   m=10 q=88 p=2 d=5 W=[1, 1, 5] lOA=8 lAf=2 type=4
+   m=11 q=88 p=2 d=5 W=[1, 1, 5] lOA=8 lAf=2 type=4
+   m=32 q=88 p=2 d=5 W=[1, 1, 5] lOA=8 lAf=2 type=4
+   m=33 q=88 p=2 d=5 W=[1, 1, 5] lOA=8 lAf=2 type=4
+   m=24 q=100 p=2 d=10 W=[1, 1, 10] lOA=18 lAf=2 type=9
+   m=25 q=100 p=2 d=10 W=[1, 1, 10] lOA=18 lAf=2 type=9
+A_4(20) D=4 closure_iters=2 index=2^2  [0.0s]
+  p=2 E=2 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.1s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_5(20) D=4 closure_iters=2 index=2^2  [0.0s]
+  p=2 E=2 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_3(21) D=6 closure_iters=3 index=3^3  [0.0s]
+  p=3 E=2 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.1s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_3(28) D=6 closure_iters=3 index=2^3  [0.0s]
+  p=2 E=2 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_6(28) D=6 closure_iters=2 index=2^4  [0.0s]
+  p=2 E=2 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_7(28) D=6 closure_iters=2 index=2^4  [0.0s]
+  p=2 E=2 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_10(28) D=6 closure_iters=2 index=2^3  [0.0s]
+  p=2 E=2 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_3(35) D=12 closure_iters=4 index=5^3  [0.0s]
+  p=5 E=4 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_10(35) D=12 closure_iters=3 index=5^3 * 7  [0.0s]
+  p=5 E=4 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_8(36) D=6 closure_iters=2 index=2^4  [0.0s]
+  p=2 E=2 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_9(36) D=6 closure_iters=2 index=2^4  [0.0s]
+  p=2 E=2 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_4(40) D=8 closure_iters=3 index=2^2 * 5  [0.0s]
+  p=2 E=4 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_5(40) D=8 closure_iters=3 index=2^2  [0.0s]
+  p=2 E=4 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_14(40) D=8 closure_iters=2 index=2^2  [0.0s]
+  p=2 E=4 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_15(40) D=8 closure_iters=3 index=2^2 * 5  [0.0s]
+  p=2 E=4 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_10(44) D=10 closure_iters=2 index=2^8  [0.0s]
+  p=2 E=2 d=5 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 5]  l(O/A)=8  l(A/f)=2  sum(d-W_i,i<e)=8 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=4  pred(d-W1+kappa-1)=4  [0.0s]
+  type(colon lattice)=4  HS12.2.3: l(O/A)-l(A/f)=6 >= type-1=3 : True  [0.0s]
+A_11(44) D=10 closure_iters=2 index=2^8  [0.0s]
+  p=2 E=2 d=5 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 5]  l(O/A)=8  l(A/f)=2  sum(d-W_i,i<e)=8 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=4  pred(d-W1+kappa-1)=4  [0.0s]
+  type(colon lattice)=4  HS12.2.3: l(O/A)-l(A/f)=6 >= type-1=3 : True  [0.0s]
+A_12(52) D=12 closure_iters=2 index=2^10  [0.0s]
+  p=2 E=2 d=6 v_p[O:A]=10  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 6]  l(O/A)=10  l(A/f)=2  sum(d-W_i,i<e)=10 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=5  pred(d-W1+kappa-1)=5  [0.0s]
+  type(colon lattice)=5  HS12.2.3: l(O/A)-l(A/f)=8 >= type-1=4 : True  [0.0s]
+A_13(52) D=12 closure_iters=2 index=2^10  [0.0s]
+  p=2 E=2 d=6 v_p[O:A]=10  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 6]  l(O/A)=10  l(A/f)=2  sum(d-W_i,i<e)=10 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=5  pred(d-W1+kappa-1)=5  [0.0s]
+  type(colon lattice)=5  HS12.2.3: l(O/A)-l(A/f)=8 >= type-1=4 : True  [0.0s]
+A_3(56) D=12 closure_iters=4 index=2^3 * 7  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_6(56) D=12 closure_iters=3 index=2^4  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_7(56) D=12 closure_iters=3 index=2^4 * 7  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_10(56) D=12 closure_iters=3 index=2^3  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_17(56) D=12 closure_iters=3 index=2^3  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_20(56) D=12 closure_iters=2 index=2^4 * 7  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_21(56) D=12 closure_iters=2 index=2^4  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_24(56) D=12 closure_iters=3 index=2^3 * 7  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_7(60) D=8 closure_iters=3 index=2^4  [0.0s]
+  p=2 E=2 d=4 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 3, 4]  l(O/A)=4  l(A/f)=4  sum(d-W_i,i<e)=4 sum(W_i,i<e)=4  [0.0s]
+  capas: W=[1, 3] W1=3 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_14(60) D=8 closure_iters=2 index=2^6  [0.0s]
+  p=2 E=2 d=4 v_p[O:A]=6  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 4]  l(O/A)=6  l(A/f)=2  sum(d-W_i,i<e)=6 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=3  pred(d-W1+kappa-1)=3  [0.0s]
+  type(colon lattice)=3  HS12.2.3: l(O/A)-l(A/f)=4 >= type-1=2 : True  [0.0s]
+A_15(60) D=8 closure_iters=2 index=2^6  [0.0s]
+  p=2 E=2 d=4 v_p[O:A]=6  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 4]  l(O/A)=6  l(A/f)=2  sum(d-W_i,i<e)=6 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=3  pred(d-W1+kappa-1)=3  [0.0s]
+  type(colon lattice)=3  HS12.2.3: l(O/A)-l(A/f)=4 >= type-1=2 : True  [0.0s]
+A_22(60) D=8 closure_iters=3 index=2^4  [0.0s]
+  p=2 E=2 d=4 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 3, 4]  l(O/A)=4  l(A/f)=4  sum(d-W_i,i<e)=4 sum(W_i,i<e)=4  [0.0s]
+  capas: W=[1, 3] W1=3 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_3(63) D=18 closure_iters=5 index=3^3  [0.0s]
+  p=3 E=6 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_17(63) D=18 closure_iters=3 index=3^3 * 7^2  [0.0s]
+  p=3 E=6 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_24(63) D=18 closure_iters=3 index=3^3  [0.0s]
+  p=3 E=6 d=3 v_p[O:A]=3  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 2, 3]  l(O/A)=3  l(A/f)=3  sum(d-W_i,i<e)=3 sum(W_i,i<e)=3  [0.0s]
+  capas: W=[1, 2] W1=2 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_8(68) D=16 closure_iters=3 index=2^8  [0.0s]
+  p=2 E=2 d=8 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 7, 8]  l(O/A)=8  l(A/f)=8  sum(d-W_i,i<e)=8 sum(W_i,i<e)=8  [0.0s]
+  capas: W=[1, 7] W1=7 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_16(68) D=16 closure_iters=3 index=2^14  [0.0s]
+  p=2 E=2 d=8 v_p[O:A]=14  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 8]  l(O/A)=14  l(A/f)=2  sum(d-W_i,i<e)=14 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=7  pred(d-W1+kappa-1)=7  [0.0s]
+  type(colon lattice)=7  HS12.2.3: l(O/A)-l(A/f)=12 >= type-1=6 : True  [0.0s]
+A_17(68) D=16 closure_iters=3 index=2^14  [0.0s]
+  p=2 E=2 d=8 v_p[O:A]=14  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 8]  l(O/A)=14  l(A/f)=2  sum(d-W_i,i<e)=14 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=7  pred(d-W1+kappa-1)=7  [0.0s]
+  type(colon lattice)=7  HS12.2.3: l(O/A)-l(A/f)=12 >= type-1=6 : True  [0.0s]
+A_25(68) D=16 closure_iters=3 index=2^8  [0.0s]
+  p=2 E=2 d=8 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 7, 8]  l(O/A)=8  l(A/f)=8  sum(d-W_i,i<e)=8 sum(W_i,i<e)=8  [0.0s]
+  capas: W=[1, 7] W1=7 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_8(72) D=12 closure_iters=3 index=2^4 * 3  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_9(72) D=12 closure_iters=3 index=2^4  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_26(72) D=12 closure_iters=3 index=2^4  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_27(72) D=12 closure_iters=2 index=2^4 * 3  [0.0s]
+  p=2 E=4 d=3 v_p[O:A]=4  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 3]  l(O/A)=4  l(A/f)=2  sum(d-W_i,i<e)=4 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=2  pred(d-W1+kappa-1)=2  [0.0s]
+  type(colon lattice)=2  HS12.2.3: l(O/A)-l(A/f)=2 >= type-1=1 : True  [0.0s]
+A_18(76) D=18 closure_iters=3 index=2^16  [0.0s]
+  p=2 E=2 d=9 v_p[O:A]=16  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 9]  l(O/A)=16  l(A/f)=2  sum(d-W_i,i<e)=16 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=8  pred(d-W1+kappa-1)=8  [0.0s]
+  type(colon lattice)=8  HS12.2.3: l(O/A)-l(A/f)=14 >= type-1=7 : True  [0.1s]
+A_19(76) D=18 closure_iters=3 index=2^16  [0.0s]
+  p=2 E=2 d=9 v_p[O:A]=16  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 9]  l(O/A)=16  l(A/f)=2  sum(d-W_i,i<e)=16 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=8  pred(d-W1+kappa-1)=8  [0.0s]
+  type(colon lattice)=8  HS12.2.3: l(O/A)-l(A/f)=14 >= type-1=7 : True  [0.1s]
+A_4(80) D=16 closure_iters=4 index=2^2  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_5(80) D=16 closure_iters=3 index=2^2  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_14(80) D=16 closure_iters=3 index=2^2  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_15(80) D=16 closure_iters=3 index=2^2 * 5^3  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_24(80) D=16 closure_iters=3 index=2^2 * 5^3  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_25(80) D=16 closure_iters=4 index=2^2  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_34(80) D=16 closure_iters=3 index=2^2  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_35(80) D=16 closure_iters=3 index=2^2  [0.0s]
+  p=2 E=8 d=2 v_p[O:A]=2  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 2]  l(O/A)=2  l(A/f)=2  sum(d-W_i,i<e)=2 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.1s]
+A_10(84) D=12 closure_iters=3 index=2^6  [0.0s]
+  p=2 E=2 d=6 v_p[O:A]=6  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 5, 6]  l(O/A)=6  l(A/f)=6  sum(d-W_i,i<e)=6 sum(W_i,i<e)=6  [0.0s]
+  capas: W=[1, 5] W1=5 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_20(84) D=12 closure_iters=2 index=2^10  [0.0s]
+  p=2 E=2 d=6 v_p[O:A]=10  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 6]  l(O/A)=10  l(A/f)=2  sum(d-W_i,i<e)=10 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=5  pred(d-W1+kappa-1)=5  [0.0s]
+  type(colon lattice)=5  HS12.2.3: l(O/A)-l(A/f)=8 >= type-1=4 : True  [0.0s]
+A_21(84) D=12 closure_iters=2 index=2^10  [0.0s]
+  p=2 E=2 d=6 v_p[O:A]=10  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 6]  l(O/A)=10  l(A/f)=2  sum(d-W_i,i<e)=10 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=5  pred(d-W1+kappa-1)=5  [0.0s]
+  type(colon lattice)=5  HS12.2.3: l(O/A)-l(A/f)=8 >= type-1=4 : True  [0.0s]
+A_31(84) D=12 closure_iters=3 index=2^6  [0.0s]
+  p=2 E=2 d=6 v_p[O:A]=6  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 5, 6]  l(O/A)=6  l(A/f)=6  sum(d-W_i,i<e)=6 sum(W_i,i<e)=6  [0.0s]
+  capas: W=[1, 5] W1=5 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.0s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.0s]
+A_10(88) D=20 closure_iters=3 index=2^8  [0.0s]
+  p=2 E=4 d=5 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 5]  l(O/A)=8  l(A/f)=2  sum(d-W_i,i<e)=8 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=4  pred(d-W1+kappa-1)=4  [0.0s]
+  type(colon lattice)=4  HS12.2.3: l(O/A)-l(A/f)=6 >= type-1=3 : True  [0.1s]
+A_11(88) D=20 closure_iters=3 index=2^8 * 11  [0.0s]
+  p=2 E=4 d=5 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 5]  l(O/A)=8  l(A/f)=2  sum(d-W_i,i<e)=8 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=4  pred(d-W1+kappa-1)=4  [0.0s]
+  type(colon lattice)=4  HS12.2.3: l(O/A)-l(A/f)=6 >= type-1=3 : True  [0.1s]
+A_32(88) D=20 closure_iters=2 index=2^8 * 11  [0.0s]
+  p=2 E=4 d=5 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 5]  l(O/A)=8  l(A/f)=2  sum(d-W_i,i<e)=8 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=4  pred(d-W1+kappa-1)=4  [0.0s]
+  type(colon lattice)=4  HS12.2.3: l(O/A)-l(A/f)=6 >= type-1=3 : True  [0.1s]
+A_33(88) D=20 closure_iters=2 index=2^8  [0.0s]
+  p=2 E=4 d=5 v_p[O:A]=8  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 5]  l(O/A)=8  l(A/f)=2  sum(d-W_i,i<e)=8 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=4  pred(d-W1+kappa-1)=4  [0.0s]
+  type(colon lattice)=4  HS12.2.3: l(O/A)-l(A/f)=6 >= type-1=3 : True  [0.1s]
+A_24(100) D=20 closure_iters=2 index=2^18  [0.0s]
+  p=2 E=2 d=10 v_p[O:A]=18  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 10]  l(O/A)=18  l(A/f)=2  sum(d-W_i,i<e)=18 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=9  pred(d-W1+kappa-1)=9  [0.0s]
+  type(colon lattice)=9  HS12.2.3: l(O/A)-l(A/f)=16 >= type-1=8 : True  [0.1s]
+A_25(100) D=20 closure_iters=2 index=2^18  [0.0s]
+  p=2 E=2 d=10 v_p[O:A]=18  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 1, 10]  l(O/A)=18  l(A/f)=2  sum(d-W_i,i<e)=18 sum(W_i,i<e)=2  [0.0s]
+  capas: W=[1, 1] W1=1 kappa=1 type_Fp=9  pred(d-W1+kappa-1)=9  [0.0s]
+  type(colon lattice)=9  HS12.2.3: l(O/A)-l(A/f)=16 >= type-1=8 : True  [0.1s]
+A_22(69) D=22 closure_iters=3 index=3^11  [0.0s]
+  p=3 E=2 d=11 v_p[O:A]=11  e(lattice sum test)=2  [0.0s]
+  W(lattice)=[1, 10, 11]  l(O/A)=11  l(A/f)=11  sum(d-W_i,i<e)=11 sum(W_i,i<e)=11  [0.0s]
+  capas: W=[1, 10] W1=10 kappa=1 type_Fp=1  pred(d-W1+kappa-1)=1  [0.1s]
+  type(colon lattice)=1  HS12.2.3: l(O/A)-l(A/f)=0 >= type-1=0 : True  [0.3s]
+
+ITEM4 TABLE  m q p | d W1 kappa | type_colon type_Fp type_archived | pred=d-W1+kappa-1 | ok
+    4   20  2 |  2  1  1 |  1  1 1 |  1 | OK
+    5   20  2 |  2  1  1 |  1  1 1 |  1 | OK
+    3   21  3 |  3  2  1 |  1  1 1 |  1 | OK
+    3   28  2 |  3  2  1 |  1  1 1 |  1 | OK
+    6   28  2 |  3  1  1 |  2  2 2 |  2 | OK
+    7   28  2 |  3  1  1 |  2  2 2 |  2 | OK
+   10   28  2 |  3  2  1 |  1  1 1 |  1 | OK
+    3   35  5 |  3  2  1 |  1  1 1 |  1 | OK
+   10   35  5 |  3  2  1 |  1  1 1 |  1 | OK
+    8   36  2 |  3  1  1 |  2  2 2 |  2 | OK
+    9   36  2 |  3  1  1 |  2  2 2 |  2 | OK
+    4   40  2 |  2  1  1 |  1  1 1 |  1 | OK
+    5   40  2 |  2  1  1 |  1  1 1 |  1 | OK
+   14   40  2 |  2  1  1 |  1  1 1 |  1 | OK
+   15   40  2 |  2  1  1 |  1  1 1 |  1 | OK
+   10   44  2 |  5  1  1 |  4  4 4 |  4 | OK
+   11   44  2 |  5  1  1 |  4  4 4 |  4 | OK
+   12   52  2 |  6  1  1 |  5  5 5 |  5 | OK
+   13   52  2 |  6  1  1 |  5  5 5 |  5 | OK
+    3   56  2 |  3  2  1 |  1  1 1 |  1 | OK
+    6   56  2 |  3  1  1 |  2  2 2 |  2 | OK
+    7   56  2 |  3  1  1 |  2  2 2 |  2 | OK
+   10   56  2 |  3  2  1 |  1  1 1 |  1 | OK
+   17   56  2 |  3  2  1 |  1  1 1 |  1 | OK
+   20   56  2 |  3  1  1 |  2  2 2 |  2 | OK
+   21   56  2 |  3  1  1 |  2  2 2 |  2 | OK
+   24   56  2 |  3  2  1 |  1  1 1 |  1 | OK
+    7   60  2 |  4  3  1 |  1  1 1 |  1 | OK
+   14   60  2 |  4  1  1 |  3  3 3 |  3 | OK
+   15   60  2 |  4  1  1 |  3  3 3 |  3 | OK
+   22   60  2 |  4  3  1 |  1  1 1 |  1 | OK
+    3   63  3 |  3  2  1 |  1  1 1 |  1 | OK
+   17   63  3 |  3  2  1 |  1  1 1 |  1 | OK
+   24   63  3 |  3  2  1 |  1  1 1 |  1 | OK
+    8   68  2 |  8  7  1 |  1  1 1 |  1 | OK
+   16   68  2 |  8  1  1 |  7  7 7 |  7 | OK
+   17   68  2 |  8  1  1 |  7  7 7 |  7 | OK
+   25   68  2 |  8  7  1 |  1  1 1 |  1 | OK
+    8   72  2 |  3  1  1 |  2  2 2 |  2 | OK
+    9   72  2 |  3  1  1 |  2  2 2 |  2 | OK
+   26   72  2 |  3  1  1 |  2  2 2 |  2 | OK
+   27   72  2 |  3  1  1 |  2  2 2 |  2 | OK
+   18   76  2 |  9  1  1 |  8  8 8 |  8 | OK
+   19   76  2 |  9  1  1 |  8  8 8 |  8 | OK
+    4   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+    5   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+   14   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+   15   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+   24   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+   25   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+   34   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+   35   80  2 |  2  1  1 |  1  1 1 |  1 | OK
+   10   84  2 |  6  5  1 |  1  1 1 |  1 | OK
+   20   84  2 |  6  1  1 |  5  5 5 |  5 | OK
+   21   84  2 |  6  1  1 |  5  5 5 |  5 | OK
+   31   84  2 |  6  5  1 |  1  1 1 |  1 | OK
+   10   88  2 |  5  1  1 |  4  4 4 |  4 | OK
+   11   88  2 |  5  1  1 |  4  4 4 |  4 | OK
+   32   88  2 |  5  1  1 |  4  4 4 |  4 | OK
+   33   88  2 |  5  1  1 |  4  4 4 |  4 | OK
+   24  100  2 | 10  1  1 |  9  9 9 |  9 | OK
+   25  100  2 | 10  1  1 |  9  9 9 |  9 | OK
+   22   69  3 | 11 10  1 |  1  1 None |  1 | OK
+ITEM4 TOTAL e=2 cases=63 fails=0

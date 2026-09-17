@@ -1,0 +1,18 @@
+deg K = 22  minpoly disc factor: 3^11 * 23^21
+[O_K : Z[a]] = 1
+[O:A] (closure) = 177147 = 3^11
+[O_K:A] (og_orden, index_in maximal order) = 177147
+[O:f] = 31381059609 = 3^22
+f == 3O : True
+3O subset A : True
+minpoly mod 3 = [(11, 2)]
+[O:r] = 3^11
+r^2 == 3O : True
+smallest e with r^e subset A: 2 ; f == r^e : True
+layers W_0..W_3 = [1, 10, 11, 11]
+[A:m] = 3
+A subset (A:_O m): True
+[(A:_O m):A] = 3 ; log_3 = 1 ; |A/m| = 3^1
+[omega : m omega] = 3 ; log_3 = 1
+Gorenstein (colon) : True  Gorenstein (mu(omega)=1): True
+time 1.1s

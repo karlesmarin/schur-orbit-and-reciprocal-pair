@@ -1,0 +1,4 @@
+p=3 a=1 n=5 M=1 | no centrado: W=[1, 0, 1, 3] piP in B_shift: True | V0 con pesos r (mal): in B: False
+p=3 a=2 n=5 M=1 | no centrado: W=[1, 0, 0, 0, 0, 0, 1, 0, 1, 3] piP in B_shift: True | V0 con pesos r (mal): in B: False
+p=3 a=1 n=7 M=1 | no centrado: W=[1, 0, 1, 4] piP in B_shift: True | V0 con pesos r (mal): in B: False
+p=5 a=1 n=7 M=1 | no centrado: W=[1, 0, 0, 0, 1, 4] piP in B_shift: True | V0 con pesos r (mal): in B: False

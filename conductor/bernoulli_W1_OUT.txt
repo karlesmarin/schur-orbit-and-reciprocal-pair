@@ -1,0 +1,44 @@
+comprobacion de la tabla de h^- de memoria contra el calculo numerico:
+   n= 3  memoria          1  numerico          1  ok
+   n= 5  memoria          1  numerico          1  ok
+   n= 7  memoria          1  numerico          1  ok
+   n=11  memoria          1  numerico          1  ok
+   n=13  memoria          1  numerico          1  ok
+   n=17  memoria          1  numerico          1  ok
+   n=19  memoria          1  numerico          1  ok
+   n=23  memoria          3  numerico          3  ok
+   n=29  memoria          8  numerico          8  ok
+   n=31  memoria          9  numerico          9  ok
+   n=37  memoria         37  numerico         37  ok
+   n=41  memoria        121  numerico        121  ok
+   n=43  memoria        211  numerico        211  ok
+   n=47  memoria        695  numerico        695  ok
+   n=53  memoria       4889  numerico       4889  ok
+   n=59  memoria      41241  numerico      41241  ok
+   n=61  memoria      76301  numerico      76301  ok
+   n=67  memoria     853513  numerico     853513  ok
+   n=71  memoria    3882809  numerico    3882809  ok
+   n=73  memoria   11957417  numerico   11957417  ok
+   n=79  memoria  100146415  numerico  100146415  ok
+   n=83  memoria  838216959  numerico  838216959  ok
+   tabla: 0 discrepancias
+
+W_1 no total  <=>  p | h^-   (n primo, p primo impar != n, p <= 13 y los primos de h^-)
+   n=23 p=   3  h^-=         3  W_1=10 de 11  semisimple
+   n=31 p=   3  h^-=         9  W_1=14 de 15  p | |G|
+   n=41 p=  11  h^-=       121  W_1=18 de 20  semisimple
+   n=43 p= 211  h^-=       211  W_1=20 de 21  semisimple
+   n=47 p=   5  h^-=       695  W_1=22 de 23  semisimple
+   n=47 p= 139  h^-=       695  W_1=22 de 23  semisimple
+   n=53 p=4889  h^-=      4889  W_1=25 de 26  semisimple
+   n=59 p=   3  h^-=     41241  W_1=28 de 29  semisimple
+   n=59 p= 233  h^-=     41241  W_1=28 de 29  semisimple
+   n=61 p=  41  h^-=     76301  W_1=29 de 30  semisimple
+   n=61 p=1861  h^-=     76301  W_1=29 de 30  semisimple
+   n=71 p=   7  h^-=   3882809  W_1=34 de 35  p | |G|
+   n=73 p=  89  h^-=  11957417  W_1=35 de 36  semisimple
+   n=79 p=   5  h^-= 100146415  W_1=38 de 39  semisimple
+   n=79 p=  53  h^-= 100146415  W_1=38 de 39  semisimple
+   n=83 p=   3  h^-= 838216959  W_1=40 de 41  semisimple
+tabla (W_1 no total, p | h^-, estrato): {(False, False, 'semisimple'): 77, (False, False, 'p | |G|'): 20, (True, True, 'semisimple'): 14, (True, True, 'p | |G|'): 2}
+contraejemplos: []

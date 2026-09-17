@@ -1,0 +1,28 @@
+=== (A) does dim V > d/2 decide?  cyclic stable subspaces, random generators ===
+q'  p  d  | dim V  dim(V*V)  | V*V=R-bar  2dimV>d
+7   3  3  | 1      1         | False      False
+7   3  3  | 1      1         | False      False
+7   3  3  | 1      1         | False      False
+9   7  3  | 1      1         | False      False
+9   7  3  | 1      1         | False      False
+15  7  4  | 2      2         | False      False
+17  3  8  | 4      8         | True       False
+17  3  8  | 4      8         | True       False
+17  7  8  | 4      4         | False      False
+ensayos=359 ; con 2dimV>d y V*V != R-bar: 0 (debe ser 0)
+con 2dimV<=d: 2 llenan y 7 no  --> la hipotesis dim V > d/2 NO es superflua
+
+=== (B) the obstruction: subgroups, and the constants ===
+q'=7   p=3  d=3  | constantes: dim V=1, dim(V*V)=1  -> V*V = V, no llena
+q'=7   p=5  d=3  | constantes: dim V=1, dim(V*V)=1  -> V*V = V, no llena
+q'=11  p=3  d=5  | constantes: dim V=1, dim(V*V)=1  -> V*V = V, no llena
+q'=11  p=5  d=5  | constantes: dim V=1, dim(V*V)=1  -> V*V = V, no llena
+q'=13  p=3  d=6  | constantes: dim V=1, dim(V*V)=1  -> V*V = V, no llena
+q'=13  p=5  d=6  | constantes: dim V=1, dim(V*V)=1  -> V*V = V, no llena
+
+=== (C) the ladder layer is a stable line: the obstruction, inside the family ===
+q'=5   p=3  m=7    | d=2  dim gr_{p-1}=1  dim(gr*gr)=1  NO llena ; constantes: False (es una recta de caracter)
+q'=7   p=3  m=10   | d=3  dim gr_{p-1}=1  dim(gr*gr)=1  NO llena ; constantes: False (es una recta de caracter)
+q'=11  p=3  m=16   | d=5  dim gr_{p-1}=1  dim(gr*gr)=1  NO llena ; constantes: False (es una recta de caracter)
+q'=7   p=5  m=17   | d=3  dim gr_{p-1}=1  dim(gr*gr)=1  NO llena ; constantes: False (es una recta de caracter)
+q'=11  p=5  m=27   | d=5  dim gr_{p-1}=1  dim(gr*gr)=1  NO llena ; constantes: False (es una recta de caracter)

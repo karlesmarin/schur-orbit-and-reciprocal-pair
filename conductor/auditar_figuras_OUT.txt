@@ -1,0 +1,9 @@
+fig_clase: defecto > 0  <=>  p | h^-  (105 celdas)         OK []
+fig_stickel: no primos 8<=n<90, n!=2 mod 4  (42 filas)     OK 42
+fig_stickel: celdas no nulas  <=>  p | h^- exacto          OK []
+fig_perfil: las diez ordenes tienen v_p(N) = 1             OK []
+fig_perfil: capas 0 < i < p-1 nulas y capa p-1 igual a 1   OK []
+fig_simetria: perfil autocomplementario <=> a = b (6 ordenes) OK []
+fig_sierra: los dos dientes en q'=13                       OK 
+
+AUDITORIA DE FIGURAS: 7 comprobaciones, 0 fallos

@@ -1,0 +1,5 @@
+p=3 a=1 n=23 M=1 m=34 q=207 v=2 D=88 | W=[1, 0, 1, 10] | W1(A0)=10 rankS=10 dimV0=10 | piP in B: False | piP.V0 in B: True | dim(B+Rrho+piPV0)=14 ctrl=14 | dimB=12 1+a+w=12 | ladder True | OK
+p=3 a=1 n=31 M=1 m=46 q=279 v=2 D=120 | W=[1, 0, 1, 12] | W1(A0)=12 rankS=12 dimV0=12 | piP in B: False | piP.V0 in B: True | dim(B+Rrho+piPV0)=16 ctrl=16 | dimB=14 1+a+w=14 | ladder True | OK
+p=5 a=1 n=31 M=1 m=77 q=775 v=2 D=180 | W=[1, 0, 0, 0, 1, 12] | W1(A0)=12 rankS=12 dimV0=12 | piP in B: False | piP.V0 in B: True | dim(B+Rrho+piPV0)=18 ctrl=18 | dimB=14 1+a+w=14 | ladder True | OK
+p=3 a=1 n=29 M=1 m=43 q=261 v=2 D=112 | W=[1, 0, 1, 14] | W1(A0)=14 rankS=14 dimV0=14 | piP in B: False | piP.V0 in B: True | dim(B+Rrho+piPV0)=18 ctrl=18 | dimB=16 1+a+w=16 | ladder True | OK
+RESUMEN 4 / 4 OK; no OK: []

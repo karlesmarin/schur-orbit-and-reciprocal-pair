@@ -1,0 +1,328 @@
+r= 3 d= 1 rank(M_r)=1 rank(M_2r)=1 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=1, h^-(r)=1)
+r= 5 d= 2 rank(M_r)=2 rank(M_2r)=2 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2 * 5, h^-(r)=1)
+r= 7 d= 3 rank(M_r)=3 rank(M_2r)=3 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^2 * 7^2, h^-(r)=1)
+r= 9 d= 3 rank(M_r)=3 rank(M_2r)=3 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^2 * 3^4, h^-(r)=1)
+r=11 d= 5 rank(M_r)=5 rank(M_2r)=5 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^4 * 11^4, h^-(r)=1)
+r=13 d= 6 rank(M_r)=6 rank(M_2r)=6 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^5 * 13^5, h^-(r)=1)
+r=15 d= 4 rank(M_r)=4 rank(M_2r)=4 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^3 * 3^3 * 5^3, h^-(r)=1)
+r=17 d= 8 rank(M_r)=8 rank(M_2r)=8 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^7 * 17^7, h^-(r)=1)
+r=19 d= 9 rank(M_r)=9 rank(M_2r)=9 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^8 * 19^8, h^-(r)=1)
+r=21 d= 6 rank(M_r)=6 rank(M_2r)=6 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^5 * 3^5 * 7^5, h^-(r)=1)
+r=23 d=11 rank(M_r)=11 rank(M_2r)=11 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^10 * 3 * 23^10, h^-(r)=3)
+r=25 d=10 rank(M_r)=10 rank(M_2r)=10 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^9 * 5^18, h^-(r)=1)
+r=27 d= 9 rank(M_r)=9 rank(M_2r)=9 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^8 * 3^24, h^-(r)=1)
+r=29 d=14 rank(M_r)=14 rank(M_2r)=14 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^16 * 29^13, h^-(r)=8)
+r=31 d=15 rank(M_r)=15 rank(M_2r)=15 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^14 * 3^2 * 31^14, h^-(r)=9)
+r=33 d=10 rank(M_r)=10 rank(M_2r)=10 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^9 * 3^9 * 11^9, h^-(r)=1)
+r=35 d=12 rank(M_r)=12 rank(M_2r)=12 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^11 * 5^11 * 7^11, h^-(r)=1)
+r=37 d=18 rank(M_r)=18 rank(M_2r)=18 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^17 * 37^18, h^-(r)=37)
+r=39 d=12 rank(M_r)=12 rank(M_2r)=12 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^12 * 3^11 * 13^11, h^-(r)=2)
+r=41 d=20 rank(M_r)=20 rank(M_2r)=20 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^19 * 11^2 * 41^19, h^-(r)=121)
+r=43 d=21 rank(M_r)=21 rank(M_2r)=21 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^20 * 43^20 * 211, h^-(r)=211)
+r=45 d=12 rank(M_r)=12 rank(M_2r)=12 | L_2r==2L_r True | L(h_2r)==L_r True | ed(M_2r)==2ed(M_r) True | Delta_2r=2^d Delta_r True (Delta_r=2^11 * 3^22 * 5^11, h^-(r)=1)
+LATTICE TOTAL r=22 fail=0
+r= 5 q'=10 p=3 m=Nq'    N/B=1 m=10 v=1 q=30 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'-1  N/B=1 m=9 v=1 q=30 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'    N/B=2 m=20 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'-1  N/B=2 m=19 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'    N/B=4 m=40 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'-1  N/B=4 m=39 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'    N/B=5 m=50 v=3 q=270 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'-1  N/B=5 m=49 v=3 q=270 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'    N/B=7 m=70 v=3 q=270 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Nq'-1  N/B=7 m=69 v=3 q=270 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Br     N/B=1 m=5 v=1 q=30 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Br-1   N/B=1 m=4 v=1 q=30 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Br     N/B=5 m=25 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Br-1   N/B=5 m=24 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Br     N/B=7 m=35 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=3 m=Br-1   N/B=7 m=34 v=2 q=90 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'    N/B=1 m=10 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'-1  N/B=1 m=9 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'    N/B=2 m=20 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'-1  N/B=2 m=19 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'    N/B=3 m=30 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'-1  N/B=3 m=29 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'    N/B=4 m=40 v=2 q=490 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'-1  N/B=4 m=39 v=2 q=490 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'    N/B=5 m=50 v=2 q=490 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Nq'-1  N/B=5 m=49 v=2 q=490 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Br     N/B=1 m=5 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Br-1   N/B=1 m=4 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Br     N/B=3 m=15 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Br-1   N/B=3 m=14 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Br     N/B=5 m=25 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 5 q'=10 p=7 m=Br-1   N/B=5 m=24 v=1 q=70 | W=[1, 2] rank_Fp(M_r)=2 rank[S]=2 d=2 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'    N/B=1 m=14 v=1 q=42 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'-1  N/B=1 m=13 v=1 q=42 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'    N/B=2 m=28 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'-1  N/B=2 m=27 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'    N/B=4 m=56 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'-1  N/B=4 m=55 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'    N/B=5 m=70 v=3 q=378 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'-1  N/B=5 m=69 v=3 q=378 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'    N/B=7 m=98 v=3 q=378 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Nq'-1  N/B=7 m=97 v=3 q=378 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Br     N/B=1 m=7 v=1 q=42 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Br-1   N/B=1 m=6 v=1 q=42 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Br     N/B=5 m=35 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Br-1   N/B=5 m=34 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Br     N/B=7 m=49 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=3 m=Br-1   N/B=7 m=48 v=2 q=126 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'    N/B=1 m=14 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'-1  N/B=1 m=13 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'    N/B=2 m=28 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'-1  N/B=2 m=27 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'    N/B=3 m=42 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'-1  N/B=3 m=41 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'    N/B=4 m=56 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'-1  N/B=4 m=55 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'    N/B=7 m=98 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Nq'-1  N/B=7 m=97 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Br     N/B=1 m=7 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Br-1   N/B=1 m=6 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Br     N/B=3 m=21 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Br-1   N/B=3 m=20 v=1 q=70 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Br     N/B=7 m=49 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r= 7 q'=14 p=5 m=Br-1   N/B=7 m=48 v=2 q=350 | W=[1, 3] rank_Fp(M_r)=3 rank[S]=3 d=3 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'    N/B=1 m=22 v=1 q=66 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'-1  N/B=1 m=21 v=1 q=66 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'    N/B=2 m=44 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'-1  N/B=2 m=43 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'    N/B=4 m=88 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'-1  N/B=4 m=87 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'    N/B=5 m=110 v=3 q=594 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'-1  N/B=5 m=109 v=3 q=594 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'    N/B=7 m=154 v=3 q=594 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Nq'-1  N/B=7 m=153 v=3 q=594 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Br     N/B=1 m=11 v=1 q=66 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Br-1   N/B=1 m=10 v=1 q=66 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Br     N/B=5 m=55 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Br-1   N/B=5 m=54 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Br     N/B=7 m=77 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=3 m=Br-1   N/B=7 m=76 v=2 q=198 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'    N/B=1 m=22 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'-1  N/B=1 m=21 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'    N/B=2 m=44 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'-1  N/B=2 m=43 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'    N/B=3 m=66 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'-1  N/B=3 m=65 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'    N/B=4 m=88 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'-1  N/B=4 m=87 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'    N/B=7 m=154 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Nq'-1  N/B=7 m=153 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Br     N/B=1 m=11 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Br-1   N/B=1 m=10 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Br     N/B=3 m=33 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Br-1   N/B=3 m=32 v=1 q=110 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Br     N/B=7 m=77 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=5 m=Br-1   N/B=7 m=76 v=2 q=550 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'    N/B=1 m=22 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'-1  N/B=1 m=21 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'    N/B=2 m=44 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'-1  N/B=2 m=43 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'    N/B=3 m=66 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'-1  N/B=3 m=65 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'    N/B=4 m=88 v=2 q=1078 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'-1  N/B=4 m=87 v=2 q=1078 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'    N/B=5 m=110 v=2 q=1078 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Nq'-1  N/B=5 m=109 v=2 q=1078 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Br     N/B=1 m=11 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Br-1   N/B=1 m=10 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Br     N/B=3 m=33 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Br-1   N/B=3 m=32 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Br     N/B=5 m=55 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=11 q'=22 p=7 m=Br-1   N/B=5 m=54 v=1 q=154 | W=[1, 5] rank_Fp(M_r)=5 rank[S]=5 d=5 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'    N/B=1 m=26 v=1 q=78 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'-1  N/B=1 m=25 v=1 q=78 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'    N/B=2 m=52 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'-1  N/B=2 m=51 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'    N/B=4 m=104 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'-1  N/B=4 m=103 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'    N/B=5 m=130 v=3 q=702 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'-1  N/B=5 m=129 v=3 q=702 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'    N/B=7 m=182 v=3 q=702 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Nq'-1  N/B=7 m=181 v=3 q=702 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Br     N/B=1 m=13 v=1 q=78 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Br-1   N/B=1 m=12 v=1 q=78 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Br     N/B=5 m=65 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Br-1   N/B=5 m=64 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Br     N/B=7 m=91 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=3 m=Br-1   N/B=7 m=90 v=2 q=234 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'    N/B=1 m=26 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'-1  N/B=1 m=25 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'    N/B=2 m=52 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'-1  N/B=2 m=51 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'    N/B=3 m=78 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'-1  N/B=3 m=77 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'    N/B=4 m=104 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'-1  N/B=4 m=103 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'    N/B=7 m=182 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Nq'-1  N/B=7 m=181 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Br     N/B=1 m=13 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Br-1   N/B=1 m=12 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Br     N/B=3 m=39 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Br-1   N/B=3 m=38 v=1 q=130 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Br     N/B=7 m=91 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=5 m=Br-1   N/B=7 m=90 v=2 q=650 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'    N/B=1 m=26 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'-1  N/B=1 m=25 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'    N/B=2 m=52 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'-1  N/B=2 m=51 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'    N/B=3 m=78 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'-1  N/B=3 m=77 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'    N/B=4 m=104 v=2 q=1274 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'-1  N/B=4 m=103 v=2 q=1274 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'    N/B=5 m=130 v=2 q=1274 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Nq'-1  N/B=5 m=129 v=2 q=1274 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Br     N/B=1 m=13 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Br-1   N/B=1 m=12 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Br     N/B=3 m=39 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Br-1   N/B=3 m=38 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Br     N/B=5 m=65 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=13 q'=26 p=7 m=Br-1   N/B=5 m=64 v=1 q=182 | W=[1, 6] rank_Fp(M_r)=6 rank[S]=6 d=6 p|h^-=False OK
+r=23 q'=46 p=3 m=Nq'    N/B=1 m=46 v=1 q=138 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'-1  N/B=1 m=45 v=1 q=138 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'    N/B=2 m=92 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'-1  N/B=2 m=91 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'    N/B=4 m=184 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'-1  N/B=4 m=183 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'    N/B=5 m=230 v=3 q=1242 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'-1  N/B=5 m=229 v=3 q=1242 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'    N/B=7 m=322 v=3 q=1242 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Nq'-1  N/B=7 m=321 v=3 q=1242 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Br     N/B=1 m=23 v=1 q=138 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Br-1   N/B=1 m=22 v=1 q=138 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Br     N/B=5 m=115 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Br-1   N/B=5 m=114 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Br     N/B=7 m=161 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=3 m=Br-1   N/B=7 m=160 v=2 q=414 | W=[1, 10] rank_Fp(M_r)=10 rank[S]=10 d=11 p|h^-=True OK
+r=23 q'=46 p=5 m=Nq'    N/B=1 m=46 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'-1  N/B=1 m=45 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'    N/B=2 m=92 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'-1  N/B=2 m=91 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'    N/B=3 m=138 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'-1  N/B=3 m=137 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'    N/B=4 m=184 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'-1  N/B=4 m=183 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'    N/B=7 m=322 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Nq'-1  N/B=7 m=321 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Br     N/B=1 m=23 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Br-1   N/B=1 m=22 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Br     N/B=3 m=69 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Br-1   N/B=3 m=68 v=1 q=230 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Br     N/B=7 m=161 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=5 m=Br-1   N/B=7 m=160 v=2 q=1150 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'    N/B=1 m=46 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'-1  N/B=1 m=45 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'    N/B=2 m=92 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'-1  N/B=2 m=91 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'    N/B=3 m=138 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'-1  N/B=3 m=137 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'    N/B=4 m=184 v=2 q=2254 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'-1  N/B=4 m=183 v=2 q=2254 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'    N/B=5 m=230 v=2 q=2254 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Nq'-1  N/B=5 m=229 v=2 q=2254 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Br     N/B=1 m=23 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Br-1   N/B=1 m=22 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Br     N/B=3 m=69 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Br-1   N/B=3 m=68 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Br     N/B=5 m=115 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=23 q'=46 p=7 m=Br-1   N/B=5 m=114 v=1 q=322 | W=[1, 11] rank_Fp(M_r)=11 rank[S]=11 d=11 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'    N/B=1 m=58 v=1 q=174 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'-1  N/B=1 m=57 v=1 q=174 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'    N/B=2 m=116 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'-1  N/B=2 m=115 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'    N/B=4 m=232 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'-1  N/B=4 m=231 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'    N/B=5 m=290 v=3 q=1566 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'-1  N/B=5 m=289 v=3 q=1566 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'    N/B=7 m=406 v=3 q=1566 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Nq'-1  N/B=7 m=405 v=3 q=1566 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Br     N/B=1 m=29 v=1 q=174 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Br-1   N/B=1 m=28 v=1 q=174 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Br     N/B=5 m=145 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Br-1   N/B=5 m=144 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Br     N/B=7 m=203 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=3 m=Br-1   N/B=7 m=202 v=2 q=522 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'    N/B=1 m=58 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'-1  N/B=1 m=57 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'    N/B=2 m=116 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'-1  N/B=2 m=115 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'    N/B=3 m=174 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'-1  N/B=3 m=173 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'    N/B=4 m=232 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'-1  N/B=4 m=231 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'    N/B=7 m=406 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Nq'-1  N/B=7 m=405 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Br     N/B=1 m=29 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Br-1   N/B=1 m=28 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Br     N/B=3 m=87 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Br-1   N/B=3 m=86 v=1 q=290 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Br     N/B=7 m=203 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=5 m=Br-1   N/B=7 m=202 v=2 q=1450 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'    N/B=1 m=58 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'-1  N/B=1 m=57 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'    N/B=2 m=116 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'-1  N/B=2 m=115 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'    N/B=3 m=174 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'-1  N/B=3 m=173 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'    N/B=4 m=232 v=2 q=2842 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'-1  N/B=4 m=231 v=2 q=2842 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'    N/B=5 m=290 v=2 q=2842 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Nq'-1  N/B=5 m=289 v=2 q=2842 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Br     N/B=1 m=29 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Br-1   N/B=1 m=28 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Br     N/B=3 m=87 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Br-1   N/B=3 m=86 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Br     N/B=5 m=145 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=29 q'=58 p=7 m=Br-1   N/B=5 m=144 v=1 q=406 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=14 p|h^-=False OK
+r=31 q'=62 p=3 m=Nq'    N/B=1 m=62 v=1 q=186 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'-1  N/B=1 m=61 v=1 q=186 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'    N/B=2 m=124 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'-1  N/B=2 m=123 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'    N/B=4 m=248 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'-1  N/B=4 m=247 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'    N/B=5 m=310 v=3 q=1674 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'-1  N/B=5 m=309 v=3 q=1674 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'    N/B=7 m=434 v=3 q=1674 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Nq'-1  N/B=7 m=433 v=3 q=1674 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Br     N/B=1 m=31 v=1 q=186 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Br-1   N/B=1 m=30 v=1 q=186 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Br     N/B=5 m=155 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Br-1   N/B=5 m=154 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Br     N/B=7 m=217 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=3 m=Br-1   N/B=7 m=216 v=2 q=558 | W=[1, 14] rank_Fp(M_r)=14 rank[S]=14 d=15 p|h^-=True OK
+r=31 q'=62 p=5 m=Nq'    N/B=1 m=62 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'-1  N/B=1 m=61 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'    N/B=2 m=124 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'-1  N/B=2 m=123 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'    N/B=3 m=186 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'-1  N/B=3 m=185 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'    N/B=4 m=248 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'-1  N/B=4 m=247 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'    N/B=7 m=434 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Nq'-1  N/B=7 m=433 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Br     N/B=1 m=31 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Br-1   N/B=1 m=30 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Br     N/B=3 m=93 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Br-1   N/B=3 m=92 v=1 q=310 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Br     N/B=7 m=217 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=5 m=Br-1   N/B=7 m=216 v=2 q=1550 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'    N/B=1 m=62 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'-1  N/B=1 m=61 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'    N/B=2 m=124 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'-1  N/B=2 m=123 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'    N/B=3 m=186 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'-1  N/B=3 m=185 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'    N/B=4 m=248 v=2 q=3038 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'-1  N/B=4 m=247 v=2 q=3038 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'    N/B=5 m=310 v=2 q=3038 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Nq'-1  N/B=5 m=309 v=2 q=3038 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Br     N/B=1 m=31 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Br-1   N/B=1 m=30 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Br     N/B=3 m=93 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Br-1   N/B=3 m=92 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Br     N/B=5 m=155 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+r=31 q'=62 p=7 m=Br-1   N/B=5 m=154 v=1 q=434 | W=[1, 15] rank_Fp(M_r)=15 rank[S]=15 d=15 p|h^-=False OK
+END-TO-END TOTAL=304 fail=0

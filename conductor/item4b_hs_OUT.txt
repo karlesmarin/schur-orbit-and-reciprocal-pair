@@ -1,0 +1,22 @@
+A_40(451) p=11: q'=41 d=20 E=10 f=20 g=1 | W=[1, 18, 20] W1=18 kappa=1 type_Fp(e=2)=2 pred=2  2m+1=81
+KAPPA>1 q=93 m=15 p=3 q'=31 d=15 g=1 E=2 W=[1, 12] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=124 m=15 p=2 q'=31 d=15 g=3 E=2 W=[1, 12] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=124 m=46 p=2 q'=31 d=15 g=3 E=2 W=[1, 12] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=155 m=15 p=5 q'=31 d=15 g=5 E=4 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=155 m=46 p=5 q'=31 d=15 g=5 E=4 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=156 m=19 p=2 q'=39 d=12 g=1 E=2 W=[1, 10] kappa=2 type_Fp=3 pred=3 OK
+KAPPA>1 q=156 m=58 p=2 q'=39 d=12 g=1 E=2 W=[1, 10] kappa=2 type_Fp=3 pred=3 OK
+KAPPA>1 q=204 m=25 p=2 q'=51 d=16 g=2 E=2 W=[1, 14] kappa=2 type_Fp=3 pred=3 OK
+KAPPA>1 q=204 m=76 p=2 q'=51 d=16 g=2 E=2 W=[1, 14] kappa=2 type_Fp=3 pred=3 OK
+KAPPA>1 q=217 m=15 p=7 q'=31 d=15 g=1 E=6 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=217 m=46 p=7 q'=31 d=15 g=1 E=6 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=217 m=77 p=7 q'=31 d=15 g=1 E=6 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=219 m=36 p=3 q'=73 d=36 g=6 E=2 W=[1, 32] kappa=4 type_Fp=7 pred=7 OK
+KAPPA>1 q=220 m=27 p=2 q'=55 d=20 g=1 E=2 W=[1, 18] kappa=2 type_Fp=3 pred=3 OK
+KAPPA>1 q=220 m=82 p=2 q'=55 d=20 g=1 E=2 W=[1, 18] kappa=2 type_Fp=3 pred=3 OK
+KAPPA>1 q=248 m=15 p=2 q'=31 d=15 g=3 E=4 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=248 m=46 p=2 q'=31 d=15 g=3 E=4 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=248 m=77 p=2 q'=31 d=15 g=3 E=4 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+KAPPA>1 q=248 m=108 p=2 q'=31 d=15 g=3 E=4 W=[1, 12, 15] kappa=3 type_Fp=5 pred=5 OK
+HS12.2.3 on e=2 cases (lengths via Thm loc(d)): {('HS_ok', 'almost_gor', 'gor', 'p odd'): 168, ('HS_ok', 'almost_gor', 'gor', 'p=2'): 104, ('HS_ok', 'strict', 'nongor', 'p=2'): 112, ('HS_ok', 'almost_gor', 'nongor', 'p odd'): 7, ('HS_ok', 'almost_gor', 'nongor', 'p=2'): 12}
+ITEM4b TOTAL e=2 cases (q<=250, d*min(3,E)<=120)=403 fails=0

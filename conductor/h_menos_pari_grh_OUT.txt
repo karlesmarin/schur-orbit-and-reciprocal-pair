@@ -1,0 +1,15 @@
+23 22 h= 3 h+= 1 h/h+= 3 analytic h-= 3 OK 0.2s
+29 28 h= 8 h+= 1 h/h+= 8 analytic h-= 8 OK 0.2s
+31 30 h= 9 h+= 1 h/h+= 9 analytic h-= 9 OK 0.3s
+35 24 h= 1 h+= 1 h/h+= 1 analytic h-= 1 OK 0.1s
+39 24 h= 2 h+= 1 h/h+= 2 analytic h-= 2 OK 0.2s
+45 24 h= 1 h+= 1 h/h+= 1 analytic h-= 1 OK 0.1s
+51 32 h= 5 h+= 1 h/h+= 5 analytic h-= 5 OK 0.6s
+52 24 h= 3 h+= 1 h/h+= 3 analytic h-= 3 OK 0.1s
+56 24 h= 2 h+= 1 h/h+= 2 analytic h-= 2 OK 0.2s
+64 32 h= 17 h+= 1 h/h+= 17 analytic h-= 17 OK 0.3s
+68 32 h= 8 h+= 1 h/h+= 8 analytic h-= 8 OK 1.3s
+72 24 h= 3 h+= 1 h/h+= 3 analytic h-= 3 OK 0.1s
+80 32 h= 5 h+= 1 h/h+= 5 analytic h-= 5 OK 0.5s
+84 24 h= 1 h+= 1 h/h+= 1 analytic h-= 1 OK 0.4s
+all OK: True
