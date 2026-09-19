@@ -1,0 +1,17 @@
+n     q      p    phi(q) slow      short     t slow (s)  t short (s) x        agree
+5     45     3    24     4         4         0.006       0.005       1.3      yes
+7     63     3    36     7         7         0.028       0.015       1.8      yes
+9     63     7    36     7         7         0.038       0.029       1.3      yes
+11    99     3    60     13        13        0.133       0.118       1.1      yes
+13    117    3    72     16        16        0.267       0.235       1.1      yes
+7     35     5    24     7         7         0.008       0.004       2.0      yes
+11    55     5    40     13        13        0.049       0.026       1.9      yes
+15    45     3    24     14        14        0.007       0.007       1.0      yes
+23    207    3    132    33        33        3.297       1.622       2.0      yes
+
+total: slow 3.833 s, shortcut 2.061 s, factor 1.9
+the two paths give the same integer in every cell: yes
+
+What is measured is how the work is split, not an optimal implementation: both routes use
+the same layer code, and the only difference is the DEGREE at which they close -- phi(q) on
+the slow path and phi(q)/2 on the shortcut.  The factor grows with phi(q).
