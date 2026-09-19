@@ -1,0 +1,128 @@
+# `segmento.py` — the conductor of a ring of character values, from the segment alone
+
+**One file. Python 3 standard library. No Sage, no numpy, nothing to install.**
+
+Take every irreducible character of $\mathrm{SU}(n)$, $\mathrm{Sp}(2m)$ or $\mathrm{GL}(n)$ and
+evaluate them all at one element of finite order $q$. They generate a ring $A$ inside the ring of
+integers $\mathcal{O}$ of the field they span. This tool computes what that ring is missing — its
+conductor, and the index $[\mathcal{O}:A]$ prime by prime — from the **segment** of eigenvalue
+exponents alone, and never from the group.
+
+## Thirty seconds
+
+```
+python segmento.py autotest
+```
+
+It recomputes, from nothing, the worked examples of the underlying notes — layer profiles,
+indices, the shortcut against the slow path, two counts — exercises every guard, and ends with
+
+```
+SELF-TEST: all correct
+```
+
+If it says anything else, the notes and the code disagree, and the notes are the ones to distrust.
+The archived run is in `autotest_OUT.txt`. The large sweeps behind the notes' *measured* blocks are
+separate scripts archived with the notes, not part of this self-test.
+
+## What it does
+
+| command | what it answers | cost |
+|---|---|---|
+| `familias n q` | which primes can divide $[\mathcal{O}:A]$ **at all** | divisibility only — no lattice, no matrix |
+| `perfil n q p` | the layer dimensions $W_0,W_1,\dots$ of $A$ at $p$ (for $\mathrm{GL}(n)$ on the command line) | linear algebra over $\mathbb{F}_p$ in degree $\varphi(q)$ |
+| `indice n q p` | $v_p([\mathcal{O}:A])$, as the sum of **all** the layer defects | the honest slow path, kept as the control |
+| `puente n q p` | the same for the **non-real** ring of $\mathrm{GL}(n)$ | half the degree: $2v_p([\mathcal{O}_+:R])+Pd$ |
+| `ceros f` | how many components vanish on the diagonal, $f$ prime (declines otherwise) | one multiplicative order |
+| `fila m` | whether row $m$ can be occupied at all | one Legendre symbol |
+
+Each routine is named after the statement it implements, and works as a library too:
+
+```python
+from segmento import familias, indice, puente, ceros, fila, exps_GL
+
+familias(23, 207)               # [3]                    no prime but 3 can divide the index
+indice(exps_GL(23), 207, 3)     # (33, [1,11,21,22,...], 22)   v_3, the layers, the full dimension
+puente(23, 207, 3)              # (33, 1, 11, [])        the same v_3, with P, d and no unmet hypothesis
+ceros(31)                       # (3, 5, 15)             3 of the 15 components vanish; 2 has order 5
+fila(5)                         # (False, 11, 15, 'proved: the row is empty')
+```
+
+## Why anyone outside the notes might want it
+
+The object is an order in a cyclotomic field and the question is its conductor. That is the
+everyday computation in the **algorithmics of complex multiplication**: the conductor of a CM order
+is what one computes in order to identify an endomorphism ring, or to place a curve in an isogeny
+graph. Two of the routines replace a computation by a formula:
+
+- `familias` says which primes can divide the index, from divisibility alone --- proved in the notes
+  up to one named step, which holds in every cell measured. It is a filter one can run over
+  millions of pairs $(n,q)$ before touching a lattice.
+- `puente` computes the index of the **non-real** order from the real one, halving the degree. In
+  the nine timed cells of `medir_atajo.py` the two paths return the same integer every time, in
+  about half the wall clock at the largest, $\varphi(q)=132$. The factor is the ratio of the two
+  degrees, not an asymptotic claim: both routes run the same layer code and differ only in the
+  degree at which they close. `medir_atajo_OUT.txt` is the archived run.
+
+## What it refuses to do
+
+Where the underlying notes mark a statement *measured* and not proved, the routine says so instead
+of returning a number it cannot justify:
+
+- `indice` and `puente` say *lower bound* when the layer profile is cut at depth $E$ before it
+  fills ($\mathrm{GL}(15)$, $q=45$, $p=3$: $v_3\ge14$);
+- `indice` declines when $q'\le2$ (the prime-to-$p$ part of the modulus), outside the local theorem:
+  there it used to return $0$, and $\mathrm{SU}(4)$ at $q=8$, $p=2$ has index $2$;
+- `ceros` declines on composite $f$, where imprimitive characters add zeros the count does not see;
+- `fila` separates its two halves: $\left(\frac{2}{n}\right)=-1$ empties the row and is **proved**;
+  $\left(\frac{2}{n}\right)=+1$ gives an occupied row, **proved** in the note below (every admissible
+  length has a zero).
+
+`puente` does not warn at $u\le d/2$: the notes prove $R=A$ there too. `indice` sums every layer
+of the profile, because a full layer can be followed by a defective one.
+
+That is the honesty floor of the notes, moved into the code.
+
+## Where it comes from
+
+Three notes, which carry the proofs:
+
+- *Where the character values of $\mathrm{Sp}(2m)$ at a torsion element fail to generate the ring of
+  integers* — the real case, the local structure and the class-number criterion.
+  Concept DOI [10.5281/zenodo.22813216](https://doi.org/10.5281/zenodo.22813216).
+- *The ring of character values depends only on the segment: $\mathrm{SU}(n)$,
+  $\mathrm{Sp}(2m)$ and $\mathrm{GL}(n)$ at a torsion element* — the segment invariance, the support criterion and the
+  quadratic bridge $B=R\oplus\theta R$ that `puente` implements. In preparation; this record will
+  be linked to it when it appears.
+- *Vanishing weighted sums of completely multiplicative functions* --- the vanishing components on
+  the diagonal and the rows, which `ceros` and `fila` implement. In preparation.
+
+The tool is not a summary of any of them. It is the part of them that computes.
+
+## Files
+
+| file | what it is |
+|---|---|
+| `segmento.py` | the tool — one file, 625 lines, standard library only |
+| `medir_atajo.py` | times the shortcut against the slow path and checks they agree |
+| `autotest_OUT.txt` | the archived run of `python segmento.py autotest` |
+| `medir_atajo_OUT.txt` | the archived run of the timing |
+| `LICENSE` | CC0 1.0 Universal |
+
+## Licence
+
+**CC0 1.0 Universal** — public domain. Use it, cut it up, rewrite it or ship it inside something
+else, without asking and without attribution. A citation is welcome and is not required.
+
+## Citing
+
+Concept DOI [10.5281/zenodo.22834098](https://doi.org/10.5281/zenodo.22834098) — it always resolves
+to the current version. Mirrored at
+[github.com/karlesmarin/schur-orbit-and-reciprocal-pair/tree/main/segmento](https://github.com/karlesmarin/schur-orbit-and-reciprocal-pair/tree/main/segmento).
+
+## Author
+
+Carles Marín, independent researcher — `karlesmarin@gmail.com` —
+[ORCID 0009-0007-5637-9688](https://orcid.org/0009-0007-5637-9688).
+Claude (Anthropic) was used as a research assistant; every statement was checked by the author, who
+takes full responsibility for the content.
