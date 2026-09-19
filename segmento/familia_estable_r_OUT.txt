@@ -1,0 +1,28 @@
+prop:fam con r = q/p^{v_p(q)}:  r | n-1,n,n+1  =>  estable en q' = M/p^{v_p(M)}
+n    q    p    M     q'    r    familia  estable  veredicto
+
+en familia: 807 casillas | estables: 807 | NO estables: 0
+por rama: [('n impar, r impar', 225), ('n impar, r par', 120), ('n par, r impar', 270), ('n par, r par', 192)]
+fuera de familia: 8 estables (el reciproco es FALSO) y 993 inestables
+
+LAS ESTABLES FUERA DE FAMILIA, UNA A UNA:  si alguna tuviera d >= 2 y E >= 2, el Teorema
+3(d) forzaria defecto y prop:sop seria FALSA.  (n, q, p, q', r, d, E):
+   n=3   q=30  p=5   q'=6   r=6   d=1   E=4   
+   n=3   q=42  p=7   q'=6   r=6   d=1   E=6   
+   n=9   q=30  p=5   q'=6   r=6   d=1   E=4   
+   n=9   q=42  p=7   q'=6   r=6   d=1   E=6   
+   n=15  q=30  p=5   q'=6   r=6   d=1   E=4   
+   n=15  q=42  p=7   q'=6   r=6   d=1   E=6   
+   n=21  q=30  p=5   q'=6   r=6   d=1   E=4   
+   n=21  q=42  p=7   q'=6   r=6   d=1   E=6   
+
+Y LA CLASE SINGLETON: las c con 2c = 0 (mod q') son c = 0 y, si q' es par, c = q'/2.
+En el caso par el segmento es impar modulo q' = 2r, asi que la unica disponible es c = r.
+   n=4 q=15 p=3 q'=10 r=5  N = [0, 1, 0, 1, 0, 0, 0, 1, 0, 1]  clase c=r vale 0
+   n=4 q=15 p=5 q'=6 r=3  N = [0, 1, 0, 2, 0, 1]  clase c=r vale 2
+   n=6 q=35 p=5 q'=14 r=7  N = [0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1]  clase c=r vale 0
+   n=6 q=35 p=7 q'=10 r=5  N = [0, 1, 0, 1, 0, 2, 0, 1, 0, 1]  clase c=r vale 2
+   n=8 q=21 p=3 q'=14 r=7  N = [0, 1, 0, 1, 0, 1, 0, 2, 0, 1, 0, 1, 0, 1]  clase c=r vale 2
+   n=8 q=21 p=7 q'=6 r=3  N = [0, 3, 0, 2, 0, 3]  clase c=r vale 2
+   n=10 q=33 p=3 q'=22 r=11  N = [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]  clase c=r vale 0
+   n=10 q=33 p=11 q'=6 r=3  N = [0, 3, 0, 4, 0, 3]  clase c=r vale 4

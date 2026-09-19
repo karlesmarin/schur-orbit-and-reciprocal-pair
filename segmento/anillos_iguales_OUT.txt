@@ -1,0 +1,66 @@
+A_SU(2m+1)(q)  ==  A_Sp(2m)(q)  como RETICULOS dentro de Z[zeta_q] ?
+m   q    rango A rango C iguales   indice comun
+1   3    1       1       si        1
+1   4    1       1       si        1
+1   5    2       2       si        1
+1   6    1       1       si        1
+1   7    3       3       si        1
+1   8    2       2       si        1
+1   9    3       3       si        1
+2   3    1       1       si        1
+2   4    1       1       si        1
+2   5    1       1       si        1
+2   6    1       1       si        1
+2   7    3       3       si        1
+2   8    2       2       si        1
+2   9    3       3       si        1
+3   3    1       1       si        1
+3   4    1       1       si        1
+3   5    2       2       si        1
+3   6    1       1       si        1
+3   7    1       1       si        1
+3   8    1       1       si        1
+3   9    3       3       si        1
+4   3    1       1       si        1
+4   4    1       1       si        1
+4   5    1       1       si        1
+4   6    1       1       si        1
+4   7    3       3       si        1
+4   8    1       1       si        1
+4   9    1       1       si        1
+5   3    1       1       si        1
+5   4    1       1       si        1
+5   5    1       1       si        1
+5   6    1       1       si        1
+5   7    3       3       si        1
+5   8    2       2       si        1
+5   9    3       3       si        1
+6   3    1       1       si        1
+6   4    1       1       si        1
+6   5    2       2       si        1
+6   6    1       1       si        1
+6   7    1       1       si        1
+6   8    2       2       si        1
+6   9    3       3       si        1
+7   3    1       1       si        1
+7   4    1       1       si        1
+7   5    1       1       si        1
+7   6    1       1       si        1
+7   7    1       1       si        1
+7   8    1       1       si        1
+7   9    3       3       si        1
+
+casillas: 287 | iguales: 287 | distintas: 0
+*** SON EL MISMO ANILLO: no hay teorema que trasladar, hay objeto que reconocer ***
+
+Y n PAR: ¿el de SU(2m) se relaciona igual con algun segmento de tipo C?
+   (los exponentes son los impares +-1..+-(2m-1) sobre M = 2q; se compara con el segmento
+    de Sp(2m-1)?? no existe; se compara con el DESPLAZADO de tipo C que el paper ya trata)
+   n=4 q=7    M=14  rango=3   indice=1   exps mod q = [1, 3, 4, 6]
+   n=4 q=9    M=18  rango=3   indice=1   exps mod q = [1, 3, 6, 8]
+   n=4 q=11   M=22  rango=5   indice=1   exps mod q = [1, 3, 8, 10]
+   n=4 q=15   M=30  rango=4   indice=3   exps mod q = [1, 3, 12, 14]
+   n=6 q=7    M=14  rango=1   indice=1   exps mod q = [1, 2, 3, 4, 5, 6]
+   n=6 q=9    M=18  rango=3   indice=1   exps mod q = [1, 3, 4, 5, 6, 8]
+   n=6 q=11   M=22  rango=5   indice=1   exps mod q = [1, 3, 5, 6, 8, 10]
+   n=6 q=15   M=30  rango=4   indice=3   exps mod q = [1, 3, 5, 10, 12, 14]

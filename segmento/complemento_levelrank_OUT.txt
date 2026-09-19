@@ -1,0 +1,29 @@
+q    n    q-n    #SU(n)  #SU(q-n) mismos vals  salvo signo  veredicto
+4    2    2      3       3       SI           SI           los valores coinciden
+5    2    3      4       6       SI           SI           los valores coinciden
+5    3    2      6       4       SI           SI           los valores coinciden
+6    2    4      5       10      SI           SI           los valores coinciden
+6    3    3      10      10      SI           SI           los valores coinciden
+6    4    2      10      5       SI           SI           los valores coinciden
+7    2    5      6       15      SI           SI           los valores coinciden
+7    3    4      15      20      SI           SI           los valores coinciden
+7    4    3      20      15      SI           SI           los valores coinciden
+7    5    2      15      6       SI           SI           los valores coinciden
+8    2    6      7       21      SI           SI           los valores coinciden
+8    3    5      21      35      SI           SI           los valores coinciden
+8    4    4      35      35      SI           SI           los valores coinciden
+8    5    3      35      21      SI           SI           los valores coinciden
+8    6    2      21      7       SI           SI           los valores coinciden
+9    3    6      28      56      SI           SI           los valores coinciden
+9    4    5      56      70      SI           SI           los valores coinciden
+9    5    4      70      56      SI           SI           los valores coinciden
+9    6    3      56      28      SI           SI           los valores coinciden
+10   4    6      84      126     SI           SI           los valores coinciden
+10   5    5      126     126     SI           SI           los valores coinciden
+10   6    4      126     84      SI           SI           los valores coinciden
+11   5    6      210     252     SI           SI           los valores coinciden
+11   6    5      252     210     SI           SI           los valores coinciden
+12   6    6      462     462     SI           SI           los valores coinciden
+
+pares comparados: 25 | valores identicos: 25 | identicos salvo signo: 25 | ni eso: 0
+EXIT=0

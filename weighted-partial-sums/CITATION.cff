@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, a citation is welcome and is not required (it is CC0)."
+title: "segmento_II.py: vanishing weighted sums of completely multiplicative functions, computed"
+abstract: >-
+  One file, Python 3 standard library only, exact integer arithmetic. Exhibits, for admissible
+  lengths m up to 10^6, a completely multiplicative function with values +-1 whose weighted sum
+  sum_{n<=m} n eps(n) vanishes, recomputing the sum; re-verifies the 104 interval certificates that
+  prove it for 5000 <= m < 10^8; computes the digit set R_q of a Legendre symbol and the zeros it
+  propagates, each by direct summation and by the digit recursion; checks the weighted half-sum
+  formula on every odd Dirichlet character mod f, exactly in Z[zeta_N]; and lists the cells on
+  which Conrey's sine series of the Legendre symbol vanishes identically. Declines, with a message,
+  outside the hypotheses of the statements it implements.
+type: software
+version: 1.0.0
+date-released: 2026-09-19
+license: CC0-1.0
+authors:
+  - family-names: "Marín Muñoz"
+    given-names: "Carles"
+    email: karlesmarin@gmail.com
+    orcid: "https://orcid.org/0009-0007-5637-9688"
+    affiliation: "Independent researcher"
+repository-code: "https://github.com/karlesmarin/schur-orbit-and-reciprocal-pair/tree/main/segmento_II"
+keywords:
+  - completely multiplicative functions
+  - weighted sums
+  - exact zeros
+  - signed sums of primes
+  - subset sums
+  - Dirichlet characters
+  - Legendre symbol
+  - generalized Bernoulli numbers
+  - digit recursion
+  - class number
+  - exact computation
+references:
+  - type: article
+    title: >-
+      Where the character values of Sp(2m) at a torsion element fail to generate the ring of
+      integers
+    authors:
+      - family-names: "Marín Muñoz"
+        given-names: "Carles"
+    doi: "10.5281/zenodo.22813216"
+    year: 2026

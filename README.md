@@ -34,7 +34,7 @@ The published rank-one case at `t = 2` is Part IV of the series,
 [`schur-nonidentity-o4`](https://github.com/karlesmarin/schur-nonidentity-o4). This repository is the
 general-`t` sequel and is kept separate so that each paper has one artifact.
 
-## 📚 Three bundles
+## 📚 Six bundles
 
 The root of this repository is the bundle of the **first** paper, the one arXiv carries as
 [2608.09619](https://arxiv.org/abs/2608.09619). The **second** --- *Schur polynomials twisted by
@@ -52,6 +52,15 @@ directory is [`characters-at-aP/`](characters-at-aP): the paper itself in both l
 each, and 101 files of material --- 47 scripts, 44 of them with their archived run, the ten gates
 that check its manuscript, its six figures and the two LaTeX editions. It is kept here rather than
 in a repository of its own so that the material of one line of work is found in one place.
+
+Three more follow the same line, from character values to the **ring they generate**, each with the
+note in both languages and the scripts behind every number it calls *measured*:
+
+| directory | note | concept DOI |
+|---|---|---|
+| [`conductor/`](conductor) | *Where the character values of Sp(2m) at a torsion element fail to generate the ring of integers* | [10.5281/zenodo.22813216](https://doi.org/10.5281/zenodo.22813216) |
+| [`segmento/`](segmento) | *The ring of character values depends only on the segment: SU(n), Sp(2m) and GL(n) at a torsion element*, with its tool `segmento.py` ([10.5281/zenodo.22834098](https://doi.org/10.5281/zenodo.22834098)) | [10.5281/zenodo.22847476](https://doi.org/10.5281/zenodo.22847476) |
+| [`weighted-partial-sums/`](weighted-partial-sums) | *Zeros of weighted partial sums of completely multiplicative functions: Dirichlet characters, the Euler factor at 2 and Conrey's sine series* | [10.5281/zenodo.22847374](https://doi.org/10.5281/zenodo.22847374) |
 
 ## 📦 What is here
 

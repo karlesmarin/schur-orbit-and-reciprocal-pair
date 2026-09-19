@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "upload_type": "software",
+    "title": "segmento_II.py — vanishing weighted sums of completely multiplicative functions, computed",
+    "version": "1.0.0",
+    "creators": [
+      {
+        "name": "Carles Marin Munoz",
+        "affiliation": "Independent researcher",
+        "orcid": "0009-0007-5637-9688"
+      }
+    ],
+    "description": "<p><strong>One file, Python 3 standard library only, exact integers throughout. No Sage, no numpy, nothing to install. A completely multiplicative function &epsilon; with values &plusmn;1 can make the weighted sum S(m) = &sum;<sub>n&le;m</sub> n &epsilon;(n) vanish only when m &equiv; 0, 3 (mod 4); the underlying note proves that some &epsilon; does for every such m. This tool exhibits those zeros, re-checks the certificates of the proof, and computes the zeros that Legendre symbols carry through a digit recursion.</strong></p>\n\n<p><strong>Thirty seconds.</strong> <code>python segmento_II.py autotest</code> recomputes from nothing the worked examples of the note &mdash; explicit zeros and the counts a(m), a sample of the block certificates, the digit sets R<sub>q</sub> and the zeros they propagate, the loops of the recursion at q = 59, 131, 347, the weighted half sum on all 1510 odd characters of odd conductor f &le; 121, the null cells of Conrey's function at q = 103 &mdash; runs the decoys that must fail, exercises every guard, and ends with <code>SELF-TEST: all correct</code>. If it says anything else, the note and the code disagree and the note is the one to distrust. The archived run ships with it.</p>\n\n<p><strong>What it does.</strong> One routine per statement, named after it, usable as a library and as a command line:</p>\n\n<ul>\n<li><code>cero(m)</code> &mdash; a completely multiplicative &epsilon; with S(m) = 0, the sum recomputed n by n, for admissible m up to 10<sup>6</sup>; for m &equiv; 1, 2 (mod 4), the parity reason why none exists.</li>\n<li><code>certificado(j)</code> &mdash; re-verifies, in integer arithmetic, the 104 interval certificates that prove the theorem for 5000 &le; m &lt; 10<sup>8</sup> (2128 pairs of primes, bound at most 0.445), or a single block.</li>\n<li><code>digitos(q, s)</code> &mdash; the digit set R<sub>q</sub> of the Legendre symbol mod q, the class number h(&minus;q) by three routes, and the zeros of S below a bound, each by direct summation and by the digit recursion S(qk + r) = s q S(k) + k(T<sub>q</sub> + q C(r)) + T(r); with <code>bloque</code>, the loops of the recursion.</li>\n<li><code>semisuma(f)</code> &mdash; the weighted half sum &sum;<sub>c&le;(f&minus;1)/2</sub> c &chi;(c) = (f/2) B<sub>1,&chi;</sub> (&chi;(2)<sup>&minus;1</sup> &minus; 1) for every odd character mod f, exactly in Z[&zeta;<sub>N</sub>], with the vanishing criterion &chi;(2) = 1 on the primitive ones.</li>\n<li><code>conrey(q)</code> &mdash; the cells on which Conrey's sine series of the Legendre symbol vanishes identically, computed exactly from its piecewise-linear form; they are the digit set R<sub>q</sub>.</li>\n</ul>\n\n<p><strong>What it refuses to do.</strong> Above m = 10<sup>6</sup>, <code>cero</code> declines and computes nothing: a zero exists there by the theorem, but the tool does not claim a witness it has not produced. The count of vanishing components is given only for prime conductors, where it is proved. <code>conrey</code> works only for primes q &equiv; 3 (mod 4), q &gt; 3, and does not test the positivity that the note's proposition assumes. That is the honesty floor of the note, moved into the code.</p>\n\n<p><strong>Where it comes from.</strong> The note <em>Zeros of weighted partial sums of completely multiplicative functions: Dirichlet characters, the Euler factor at 2 and Conrey&rsquo;s sine series</em> (in preparation) carries the proofs. The tool is not a summary of it &mdash; it is the part of it that computes.</p>\n\n<p><strong>Released into the public domain under CC0 1.0</strong>: use it, cut it up, rewrite it or ship it inside something else, without asking and without attribution. A citation is welcome and is not required.</p>",
+    "access_right": "open",
+    "license": "cc-zero",
+    "language": "eng",
+    "keywords": [
+      "completely multiplicative functions",
+      "weighted sums",
+      "exact zeros",
+      "signed sums of primes",
+      "subset sums",
+      "Dirichlet characters",
+      "Legendre symbol",
+      "generalized Bernoulli numbers",
+      "digit recursion",
+      "class number",
+      "exact computation",
+      "no dependencies",
+      "Python",
+      "math.NT"
+    ],
+    "related_identifiers": [
+      {
+        "relation": "references",
+        "identifier": "10.5281/zenodo.22813216",
+        "scheme": "doi",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "relation": "isSupplementedBy",
+        "identifier": "https://github.com/karlesmarin/schur-orbit-and-reciprocal-pair/tree/main/segmento_II",
+        "scheme": "url",
+        "resource_type": "software"
+      }
+    ]
+  }
+}

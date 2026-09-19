@@ -1,0 +1,10 @@
+primos impares <= 2000
+  1mod4 R simetrico            147
+  1mod4 total                  147
+  1mod4, 0 y q-1 en R          147
+  3mod8 total                  76
+  3mod8, R vacio               76
+  7mod8 total                  78
+  7mod8, (q-1)/2 en R          78
+tamanos de R: {'1mod4 |R|=10': 5, '1mod4 |R|=12': 2, '1mod4 |R|=2': 104, '1mod4 |R|=4': 3, '1mod4 |R|=6': 26, '1mod4 |R|=8': 7, '7mod8 |R|=1': 67, '7mod8 |R|=3': 7, '7mod8 |R|=5': 4}
+fallos: [] (total 0)

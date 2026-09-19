@@ -1,0 +1,77 @@
+q     p   r    n     P    e1(S)u   mu en B  a_1 u    B=A[mu]  B^-=thR  R=A      v(th)  veredicto
+45    3   5    5     1    SI       SI       SI       SI       SI       SI       1      ok
+45    3   5    6     1    SI       SI       SI       SI       SI       SI       1      ok
+45    3   5    10    1    SI       SI       SI       SI       SI       SI       1      ok
+45    3   5    11    1    SI       SI       SI       SI       SI       SI       1      ok
+63    3   7    7     1    SI       SI       SI       SI       SI       SI       1      ok
+63    3   7    8     1    SI       SI       SI       SI       SI       SI       1      ok
+99    3   11   11    1    SI       SI       SI       SI       SI       SI       1      ok
+99    3   11   12    1    SI       SI       SI       SI       SI       SI       1      ok
+117   3   13   13    1    SI       SI       SI       SI       SI       SI       1      ok
+117   3   13   14    1    SI       SI       SI       SI       SI       SI       1      ok
+35    5   7    7     1    SI       SI       SI       SI       SI       SI       1      ok
+35    5   7    8     1    SI       SI       SI       SI       SI       SI       1      ok
+35    5   7    14    1    SI       SI       SI       SI       SI       SI       1      ok
+35    5   7    15    1    SI       SI       SI       SI       SI       SI       1      ok
+55    5   11   11    1    SI       SI       SI       SI       SI       SI       1      ok
+55    5   11   12    1    SI       SI       SI       SI       SI       SI       1      ok
+63    7   9    9     1    SI       SI       SI       SI       SI       SI       1      ok
+63    7   9    10    1    SI       SI       SI       SI       SI       SI       1      ok
+77    7   11   11    1    SI       SI       SI       SI       SI       SI       1      ok
+77    7   11   12    1    SI       SI       SI       SI       SI       SI       1      ok
+135   3   5    5     1    SI       SI       SI       SI       SI       SI       1      ok
+135   3   5    6     1    SI       SI       SI       SI       SI       SI       1      ok
+99    11  9    9     1    SI       SI       SI       SI       SI       SI       1      ok
+99    11  9    10    1    SI       SI       SI       SI       SI       SI       1      ok
+15    3   5    5     1    SI       SI       SI       SI       SI       SI       1      ok
+15    3   5    6     1    SI       SI       SI       SI       SI       SI       1      ok
+15    3   5    10    1    SI       SI       SI       SI       SI       SI       1      ok
+15    3   5    11    1    SI       SI       SI       SI       SI       SI       1      ok
+21    3   7    7     1    SI       SI       SI       SI       SI       SI       1      ok
+21    3   7    8     1    SI       SI       SI       SI       SI       SI       1      ok
+33    3   11   11    1    SI       SI       SI       SI       SI       SI       1      ok
+33    3   11   12    1    SI       SI       SI       SI       SI       SI       1      ok
+39    3   13   13    1    SI       SI       SI       SI       SI       SI       1      ok
+39    3   13   14    1    SI       SI       SI       SI       SI       SI       1      ok
+75    3   25   25    1    SI       SI       SI       SI       SI       SI       1      ok
+75    3   25   26    1    SI       SI       SI       SI       SI       SI       1      ok
+45    5   9    9     1    SI       SI       SI       SI       SI       SI       1      ok
+45    5   9    10    1    SI       SI       SI       SI       SI       SI       1      ok
+105   5   21   21    1    SI       SI       SI       SI       SI       SI       1      ok
+105   5   21   22    1    SI       SI       SI       SI       SI       SI       1      ok
+105   7   15   15    1    SI       SI       SI       SI       SI       SI       1      ok
+105   7   15   16    1    SI       SI       SI       SI       SI       SI       1      ok
+105   3   35   35    1    SI       SI       SI       SI       SI       SI       1      ok
+105   3   35   36    1    SI       SI       SI       SI       SI       SI       1      ok
+135   5   27   27    1    SI       SI       SI       SI       SI       SI       1      ok
+135   5   27   28    1    SI       SI       SI       SI       SI       SI       1      ok
+45    3   5    20    1    SI       SI       SI       SI       SI       SI       1      ok
+45    3   5    21    1    SI       SI       SI       SI       SI       SI       1      ok
+35    5   7    21    1    SI       SI       SI       SI       SI       SI       1      ok
+35    5   7    22    1    SI       SI       SI       SI       SI       SI       1      ok
+63    7   9    18    1    SI       SI       SI       SI       SI       SI       1      ok
+63    7   9    19    1    SI       SI       SI       SI       SI       SI       1      ok
+45    3   5    15    3    SI       SI       SI       SI       SI       SI       3      ok
+45    3   5    16    3    SI       SI       SI       SI       SI       SI       3      ok
+63    3   7    21    3    SI       SI       SI       SI       SI       SI       3      ok
+63    3   7    22    3    SI       SI       SI       SI       SI       SI       3      ok
+99    3   11   33    3    SI       SI       SI       SI       SI       SI       3      ok
+99    3   11   34    3    SI       SI       SI       SI       SI       SI       3      ok
+117   3   13   39    3    SI       SI       SI       SI       SI       SI       3      ok
+117   3   13   40    3    SI       SI       SI       SI       SI       SI       3      ok
+135   3   5    15    3    SI       SI       SI       SI       SI       SI       3      ok
+135   3   5    16    3    SI       SI       SI       SI       SI       SI       3      ok
+135   3   5    45    9    SI       SI       SI       SI       SI       SI       9      ok
+135   3   5    46    9    SI       SI       SI       SI       SI       SI       9      ok
+45    3   5    30    3    SI       SI       SI       SI       SI       SI       3      ok
+45    3   5    31    3    SI       SI       SI       SI       SI       SI       3      ok
+
+celdas: 66
+   (P3) e_1(S) unidad de O_p          66 de 66
+   (P4) mu en B                       66 de 66
+        a_1 = e_1(S)/mu unidad Y real 66 de 66
+   (P5) B = A + mu A                  66 de 66
+   (P6) B^- = theta R                 66 de 66
+        R = A (tau ya en A)           66 de 66
+        v(theta) = p^{v_p(N)}         66 de 66
+EXIT=0

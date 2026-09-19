@@ -1,0 +1,195 @@
+==============================================================================
+P3  ¿Que es el generador de A_GL?  e_k(1,z,...,z^{n-1}) == z^{k(k-1)/2} [n,k]_z ?
+==============================================================================
+   comprobaciones: 135 | discrepancias: 0
+   la identidad se sostiene: los generadores de A_GL SON binomios gaussianos girados.
+
+==============================================================================
+P1  ¿El indice solo aparece con las cuentas EQUILIBRADAS modulo q'?
+==============================================================================
+n   q    p   q'   cuentas mod q'             equilibrado p|indice
+3   6    2   3    [1, 1, 1]                  SI          no
+3   10   2   5    [1, 1, 0, 0, 1]            SI          no
+3   12   2   3    [1, 1, 1]                  SI          no
+3   12   3   4    [1, 1, 0, 1]               SI          no
+3   14   2   7    [1, 1, 0, 0, 0, 0, 1]      SI          no
+3   15   3   5    [1, 1, 0, 0, 1]            SI          no
+3   15   5   3    [1, 1, 1]                  SI          no
+3   18   2   9    [1, 1, 0, 0, 0, 0, 0, 0, 1 SI          no
+3   20   2   5    [1, 1, 0, 0, 1]            SI          no
+3   20   5   4    [1, 1, 0, 1]               SI          no
+3   21   3   7    [1, 1, 0, 0, 0, 0, 1]      SI          no
+3   21   7   3    [1, 1, 1]                  SI          no
+3   22   2   11   [1, 1, 0, 0, 0, 0, 0, 0, 0 SI          no
+3   24   2   3    [1, 1, 1]                  SI          no
+3   24   3   8    [1, 1, 0, 0, 0, 0, 0, 1]   SI          no
+3   28   2   7    [1, 1, 0, 0, 0, 0, 1]      SI          no
+3   28   7   4    [1, 1, 0, 1]               SI          no
+3   30   3   10   [1, 1, 0, 0, 0, 0, 0, 0, 0 SI          no
+3   30   5   6    [1, 1, 0, 0, 0, 1]         SI          no
+3   33   3   11   [1, 1, 0, 0, 0, 0, 0, 0, 0 SI          no
+3   33   11  3    [1, 1, 1]                  SI          no
+3   35   5   7    [1, 1, 0, 0, 0, 0, 1]      SI          no
+3   35   7   5    [1, 1, 0, 0, 1]            SI          no
+3   36   2   9    [1, 1, 0, 0, 0, 0, 0, 0, 1 SI          no
+3   36   3   4    [1, 1, 0, 1]               SI          no
+3   39   13  3    [1, 1, 1]                  SI          no
+3   40   2   5    [1, 1, 0, 0, 1]            SI          no
+3   40   5   8    [1, 1, 0, 0, 0, 0, 0, 1]   SI          no
+4   6    2   3    [2, 1, 1]                  SI          no
+4   10   2   5    [0, 1, 1, 1, 1]            SI          SI
+4   12   2   3    [2, 1, 1]                  SI          no
+4   12   3   4    [0, 2, 0, 2]               SI          SI
+4   14   2   7    [0, 1, 0, 1, 1, 0, 1]      SI          no
+4   15   3   5    [0, 1, 1, 1, 1]            SI          SI
+4   15   5   3    [2, 1, 1]                  SI          no
+4   18   2   9    [0, 1, 0, 1, 0, 0, 1, 0, 1 SI          no
+4   20   2   5    [0, 1, 1, 1, 1]            SI          SI
+4   20   5   4    [0, 2, 0, 2]               SI          SI
+4   21   3   7    [0, 1, 0, 1, 1, 0, 1]      SI          no
+4   21   7   3    [2, 1, 1]                  SI          no
+4   22   2   11   [0, 1, 0, 1, 0, 0, 0, 0, 1 SI          no
+4   24   2   3    [2, 1, 1]                  SI          no
+4   24   3   8    [0, 1, 0, 1, 0, 1, 0, 1]   SI          no
+4   28   2   7    [0, 1, 0, 1, 1, 0, 1]      SI          no
+4   28   7   4    [0, 2, 0, 2]               SI          SI
+4   30   3   10   [0, 1, 0, 1, 0, 0, 0, 1, 0 SI          no
+4   30   5   6    [0, 1, 0, 2, 0, 1]         SI          no
+4   33   3   11   [0, 1, 0, 1, 0, 0, 0, 0, 1 SI          no
+4   33   11  3    [2, 1, 1]                  SI          no
+4   35   5   7    [0, 1, 0, 1, 1, 0, 1]      SI          no
+4   35   7   5    [0, 1, 1, 1, 1]            SI          SI
+4   36   2   9    [0, 1, 0, 1, 0, 0, 1, 0, 1 SI          no
+4   36   3   4    [0, 2, 0, 2]               SI          SI
+4   39   13  3    [2, 1, 1]                  SI          no
+4   40   2   5    [0, 1, 1, 1, 1]            SI          SI
+4   40   5   8    [0, 1, 0, 1, 0, 1, 0, 1]   SI          no
+5   6    2   3    [1, 2, 2]                  SI          no
+5   10   2   5    [1, 1, 1, 1, 1]            SI          SI
+5   12   2   3    [1, 2, 2]                  SI          no
+5   12   3   4    [1, 1, 2, 1]               SI          no
+5   14   2   7    [1, 1, 1, 0, 0, 1, 1]      SI          no
+5   15   3   5    [1, 1, 1, 1, 1]            SI          SI
+5   15   5   3    [1, 2, 2]                  SI          no
+5   18   2   9    [1, 1, 1, 0, 0, 0, 0, 1, 1 SI          no
+5   20   2   5    [1, 1, 1, 1, 1]            SI          SI
+5   20   5   4    [1, 1, 2, 1]               SI          no
+5   21   3   7    [1, 1, 1, 0, 0, 1, 1]      SI          no
+5   21   7   3    [1, 2, 2]                  SI          no
+5   22   2   11   [1, 1, 1, 0, 0, 0, 0, 0, 0 SI          no
+5   24   2   3    [1, 2, 2]                  SI          no
+5   24   3   8    [1, 1, 1, 0, 0, 0, 1, 1]   SI          no
+5   28   2   7    [1, 1, 1, 0, 0, 1, 1]      SI          no
+5   28   7   4    [1, 1, 2, 1]               SI          no
+5   30   3   10   [1, 1, 1, 0, 0, 0, 0, 0, 1 SI          no
+5   30   5   6    [1, 1, 1, 0, 1, 1]         SI          no
+5   33   3   11   [1, 1, 1, 0, 0, 0, 0, 0, 0 SI          no
+5   33   11  3    [1, 2, 2]                  SI          no
+5   35   5   7    [1, 1, 1, 0, 0, 1, 1]      SI          no
+5   35   7   5    [1, 1, 1, 1, 1]            SI          SI
+5   36   2   9    [1, 1, 1, 0, 0, 0, 0, 1, 1 SI          no
+5   36   3   4    [1, 1, 2, 1]               SI          no
+5   39   13  3    [1, 2, 2]                  SI          no
+5   40   2   5    [1, 1, 1, 1, 1]            SI          SI
+5   40   5   8    [1, 1, 1, 0, 0, 0, 1, 1]   SI          no
+6   6    2   3    [2, 2, 2]                  SI          no
+6   10   2   5    [2, 1, 1, 1, 1]            SI          SI
+6   12   2   3    [2, 2, 2]                  SI          SI
+6   12   3   4    [0, 3, 0, 3]               SI          no
+6   14   2   7    [0, 1, 1, 1, 1, 1, 1]      SI          SI
+6   15   3   5    [2, 1, 1, 1, 1]            SI          SI
+6   15   5   3    [2, 2, 2]                  SI          no
+6   18   2   9    [0, 1, 0, 1, 1, 1, 1, 0, 1 SI          no
+6   20   2   5    [2, 1, 1, 1, 1]            SI          SI
+6   20   5   4    [0, 3, 0, 3]               SI          no
+6   21   3   7    [0, 1, 1, 1, 1, 1, 1]      SI          SI
+6   21   7   3    [2, 2, 2]                  SI          no
+6   22   2   11   [0, 1, 0, 1, 0, 1, 1, 0, 1 SI          no
+6   24   2   3    [2, 2, 2]                  SI          SI
+6   24   3   8    [0, 1, 0, 2, 0, 2, 0, 1]   SI          no
+6   28   2   7    [0, 1, 1, 1, 1, 1, 1]      SI          SI
+6   28   7   4    [0, 3, 0, 3]               SI          no
+6   30   3   10   [0, 1, 0, 1, 0, 2, 0, 1, 0 SI          no
+6   30   5   6    [0, 2, 0, 2, 0, 2]         SI          SI
+6   33   3   11   [0, 1, 0, 1, 0, 1, 1, 0, 1 SI          no
+6   33   11  3    [2, 2, 2]                  SI          no
+6   35   5   7    [0, 1, 1, 1, 1, 1, 1]      SI          SI
+6   35   7   5    [2, 1, 1, 1, 1]            SI          SI
+6   36   2   9    [0, 1, 0, 1, 1, 1, 1, 0, 1 SI          no
+6   36   3   4    [0, 3, 0, 3]               SI          no
+6   39   13  3    [2, 2, 2]                  SI          no
+6   40   2   5    [2, 1, 1, 1, 1]            SI          SI
+6   40   5   8    [0, 1, 0, 2, 0, 2, 0, 1]   SI          no
+7   6    2   3    [3, 2, 2]                  SI          no
+7   10   2   5    [1, 1, 2, 2, 1]            SI          no
+7   12   2   3    [3, 2, 2]                  SI          no
+7   12   3   4    [1, 2, 2, 2]               SI          no
+7   14   2   7    [1, 1, 1, 1, 1, 1, 1]      SI          SI
+7   15   3   5    [1, 1, 2, 2, 1]            SI          no
+7   15   5   3    [3, 2, 2]                  SI          no
+7   18   2   9    [1, 1, 1, 1, 0, 0, 1, 1, 1 SI          no
+7   20   2   5    [1, 1, 2, 2, 1]            SI          no
+7   20   5   4    [1, 2, 2, 2]               SI          no
+7   21   3   7    [1, 1, 1, 1, 1, 1, 1]      SI          SI
+7   21   7   3    [3, 2, 2]                  SI          no
+7   22   2   11   [1, 1, 1, 1, 0, 0, 0, 0, 1 SI          no
+7   24   2   3    [3, 2, 2]                  SI          no
+7   24   3   8    [1, 1, 1, 1, 0, 1, 1, 1]   SI          SI
+7   28   2   7    [1, 1, 1, 1, 1, 1, 1]      SI          SI
+7   28   7   4    [1, 2, 2, 2]               SI          no
+7   30   3   10   [1, 1, 1, 1, 0, 0, 0, 1, 1 SI          no
+7   30   5   6    [1, 1, 1, 2, 1, 1]         SI          no
+7   33   3   11   [1, 1, 1, 1, 0, 0, 0, 0, 1 SI          no
+7   33   11  3    [3, 2, 2]                  SI          no
+7   35   5   7    [1, 1, 1, 1, 1, 1, 1]      SI          SI
+7   35   7   5    [1, 1, 2, 2, 1]            SI          no
+7   36   2   9    [1, 1, 1, 1, 0, 0, 1, 1, 1 SI          no
+7   36   3   4    [1, 2, 2, 2]               SI          no
+7   39   13  3    [3, 2, 2]                  SI          no
+7   40   2   5    [1, 1, 2, 2, 1]            SI          no
+7   40   5   8    [1, 1, 1, 1, 0, 1, 1, 1]   SI          SI
+
+   LAS CUATRO CELDAS (equilibrado, p|indice):
+     SI/SI   32     SI/no  133
+     no/SI    0     no/no    0
+   => equilibrio es NECESARIO para que p divida al indice, en toda la muestra.
+   => y no es SUFICIENTE: 133 casos equilibrados sin que p divida.
+
+==============================================================================
+P2  LA SOMBRA.  Primero lo que la ronda anterior enseno: para n PAR los dos anillos ni
+    siquiera viven en el mismo cuerpo -- el elemento SU tiene exponentes semienteros y
+    vive en Q(zeta_2q), el GL en Q(zeta_q).  Comparar sus indices es comparar ordenes de
+    cuerpos distintos.  Asi que la pregunta limpia es con n IMPAR, donde ambos estan en
+    Z[zeta_q], y el giro por generador es e_k^GL = zeta_q^{k(n-1)/2} e_k^SU.
+    Hipotesis: A_GL = A_SU[w] con w = zeta_q^{(n-1)/2}, el giro del PRIMER generador.
+n   q    idx SU   idx GL   SU<=GL?   GL=SU[w1]?  GL=SU[en]?  orden w1
+3   8    1        1        si        si          si          8
+3   9    1        3        si        NO          si          9
+3   10   1        1        si        si          si          10
+3   12   1        2        si        NO          NO          12
+3   15   1        5        si        NO          si          15
+3   16   1        1        si        si          si          16
+3   20   1        1        si        si          si          20
+3   21   1        7        si        NO          si          21
+3   24   1        2        si        NO          NO          24
+3   25   1        1        si        si          si          25
+5   8    1        2        si        si          si          4
+5   9    1        1        si        si          si          9
+5   10   2        16       si        NO          NO          5
+5   12   1        3        si        si          si          6
+5   15   3        81       si        NO          si          15
+5   16   1        2        si        si          si          8
+5   20   2        80       si        NO          NO          10
+5   21   1        1        si        si          si          21
+5   24   1        1        si        si          si          12
+5   25   5        625      si        NO          si          25
+7   8    1        1        si        si          si          8
+7   9    1        3        si        si          si          3
+7   10   1        1        si        si          si          10
+7   12   1        4        si        si          si          4
+7   15   1        5        si        si          si          5
+7   16   2        1        si        si          si          16
+7   20   1        1        si        si          si          20
+7   21   27       15309    si        NO          NO          7
+7   24   3        4        si        si          si          8
+7   25   1        1        si        si          si          25

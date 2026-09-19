@@ -1,4 +1,4 @@
-# Integer character values on the rho-line of Sp(2m) — code and data
+# 🔢 Integer character values on the rho-line of Sp(2m) — code and data
 
 Companion material for *Integer character values on the $\rho$-line of $\mathrm{Sp}(2m)$*
 (Carles Marín), deposited on Zenodo:
@@ -15,7 +15,7 @@ about Schur polynomials at a root-of-unity orbit; this one is about characters o
 at the rational points of Kostant's $\rho$-line. It lives here, rather than in a repository of its
 own, so that the material of one line of work is found in one place.
 
-## What the paper proves
+## 🎯 What the paper proves
 
 Kostant's element $a_P = \rho(\zeta_t)$, $t = 2m+2$, is one point of the line
 $\theta \mapsto \exp(2\pi i\theta\rho^{\sharp})$; the alcove argument that makes every character
@@ -35,7 +35,7 @@ $a_P$ it is not. Three things are proved:
    representations** of $GL_n$, $Sp_{2n}$ and $SO_{2n+1}$, one per folded class. Two closed counts
    of the surviving weights follow for every $q$, and $G_2$ is settled in closed form at $q = 3$.
 
-## What is not new, stated plainly
+## 📚 What is not new, stated plainly
 
 At $a_P$ **itself, nothing here is new.** The criterion and its sign are Corollary 3.2 of
 Cellini–Möseneder Frajria–Papi (2007), in every type and on this very line; read on coroots the
@@ -45,7 +45,7 @@ runs on is classical; and at $q = 2$ the factorisation into dimensions is Theore
 is the powers, where $\rho$ is no longer regular — and, in type C, the exact value with its sign,
 the factorisation into dimensions at $q \ge 3$, and the closed counts.
 
-## What is here
+## 📦 What is here
 
 The two PDFs and 101 files of material, flat, named after what they do.
 
@@ -62,7 +62,7 @@ Forty-four of the forty-seven scripts carry their archived run. The three that d
 `fig_value.py` and `fig_walls.py`, whose output is the figure itself and it travels, and
 `verifica_informe.py`, which recomputes four statements from scratch and prints them.
 
-## How to read a claim
+## 🧪 How to read a claim
 
 Find the script named after it, read its header — each says what it tests and what would falsify
 it — and either read the `*_OUT.txt` beside it or run it again. The gates are built with a
@@ -73,7 +73,7 @@ Everything is plain Python 3 on the standard library, except the three figure sc
 `matplotlib`, and the three gates that measure the rendered page with `pymupdf` — the text layer of
 a PDF is not the page, and those three look at the page. A script `foo.py` writes `foo_OUT.txt`.
 
-## What is deliberately not here
+## 🚫 What is deliberately not here
 
 An eleventh gate exists and does not travel: its subject is a letter, not a statement of the paper.
 It is held out **by location, not by a list of names** — a name list cannot see what is inside a
@@ -81,7 +81,7 @@ file, and excluding one by name leaves the references to it dangling in what doe
 refuses to release a bundle in which anything imports or reads a file that is not in it; this
 bundle passes it.
 
-## Licence and citation
+## 📄 Licence and citation
 
 Cite the paper — concept DOI [10.5281/zenodo.22683560](https://doi.org/10.5281/zenodo.22683560).
 The scripts may be used freely; they are research code, written to be read and doubted rather than

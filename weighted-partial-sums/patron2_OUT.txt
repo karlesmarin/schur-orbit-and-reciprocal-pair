@@ -1,0 +1,20 @@
+EQUIVALENCIA:  f = 3 (mod 4) squarefree.   T((f-1)/2, f) = 0  <=>  f = 7 (mod 8) ?
+   cero/7mod8    42      cero/3mod8     0
+   no cero/7      0      no cero/3     40
+   *** EQUIVALENCIA EXACTA sobre 82 conductores ***
+
+EL CERO TRIVIAL:  f = 1 (mod 4) => caracter PAR => T(f-1, f) = 0 siempre ?
+   conductores: 58 | fallos: 0  (emparejar c con f-c da f*sum(chi) = 0)
+
+¿Y CUANTO VALE cuando no se anula?  f = 3 (mod 8), con h(-f) al lado
+f      T((f-1)/2)     h(-f)      T / h(-f)    (2|f)
+3      1              1          1            -1
+11     11             1          11           -1
+19     19             1          19           -1
+43     43             1          43           -1
+59     177            3          59           -1
+67     67             1          67           -1
+83     249            3          83           -1
+107    321            3          107          -1
+131    655            5          131          -1
+139    417            3          139          -1

@@ -1,0 +1,5 @@
+q     p   r    n     d   delt v_p(B)  3d-2+2del plano     v_p(R)    veredicto
+207   3   23   23    11  1    33      33        32        11        ok
+
+v_p([O:B]) == 3d-2+2delta  y  v_p = 2 v_p(R) + d :  1 ok, 0 discrepan
+EXIT=0

@@ -1,0 +1,96 @@
+================================================================================================
+C0  CONTROL: el instrumento nuevo con segmento de TIPO C reproduce la ley 2d-1-W_1
+================================================================================================
+m   q    p   q'   d    W_1    2d-1-W1  v_p real W_1>d/2  veredicto
+2   15   3   5    2    2      1        1        si       ok
+2   20   2   5    2    2      1        1        si       ok
+2   35   7   5    2    2      1        1        si       ok
+2   40   2   5    2    2      1        1        si       ok
+2   45   3   5    2    2      1        1        si       ok
+3   21   3   7    3    2      3        3        si       ok
+3   24   3   8    2    2      1        1        si       ok
+3   28   2   7    3    2      3        3        si       ok
+3   35   5   7    3    2      3        3        si       ok
+3   40   5   8    2    2      1        1        si       ok
+4   15   3   5    2    2      1        1        si       ok
+4   20   2   5    2    1      2        2        no       fuera de hipotesis
+4   24   3   8    2    2      1        1        si       ok
+4   30   3   10   2    2      1        1        si       ok
+4   35   7   5    2    2      1        1        si       ok
+4   36   2   9    3    3      2        2        si       ok
+4   40   2   5    2    1      2        2        no       fuera de hipotesis
+4   40   5   8    2    2      1        1        si       ok
+4   45   3   5    2    2      1        1        si       ok
+4   45   5   9    3    3      2        2        si       ok
+   bajo hipotesis: 18 ok, 0 discrepan | fuera de hipotesis: 2
+   el instrumento nuevo reproduce la ley local de tipo C.
+
+================================================================================================
+TIPO A (SU).  W_1 medido, y la ley de tipo C puesta a prueba fuera de su tipo
+================================================================================================
+n   q    p   q'   d    W_1    2d-1-W1  v_p real W_1>d/2  familia
+4   10   2   5    2    1      2        2        no       n+1
+4   12   3   8    2    2      1        1        si       n
+4   15   3   10   2    2      1        1        si       n+1
+4   20   2   5    2    1      2        2        no       n+1
+4   20   5   8    2    2      1        1        si       n
+4   28   7   8    2    2      1        1        si       n
+4   35   7   10   2    2      1        1        si       n+1
+4   36   3   8    2    2      1        1        si       n
+4   40   2   5    2    1      2        2        no       n+1
+4   45   3   10   2    2      1        1        si       n+1
+5   15   3   5    2    2      1        1        si       n
+5   20   2   5    2    2      1        1        si       n
+5   35   7   5    2    2      1        1        si       n
+5   40   2   5    2    2      1        1        si       n
+5   45   3   5    2    2      1        1        si       n
+6   10   2   5    2    1      2        2        no       n-1
+6   12   2   3    1    0      1        2        no       n
+6   14   2   7    3    1      4        4        no       n+1
+6   15   3   10   2    2      1        1        si       n-1
+6   18   3   4    1    0      1        1        no       -
+6   20   2   5    2    1      2        2        no       n-1
+6   21   3   14   3    3      2        2        si       n+1
+6   24   2   3    1    0      1        2        no       n
+6   28   2   7    3    1      4        4        no       n+1
+6   30   5   12   2    2      1        1        si       n
+6   35   5   14   3    3      2        2        si       n+1
+6   35   7   10   2    2      1        1        si       n-1
+6   40   2   5    2    1      2        2        no       n-1
+6   42   7   12   2    2      1        1        si       n
+6   45   3   10   2    2      1        1        si       n-1
+6   48   2   3    1    0      1        2        no       n
+7   21   3   7    3    2      3        3        si       n
+7   24   3   8    2    2      1        1        si       n+1
+7   28   2   7    3    2      3        3        si       n
+7   35   5   7    3    2      3        3        si       n
+7   40   5   8    2    2      1        1        si       n+1
+7   56   2   7    3    2      3        3        si       n
+7   56   7   8    2    2      1        1        si       n+1
+8   12   3   8    2    2      1        1        si       n
+8   14   2   7    3    1      4        4        no       n-1
+8   18   2   9    3    1      4        4        no       n+1
+8   20   5   8    2    2      1        1        si       n
+8   21   3   14   3    3      2        2        si       n-1
+8   24   3   16   4    4      3        3        si       n
+8   28   2   7    3    1      4        4        no       n-1
+8   28   7   8    2    2      1        1        si       n
+8   35   5   14   3    3      2        2        si       n-1
+8   36   2   9    3    1      4        4        no       n+1
+8   36   3   8    2    2      1        1        si       n
+8   40   5   16   4    4      3        3        si       n
+8   45   5   18   3    3      2        2        si       n+1
+9   15   3   5    2    2      1        1        si       n+1
+9   20   2   5    2    1      2        2        no       n+1
+9   24   3   8    2    2      1        1        si       n-1
+9   30   3   10   2    2      1        1        si       n+1
+9   35   7   5    2    2      1        1        si       n+1
+9   36   2   9    3    3      2        2        si       n
+9   40   2   5    2    1      2        2        no       n+1
+9   40   5   8    2    2      1        1        si       n-1
+9   45   3   5    2    2      1        1        si       n+1
+9   45   5   9    3    3      2        2        si       n
+9   56   7   8    2    2      1        1        si       n-1
+
+   TIPO A bajo la hipotesis W_1 > d/2: 44 aciertos, 0 discrepancias | fuera: 18
+   *** la ley local de tipo C se traslada al tipo A en toda la muestra ***

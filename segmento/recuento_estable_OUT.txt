@@ -1,0 +1,19 @@
+RECUENTO, cuatro cifras:
+
+                                   BAJO estabilidad fuera de ella
+modulo dentro de R (lo correcto)   181 / 193        72 / 127
+proxy en el espacio de funciones   193 / 193        98 / 127
+
+fallos de la descripcion correcta DENTRO de la hipotesis (12):
+   n=4 q=12 p=3 q'=8  W_1=2  dim_R=1  proxy=2
+   n=4 q=20 p=5 q'=8  W_1=2  dim_R=1  proxy=2
+   n=4 q=28 p=7 q'=8  W_1=2  dim_R=1  proxy=2
+   n=4 q=36 p=3 q'=8  W_1=2  dim_R=1  proxy=2
+   n=6 q=30 p=5 q'=12  W_1=2  dim_R=1  proxy=2
+   n=6 q=42 p=7 q'=12  W_1=2  dim_R=1  proxy=2
+   n=8 q=12 p=3 q'=8  W_1=2  dim_R=1  proxy=2
+   n=8 q=20 p=5 q'=8  W_1=2  dim_R=1  proxy=2
+   n=8 q=24 p=3 q'=16  W_1=4  dim_R=2  proxy=4
+   n=8 q=28 p=7 q'=8  W_1=2  dim_R=1  proxy=2
+   n=8 q=36 p=3 q'=8  W_1=2  dim_R=1  proxy=2
+   n=10 q=30 p=3 q'=20  W_1=4  dim_R=2  proxy=4

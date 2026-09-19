@@ -1,0 +1,53 @@
+====================================================================================================
+f impar, TODO caracter impar mod f:  T = sum_{c<=(f-1)/2} c chi(c)
+====================================================================================================
+   *** CRITERIO FALLA: f=21 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=33 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=39 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=39 orden=4 chi(2)=zeta12^3 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=39 orden=4 chi(2)=-zeta12^3 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=55 orden=4 chi(2)=zeta20^5 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=55 orden=4 chi(2)=-zeta20^5 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=55 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=57 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=63 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=93 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=95 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=99 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=105 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=105 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=111 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=117 orden=2 chi(2)=-1 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=117 orden=4 chi(2)=zeta12^3 T=0 B_1=0 primitivo=False ***
+   *** CRITERIO FALLA: f=117 orden=4 chi(2)=-zeta12^3 T=0 B_1=0 primitivo=False ***
+
+caracteres impares examinados: 1510
+criterio  T = 0 <=> chi(2) = 1 :  1491 si, 19 no
+   restringido a caracteres PRIMITIVOS mod f: 1236 si, 0 no
+forma cerrada T = (f/2) B_1 (chi(2)^-1 - 1) :  1510 si, 0 no
+con T = 0: 72  | por orden del caracter: [(2, 42), (4, 8), (6, 10), (8, 12)]
+de ellos, NO primitivos mod f: 36
+
+====================================================================================================
+SENUELOS (tienen que fallar; si pasan, el criterio no dice nada)
+====================================================================================================
+S1  el mismo criterio en m = (f-1)/2 - 1: 348 coinciden, 15 NO  (debe haber muchos NO)
+S2  el criterio para caracteres PARES: 326 coinciden, 9 NO  (debe haber NO)
+
+====================================================================================================
+EL CUADRATICO COMO COROLARIO:  chi(2) = 1  <=>  f = +-1 (mod 8)
+====================================================================================================
+f      f mod 8    chi(2)     T          prop:dirichlet
+7      7          1          0          0 si f=7(8)
+11     3          -1         11         !=0 si f=3(8)
+15     7          1          0          0 si f=7(8)
+19     3          -1         19         !=0 si f=3(8)
+23     7          1          0          0 si f=7(8)
+31     7          1          0          0 si f=7(8)
+35     3          -1         70         !=0 si f=3(8)
+39     7          1          0          0 si f=7(8)
+43     3          -1         43         !=0 si f=3(8)
+47     7          1          0          0 si f=7(8)
+51     3          -1         102        !=0 si f=3(8)
+55     7          1          0          0 si f=7(8)
+59     3          -1         177        !=0 si f=3(8)

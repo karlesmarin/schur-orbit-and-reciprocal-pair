@@ -1,0 +1,62 @@
+=== (1) la fila m tiene ceros  <=>  (2|n) = +1  con n = 2m+1 ===
+m    n     T_m      (2|n)    #soluc    senuelo(3|n) veredicto
+2    5     3        -1       0         -1        ok
+3    7     6        1        1         -1        ok
+4    9     10       1        1         0         ok
+5    11    15       -1       0         1         ok
+6    13    21       -1       0         1         ok
+7    15    28       1        1         0         ok
+8    17    36       1        1         -1        ok
+9    19    45       -1       0         -1        ok
+10   21    55       -1       0         0         ok
+11   23    66       1        2         1         ok
+12   25    78       1        2         1         ok
+13   27    91       -1       0         0         ok
+14   29    105      -1       0         -1        ok
+15   31    120      1        2         -1        ok
+16   33    136      1        4         0         ok
+17   35    153      -1       0         1         ok
+18   37    171      -1       0         1         ok
+19   39    190      1        1         0         ok
+20   41    210      1        9         -1        ok
+21   43    231      -1       0         -1        ok
+22   45    253      -1       0         0         ok
+23   47    276      1        5         1         ok
+24   49    300      1        14        1         ok
+25   51    325      -1       0         0         ok
+26   53    351      -1       0         -1        ok
+27   55    378      1        5         -1        ok
+28   57    406      1        8         0         ok
+29   59    435      -1       0         1         ok
+30   61    465      -1       0         1         ok
+31   63    496      1        19        0         ok
+32   65    528      1        22        -1        ok
+33   67    561      -1       0         -1        ok
+34   69    595      -1       0         0         ok
+35   71    630      1        19        1         ok
+36   73    666      1        16        1         ok
+37   75    703      -1       0         0         ok
+38   77    741      -1       0         -1        ok
+39   79    780      1        35        -1        ok
+40   81    820      1        32        0         ok
+
+(2|n) = +1  <=>  la fila tiene ceros:  0 fallos de 39
+senuelo con (3|n) coincide en 19 de 39 filas
+
+=== (2) la diagonal es el caso n = f de la misma ley ===
+f     m      (2|f)    T(m,chi)   veredicto
+7     3      1        0          ok
+15    7      1        0          ok
+23    11     1        0          ok
+31    15     1        0          ok
+39    19     1        0          ok
+47    23     1        0          ok
+55    27     1        0          ok
+71    35     1        0          ok
+79    39     1        0          ok
+87    43     1        0          ok
+95    47     1        0          ok
+103   51     1        0          ok
+111   55     1        0          ok
+119   59     1        0          ok
+diagonal:  25 ok, 0 discrepan

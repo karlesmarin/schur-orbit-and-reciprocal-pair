@@ -1,0 +1,85 @@
+n   q    p   q'   D    W_1    2D-1-W1  v_p real  W1>D/2    rango S  veredicto
+3   12   2   3    2    2      1        1         si        2        ok
+3   15   5   3    2    2      1        1         si        2        ok
+3   21   7   3    2    2      1        1         si        2        ok
+3   24   2   3    2    2      1        1         si        2        ok
+3   33   11  3    2    2      1        1         si        2        ok
+3   39   13  3    2    2      1        1         si        2        ok
+3   48   2   3    2    2      1        1         si        2        ok
+4   12   2   3    2    2      1        1         si        2        ok
+4   12   3   4    2    2      1        1         si        2        ok
+4   15   5   3    2    2      1        1         si        2        ok
+4   20   5   4    2    2      1        1         si        2        ok
+4   21   7   3    2    2      1        1         si        2        ok
+4   24   2   3    2    2      1        1         si        2        ok
+4   28   7   4    2    2      1        1         si        2        ok
+4   33   11  3    2    2      1        1         si        2        ok
+4   36   3   4    2    2      1        1         si        2        ok
+4   39   13  3    2    2      1        1         si        2        ok
+4   44   11  4    2    2      1        1         si        2        ok
+4   48   2   3    2    2      1        1         si        2        ok
+5   12   3   4    2    2      1        1         si        2        ok
+5   15   3   5    4    3      4        4         si        3        ok
+5   20   2   5    4    3      4        4         si        3        ok
+5   20   5   4    2    2      1        1         si        2        ok
+5   28   7   4    2    2      1        1         si        2        ok
+5   35   7   5    4    3      4        4         si        3        ok
+5   36   3   4    2    2      1        1         si        2        ok
+5   40   2   5    4    3      4        4         si        3        ok
+5   44   11  4    2    2      1        1         si        2        ok
+5   45   3   5    4    3      4        4         si        3        ok
+6   12   2   3    2    1      2        2         no        1        fuera de hipotesis
+6   15   3   5    4    3      4        4         si        3        ok
+6   15   5   3    2    2      1        1         si        2        ok
+6   20   2   5    4    3      4        4         si        3        ok
+6   21   7   3    2    2      1        1         si        2        ok
+6   24   2   3    2    1      2        2         no        1        fuera de hipotesis
+6   30   5   6    2    2      1        1         si        2        ok
+6   33   11  3    2    2      1        1         si        2        ok
+6   35   7   5    4    3      4        4         si        3        ok
+6   39   13  3    2    2      1        1         si        2        ok
+6   40   2   5    4    3      4        4         si        3        ok
+6   42   7   6    2    2      1        1         si        2        ok
+6   45   3   5    4    3      4        4         si        3        ok
+6   48   2   3    2    1      2        2         no        1        fuera de hipotesis
+7   12   2   3    2    1      2        2         no        1        fuera de hipotesis
+7   15   5   3    2    2      1        1         si        2        ok
+7   21   3   7    6    4      7        7         si        4        ok
+7   21   7   3    2    2      1        1         si        2        ok
+7   24   2   3    2    1      2        2         no        1        fuera de hipotesis
+7   28   2   7    6    4      7        7         si        4        ok
+7   30   5   6    2    2      1        1         si        2        ok
+7   33   11  3    2    2      1        1         si        2        ok
+7   35   5   7    6    4      7        7         si        4        ok
+7   39   13  3    2    2      1        1         si        2        ok
+7   42   7   6    2    2      1        1         si        2        ok
+7   48   2   3    2    1      2        2         no        1        fuera de hipotesis
+8   12   3   4    2    2      1        1         si        2        ok
+8   20   5   4    2    2      1        1         si        2        ok
+8   21   3   7    6    4      7        7         si        4        ok
+8   24   3   8    4    3      4        4         si        3        ok
+8   28   2   7    6    4      7        7         si        4        ok
+8   28   7   4    2    2      1        1         si        2        ok
+8   35   5   7    6    4      7        7         si        4        ok
+8   36   3   4    2    2      1        1         si        2        ok
+8   40   5   8    4    3      4        4         si        3        ok
+8   44   11  4    2    2      1        1         si        2        ok
+9   12   2   3    2    2      1        1         si        2        ok
+9   12   3   4    2    2      1        1         si        2        ok
+9   15   5   3    2    2      1        1         si        2        ok
+9   20   5   4    2    2      1        1         si        2        ok
+9   21   7   3    2    2      1        1         si        2        ok
+9   24   2   3    2    2      1        1         si        2        ok
+9   24   3   8    4    3      4        4         si        3        ok
+9   28   7   4    2    2      1        1         si        2        ok
+9   33   11  3    2    2      1        1         si        2        ok
+9   36   2   9    6    4      7        7         si        4        ok
+9   36   3   4    2    2      1        1         si        2        ok
+9   39   13  3    2    2      1        1         si        2        ok
+9   40   5   8    4    3      4        4         si        3        ok
+9   44   11  4    2    2      1        1         si        2        ok
+9   45   5   9    6    4      7        7         si        4        ok
+9   48   2   3    2    2      1        1         si        2        ok
+
+S1  ley con D = phi(q'):  75 ok, 0 discrepan | fuera de hipotesis: 6
+S2  W_1 == rango de [S(u^-1 c)] sobre todas las unidades: 81 si, 0 no

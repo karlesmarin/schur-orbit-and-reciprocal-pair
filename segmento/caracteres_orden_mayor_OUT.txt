@@ -1,0 +1,12 @@
+CONDUCTORES PRIMOS f < 160, TODO m < f: ¿que caracteres impares tienen componente nula?
+f     m     orden  T = sum_{c<=m} c chi(c)
+31    15    6      0  *** ORDEN > 2 ***
+73    36    8      0  *** ORDEN > 2 ***
+89    44    8      0  *** ORDEN > 2 ***
+127   63    6      0  *** ORDEN > 2 ***
+127   63    18     0  *** ORDEN > 2 ***
+151   75    10     0  *** ORDEN > 2 ***
+
+C1 (orden 2 por dos caminos): 1280 casillas comparadas, 1280 coinciden, 0 discrepan
+componentes impares nulas: 28 | de orden 2: 22 | de orden > 2: 6
+casillas (f, m, orden) con orden > 2: [(31, 15, 6), (73, 36, 8), (89, 44, 8), (127, 63, 6), (127, 63, 18), (151, 75, 10)]

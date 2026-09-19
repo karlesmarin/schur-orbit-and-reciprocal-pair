@@ -1,0 +1,6 @@
+g(L) - 1/2 en L = 8.7, 18.42, 50, 200: [6e-05, 0.00348, 0.00181, 0.0005]
+M=1e8: L=18.421  hipotesis BW (M >= 13872 L^2 log 68L = 3.358e+07): True  B/P <= 0.01377  K/P <= 0.01292  suma 0.02669
+malla 1e8..1e40 (641 puntos): hipotesis, suma < 1, g > 1/2 y cotas decrecientes: True
+la hipotesis de (b) vale desde M ~ 2.892e+07
+M=1e8 exacto: N=2760321 (cota M/2L=2714341)  n=345040 (cota M/17L=319334)  P_Q=2.0659e+14 (cota M^2/4L=1.3572e+14)
+  n^2=1.191e+11 >= 48 M log(4M/n)=3.387e+10: True   (B+K)/P_Q = 0.01690

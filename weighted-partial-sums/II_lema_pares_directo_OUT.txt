@@ -1,0 +1,8 @@
+bloque  1 [  5000,  5500] |Q|= 268  L(lema)=  39667  L(real)=11127  cubre=True  control(sin pares) cubre=True
+bloque  2 [  5501,  6051] |Q|= 292  L(lema)=  47138  L(real)=12239  cubre=True  control(sin pares) cubre=True
+bloque  3 [  6052,  6657] |Q|= 321  L(lema)=  51100  L(real)=13401  cubre=True  control(sin pares) cubre=True
+bloque  4 [  6658,  7323] |Q|= 346  L(lema)=  56128  L(real)=14753  cubre=True  control(sin pares) cubre=True
+bloque  5 [  7324,  8056] |Q|= 376  L(lema)=  62140  L(real)=16289  cubre=True  control(sin pares) cubre=True
+bloque  6 [  8057,  8862] |Q|= 410  L(lema)=  67830  L(real)=17841  cubre=True  control(sin pares) cubre=True
+bloque  7 [  8863,  9749] |Q|= 453  L(lema)=  74332  L(real)=19625  cubre=True  control(sin pares) cubre=True
+bloque  8 [  9750, 10725] |Q|= 495  L(lema)=  81850  L(real)=21583  cubre=True  control(sin pares) cubre=True

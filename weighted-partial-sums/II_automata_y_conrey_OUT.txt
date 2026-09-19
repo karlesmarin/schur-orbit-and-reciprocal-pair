@@ -1,0 +1,11 @@
+(A) q= 11: primer cero con 2 digitos: 11 ; estados en el ultimo nivel: 5  (suma directa: S(11) = 0)
+(A) q= 59: primer cero con 4 digitos: 4591439 ; estados en el ultimo nivel: 9  (suma directa: S(4591439) = 0)
+(A) q=179: primer cero con None digitos: None ; estados en el ultimo nivel: 58
+(A) q=227: primer cero con None digitos: None ; estados en el ultimo nivel: 148
+(A) q=347: primer cero con 13 digitos: 151318829285555629574414916735483 ; estados en el ultimo nivel: 31
+(B) q=59 x=0.10: g=0.47912012  (2pi^2/q^1.5) F=0.47912012
+(B) q=59 x=0.23: g=0.79011263  (2pi^2/q^1.5) F=0.79011263
+(B) q=59 x=0.37: g=1.01660578  (2pi^2/q^1.5) F=1.01660578
+(B) q=179 x=0.10: g=0.53575169  (2pi^2/q^1.5) F=0.53575169
+(B) q=179 x=0.23: g=0.82439822  (2pi^2/q^1.5) F=0.82439822
+(B) q=179 x=0.37: g=1.04108917  (2pi^2/q^1.5) F=1.04108917

@@ -1,0 +1,35 @@
+============================================================================================
+LAS DOS HIPOTESIS QUE LE FALTAN A LA FRASE 'In particular' DE prop:filas
+============================================================================================
+
+  F02  un caracter cuadratico vale CERO fuera de su conductor, no +-1
+       el testigo del informe: f=35, m=6, n=13
+     chi(c) para c=1..6 : [1, -1, 1, 1, 0, -1]
+     suma c chi(c)      : 0
+     (2/13) de Jacobi    : -1
+     chi es impar       : True   (chi(-1) = -1)
+     chi es primitivo   : conductor 35 = 5*7, ambos componentes no triviales
+     LA FRASE DICE que S=0 obliga a (2/n)=+1.  Aqui S=0 y (2/n)=-1  ->  REFUTADA
+
+       barrido: cuantos pares (f,m) con un cero en el rango la rompen
+     pares (f,m) con f<200, m<=40 que rompen la frase: 58
+     los seis primeros: [(5, 5, 11), (5, 9, 19), (5, 10, 21), (5, 14, 29), (5, 25, 51), (5, 29, 59)]
+
+       CONTROL: sin ceros en el rango la frase tiene que aguantar siempre
+     contraejemplos con gcd(f, m!) = 1: 0  (tienen que ser 0)
+
+  F03  (2/n) de Jacobi no dice que 2 sea un cuadrado modulo n
+       el testigo del informe: m=7, n=15, epsilon = (1,1,-1,1,-1,-1,1)
+     epsilon es multiplicativa en el intervalo : True
+     suma c epsilon(c)                         : 0
+     (2/15) de Jacobi                          : +1
+     2 es un cuadrado modulo 15                : False  (los cuadrados son [0, 1, 4, 6, 9, 10])
+     LA FRASE DICE 'unless 2 is a quadratic residue mod n'  ->  REFUTADA
+
+       cuantos n impares compuestos tienen (2/n)=+1 sin que 2 sea cuadrado
+     n < 200 con (2/n)=+1 y 2 no cuadrado: 26   los seis primeros [9, 15, 25, 33, 39, 55]
+     en cambio, para n PRIMO las dos cosas coinciden siempre: True
+
+============================================================================================
+TOTAL DE FALLOS DE ESTA COMPUERTA: 0   (0 = las dos acusaciones se sostienen)
+============================================================================================

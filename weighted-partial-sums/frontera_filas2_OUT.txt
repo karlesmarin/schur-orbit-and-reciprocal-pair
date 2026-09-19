@@ -1,0 +1,49 @@
+m    m mod 4 T_m par  #primos  #soluc    veredicto
+2    2      no       1        0         ok
+3    3      si       2        1         ok
+4    0      si       2        1         ok
+5    1      no       3        0         ok
+6    2      no       3        0         ok
+7    3      si       4        1         ok
+8    0      si       4        1         ok
+9    1      no       4        0         ok
+10   2      no       4        0         ok
+11   3      si       5        2         ok
+12   0      si       5        2         ok
+13   1      no       6        0         ok
+14   2      no       6        0         ok
+15   3      si       6        2         ok
+16   0      si       6        4         ok
+17   1      no       7        0         ok
+18   2      no       7        0         ok
+19   3      si       8        1         ok
+20   0      si       8        9         ok
+21   1      no       8        0         ok
+22   2      no       8        0         ok
+23   3      si       9        5         ok
+24   0      si       9        14        ok
+25   1      no       9        0         ok
+26   2      no       9        0         ok
+27   3      si       9        5         ok
+28   0      si       9        8         ok
+29   1      no       10       0         ok
+30   2      no       10       0         ok
+31   3      si       11       19        ok
+32   0      si       11       22        ok
+33   1      no       11       0         ok
+34   2      no       11       0         ok
+35   3      si       11       19        ok
+36   0      si       11       16        ok
+37   1      no       12       0         ok
+38   2      no       12       0         ok
+39   3      si       12       35        ok
+40   0      si       12       32        ok
+41   1      no       13       0         ok
+42   2      no       13       0         ok
+43   3      si       14       74        ok
+44   0      si       14       86        ok
+
+obstruccion (T_m impar => 0 soluciones): 0 fallos
+reciproco (T_m par => alguna solucion): 0 fallos
+sucesion de #soluciones para m = 2..44:
+  0, 1, 1, 0, 0, 1, 1, 0, 0, 2, 2, 0, 0, 2, 4, 0, 0, 1, 9, 0, 0, 5, 14, 0, 0, 5, 8, 0, 0, 19, 22, 0, 0, 19, 16, 0, 0, 35, 32, 0, 0, 74, 86

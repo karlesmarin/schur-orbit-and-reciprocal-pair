@@ -1,0 +1,2 @@
+segmentos fuera de las familias, inestables, q <= 400, p impar: 147926
+con TODAS las S(c) divisibles por p (contraejemplo potencial): 0

@@ -1,0 +1,40 @@
+q=  5 q%4=1 h=0 s=+1  (D) OK  R=[0, 4]  ceros=  1023  primitivos=   1 [4]  X^(log|R|/log q)=1034.5
+q=  5 q%4=1 h=0 s=-1  (D) OK  R=[0, 4]  ceros=  1023  primitivos=   1 [4]  X^(log|R|/log q)=1034.5
+q=  7 q%4=3 h=1 s=+1  (D) OK  R=[3]  ceros=  1680  primitivos= 490 [3, 7, 20, 139, 167, 363, 972, 1000, 1168, 1196]  X^(log|R|/log q)=0.0
+q=  7 q%4=3 h=1 s=-1  (D) OK  R=[3]  ceros=   255  primitivos= 128 [3, 48, 147, 195, 1176, 1224, 2352, 2400, 7203, 7251]  X^(log|R|/log q)=0.0
+q= 11 q%4=3 h=1 s=+1  (D) OK  R=[]  ceros=     6  primitivos=   1 [11]  X^(log|R|/log q)=0.0
+q= 11 q%4=3 h=1 s=-1  (D) OK  R=[]  ceros=    72  primitivos=  55 [60, 120, 659, 7320, 7380, 14520, 14580, 14640, 79739, 79799]  X^(log|R|/log q)=0.0
+q= 13 q%4=1 h=0 s=+1  (D) OK  R=[0, 12]  ceros=    63  primitivos=   1 [12]  X^(log|R|/log q)=77.9
+q= 13 q%4=1 h=0 s=-1  (D) OK  R=[0, 12]  ceros=    63  primitivos=   1 [12]  X^(log|R|/log q)=77.9
+q= 17 q%4=1 h=0 s=+1  (D) OK  R=[0, 16]  ceros=   223  primitivos=  33 [3, 16, 47, 819, 863, 13875, 13919, 14691, 14735, 235827]  X^(log|R|/log q)=51.6
+q= 17 q%4=1 h=0 s=-1  (D) OK  R=[0, 16]  ceros=  1543  primitivos= 713 [3, 16, 20, 71, 115, 268, 360, 404, 863, 887]  X^(log|R|/log q)=51.6
+q= 19 q%4=3 h=1 s=+1  (D) OK  R=[]  ceros=    93  primitivos=  48 [4, 19, 23, 99, 384, 460, 1828, 1904, 7243, 7319]  X^(log|R|/log q)=0.0
+q= 19 q%4=3 h=1 s=-1  (D) OK  R=[]  ceros=   303  primitivos= 255 [4, 71, 75, 180, 356, 360, 1372, 1448, 1624, 1800]  X^(log|R|/log q)=0.0
+q= 23 q%4=3 h=3 s=+1  (D) OK  R=[11]  ceros=     5  primitivos=   1 [11]  X^(log|R|/log q)=0.0
+q= 23 q%4=3 h=3 s=-1  (D) OK  R=[11]  ceros=    31  primitivos=  16 [11, 528, 5819, 6347, 139656, 140184, 279312, 279840, 3078251, 3078779]  X^(log|R|/log q)=0.0
+q= 29 q%4=1 h=0 s=+1  (D) OK  R=[0, 4, 24, 28]  ceros=   511  primitivos=   3 [4, 24, 28]  X^(log|R|/log q)=761.8
+q= 29 q%4=1 h=0 s=-1  (D) OK  R=[0, 4, 24, 28]  ceros=   511  primitivos=   3 [4, 24, 28]  X^(log|R|/log q)=761.8
+q= 31 q%4=3 h=3 s=+1  (D) OK  R=[15]  ceros=    97  primitivos=  58 [3, 15, 275, 279, 1236, 1240, 2603, 2607, 4119, 4123]  X^(log|R|/log q)=0.0
+q= 31 q%4=3 h=3 s=-1  (D) OK  R=[15]  ceros=    36  primitivos=  19 [3, 15, 960, 2883, 3843, 14415, 15375, 103788, 104748, 461280]  X^(log|R|/log q)=0.0
+q= 37 q%4=1 h=0 s=+1  (D) OK  R=[0, 36]  ceros=    15  primitivos=   1 [36]  X^(log|R|/log q)=22.1
+q= 37 q%4=1 h=0 s=-1  (D) OK  R=[0, 36]  ceros=    15  primitivos=   1 [36]  X^(log|R|/log q)=22.1
+q= 41 q%4=1 h=0 s=+1  (D) OK  R=[0, 40]  ceros=   218  primitivos=  82 [3, 12, 40, 119, 488, 536, 1119, 3923, 4923, 5039]  X^(log|R|/log q)=20.3
+q= 41 q%4=1 h=0 s=-1  (D) OK  R=[0, 40]  ceros=   311  primitivos= 147 [3, 12, 40, 44, 167, 1103, 1636, 1848, 2784, 5039]  X^(log|R|/log q)=20.3
+q= 43 q%4=3 h=1 s=+1  (D) OK  R=[]  ceros=     9  primitivos=   6 [4, 43, 47, 1896, 81403, 3500204]  X^(log|R|/log q)=0.0
+q= 43 q%4=3 h=1 s=-1  (D) OK  R=[]  ceros=   108  primitivos=  86 [4, 167, 171, 219, 924, 1844, 1848, 7176, 7180, 7228]  X^(log|R|/log q)=0.0
+q= 47 q%4=3 h=5 s=+1  (D) OK  R=[23]  ceros=     4  primitivos=   1 [23]  X^(log|R|/log q)=0.0
+q= 47 q%4=3 h=5 s=-1  (D) OK  R=[23]  ceros=    15  primitivos=   8 [23, 2208, 50807, 53015, 2438736, 2440944, 4877472, 4879680]  X^(log|R|/log q)=0.0
+q= 53 q%4=1 h=0 s=+1  (D) OK  R=[0, 4, 8, 44, 48, 52]  ceros=  1295  primitivos=   5 [4, 8, 44, 48, 52]  X^(log|R|/log q)=1442.3
+q= 53 q%4=1 h=0 s=-1  (D) OK  R=[0, 4, 8, 44, 48, 52]  ceros=  1295  primitivos=   5 [4, 8, 44, 48, 52]  X^(log|R|/log q)=1442.3
+q= 59 q%4=3 h=3 s=+1  (D) OK  R=[]  ceros=     1  primitivos=   1 [4591439]  X^(log|R|/log q)=0.0
+q= 59 q%4=3 h=3 s=-1  (D) OK  R=[]  ceros=     7  primitivos=   7 [1740, 3480, 18407, 19883, 6056940, 6058680, 6060420]  X^(log|R|/log q)=0.0
+q= 61 q%4=1 h=0 s=+1  (D) OK  R=[0, 60]  ceros=     7  primitivos=   1 [60]  X^(log|R|/log q)=15.1
+q= 61 q%4=1 h=0 s=-1  (D) OK  R=[0, 60]  ceros=     7  primitivos=   1 [60]  X^(log|R|/log q)=15.1
+q= 67 q%4=3 h=1 s=+1  (D) OK  R=[]  ceros=     7  primitivos=   5 [4, 67, 71, 4560, 305323]  X^(log|R|/log q)=0.0
+q= 67 q%4=3 h=1 s=-1  (D) OK  R=[]  ceros=    77  primitivos=  61 [4, 263, 267, 339, 2244, 4484, 4488, 17616, 17620, 17692]  X^(log|R|/log q)=0.0
+q= 71 q%4=3 h=7 s=+1  (D) OK  R=[35]  ceros=     3  primitivos=   1 [35]  X^(log|R|/log q)=0.0
+q= 71 q%4=3 h=7 s=-1  (D) OK  R=[35]  ceros=     7  primitivos=   4 [35, 5040, 176435, 181475]  X^(log|R|/log q)=0.0
+q= 73 q%4=1 h=0 s=+1  (D) OK  R=[0, 72]  ceros=    22  primitivos=   2 [11, 72]  X^(log|R|/log q)=13.5
+q= 73 q%4=1 h=0 s=-1  (D) OK  R=[0, 72]  ceros=    22  primitivos=   2 [11, 72]  X^(log|R|/log q)=13.5
+q=163 q%4=3 h=1 s=+1  (D) OK  R=[]  ceros=    17  primitivos=  15 [4, 163, 167, 19315, 26736, 86960, 152160, 3147856, 3147860, 3148992]  X^(log|R|/log q)=0.0
+q=163 q%4=3 h=1 s=-1  (D) OK  R=[]  ceros=    29  primitivos=  23 [4, 647, 651, 819, 13284, 26564, 26568, 105456, 105460, 105628]  X^(log|R|/log q)=0.0

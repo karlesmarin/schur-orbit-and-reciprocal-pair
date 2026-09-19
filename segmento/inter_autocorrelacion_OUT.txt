@@ -1,0 +1,7 @@
+P1  C_J(t) = max(0,b-t)+max(0,b-(m-t)) con 2b<=m, m<=120: 568819 medidas
+P2  uI=I => u=+-1, 2<=B<=m-2, m<=120: 30577852 medidas
+P3  intervalos union de estratos, 2<=B<=m-2, m<=150: [(6, 3, (0, 1, 5)), (6, 3, (2, 3, 4))]
+N1  extremo B=1: {0} es u-estable con u!=+-1 en 398 pares (m,u), p.ej. [(5, 2), (5, 3), (7, 2)]
+N2  {1,5} (no intervalo), m=24, u=5: estable = True
+
+FALLOS = 0
