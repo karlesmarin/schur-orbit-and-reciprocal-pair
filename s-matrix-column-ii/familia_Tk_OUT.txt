@@ -1,0 +1,33 @@
+p      k     semi    M1     h    huecos       M3,M5,M7 == constantes veredicto
+17     1     si      0      1    (1, 2, 4)    si                     ok
+23     4     si      0      1    (1, 2, 4)    si                     ok
+31     13    si      0      1    (1, 2, 4)    si                     ok
+41     14    si      0      1    (1, 2, 4)    si                     ok
+47     13    si      0      1    (1, 2, 4)    si                     ok
+71     32    si      0      1    (1, 2, 4)    si                     ok
+73     28    si      0      1    (1, 2, 4)    si                     ok
+79     17    si      0      1    (1, 2, 4)    si                     ok
+89     28    si      0      1    (1, 2, 4)    si                     ok
+97     3     si      0      1    (1, 2, 4)    si                     ok
+103    9     si      0      1    (1, 2, 4)    si                     ok
+113    15    si      0      1    (1, 2, 4)    si                     ok
+127    59    si      0      1    (1, 2, 4)    si                     ok
+137    26    si      0      1    (1, 2, 4)    si                     ok
+151    11    si      0      1    (1, 2, 4)    si                     ok
+167    38    si      0      1    (1, 2, 4)    si                     ok
+191    33    si      0      1    (1, 2, 4)    si                     ok
+193    83    si      0      1    (1, 2, 4)    si                     ok
+199    94    si      0      1    (1, 2, 4)    si                     ok
+223    59    si      0      1    (1, 2, 4)    si                     ok
+233    79    si      0      1    (1, 2, 4)    si                     ok
+239    84    si      0      1    (1, 2, 4)    si                     ok
+241    5     si      0      1    (1, 2, 4)    si                     ok
+257    113   si      0      1    (1, 2, 4)    si                     ok
+263    27    si      0      1    (1, 2, 4)    si                     ok
+271    111   si      0      1    (1, 2, 4)    si                     ok
+281    107   si      0      1    (1, 2, 4)    si                     ok
+
+primos admisibles probados: 27 ; fallos: 0
+NOTA DE ALCANCE: la construccion pide (2|p) = 1, o sea p = +-1 mod 8, que es la mitad de
+los primos por densidad de Dirichlet; la familia es infinita, pero no cubre todo primo.
+VEREDICTO: la construccion de la revision se sostiene; convierte la familia generica en una proposicion demostrable

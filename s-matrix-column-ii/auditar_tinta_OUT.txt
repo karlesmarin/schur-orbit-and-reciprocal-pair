@@ -1,0 +1,30 @@
+secciones segun el .aux: {'sec:intro': '1', 'sec:defecto': '2', 'sec:ley': '3', 'sec:bring': '4', 'sec:centro': '5', 'sec:abierto': '6'}
+
+CADA NUMERO DE SECCION DIBUJADO COINCIDE CON EL QUE LA NOTA IMPRIME
+   ok   fig_censo.pdf          no dibuja ningun numero de seccion
+   ok   fig_censo_es.pdf       no dibuja ningun numero de seccion
+   ok   fig_escalera.pdf       no dibuja ningun numero de seccion
+   ok   fig_escalera_es.pdf    no dibuja ningun numero de seccion
+   ok   fig_hilo.pdf           no dibuja ningun numero de seccion
+   ok   fig_hilo_es.pdf        no dibuja ningun numero de seccion
+   ok   fig_ley.pdf            no dibuja ningun numero de seccion
+   ok   fig_ley_es.pdf         no dibuja ningun numero de seccion
+   ok   fig_mapa.pdf           dibuja 3 numeros, como se espera
+   ok   fig_mapa.pdf           2/p           -> dibuja 3, la nota imprime 3
+   ok   fig_mapa.pdf           Gau           -> dibuja 5, la nota imprime 5
+   ok   fig_mapa.pdf           Bring         -> dibuja 4, la nota imprime 4
+   ok   fig_mapa_es.pdf        dibuja 3 numeros, como se espera
+   ok   fig_mapa_es.pdf        2/p           -> dibuja 3, la nota imprime 3
+   ok   fig_mapa_es.pdf        semisistemas  -> dibuja 5, la nota imprime 5
+   ok   fig_mapa_es.pdf        Bring         -> dibuja 4, la nota imprime 4
+   ok   fig_umbral.pdf         no dibuja ningun numero de seccion
+   ok   fig_umbral_es.pdf      no dibuja ningun numero de seccion
+
+CONTROL: el criterio reconoce un numero de seccion plantado
+   ok   reconoce 'la ley de S 5x'
+   ok   reconoce 'ver Section 3x'
+   ok   reconoce 'Sección 4x'
+
+==================================================================================
+comprobaciones: 21 ; fallos: 0
+VEREDICTO: ninguna figura lleva tinta que el texto pueda desmentir

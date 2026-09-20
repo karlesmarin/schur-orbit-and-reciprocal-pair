@@ -1,0 +1,57 @@
+p     h    periodos de Gauss (sumas)      invariantes      por periodos     coincide
+7     1    [1, 2, 3]                      2                2                si
+7     3    [0]                            2                2                si
+11    1    [1, 2, 3, 4, 5]                2                2                si
+11    5    [0]                            2                2                si
+13    1    [1, 2, 3, 4, 5, 6]             4                4                si
+13    3    [0, 0]                         4                4                si
+17    1    [1, 2, 3, 4, 5, 6, 7, 8]       16               16               si
+19    1    [1, 2, 3, 4, 5, 6, 7, 8, 9]    26               26               si
+19    3    [0, 0, 0]                      8                8                si
+19    9    [0]                            2                2                si
+23    1    [1, 2, 3, 4, 5, 6, 7, 8, 9, 1  90               90               si
+23    11   [0]                            2                2                si
+29    1    [1, 2, 3, 4, 5, 6, 7, 8, 9, 1  564              564              si
+29    7    [0, 0]                         4                4                si
+31    1    [1, 2, 3, 4, 5, 6, 7, 8, 9, 1  1058             1058             si
+31    3    [0, 0, 0, 0, 0]                32               32               si
+31    5    [0, 0, 0]                      8                8                si
+31    15   [0]                            2                2                si
+
+casos: 18 ; fallos: 0
+VEREDICTO: los semisistemas H-invariantes SON las elecciones de signo sobre periodos de Gauss
+
+================================================================================================
+EL REMATE: para h > 1 TODOS los periodos son cero, y el recuento se cierra
+================================================================================================
+La suma de un subgrupo H de orden h > 1 de F_p^x es 0: H es el conjunto de raices de
+X^h - 1, cuya suma es el coeficiente de X^{h-1}, que es 0 en cuanto h >= 2.  Luego cada
+periodo sigma(aH) = a * sum(H) = 0 y TODA eleccion de signos cumple la condicion:
+
+        A(h) := #{semisistemas invariantes por el subgrupo de orden h} = 2^{(p-1)/(2h)},
+
+para todo h > 1 impar, mientras que A(1) = N(p).  Con eso el RETICULO DE ORBITAS queda
+determinado por inversion de Mobius sobre los divisores impares de p-1.
+
+p     h     A(h) formula   estab. exacto h  orbitas          medido
+7     1     2              0                0                0        si
+7     3     2              2                1                2        si
+11    1     2              0                0                0        si
+11    5     2              2                1                2        si
+13    1     4              0                0                0        si
+13    3     4              4                1                4        si
+17    1     16             16               1                16       si
+19    1     26             18               1                18       si
+19    3     8              6                1                6        si
+19    9     2              2                1                2        si
+23    1     90             88               4                88       si
+23    11    2              2                1                2        si
+29    1     564            560              20               560      si
+29    7     4              4                1                4        si
+31    1     1058           1020             34               1020     si
+31    3     32             30               3                30       si
+31    5     8              6                1                6        si
+31    15    2              2                1                2        si
+
+casos: 18 ; fallos: 0
+VEREDICTO: el reticulo de orbitas queda descrito en forma cerrada

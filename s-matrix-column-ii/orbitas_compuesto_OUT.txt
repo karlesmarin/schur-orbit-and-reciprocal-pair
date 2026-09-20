@@ -1,0 +1,30 @@
+m     tipo  N(m)     orbitas  estabilizadores (orden: cuantas orbitas) hay h par?
+7     primo 2        1        h=3:1                          no
+9     comp. 2        1        h=3:1                          no
+11    primo 2        1        h=5:1                          no
+13    primo 4        1        h=3:1                          no
+15    comp. 8        1        h=1:1                          no
+17    primo 16       1        h=1:1                          no
+19    primo 26       3        h=1:1 h=3:1 h=9:1              no
+21    comp. 48       4        h=1:4                          no
+23    primo 90       5        h=1:4 h=11:1                   no
+25    comp. 164      9        h=1:8 h=5:1                    no
+27    comp. 302      19       h=1:16 h=3:2 h=9:1             no
+29    primo 564      21       h=1:20 h=7:1                   no
+31    primo 1058     39       h=1:34 h=3:3 h=5:1 h=15:1      no
+33    comp. 1984     100      h=1:99 h=5:1                   no
+35    comp. 3744     158      h=1:155 h=3:3                  no
+37    primo 7084     201      h=1:195 h=3:5 h=9:1            no
+39    comp. 13440    560      h=1:560                        no
+
+ningun estabilizador par en el rango: (i) aguanta tambien para m compuesto aqui.
+
+SUMA DE LOS SUBGRUPOS: para m primo vale 0 en cuanto el orden es >= 2.  Aqui, medido:
+   m=9    subgrupos ciclicos con suma NO nula: [(3, 3)]
+   m=15   subgrupos ciclicos con suma NO nula: [(2, 5), (2, 12), (4, 10)]
+   m=21   subgrupos ciclicos con suma NO nula: [(2, 9), (2, 14)]
+   m=25   subgrupos ciclicos con suma NO nula: [(5, 5)]
+   m=27   subgrupos ciclicos con suma NO nula: [(3, 3), (9, 9)]
+   m=33   subgrupos ciclicos con suma NO nula: [(2, 11), (2, 24), (5, 11), (10, 22)]
+   m=35   subgrupos ciclicos con suma NO nula: [(2, 7), (2, 30), (3, 28), (4, 25), (6, 21)]
+   m=39   subgrupos ciclicos con suma NO nula: [(2, 15), (2, 26), (4, 13)]

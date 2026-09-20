@@ -1,0 +1,66 @@
+(1) FORMULA ELIPTICA PARA n = 5  --  trinomios y curva contados por separado
+p     a_p      N_orb      eps(R5,4,5) 120N+borde   p+1-4a_p     ok
+control: el recuento rapido coincide con el lento en p = 7..23
+7     2        0          0,0,0        0            0            si
+11    -3       0          0,0,1        24           24           si
+13    -4       0          0,1,0        30           30           si
+17    -3       0          0,1,0        30           30           si
+19    5        0          0,0,0        0            0            si
+23    6        0          0,0,0        0            0            si
+29    0        0          0,1,0        30           30           si
+31    2        0          0,0,1        24           24           si
+37    2        0          0,1,0        30           30           si
+41    -3       0          0,1,1        54           54           si
+43    -4       0          1,0,0        60           60           si
+47    12       0          0,0,0        0            0            si
+53    6        0          0,1,0        30           30           si
+59    0        0          1,0,0        60           60           si
+67    -13      1          0,0,0        120          120          si
+79    -10      1          0,0,0        120          120          si
+83    -9       1          0,0,0        120          120          si
+101   -18      1          0,1,1        174          174          si
+103   -4       1          0,0,0        120          120          si
+107   -3       1          0,0,0        120          120          si
+109   -10      1          0,1,0        150          150          si
+113   -9       1          0,1,0        150          150          si
+127   2        1          0,0,0        120          120          si
+137   -3       1          0,1,0        150          150          si
+139   5        1          0,0,0        120          120          si
+149   0        1          0,1,0        150          150          si
+151   2        1          0,0,1        144          144          si
+157   2        1          0,1,0        150          150          si
+163   11       1          0,0,0        120          120          si
+167   12       1          0,0,0        120          120          si
+173   -24      2          0,1,0        270          270          si
+179   -15      2          0,0,0        240          240          si
+181   2        1          0,1,1        174          174          si
+191   -18      2          0,0,1        264          264          si
+193   -19      2          0,1,0        270          270          si
+197   -18      2          0,1,0        270          270          si
+199   20       1          0,0,0        120          120          si
+211   -13      2          0,0,1        264          264          si
+223   -4       2          0,0,0        240          240          si
+227   12       1          1,0,0        180          180          si
+229   20       1          0,1,0        150          150          si
+233   6        1          1,1,0        210          210          si
+239   0        2          0,0,0        240          240          si
+241   17       1          0,1,1        174          174          si
+251   27       1          0,0,1        144          144          si
+primos: 51 ; fallos: 0
+primer p con N_orb > 0 (barrido desde 7): 67
+
+(2) CLEBSCH  #C(F_p) = p^2 + (6 + chi(5)) p + 1
+   p=7    medido=85       formula=85       chi(5)=-1  si
+   p=11   medido=199      formula=199      chi(5)=1   si
+   p=13   medido=235      formula=235      chi(5)=-1  si
+   p=17   medido=375      formula=375      chi(5)=-1  si
+   p=19   medido=495      formula=495      chi(5)=1   si
+   p=23   medido=645      formula=645      chi(5)=-1  si
+   p=29   medido=1045     formula=1045     chi(5)=1   si
+   p=31   medido=1179     formula=1179     chi(5)=1   si
+   p=37   medido=1555     formula=1555     chi(5)=-1  si
+   p=41   medido=1969     formula=1969     chi(5)=1   si
+   p=43   medido=2065     formula=2065     chi(5)=-1  si
+primos: 11 ; fallos: 0
+
+VEREDICTO PARCIAL: elipticas SOBREVIVE ; Clebsch SOBREVIVE

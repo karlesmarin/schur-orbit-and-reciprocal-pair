@@ -1,0 +1,18 @@
+SU(2)_3 p=5: columnas 4, orbitas 2, rango R 4 / prod A 4
+   [prod A_j : R] = 4 = 2^2   v_p = 0   | prediccion 2*gl = 0 -> gl = 0
+   v_p disc R (traza) = 2   | Gepner-Vandermonde: 2
+SU(3)_2 p=5: columnas 6, orbitas 2, rango R 6 / prod A 6
+   [prod A_j : R] = 9 = 3^2   v_p = 0   | prediccion 2*gl = 0 -> gl = 0
+   v_p disc R (traza) = 3   | Gepner-Vandermonde: 3
+SU(3)_4 p=7: columnas 15, orbitas 4, rango R 15 / prod A 15
+   [prod A_j : R] = 83349 = 3^5 * 7^3   v_p = 3   | prediccion 2*gl = 6 -> gl = 3
+   v_p disc R (traza) = 15   | Gepner-Vandermonde: 15
+SU(4)_3 p=7: columnas 20, orbitas 6, rango R 20 / prod A 20
+   [prod A_j : R] = 78675968 = 2^15 * 7^4   v_p = 4   | prediccion 2*gl = 8 -> gl = 4
+   v_p disc R (traza) = 20   | Gepner-Vandermonde: 20
+SU(2)_9 p=11: columnas 10, orbitas 2, rango R 10 / prod A 10
+   [prod A_j : R] = 32 = 2^5   v_p = 0   | prediccion 2*gl = 0 -> gl = 0
+   v_p disc R (traza) = 8   | Gepner-Vandermonde: 8
+SU(3)_8 p=11: columnas 45, orbitas 4, rango R 45 / prod A 45
+   [prod A_j : R] = 33833972129023737 = 3^15 * 11^9   v_p = 9   | prediccion 2*gl = 18 -> gl = 9
+   v_p disc R (traza) = 63   | Gepner-Vandermonde: 63

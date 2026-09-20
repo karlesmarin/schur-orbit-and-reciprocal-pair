@@ -1,0 +1,82 @@
+
+==============================================================================================
+P3b.tex  --  6 secciones: intro -> defecto -> ley -> bring -> centro -> abierto
+
+(1) EL MAPA DE LA SECCION 1 PROMETE LO QUE CADA SECCION ENTREGA
+   ok   defecto: el mapa la anuncia (si) y ella contiene la clasificacion de los defectos pequenos (si)
+   ok   ley: el mapa la anuncia (si) y ella contiene la ley 2/p - 1/p^2 (si)
+   ok   bring: el mapa la anuncia (si) y ella contiene el estrato maximal y el umbral (si)
+   ok   centro: el mapa la anuncia (si) y ella contiene los semisistemas (si)
+
+(2) NINGUNA SECCION ACABA EN UN DATO
+   ok   intro no termina dentro de un bloque medido
+   ok   defecto no termina dentro de un bloque medido
+   ok   ley no termina dentro de un bloque medido
+   ok   bring no termina dentro de un bloque medido
+   ok   centro no termina dentro de un bloque medido
+
+(3) NINGUN ENUNCIADO SE QUEDA SIN QUE NADIE LO USE
+   ok   prop:n4            se invoca 1 vez/veces
+   ok   prop:tricotomia    se invoca 2 vez/veces
+   ok   cor:delta2         se invoca 4 vez/veces
+   ok   lem:delta3         se invoca 8 vez/veces
+   ok   thm:ley            se invoca 11 vez/veces
+   ok   lem:CJ             se invoca 3 vez/veces
+   ok   thm:deltamedia     se invoca 3 vez/veces
+   ok   thm:central        se invoca 4 vez/veces
+   ok   prop:semisistema   se invoca 3 vez/veces
+   ok   prop:familia       se invoca 2 vez/veces
+
+(4) NINGUNA DEMOSTRACION SE APOYA EN ALGO POSTERIOR
+   ok   demostraciones que dependen de una seccion posterior: 0
+
+(5) CADA CIFRA DEL RESUMEN APARECE TAMBIEN EN EL CUERPO
+   ok   cifras del resumen ausentes del cuerpo: ninguna
+
+(6) LOS DATOS QUE VIVEN EN VARIOS SITIOS DICEN LO MISMO
+   ok   el trio 67/163/601 sale entero en 3 sitios y coincide en todos
+   ok   no queda ningun 233/607 suelto, que eran los valores falsos
+   ok   las barras del censo viven en un solo sitio, el pie: {'132': 1, '1348': 1}
+
+==============================================================================================
+P3b_es.tex  --  6 secciones: intro -> defecto -> ley -> bring -> centro -> abierto
+
+(1) EL MAPA DE LA SECCION 1 PROMETE LO QUE CADA SECCION ENTREGA
+   ok   defecto: el mapa la anuncia (si) y ella contiene la clasificacion de los defectos pequenos (si)
+   ok   ley: el mapa la anuncia (si) y ella contiene la ley 2/p - 1/p^2 (si)
+   ok   bring: el mapa la anuncia (si) y ella contiene el estrato maximal y el umbral (si)
+   ok   centro: el mapa la anuncia (si) y ella contiene los semisistemas (si)
+
+(2) NINGUNA SECCION ACABA EN UN DATO
+   ok   intro no termina dentro de un bloque medido
+   ok   defecto no termina dentro de un bloque medido
+   ok   ley no termina dentro de un bloque medido
+   ok   bring no termina dentro de un bloque medido
+   ok   centro no termina dentro de un bloque medido
+
+(3) NINGUN ENUNCIADO SE QUEDA SIN QUE NADIE LO USE
+   ok   prop:n4            se invoca 1 vez/veces
+   ok   prop:tricotomia    se invoca 2 vez/veces
+   ok   cor:delta2         se invoca 4 vez/veces
+   ok   lem:delta3         se invoca 8 vez/veces
+   ok   thm:ley            se invoca 11 vez/veces
+   ok   lem:CJ             se invoca 3 vez/veces
+   ok   thm:deltamedia     se invoca 3 vez/veces
+   ok   thm:central        se invoca 4 vez/veces
+   ok   prop:semisistema   se invoca 3 vez/veces
+   ok   prop:familia       se invoca 2 vez/veces
+
+(4) NINGUNA DEMOSTRACION SE APOYA EN ALGO POSTERIOR
+   ok   demostraciones que dependen de una seccion posterior: 0
+
+(5) CADA CIFRA DEL RESUMEN APARECE TAMBIEN EN EL CUERPO
+   ok   cifras del resumen ausentes del cuerpo: ninguna
+
+(6) LOS DATOS QUE VIVEN EN VARIOS SITIOS DICEN LO MISMO
+   ok   el trio 67/163/601 sale entero en 3 sitios y coincide en todos
+   ok   no queda ningun 233/607 suelto, que eran los valores falsos
+   ok   las barras del censo viven en un solo sitio, el pie: {'132': 1, '1348': 1}
+
+==============================================================================================
+comprobaciones: 48 ; fallos: 0
+VEREDICTO: la nota encaja consigo misma

@@ -1,0 +1,12 @@
+fig_umbral.pdf     mancuerna, 5 filas
+fig_ley.pdf        dos series, 16 primos, locus de 1.53 a 0.22 y corregido de -4.18 a -1.01
+fig_censo.pdf      plegado a p = 19 (8 parejas, 0 discrepancias) + crestas de 5 primos
+fig_hilo.pdf       11 anclas en 4 carriles, 0 solapes de etiqueta
+fig_mapa.pdf       eje delta 0..4, 1606 orbitas, el extremo vacio a p = 19
+fig_escalera.pdf   escalera 1-2-4, 7 familias, 13146 orbitas medidas
+fig_umbral_es.pdf  mancuerna, 5 filas
+fig_ley_es.pdf     dos series, 16 primos, locus de 1.53 a 0.22 y corregido de -4.18 a -1.01
+fig_censo_es.pdf   plegado a p = 19 (8 parejas, 0 discrepancias) + crestas de 5 primos
+fig_hilo_es.pdf    11 anclas en 4 carriles, 0 solapes de etiqueta
+fig_mapa_es.pdf    eje delta 0..4, 1606 orbitas, el extremo vacio a p = 19
+fig_escalera_es.pdf escalera 1-2-4, 7 familias, 13146 orbitas medidas

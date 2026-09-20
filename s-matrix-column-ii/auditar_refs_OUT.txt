@@ -1,0 +1,72 @@
+(1) CLAVES
+    citados sin bibitem : ninguno
+    bibitems sin citar  : ninguno
+
+(2) APELLIDOS EN LA PROSA sin entrada en la bibliografia ni en la lista de epónimos
+    Lemma              x7
+    Figure             x7
+    Observation        x3
+    Step               x3
+    Claude             x2
+    Anthropic          x2
+    Vandermonde        x2
+    Delta              x2
+    Does               x2
+    Definition         x1
+    Remark             x1
+    Carles             x1
+    Independent        x1
+    Schur              x1
+    Gram               x1
+    Steps              x1
+    Sketch             x1
+    Theorems           x1
+    Jacobian           x1
+    Maple              x1
+    Hence              x1
+    Everything         x1
+    Secondary          x1
+    Python             x1
+
+(5) FIGURAS Y ECUACIONES HUERFANAS: una figura que ninguna frase nombra flota sola
+    figura    fig:censo      referida 4 vez/veces   ok
+    figura    fig:escalera   referida 2 vez/veces   ok
+    figura    fig:hilo       referida 1 vez/veces   ok
+    figura    fig:ley        referida 1 vez/veces   ok
+    figura    fig:mapa       referida 1 vez/veces   ok
+    figura    fig:umbral     referida 1 vez/veces   ok
+    ecuacion  eq:Gexp        referida 0 vez/veces   *** HUERFANA ***
+
+(4) EL HILO DE HISTORIA: cada ancla, su fecha, y la SECCION que justifica.
+    La regla de la casa: el parrafo historico que no nombre ninguna seccion, fuera.
+    1786  Bring              -> sec:bring      la forma normal del estrato extremo   ok
+    1801  Gauss              -> sec:centro     el semisistema, y su lema da el (2|p) del recuento   ok
+    1894  Dedekind           -> sec:intro      el conductor: el invariante que mide la identidad   ok
+    1965  Rosa--Znam         -> sec:centro     el recuento ya existia: la retirada de novedad   ok
+    1970  Kunz               -> sec:centro     simetrico <=> Gorenstein, sin monomialidad   ok
+    1973  Sloane             -> sec:centro     la sucesion catalogada y sin formula   ok
+    1988  Verlinde           -> sec:intro      la columna como dimensiones cuanticas   ok
+    2021  Korchmaros et al.  -> sec:bring      la curva de Bring generalizada y su genero   ok
+    secciones SIN ancla historica: ['sec:defecto', 'sec:ley']
+    (son las dos tecnicas: de donde sale el defecto, y la ley.  No se les fuerza una.)
+
+(3) FECHAS SUELTAS en la prosa, y si la frase lleva cita cerca
+    2026   SIN  ...0 September 2026. Carles Marin. % % Thread: the p-adic valuation of disc R splits into ramification + 2*d...
+    1965   SIN  ...ogued since 1965 and an exact relabelling of the Fermat quotient of $2$. \end{abstract} \noindent\textbf{...
+    1978   SIN  ...ct is from 1978 and the first instrument from 2006, with nothing in between --- and it is the point: noth...
+    2006   SIN  ...ument from 2006, with nothing in between --- and it is the point: nothing here was invented for the purpo...
+    1786   cita ...quintic in 1786~\cite{Bri1786} --- counted for $n=5$ by an elliptic curve of conductor $50$, and that sec...
+    1801   cita ...s built in 1801~\cite{Gau01} to prove quadratic reciprocity, which give an infinite family of non-Gorenst...
+    1988   SIN  ...de's, from 1988; the objects --- Bring's trinomial, Gauss's half-system, Dedekind's conductor, Kunz's cri...
+    1786   SIN  ...ote down in 1786; the second is the device Gauss built in 1801 to prove quadratic reciprocity. % ENTRA: l...
+    1801   SIN  ...auss built in 1801 to prove quadratic reciprocity. % ENTRA: la ley, con los cuatro pasos escritos: % 1. #...
+    2018   SIN  ...y Weil (Li-Wan 2018); % 3. inclusion-exclusion #{M_2 M_3 = 0} = C_{1,2} + C_{1,3} - C_{1,2,3}; % 4. los c...
+    1786   cita ... quintic in 1786~\cite{Bri1786}. The coincidence is not one: it is the same equation seen twice. \subsect...
+    1965   cita ...roduced in 1965 the sets ``of type $(\ast)$'' --- sum $\equiv0$, no pair $\{x,-x\}$ --- and proved that w...
+    1973   cita ...ndbook} of 1973, and as \textsf{A262568}, which is \textsf{A002703} shifted by two and was entered in 201...
+    2015   SIN  ...entered in 2015. Their formulas are by partitions, valid for every $n$, with no primality and no Legendre...
+    1965   SIN  ...stro: Rosa-Znam 1965, OEIS A262568 desde 1973, verificado contra % la b-file con offset 3, 36 terminos, 0...
+    1973   SIN  ...IS A262568 desde 1973, verificado contra % la b-file con offset 3, 36 terminos, 0 discrepancias. Lo nuest...
+    2001   SIN  ...llant (arXiv:2001.03471, Thm 12), que si da un criterio. % (c) La familia no Gorenstein NO es "infinita y...
+    2020   SIN  ...ection*{MSC 2020} Primary 11R18; Secondary 20M14, 13H10, 11L05, 11T23, 14H45, 17B67, 81T40. \section*{Dec...
+    2026   SIN  ...O el 20-sep-2026. Los guiones de trabajo se llamaban P3b_*, y algunos % (P3b_juicio_consulta8.py) codific...

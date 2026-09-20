@@ -1,0 +1,60 @@
+================================================================================================
+Delta(n, p) = suma de delta sobre orbitas de espectros centrados,  p <= 31, n <= 7
+================================================================================================
+p = 5
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=4       Delta/orbitas=0         reparto=0:1
+   n=3   Delta=0       orbitas=1      columnas=C(p-1,n-1)=6       Delta/orbitas=0         reparto=0:1
+p = 7
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=6       Delta/orbitas=0         reparto=0:1
+   n=3   Delta=0       orbitas=2      columnas=C(p-1,n-1)=15      Delta/orbitas=0         reparto=0:2
+   n=4   Delta=0       orbitas=2      columnas=C(p-1,n-1)=20      Delta/orbitas=0         reparto=0:2
+   n=5   Delta=0       orbitas=1      columnas=C(p-1,n-1)=15      Delta/orbitas=0         reparto=0:1
+p = 11
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=10      Delta/orbitas=0         reparto=0:1
+   n=3   Delta=1       orbitas=2      columnas=C(p-1,n-1)=45      Delta/orbitas=1/2       reparto=0:1 1:1
+   n=4   Delta=2       orbitas=4      columnas=C(p-1,n-1)=120     Delta/orbitas=1/2       reparto=0:2 1:2
+   n=5   Delta=3       orbitas=6      columnas=C(p-1,n-1)=210     Delta/orbitas=1/2       reparto=0:3 1:3
+   n=6   Delta=3       orbitas=6      columnas=C(p-1,n-1)=252     Delta/orbitas=1/2       reparto=0:3 1:3
+   n=7   Delta=2       orbitas=4      columnas=C(p-1,n-1)=210     Delta/orbitas=1/2       reparto=0:2 1:2
+p = 13
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=12      Delta/orbitas=0         reparto=0:1
+   n=3   Delta=1       orbitas=3      columnas=C(p-1,n-1)=66      Delta/orbitas=1/3       reparto=0:2 1:1
+   n=4   Delta=3       orbitas=7      columnas=C(p-1,n-1)=220     Delta/orbitas=3/7       reparto=0:4 1:3
+   n=5   Delta=7       orbitas=10     columnas=C(p-1,n-1)=495     Delta/orbitas=7/10      reparto=0:3 1:7
+   n=6   Delta=9       orbitas=14     columnas=C(p-1,n-1)=792     Delta/orbitas=9/14      reparto=0:5 1:9
+   n=7   Delta=9       orbitas=14     columnas=C(p-1,n-1)=924     Delta/orbitas=9/14      reparto=0:5 1:9
+p = 17
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=16      Delta/orbitas=0         reparto=0:1
+   n=3   Delta=2       orbitas=3      columnas=C(p-1,n-1)=120     Delta/orbitas=2/3       reparto=0:1 1:2
+   n=4   Delta=7       orbitas=11     columnas=C(p-1,n-1)=560     Delta/orbitas=7/11      reparto=0:4 1:7
+   n=5   Delta=22      orbitas=25     columnas=C(p-1,n-1)=1820    Delta/orbitas=22/25     reparto=0:4 1:20 2:1
+   n=6   Delta=46      orbitas=49     columnas=C(p-1,n-1)=4368    Delta/orbitas=46/49     reparto=0:7 1:38 2:4
+   n=7   Delta=73      orbitas=75     columnas=C(p-1,n-1)=8008    Delta/orbitas=73/75     reparto=0:7 1:63 2:5
+p = 19
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=18      Delta/orbitas=0         reparto=0:1
+   n=3   Delta=2       orbitas=4      columnas=C(p-1,n-1)=153     Delta/orbitas=1/2       reparto=0:2 1:2
+   n=4   Delta=9       orbitas=14     columnas=C(p-1,n-1)=816     Delta/orbitas=9/14      reparto=0:5 1:9
+   n=5   Delta=35      orbitas=36     columnas=C(p-1,n-1)=3060    Delta/orbitas=35/36     reparto=0:4 1:29 2:3
+   n=6   Delta=80      orbitas=86     columnas=C(p-1,n-1)=8568    Delta/orbitas=40/43     reparto=0:12 1:68 2:6
+   n=7   Delta=155     orbitas=154    columnas=C(p-1,n-1)=18564   Delta/orbitas=155/154   reparto=0:12 1:130 2:11 3:1
+p = 23
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=22      Delta/orbitas=0         reparto=0:1
+   n=3   Delta=3       orbitas=4      columnas=C(p-1,n-1)=231     Delta/orbitas=3/4       reparto=0:1 1:3
+   n=4   Delta=17      orbitas=20     columnas=C(p-1,n-1)=1540    Delta/orbitas=17/20     reparto=0:5 1:14 3:1
+   n=5   Delta=70      orbitas=69     columnas=C(p-1,n-1)=7315    Delta/orbitas=70/69     reparto=0:5 1:59 2:4 3:1
+   n=6   Delta=206     orbitas=207    columnas=C(p-1,n-1)=26334   Delta/orbitas=206/207   reparto=0:14 1:180 2:13
+   n=7   Delta=516     orbitas=492    columnas=C(p-1,n-1)=74613   Delta/orbitas=43/41     reparto=0:14 1:441 2:36 3:1
+p = 29
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=28      Delta/orbitas=0         reparto=0:1
+   n=3   Delta=4       orbitas=5      columnas=C(p-1,n-1)=378     Delta/orbitas=4/5       reparto=0:1 1:4
+   n=4   Delta=28      orbitas=33     columnas=C(p-1,n-1)=3276    Delta/orbitas=28/33     reparto=0:7 1:25 3:1
+   n=5   Delta=153     orbitas=150    columnas=C(p-1,n-1)=20475   Delta/orbitas=51/50     reparto=0:7 1:134 2:8 3:1
+   n=6   Delta=608     orbitas=598    columnas=C(p-1,n-1)=98280   Delta/orbitas=304/299   reparto=0:25 1:540 2:32 4:1
+   n=7   Delta=2043    orbitas=1936   columnas=C(p-1,n-1)=376740  Delta/orbitas=2043/1936  reparto=0:26 1:1785 2:118 3:6 4:1
+p = 31
+   n=2   Delta=0       orbitas=1      columnas=C(p-1,n-1)=30      Delta/orbitas=0         reparto=0:1
+   n=3   Delta=4       orbitas=6      columnas=C(p-1,n-1)=435     Delta/orbitas=2/3       reparto=0:2 1:4
+   n=4   Delta=32      orbitas=38     columnas=C(p-1,n-1)=4060    Delta/orbitas=16/19     reparto=0:8 1:29 3:1
+   n=5   Delta=190     orbitas=187    columnas=C(p-1,n-1)=27405   Delta/orbitas=190/187   reparto=0:8 1:169 2:9 3:1
+   n=6   Delta=818     orbitas=811    columnas=C(p-1,n-1)=142506  Delta/orbitas=818/811   reparto=0:35 1:736 2:39 4:1
+   n=7   Delta=2993    orbitas=2846   columnas=C(p-1,n-1)=593775  Delta/orbitas=2993/2846  reparto=0:34 1:2644 2:156 3:11 4:1

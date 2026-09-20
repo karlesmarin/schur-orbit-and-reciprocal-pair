@@ -1,0 +1,6 @@
+orbitas examinadas: 7935  (p <= 31, 3 <= n <= 7)
+fallos de la recurrencia de Newton      : 0
+fallos de la cascada M_2=0 => M_5=0 (n=4): 0
+orbitas con n = 4 y delta = 2            : 0 []
+
+VEREDICTO: la explicacion SOBREVIVE

@@ -1,0 +1,39 @@
+========================================================================================
+T1/T2 -- el extremo: ¿defecto maximo <=> trinomio?  Las dos direcciones, por separado.
+========================================================================================
+p     n    orb h=1   CON ab!=0 (Parte I)        SIN ab!=0 (como lo cita P3b)
+11    4    2         ok                         ok                        
+13    4    3         ok                         ok                        
+17    4    7         ok                         ok                        
+19    4    9         ok                         ok                        
+23    4    15        ok                         ok                        
+29    4    26        ok                         ok                        
+31    4    30        ok                         ok                        
+37    4    45        ok                         ok                        
+41    4    57        ok                         ok                        
+43    4    63        ok                         ok                        
+47    4    77        ok                         ok                        
+
+========================================================================================
+D1/D2/D3 -- el centro
+========================================================================================
+  semisistemas centrados (con el cero admitido): 14 ; orbitas con delta >= 3: 8
+
+  D1  momentos pares nulos y NO semisistema : 0
+
+  D2  delta >= 3 y NO semisistema           : 4 de 8
+        p=19  n=7  T=(1, 2, 3, 8, 12, 15, 16)       delta=3 huecos=(1, 2, 3)
+        p=19  n=8  T=(0, 1, 2, 3, 8, 12, 15, 16)    delta=3 huecos=(1, 2, 3)
+        p=19  n=11 T=(1, 2, 3, 4, 5, 8, 10, 13, 14, 17, 18) delta=3 huecos=(1, 2, 3)
+        p=19  n=12 T=(0, 1, 2, 3, 4, 5, 8, 10, 13, 14, 17, 18) delta=3 huecos=(1, 2, 3)
+
+  D3  semisistema h=1, M3M5M7!=0, S_T != <3,5,7> : 0
+
+========================================================================================
+VEREDICTO
+========================================================================================
+  T1 con ab != 0, como lo enuncia la Parte I : SE SOSTIENE
+  T2 sin ab != 0, como lo cita la Nota II    : se sostiene
+  D1 momentos pares nulos => semisistema     : se sostiene con el cero admitido
+  D2 las mas profundas son los semisistemas  : FALSO: 4 de 8 orbitas de delta>=3 no lo son
+  D3 <3,5,7> con h=1 y M3M5M7 != 0           : SE SOSTIENE

@@ -1,0 +1,16 @@
+
+P3b.tex
+   ok   sin tabuladores en el fuente
+   ok   ningun comando conocido sin su contrabarra
+   ok   ninguna contrabarra comida por un escape
+   ok   control: el criterio caza un \textsf plantado con la barra comida
+
+P3b_es.tex
+   ok   sin tabuladores en el fuente
+   ok   ningun comando conocido sin su contrabarra
+   ok   ninguna contrabarra comida por un escape
+   ok   control: el criterio caza un \textsf plantado con la barra comida
+
+==================================================================================
+comprobaciones: 8 ; fallos: 0
+VEREDICTO: ningun comando roto

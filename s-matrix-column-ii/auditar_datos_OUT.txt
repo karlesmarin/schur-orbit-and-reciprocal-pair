@@ -1,0 +1,79 @@
+(1) EL GENERO: formula recalculada, y contra la forma de Korchmaros-Lia-Timpanella
+   ok   n=5: nuestra forma 4 == la suya 4
+   ok   n=6: nuestra forma 49 == la suya 49
+   ok   n=7: nuestra forma 481 == la suya 481
+   ok   n=8: nuestra forma 4681 == la suya 4681
+   ok   n=9: nuestra forma 47881 == la suya 47881
+   ok   la lista 4, 49, 481, 4681, 47881 esta en el tex
+
+(2) LA TABLA DE LA FRONTERA: las veinte celdas, recalculadas
+   ok   g_5 = 4
+   ok   (2g_5)^2 = 64
+   ok   5! = 120
+   ok   cociente 0.5 (calculado 0.5)
+   ok   g_6 = 49
+   ok   (2g_6)^2 = 9604
+   ok   6! = 720
+   ok   cociente 13.3 (calculado 13.3)
+   ok   g_7 = 481
+   ok   (2g_7)^2 = 925444
+   ok   7! = 5040
+   ok   cociente 183.6 (calculado 183.6)
+   ok   g_8 = 4681
+   ok   (2g_8)^2 = 87647044
+   ok   8! = 40320
+   ok   cociente 2173.8 (calculado 2173.8)
+
+(3) N(p): la formula, recalculada contra fuerza bruta
+   ok   N(7) = 2 por formula y por fuerza bruta
+   ok   N(11) = 2 por formula y por fuerza bruta
+   ok   N(13) = 4 por formula y por fuerza bruta
+   ok   N(17) = 16 por formula y por fuerza bruta
+   ok   N(19) = 26 por formula y por fuerza bruta
+   ok   N(23) = 90 por formula y por fuerza bruta
+   ok   la formula de N(p) esta en el tex
+
+(4) LAS CUENTAS CARAS: cada una, en la salida del guion que la produjo
+   ok   7935       en cascada_newton_OUT.txt
+   ok   438        en tricotomia_OUT.txt
+   ok   2924       en semisistemas_OUT.txt
+   ok   36         en oeis_A262568_OUT.txt
+   ok   199        en semisistemas_cuenta_OUT.txt
+   ok   427        en sato_tate_OUT.txt
+   ok   0.0097     en sato_tate_OUT.txt
+   ok   1093       en cociente_fermat_OUT.txt
+   ok   3511       en cociente_fermat_OUT.txt
+   ok   67  (n=5)  en umbral_real_OUT.txt
+   ok   163 (n=6)  en umbral_real_OUT.txt
+   ok   601 (n=7)  en umbral_real_OUT.txt
+   ok   67 = primer N>0 en extremo_bring_OUT.txt
+   ok   51 primos  en extremo_bring_OUT.txt
+   ok   34/3/1/1   en orbitas_compuesto_OUT.txt
+
+(4b) Y QUE LA NOTA DIGA LO MISMO, no solo el guion
+   ok   n=5: la nota cita la primera aparicion 67
+   ok   n=5: el falso 233 solo aparece en la nota de erratas (0 apariciones)
+   ok   n=6: la nota cita la primera aparicion 163
+   ok   n=6: el falso 607 solo aparece en la nota de erratas (0 apariciones)
+   ok   n=7: la nota cita la primera aparicion 601
+
+(5) LA TABLA DE CONVERGENCIA: cada celda, contra la salida de ley_2p_largo
+   ok   p=37  resto 1.06  (medido 1.0587)
+   ok   p=43  resto 0.89  (medido 0.8872)
+   ok   p=53  resto 0.60  (medido 0.6047)
+   ok   p=59  resto 0.49  (medido 0.4910)
+   ok   p=67  resto 0.40  (medido 0.3966)
+   ok   p=73  resto 0.33  (medido 0.3272)
+   ok   p=83  resto 0.28  (medido 0.2829)
+   ok   p=89  resto 0.22  (medido 0.2232)
+   ok   p=97  resto 0.22  (medido 0.2151)
+   ok   el resto cae de 1.06 a 0.22
+   ok   las reversiones son exactamente p = 43 y 67 (medidas: [43, 67])
+
+(6) EL 34/3/1/1 DE p = 31, y el 38 -> 21 de la seccion 5
+   ok   34 libres, 3 con h=3, 1 con h=5, 1 con h=15
+   ok   resto*p va de 38 a 21 (el tex dice 38 y 21)
+
+======================================================================
+comprobaciones: 62 ; fallos: 0
+VEREDICTO: todos los numeros de la nota tienen origen

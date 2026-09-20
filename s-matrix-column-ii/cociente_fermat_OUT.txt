@@ -1,0 +1,11 @@
+primos con la identidad N(p) = (2|p)(1 + q_2(p)/2) mod p comprobada: 93 ; fallos: 0
+primos de Wieferich hallados por debajo de 500: ninguno
+
+los dos de Wieferich conocidos, con N(p) mod p calculado aparte:
+   p=1093   (2|p)=-1   N(p) mod p = 1092    (2|p) mod p = 1092    COINCIDE: criterio de Wieferich
+   p=3511   (2|p)=1    N(p) mod p = 1       (2|p) mod p = 1       COINCIDE: criterio de Wieferich
+
+un control de no-Wieferich, donde el criterio debe FALLAR:
+   p=101    N(p) mod p = 54      (2|p) mod p = 100     distintos, como debe ser
+   p=2003   N(p) mod p = 1788    (2|p) mod p = 2002    distintos, como debe ser
+   p=5003   N(p) mod p = 2204    (2|p) mod p = 5002    distintos, como debe ser

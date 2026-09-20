@@ -1,0 +1,69 @@
+(0) FIG. 1, EL HILO: la particion que el pie afirma
+   ok   los 6 objetos son anteriores a 1988 (el ultimo, 1978)
+   ok   los 3 instrumentos son posteriores (el primero, 2006)
+   ok   el hueco entre el ultimo objeto y el primer instrumento es de 28 anos
+   ok   los dos pies citan los dos bordes de la particion, 1978 y 2006
+   ok   los dos pies nombran a Odlyzko y Stanley, que es el objeto mas tardio
+
+(2) FIG. 2, EL MAPA: las barras del censo a p = 19
+   ok   las barras medidas son [132, 1348, 120, 6]
+   ok   el pie cita la barra 132 en los dos idiomas
+   ok   el pie cita la barra 1348 en los dos idiomas
+   ok   el pie cita la barra 120 en los dos idiomas
+   ok   el pie cita la barra 6 en los dos idiomas
+   ok   el pie dice que el estrato extremo esta en C(n-1,2) y no en una casilla fija
+   ok   el total de orbitas es 1606
+
+(3) FIG. 3, EL CENSO PLEGADO: las parejas y las crestas
+   ok   a p = 19 hay 8 parejas y 0 discrepancias
+   ok   los dos pies dicen ocho parejas
+   ok   y la distribucion entera tambien coincide (0 fallos)
+
+(4) FIG. 4, EL UMBRAL: las estrellas y los dos extremos de cada barra
+   ok   primeras apariciones medidas: {5: 67, 6: 163, 7: 601}
+   ok   n=5: la estrella 67 cae a la IZQUIERDA de n! = 120
+   ok   el pie cita 67 en los dos idiomas
+   ok   n=6: la estrella 163 cae a la IZQUIERDA de n! = 720
+   ok   el pie cita 163 en los dos idiomas
+   ok   n=7: la estrella 601 cae a la IZQUIERDA de n! = 5040
+   ok   el pie cita 601 en los dos idiomas
+   ok   la cota se pasa por {5: 1, 6: 59, 7: 1540}
+   ok   OJO n=5: la cota (2g)^2 = 64 es MENOR que la primera aparicion 67, o sea NO se pasa
+
+(5) FIG. 5, LAS DOS SERIES: rango y extremos
+   ok   la figura dibuja 16 primos, de 29 a 97
+   ok   la TABLA lleva 15 primos, de 31 a 97
+   ok   la figura lleva 1 primo(s) que la tabla no ([29]) y los dos pies declaran el rango
+   ok   las dos series tienen signo constante y opuesto, como dice el pie
+   ok   el ultimo valor corregido es -1.0137
+   ok   los dos pies nombran el termino de estabilizadores
+
+(5b) FIG. 6, LA ESCALERA: la cuenta de familias por genero y sus recuentos
+   ok   la escalera mide [1, 2, 4] familias por genero, y la figura dibuja 1, 2, 4
+   ok   la escalera se midio sin fallos de condicion
+   ok   delta=1  <2,3>      12228 orbitas
+   ok   delta=2  <3,4,5>    451 orbitas
+   ok   delta=2  <2,5>      403 orbitas
+   ok   delta=3  <4,5,6,7>  16 orbitas
+   ok   delta=3  <3,5,7>    19 orbitas
+   ok   delta=3  <3,4>      27 orbitas
+   ok   delta=3  <2,7>      2 orbitas
+   ok   los dos pies dicen de donde sale el 3 = -1 + 4
+
+(6) LOS PDF SON POSTERIORES A SU GUION, en los dos idiomas
+   ok   fig_hilo.pdf al dia
+   ok   fig_hilo_es.pdf al dia
+   ok   fig_mapa.pdf al dia
+   ok   fig_mapa_es.pdf al dia
+   ok   fig_censo.pdf al dia
+   ok   fig_censo_es.pdf al dia
+   ok   fig_umbral.pdf al dia
+   ok   fig_umbral_es.pdf al dia
+   ok   fig_ley.pdf al dia
+   ok   fig_ley_es.pdf al dia
+   ok   fig_escalera.pdf al dia
+   ok   fig_escalera_es.pdf al dia
+
+==============================================================================
+comprobaciones: 52 ; fallos: 0
+VEREDICTO: cada figura dice lo que dibuja

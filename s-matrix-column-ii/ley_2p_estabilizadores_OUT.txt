@@ -1,0 +1,47 @@
+n = 8.  U = C12 + C13 - C123 cuenta el LOCUS; F_8 cuenta delta >= 2.
+Todo T centrado con h > 1 esta en el locus (h par => todos los momentos impares se
+anulan => M_3 = 0), asi que la correccion es siempre NEGATIVA o nula.
+
+p     h>1        de esos d>=2 control   correccion  (F-2/p)p^2+1  reparto de delta
+29    1005       0         ok        -1005       (ver abajo)   {0: 991, 1: 14}
+31    1365       0         ok        -1365       (ver abajo)   {0: 1320, 1: 45}
+37    3060       0         ok        -3060       (ver abajo)   {0: 3006, 1: 54}
+41    4845       0         ok        -4845       (ver abajo)   {0: 4765, 1: 80}
+43    5991       0         ok        -5991       (ver abajo)   {0: 5844, 1: 147}
+47    8855       0         ok        -8855       (ver abajo)   {0: 8671, 1: 184}
+53    14950      0         ok        -14950      (ver abajo)   {0: 14742, 1: 208}
+59    23751      0         ok        -23751      (ver abajo)   {0: 23345, 1: 406}
+61    27405      0         ok        -27405      (ver abajo)   {0: 27045, 1: 360}
+67    40920      0         ok        -40920      (ver abajo)   {0: 40293, 1: 627}
+71    52370      35        ok        -52335      (ver abajo)   {0: 51635, 1: 700, 3: 35}
+73    58905      0         ok        -58905      (ver abajo)   {0: 58221, 1: 684}
+79    82251      0         ok        -82251      (ver abajo)   {0: 81198, 1: 1053}
+83    101270     0         ok        -101270     (ver abajo)   {0: 100040, 1: 1230}
+89    135751     0         ok        -135751     (ver abajo)   {0: 134431, 1: 1320}
+97    194580     0         ok        -194580     (ver abajo)   {0: 192804, 1: 1776}
+
+La correccion es (numero con delta>=2) - (numero en el locus) = d2 - h>1, siempre <= 0.
+Numerador correcto de F_8(p) = U + correccion.
+
+================================================================================================
+LA TABLA DE LA NOTA, ANTES Y DESPUES.  La publicada media el locus; la buena mide F_8.
+================================================================================================
+p     U (locus)  correccion  numerador   publicado      corregido      signo
+29    10301      -1005       9296        1.5328         -4.1779        cambia de signo
+31    16635      -1365       15270       1.8205         -3.3343        cambia de signo
+37    56448      -3060       53388       1.0587         -2.9559        cambia de signo
+41    113405     -4845       108560      0.8015         -2.6933        cambia de signo
+43    156645     -5991       150654      0.8872         -2.3976        cambia de signo
+47    283797     -8855       274942      0.7000         -2.2237        cambia de signo
+53    628706     -14950      613756      0.6047         -1.9065        cambia de signo
+59    1268547    -23751      1244796     0.4910         -1.7088        cambia de signo
+61    1574865    -27405      1547460     0.3872         -1.7251        cambia de signo
+67    2892846    -40920      2851926     0.3966         -1.4903        cambia de signo
+71    4201900    -52335      4149565     0.3562         -1.4044        cambia de signo
+73    5021649    -58905      4962744     0.3272         -1.3775        cambia de signo
+79    8324121    -82251      8241870     0.3134         -1.2410        cambia de signo
+83    11401608   -101270     11300338    0.2829         -1.1851        cambia de signo
+89    17754583   -135751     17618832    0.2232         -1.1319        cambia de signo
+97    30595284   -194580     30400704    0.2151         -1.0137        cambia de signo
+
+El residuo corregido se acerca a cero POR ABAJO, no por arriba: la nota lo contaba al reves.

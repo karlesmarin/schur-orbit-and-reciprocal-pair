@@ -1,0 +1,18 @@
+b-file local: E:\proyectos\Curiosity\research\orbit-pair\gates\b262568.txt (372 bytes)
+terminos en la b-file: 36 ; primer indice: 3 ; ultimo: 38
+OFFSET de la sucesion = 3 ; a(3) = 2
+
+n      m=2n+1 b-file                   nuestra formula          coincide
+3      7      2                        2                        si
+4      9      2                        2                        si
+5      11     2                        2                        si
+6      13     4                        4                        si
+7      15     8                        8                        si
+8      17     16                       16                       si
+9      19     26                       26                       si
+36     73     941362696                941362696                si
+37     75     1832519264               1832519264               si
+38     77     3569842948               3569842948               si
+
+terminos comparados: 36 ; discrepancias: 0
+VEREDICTO: la formula reproduce la b-file ENTERA con el offset de la OEIS
