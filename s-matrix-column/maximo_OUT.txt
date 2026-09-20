@@ -1,0 +1,40 @@
+(1) split trinomials give the largest defect
+   n=4 p=23:   22 split trinomials (p^2/n! =   22.0), delta = 3 in all: True
+   n=4 p=29:   28 split trinomials (p^2/n! =   35.0), delta = 3 in all: True
+   n=4 p=31:   30 split trinomials (p^2/n! =   40.0), delta = 3 in all: True
+   n=4 p=37:   36 split trinomials (p^2/n! =   57.0), delta = 3 in all: True
+   n=4 p=41:   40 split trinomials (p^2/n! =   70.0), delta = 3 in all: True
+   n=4 p=43:   42 split trinomials (p^2/n! =   77.0), delta = 3 in all: True
+   n=4 p=47:   92 split trinomials (p^2/n! =   92.0), delta = 3 in all: True
+   n=4 p=53:  104 split trinomials (p^2/n! =  117.0), delta = 3 in all: True
+   n=4 p=59:  116 split trinomials (p^2/n! =  145.0), delta = 3 in all: True
+   n=4 p=61:  120 split trinomials (p^2/n! =  155.0), delta = 3 in all: True
+   n=4 p=67:  132 split trinomials (p^2/n! =  187.0), delta = 3 in all: True
+   n=4 p=71:  210 split trinomials (p^2/n! =  210.0), delta = 3 in all: True
+   n=5 p=67:   66 split trinomials (p^2/n! =   37.4), delta = 6 in all: True
+(2) the converse, by enumeration of centred spectra with h = 1
+   n=4 p=23:   22 spectra of genus 3, not from a trinomial: 0
+   n=4 p=29:   28 spectra of genus 3, not from a trinomial: 0
+   n=4 p=31:   30 spectra of genus 3, not from a trinomial: 0
+   n=4 p=37:   36 spectra of genus 3, not from a trinomial: 0
+   n=4 p=41:   40 spectra of genus 3, not from a trinomial: 0
+   n=4 p=43:   42 spectra of genus 3, not from a trinomial: 0
+   n=4 p=47:   92 spectra of genus 3, not from a trinomial: 0
+   n=4 p=53:  104 spectra of genus 3, not from a trinomial: 0
+   n=4 p=59:  116 spectra of genus 3, not from a trinomial: 0
+   n=4 p=61:  120 spectra of genus 3, not from a trinomial: 0
+   n=4 p=67:  132 spectra of genus 3, not from a trinomial: 0
+   n=4 p=71:  210 spectra of genus 3, not from a trinomial: 0
+   n=5 p= 7:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=11:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=13:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=17:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=19:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=23:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=29:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=31:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=37:    0 spectra of genus 6, not from a trinomial: 0
+   n=5 p=41:    0 spectra of genus 6, not from a trinomial: 0
+(3) the example
+   p=67 T=[9, 27, 50, 52, 63]: coefficients (X^0..X^5) [27, 2, 0, 0, 0, 1] ; Gamma_T = <4,5> ; delta by lattices = 6
+failures: 0

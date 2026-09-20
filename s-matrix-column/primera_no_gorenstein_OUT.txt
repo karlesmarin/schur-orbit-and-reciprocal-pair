@@ -1,0 +1,10 @@
+(1) n = 3, 4, p <= 31: semigroups that occur (by their gaps)
+   n=3: [((), (1,), True), ((1,), (2, 3), True)]
+   n=4: [((), (1,), True), ((1,), (2, 3), True), ((1, 2, 5), (3, 4), True)]
+(2) the first non-symmetric S_T, by n and then by p
+   n=5, p=17, orbit of T=(1, 2, 3, 13, 15): S_T = <3,4,5>, gaps [1, 2], h = 1, M_1..M_5 = [0, 0, 15, 13, 2]
+(3) the column SU(5)_12, mu = (0,0,2,1), and the control mu = 0
+   mu=(0, 0, 2, 1): T=[1, 2, 3, 13, 15], L=20 (L mod 5 = 0), m=1, S_T gaps [1, 2], conductor 3; semigroup index 17^2
+        lattices: degree 16, [O:A] = 17^2, [A:f] = 17, [O:f] = 17^3 -> NOT Gorenstein
+   mu=(0, 0, 0, 0): T=[0, 1, 2, 15, 16], L=10 (L mod 5 = 0), m=1, S_T gaps [], conductor 0; semigroup index 1
+        lattices: degree 8, [O:A] = 1, [A:f] = 1, [O:f] = 1 -> Gorenstein

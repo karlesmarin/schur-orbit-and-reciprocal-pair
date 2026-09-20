@@ -1,0 +1,39 @@
+the first column that is not Gorenstein: SU(5)_12, mu = (0,0,2,1)
+   T = [1, 2, 3, 13, 15], M_1..M_5 = [0, 0, 15, 13, 2], h = 1                     ok
+   S_T = <3,4,5>, gaps {1,2}, not symmetric                                       ok
+   m = 1, [O:A] = 17^2 by the semigroup                                           ok
+   by integer lattices: [O:A] = 17^2, [A:f] = 17, not Gorenstein                  ok
+   control mu = 0: [O:A] = [A:f] = 1                                              ok
+small n: every semigroup is N_0, <2,3> or <3,4>
+   n = 3, 4 and p <= 19: only N_0, <2,3>, <3,4>                                   ok
+   first non-symmetric S_T, by n and then p: n = 5, p = 17                        ok
+the index is the number of gaps: delta by lattices = g(S_T) = g(Gamma_T)
+   57 orbits, 3 <= n <= 6, p <= 13: 0 disagreements                               ok
+the vacuum column is maximal
+   mu = 0: delta = 0 for every SU(n)_{p-n}, p <= 23                               ok
+   mu = 0 of SU(3)_8 by lattices: [O:A] = 1                                       ok
+the conformal weight sees M_2
+   M_2(T_mu) = |mu+rho|^2 mod p on all 120 columns of SU(4)_7                     ok
+   SU(6)_11 (0,0,0,0,1), (0,2,0,0,5): weight 35/204, charge 5, h = 1, degree 32   ok
+   ... and semigroups <2,3>, <2,5>, indices 17^2, 17^4                            ok
+   the two indices again, by integer lattices                                     ok
+   SU(5)_14 (5,0,4,2): M_2 = 1, M_3 = 0, S_T = <2,5>, index 19^2                  ok
+   decoy 'delta = 1 <=> h = 1 and M_2 != 0' fails there                           ok
+level-rank
+   SU(n)_k and SU(k)_n: same proportions of semigroups (3,4), (3,8), (5,6)        ok
+   T' = -(F_17 minus T) of T = {1,2,3,13,15}: same semigroup, delta = 2           ok
+the maximal columns
+   N_0(17, 5) = 140, formula = enumeration                                        ok
+   N_0(17, 8) = 560, formula = enumeration                                        ok
+   N_0(19, 9) = 1233, formula = enumeration                                       ok
+the largest defect
+   p = 67, T = [9, 27, 50, 52, 63]: polynomial X^5 + 2X + 27                      ok
+   Gamma_T = <4,5>, delta = 6 = (n-1)(n-2)/2, by the semigroup and by lattices    ok
+composite height
+   SU(3)_11 (q = 14), mu = (0,1): [O:A] = 2^8, [A:f] = 2^4, not Gorenstein        ok
+guards
+   espectro declines at composite height 14                                       ok
+   semigrupo declines generators with a common factor                             ok
+   orden_columna declines N above ORDEN_MAX                                       ok
+
+SELF-TEST: all correct

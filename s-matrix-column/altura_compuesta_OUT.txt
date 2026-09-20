@@ -1,0 +1,34 @@
+(1) Gorenstein test
+   SU(5)_12 q=17 mu=(0, 0, 2, 1): exponents mod 85 = [15, 10, 5, 75, 65], degree 16, [O:A] = 17^2, [A:f] = 17, [O:f] = 17^3 -> NOT Gorenstein
+   SU(5)_12 q=17 mu=(0, 0, 0, 0): exponents mod 85 = [10, 5, 0, 80, 75], degree 8, [O:A] = 1, [A:f] = 1, [O:f] = 1 -> Gorenstein
+  ok     controls at prime height as predicted by the semigroups <3,4,5> and N_0
+   SU(3)_11 q=14 mu=(0, 1): exponents mod 42 = [4, 1, 37], degree 12, [O:A] = 2^8, [A:f] = 2^4, [O:f] = 2^12 -> NOT Gorenstein
+  ok     SU(3)_11 (q = 14), mu = (0,1): [O:A] = 2^8, [A:f] = 2^4, not Gorenstein
+   every column of SU(3)_11 (78): 18 not Gorenstein:
+      mu=(0, 1) [O:A]=2^8 [A:f]=2^4
+      mu=(0, 3) [O:A]=2^4 [A:f]=2^2
+      mu=(0, 8) [O:A]=2^8 [A:f]=2^4
+      mu=(0, 10) [O:A]=2^8 [A:f]=2^4
+      mu=(1, 0) [O:A]=2^8 [A:f]=2^4
+      mu=(1, 10) [O:A]=2^4 [A:f]=2^2
+      mu=(2, 4) [O:A]=2^8 [A:f]=2^4
+      mu=(2, 5) [O:A]=2^4 [A:f]=2^2
+      mu=(3, 0) [O:A]=2^4 [A:f]=2^2
+      mu=(3, 8) [O:A]=2^8 [A:f]=2^4
+      mu=(4, 2) [O:A]=2^8 [A:f]=2^4
+      mu=(4, 5) [O:A]=2^8 [A:f]=2^4
+      mu=(5, 2) [O:A]=2^4 [A:f]=2^2
+      mu=(5, 4) [O:A]=2^8 [A:f]=2^4
+      mu=(8, 0) [O:A]=2^8 [A:f]=2^4
+      mu=(8, 3) [O:A]=2^8 [A:f]=2^4
+      mu=(10, 0) [O:A]=2^8 [A:f]=2^4
+      mu=(10, 1) [O:A]=2^4 [A:f]=2^2
+(2) SU(3)_6, q = 9, mu = (1,0): the order is not monomial
+  ok     eigenvalues zeta_27^[5, 23, 26]
+  ok     trivial stabiliser in (Z/27)^x: the field is Q(zeta_27), totally ramified at 3
+  ok     e_1 = lambda^3 + 2 lambda^4 + lambda^5, e_2 = 2 lambda^3 + 2 lambda^4  mod (3, lambda^6)
+  ok     products of e_1, e_2 have valuation >= 6: the image of the order is span{1, e_1, e_2}
+  ok     no u^3 lambda^3 (u a unit) lies in the image: no cube of a uniformiser is in the order
+  ok     yet the image has elements of valuation exactly 3 (e_1 itself)
+
+FAILED: 0 []

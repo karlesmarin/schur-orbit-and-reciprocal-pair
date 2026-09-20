@@ -1,0 +1,31 @@
+p=17 n= 2: formula    16  enumeration    16  ok
+p=17 n= 3: formula    24  enumeration    24  ok
+p=17 n= 4: formula   112  enumeration   112  ok
+p=17 n= 5: formula   140  enumeration   140  ok
+p=17 n= 6: formula   336  enumeration   336  ok
+p=17 n= 7: formula   392  enumeration   392  ok
+p=17 n= 8: formula   560  enumeration   560  ok
+p=17 n= 9: formula   630  enumeration   630  ok
+p=17 n=10: formula   560  enumeration   560  ok
+p=17 n=11: formula   616  enumeration   616  ok
+p=17 n=12: formula   336  enumeration   336  ok
+p=17 n=13: formula   364  enumeration   364  ok
+p=17 n=14: formula   112  enumeration   112  ok
+p=17 n=15: formula   120  enumeration   120  ok
+p=19 n= 2: formula    18  enumeration    18  ok
+p=19 n= 3: formula    45  enumeration    45  ok
+p=19 n= 4: formula   168  enumeration   168  ok
+p=19 n= 5: formula   180  enumeration   180  ok
+p=19 n= 6: formula   576  enumeration   576  ok
+p=19 n= 7: formula   672  enumeration   672  ok
+p=19 n= 8: formula   936  enumeration   936  ok
+p=19 n= 9: formula  1233  enumeration  1233  ok
+p=19 n=10: formula  1370  enumeration  1370  ok
+p=19 n=11: formula  1287  enumeration  1287  ok
+p=19 n=12: formula  1152  enumeration  1152  ok
+p=19 n=13: formula  1248  enumeration  1248  ok
+p=19 n=14: formula   504  enumeration   504  ok
+p=19 n=15: formula   630  enumeration   630  ok
+p=19 n=16: formula   240  enumeration   240  ok
+p=19 n=17: formula   153  enumeration   153  ok
+formula = enumeration in 30 of 30 pairs (p, n)

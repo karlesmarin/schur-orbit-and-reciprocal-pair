@@ -1,0 +1,22 @@
+(a) the congruence
+  ok     SU(5)_12, all 1820 columns: M_2 = |mu+rho|^2 mod p; M_2 = 0 <=> p does not divide the order
+  ok     SU(6)_11, all 4368 columns: M_2 = |mu+rho|^2 mod p; M_2 = 0 <=> p does not divide the order
+  ok     SU(4)_19, all 1540 columns: M_2 = |mu+rho|^2 mod p; M_2 = 0 <=> p does not divide the order
+(b) genus one
+     p = 7 done (5 orbits so far)
+     p = 11 done (30 orbits so far)
+     p = 13 done (95 orbits so far)
+     p = 17 done (448 orbits so far)
+     p = 19 done (1250 orbits so far)
+     p = 23 done (4656 orbits so far)
+     p = 29 done (25073 orbits so far)
+     p = 31 done (59220 orbits so far)
+  ok     h = 1: delta = 1 <=> M_2 M_3 != 0, all 59220 orbits with p <= 31, n <= 9
+  ok     orbits with h >= 2 and delta = 1: 18; first [(19, 8, (1, 2, 3, 9, 10, 16, 17, 18), 2)]
+(c) same weight, charge, stabiliser and degree; different semigroups
+  ok     weight 35/204 / 35/204, charge 5 / 5, h 1 / 1, degree 32 / 32
+  ok     semigroups <2,3> / <2,5>, indices 17^2 / 17^4 (semigroup) and 17^2 / 17^4 (lattices)
+(d) the second moment is not enough
+  ok     SU(5)_14 (5,0,4,2): M_2 = 1, M_3 = 0, S_T = <2,5>, index 19^2 (semigroup), 19^2 (lattices)
+
+FAILED: 0 [] ; time 59 s

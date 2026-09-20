@@ -1,0 +1,10 @@
+SU(3)_4 p=7: 15 columns; (h, gaps) -> columns: {(2, ()): 9, (3, ()): 6} | index disagreements: 0
+SU(4)_3 p=7: 20 columns; (h, gaps) -> columns: {(2, ()): 12, (3, ()): 8} | index disagreements: 0
+SU(3)_8 p=11: 45 columns; (h, gaps) -> columns: {(1, (1,)): 30, (2, ()): 15} | index disagreements: 0
+SU(8)_3 p=11: 120 columns; (h, gaps) -> columns: {(1, (1,)): 80, (2, ()): 40} | index disagreements: 0
+SU(5)_6 p=11: 210 columns; (h, gaps) -> columns: {(1, (1,)): 150, (2, ()): 50, (5, ()): 10} | index disagreements: 0
+SU(6)_5 p=11: 252 columns; (h, gaps) -> columns: {(1, (1,)): 180, (2, ()): 60, (5, ()): 12} | index disagreements: 0
+SU(3)_4 vs SU(4)_3: every class in the ratio n/k = 3/4: True
+SU(3)_8 vs SU(8)_3: every class in the ratio n/k = 3/8: True
+SU(5)_6 vs SU(6)_5: every class in the ratio n/k = 5/6: True
+columns: 662 ; [O_mu:A_mu] = p^(phi(m) delta) failed in 0 ; time 706 s

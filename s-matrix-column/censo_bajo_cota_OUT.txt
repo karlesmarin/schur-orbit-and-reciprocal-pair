@@ -1,0 +1,20 @@
+p=11 n=7:     4 orbits   (below the bound (n-1)(n-2) = 30)
+p=11 n=8:     2 orbits   (below the bound (n-1)(n-2) = 42)
+p=11 n=9:     1 orbits   (below the bound (n-1)(n-2) = 56)
+p=13 n=7:    14 orbits   (below the bound (n-1)(n-2) = 30)
+p=13 n=8:    10 orbits   (below the bound (n-1)(n-2) = 42)
+p=13 n=9:     7 orbits   (below the bound (n-1)(n-2) = 56)
+p=17 n=7:    75 orbits   (below the bound (n-1)(n-2) = 30)
+p=17 n=8:    95 orbits   (below the bound (n-1)(n-2) = 42)
+p=17 n=9:    95 orbits   (below the bound (n-1)(n-2) = 56)
+p=19 n=7:   154 orbits   (below the bound (n-1)(n-2) = 30)
+p=19 n=8:   228 orbits   (below the bound (n-1)(n-2) = 42)
+p=19 n=9:   280 orbits   (below the bound (n-1)(n-2) = 56)
+p=23 n=7:   492 orbits   (below the bound (n-1)(n-2) = 30)
+p=23 n=8:   984 orbits   (below the bound (n-1)(n-2) = 42)
+p=23 n=9:  1630 orbits   (below the bound (n-1)(n-2) = 56)
+p=29 n=7:  1936 orbits   (below the bound (n-1)(n-2) = 30)
+p=29 n=8:  5324 orbits   (below the bound (n-1)(n-2) = 42)
+TOTAL orbits (7 <= n <= 9, 11 <= p <= 29): 11331 ; disagreements delta / g(Gamma_T) / g(S_T): 0
+largest delta per n: {7: 4, 8: 3, 9: 3}
+time 802 s

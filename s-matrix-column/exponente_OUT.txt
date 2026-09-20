@@ -1,0 +1,5 @@
+3 <= n <= 6, p <= 31: 2414 orbits | (i) c(S_T) > e: 0 | (ii) p O_E not in C_T: 0 | control (O_E in C_T <=> delta = 0) broken: 0
+   largest c/e = 2/7 at (p, n, T, e, c) = (29, 6, (1, 2, 3, 5, 8, 10), 28, 8)
+3 <= n <= 8, p <= 23: 2644 orbits | (i) c(S_T) > e: 0 | (ii) p O_E not in C_T: 0 | control (O_E in C_T <=> delta = 0) broken: 0
+   largest c/e = 5/16 at (p, n, T, e, c) = (17, 8, (1, 2, 3, 4, 8, 10, 11, 12), 16, 5)
+largest c/e over both ranges: 5/16  (<= 5/16: True)

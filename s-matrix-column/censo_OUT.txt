@@ -1,0 +1,35 @@
+p= 5 n=3:     1 orbits
+p= 7 n=3:     2 orbits
+p= 7 n=4:     2 orbits
+p= 7 n=5:     1 orbits   (below the bound (n-1)(n-2) = 12)
+p=11 n=3:     2 orbits
+p=11 n=4:     4 orbits
+p=11 n=5:     6 orbits   (below the bound (n-1)(n-2) = 12)
+p=11 n=6:     6 orbits   (below the bound (n-1)(n-2) = 20)
+p=13 n=3:     3 orbits
+p=13 n=4:     7 orbits
+p=13 n=5:    10 orbits
+p=13 n=6:    14 orbits   (below the bound (n-1)(n-2) = 20)
+p=17 n=3:     3 orbits
+p=17 n=4:    11 orbits
+p=17 n=5:    25 orbits
+p=17 n=6:    49 orbits   (below the bound (n-1)(n-2) = 20)
+p=19 n=3:     4 orbits
+p=19 n=4:    14 orbits
+p=19 n=5:    36 orbits
+p=19 n=6:    86 orbits   (below the bound (n-1)(n-2) = 20)
+p=23 n=3:     4 orbits
+p=23 n=4:    20 orbits
+p=23 n=5:    69 orbits
+p=23 n=6:   207 orbits
+p=29 n=3:     5 orbits
+p=29 n=4:    33 orbits
+p=29 n=5:   150 orbits
+p=29 n=6:   598 orbits
+p=31 n=3:     6 orbits
+p=31 n=4:    38 orbits
+p=31 n=5:   187 orbits
+p=31 n=6:   811 orbits
+TOTAL orbits (3 <= n <= 6, 5 <= p <= 31): 2414 ; disagreements delta / g(Gamma_T) / g(S_T): 0
+largest delta per n: {3: 1, 4: 3, 5: 3, 6: 4}
+time 79 s
