@@ -1,0 +1,28 @@
+P3c.py --- self-test against the published values
+==========================================================================
+  ok   the census C(n,p): dynamic programming agrees with direct enumeration   checked n = 3,4,5 and p = 7,11,13
+  ok   closed form for C(3,p) reproduces the census   11 primes
+  ok   closed form for C(4,p) reproduces the census   11 primes
+  ok   closed form for C(5,p) reproduces the census   11 primes
+  ok   closed form for C(6,p) reproduces the census   11 primes
+  ok   the sieve, assembled from the strata, reproduces C(5,p)
+  ok   the sieve, assembled from the strata, reproduces C(6,p)
+  ok   the sieve with N_lambda by DP reproduces the census, 3 <= n <= 7, odd p <= 53   75 cases
+  ok   the singular locus by DP agrees with the sign-vector search   72 partitions with l >= 4, n <= 10
+  ok      ... and V_lambda is singular exactly when lambda is biquanimous
+  ok   every row of Table 1 with l >= 3 matches a brute-force count of its stratum   4 rows x 11 primes
+  ok   every row of Table 2 with l >= 3 matches a brute-force count of its stratum   7 rows x 11 primes
+  ok      ... including the short stratum (3,3), which the corollary does not cover
+  ok      ... and the rows with l <= 2 and N_lambda = 1 in both tables   6 rows x 11 primes
+  ok   Theorem 6: C(n,p) is elementary exactly for n = 3, 4, 6   searched n <= 40
+  ok      ... and the witness (n-3,1,1,1) is never biquanimous, 5 <= n <= 60, n != 6
+  ok   Proposition 9: the count of V_(2,2,1,1,1)
+  ok   Corollary 10: the collapsed form, for p > 5
+  ok      ... and the collapse genuinely fails at p = 5   census 36, uncollapsed 36, collapsed 41
+  ok   Proposition 11: the family V_(a,1,1,1,1), under its hypothesis on p
+  ok      ... and it genuinely fails at a = p = 5, which is why the hypothesis is there   census 76, formula 31
+  ok   Proposition 16: F(Mu) = 24 (u0u1u2 + ...) over F_p
+  ok      ... the four nodes really are singular points of V_(2,1^4), and are rational   []
+  ok      ... and |det M| = 8, so M is invertible over any field of characteristic != 2
+==========================================================================
+24 ok, 0 FAIL

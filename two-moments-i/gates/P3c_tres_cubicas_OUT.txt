@@ -1,0 +1,62 @@
+1.  SEGRE: el estrato (1^6) y sus DIEZ nodos
+------------------------------------------------------------------------------
+  ok   p=11: V_(1^6) tiene 10 puntos singulares                   salen 10
+  ok   p=13: V_(1^6) tiene 10 puntos singulares                   salen 10
+  ok   p=17: V_(1^6) tiene 10 puntos singulares                   salen 10
+  ok   p=19: V_(1^6) tiene 10 puntos singulares                   salen 10
+  ok   p=13: los 10 nodos son repartos +-1 de suma cero (tres y tres) 10 nodos, 10 de la forma buena
+  ok   p=19: los 10 nodos son repartos +-1 de suma cero (tres y tres) 10 nodos, 10 de la forma buena
+  ok   p=23: los 10 nodos son repartos +-1 de suma cero (tres y tres) 10 nodos, 10 de la forma buena
+  ok   y por eso son 10: los repartos 3+3 de seis pesos, C(6,3)/2 C(6,3)/2 = 10
+
+2.  CAYLEY: el estrato (2,1^4) es la SECCION y_1 = y_2 de Segre
+------------------------------------------------------------------------------
+  ok   p=11: V_(2,1^4) tiene 4 puntos singulares                  salen 4
+  ok   p=13: V_(2,1^4) tiene 4 puntos singulares                  salen 4
+  ok   p=17: V_(2,1^4) tiene 4 puntos singulares                  salen 4
+  ok   p=19: V_(2,1^4) tiene 4 puntos singulares                  salen 4
+
+   la identidad, no la coincidencia numerica:
+   poner y_1 = y_2 = x_1 en  sum_{i=1}^{6} y_i = sum y_i^3 = 0  da
+        2x_1 + x_2 + x_3 + x_4 + x_5 = 0,   2x_1^3 + x_2^3 + ... + x_5^3 = 0,
+   que es exactamente V_(2,1^4).  FUNDIR DOS PARTES = CORTAR POR y_1 = y_2.
+  ok   p=11: el corte y_1=y_2 de Segre ES V_(2,1^4), punto por punto 155 vs 155
+  ok   p=13: el corte y_1=y_2 de Segre ES V_(2,1^4), punto por punto 209 vs 209
+  ok   p=17: el corte y_1=y_2 de Segre ES V_(2,1^4), punto por punto 341 vs 341
+  ok   p=19: el corte y_1=y_2 de Segre ES V_(2,1^4), punto por punto 419 vs 419
+  ok   p=23: el corte y_1=y_2 de Segre ES V_(2,1^4), punto por punto 599 vs 599
+
+3.  CLEBSCH: el estrato (1^5) es LISO
+------------------------------------------------------------------------------
+  ok   p=11: V_(1^5) no tiene puntos singulares                   salen 0
+  ok   p=13: V_(1^5) no tiene puntos singulares                   salen 0
+  ok   p=17: V_(1^5) no tiene puntos singulares                   salen 0
+  ok   p=19: V_(1^5) no tiene puntos singulares                   salen 0
+  ok   p=23: V_(1^5) no tiene puntos singulares                   salen 0
+  ok   p=29: V_(1^5) no tiene puntos singulares                   salen 0
+
+4.  EL 5 DE chi_p(5) ES EL CUERPO DE DEFINICION DE LAS 27 RECTAS
+------------------------------------------------------------------------------
+    15 de las 27 rectas de la Clebsch son racionales y 12 se conjugan sobre Q(raiz 5);
+    asi que sobre F_p se ven 27 si 5 es resto cuadratico y 15 si no.  Ese es el unico
+    caracter de la fila, y no es una casualidad de ajuste.
+  ok   p=11 (chi_p(5)=+1): 27 rectas sobre F_p                    esperadas 27
+  ok   p=19 (chi_p(5)=+1): 27 rectas sobre F_p                    esperadas 27
+  ok   p=29 (chi_p(5)=+1): 27 rectas sobre F_p                    esperadas 27
+  ok   p=31 (chi_p(5)=+1): 27 rectas sobre F_p                    esperadas 27
+  ok   p= 7 (chi_p(5)=-1): 15 rectas sobre F_p                    esperadas 15
+  ok   p=13 (chi_p(5)=-1): 15 rectas sobre F_p                    esperadas 15
+  ok   p=17 (chi_p(5)=-1): 15 rectas sobre F_p                    esperadas 15
+  ok   p=23 (chi_p(5)=-1): 15 rectas sobre F_p                    esperadas 15
+  ok   las dos ramas del caracter se han probado, no solo una     chi vistos: [-1, 1]
+
+VEREDICTO.  Los dos estratos mas largos de n = 6 realizan los dos
+objetos extremales de la geometria cubica del siglo XIX --- Cayley con el maximo de
+nodos para una superficie, Segre con el maximo para un threefold ---, el mas largo de
+n = 5 es la Clebsch, y la operacion del tamiz que lleva de Segre a Cayley es la seccion hiperplana
+clasica que los relaciona.  El unico caracter de la fila de Clebsch es el cuerpo de
+definicion de sus 27 rectas.
+
+======================================================================
+VERIFICACION LAS TRES CUBICAS:  32 ok, 0 MAL
+======================================================================

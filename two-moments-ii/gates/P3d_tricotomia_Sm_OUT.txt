@@ -1,0 +1,79 @@
+
+1.  k = 7 (m = 6): S_6 y la particion (2,1,1,1)
+-----------------------------------------------
+  ok   S_6 = {3,4,5,6} (y no {3,4,6})   S_6 = [3, 4, 5, 6]
+  ok   (2,1,1,1) tiene relacion en mu_6
+  ok   (2,1,1,1) NO tiene relacion en mu_2 ni en mu_3 ni en mu_4
+  ok   certificado 2+X^2+X^3+X^4 = Phi_6 * (X^2+2X+2)   [2, 0, 1, 1, 1] vs [2, 0, 1, 1, 1]
+
+2.  Tricotomia (thm:tricotomia) y el invariante gcd(m,6) (prop:gcd)
+-------------------------------------------------------------------
+  ok   S_1  = [3]              gcd(m,6) = 1
+  ok   S_2  = [3, 4, 6]        gcd(m,6) = 2
+  ok   S_3  = [3]              gcd(m,6) = 3
+  ok   S_4  = [3, 4, 6]        gcd(m,6) = 2
+  ok   S_5  = [3]              gcd(m,6) = 1
+  ok   S_6  = [3, 4, 5, 6]     gcd(m,6) = 6
+  ok   S_7  = [3]              gcd(m,6) = 1
+  ok   S_8  = [3, 4, 6]        gcd(m,6) = 2
+  ok   S_9  = [3]              gcd(m,6) = 3
+  ok   S_10 = [3, 4, 6]        gcd(m,6) = 2
+  ok   S_11 = [3]              gcd(m,6) = 1
+  ok   S_12 = [3, 4, 5, 6]     gcd(m,6) = 6
+  ok   S_13 = [3]              gcd(m,6) = 1
+  ok   S_14 = [3, 4, 6]        gcd(m,6) = 2
+  ok   S_15 = [3]              gcd(m,6) = 3
+  ok   S_16 = [3, 4, 6]        gcd(m,6) = 2
+  ok   S_17 = [3]              gcd(m,6) = 1
+  ok   S_18 = [3, 4, 5, 6]     gcd(m,6) = 6
+  ok   S_m depende solo de gcd(m,6), m <= 18   {1: [3], 2: [3, 4, 6], 3: [3], 6: [3, 4, 5, 6]}
+  ok   m = 15 (impar compuesto) da {3}, no {3,4,6}
+
+3.  El reciproco falla en k = 5, n = 6, lambda = (3,1,1,1)  (prop:contra)
+-------------------------------------------------------------------------
+  ok   (3,1,1,1) en mu_4 tiene exactamente 1 punto singular   [(0, 2, 2, 2)]
+  ok   y es [1:-1:-1:-1]
+  ok   g(normalizada) = (5-1)(5-2)/2 - 1 = 5   g = 5
+  ok   z_(3,1,1,1) = 3 * 3! = 18
+  ok   dim H^1 = 2g = 10
+  ok   (2,2,1,1) si tiene relacion en mu_4 (es biquanimo)
+  ok   los dos cuartetos de 6 son (3,1,1,1) y (2,2,1,1)
+
+4.  (n-3,1,1,1) es lisa para todo m cuando n >= 7  (desigualdad triangular)
+---------------------------------------------------------------------------
+  ok   (n-3,1,1,1) sin relacion para 7 <= n <= 14, 1 <= m <= 12
+  ok   la razon es aritmetica: n-3 > 3 para n >= 7
+
+5.  Las formulas cerradas (thm:formulas), contra fuerza bruta sobre F_p
+-----------------------------------------------------------------------
+  ok   C_4(3,p) = (p-1)(1+chi(-3))/6   [16 primos]   fallos: []
+  ok   C_5(3,p) = (p-1)(4+chi(-3))/6   [15 primos]   fallos: []
+  ok   C_5(3,p) vale en p = 5 y da 2   cuenta = 2
+  ok   C_5(4,p) = (p-1)(4p-17-6chi(-2)-3chi(-1))/24   [12 primos]   fallos: []
+  ok   C_5(4,p) vale en p = 5 y da 1   cuenta = 1
+  ok   |B| = (p-1)(p-3)/8   fallos: []
+  ok   |A cap B| = (p-1)(1+chi(-1))/8   fallos: []
+
+6.  El n = 3 de k = 6: caracter de Artin NO abeliano  (prop:n3k6)
+-----------------------------------------------------------------
+  ok   C_6(3,p) = (p-1)*1{2Y^3+3Y-3 parte}   [17 primos]   fallos: []
+  ok   disc(2Y^3+3Y-3) = -1188   disc = -1188
+  ok   -1188 = -36 * 33
+  ok   -1188 no es un cuadrado -> grupo de Galois S_3, no C_3
+  ok   densidad de primos que parten ~ 1/6 = 0.167   medida 0.160 sobre 75 primos
+
+7.  "sin peso uno" no implica "Artin-Tate": la quintica nodal de (2,1,1,1,1)  (rem:quintica)
+--------------------------------------------------------------------------------------------
+  ok   p_g de una quintica en P^3 = binom(4,3) = 4   p_g = 4
+  ok   (2,1,1,1,1) es particion de 6 de longitud 5
+  ok   dim V_(2,1,1,1,1) = l - 3 = 2 (superficie)
+
+8.  Resumen: la clasificacion (thm:clasificacion) y lo medido arriba
+--------------------------------------------------------------------
+  k = 3 da {3,4,6}  (caso k = 3; no se re-mide aqui)
+  k = 5 da {3,4}: n=3 por C_5(3,p), n=4 por C_5(4,p), n=6 cae por el nodo (bloques 3 y 5)
+  k >= 6 da {3}: (n-3,1,1,1) lisa para n >= 7 (bloque 4); n = 4,5,6 en la nota
+
+======================================================================
+VERIFICACION TRICOTOMIA S_m:  48 ok, 0 MAL
+======================================================================

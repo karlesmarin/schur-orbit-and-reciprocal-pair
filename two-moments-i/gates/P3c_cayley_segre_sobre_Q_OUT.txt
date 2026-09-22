@@ -1,0 +1,38 @@
+  ok   a1. los vectores +-1 de suma cero, salvo signo, son DIEZ
+  ok   a2. los diez estan en V_(1^6) y son SINGULARES de la interseccion completa
+  ok   a3. y son racionales (entradas +-1), luego V_(1^6) ES el modelo estandar de Segre sobre Z, no una forma de el
+  ok   b0. control: F se anula donde la definicion de V_(2,1^4) dice
+  ok   b1. V_(2,1^4) tiene EXACTAMENTE cuatro nodos, calculados del jacobiano   [(1, -1, -1, -1), (1, -1, -1, 1), (1, -1, 1, -1), (1, 1, -1, -1)]
+  ok   b2. y los cuatro son RACIONALES --- que es lo que decide toda la cuestion
+  ok   b3. la matriz de los nodos esta en GL_4(Q): det = -8
+  ok      ... y sus entradas son +-1, luego esta en GL_4(Z[1/2])
+  ok   b4. F(Mu) = 24 * (u0u1u2 + u0u1u3 + u0u2u3 + u1u2u3), IDENTIDAD simbolica   cociente = 24
+  ok      ... y no hace falta reescalar ninguna variable: el factor es una constante
+  ok   b5. en las coordenadas nuevas los cuatro puntos COORDENADOS son los nodos
+  ok   b6. CONTROL NEGATIVO: sustituir un nodo por (1,1,1,1) ROMPE la forma de Cayley
+  ok   c1. la hipotesis char no divide 6 es AFILADA: det M = -8 se anula en p = 2
+  ok      ... y la constante 24 = 2^3 * 3 se anula en p = 2 y en p = 3, y en ningun otro
+  ok   d1. la seccion y_1 = y_2 de Segre ES V_(2,1^4): las dos ecuaciones, identicas
+
+  Los cuatro nodos de V_(2,1^4):
+    (1, -1, -1, -1)
+    (1, -1, -1, 1)
+    (1, -1, 1, -1)
+    (1, 1, -1, -1)
+
+  M = columnas de los nodos, det = -8
+    [ 1   1   1   1]
+    [-1  -1  -1   1]
+    [-1  -1   1  -1]
+    [-1   1  -1  -1]
+
+VEREDICTO
+  SEGRE: V_(1^6) es el modelo estandar sobre Z, no una forma de el. Nada que probar.
+  CAYLEY: equivalencia proyectiva SOBRE EL CUERPO PRIMO, con la matriz explicita de
+  entradas +-1 arriba, valida en toda caracteristica que no divida a 6.  Lo que la
+  hace posible es que los cuatro nodos sean racionales; el control negativo comprueba que no
+  vale cualquier cuarta columna.  Luego los recuentos transfieren sin torcer.
+
+========================================================================
+VERIFICACION SEGRE Y CAYLEY SOBRE EL CUERPO BASE:  15 ok, 0 MAL
+========================================================================

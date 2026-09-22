@@ -1,0 +1,33 @@
+
+1.  n = 5, k = 3: trazas de Frobenius de la curva de conductor 20
+-----------------------------------------------------------------
+       p <= 200    p no | 20: 44   primos, 15  valores de a_p;  sin p = 3: 14 valores
+       p <= 500    p no | 20: 93   primos, 24  valores de a_p;  sin p = 3: 23 valores
+       p <= 1000   p no | 20: 166  primos, 31  valores de a_p;  sin p = 3: 30 valores
+       p <= 2000   p no | 20: 301  primos, 52  valores de a_p;  sin p = 3: 51 valores
+   a_3 = -2: con torsion Z/6, a_p = p + 1 mod 6 para p >= 7, asi que a_3 es un valor
+   que ningun otro primo repite, y la ventana con o sin p = 3 difiere en uno.
+  ok   #E(F_p) = p + 1 - a_p es multiplo de 6 en todo 7 <= p <= 2000
+  ok   a_3 no lo repite ningun 7 <= p <= 2000
+  ok   valores distintos de a_p, p no | 20, en p <= 200, 500, 1000, 2000: 15, 24, 31, 52   [15, 24, 31, 52]
+  ok   lo mismo con 7 <= p (sin p = 3): 14, 23, 30, 51   [14, 23, 30, 51]
+  ok   el soporte observado crece en cada ventana
+  ok   control: chi_p(-3) toma exactamente 2 valores en la misma ventana   [-1, 1]
+   (observacion, no comprobacion) cuatro ventanas no fijan ningun exponente;
+   que este fallo no sea POFS lo da el peso uno, no este crecimiento.
+
+2.  n = 3, k = 6: dos valores, y ninguna congruencia los separa
+---------------------------------------------------------------
+   primos p <= 2000 con p no | 66: 300  (de 5 a 1999)
+  ok   C_6(3,p), por fuerza bruta, toma exactamente los dos valores p-1 y 0   ['0', 'p-1']
+  ok   C_6(3,p) = (p-1) [2Y^3+3Y-3 escinde] en todos ellos (prop:n3k6)   fallos: []
+   primos con C_6 = p-1: 45 de 300
+  ok   ningun modulo de la lista asigna un solo valor a cada clase de residuo   modulos que separarian: []
+  ok   control negativo: la misma prueba separa [chi_p(-3) = 1], que es PORC   modulos que la separan: [6, 12, 24, 33, 36, 66, 72, 99, 132, 264, 396, 1188]
+   (observacion, no comprobacion) la particion es por escision completa en un
+   cuerpo de grupo S_3, que es un conjunto de Frobenius: POFS por definicion
+   (Stanojkovski-Voll §1.5.2).
+
+======================================================================
+VERIFICACION POFS vs PORC:  10 ok, 0 MAL
+======================================================================

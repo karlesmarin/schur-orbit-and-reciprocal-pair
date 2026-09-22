@@ -1,0 +1,20 @@
+  ok   p = 11: #D(F_p) = 11
+  ok   p = 11: #D(F_{p^2}) = 111 da a2 entero
+  ok   p = 11: (a1, a2) = (-1, -5), el par impreso   impreso (-1, -5)
+  ok   control: con solo #D(F_11) caben 38 valores de a2 --- F_{p^2} no sobra
+       p = 11: N1 = 11, N2 = 111
+  ok   p = 11: ordinaria, p no divide a2 = -5
+  ok   p = 11: ninguna de las cuatro condiciones de Howe--Zhu: 1 no esta en {6, -10, -48}
+  ok   control negativo: (a1, a2) = (0, -1) en p = 11 dispara ['a1 = 0']
+  ok   p = 11: resolvente X^2 -1X -27, discriminante 109
+  ok   p = 19: #D(F_p) = 25
+  ok   p = 19: #D(F_{p^2}) = 373 da a2 entero
+  ok   p = 19: (a1, a2) = (5, 18), el par impreso   impreso (5, 18)
+  ok   control: con solo #D(F_19) caben 39 valores de a2 --- F_{p^2} no sobra
+       p = 19: N1 = 25, N2 = 373
+  ok   p = 19: ordinaria, p no divide a2 = 18
+  ok   p = 19: ninguna de las cuatro condiciones de Howe--Zhu: 25 no esta en {37, 36, -3}
+  ok   p = 19: resolvente X^2 +5X -20, discriminante 105
+======================================================================
+VERIFICACION POLINOMIOS DE WEIL DE D:  15 ok, 0 MAL
+======================================================================

@@ -1,0 +1,65 @@
+  ok   control: la recursion da s_3 = 3 e_3
+  ok   control: la recursion da s_4 = 2 e_2^2
+  ok   1. b_min = k mod 2 (el monomio extremo es b=0 si k par, b=1 si k impar)   fallos: []
+  ok   2. Waring reproduce el coeficiente de la RECURSION en el monomio extremo   fallos: []
+  ok   3. el coeficiente principal CRUDO vale 2 (k par) / k (k impar)   fallos: []
+  ok   4. CONTROL NEGATIVO: "el crudo vale k tambien para k par" FALLA   199 casos
+  ok      ... y falla EXACTAMENTE en los k pares (si no, el punto 3 no separa ramas)
+  ok   5. cont(Q_k) = 2 / p / 1 por ramas  (MEDIDO, no demostrado)   fallos: []
+  ok      ... rama "potencia de 2" no vacia   7 casos
+  ok      ... rama "par no 2-adico" no vacia   192 casos
+  ok      ... rama "p^a impar" no vacia   89 casos
+  ok      ... rama "impar compuesto" no vacia   110 casos
+  ok   6. COROLARIO lc(Q_k) | k, medido aparte de la formula, 3 <= k <= 400   fallos: []
+  ok   7. con A <= k, el conjunto excepcional {k >= 2^d} es finito y su maximo es 37   29 valores, max 37
+  ok      ... y esta CONTENIDO en 6 <= k <= 46, que es donde hay certificados exactos   fuera del rango: []
+  ok      ... k < 2^d para todo 38 <= k <= 4999 (la cola no reabre)
+  ok      ... y el margen 2^d/k en la cola no es apretado (>= 1.4 ya en 38 <= k < 200)   minimo 1.488
+  ok   8. con A MEDIDA el conjunto excepcional es {6,9,10,15,21,33,35} (el de prop:s3)   [6, 9, 10, 15, 21, 33, 35]
+  ok      ... la cota demostrada A <= k es ESTRICTAMENTE mas floja (29 casos frente a 7)   medida 7, demostrada 29
+  ok      ... y aun asi basta, porque los 29 caben en el rango certificado
+  ok   9. k impar, 3 <= k <= 400: Q_k monico EXACTAMENTE para k primo (MEDIDO)   74 casos
+  ok      ... y para k par los monicos son las potencias de 2: el "exactamente primo" FALLA   [8, 16, 32, 64, 128, 256]
+
+  k    deg  crudo   cont   lc(Q_k)   rama
+  ----------------------------------------------------------
+  3    0    3       3      1         p^a impar
+  4    0    2       2      1         potencia de 2
+  5    0    5       5      1         p^a impar
+  6    1    2       1      2         par no 2-adico
+  7    0    7       7      1         p^a impar
+  8    1    2       2      1         potencia de 2
+  9    1    9       3      3         p^a impar
+  10   1    2       1      2         par no 2-adico
+  11   1    11      11     1         p^a impar
+  12   2    2       1      2         par no 2-adico
+  13   1    13      13     1         p^a impar
+  14   2    2       1      2         par no 2-adico
+  15   2    15      1      15        impar compuesto
+  16   2    2       2      1         potencia de 2
+  17   2    17      17     1         p^a impar
+  18   3    2       1      2         par no 2-adico
+  19   2    19      19     1         p^a impar
+  20   3    2       1      2         par no 2-adico
+  21   3    21      1      21        impar compuesto
+  22   3    2       1      2         par no 2-adico
+  23   3    23      23     1         p^a impar
+  24   4    2       1      2         par no 2-adico
+  25   3    25      5      5         p^a impar
+  26   4    2       1      2         par no 2-adico
+  27   4    27      3      9         p^a impar
+  28   4    2       1      2         par no 2-adico
+  29   4    29      29     1         p^a impar
+  30   5    2       1      2         par no 2-adico
+
+VEREDICTO
+  lc(Q_k) | k queda DEMOSTRADA para todo k >= 3: el coeficiente principal crudo
+  es 2 (k par) o k (k impar) por Waring en el monomio b = k mod 2, y primitivar
+  solo puede dividirlo.  prop:s3 vale ahora para todo k sin el computo finito.
+  La FORMA CERRADA de lc(Q_k) --- 1, 2, k/p, k --- sigue siendo MEDIDA:
+  le falta el contenido, que es el gcd de (k/n)C(n,a) con n variando con i, y
+  eso NO es el teorema clasico del gcd de binomiales de un n fijo.
+
+========================================================================
+VERIFICACION lc(Q_k) | k:  22 ok, 0 MAL
+========================================================================

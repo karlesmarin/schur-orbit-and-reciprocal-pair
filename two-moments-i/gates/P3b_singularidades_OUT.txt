@@ -1,0 +1,65 @@
+(1) LUGAR SINGULAR: fuerza bruta sobre F_p contra la prediccion por vectores de signos.
+    La prediccion se hace con la CONGRUENCIA 2 sum_A w = n (mod p); entre parentesis va
+    la cuenta entera sobre Qbar, que es la que vale siempre que p > n.
+lambda             n    l     sobre Qbar medido:predicho por primo
+(1, 1, 1)          3    3     0         7:0/0 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(1, 1, 1, 1)       4    4     3         7:3/3 11:3/3 13:3/3 17:3/3 19:3/3 23:3/3
+(2, 1, 1)          4    3     1         7:1/1 11:1/1 13:1/1 17:1/1 19:1/1 23:1/1
+(1, 1, 1, 1, 1)    5    5     0         7:0/0 11:0/0 13:0/0 17:0/0 19:0/0
+(2, 1, 1, 1)       5    4     0         7:0/0 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(2, 2, 1)          5    3     0         7:0/0 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(3, 1, 1)          5    3     0         7:0/0 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(2, 1, 1, 1, 1)    6    5     4         7:4/4 11:4/4 13:4/4 17:4/4 19:4/4
+(2, 2, 1, 1)       6    4     2         7:2/2 11:2/2 13:2/2 17:2/2 19:2/2 23:2/2
+(3, 1, 1, 1)       6    4     1         7:1/1 11:1/1 13:1/1 17:1/1 19:1/1 23:1/1
+(2, 2, 2)          6    3     0         7:0/0 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(3, 2, 1)          6    3     1         7:1/1 11:1/1 13:1/1 17:1/1 19:1/1 23:1/1
+(4, 1, 1)          6    3     0         7:0/0 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(2, 2, 1, 1, 1)    7    5     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0
+(3, 1, 1, 1, 1)    7    5     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0
+(2, 2, 2, 1)       7    4     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(3, 2, 1, 1)       7    4     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(4, 1, 1, 1)       7    4     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(3, 2, 2)          7    3     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(3, 3, 1)          7    3     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(4, 2, 1)          7    3     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+(5, 1, 1)          7    3     0         7:1/1 11:0/0 13:0/0 17:0/0 19:0/0 23:0/0
+
+casos: 128 ; fallos: 0 ; casos con p | n donde la congruencia da extras: 9
+por longitud: [(3, 66), (4, 42), (5, 20)] ; fallos por longitud: [(3, 0), (4, 0), (5, 0)]
+   los casos l = 3 quedan FUERA del corolario (que pide l >= 4) y coinciden igual con la
+   cuenta de signos: no ensenan por que hace falta la hipotesis.  El caso que la fuerza es
+   (3,3), de longitud 2: x + y = 0 y x^3 + y^3 = (x+y)(x^2-xy+y^2), el ideal es (x+y), un
+   punto reducido y liso, mientras la cuenta de signos da 1.
+
+(2) LOS CUATRO CLASICOS, con su numero de nodos predicho por el teorema
+   (1, 1, 1, 1)         n=4  nodos predichos = 3     tres planos (n=4)
+   (1, 1, 1, 1, 1)      n=5  nodos predichos = 0     superficie de CLEBSCH (n=5)
+   (2, 1, 1, 1, 1)      n=6  nodos predichos = 4     cubica de CAYLEY, la 4-nodal (n=6)
+   (1, 1, 1, 1, 1, 1)   n=6  nodos predichos = 10    cubica de SEGRE (n=6)
+   (1, 1, 1, 1, 1, 1, 1) n=7  nodos predichos = 0     cubica de dim 4 (n=7)
+
+(3) CLASIFICACION: C(n,p) es elemental  <=>  toda lambda |- n con l >= 4 se parte
+    (con l <= 3 la variedad tiene dimension 0 y solo puede dar un simbolo cuadratico)
+   n = 3   ELEMENTAL
+   n = 4   ELEMENTAL
+   n = 5   no: (2, 1, 1, 1) tiene l = 4 y ningun bloque de suma 2.5
+   n = 6   ELEMENTAL
+   n = 7   no: (2, 2, 2, 1) tiene l = 4 y ningun bloque de suma 3.5
+   n = 8   no: (5, 1, 1, 1) tiene l = 4 y ningun bloque de suma 4.0
+   n = 9   no: (3, 2, 2, 2) tiene l = 4 y ningun bloque de suma 4.5
+   n = 10  no: (3, 3, 3, 1) tiene l = 4 y ningun bloque de suma 5.0
+   n = 11  no: (3, 3, 3, 2) tiene l = 4 y ningun bloque de suma 5.5
+   n = 12  no: (4, 4, 3, 1) tiene l = 4 y ningun bloque de suma 6.0
+   n = 13  no: (4, 3, 3, 3) tiene l = 4 y ningun bloque de suma 6.5
+   n = 14  no: (4, 4, 4, 2) tiene l = 4 y ningun bloque de suma 7.0
+   n = 15  no: (4, 4, 4, 3) tiene l = 4 y ningun bloque de suma 7.5
+   n = 16  no: (5, 5, 4, 2) tiene l = 4 y ningun bloque de suma 8.0
+
+   los n elementales hasta 16: [3, 4, 6]
+
+VEREDICTO: el lugar singular es el de los vectores de signos, en 128 casos
+
+========================================================================
+VERIFICACION LUGAR SINGULAR:  2 ok, 0 MAL
+========================================================================

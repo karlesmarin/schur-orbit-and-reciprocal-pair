@@ -1,0 +1,53 @@
+  ok   0. CONTROL POSITIVO: el contador reproduce #V_(1^5) = p^2 + (6+chi_p(5))p + 1 (Clebsch)   falla en []
+  ok   A1. P(r) = r(r+4)^2 + 10 es una identidad (prueba de cor:colapso)
+  ok   A2. r+4 != 0 y chi_p(-2r) = chi_p(5) para CADA raiz de P, en todo p > 5 del rango   fallos: []
+  ok   A3. cor:colapso: la forma separada acierta en todo p > 5 del rango (21 primos)   fallos: []
+  ok   A4. CONTROL NEGATIVO: con cualquier otro entero en lugar del 5, la igualdad FALLA   [(2, True), (3, True), (7, True), (-1, True), (-3, True), (13, True)]
+  ok   B1. CONTROL NEGATIVO: en p = 5 la forma separada de cor:colapso falla   medido 36, forma separada 41
+  ok   B2. ... y la formula de prop:22111 acierta en p = 5   raices de P mod 5: [0, 1]
+  ok   B3. ... y #V_(2,2,1,1,1)(F_5) = 36, el total del recuento a mano de la prueba
+  ok   B4. #V_(2,2,1,1,1)(F_3) = 40, o sea todo P^3(F_3) (la excepcion p = 3)
+  ok   C1. P se escinde del todo exactamente en [71, 73, 83] del rango
+  ok   C2. ... y ahi chi_p(5) NO es constante: +1 en 71, -1 en 73 y 83
+  ok   C3. ... luego "P se escinde" != "las conicas residuales dan rectas racionales": #S(F_73) = 73^2 - 73 + 1 = 5257
+  ok   D1. H(z) = (z^3-8z)^2 - 80 es z^6 - 16z^4 + 64z^2 - 80
+  ok   D2. ... y las raices de H dan las de P por r = -z^2/2
+  ok   D3. el grupo de Galois de H tiene orden 12   orden calculado: 12
+  ok   D4. disc P = -140 (prop:22111), cuya parte libre de cuadrados es -35, luego el unico cuadratico de K_0 es Q(sqrt(-35)) != Q(sqrt5)   sqrt(disc) genera Q(sqrt(-35))
+  ok   E1. los valores de a_p(S) = (#S - p^2 - 1)/p para p > 7 caen en {-1,1,2,4,5,7}   observados: [-1, 1, 2, 4, 5, 7]
+  ok   E2. ... y a_p(S) = 3 + chi_p(5)(1 + R_p) en todo el rango (tabla abajo)
+  ok   F1. thm:n6, cuenta directa de SEGRE: #V_(1^6) = p^3 + 6p^2 - 4p + 1   fallos: []
+  ok   F2. ... y el cambio de variables da su^2 + tv^2 - (s+t)w^2 - st(s+t) = 0
+  ok   G1. thm:n6, cuenta directa de CAYLEY: #V_(2,1^4) = p^2 + 3p + 1   fallos: []
+  ok   G2. ... y el cambio de variables: la lineal 2*x_peso2 + sum x_i = 0 se cumple sola
+  ok   G3. ... y la cubica queda s u^2 + t v^2 - s t (s+t), salvo constante   cociente = 3/4
+  ok   H1. a = p = 5: #V_(5,1,1,1,1)(F_5) = 76   medido 76
+  ok   H2. ... y la formula de prop:familia extrapolada a a = p = 5 da 31   D_5 = -63, E_5 = 189, chi_5 = -1 y 1
+  ok   H3. CONTROL NEGATIVO: 76 != 31, luego prop:familia necesita p no divida 6a(a^2-4)(a^2-16)
+
+  p     #S medido   R_p   chi_p(5)   a_p   3+chi(1+R)
+  ----------------------------------------------------------
+  11    166         0     1          4     4
+  13    196         0     -1         2     2
+  17    324         0     -1         2     2
+  19    457         1     1          5     5
+  23    553         1     -1         1     1
+  29    958         0     1          4     4
+  31    1117        1     1          5     5
+  37    1407        1     -1         1     1
+  41    1887        1     1          5     5
+  43    1893        1     -1         1     1
+  47    2304        0     -1         2     2
+  53    2863        1     -1         1     1
+  59    3777        1     1          5     5
+  61    4027        1     1          5     5
+  67    4557        1     -1         1     1
+  71    5539        3     1          7     7
+  73    5257        3     -1         -1    -1
+  83    6807        3     -1         -1    -1
+  89    8367        1     1          5     5
+  97    9604        0     -1         2     2
+
+========================================================================
+VERIFICACION SUPERFICIE V_(2,2,1,1,1):  26 ok, 0 MAL
+========================================================================

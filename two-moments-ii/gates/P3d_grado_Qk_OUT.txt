@@ -1,0 +1,46 @@
+  k    deg medido   deg formula
+  ----------------------------------
+  3    0            0
+  4    0            0
+  5    0            0
+  6    1            1
+  7    0            0
+  8    1            1
+  9    1            1
+  10   1            1
+  11   1            1
+  12   2            2
+  13   1            1
+  14   2            2
+  15   2            2
+  16   2            2
+  17   2            2
+  18   3            3
+  19   2            2
+  20   3            3
+  21   3            3
+  22   3            3
+  23   3            3
+  24   4            4
+  25   3            3
+  26   4            4
+  ...
+  ok   todo factor propio de s_k es homogeneo en u = e2^3/e3^2   fallos: []
+  ok   deg Q_k = floor(k/6) - [k = 1 mod 6], para 3 <= k <= 90   discrepancias: []
+  ok   k = 16: la formula da 2, no 3 (16 = 4 mod 6, sin escalon)
+  ok   k = 7, 13, 19, 25: son los del escalon y dan 0, 1, 2, 3
+  ok   Q_k es constante exactamente para k en {3,4,5,7}   [3, 4, 5, 7]
+  ok   y la formula lo predice sin calcular nada
+
+VEREDICTO
+  deg Q_k = floor(k/6) - [k = 1 (mod 6)].  Seis rectas de pendiente 1/6, una de
+  ellas un escalon por debajo.  De ahi salen los cuatro ceros {3,4,5,7} sin
+  factorizar nada, y de ahi sale tambien que NO hay mas: el grado es creciente
+  en cada clase, asi que una vez pasa de cero no vuelve.
+  Queda abierta la recursion en u: no hay Q_k = A(u) Q_{k-a} + B(u) Q_{k-b}
+  con A, B fijos para (a,b) en
+  {(3,6), (2,4), (1,2), (6,12)}.
+
+======================================================================
+VERIFICACION GRADO DE Q_k:  6 ok, 0 MAL
+======================================================================

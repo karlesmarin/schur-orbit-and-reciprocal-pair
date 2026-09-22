@@ -1,0 +1,81 @@
+
+1.  Newton con e_1 = 0 y la factorizacion exacta de s_k, 3 <= k <= 30
+---------------------------------------------------------------------
+  ok   s_4 = 2 e_2^2
+  ok   s_5 = -5 e_2 e_3
+  ok   s_6 = -2 e_2^3 + 3 e_3^2
+   k = 3   e2^0 e3^1   deg Q_k = 0   Q_k = 1
+   k = 4   e2^2 e3^0   deg Q_k = 0   Q_k = 1
+   k = 5   e2^1 e3^1   deg Q_k = 0   Q_k = 1
+   k = 6   e2^0 e3^0   deg Q_k = 1   Q_k = 2*u - 3
+   k = 7   e2^2 e3^1   deg Q_k = 0   Q_k = 1
+   k = 8   e2^1 e3^0   deg Q_k = 1   Q_k = u - 4
+   k = 9   e2^0 e3^1   deg Q_k = 1   Q_k = 3*u - 1
+   k = 10  e2^2 e3^0   deg Q_k = 1   Q_k = 2*u - 15
+   k = 11  e2^1 e3^1   deg Q_k = 1   Q_k = u - 1
+   k = 12  e2^0 e3^0   deg Q_k = 2   Q_k = 2*u**2 - 24*u + 3
+   k = 13  e2^2 e3^1   deg Q_k = 1   Q_k = u - 2
+   k = 14  e2^1 e3^0   deg Q_k = 2   Q_k = 2*u**2 - 35*u + 14
+   k = 15  e2^0 e3^1   deg Q_k = 2   Q_k = 15*u**2 - 50*u + 3
+   k = 16  e2^2 e3^0   deg Q_k = 2   Q_k = u**2 - 24*u + 20
+   k = 17  e2^1 e3^1   deg Q_k = 2   Q_k = u**2 - 5*u + 1
+   k = 18  e2^0 e3^0   deg Q_k = 3   Q_k = (grado 3)
+   k = 19  e2^2 e3^1   deg Q_k = 2   Q_k = u**2 - 7*u + 3
+   k = 20  e2^1 e3^0   deg Q_k = 3   Q_k = (grado 3)
+   k = 21  e2^0 e3^1   deg Q_k = 3   Q_k = (grado 3)
+   k = 22  e2^2 e3^0   deg Q_k = 3   Q_k = (grado 3)
+   k = 23  e2^1 e3^1   deg Q_k = 3   Q_k = (grado 3)
+   k = 24  e2^0 e3^0   deg Q_k = 4   Q_k = (grado 4)
+   k = 25  e2^2 e3^1   deg Q_k = 3   Q_k = (grado 3)
+   k = 26  e2^1 e3^0   deg Q_k = 4   Q_k = (grado 4)
+   k = 27  e2^0 e3^1   deg Q_k = 4   Q_k = (grado 4)
+   k = 28  e2^2 e3^0   deg Q_k = 4   Q_k = (grado 4)
+   k = 29  e2^1 e3^1   deg Q_k = 4   Q_k = (grado 4)
+   k = 30  e2^0 e3^0   deg Q_k = 5   Q_k = (grado 5)
+  ok   el factor propio de s_k es polinomio en u = e_2^3/e_3^2, 3 <= k <= 30   fallos: []
+  ok   s_k = c e_2^a e_3^b e_3^(2d) Q_k(e_2^3/e_3^2) con c constante, 3 <= k <= 30   fallos: []
+  ok   deg Q_k = floor(k/6) - [k = 1 mod 6], 3 <= k <= 30   fallos: []
+  ok   D_k distinto de 0, 3 <= k <= 30   fallos: []
+  ok   Q_k constante exactamente en k = 3,4,5,7 (k <= 30)   [3, 4, 5, 7]
+
+2.  thm:columna contra el recuento directo, 3 <= k <= 14, 5 <= p <= 257
+-----------------------------------------------------------------------
+   primos 5 <= p <= 257: 53
+  ok   k = 3   D_k = 1              excluidos []               quedan 53 primos   fallos: []
+  ok   k = 4   D_k = 1              excluidos []               quedan 53 primos   fallos: []
+  ok   k = 5   D_k = 1              excluidos [5]              quedan 52 primos   fallos: []
+  ok   k = 6   D_k = 396            excluidos [11]             quedan 52 primos   fallos: []
+  ok   k = 7   D_k = 1              excluidos [7]              quedan 52 primos   fallos: []
+  ok   k = 8   D_k = 172            excluidos [43]             quedan 52 primos   fallos: []
+  ok   k = 9   D_k = 255            excluidos [5, 17]          quedan 51 primos   fallos: []
+  ok   k = 10  D_k = 3420           excluidos [5, 19]          quedan 51 primos   fallos: []
+  ok   k = 11  D_k = 31             excluidos [11, 31]         quedan 51 primos   fallos: []
+  ok   k = 12  D_k = 13572576       excluidos [23]             quedan 52 primos   fallos: []
+  ok   k = 13  D_k = 70             excluidos [5, 7, 13]       quedan 50 primos   fallos: []
+  ok   k = 14  D_k = 170217768      excluidos [7, 53]          quedan 51 primos   fallos: []
+
+   casos (k, p) comprobados en total: 620
+   (informativo) primos excluidos donde la identidad falla: [(11, 11), (13, 13)]
+
+3.  tab:formas: C_7(3,p) = (p-1)(4 + chi_p(-3))/6
+-------------------------------------------------
+  ok   C_7(3,p) = (p-1)(4+chi_p(-3))/6 en los 52 primos 5 <= p <= 257 con p no | 42   fallos: []
+  ok   y en los 53 primos 5 <= p <= 257, p = 7 incluido (fuera de la hipotesis)   fallos: []
+
+4.  rem:ventana: k = 9, Q_9 = 3*u - 1
+-------------------------------------
+   6C/(p-1) = 3   en 45 primos: [7, 11, 13, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 73, 79, 89, 101, 103, 107, 109, 113, 127, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251]
+   6C/(p-1) = 9   en 6 primos: [71, 83, 97, 131, 193, 257]
+  ok   k = 9 toma exactamente los valores 3 y 9 en p <= 257, p no | 6*9*D_9 = 13770
+  ok   el segundo valor aparece exactamente en 71, 83, 97, 131, 193, 257   [71, 83, 97, 131, 193, 257]
+  ok   en los 12 primos p <= 53 con p no | 13770 toma un solo valor   [7, 11, 13, 19, 23, 29, 31, 37, 41, 43, 47, 53]
+  ok   y tambien en los 14 primos 5 <= p <= 53 sin exclusion (el recuento directo)   [5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53]
+
+5.  Controles negativos: la formula con otra condicion tiene que fallar
+-----------------------------------------------------------------------
+  ok   control negativo: cubico Y^3 - uY - u en lugar de f_u falla   98 casos (k, p) en desacuerdo; primeros [(6, 17), (6, 19), (6, 71)]
+  ok   control negativo: contar las raices de Q_k sin exigir escision falla   314 casos (k, p) en desacuerdo; primeros [(6, 5), (6, 7), (6, 13)]
+
+======================================================================
+VERIFICACION COLUMNA n=3:  28 ok, 0 MAL
+======================================================================

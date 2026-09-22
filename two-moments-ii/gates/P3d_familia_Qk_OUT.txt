@@ -1,0 +1,73 @@
+
+1.  La formula de Newton-Waring para s_k (eq:waring)
+----------------------------------------------------
+  ok   s_k = k * suma (-1)^a (a+b-1)!/(a!b!) e2^a e3^b, 2 <= k <= 60   fallan: []
+  ok   ningun coeficiente de esa suma se anula
+
+2.  El grado de Q_k (prop:grado)
+--------------------------------
+  ok   deg Q_k = floor(k/2) - ceil(k/3) = floor(k/6) - [k=1 mod 6]   fallan: []
+
+3.  La monicidad se rompe en k = 35, y por que
+----------------------------------------------
+  ok   Q_35 = 35u^5 - 1225u^4 + 7007u^3 - 8580u^2 + 1925u - 35   obtenido 35*u**5 - 1225*u**4 + 7007*u**3 - 8580*u**2 + 1925*u - 35
+  ok   Q_35 es primitivo
+  ok   Q_35 NO es monico   lider = 35
+  ok   11,17,23,29 son primos y 35 no
+  ok   y son exactamente los monicos de la clase k = 5 (mod 6)   monicos: [11, 17, 23, 29]
+  ok   para k primo, k divide todo coeficiente de s_k   fallan: []
+
+4.  Las dos recurrencias
+------------------------
+  ok   R_k = R_{k-3} - u^[3|k] R_{k-2}, 3 <= k < 40   fallan: []
+  ok   R_{k+18} = (3-2u)R_{k+12} - (u^2+6u+3)R_{k+6} + R_k   fallan: []
+  ok   suma de beta_i = 3 - 2u   3 - 2*u
+  ok   suma de beta_i beta_j = u^2 + 6u + 3   u**2 + 6*u + 3
+  ok   producto de beta_i = 1
+
+5.  El cubico normalizado y su discriminante
+--------------------------------------------
+  ok   disc(Y^3 + uY - u) = -u^2 (4u + 27)   -u**2*(4*u + 27)
+  ok   para k = 11, u = 1 y el cubico es Y^3 + Y - 1
+  ok   Y^3 + Y - 1 es irreducible, disc = -31 no es cuadrado, grupo S_3
+
+6.  La interpretacion modular: dim M_2k = d_k + 1 (prop:modular)
+----------------------------------------------------------------
+  ok   dim M_{2k} = deg Q_k + 1, 3 <= k <= 60   fallan: []
+  ok   dim M_{2k} = 1 exactamente para k en {3,4,5,7}   [3, 4, 5, 7]
+  ok   los pesos son 6, 8, 10, 14 --- E_6, E_8, E_10, E_14
+  ok   y con k = 2, fuera del rango de la nota, dim M_{2k} = 1 exactamente en {2,3,4,5,7}, k<200
+  ok   dim M_w por monomios E_4^a E_6^b = formula cerrada, w par <= 400
+  ok   dim M_12 = 2 y dim M_14 = 1 (ap:delta), por monomios
+  ok   S_14 = Delta M_2 = 0: dim M_2 = 0
+  ok   Delta = q prod(1-q^n)^24 = (E_4^3 - E_6^2)/1728 hasta q^29   tau(2..5) = [-24, 252, -1472, 4830]
+  ok   tau(2) = -24, tau(3) = 252
+  ok   calF_6/66 = (9E_4^3 + 2E_6^2)/11   calF_6 = 12*v**2 + 54*x**3
+
+7.  La cota A < 2^d y los cinco casos que deja
+----------------------------------------------
+  ok   A > 2^d solo en k = 9, 15, 21, 33, 35   [9, 15, 21, 33, 35]
+  ok   los casos de igualdad A = 2^d son exactamente k = 6 y k = 10   [6, 10]
+  ok   y sus raices no son 1/2: u = 3/2 y u = 15/2
+  ok   para k par, A <= 2
+  ok   para k primo impar >= 5, A = 1
+
+8.  La curva de genero cinco: E_0 y la curva de genero 2 D
+----------------------------------------------------------
+  ok   j(v^2 = x^3 - 147x - 718) = -235298/13   j = -235298/13
+  ok   disc del sextico de D = 2^35 * 3^6 * 13   disc = {2: 35, 3: 6, 13: 1}
+  ok   D es lisa de genero 2 (sextico sin raiz doble)
+  ok   #D(F_11) = 11   obtenido 11
+  ok   #D(F_19) = 25   obtenido 25
+  ok   W_11 es irreducible sobre Q
+  ok   W_11 tiene termino independiente p^2 = 121
+  ok   W_11 cumple la ecuacion funcional: coef de X es p*a1   -11 vs -11
+  ok   W_11 predice #D(F_11) = 11   p+1+a1 = 11, medido 11
+  ok   W_19 es irreducible sobre Q
+  ok   W_19 tiene termino independiente p^2 = 361
+  ok   W_19 cumple la ecuacion funcional: coef de X es p*a1   95 vs 95
+  ok   W_19 predice #D(F_19) = 25   p+1+a1 = 25, medido 25
+
+======================================================================
+VERIFICACION FAMILIA Q_k:  45 ok, 0 MAL
+======================================================================

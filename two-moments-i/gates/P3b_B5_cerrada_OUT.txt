@@ -1,0 +1,47 @@
+N_lambda cerrado contra enumeracion, y C(5,p) cerrado contra el censo
+p     chi5 ch-15 a_p(E) eta20    B cerrado  B censo    ok    
+7     -1   -1   2      2        3          3          si    
+11    1    -1   0      0        12         12         si    
+13    -1   -1   2      2        15         15         si    
+17    -1   1    -6     -6       28         28         si    
+19    1    1    -4     -4       54         54         si    
+23    -1   1    6      6        99         99         si    
+29    1    -1   6      6        203        203        si    
+31    1    1    -4     -4       231        231        si    
+37    -1   -1   2      2        369        369        si    
+41    1    -1   6      6        558        558        si    
+43    -1   -1   -10    -10      546        546        si    
+47    -1   1    -6     -6       759        759        si    
+53    -1   1    -6     -6       1105       1105       si    
+59    1    -1   12     12       1682       1682       si    
+61    1    1    2      2        1827       1827       si    
+67    -1   -1   2      2        2310       2310       si    
+71    1    -1   -12    -12      2779       2779       si    
+73    -1   -1   2      2        3006       3006       si    
+79    1    1    8      8        4017       4017       si    
+83    -1   1    6      6        4510       4510       si    
+89    1    -1   -6     -6       5610       5610       si    
+97    -1   -1   2      2        7176       7176       si    
+101   1    -1   6      6        8345       8345       si    
+103   -1   -1   14     14       8721       8721       si    
+107   -1   1    -6     -6       9646       9646       si    
+109   1    1    2      2        10503      10503      si    
+113   -1   1    -6     -6       11396      11396      si    
+127   -1   -1   2      2        16317      16317      si    
+131   1    -1   0      0        18226      18226      si    
+137   -1   1    18     18       20774      20774      si    
+139   1    1    -4     -4       21804      21804      si    
+149   1    -1   -6     -6       26825      26825      si    
+151   1    1    20     20       28305      28305      si    
+
+casos: 33
+fallos de lisura de la cubica plana : 0
+fallos de N_lambda cerrado          : 0   (comprobado hasta p = 61)
+fallos de a_p(E) vs eta(2z)^2 eta(10z)^2 : 0   (nivel 20: comprobacion en rango finito, no determinacion del conductor)
+fallos de C(5,p) cerrado vs censo   : 0
+
+VEREDICTO: C(5,p) cerrado: polinomio + chi_p(5) + chi_p(-15) + a_p(20.a)
+
+========================================================================
+VERIFICACION C(5,p) CERRADA:  5 ok, 0 MAL
+========================================================================

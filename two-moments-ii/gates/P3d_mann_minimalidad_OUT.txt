@@ -1,0 +1,42 @@
+
+1.  El testigo: cuatro terminos, suma cero, cociente de orden 7
+---------------------------------------------------------------
+  ok   1 + (-1) + zeta_7 + (-zeta_7) = 0 en mu_14   |suma| = 2.59e-16
+  ok   NO es minimal: la subsuma {1, -1} se anula
+  ok   el cociente zeta_7/1 tiene orden 7, que NO divide a 6   orden = 7
+  ok   y sin embargo gcd(14,6) = 2
+
+  => Mann NO dice que los cocientes esten en mu_{gcd(m,6)}.  Lo dice DENTRO de
+     cada subsuma minimal.  El argumento directo salta ese paso.
+
+2.  El arreglo: con longitud 4 y pesos positivos solo hay dos particiones
+-------------------------------------------------------------------------
+  ok   un singleton nunca se anula: |w_i zeta_i| = w_i > 0
+  ok   un bloque de 3 deja un singleton, luego es imposible
+  ok   => las unicas particiones son {4} (minimal) y {2,2}
+  ok   todo par que se anula tiene w_i = w_j y zeta_i = -zeta_j   excepciones: []
+  ok   -1 pertenece a mu_m exactamente cuando 2 | m   [2, 4, 6, 8, 10, 12, 14, 16]
+
+3.  Los cuatro cuartetos que importan, uno a uno
+------------------------------------------------
+  ok   (2, 1, 1, 1) no admite corte 2+2 (m <= 30)
+  ok   (3, 1, 1, 1) no admite corte 2+2 (m <= 30)
+  ok   (1, 1, 1, 1) SI admite corte 2+2 ya en mu_2
+  ok   (2, 2, 1, 1) SI admite corte 2+2 ya en mu_2
+
+4.  Y la conclusion aguanta: singularidad solo depende de gcd(m,6)
+------------------------------------------------------------------
+  ok   la firma de singularidad de 10 cuartetos depende solo de gcd(m,6), m <= 24
+
+VEREDICTO
+  El resultado vale; el argumento directo no basta.  La demostracion necesita:
+    (a) con longitud cuatro y pesos positivos, o la relacion es minimal --- y
+        entonces Mann da mu_6 --- o se parte en 2+2;
+    (b) el corte 2+2 obliga a w_i = w_j y zeta_i = -zeta_j, luego a 2 | m;
+    (c) y "2 | m" tambien esta determinado por gcd(m,6).
+  Sin (a)-(b) explicitos, el testigo 1 + (-1) + zeta_7 + (-zeta_7) = 0 es un
+  contraejemplo al PASO, aunque no al enunciado.
+
+======================================================================
+VERIFICACION MANN / MINIMALIDAD:  14 ok, 0 MAL
+======================================================================

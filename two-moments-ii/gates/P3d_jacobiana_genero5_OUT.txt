@@ -1,0 +1,40 @@
+
+==============================================================================
+BLOQUE 1.  el lado Artin--Tate es VIRTUAL: el enunciado vive en K_0 (x) E
+==============================================================================
+  ok   1a. la tabla de caracteres de S_3 es cuadrada, 3 clases y 3 irreducibles
+  ok   1b. y tiene rango maximo, luego la traza determina la clase en K_0 (x) E   det = 6
+  ok   1c. y lo mismo para C_3 SOBRE E = Q(zeta_3), que lo escinde   tres irreducibles de dimension uno
+  ok   1d. CONTROL NEGATIVO: sobre Q solo hay DOS irreducibles de C_3, de grados 1 y 2   menos irreducibles que clases: la traza NO basta sobre Q
+  ok   1e. el indicador de {1} en S_3 es (1/6, 1/6, 1/3) en la base de irreducibles   valores en las tres clases: [1, 0, 0]
+  ok   1f. ... con coeficientes NO enteros, luego no es ninguna representacion genuina   1/6, 1/6, 1/3
+
+==============================================================================
+BLOQUE 2.  la jacobiana de genero cinco: que fuerzan de verdad los dos primos
+==============================================================================
+      D:  v^2 = t^6+12t^4+40t^3+36t^2+48t+16   (lc cuadrado: 2 puntos en el infinito)
+      p=11   #D(F_p)=11   #D(F_p^2)=111    P(T) = T**4 - T**3 - 5*T**2 - 11*T + 121
+            irreducible: True   sin cocientes raiz de la unidad: True   subcuerpo real: Q(sqrt(109))
+      p=19   #D(F_p)=25   #D(F_p^2)=373    P(T) = T**4 + 5*T**3 + 18*T**2 + 95*T + 361
+            irreducible: True   sin cocientes raiz de la unidad: True   subcuerpo real: Q(sqrt(105))
+  ok   2a. #D(F_11) = 11
+  ok   2b. #D(F_19) = 25
+  ok   2c. los dos polinomios de Frobenius son irreducibles sobre Q
+  ok   2d. y ningun cociente de raices es raiz de la unidad   luego J(D) mod p es absolutamente simple en los dos
+  ok   2e. los subcuerpos cuadraticos reales son DISTINTOS   Q(sqrt(109)) y Q(sqrt(105)) --- eso es lo que cierra End = Z, y no la irreducibilidad
+      CONTROL NEGATIVO y^2 = x^5-1 (CM por Q(zeta_5)): subcuerpos reales Q(sqrt(5)), Q(sqrt(5))
+  ok   2f. CONTROL NEGATIVO: con multiplicacion compleja los dos subcuerpos reales COINCIDEN   el criterio correctamente NO certifica End = Z en una curva donde End != Z
+  ok   2g. el cuartico de p=11 es ya irreducible modulo 2   el certificado, verificable en una linea
+  ok   2h. el de p=19 lo es modulo 17
+  ok   2i. CONTROL NEGATIVO: modulo 3 el de p=11 SI se parte, luego el testigo no es cualquiera   un certificado que valiera con cualquier primo no certificaria nada
+  ok   2j. la rutina reproduce P_1 = P en los dos primos   si P_1 no saliera, todo lo que sigue no mediria nada
+  ok   2k. el polinomio de Weil sobre F_{p^m} es irreducible para todo m<=24, en los dos   criterio de Tate, exacto por sumas de potencias enteras --- no por raices en coma flotante, y NO es P(X^m)
+  ok   2l. CONTROL NEGATIVO: T^4-T^2+121 es irreducible sobre Q, como los dos de D
+  ok   2m. ... pero su polinomio de Weil SI se parte, ya en m=2   se parte en m = [2, 4, 6, 8, 10, 12] --- el criterio distingue lo simple de lo absolutamente simple
+  ok   2n. ... y ahi es exactamente el cuadrado (X^2-X+121)^2   la restriccion de Weil de una eliptica, que es el ejemplo clasico
+  ok   2o. los resolventes X^2+a_1X+(a_2-2p) son X^2-X-27 y X^2+5X-20
+  ok   2p. sus discriminantes 109 y 105 son libres de cuadrados   109 primo; 105 = 3*5*7
+
+==============================================================================
+VERIFICACION P3D JACOBIANA DE GENERO CINCO:  22 ok, 0 MAL
+==============================================================================

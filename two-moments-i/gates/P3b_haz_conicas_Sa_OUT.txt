@@ -1,0 +1,347 @@
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.9, Release Date: 2026-05-04                    │
+│ Using Python 3.12.3. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: sage: === P3b_haz_conicas_Sa : el haz de conicas de S_a ===
+sage: sage: valores de a que se usan en las partes simbolicas y de recuento: [1, 3, 5, 6, 7, 9]
+sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: sage: --- paso 1: cambio de variables (simbolico en a) ---
+sage: OK    paso1 simbolico: 4*F(x) = a^2(s^3+t^3+3su^2+3tv^2)-4(s+t)^3
+sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: OK    paso1 a=1
+OK    paso1 a=3
+OK    paso1 a=5
+OK    paso1 a=6
+OK    paso1 a=7
+OK    paso1 a=9
+sage: --- paso 2: la recta L : s = t = 0 esta contenida en S_a ---
+sage: OK    paso2 simbolico: F4|_{s=t=0} = 0
+sage: ....: ....: ....: OK    paso2 a=1
+OK    paso2 a=3
+OK    paso2 a=5
+OK    paso2 a=6
+OK    paso2 a=7
+OK    paso2 a=9
+sage: --- paso 3: planos t = r s, conica residual y factorizacion de A_a(r) ---
+sage: sage: sage: OK    paso3 simbolico: A_a(r) = a^2(1+r^3)-4(1+r)^3 = (r+1)[(a^2-4)r^2-(a^2+8)r+(a^2-4)]
+sage: sage: sage: OK    paso3 simbolico: F4(s,u,rs,v) = s*(3a^2u^2+3a^2 r v^2+A_a(r)s^2)
+sage: ....: ....: OK    paso3 a=1
+OK    paso3 a=3
+OK    paso3 a=5
+OK    paso3 a=6
+OK    paso3 a=7
+OK    paso3 a=9
+sage: --- paso 3bis: la fibra r = infinito (plano s = 0) ---
+sage: sage: OK    paso3bis simbolico: F4(0,u,t,v) = t*((a^2-4)t^2+3a^2 v^2)
+sage: sage: sage: --- paso 4: el determinante del haz se anula exactamente en 0, -1, r+- (y infinito) ---
+sage: sage: OK    paso4 simbolico: det conica = 9a^4 * r * A_a(r)
+sage: sage: ....: OK    paso4 simbolico: q(0) = a^2-4 y q(-1) = 3a^2, luego r+- distintas de 0 y de -1 si a(a^2-4) != 0
+sage: ....: OK    paso4 simbolico: las CINCO fibras malas son distintas salvo si a(a^2-4)(a^2-16) = 0 (disc = 3a^2(16-a^2))
+sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: OK    paso4 a=1: det/(9a^4) = r*A_a(r) de grado 4, raices 0,-1,r+-; disc(q)=3a^2(16-a^2)  disc=45 raices_q_en_Q=[]
+OK    paso4 a=3: det/(9a^4) = r*A_a(r) de grado 4, raices 0,-1,r+-; disc(q)=3a^2(16-a^2)  disc=189 raices_q_en_Q=[]
+OK    paso4 a=5: det/(9a^4) = r*A_a(r) de grado 4, raices 0,-1,r+-; disc(q)=3a^2(16-a^2)  disc=-675 raices_q_en_Q=[]
+OK    paso4 a=6: det/(9a^4) = r*A_a(r) de grado 4, raices 0,-1,r+-; disc(q)=3a^2(16-a^2)  disc=-2160 raices_q_en_Q=[]
+OK    paso4 a=7: det/(9a^4) = r*A_a(r) de grado 4, raices 0,-1,r+-; disc(q)=3a^2(16-a^2)  disc=-4851 raices_q_en_Q=[]
+OK    paso4 a=9: det/(9a^4) = r*A_a(r) de grado 4, raices 0,-1,r+-; disc(q)=3a^2(16-a^2)  disc=-15795 raices_q_en_Q=[]
+sage: sage: --- paso 5: discriminante, campos Q(sqrt D_a), Q(sqrt E_a) y el compuesto ---
+sage: sage: sage: sage: OK    paso5 simbolico: disc = 3a^2(16-a^2)
+sage: ....: OK    paso5 simbolico: disc*(a^2-4)^2 = a^2*D_a*E_a  (luego Q(sqrt disc) = Q(sqrt(D_a E_a)))
+sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: OK    paso5 a=1: X+^2 y X-^2 son -r-, -r+  D=9 E=45 sqfD=1 sqfE=5
+OK    paso5 a=1: X+ X- = 1, (X+ + X-)(a^2-4) = sqrt E, (X+ - X-)(a^2-4) = a sqrt D  [=> Q(X+,X-) = Q(sqrt D, sqrt E)]
+OK    paso5 a=3: X+^2 y X-^2 son -r-, -r+  D=-15 E=-35 sqfD=-15 sqfE=-35
+OK    paso5 a=3: X+ X- = 1, (X+ + X-)(a^2-4) = sqrt E, (X+ - X-)(a^2-4) = a sqrt D  [=> Q(X+,X-) = Q(sqrt D, sqrt E)]
+OK    paso5 a=5: X+^2 y X-^2 son -r-, -r+  D=-63 E=189 sqfD=-7 sqfE=21
+OK    paso5 a=5: X+ X- = 1, (X+ + X-)(a^2-4) = sqrt E, (X+ - X-)(a^2-4) = a sqrt D  [=> Q(X+,X-) = Q(sqrt D, sqrt E)]
+OK    paso5 a=6: X+^2 y X-^2 son -r-, -r+  D=-96 E=640 sqfD=-6 sqfE=10
+OK    paso5 a=6: X+ X- = 1, (X+ + X-)(a^2-4) = sqrt E, (X+ - X-)(a^2-4) = a sqrt D  [=> Q(X+,X-) = Q(sqrt D, sqrt E)]
+OK    paso5 a=7: X+^2 y X-^2 son -r-, -r+  D=-135 E=1485 sqfD=-15 sqfE=165
+OK    paso5 a=7: X+ X- = 1, (X+ + X-)(a^2-4) = sqrt E, (X+ - X-)(a^2-4) = a sqrt D  [=> Q(X+,X-) = Q(sqrt D, sqrt E)]
+OK    paso5 a=9: X+^2 y X-^2 son -r-, -r+  D=-231 E=5005 sqfD=-231 sqfE=5005
+OK    paso5 a=9: X+ X- = 1, (X+ + X-)(a^2-4) = sqrt E, (X+ - X-)(a^2-4) = a sqrt D  [=> Q(X+,X-) = Q(sqrt D, sqrt E)]
+sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....:       a=1: [Q(sqrt D_a, sqrt E_a):Q] = 2
+      a=3: [Q(sqrt D_a, sqrt E_a):Q] = 4
+      a=5: [Q(sqrt D_a, sqrt E_a):Q] = 4
+      a=6: [Q(sqrt D_a, sqrt E_a):Q] = 4
+      a=7: [Q(sqrt D_a, sqrt E_a):Q] = 4
+      a=9: [Q(sqrt D_a, sqrt E_a):Q] = 4
+sage: sage: --- paso 6: recuento sobre F_p (fuerza bruta en P^3, en P^4, y fibra a fibra) ---
+sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: ....: ....: sage: ....: ....: sage: ....: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: sage: sage: sage: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:       a=1: D_a=9 E_a=45 primos excluidos en la lista: [5]
+OK    recuento a=1 p=7: bruto en P^3 = formula  bruto=85 formula=85 chi(D)=1 chi(E)=-1
+OK    fibras a=1 p=7: suma de fibras = bruto en P^3  suma=85
+OK    fibras a=1 p=7: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=7: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 6, 'inf'] esperadas=[0, 6, 'inf']
+OK    paso6 a=1 p=7: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=1 p=11: bruto en P^3 = formula  bruto=199 formula=199 chi(D)=1 chi(E)=1
+OK    fibras a=1 p=11: suma de fibras = bruto en P^3  suma=199
+OK    fibras a=1 p=11: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=11: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 2, 6, 10, 'inf'] esperadas=[0, 2, 6, 10, 'inf']
+OK    paso6 a=1 p=11: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[2, 6]
+OK    recuento a=1 p=13: bruto en P^3 = formula  bruto=235 formula=235 chi(D)=1 chi(E)=-1
+OK    fibras a=1 p=13: suma de fibras = bruto en P^3  suma=235
+OK    fibras a=1 p=13: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=13: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 12, 'inf'] esperadas=[0, 12, 'inf']
+OK    paso6 a=1 p=13: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=1 p=17: bruto en P^3 = formula  bruto=375 formula=375 chi(D)=1 chi(E)=-1
+OK    fibras a=1 p=17: suma de fibras = bruto en P^3  suma=375
+OK    fibras a=1 p=17: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=17: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 16, 'inf'] esperadas=[0, 16, 'inf']
+OK    paso6 a=1 p=17: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=1 p=19: bruto en P^3 = formula  bruto=495 formula=495 chi(D)=1 chi(E)=1
+OK    fibras a=1 p=19: suma de fibras = bruto en P^3  suma=495
+OK    fibras a=1 p=19: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=19: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 3, 13, 18, 'inf'] esperadas=[0, 3, 13, 18, 'inf']
+OK    paso6 a=1 p=19: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[3, 13]
+OK    recuento a=1 p=23: bruto en P^3 = formula  bruto=645 formula=645 chi(D)=1 chi(E)=-1
+OK    fibras a=1 p=23: suma de fibras = bruto en P^3  suma=645
+OK    fibras a=1 p=23: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=23: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 22, 'inf'] esperadas=[0, 22, 'inf']
+OK    paso6 a=1 p=23: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=1 p=29: bruto en P^3 = formula  bruto=1045 formula=1045 chi(D)=1 chi(E)=1
+OK    fibras a=1 p=29: suma de fibras = bruto en P^3  suma=1045
+OK    fibras a=1 p=29: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=29: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 4, 22, 28, 'inf'] esperadas=[0, 4, 22, 28, 'inf']
+OK    paso6 a=1 p=29: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[4, 22]
+OK    recuento a=1 p=31: bruto en P^3 = formula  bruto=1179 formula=1179 chi(D)=1 chi(E)=1
+OK    fibras a=1 p=31: suma de fibras = bruto en P^3  suma=1179
+OK    fibras a=1 p=31: cada fibra mala aporta lo declarado  []
+OK    fibras a=1 p=31: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 11, 17, 30, 'inf'] esperadas=[0, 11, 17, 30, 'inf']
+OK    paso6 a=1 p=31: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[11, 17]
+      a=3: D_a=-15 E_a=-35 primos excluidos en la lista: [5, 7]
+OK    recuento a=3 p=11: bruto en P^3 = formula  bruto=133 formula=133 chi(D)=-1 chi(E)=1
+OK    fibras a=3 p=11: suma de fibras = bruto en P^3  suma=133
+OK    fibras a=3 p=11: cada fibra mala aporta lo declarado  []
+OK    fibras a=3 p=11: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 10, 'inf'] esperadas=[0, 10, 'inf']
+OK    paso6 a=3 p=11: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=3 p=13: bruto en P^3 = formula  bruto=183 formula=183 chi(D)=-1 chi(E)=1
+OK    fibras a=3 p=13: suma de fibras = bruto en P^3  suma=183
+OK    fibras a=3 p=13: cada fibra mala aporta lo declarado  []
+OK    fibras a=3 p=13: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 12, 'inf'] esperadas=[0, 12, 'inf']
+OK    paso6 a=3 p=13: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=3 p=17: bruto en P^3 = formula  bruto=409 formula=409 chi(D)=1 chi(E)=1
+OK    fibras a=3 p=17: suma de fibras = bruto en P^3  suma=409
+OK    fibras a=3 p=17: cada fibra mala aporta lo declarado  []
+OK    fibras a=3 p=17: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 4, 13, 16, 'inf'] esperadas=[0, 4, 13, 16, 'inf']
+OK    paso6 a=3 p=17: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[4, 13]
+OK    recuento a=3 p=19: bruto en P^3 = formula  bruto=457 formula=457 chi(D)=1 chi(E)=-1
+OK    fibras a=3 p=19: suma de fibras = bruto en P^3  suma=457
+OK    fibras a=3 p=19: cada fibra mala aporta lo declarado  []
+OK    fibras a=3 p=19: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 18, 'inf'] esperadas=[0, 18, 'inf']
+OK    paso6 a=3 p=19: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=3 p=23: bruto en P^3 = formula  bruto=645 formula=645 chi(D)=1 chi(E)=-1
+OK    fibras a=3 p=23: suma de fibras = bruto en P^3  suma=645
+OK    fibras a=3 p=23: cada fibra mala aporta lo declarado  []
+OK    fibras a=3 p=23: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 22, 'inf'] esperadas=[0, 22, 'inf']
+OK    paso6 a=3 p=23: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=3 p=29: bruto en P^3 = formula  bruto=871 formula=871 chi(D)=-1 chi(E)=1
+OK    fibras a=3 p=29: suma de fibras = bruto en P^3  suma=871
+OK    fibras a=3 p=29: cada fibra mala aporta lo declarado  []
+OK    fibras a=3 p=29: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 28, 'inf'] esperadas=[0, 28, 'inf']
+OK    paso6 a=3 p=29: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=3 p=31: bruto en P^3 = formula  bruto=1117 formula=1117 chi(D)=1 chi(E)=-1
+OK    fibras a=3 p=31: suma de fibras = bruto en P^3  suma=1117
+OK    fibras a=3 p=31: cada fibra mala aporta lo declarado  []
+OK    fibras a=3 p=31: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 30, 'inf'] esperadas=[0, 30, 'inf']
+OK    paso6 a=3 p=31: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+      a=5: D_a=-63 E_a=189 primos excluidos en la lista: [5, 7]
+OK    recuento a=5 p=11: bruto en P^3 = formula  bruto=177 formula=177 chi(D)=1 chi(E)=-1
+OK    fibras a=5 p=11: suma de fibras = bruto en P^3  suma=177
+OK    fibras a=5 p=11: cada fibra mala aporta lo declarado  []
+OK    fibras a=5 p=11: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 10, 'inf'] esperadas=[0, 10, 'inf']
+OK    paso6 a=5 p=11: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=5 p=13: bruto en P^3 = formula  bruto=157 formula=157 chi(D)=-1 chi(E)=-1
+OK    fibras a=5 p=13: suma de fibras = bruto en P^3  suma=157
+OK    fibras a=5 p=13: cada fibra mala aporta lo declarado  []
+OK    fibras a=5 p=13: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 2, 7, 12, 'inf'] esperadas=[0, 2, 7, 12, 'inf']
+OK    paso6 a=5 p=13: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[2, 7]
+OK    recuento a=5 p=17: bruto en P^3 = formula  bruto=307 formula=307 chi(D)=-1 chi(E)=1
+OK    fibras a=5 p=17: suma de fibras = bruto en P^3  suma=307
+OK    fibras a=5 p=17: cada fibra mala aporta lo declarado  []
+OK    fibras a=5 p=17: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 16, 'inf'] esperadas=[0, 16, 'inf']
+OK    paso6 a=5 p=17: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=5 p=19: bruto en P^3 = formula  bruto=343 formula=343 chi(D)=-1 chi(E)=-1
+OK    fibras a=5 p=19: suma de fibras = bruto en P^3  suma=343
+OK    fibras a=5 p=19: cada fibra mala aporta lo declarado  []
+OK    fibras a=5 p=19: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 9, 17, 18, 'inf'] esperadas=[0, 9, 17, 18, 'inf']
+OK    paso6 a=5 p=19: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[9, 17]
+OK    recuento a=5 p=23: bruto en P^3 = formula  bruto=645 formula=645 chi(D)=1 chi(E)=-1
+OK    fibras a=5 p=23: suma de fibras = bruto en P^3  suma=645
+OK    fibras a=5 p=23: cada fibra mala aporta lo declarado  []
+OK    fibras a=5 p=23: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 22, 'inf'] esperadas=[0, 22, 'inf']
+OK    paso6 a=5 p=23: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=5 p=29: bruto en P^3 = formula  bruto=987 formula=987 chi(D)=1 chi(E)=-1
+OK    fibras a=5 p=29: suma de fibras = bruto en P^3  suma=987
+OK    fibras a=5 p=29: cada fibra mala aporta lo declarado  []
+OK    fibras a=5 p=29: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 28, 'inf'] esperadas=[0, 28, 'inf']
+OK    paso6 a=5 p=29: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=5 p=31: bruto en P^3 = formula  bruto=931 formula=931 chi(D)=-1 chi(E)=-1
+OK    fibras a=5 p=31: suma de fibras = bruto en P^3  suma=931
+OK    fibras a=5 p=31: cada fibra mala aporta lo declarado  []
+OK    fibras a=5 p=31: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 18, 19, 30, 'inf'] esperadas=[0, 18, 19, 30, 'inf']
+OK    paso6 a=5 p=31: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[18, 19]
+      a=6: D_a=-96 E_a=640 primos excluidos en la lista: [5]
+OK    recuento a=6 p=7: bruto en P^3 = formula  bruto=85 formula=85 chi(D)=1 chi(E)=-1
+OK    fibras a=6 p=7: suma de fibras = bruto en P^3  suma=85
+OK    fibras a=6 p=7: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=7: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 6, 'inf'] esperadas=[0, 6, 'inf']
+OK    paso6 a=6 p=7: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=6 p=11: bruto en P^3 = formula  bruto=177 formula=177 chi(D)=1 chi(E)=-1
+OK    fibras a=6 p=11: suma de fibras = bruto en P^3  suma=177
+OK    fibras a=6 p=11: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=11: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 10, 'inf'] esperadas=[0, 10, 'inf']
+OK    paso6 a=6 p=11: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=6 p=13: bruto en P^3 = formula  bruto=183 formula=183 chi(D)=-1 chi(E)=1
+OK    fibras a=6 p=13: suma de fibras = bruto en P^3  suma=183
+OK    fibras a=6 p=13: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=13: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 12, 'inf'] esperadas=[0, 12, 'inf']
+OK    paso6 a=6 p=13: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=6 p=17: bruto en P^3 = formula  bruto=273 formula=273 chi(D)=-1 chi(E)=-1
+OK    fibras a=6 p=17: suma de fibras = bruto en P^3  suma=273
+OK    fibras a=6 p=17: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=17: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 5, 7, 16, 'inf'] esperadas=[0, 5, 7, 16, 'inf']
+OK    paso6 a=6 p=17: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[5, 7]
+OK    recuento a=6 p=19: bruto en P^3 = formula  bruto=343 formula=343 chi(D)=-1 chi(E)=-1
+OK    fibras a=6 p=19: suma de fibras = bruto en P^3  suma=343
+OK    fibras a=6 p=19: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=19: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 7, 11, 18, 'inf'] esperadas=[0, 7, 11, 18, 'inf']
+OK    paso6 a=6 p=19: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[7, 11]
+OK    recuento a=6 p=23: bruto en P^3 = formula  bruto=507 formula=507 chi(D)=-1 chi(E)=-1
+OK    fibras a=6 p=23: suma de fibras = bruto en P^3  suma=507
+OK    fibras a=6 p=23: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=23: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 4, 6, 22, 'inf'] esperadas=[0, 4, 6, 22, 'inf']
+OK    paso6 a=6 p=23: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[4, 6]
+OK    recuento a=6 p=29: bruto en P^3 = formula  bruto=987 formula=987 chi(D)=1 chi(E)=-1
+OK    fibras a=6 p=29: suma de fibras = bruto en P^3  suma=987
+OK    fibras a=6 p=29: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=29: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 28, 'inf'] esperadas=[0, 28, 'inf']
+OK    paso6 a=6 p=29: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=6 p=31: bruto en P^3 = formula  bruto=1179 formula=1179 chi(D)=1 chi(E)=1
+OK    fibras a=6 p=31: suma de fibras = bruto en P^3  suma=1179
+OK    fibras a=6 p=31: cada fibra mala aporta lo declarado  []
+OK    fibras a=6 p=31: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 15, 29, 30, 'inf'] esperadas=[0, 15, 29, 30, 'inf']
+OK    paso6 a=6 p=31: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[15, 29]
+      a=7: D_a=-135 E_a=1485 primos excluidos en la lista: [5, 7, 11]
+OK    recuento a=7 p=13: bruto en P^3 = formula  bruto=183 formula=183 chi(D)=-1 chi(E)=1
+OK    fibras a=7 p=13: suma de fibras = bruto en P^3  suma=183
+OK    fibras a=7 p=13: cada fibra mala aporta lo declarado  []
+OK    fibras a=7 p=13: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 12, 'inf'] esperadas=[0, 12, 'inf']
+OK    paso6 a=7 p=13: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=7 p=17: bruto en P^3 = formula  bruto=375 formula=375 chi(D)=1 chi(E)=-1
+OK    fibras a=7 p=17: suma de fibras = bruto en P^3  suma=375
+OK    fibras a=7 p=17: cada fibra mala aporta lo declarado  []
+OK    fibras a=7 p=17: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 16, 'inf'] esperadas=[0, 16, 'inf']
+OK    paso6 a=7 p=17: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=7 p=19: bruto en P^3 = formula  bruto=457 formula=457 chi(D)=1 chi(E)=-1
+OK    fibras a=7 p=19: suma de fibras = bruto en P^3  suma=457
+OK    fibras a=7 p=19: cada fibra mala aporta lo declarado  []
+OK    fibras a=7 p=19: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 18, 'inf'] esperadas=[0, 18, 'inf']
+OK    paso6 a=7 p=19: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=7 p=23: bruto en P^3 = formula  bruto=691 formula=691 chi(D)=1 chi(E)=1
+OK    fibras a=7 p=23: suma de fibras = bruto en P^3  suma=691
+OK    fibras a=7 p=23: cada fibra mala aporta lo declarado  []
+OK    fibras a=7 p=23: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 15, 20, 22, 'inf'] esperadas=[0, 15, 20, 22, 'inf']
+OK    paso6 a=7 p=23: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[15, 20]
+OK    recuento a=7 p=29: bruto en P^3 = formula  bruto=871 formula=871 chi(D)=-1 chi(E)=1
+OK    fibras a=7 p=29: suma de fibras = bruto en P^3  suma=871
+OK    fibras a=7 p=29: cada fibra mala aporta lo declarado  []
+OK    fibras a=7 p=29: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 28, 'inf'] esperadas=[0, 28, 'inf']
+OK    paso6 a=7 p=29: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=7 p=31: bruto en P^3 = formula  bruto=1179 formula=1179 chi(D)=1 chi(E)=1
+OK    fibras a=7 p=31: suma de fibras = bruto en P^3  suma=1179
+OK    fibras a=7 p=31: cada fibra mala aporta lo declarado  []
+OK    fibras a=7 p=31: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 3, 21, 30, 'inf'] esperadas=[0, 3, 21, 30, 'inf']
+OK    paso6 a=7 p=31: aporte de r+- = chi(D)+chi(E)  aporte=2 chi(D)+chi(E)=2 r+-=[3, 21]
+      a=9: D_a=-231 E_a=5005 primos excluidos en la lista: [5, 7, 11, 13]
+OK    recuento a=9 p=17: bruto en P^3 = formula  bruto=273 formula=273 chi(D)=-1 chi(E)=-1
+OK    fibras a=9 p=17: suma de fibras = bruto en P^3  suma=273
+OK    fibras a=9 p=17: cada fibra mala aporta lo declarado  []
+OK    fibras a=9 p=17: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 11, 14, 16, 'inf'] esperadas=[0, 11, 14, 16, 'inf']
+OK    paso6 a=9 p=17: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[11, 14]
+OK    recuento a=9 p=19: bruto en P^3 = formula  bruto=457 formula=457 chi(D)=1 chi(E)=-1
+OK    fibras a=9 p=19: suma de fibras = bruto en P^3  suma=457
+OK    fibras a=9 p=19: cada fibra mala aporta lo declarado  []
+OK    fibras a=9 p=19: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 18, 'inf'] esperadas=[0, 18, 'inf']
+OK    paso6 a=9 p=19: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=9 p=23: bruto en P^3 = formula  bruto=507 formula=507 chi(D)=-1 chi(E)=-1
+OK    fibras a=9 p=23: suma de fibras = bruto en P^3  suma=507
+OK    fibras a=9 p=23: cada fibra mala aporta lo declarado  []
+OK    fibras a=9 p=23: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 2, 12, 22, 'inf'] esperadas=[0, 2, 12, 22, 'inf']
+OK    paso6 a=9 p=23: aporte de r+- = chi(D)+chi(E)  aporte=-2 chi(D)+chi(E)=-2 r+-=[2, 12]
+OK    recuento a=9 p=29: bruto en P^3 = formula  bruto=987 formula=987 chi(D)=1 chi(E)=-1
+OK    fibras a=9 p=29: suma de fibras = bruto en P^3  suma=987
+OK    fibras a=9 p=29: cada fibra mala aporta lo declarado  []
+OK    fibras a=9 p=29: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 28, 'inf'] esperadas=[0, 28, 'inf']
+OK    paso6 a=9 p=29: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+OK    recuento a=9 p=31: bruto en P^3 = formula  bruto=993 formula=993 chi(D)=-1 chi(E)=1
+OK    fibras a=9 p=31: suma de fibras = bruto en P^3  suma=993
+OK    fibras a=9 p=31: cada fibra mala aporta lo declarado  []
+OK    fibras a=9 p=31: las fibras degeneradas son exactamente {0,-1,inf,r+-}  detectadas=[0, 30, 'inf'] esperadas=[0, 30, 'inf']
+OK    paso6 a=9 p=31: aporte de r+- = chi(D)+chi(E)  aporte=0 chi(D)+chi(E)=0 r+-=[]
+sage: --- segundo metodo independiente: recuento directo en P^4 con los dos pesos ---
+sage: ....: ....: ....: ....: ....: ....: ....: OK    P^4 vs P^3 a=1 p=7  P4=85 P3=85
+OK    P^4 vs P^3 a=1 p=11  P4=199 P3=199
+OK    P^4 vs P^3 a=1 p=13  P4=235 P3=235
+OK    P^4 vs P^3 a=3 p=11  P4=133 P3=133
+OK    P^4 vs P^3 a=3 p=13  P4=183 P3=183
+OK    P^4 vs P^3 a=5 p=11  P4=177 P3=177
+OK    P^4 vs P^3 a=5 p=13  P4=157 P3=157
+OK    P^4 vs P^3 a=7 p=13  P4=183 P3=183
+sage: --- control externo: a = 1 es la cubica de Clebsch, 27 rectas sobre Q(sqrt 5) ---
+sage: ....: ....: ....: ....: OK    Clebsch p=7  n=85 esperado=85
+OK    Clebsch p=11  n=199 esperado=199
+OK    Clebsch p=13  n=235 esperado=235
+OK    Clebsch p=17  n=375 esperado=375
+OK    Clebsch p=19  n=495 esperado=495
+OK    Clebsch p=23  n=645 esperado=645
+OK    Clebsch p=29  n=1045 esperado=1045
+OK    Clebsch p=31  n=1179 esperado=1179
+sage: sage: --- control (4): a = 2 y a = 4 estan excluidos; se comprueba que la construccion se rompe ---
+sage: sage: sage: sage: ....: ....: ....: ....: sage: ....: ....: ....: ....: ....: ....: OK    control a=1: la superficie es lisa
+OK    control a=2: la superficie ES SINGULAR
+OK    control a=3: la superficie es lisa
+OK    control a=4: la superficie ES SINGULAR
+OK    control a=5: la superficie es lisa
+OK    control a=6: la superficie es lisa
+OK    control a=7: la superficie es lisa
+OK    control a=9: la superficie es lisa
+sage: ....: ....: ....: ....: ....: sage: OK    control a=2: (1:1:1:-1) es punto singular (nodo)
+sage: ....: OK    control a=2: tambien (1:1:-1:1), (1:-1:1:1), (-1:1:1:1) -> 4 nodos (cubica de Cayley)
+sage: OK    control a=4: (1:1:1:1) es punto singular
+sage: ....: OK    control a=2: el coeficiente lider (a^2-4) de la cuadratica se anula -> NO hay dos raices r+-
+sage:       a=2: A_2(r) = (-12) * r * (r + 1)  -> solo r=0 y r=-1
+sage:       a=2: la conica en r=0 es (A_2(0), 3a^2, 0) = (0, 12, 0): RANGO 1, recta doble u=0; idem en r=inf
+sage: ....: OK    control a=2: A_2(0) = a^2-4 = 0, fibra de rango 1 (recta doble) en r=0
+sage: ....: OK    control a=4: el discriminante 3a^2(16-a^2) se anula -> r+ = r- = 1 (raiz doble)
+sage:       a=2 y a=4: la construccion se rompe en el haz, no en la aritmetica. Se mide aparte si
+sage:       la FORMULA de recuento sigue cuadrando por accidente:
+sage: ....: ....: ....: ....: ....: ....: ....:       a=2 p=7: bruto=71 formula(con chi(0)=0)=71  coincide
+      a=2 p=11: bruto=155 formula(con chi(0)=0)=155  coincide
+      a=2 p=13: bruto=209 formula(con chi(0)=0)=209  coincide
+      a=2 p=17: bruto=341 formula(con chi(0)=0)=341  coincide
+      a=2 p=19: bruto=419 formula(con chi(0)=0)=419  coincide
+      a=4 p=7: bruto=50 formula(con chi(0)=0)=50  coincide
+      a=4 p=11: bruto=122 formula(con chi(0)=0)=122  coincide
+      a=4 p=13: bruto=248 formula(con chi(0)=0)=248  coincide
+      a=4 p=17: bruto=392 formula(con chi(0)=0)=392  coincide
+      a=4 p=19: bruto=362 formula(con chi(0)=0)=362  coincide
+sage: --- control (extra): si p | 6a(a^2-4)(a^2-16) la formula puede fallar ---
+sage: sage: sage: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....: ....:       a=1 p=5 (EXCLUIDO): bruto=56 formula=56  coincide
+      a=1 p=3 (EXCLUIDO): bruto=40 formula=19  NO coincide
+      a=3 p=5 (EXCLUIDO): bruto=41 formula=41  coincide
+      a=3 p=7 (EXCLUIDO): bruto=50 formula=50  coincide
+      a=5 p=5 (EXCLUIDO): bruto=31 formula=31  coincide
+      a=5 p=7 (EXCLUIDO): bruto=71 formula=71  coincide
+      a=5 p=3 (EXCLUIDO): bruto=40 formula=19  NO coincide
+      a=6 p=5 (EXCLUIDO): bruto=56 formula=56  coincide
+      a=7 p=5 (EXCLUIDO): bruto=41 formula=41  coincide
+      a=7 p=7 (EXCLUIDO): bruto=57 formula=57  coincide
+      a=7 p=11 (EXCLUIDO): bruto=122 formula=122  coincide
+      a=7 p=3 (EXCLUIDO): bruto=40 formula=19  NO coincide
+      a=9 p=5 (EXCLUIDO): bruto=56 formula=56  coincide
+      a=9 p=7 (EXCLUIDO): bruto=71 formula=71  coincide
+      a=9 p=11 (EXCLUIDO): bruto=155 formula=155  coincide
+      a=9 p=13 (EXCLUIDO): bruto=248 formula=248  coincide
+      primos excluidos en los que la formula NO cuadra: 3 de 16 (informativo: la derivacion no afirma nada ahi)
+sage: sage: 
+sage: comprobaciones: 281 ; fallos: 0
+sage: ....: ....: ....: ....: ....: VEREDICTO: la derivacion (pasos 1-6) SE SOSTIENE. Verificada simbolicamente sobre Q y
+VEREDICTO: por recuento real fibra a fibra sobre F_p, con a = 2 y a = 4 rotos como se dice.
+sage: fin
+sage: 

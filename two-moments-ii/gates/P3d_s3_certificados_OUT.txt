@@ -1,0 +1,99 @@
+  ok   la recursion reproduce s_3 = 3e_3                          
+  ok   la recursion reproduce s_4 = 2e_2^2                        
+  ok   la recursion reproduce s_5 = -5e_2e_3                      
+  ok   la recursion reproduce s_7 = 7e_2^2e_3                     
+  ok   deg Q_k = 0 exactamente en k de {3,4,5,7}                  
+  ok   deg Q_k = floor(k/6) - [k = 1 mod 6] en todo el rango      fallan: []
+  ok   disc(Y^3 + uY - u) = -u^2 (4u + 27)                        sympy da: -u**2*(4*u + 27)
+  ok   ese discriminante es < 0 para todo u > 0                   
+
+LAS RAICES DE Q_k Y DE P_k
+------------------------------------------------------------------------------
+   k   d     A=lc   A | k   Q_k: reales>0 simples    P_k: d reales en (0,1)
+   6   1        2      si   1 de 1, simples          1 de 3 reales, 1 en (0,1)
+   8   1        1      si   1 de 1, simples          1 de 3 reales, 1 en (0,1)
+   9   1        3      si   1 de 1, simples          1 de 3 reales, 1 en (0,1)
+  10   1        2      si   1 de 1, simples          1 de 3 reales, 1 en (0,1)
+  11   1        1      si   1 de 1, simples          1 de 3 reales, 1 en (0,1)
+  12   2        2      si   2 de 2, simples          2 de 6 reales, 2 en (0,1)
+  13   1        1      si   1 de 1, simples          1 de 3 reales, 1 en (0,1)
+  14   2        2      si   2 de 2, simples          2 de 6 reales, 2 en (0,1)
+  15   2       15      si   2 de 2, simples          2 de 6 reales, 2 en (0,1)
+  16   2        1      si   2 de 2, simples          2 de 6 reales, 2 en (0,1)
+  17   2        1      si   2 de 2, simples          2 de 6 reales, 2 en (0,1)
+  18   3        2      si   3 de 3, simples          3 de 9 reales, 3 en (0,1)
+  19   2        1      si   2 de 2, simples          2 de 6 reales, 2 en (0,1)
+  20   3        2      si   3 de 3, simples          3 de 9 reales, 3 en (0,1)
+  21   3       21      si   3 de 3, simples          3 de 9 reales, 3 en (0,1)
+  22   3        2      si   3 de 3, simples          3 de 9 reales, 3 en (0,1)
+  23   3        1      si   3 de 3, simples          3 de 9 reales, 3 en (0,1)
+  24   4        2      si   4 de 4, simples          4 de 12 reales, 4 en (0,1)
+  25   3        5      si   3 de 3, simples          3 de 9 reales, 3 en (0,1)
+  26   4        2      si   4 de 4, simples          4 de 12 reales, 4 en (0,1)
+  27   4        9      si   4 de 4, simples          4 de 12 reales, 4 en (0,1)
+  28   4        2      si   4 de 4, simples          4 de 12 reales, 4 en (0,1)
+  29   4        1      si   4 de 4, simples          4 de 12 reales, 4 en (0,1)
+  30   5        2      si   5 de 5, simples          5 de 15 reales, 5 en (0,1)
+  31   4        1      si   4 de 4, simples          4 de 12 reales, 4 en (0,1)
+  32   5        1      si   5 de 5, simples          5 de 15 reales, 5 en (0,1)
+  33   5       33      si   5 de 5, simples          5 de 15 reales, 5 en (0,1)
+  34   5        2      si   5 de 5, simples          5 de 15 reales, 5 en (0,1)
+  35   5       35      si   5 de 5, simples          5 de 15 reales, 5 en (0,1)
+  36   6        2      si   6 de 6, simples          6 de 18 reales, 6 en (0,1)
+  37   5        1      si   5 de 5, simples          5 de 15 reales, 5 en (0,1)
+  38   6        2      si   6 de 6, simples          6 de 18 reales, 6 en (0,1)
+  39   6       39      si   6 de 6, simples          6 de 18 reales, 6 en (0,1)
+  40   6        2      si   6 de 6, simples          6 de 18 reales, 6 en (0,1)
+  41   6        1      si   6 de 6, simples          6 de 18 reales, 6 en (0,1)
+  42   7        2      si   7 de 7, simples          7 de 21 reales, 7 en (0,1)
+  43   6        1      si   6 de 6, simples          6 de 18 reales, 6 en (0,1)
+  44   7        2      si   7 de 7, simples          7 de 21 reales, 7 en (0,1)
+  45   7       45      si   7 de 7, simples          7 de 21 reales, 7 en (0,1)
+  46   7        2      si   7 de 7, simples          7 de 21 reales, 7 en (0,1)
+  ok   Q_k: las d raices son reales, positivas y simples          fallan: []
+  ok   Q_k(0) != 0  (lo necesita |h(0)h(1)| >= 1)                 fallan: []
+  ok   P_k tiene grado 3d y EXACTAMENTE d raices reales, todas en (0,1) fallan: []
+
+LOS CERTIFICADOS:  un primo donde P_k mod p SIGUE siendo irreducible
+------------------------------------------------------------------------------
+   (irreducible modulo un primo ==> irreducible sobre Q; se comprueba en un renglon)
+
+   k=6   deg 3   p=7      k=8   deg 3   p=11     k=9   deg 3   p=2      k=10  deg 3   p=11  
+   k=11  deg 3   p=2      k=12  deg 6   p=5      k=13  deg 3   p=3      k=14  deg 6   p=5   
+   k=15  deg 6   p=11     k=16  deg 6   p=29     k=17  deg 6   p=11     k=18  deg 9   p=61  
+   k=19  deg 6   p=13     k=20  deg 9   p=29     k=21  deg 9   p=97     k=22  deg 9   p=281 
+   k=23  deg 9   p=23     k=24  deg 12  p=71     k=25  deg 9   p=59     k=26  deg 12  p=37  
+   k=27  deg 12  p=113    k=28  deg 12  p=13     k=29  deg 12  p=71     k=30  deg 15  p=11  
+   k=31  deg 12  p=23     k=32  deg 15  p=101    k=33  deg 15  p=41     k=34  deg 15  p=29  
+   k=35  deg 15  p=113    k=36  deg 18  p=89     k=37  deg 15  p=31     k=38  deg 18  p=5   
+   k=39  deg 18  p=11     k=40  deg 18  p=7      k=41  deg 18  p=179    k=42  deg 21  p=31  
+   k=43  deg 18  p=5      k=44  deg 21  p=191    k=45  deg 21  p=29     k=46  deg 21  p=17  
+  ok   P_k es irreducible sobre Q para todo 6 <= k <= 46 con d > 0 reducibles: []
+  ok   y cada uno lleva certificado mod p (irreducible ya modulo un primo) sin certificado: []
+  ok   son 40 casos, no una muestra                               k con d > 0 en 6..46
+
+LA DESIGUALDAD  A < 2^d,  Y LO QUE SE LE ESCAPA
+------------------------------------------------------------------------------
+   se le escapan, en 6 <= k <= 160:  [6, 9, 10, 15, 21, 33, 35]
+   todos por debajo de 47, luego dentro del rango certificado
+  ok   A = lc(Q_k) divide a k en todo 6 <= k <= 160  (DEMOSTRADA en P3d_lc_Qk.py; aqui se mide como control independiente) no divide: []
+  ok   los k que se le escapan a A < 2^d son exactamente {6,9,10,15,21,33,35} salen: [6, 9, 10, 15, 21, 33, 35]
+  ok   y todos ellos estan dentro del rango certificado k <= 46   
+   con IGUALDAD A = 2^d (el filo del argumento): [6, 10]
+  ok   los casos de igualdad A = 2^d estan identificados          salen: [6, 10]
+
+VEREDICTO.  El computo finito de prop:s3 esta hecho: P_k es
+irreducible sobre Q para todo 6 <= k <= 46 con deg Q_k > 0, cada caso con un primo
+testigo.  Eso cubre con holgura los siete k que se le escapan a la desigualdad
+([6, 9, 10, 15, 21, 33, 35]).  Para k > 46 la desigualdad se aplica
+en todo el rango, apoyada en que A divide a k --- DEMOSTRADA en P3d_lc_Qk.py, no
+medida: el coeficiente principal crudo de Q_k es 2 si k es par y k si es impar,
+por Waring en el monomio b = k mod 2, y primitivar solo puede dividirlo.  Con la
+cota floja A <= k el conjunto excepcional crece de estos 7 a 29 valores, todos
+k <= 37, y siguen cayendo dentro del rango certificado.  NO queda hueco.
+
+   tabla en tabla_certificados.tex, junto a este guion (40 filas)
+
+======================================================================
+VERIFICACION prop:s3 --- CERTIFICADOS:  18 ok, 0 MAL
+======================================================================

@@ -1,0 +1,38 @@
+  ok   0. CONTROL POSITIVO: a = 1 reproduce la Clebsch publicada p^2+(6+chi_p(5))p+1   falla en []
+  ok      ... y la formula de la familia coincide ahi con la de la Clebsch
+  ok   1. SIN condicion, la formula falla en 4 de 120 casos de la rejilla   primeros: [(5, 5, 76, 31), (7, 7, 148, 57), (10, 5, 76, 31), (11, 11, 364, 199)]
+  ok      ... e incluye el caso a = p = 5: medido 76, formula 31
+  ok   2. la condicion C1  (p no divide 6a(a^2-4)(a^2-16))  NO deja pasar ningun fallo   fallos que C1 no filtra: []
+  ok      ... y no es vacua: cubre 98 casos buenos de la rejilla
+  ok   3. la condicion C2  (p > a+4)  tampoco deja pasar ningun fallo   fallos que C2 no filtra: []
+  ok      ... y cubre 91 casos buenos
+  ok   4. C2 implica C1 en la rejilla (p > a+4 fuerza p no divide el producto)   contraejemplos: []
+  ok      ... pero C1 es ESTRICTAMENTE mas debil: 7 casos la cumplen sin cumplir C2   p.ej. [(6, 7), (8, 7), (8, 11), (10, 11)]
+  ok   5. todo fallo tiene p dividiendo 6a(a^2-4)(a^2-16) --- la hipotesis es suficiente
+  ok   6. los fallos son EXACTAMENTE los (a, p) de la rejilla con p | a --- la hipotesis no es necesaria   p | a en la rejilla: [(5, 5), (7, 7), (10, 5), (11, 11)]
+  ok      ... y hay pares excluidos por C1 donde la formula acierta: 18   p.ej. [(1, 5), (3, 5), (3, 7), (5, 7)]
+  ok   7. los tres generadores preservan la incidencia de las 27 rectas
+  ok      ... y generan un grupo de orden 51840 = |W(E_6)|   orden 51840
+  ok      ... el estabilizador de una recta tiene orden 1920 = |W(D_5)|, y la cortan 10 rectas   orden 1920, 10 rectas
+  ok      ... y actua FIELMENTE sobre esas diez: el nucleo es trivial   orden del nucleo 1
+
+  Los fallos de la formula sin condicion, y por que:
+  a    p    medido   formula   p | 6a(a^2-4)(a^2-16)
+  --------------------------------------------------------
+  5    5    76       31        si
+  7    7    148      57        si
+  10   5    76       31        si
+  11   11   364      199       si
+
+VEREDICTO
+  La formula de la Proposicion 11 NECESITA rango.  Las dos condiciones C1 y C2
+  funcionan las dos sobre la rejilla, y C2 (p > a+4) implica C1
+  pero es mas fuerte de lo necesario: C1 es la que se enuncia, con C2 como
+  la version comoda "en el contexto de las particiones".  C1 es suficiente y no
+  necesaria: en la rejilla la formula solo falla cuando p | a.
+  El estabilizador W(D_5) de una recta actua fielmente sobre las diez que la cortan,
+  asi que el cuerpo de esas diez es el de las veintisiete.
+
+========================================================================
+VERIFICACION FAMILIA V_(a,1,1,1,1):  17 ok, 0 MAL
+========================================================================

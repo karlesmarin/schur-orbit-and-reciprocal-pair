@@ -1,0 +1,67 @@
+  ok   control: F es 4x la cubica original en las coordenadas (s,u,t,v)
+  ok   1. la recta L : s = t = 0 esta en la superficie
+  ok   2. F|_{t=rs} = s * (6u^2 + 3r v^2 + B(r) s^2)
+  ok      ... y B(r) = -3 P(r) con P = r^3 + 8r^2 + 16r + 10   B = -3*(r**3 + 8*r**2 + 16*r + 10)
+  ok      ... disc de la conica = -2 r P(r), luego degenera solo en r=0 y P(r)=0
+  ok      ... P(0) = 10 != 0, luego r = 0 NO es raiz de P (las ramas no se solapan)
+  ok      ... P es irreducible sobre Q y su grupo es S_3 (disc no cuadrado)   disc P = -140
+  ok   0. CONTROL POSITIVO: el contador reproduce la Clebsch publicada, p^2+(6+chi_p(5))p+1   falla en: []
+  ok   3. la formula acierta en TODOS los primos probados, sin excepciones   discrepan: []
+  ok      ... y son 32 primos, 7 <= p <= 149
+  ok   5. 7 divide a disc(P) = -140 y P tiene raiz DOBLE mod 7   raices de P mod 7: [1, 4]
+  ok      ... y AUN ASI la formula acierta en p = 7 (la suma sobre las 2 raices da -2)   medido 50, formula 50
+  ok      ... la rama de TRES raices esta ejercitada, no es teorica   p con P totalmente escindido: [71, 73, 83, 149]
+  ok   6. p = 5 AGUANTA, aunque ahi r = 0 ES raiz de P y las dos ramas se solapan   p=5: medido 36, formula 36
+  ok      ... p = 3 es el UNICO que falla, y es donde la derivacion divide por 3   p=3: medido 40, formula 16
+  ok      ... luego la hipotesis correcta es p > 3, no p > 5 ni "p de buena reduccion"
+  ok   4. CONTROL NEGATIVO: quitar el termino chi_p(5) FALLA   falla en 32 de 32 primos buenos
+  ok      CONTROL NEGATIVO: chi(+2r) en vez de chi(-2r) FALLA   falla en 13 de 32 primos buenos
+  ok      CONTROL DE EQUIVALENCIA: chi(-8r) NO puede fallar --- -8r y -2r difieren en el cuadrado 4
+
+  p     #V medido   formula   raices de P mod p    sum chi(-2r)
+  --------------------------------------------------------------------
+  7     50          50        [1, 4]               -2
+  11    166         166       ninguna              0
+  13    196         196       ninguna              0
+  17    324         324       ninguna              0
+  19    457         457       [4]                  1
+  23    553         553       [12]                 -1
+  29    958         958       ninguna              0
+  31    1117        1117      [15]                 1
+  37    1407        1407      [21]                 -1
+  41    1887        1887      [2]                  1
+  43    1893        1893      [34]                 -1
+  47    2304        2304      ninguna              0
+  53    2863        2863      [46]                 -1
+  59    3777        3777      [51]                 1
+  61    4027        4027      [6]                  1
+  67    4557        4557      [12]                 -1
+  71    5539        5539      [11, 21, 31]         3
+  73    5257        5257      [33, 52, 53]         -3
+  79    6558        6558      ninguna              0
+  83    6807        6807      [5, 8, 62]           -3
+  89    8367        8367      [18]                 1
+  97    9604        9604      ninguna              0
+  101   10707       10707     [27]                 1
+  103   10816       10816     ninguna              0
+  107   11557       11557     [31]                 -1
+  109   12318       12318     ninguna              0
+  113   12883       12883     [67]                 -1
+  127   16257       16257     [76]                 -1
+  131   17817       17817     [58]                 1
+  137   18907       18907     [113]                -1
+  139   20017       20017     [125]                1
+  149   23245       23245     [55, 99, 136]        3
+
+VEREDICTO
+  #V_(2,2,1,1,1)(F_p) = p^2 + 1 + p( 3 + chi_p(5) + sum_{P(r)=0} chi_p(-2r) )
+  con P(r) = r^3 + 8r^2 + 16r + 10, irreducible sobre Q, grupo S_3, disc = -140.
+  Derivada por el haz de conicas por la recta s = t = 0, no ajustada: los cuatro
+  pasos simbolicos estan arriba y la medida es un control, no la fuente.
+  Hipotesis: p > 3, y NADA MAS.  Los dos primos sospechosos no hay que excluirlos:
+  p = 7, donde P tiene raiz doble, y p = 5, donde r = 0 es raiz de P y las dos
+  ramas degeneradas se solapan.  Los dos aguantan; el unico que cae es p = 3.
+
+========================================================================
+VERIFICACION HAZ DE CONICAS DE V_(2,2,1,1,1):  19 ok, 0 MAL
+========================================================================
