@@ -1,0 +1,13 @@
+no cumple: m=17 q=175 p=5  W_P=2  W_{P+2}=3
+no cumple: m=52 q=175 p=5  W_P=2  W_{P+2}=3
+no cumple: m=27 q=275 p=5  W_P=5  W_{P+2}=4
+no cumple: m=82 q=275 p=5  W_P=5  W_{P+2}=4
+no cumple: m=47 q=475 p=5  W_P=9  W_{P+2}=8
+no cumple: m=142 q=475 p=5  W_P=9  W_{P+2}=8
+no cumple: m=57 q=575 p=5  W_P=10  W_{P+2}=11
+no cumple: m=172 q=575 p=5  W_P=10  W_{P+2}=11
+no cumple: m=67 q=675 p=5  W_P=9  W_{P+2}=8
+no cumple: m=202 q=675 p=5  W_P=9  W_{P+2}=8
+no cumple: m=80 q=1127 p=7  W_P=10  W_{P+2}=11
+no cumple: m=241 q=1127 p=7  W_P=10  W_{P+2}=11
+W_{P+2} = W_P en 26 de 38 pares; con p=3: 8 de 8

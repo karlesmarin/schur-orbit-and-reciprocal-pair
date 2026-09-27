@@ -78,7 +78,7 @@ no generan el anillo de enteros}
 \author{\normalsize Carles Mar\'in\thanks{Investigador independiente, \texttt{karlesmarin@gmail.com}.
 El autor utilizó Claude (Anthropic) como asistente de investigación, comprobó cada afirmación y asume toda la
 responsabilidad sobre el contenido de esta nota.}}
-\date{\normalsize 16 de septiembre de 2026}
+\date{\normalsize septiembre de 2026}
 
 \begin{document}
 \maketitle
@@ -90,7 +90,7 @@ todos los caracteres de $\Sp(2m)$ en $g$ generan un subanillo $A$ del anillo de 
 salvo en casos conocidos en los que es $\ZZ$, es un orden. Localizamos y describimos su conductor. Escribimos $h=2m$ y
 $q=p^vq'$ con $p\nmid q'$. Todo primo del índice $[\cO:A]$ divide a $q$, y para $q'\notin\{1,2,3,4,6\}$ un primo
 $p\mid q$ lo divide si y solo si $q'$ divide a $h$, $h+1$ o $h+2$. En cada primo el conductor es una potencia del
-radical. En un tal $p$ con $\varphi(p^v)\ge2$, la primera capa graduada de $A$ tiene la dimensión del módulo cíclico
+radical. En tal primo $p$, si $\varphi(p^v)\ge2$, la primera capa graduada de $A$ tiene la dimensión del módulo cíclico
 sobre $\FF_p[(\ZZ/q')^\times]$ generado por una función de primer momento $S$ explícita, y decide si esa potencia es
 $1$ y, cuando es $2$, ambas longitudes y si el anillo local es de Gorenstein. Para $p$ impar y
 $q'\notin\{1,2,3,4,6\}$, los segmentos estables dan a $S$ dos formas: el diente de sierra de Stickelberger cuando
@@ -99,7 +99,7 @@ $m\equiv q'/2,q'/2-1\pmod{q'}$. En las familias del diente y en las de medio per
 medio periodo y un lema de duplicación las ponen en un mismo retículo, y la fórmula del
 índice de Sinnott calcula la parte $p$ de los menores
 maximales de la matriz de momentos: el conductor en $p$ es el radical exactamente cuando $p$ no divide a
-$h^-(\QQ(\zeta_{q'}))$, y un divisor simple de $h^-$ da el cuadrado del radical en $p$ y un anillo local de Gorenstein.
+$h^-(\QQ(\zeta_{q'}))$, siempre que $p\nmid\lceil m/q'\rceil$ (en las familias de medio periodo, $p\nmid\lceil 2m/q'\rceil$), y un divisor simple de $h^-$ da el cuadrado del radical en $p$ y un anillo local de Gorenstein.
 Cuando en cambio $2m+1=Nq'$ y $p\nmid N\,h^-$, la primera capa, ambas longitudes y el tipo de Cohen--Macaulay se leen
 en el subgrupo generado por $2$ en $(\ZZ/q')^\times$. Siempre que esa primera capa, de dimensión $w$, esté más que
 medio llena, el índice en $p$ queda cerrado: $v_p([\cO:A])=2d-1-w$, con $d=\varphi(q')/2$ la dimensión del anillo
@@ -108,6 +108,11 @@ entre los números de Bernoulli y los números de clase, y la combinatoria de la
 \end{abstract}
 
 \medskip
+\begin{center}\small
+\emph{Clasificación de materias matemáticas 2020.}\;
+Primaria 11R18; secundarias 11R29, 11R04, 13H10, 13B22, 11B68, 20G05.
+\end{center}
+
 \noindent\textbf{Palabras clave:} valores de caracteres; órdenes en cuerpos ciclotómicos; conductor; ideal de
 Stickelberger; anillo de Gorenstein; número de clase relativo.
 
@@ -156,7 +161,7 @@ pregunta & respuesta \\
 ¿Cuándo es el anillo simplemente $\ZZ$? (\S\ref{sec:set}) & exactamente en los puntos enteros de una nota anterior: Proposición~\ref{prop:AZ} \\
 ¿Qué primos dividen al índice? (\S\ref{sec:sop}) & solo primos de $q$; y, para $q'\notin\{1,2,3,4,6\}$, $p\mid[\cO:A]$ si y solo si la parte $q'$, prima con $p$, del orden de $g$ divide a $h$, $h+1$ o $h+2$: Teorema~\ref{thm:sop}, Figura~\ref{fig:paisaje} \\
 ¿Cómo es el defecto en un primo? (\S\ref{sec:loc}) & un único cuerpo residual $\FF_p$, una primera capa medida por un módulo cíclico, longitudes como sumas de los defectos de las capas, un criterio de Gorenstein y el tipo de Cohen--Macaulay: Teorema~\ref{thm:loc}, Proposiciones~\ref{prop:cert}--\ref{prop:tipo} \\
-¿Por qué aparecen números de clase? (\S\ref{sec:clase}) & los menores maximales de la matriz de momentos son el índice de Sinnott (salvo una potencia de $2$ si $q'\equiv2\pmod4$), así que $h^-$ decide si la primera capa está llena; para $2m+1=Nq'$ y $p\nmid N\,h^-$ lo decide el subgrupo $\langle2\rangle$: Proposición~\ref{prop:sinnott}, Lema~\ref{lem:dobla}, Teorema~\ref{thm:hminus}, Corolarios~\ref{cor:simple}, \ref{cor:dos}, Figuras~\ref{fig:sierra}--\ref{fig:stickel} \\
+¿Por qué aparecen números de clase? (\S\ref{sec:clase}) & los menores maximales de la matriz de momentos son el índice de Sinnott por $(2q')^d/w_{q'}$, una unidad en todo $p\nmid q'$ impar (leído en $q'/2$ si $q'\equiv2\pmod4$), así que $h^-$ decide si la primera capa está llena; para $2m+1=Nq'$ y $p\nmid N\,h^-$ lo decide el subgrupo $\langle2\rangle$: Proposición~\ref{prop:sinnott}, Lema~\ref{lem:dobla}, Teorema~\ref{thm:hminus}, Corolarios~\ref{cor:simple}, \ref{cor:dos}, \ref{cor:indice}, Figuras~\ref{fig:sierra}--\ref{fig:zonas} \\
 ¿Qué hay más allá de la primera capa? (\S\ref{sec:capas}) & una escalera universal por debajo de $p^{v_p(N)}$, descenso a un orden menor en $p^{v_p(N)}$, exponentes certificados por semigrupos, y una pregunta sobre lo que hay más allá: Proposiciones~\ref{prop:escalera}, \ref{prop:descenso}, Corolario~\ref{cor:semigrupo}, Figura~\ref{fig:perfil} \\
 ¿Qué está demostrado, y dónde se detiene? (\S\ref{sec:open}) & qué es nuestro, qué descansa en otros, qué solo se midió y qué no está cubierto \\
 \bottomrule
@@ -202,16 +207,16 @@ $d=\varphi(q')/2$.
  $q'\notin\{1,2,3,4,6\}$, entonces $p\mid[\cO:A]$ si y solo si $q'$ divide a $h$, $h+1$ o $h+2$.
 \item[(2)] \emph{Estructura local} (Lema~\ref{lem:galois}, Teorema~\ref{thm:loc}). $\cf\,\cO_p=\rad^{e_p}$. Si además
  $q'\notin\{1,2,3,4,6\}$, $E\ge2$ y $p\mid[\cO:A]$, entonces $W_1=\dim_{\FF_p}\FF_p[(\ZZ/q')^\times]\cdot S$ con $S$ como en~\eqref{eq:S}; $e_p=1$ si
- y solo si $W_1=d$; $v_p([\cO:A])=\sum_{i<e_p}(d-W_i)$, $v_p([A:\cf])=\sum_{i<e_p}W_i$, que para $W_1>d/2$ es
- $v_p([\cO:A])=2d-1-W_1$ (Corolario~\ref{cor:indice}); y $A_p$ es de
+ y solo si $W_1=d$; $v_p([\cO:A])=\sum_{i<e_p}(d-W_i)$, que para $W_1>d/2$ es $v_p([\cO:A])=2d-1-W_1$
+ (Corolario~\ref{cor:indice}), y $v_p([A:\cf])=\sum_{i<e_p}W_i$; y $A_p$ es de
  Gorenstein si y solo si $2\sum_{i<e_p}W_i=e_pd$ (Proposición~\ref{prop:gor}).
-\item[(3)] \emph{Números de clase} (Teorema~\ref{thm:hminus}, Corolario~\ref{cor:simple}). Si $p$ es impar,
+\item[(3)] \emph{Números de clase} (Teorema~\ref{thm:hminus}, Corolario~\ref{cor:simple}). Si $p$ es impar, $p\mid q$,
  $q'\notin\{1,2,3,4,6\}$, $m\equiv0,-1\pmod{q'}$ y $p\nmid\lceil m/q'\rceil$, entonces $d-W_1$ es el
  número de divisores elementales de la matriz de momentos~$M_{q'}$ divisibles por $p$; así que $e_p=1$ si y solo si
  $p\nmid h^-(\QQ(\zeta_{q'}))$, y si $v_p(h^-)=1$ entonces $e_p=2$ y $A_p$ es de Gorenstein. Para $q'\ge8$ par lo mismo vale
  en las familias de medio periodo $m\equiv r,r-1\pmod{q'}$, $r=q'/2$, con $p\nmid\lceil m/r\rceil$ (Lema~\ref{lem:dobla}). Si $q'\ge5$ es primo y
  $2m+1=Nq'$ con $p\nmid N(q'-1)$, entonces $d-W_1$ cuenta los caracteres impares $\chi$ con $(\overline\chi(2)-1)B_{1,\chi}\equiv0\pmod{\mathfrak p}$.
-\item[(4)] \emph{El factor en $2$} (Corolario~\ref{cor:dos}). Si $p$ es impar, $q'\ge5$ es impar, $2m+1=Nq'$ y
+\item[(4)] \emph{El factor en $2$} (Corolario~\ref{cor:dos}). Si $p$ es impar, $p\mid q$, $q'\ge5$ es impar, $2m+1=Nq'$ y
  $p\nmid N\,h^-(\QQ(\zeta_{q'}))$, entonces $e_p=1$ si $-1\in\langle2\rangle\subseteq(\ZZ/q')^\times$; en otro caso, con $t$ el
  orden de $2$ y $\delta=d/t$, $W_1=d-\delta$, $e_p=2$, $v_p([\cO:A])=d+\delta-1$, y $A_p$ es casi Gorenstein de
  tipo $2\delta-1$.
@@ -224,7 +229,7 @@ $d=\varphi(q')/2$.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{fig_historia_es.pdf}
-\caption{Tres líneas de trabajo, y el punto donde esta nota las une. Las fechas son años de publicación.}
+\caption{Tres líneas de trabajo, y el punto donde esta nota las une. Las fechas son años de publicación (para Gannon--Schopieray, del preprint).}
 \label{fig:historia}
 \end{figure}
 
@@ -294,7 +299,7 @@ orden del producto de las reflexiones simples de su grupo de Weyl.
 \toprule
 familia & $m \bmod n$ & el segmento $\{\pm1,\dots,\pm m\}$ módulo $n$ & ejemplo ($m=6$) \\
 \midrule
-$n\mid h$ & $0$ o $n/2$ & periodos completos ($+$ la clase $n/2$) & $n=4,12$ \\
+$n\mid h$ & $0$ o $n/2$ & periodos completos ($+$ la clase $n/2$) & $n=3,4,6,12$ \\
 $n\mid h+1$ & $(n-1)/2$ & cada clase no nula, una vez más & $n=13$ \\
 $n\mid h+2$ & $n-1$ o $n/2-1$ & periodos completos menos $\{0\}$ (y $\{n/2\}$) & $n=7,14$ \\
 \bottomrule
@@ -318,7 +323,9 @@ $q\in\{3,4,6\}$, $\cO=\ZZ$; con $2m<q$ esto da $m=1$ para $q=3,4$ y $m\in\{1,2\}
 \noindent Esto no es nuevo. Para $m\ge2$ es la parte $2m<q$ de \cite{Mar26}, Teorema~5.1, cuyo enunciado contiene
 además una familia esporádica $q=6$, $m\equiv1\pmod3$, fuera del rango $2m<q$ de aquí; el caso $(6,1)$ es su sombra
 con $m=1$. En el lenguaje de los elementos racionales dice que $g_{1/q}$ es conjugado de todas sus potencias primas
-con $q$ exactamente en estos puntos, y para $q=2m+2$ el elemento es uno de los de Kostant \cite[Teor.~3.1]{Kostant76}. A partir
+con $q$ exactamente en estos puntos, y para $q=2m+2$ el elemento es uno de los de Kostant \cite[Teor.~3.1]{Kostant76}: su elemento
+$\exp(2\pi i\cdot2\rho)$, con la forma invariante normalizada por $(\theta,\theta)=1/h^\vee$, es $g_{1/(2m+2)}$ para
+$\Sp(2m)$ (\S\ref{sec:metodo}). A partir
 de ahora $A\neq\ZZ$ y $\cf=(A:\cO)$.
 
 \begin{lemma}[estabilidad de Galois]\label{lem:galois}
@@ -336,7 +343,8 @@ igualdad se sigue aplicando $\sigma_u^{-1}$. Entonces $\sigma_u(\cf)=(\sigma_u(A
 sobre $p$ forman una sola órbita de Galois.
 \end{proof}
 
-\frontera{Los puntos enteros $q\mid h,h+1,h+2$ son del tipo $C$. Para otro grupo simple simplemente conexo, ¿en qué órdenes $q$ es $\exp(2\pi i\rho^\vee/q)$ conjugado a todas sus potencias primas con $q$, y pueden leerse esos $q$ en los números regulares de su grupo de Weyl?}
+\frontera{Los puntos enteros $q\mid h,h+1,h+2$ son del tipo $C$. Para otro grupo simple simplemente conexo, ¿en qué órdenes $q$ es $\exp(2\pi i\rho/q)$ conjugado, con $\rho$ llevado a la subálgebra de Cartan por la forma invariante normalizada
+como en el tipo $C$ (donde ese elemento es $g_{1/q}$), a todas sus potencias primas con $q$, y pueden leerse esos $q$ en los números regulares de su grupo de Weyl?}
 
 % ==============================================================================================
 \section{¿Qué primos dividen al índice?}\label{sec:sop}
@@ -365,9 +373,9 @@ Supongamos $A\ne\ZZ$.
 \end{keybox}
 
 \noindent Leída a través de un primo $\mathfrak P$ de $\ZZ[\xi]$ sobre $p$, la parte~(c) dice: la reducción mata la
-parte de $g$ de orden potencia de $p$ y deja su parte prima con $p$, de orden $q'$; y para $q'\notin\{3,4,6\}$, $p$
+parte de $g$ de orden potencia de $p$ y deja su parte prima con $p$, de orden $q'$; y para $q'\notin\{1,2,3,4,6\}$, $p$
 divide al índice exactamente cuando esa parte está en una de las tres familias $q'\mid h,h+1,h+2$ de puntos enteros
-(\cite{Mar26}, Teorema~5.1; la Proposición~\ref{prop:AZ} es su parte con $2m<q'$).
+(\cite{Mar26}, Teorema~5.1; la Proposición~\ref{prop:AZ} es su parte con $2m<q$).
 Para el ejemplo guía $A_3(35)$: en $p=7$ la parte $q'=5$ no divide a ninguno de $h,h+1,h+2=6,7,8$, luego
 $7\nmid[\cO:A]$; en $p=5$, $q'=7=h+1$, luego $5\mid[\cO:A]$.
 La Figura~\ref{fig:paisaje} muestra el índice sobre el plano $(q,m)$, separado por primos y coloreado por familia.
@@ -391,7 +399,7 @@ $\cO/p\cO\cong\prod_{P\mid p}\FF_{p^f}[z]/(z^E)$ con $z=\eta_1-(\omega+\omega^{-
 Sean $\rad$ el radical y $\bar R=\cO/\rad$ el anillo residual. Si $E=1$, entonces $\cO/p\cO=\bar R$ y solo importa
 (i): el argumento de (a) vale con $q'$ en lugar de $q$. Supongamos $E\ge2$, y sea $B_2$ la imagen de $A$ en
 $\Lambda_2=\cO/(p,\rad^2)=\bar R[z]/(z^2)$. Si $B_2=\Lambda_2$, la imagen de $A$ en $\cO/p\cO$ contiene $\bar R$ (a
-través de $x\mapsto x^{p^N}$, que mata $z$) y un generador de $\rad/\rad^2$, luego todo; el recíproco es claro.
+través de $x\mapsto x^{p^{fk}}$ con $p^{fk}\ge E$, que fija $\bar R$ y mata $z$) y un generador de $\rad/\rad^2$, luego todo; el recíproco es claro.
 Módulo $\rad^2$, $\eta_j\equiv\gamma_j+jU_jz$ con $\gamma_j=\omega^j+\omega^{-j}$ y
 $U_j=(\omega^j-\omega^{-j})/(\omega-\omega^{-1})$, así que $\prod_j(T-\eta_j)\equiv F(T)-zG(T)$ con
 $F=\prod_j(T-\gamma_j)$ y
@@ -636,7 +644,7 @@ si y solo si $d-W_1=\kappa$.
 
 \begin{proof}
 Sea $\mathfrak m=A_p\cap\rad$, el ideal maximal de $A_p$. Como $A_p\ne\cO_p$, $\mathfrak m$ no es invertible
-\cite[Lemma~2.14]{Mars24}, y por \cite{Mars24}, Proposición~3.5,
+\cite[Lema~2.14]{Mars24}, y por \cite{Mars24}, Proposición~3.5,
 $\operatorname{type}(A_p)+1=\dim_{\FF_p}(\mathfrak m:\mathfrak m)/\mathfrak m$, y $(\mathfrak m:\mathfrak m)$, un anillo
 finito sobre $A_p$, está contenido en $\cO_p$. Como $e=2$, $\rad^2\subseteq A_p$ y $\mathfrak m/\rad^2$ es la capa $V$.
 Para $x\in\cO_p$, $x\rad^2\subseteq\rad^2$, y $x\mathfrak m\subseteq\mathfrak m$ si y solo si el residuo $\bar x$
@@ -672,7 +680,7 @@ $S(c)=B\,\hat s_{q'}(c)$, donde $\hat s_{q'}(c)=\hat c$ es el resto con signo m�
 \noindent Solo aparecen estas dos funciones, y una línea dice por qué. Una suma es su cardinal por su media:
 escribiendo $C(c)$ para el número de $j\in[-m,m]$ con $j\equiv c\pmod{q'}$ y $\mu(c)$ para el punto medio de esa
 progresión aritmética, $S(c)=C(c)\,\mu(c)$ siempre que no sea vacía. Lo que fija la familia es el punto medio. Para
-$m\equiv0,-1\pmod{q'}$ toda clase $c\neq0$ tiene $C(c)=2N$ y $\mu(c)=c-q'/2=s_{q'}(c)/2$; para $2m+1=Nq'$ toda
+$m\equiv0,-1\pmod{q'}$ toda clase $c\neq0$ tiene $C(c)=2N$ y $\mu(c)=c-q'/2$; para $2m+1=Nq'$ toda
 clase tiene $C(c)=N$ y $\mu(c)=\hat c$; en las familias de medio periodo, $C(c)=B$ y $\mu(c)=\hat c$ fuera de las
 dos clases $0$ y $q'/2$ que $c\mapsto-c$ deja fijas, donde $S$ se anula de todos modos. Los dos puntos medios son
 el diente de sierra y su desplazado, y la multiplicidad es el cardinal.
@@ -734,13 +742,13 @@ x\rangle-\tfrac12)$ para $x\notin\ZZ$,
 tanto para unidades como para no unidades. Cada $\omega_n(c)$ es impar, así que las columnas de $M_n$ son las
 coordenadas de $-2n\,\omega_n(c)$ en la base $\sigma_u-\sigma_{-u}$ de $R^-=\{\alpha\in\ZZ[G]:(1+\sigma_{-1})\alpha=0\}$,
 y $\Delta_n=[R^-:2n\Omega]$, donde $\Omega$ es el $\ZZ$-módulo generado por los $\omega_n(c)$. Por
-\cite[Lemma~1.2 and (7)]{BK24}, el grupo $S'$ de Sinnott está generado por $\Omega$ y $\tfrac12N_G$; el ideal de
+\cite[Lema~1.2 y (7)]{BK24}, el grupo $S'$ de Sinnott está generado por $\Omega$ y $\tfrac12N_G$, $N_G=\sum_{u\in G}\sigma_u$; el ideal de
 Stickelberger es $S=S'\cap\ZZ[G]$ \cite[\S1]{BK24}; como $\Omega$ es impar y $N_G$ par, $S'\cap R^-\otimes\QQ=\Omega$
-y $S^-=S\cap\Omega$; por \cite[Lemma~1.1]{BK24} (\cite[Proposition~2.1]{Sin80}), $[S':S]=w_n$; y por
+y $S^-=S\cap\Omega$; por \cite[Lema~1.1]{BK24} (\cite[Prop.~2.1]{Sin80}), $[S':S]=w_n$; y por
 \cite[(26)]{BK24}, a partir de \cite{Sin78}, $[R^-:S^-]=2^ah^-$ con $S^-=S\cap R^-$. Un elemento $\alpha\in S$ con
-$(1+\sigma_{-1})\alpha=N_G$ \cite[Proposition~3.1]{BK24} pone $\tfrac12N_G$ en $S+\Omega$, así que $S'=S+\Omega$ y
+$(1+\sigma_{-1})\alpha=N_G$ \cite[Prop.~3.1]{BK24} pone $\tfrac12N_G$ en $S+\Omega$, así que $S'=S+\Omega$ y
 $[\Omega:S^-]=[S':S]=w_n$. Como $\Omega$ tiene rango $d$ y
-$2n\,\omega_n(c)=2n\,\theta_n(c)-n\,N_G\in S^-$,
+$2n\,\omega_n(c)=2n\,\theta_n(c)-n\,N_G\in S^-$, con $\theta_n(c)=\sum_{u\in G}\langle-cu/n\rangle\sigma_u^{-1}$,
 $[S^-:2n\Omega]=(2n)^d/w_n$, y $\Delta_n=[R^-:S^-]\,[S^-:2n\Omega]$.
 \end{proof}
 
@@ -801,7 +809,7 @@ ellas, así que $L_{2r}=2L_r$; con (i), $L'_{2r}=\tfrac12L_{2r}=L_r$.
 $\Delta_{2r}$; y, de extremo a extremo sobre las capas, en $304$ casos con $q'=2r$, $r\in\{5,7,11,13,23,29,31\}$ y
 $p\in\{3,5,7\}$, en las cuatro familias (solo la primera capa), incluido $p=3$ con $r=23,31$, donde $p\mid h^-$. Para
 (i): la identidad del desplazamiento, $L'_n=\tfrac12L_n$, los divisores elementales y la igualdad de rangos en
-$p\le13$, sobre los $34$ valores pares $n\le70$; y, de extremo a extremo sobre las capas, en $158$ casos con
+$p\le13$, sobre los $34$ valores pares $n\le70$; y, de extremo a extremo sobre las capas, en $156$ casos con
 $4\mid q'$, $q'\le88$, en las dos familias de medio periodo, entre ellos los tres pares con $p\mid h^-$, a saber
 $(q',p)=(52,3)$, $(64,17)$ y $(88,5)$, donde $W_1=d-1$ (\S\ref{sec:metodo}).
 
@@ -823,7 +831,7 @@ y el mismo rango módulo todo primo \emph{impar} $p\nmid n\,h^-$, con
 $\delta_\ell=0$ si $-1\in\langle\ell\rangle$ y $\delta_\ell=\varphi(n)/(2\,\mathrm{ord}_n(\ell))$ en otro caso
 (\emph{medido} en los $52$ pares $(n,\ell)$ con $n\le35$ impar y $\ell\le7$, sobre $\QQ$ y módulo los primos impares
 $p\le13$ con $p\nmid n\,h^-$). La paridad de $p$ no es cosmética: para $n=5$ y $\ell=4$ la matriz tiene filas
-$\pm(3,1,-1,-3)$, con todas las entradas impares, así que su rango módulo $2$ es $1$, mientras que
+$(3,1,-1,-3)$ y $(-1,3,-3,1)$, con todas las entradas impares, así que su rango módulo $2$ es $1$, mientras que
 $-1\in\langle4\rangle$ y $\delta_4=0$.
 Aquí solo aparece $\ell=2$, porque el único desplazamiento que un segmento simétrico puede
 producir es medio periodo.
@@ -854,14 +862,14 @@ con $h^-(\QQ(\zeta_{q'}))$ junto a cada fila. Las celdas no nulas son exactament
 \begin{remark}[cuadrados y rectángulos]\label{obs:comp}
 Para $q'$ primo, la Proposición~\ref{prop:sinnott} es la evaluación de Carlitz y Olson del determinante de Maillet.
 Para $q'$ compuesto los determinantes clásicos son cuadrados. La matriz sobre las unidades, evaluada por Tateyama y por
-Wang \cite{Kuc01}, (2), se anula en cuanto algún primo sobre $q'$ se descompone en $\QQ(\zeta_{q'})/\QQ(\zeta_{q'})^+$;
+Wang \cite{Kuc01}, (2), se anula en cuanto algún divisor primo de $q'$ se descompone en $\QQ(\zeta_{q'})/\QQ(\zeta_{q'})^+$;
 los determinantes de Kučera \cite{Kuc01}, Teorema~1, combinan elementos de Stickelberger de todos los niveles
 $n\mid q'$ con pesos racionales; su valor lleva factores de Euler $\prod(1-\overline\chi(\ell))$, que se anulan para
 algunas elecciones de pesos, y Kučera elige pesos que dan determinantes no nulos para todo conductor. La fórmula del
 índice de Girstmair \cite{Gir89} usa los conjugados de un solo número cotangente dentro del cuerpo, con factores de
 ramificación explícitos. La matriz rectangular $M_{q'}$, cuyo rango sobre $\QQ$ es el de Kuribayashi \cite{Kur08},
 genera $2q'\Omega$, de índice $(2q')^d/w_{q'}$ en la parte
-menos del ideal de Stickelberger, que es una unidad en todo $p\nmid q'$ impar; no hace falta elegir pesos. La
+menos del ideal de Stickelberger (para $q'\equiv2\pmod4$, leída en $r=q'/2$ mediante el Lema~\ref{lem:dobla}(ii)), que es una unidad en todo $p\nmid q'$ impar; no hace falta elegir pesos. La
 Figura~\ref{fig:stickel} la muestra en acción en los valores no primos: una medición anterior sobre $984$ pares
 $(q',p)$ con $3\le q'<90$, $q'\not\equiv2\pmod4$ y $p\le60$ impar, $p\nmid q'$, es ahora consecuencia de la
 Proposición~\ref{prop:sinnott}.
@@ -889,8 +897,8 @@ y $A_p$ es de Gorenstein.
 
 \begin{proof}
 Por la Proposición~\ref{prop:sinnott}, y el Lema~\ref{lem:dobla}(ii) cuando $q'\equiv2\pmod4$, exactamente un divisor
-elemental de $M_{q'}$ es divisible por $p$, así que $W_1=d-1$ por el Teorema~\ref{thm:hminus}(a). Como $p\mid h^-$ obliga a $d\ge3$ ($h^-=1$ cuando $\varphi(q')\le20$,
-\S\ref{sec:metodo}), $d/2<d-1<d$, y la Proposición~\ref{prop:mono}(b) da $e=2$;
+elemental de $M_{q'}$ es divisible por $p$, así que $W_1=d-1$ por el Teorema~\ref{thm:hminus}(a). Como $p\mid h^-$ obliga a $\varphi(q')>20$ \cite[Cap.~11]{Was97}, así que
+$d\ge11$, $d/2<d-1<d$, y la Proposición~\ref{prop:mono}(b) da $e=2$;
 el Teorema~\ref{thm:loc}(d) da las dos longitudes, y la Proposición~\ref{prop:gor} con $W_1=d-1$ da la propiedad de
 Gorenstein.
 \end{proof}
@@ -926,15 +934,16 @@ caracteres.
 \noindent Cuando el número de clase no interviene, el factor de Euler lo hace todo explícito, sin ninguna condición
 sobre $\varphi(q')$, y también para $q'$ compuesto; lo que decide es el subgrupo $\langle2\rangle$ de $(\ZZ/q')^\times$.
 Cuando ningún divisor primo de $q'$ se descompone en $\QQ(\zeta_{q'})/\QQ(\zeta_{q'})^+$ (por ejemplo, cuando $q'$ es
-potencia de un primo), la parte~(a) siguiente se sigue también del determinante de Kanemitsu--Kuzumaki y Kučera
-\cite{Kuc01}, (7) y Ejemplo~2, que entonces es no nulo exactamente cuando $-1\in\langle2\rangle$; la parte~(a) para los
+potencia de un primo), la parte~(a) siguiente se sigue también del determinante de Kanemitsu--Kuzumaki \cite{KK01} y
+Kučera \cite{Kuc01}, (7) y Ejemplo~2, que entonces es no nulo exactamente cuando $-1\in\langle2\rangle$; la parte~(a) para los
 demás $q'$ compuestos, y el rango, las longitudes y el tipo de la parte~(b), no los hemos encontrado.
 
 \begin{corollary}[el factor en $2$]\label{cor:dos}
 Sean $p$ impar, $p\mid q$, $q'\ge5$ impar, $2m+1=Nq'$ y $p\nmid N\,h^-(\QQ(\zeta_{q'}))$; sea $t$ el orden de $2$
 en $(\ZZ/q')^\times$ y $d=\varphi(q')/2$.
 \begin{enumerate}
-\item[(a)] Si $-1\in\langle2\rangle$, entonces $W_1=d$ y $\cf\,\cO_p=\rad$.
+\item[(a)] Si $-1\in\langle2\rangle$, entonces $W_1=d$, $\cf\,\cO_p=\rad$, $v_p([\cO:A])=d-1$, y $A_p$ tiene
+ tipo de Cohen--Macaulay $d-1$.
 \item[(b)] Si $-1\notin\langle2\rangle$, pongamos $\delta=d/t$. Entonces
 \begin{equation}\label{eq:dos}
 \marco{\begin{array}{c}W_1=d-\delta,\qquad \cf\,\cO_p=\rad^2,\\ v_p([\cO:A])=d+\delta-1,\qquad v_p([A:\cf])=d-\delta+1,\end{array}}
@@ -957,7 +966,9 @@ largo de cada una ($2^{t/2}=-1$), así que $P-I$ es invertible. Si $-1\notin\lan
 para $0<k<t$, así que hay $\delta$ órbitas de longitud $t$, con $t\ge3$ porque $q'\nmid2^2-1$; $P$ tiene
 monodromía $+1$, y la imagen de $P-I$ es la suma directa, sobre las órbitas, de los hiperplanos $\sum\epsilon_ux_u=0$
 con todos los $\epsilon_u=\pm1$. Por el Teorema~\ref{thm:loc}(b) esto da $W_1$, y (a) se sigue del
-Teorema~\ref{thm:loc}(c). En (b), $t\ge3$ da $d/2<W_1<d$, así que $e=2$ por la Proposición~\ref{prop:mono}(b), y el
+Teorema~\ref{thm:loc}(c) y~(d); allí $A_p=\ZZ_p+\rad$ por el Teorema~\ref{thm:loc}(a), su ideal maximal es
+$\rad$, que no es invertible porque $A_p\ne\cO_p$, y \cite{Mars24}, Proposición~3.5, da
+$\operatorname{type}(A_p)+1=\dim_{\FF_p}\cO_p/\rad=d$. En (b), $t\ge3$ da $d/2<W_1<d$, así que $e=2$ por la Proposición~\ref{prop:mono}(b), y el
 Teorema~\ref{thm:loc}(d) da las longitudes. Por~\eqref{eq:rango}, $V\otimes\overline{\FF}_p$ es esta suma directa de
 hiperplanos reescalada coordenada a coordenada por las unidades $U_u^{-1}$; un reescalado diagonal no cambia el anillo
 de multiplicadores, y los vectores $a$ con $aH\subseteq H$, para un hiperplano $H$ de $\overline{\FF}_p^{\,t}$ ($t\ge2$)
@@ -1007,8 +1018,8 @@ Bajo las hipótesis del Teorema~\ref{thm:loc}, supongamos $W_1>d/2$, o bien $W_1
 mientras que $v_p([A:\cf])=1$ si $W_1=d$ y $1+W_1$ si $W_1<d$. La hipótesis se cumple en las familias del
 Teorema~\ref{thm:hminus}(a) en cuanto $v_p(h^-(\QQ(\zeta_{q'})))<d/2$, y allí
 $v_p([\cO:A])=d-1+k$ con $k$ el número de divisores elementales de $M_{q'}$ divisibles por $p$; se cumple siempre en
-el Corolario~\ref{cor:dos}, donde $v_p([\cO:A])=d-1+\delta$. Por tanto, si todo primo de $q$ o bien incumple la
-condición del Teorema~\ref{thm:sop}(c) o bien satisface estas hipótesis,
+el Corolario~\ref{cor:dos}, donde $v_p([\cO:A])=d-1+\delta$, con $\delta=0$ en el caso (a). Por tanto, si todo primo
+$p\mid q$ o bien tiene $q'_p$ sin dividir a ninguno de $h$, $h+1$, $h+2$ o bien satisface las hipótesis de este corolario,
 \[
 [\cO:A]=\prod_{p}p^{\,d_p-1+(d_p-W_1(p))},
 \]
@@ -1021,15 +1032,20 @@ $v_p([\cO:A])=d-W_0=d-1$, que es $2d-1-W_1$. Si $W_1<d$ entonces $e=2$: por la P
 $d/2<W_1$, y por la Proposición~\ref{prop:cert}(b) cuando $W_1>0$ y $W_2=d$. El Teorema~\ref{thm:loc}(d) da entonces
 $(d-1)+(d-W_1)$ y $1+W_1$. En el Teorema~\ref{thm:hminus}(a), $d-W_1=k$ y cada uno de esos
 $k$ divisores elementales aporta al menos un factor $p$ a $\Delta_{q'}$, así que $k\le v_p(\Delta_{q'})=v_p(h^-)$ por
-la Proposición~\ref{prop:sinnott}, y $v_p(h^-)<d/2$ da $W_1>d/2$. En el Corolario~\ref{cor:dos},
-$d-W_1=\delta=d/t$ con $t\ge3$, luego $W_1\ge2d/3$. La última fórmula es el Teorema~\ref{thm:sop}(a) y~(c), que no
-dejan otros primos.
+la Proposición~\ref{prop:sinnott} (en $r=q'/2$ mediante el Lema~\ref{lem:dobla}(ii) cuando $q'\equiv2\pmod4$), y $v_p(h^-)<d/2$ da $W_1>d/2$. En el Corolario~\ref{cor:dos},
+$W_1=d$ en el caso (a), y $d-W_1=\delta=d/t$ con $t\ge3$ en el caso (b), luego $W_1\ge2d/3$. En cuanto a la última fórmula, los primos $p\nmid q$ no dividen al
+índice por el Teorema~\ref{thm:sop}(a). Un primo $p\mid q$ con $q'_p$ sin dividir a ninguno de $h,h+1,h+2$ tiene
+$q'_p\notin\{1,2,3,4\}$, porque $h$ es par, $4$ divide a $h$ o a $h+2$, y $3$ divide a uno de tres enteros
+consecutivos; si $q'_p\ne6$, se aplica el Teorema~\ref{thm:sop}(c). Si $q'_p=6$, entonces $m\equiv1\pmod3$, el
+estabilizador del Teorema~\ref{thm:sop}(b)(i) es trivial porque lo es $(\ZZ/6)^\times/\pm1$, y contando como en la
+demostración del Teorema~\ref{thm:sop}(c) sale $S(1)=2k+1$ y $S(2)=-2k$ o $-2(k+1)$ para $m=6k+1$ o $m=6k+4$;
+son coprimos, así que (ii) se cumple y $p\nmid[\cO:A]$.
 \end{proof}
 
 \noindent \emph{Medido} contra el retículo: en los $104$ pares (orden, primo) del barrido de índices con $p$ impar,
 $q'\notin\{1,2,3,4,6\}$ y $W_1>d/2$, la fórmula da el exponente del índice del retículo en todos los casos, y la
 forma explícita lo da en los $103$ de ellos con $p\nmid N$ (o $p\nmid B$) y, en la familia centrada, $p\nmid h^-$;
-los tres pares del barrido fuera de la hipótesis tienen todos $W_1=0$ y $p\mid N$, donde toman el relevo las
+los otros tres pares del barrido con $p$ impar y $q'\notin\{1,2,3,4,6\}$ tienen todos $W_1=0$ y $p\mid N$, donde toman el relevo las
 Proposiciones~\ref{prop:escalera} y~\ref{prop:descenso}. La Figura~\ref{fig:zonas} coloca los perfiles medidos sobre
 el eje de la primera capa: de los $168$ con $q'\notin\{1,2,3,4,6\}$, $126$ tienen $W_1=d$ y $18$ cumplen
 $d/2<W_1<d$, así que los decide la primera cláusula; los $17$ con $0<W_1\le d/2$ tienen todos $p=2$, y la segunda
@@ -1043,7 +1059,7 @@ longitudes del retículo son las de $e=2$); los $7$ restantes tienen $W_1=0$ (\S
 exponente en cada banda: (a) $W_1=0$, la zona de la escalera y el descenso (Proposiciones~\ref{prop:escalera}
 y~\ref{prop:descenso}); (b) $0<W_1\le d/2$, donde el Corolario~\ref{cor:indice} necesita su segunda cláusula
 $W_2=d$; (c) $d/2<W_1<d$, donde la Proposición~\ref{prop:mono}(b) da $e=2$; (d) $W_1=d$, donde $e=1$. El color
-marca si el anillo local es de Gorenstein. El eje vertical es $d=\varphi(q')/2$, con una sacudida pequeña para que
+marca si el anillo local es de Gorenstein. El eje vertical es $d=\varphi(q')/2$, con un pequeño desplazamiento aleatorio para que
 los pares repetidos se separen.}
 \label{fig:zonas}
 \end{figure}
@@ -1064,13 +1080,18 @@ mayoría sin cálculo de retículo ($p\le7$, $q'\le24$, $q\le260$, capas $i\le6$
 cuatro capas calculadas tienen exponente observado $2$ (otros $34$ tienen demasiado pocas capas para decirlo). En los
 $215$, la Proposición~\ref{prop:cert}(b), aplicada a los $W_1>0$ y $W_2=d$ calculados, certifica $e=2$, también en los
 $10$ con varios primos sobre $p$. Lo que llena esa segunda capa es solo la estructura de anillo: \emph{medido} en
-$238$ pares con $p\nmid N$, $\gr_2(A)=\gr_1(A)\cdot\gr_1(A)$, así que en grado $2$ no aparece ningún generador nuevo,
-y ese producto es todo $\bar R$ en todos ellos. Pero no lo es \emph{por} ser la capa no nula: una recta estable es su
-propio cuadrado salvo escalar, y la escalera produce justo eso, pues $\gr_{P-p^j}(A)$ es una recta por la
-Proposición~\ref{prop:escalera}, que es la razón de que allí el exponente sea grande. Así que la hipótesis del
-Corolario~\ref{cor:indice} no se puede rebajar a $\gr_1(A)\neq0$; en las familias del Teorema~\ref{thm:hminus}(a)
-dice que menos de $d/2$ divisores elementales de $M_{q'}$ son divisibles por $p$, y como ese número es a lo sumo
-$v_p(h^-)$, quitarla exigiría una cota del $p$-rango del grupo de clases menos. \emph{Medido}: entre $359$
+$238$ pares con $p$ impar y $p\nmid N$, $\gr_2(A)=\gr_1(A)\cdot\gr_1(A)$, así que en grado $2$ no aparece ningún generador nuevo,
+y ese producto es todo $\bar R$ en todos ellos. Pero no lo es \emph{por} ser la capa no nula: el cuadrado de una recta
+estable es de nuevo una recta, y la escalera produce justo eso, pues $\gr_{P-p^j}(A)$ es una recta por la
+Proposición~\ref{prop:escalera}, que es la razón de que allí el exponente sea grande. Así que el argumento del
+Corolario~\ref{cor:indice} no se extiende a la hipótesis $\gr_1(A)\neq0$: una primera capa no nula no tiene por qué
+tener por cuadrado $\bar R$. Para $A_4(40)$ en $p=2$ se tiene $q'=5$, $d=2$ y $S(c)\equiv1\pmod2$ para $c\ne0$, así que
+$W_1=1$ y el cuadrado de esa recta es una recta; su segunda capa se llena de todos modos, $W=(1,1,2)$,
+mediante un generador nuevo en grado $2$. Si el corolario mismo sobrevive a ese debilitamiento de la hipótesis no lo sabemos; entre los perfiles de retículo, los $10$
+con $0<W_1\le d/2$ cuya segunda capa se calculó, todos en $p=2$, tienen $W_2=d$. En las familias del Teorema~\ref{thm:hminus}(a) su primera condición, $W_1>d/2$, dice que menos de
+$d/2$ divisores elementales de $M_{q'}$ son divisibles por $p$; como ese número es a lo sumo $v_p(h^-)$, basta la
+cota $v_p(h^-)<d/2$, y para prescindir de ella este argumento necesitaría acotar ese número de divisores
+elementales, cosa que la Proposición~\ref{prop:sinnott} no da. \emph{Medido}: entre $359$
 subespacios estables de $\bar R$ generados por vectores al azar, con $q'\le25$ y $p\le11$, todos los de
 $\dim V>d/2$ tienen por cuadrado $\bar R$, y $7$ de los $9$ con $\dim V\le d/2$ no (\S\ref{sec:metodo}).
 Para $p\in\{2,3,5\}$, $q'\in\{5,7,9,11,13\}$ y capas $i\le11$, el perfil calculado
@@ -1106,7 +1127,7 @@ Sean $A\ne\ZZ$, $p$ impar, $q'\ge5$ impar, $2m+1=Nq'$ con $N=p^aM$, $a\ge1$, $p\
 $P=p^a$. Entonces $v>a$, porque $A\ne\ZZ$ obliga a $q>2m+1$ por la Proposición~\ref{prop:AZ}, es decir
 $p^aM<p^v$; y $W_0=1$ y, para $1\le i<P$,
 \[
-\marco{W_i=\begin{cases}1,& i\in\{P-p^j:\ 0\le j<a\},\\ 0,&\text{en otro caso,}\end{cases}}
+\marco{W_i=\begin{cases}1,& i\in\{P-p^j:\ 0\le j<a\},\\ 0,&\text{en otro caso.}\end{cases}}
 \]
 En particular la primera capa no nula de grado positivo es $W_{\varphi(P)}=1$, y la imagen de $A_p$ en $\cO_p/\rad^P$
 es el anillo
@@ -1161,8 +1182,9 @@ cuadrado nulo con una base $\epsilon_0,\dots,\epsilon_{a-1},\delta_1,\dots,\delt
 
 \begin{proof}
 Mantengamos la notación de la demostración de la Proposición~\ref{prop:escalera}, con $n=q'$ y
-$k=\FF_p[\omega]=\FF_p[X]/(\overline\Phi_n(X))$, $\omega=X$: un producto de $g$ copias de $\FF_{p^f}$, una por cada
-primo sobre $p$, no un solo cuerpo. Escribimos $\iota$ para la involución $\omega\mapsto\omega^{-1}$ de $k$ y
+$k=\FF_p[\omega]=\FF_p[X]/(\overline\Phi_n(X))$, $\omega=X$: un producto de copias de $\FF_{p^{f'}}$, con $f'$ el orden
+de $p$ módulo $n$, una por cada primo de $\QQ(\zeta_n)$ sobre $p$; no tiene por qué ser un cuerpo, y abajo solo se
+usa que es étale. Escribimos $\iota$ para la involución $\omega\mapsto\omega^{-1}$ de $k$ y
 $k^\pm$ para sus subespacios propios de $\pm1$, de modo que $k=k^+\oplus k^-$ porque $p\neq2$. Como
 $v\ge a+1$, $E\ge2P\ge P+1$, así que $p\in\pi^{P+1}$ y $\Lambda=\ZZ_p[\xi]/(\pi^{P+1})=k[\pi]/(\pi^{P+1})$; la imagen $B$
 de $A_p$ en $\Lambda$ es la $\FF_p$-álgebra generada por los coeficientes de $Q_m$, y para $i\le P$, $\gr_i(A)$ es la
@@ -1236,13 +1258,14 @@ $\sum_{i<e}(d-W_i)$, tenga una forma cerrada en términos de funciones $L$ $p$-�
 \end{question}
 
 \noindent \emph{Medido} más allá del descenso, en los $38$ pares con $p\in\{3,5,7\}$, $q'\le27$, $M\le4$ y
-$v_p(N)=1$: el perfil no desciende sin más, porque la capa $P+1$ no es siempre la segunda capa de $A_0$, que por el
-párrafo de arriba está siempre llena. Quien la gobierna es el momento \emph{segundo}. Con $\hat c$ el resto con signo,
+$v_p(N)=1$: el perfil no desciende sin más, porque la capa $P+1$ no es siempre la segunda capa de $A_0$, que está
+llena siempre que $W_1(A_0)>d/2$ (Proposición~\ref{prop:mono} con $i=j=1$) y lo estaba en los $238$ pares medidos arriba. Lo que parece gobernarla es el \emph{segundo} momento. Con $\hat c$ el resto con signo,
 el segmento de una familia centrada cumple $\sum_{|j|\le m_0,\,j\equiv c}j^2=M\hat c^{\,2}+M(M^2-1)q'^2/12$, una
 función par, y $W_{P+1}$ es la dimensión del módulo cíclico sobre $\FF_p[(\ZZ/q')^\times]$ generado por
-$c\mapsto\hat c^{\,2}$ en $33$ de los $38$ pares, y uno más en los $5$ restantes; mientras que $W_{P+2}=W_P$ en los
-$38$. Así que el primer momento decide la primera capa y el segundo la capa que hay sobre el descenso, que es el
-extremo $B_2$ de la escalera por la que pregunta la cuestión; qué añaden las $5$ excepciones, no lo sabemos
+$c\mapsto\hat c^{\,2}$ en $33$ de los $38$ pares, y uno más en los $5$ restantes; mientras que $W_{P+2}=W_P$ en $26$
+de los $38$, entre ellos los ocho con $p=3$. Así que, en estos pares, el primer momento decide la primera capa, y el segundo da cuenta de la capa que hay sobre
+el descenso en $33$ de los $38$; es un patrón observado, no un teorema, y apunta al extremo $B_2$ de la escalera
+por la que pregunta la cuestión. Qué añaden las $5$ excepciones, no lo sabemos
 (\S\ref{sec:metodo}).
 
 \frontera{A lo largo de la torre $q=p^vq'$ con $m=p^{v-1}q'-1$, ¿crece $v_p([\cO:A])$ como $d\,p^{v-1}$ más un término lineal en $v$, y es el coeficiente de $v$ un invariante de Iwasawa de $\QQ(\zeta_{q'p^\infty})$?}
@@ -1291,11 +1314,12 @@ reparto alcanza esas capas.
 \noindent\textbf{Fuera del alcance.} $q'\le2$, es decir, $q=p^v$ o $2p^v$, donde $\omega=\pm1$ y el término de primer
 orden se anula; $q'\in\{3,4,6\}$, donde el Teorema~\ref{thm:sop}(b) sigue valiendo pero los enunciados del
 \S\ref{sec:loc} no tienen por qué; $p=2$ en el Teorema~\ref{thm:hminus}, donde para $m\equiv0,-1\pmod{q'}$ con $N$
-impar se tiene $S\equiv1$, así que $W_1=1$ sea cual sea $h^-$; $p\mid N$ (en las familias de medio periodo,
+impar se tiene $S(c)\equiv1$ para $c\ne0$, así que $W_1=1$ sea cual sea $h^-$; $p\mid N$ (en las familias de medio periodo,
 $p\mid\lceil m/r\rceil$) en el Teorema~\ref{thm:hminus}(a), y más allá del grado $p^{v_p(N)}$ en la familia
 $q'\mid h+1$; la familia $q'\mid h+1$
 cuando $p\mid h^-(\QQ(\zeta_{q'}))$ y o bien $q'$ es compuesto o bien $p\mid q'-1$; el tipo cuando $e\ge3$; y el índice
-en un primo con $W_1\le d/2$, donde el Corolario~\ref{cor:indice} se detiene y solo hablan la escalera y el descenso.
+en un primo con $W_1\le d/2$ y $W_2<d$, más allá del Corolario~\ref{cor:indice}, donde, para $p$ impar, $p\mid N$ y $2m+1=Nq'$,
+solo hablan la escalera y el descenso.
 
 % ==============================================================================================
 \section{Cómo se calcularon los números}\label{sec:metodo}
@@ -1324,7 +1348,7 @@ $\ZZ[\xi]$ es no ramificado sobre $\cO$ encima de $p$; las dimensiones de las im
 capas $i\ge E$ requieren precisión $p$-ádica y no se calcularon de este modo. En los $184$ pares
 (orden, primo del conductor) con cálculo de retículo y $e\le E$, la fórmula $v_p([A:\cf])=\sum_{i<e}W_i$ coincide con
 el retículo; un par más tiene $e>E$, con $E=1$. Los $185$ pares tienen $q'\ge3$, el rango en el que vale el
-isomorfismo anterior; $16$ de ellos ($q'\in\{3,4\}$ o $E=1$) quedan fuera de las hipótesis del \S\ref{sec:loc}. En los
+isomorfismo anterior; $17$ de ellos ($q'\in\{3,4\}$ o $E=1$, incluido el par con $e>E$) quedan fuera de las hipótesis del \S\ref{sec:loc}. En los
 $168$ pares dentro de ellas cuyas capas por debajo de $e$ se calcularon, los lemas del \S\ref{sec:loc} se cumplen sin
 excepción, y la simetría de la Proposición~\ref{prop:gor} se cumple exactamente cuando $v_p([\cO:A])=v_p([A:\cf])$.
 
@@ -1336,7 +1360,7 @@ de clase relativos de los programas más antiguos se evalúan en coma flotante c
 clase y se redondean. Están certificados de forma independiente: para los $22$ primos de la Figura~\ref{fig:clase},
 mediante un producto de normas desde cuerpos ciclotómicos en aritmética racional, y para los $66$ valores $n<90$,
 $n\not\equiv2\pmod4$, mediante la misma fórmula en aritmética ciclotómica exacta en Sage, que usa la
-Figura~\ref{fig:stickel}. El cálculo del grupo de clases de PARI coincide con demostración para $\varphi(n)\le20$, y
+Figura~\ref{fig:stickel}. El cálculo del grupo de clases de PARI coincide, de forma demostrada, para $\varphi(n)\le20$, y
 suponiendo GRH para $20<\varphi(n)\le32$. Los divisores elementales de la Proposición~\ref{prop:sinnott} se calculan
 sobre $\ZZ$ y nunca se usan para calcular $h^-$.
 
@@ -1364,14 +1388,14 @@ $h^-$ frente a PARI & {\ttfamily\footnotesize h\_menos\_pari.sage, h\_menos\_par
 $A_{22}(69)$ & {\ttfamily\footnotesize orden\_A22\_69.sage} & {\ttfamily\footnotesize orden\_A22\_69\_OUT.txt} \\
 certificados por semigrupos; retículos $A_{19}(117)$, $A_{22}(225)$, $A_{15}(155)$ & {\ttfamily\footnotesize item1.py, lat.sage} & {\ttfamily\footnotesize item1\_OUT.txt, \allowbreak lat\_*\_OUT.txt} \\
 escalera y $W_P$ ($118$); logaritmo finito ($16$) & {\ttfamily\footnotesize item2.sage, item2\_log.py} & {\ttfamily\footnotesize item2\_OUT.txt, \allowbreak item2\_log\_OUT.txt} \\
-factor en $2$ ($438$) & {\ttfamily\footnotesize item3.sage, item3\_ctrl.sage} & {\ttfamily\footnotesize item3\_OUT.txt, \allowbreak item3\_ctrl\_OUT.txt} \\
+factor en $2$, $q'$ primo ($438$) & {\ttfamily\footnotesize item3.sage, item3\_ctrl.sage} & {\ttfamily\footnotesize item3\_OUT.txt, \allowbreak item3\_ctrl\_OUT.txt} \\
 tipo cuando $e=2$ ($403$) & {\ttfamily\footnotesize capas.sage, item4.sage, item4b.sage} & {\ttfamily\footnotesize item4\_OUT.txt, \allowbreak item4b\_OUT.txt} \\
 descenso ($28+4$); control no centrado ($4$) & {\ttfamily\footnotesize check\_descenso.py, control.py} & {\ttfamily\footnotesize out\_batch.txt, \allowbreak out\_hminus.txt, \allowbreak control\_OUT.txt} \\
 escalera y descenso ($953$) & {\ttfamily\footnotesize inst.sage, descent.sage} & {\ttfamily\footnotesize descent\_OUT\_all.txt} \\
 Lema~\ref{lem:dobla}(ii): identidades, retículos ($22$), capas ($304$) & {\ttfamily\footnotesize duplicacion.py, l2r.sage} & {\ttfamily\footnotesize duplicacion\_OUT.txt, \allowbreak l2r\_OUT.txt} \\
-Lema~\ref{lem:dobla}(i) ($34$); medio periodo con $4\mid q'$: capas ($158$), controles ($12$); identidad ($n\le100$), cardinal por punto medio ($98$), rango para $\ell$ general ($52$) con $7$ controles en $p=2$ & {\ttfamily\footnotesize medio.sage, cruce.sage} & {\ttfamily\footnotesize medio\_OUT.txt, \allowbreak cruce\_OUT.txt} \\
+Lema~\ref{lem:dobla}(i) ($34$); medio periodo con $4\mid q'$: capas ($156$ distintos; la salida tiene $158$ líneas), controles ($12$); identidad ($n\le100$), cardinal por punto medio ($98$), rango para $\ell$ general ($52$) con $7$ controles en $p=2$ & {\ttfamily\footnotesize medio.sage, cruce.sage} & {\ttfamily\footnotesize medio\_OUT.txt, \allowbreak cruce\_OUT.txt} \\
 Corolario~\ref{cor:indice} contra los índices del retículo ($104$; $103$ explícitos) & {\ttfamily\footnotesize indice.sage} & {\ttfamily\footnotesize indice\_OUT.txt} \\
-\S\ref{sec:capas}: segunda capa como cuadrado ($238$); más allá del descenso ($38$); subespacios estables y sus cuadrados ($359$) & {\ttfamily\footnotesize capa2.sage, cuadrado.sage} & {\ttfamily\footnotesize capa2\_OUT.txt, \allowbreak cuadrado\_OUT.txt} \\
+\S\ref{sec:capas}: segunda capa como cuadrado ($238$); más allá del descenso ($38$; $W_{P+2}=W_P$ en $26$); subespacios estables y sus cuadrados ($359$) & {\ttfamily\footnotesize capa2.sage, capa2\_recuento.py, cuadrado.sage} & {\ttfamily\footnotesize capa2\_OUT.txt, \allowbreak capa2\_recuento\_OUT.txt, \allowbreak cuadrado\_OUT.txt} \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -1384,10 +1408,25 @@ números & guion & salida \\
 \midrule
 Corolario~\ref{cor:dos} para $q'$ impar ($1038$), controles, tipo; $A_7(105)$, $A_{31}(315)$ & {\ttfamily\footnotesize dos.sage, dos\_ctrl.sage, dos\_tipo4.sage, latchk.sage} & {\ttfamily\footnotesize dos\_OUT.txt, \allowbreak dos\_ctrl\_OUT.txt, \allowbreak dos\_tipo4\_OUT.txt, \allowbreak lat\_A7\_105\_OUT.txt, \allowbreak lat\_A31\_315\_OUT.txt} \\
 instrumentos de capas contrastados entre sí & {\ttfamily\footnotesize xval\_inst.sage, xval\_inst\_dimsB.py} & {\ttfamily\footnotesize xval\_inst\_OUT.txt, \allowbreak xval\_inst\_dimsB\_OUT.txt} \\
+el elemento de Kostant es $g_{1/(2m+2)}$; caracteres en $\{0,\pm1\}$ allí ($m\le5$) & {\ttfamily\footnotesize kostant\_check.py} & {\ttfamily\footnotesize kostant\_check\_OUT.txt} \\
+las $21$ matrices sobre unidades singulares; las bandas de los $168$ perfiles; \eqref{eq:sinnott} en los $66$ & {\ttfamily\footnotesize cifras\_sin\_salida.py} & {\ttfamily\footnotesize cifras\_sin\_salida\_OUT.txt} \\
 todas las figuras & {\ttfamily\footnotesize figuras.py} & {\ttfamily\footnotesize fig\_*.pdf} \\
 \bottomrule
 \end{tabular}
 \end{center}
+
+
+\section*{Declaración de conflicto de intereses}
+
+\noindent El autor declara no tener intereses económicos ni relaciones personales que pudieran haber
+influido en el trabajo recogido en este artículo. No se recibió financiación.
+
+\section*{Declaración sobre IA generativa y tecnologías asistidas por IA en la escritura}
+
+\noindent Durante la preparación de este trabajo el autor utilizó Claude (Anthropic) para redactar
+prosa, para escribir y ejecutar los guiones de verificación del \S\ref{sec:metodo} y para buscar en
+la literatura. Tras usar esta herramienta el autor revisó y editó el contenido según fue necesario y
+asume toda la responsabilidad sobre el contenido de la publicación.
 
 % ==============================================================================================
 \section*{Atribución}
@@ -1399,7 +1438,7 @@ todas las figuras & {\ttfamily\footnotesize figuras.py} & {\ttfamily\footnotesiz
 enunciado & fuente \\
 \midrule
 una escala en $\ZZ/c$ con un generador coprimo distinto de $\pm$ el suyo es completa, casi completa o trivial & Amiot \cite{Ami09}, Teor.~1 \\
-$A=\ZZ$ (Proposición~\ref{prop:AZ}): los puntos enteros $q\mid2m,2m+1,2m+2$ & \cite{Mar26}, Teor.~5.1; elementos racionales, Kostant \cite[Teor.~3.1]{Kostant76} \\
+$A=\ZZ$ (Proposición~\ref{prop:AZ}): $q\in\{2m+1,2m+2\}$ o $(q,m)=(6,1)$, la parte $2m<q$ de los puntos enteros & \cite{Mar26}, Teor.~5.1; elementos racionales, Kostant \cite[Teor.~3.1]{Kostant76} \\
 órdenes $\ZZ[\chi(g)]$ para grupos finitos; los primos del índice dividen a $|G|$ & Bächle--Sambale \cite{BS20}, Teor.~A, Prop.~6 \\
 longitudes del conductor; Gorenstein $\iff\ell(\cO/A)=\ell(A/\cf)$ & Bass \cite[Cor.~(6.5)]{Bas63}, con el recíproco a partir de Serre y Grothendieck; Herzog--Kunz \cite{HK71}; Huneke--Swanson \cite{HS06}, §12.2 \\
 forma simétrica del criterio de Gorenstein (Proposición~\ref{prop:gor}); Proposición~\ref{prop:mono} para $i+j=e-1$ & Campillo--Delgado--Kiyek \cite{CDK94}, (3.6)--(3.7) \\
@@ -1412,7 +1451,7 @@ factor de Euler $\overline\chi(2)-1$ del diente desplazado; Corolario~\ref{cor:d
 tipo $+1=\dim(\mathfrak m:\mathfrak m)/\mathfrak m$; anillos casi Gorenstein & Marseglia \cite{Mars24}, Prop.~3.5, \S7.2; Barucci--Fröberg \cite{BF97} \\
 logaritmo finito & Kontsevich; Besser \cite{Bes02} \\
 semisumas de caracteres impares & Szmidt--Urbanowicz--Zagier \cite{SUZ95}, (6) \\
-Lema~\ref{lem:galois}, Teoremas~\ref{thm:sop}, \ref{thm:loc}, \ref{thm:hminus}, Proposiciones~\ref{prop:cert}--\ref{prop:unprimo} (Proposición~\ref{prop:mono} más allá de $i+j=e-1$), Proposición~\ref{prop:tipo} (a partir de la fórmula de Marseglia), Proposiciones~\ref{prop:escalera}, \ref{prop:descenso}, Lema~\ref{lem:dobla}, Corolarios~\ref{cor:semigrupo}, \ref{cor:dos}, \ref{cor:simple} & esta nota \\
+Lema~\ref{lem:galois}, Teoremas~\ref{thm:sop}, \ref{thm:loc}, \ref{thm:hminus}, Proposiciones~\ref{prop:cert}--\ref{prop:unprimo} (Proposición~\ref{prop:mono} más allá de $i+j=e-1$), Proposición~\ref{prop:tipo} (a partir de la fórmula de Marseglia), Proposiciones~\ref{prop:escalera}, \ref{prop:descenso}, Lema~\ref{lem:dobla}, Corolarios~\ref{cor:semigrupo}, \ref{cor:simple}, \ref{cor:dos}, \ref{cor:indice} & esta nota \\
 \bottomrule
 \end{tabular}
 \end{center}

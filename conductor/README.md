@@ -4,7 +4,8 @@ Companion material for *Where the character values of $\mathrm{Sp}(2m)$ at a tor
 generate the ring of integers* (Carles Marín), deposited on Zenodo:
 [doi:10.5281/zenodo.22813216](https://doi.org/10.5281/zenodo.22813216). That is the **concept
 DOI** — it always resolves to the current version — and it carries the note in both editions,
-English (29 pp) and Spanish (30 pp), under Apache 2.0.
+English (30 pp) and Spanish (31 pp), under Apache 2.0. This is **version 2** (September 2026): no
+theorem changes, and the corrections to version 1 are listed in the Zenodo record.
 
 Both PDFs are here too — `conductor_rho_line.pdf` and `conductor_rho_line_es.pdf`, byte for byte the
 files deposited on Zenodo — together with the code, the archived output, and the two LaTeX sources
@@ -36,9 +37,11 @@ conductor. Write $h=2m$, $q=p^vq'$ with $p\nmid q'$ and $d=\varphi(q')/2$.
 
 3. **Why class numbers appear.** That first moment is Stickelberger's sawtooth, or the same sawtooth
    shifted by half a period — and one identity, $2\hat s_n(c)=s_n(2c)-s_n(c)$, governs both regimes.
-   The maximal minors of the moment matrix are Sinnott's index, so the conductor at $p$ is the
-   radical **exactly when** $p\nmid h^-(\mathbb{Q}(\zeta_{q'}))$; a simple divisor of $h^-$ gives
-   $\mathfrak{r}^2$ and a Gorenstein ring; on the shifted sawtooth the subgroup $\langle2\rangle$
+   The maximal minors of the moment matrix are Sinnott's index times $(2q')^d/w_{q'}$, a unit at odd
+   $p\nmid q'$, so for $p$ odd, $q'\notin\{1,2,3,4,6\}$, $m\equiv0,-1\pmod{q'}$ and
+   $p\nmid\lceil m/q'\rceil$, the conductor at $p$ is the radical **exactly when**
+   $p\nmid h^-(\mathbb{Q}(\zeta_{q'}))$; a simple divisor of $h^-$ gives $\mathfrak{r}^2$ and a
+   Gorenstein ring; on the shifted sawtooth the subgroup $\langle2\rangle$
    decides everything, with almost Gorenstein rings of type $2\delta-1$; and the index closes,
    $v_p([\mathcal{O}:A])=2d-1-W_1$, whenever the first layer is more than half full.
 
@@ -53,10 +56,11 @@ conductor. Write $h=2m$, $q=p^vq'$ with $p\nmid q'$ and $d=\varphi(q')/2$.
 |---|---|
 | `conductor_rho_line.pdf`, `conductor_rho_line_es.pdf` | the note, English and Spanish, as deposited |
 | `conductor_rho_line.tex`, `conductor_rho_line_es.tex`, `fig_*.pdf`, `figuras.py` | the sources and the figure script |
-| everything else | 137 files: the scripts behind every number labelled *measured* or *observed*, and their archived output |
+| `TOOL_README.md` | the map: each number of the note, the script that produces it, and the file that holds its run |
+| everything else | the scripts behind every number labelled *measured* or *observed*, and their archived output |
 
-`README.md` in the ancillary archive maps each number of the note to the script that produces it and
-to the file that holds its run. A script `foo.sage` or `foo.py` writes `foo_OUT.txt` beside it.
+`TOOL_README.md` (the `README.md` of the ancillary archive on Zenodo) maps each number of the note
+to the script that produces it and to the file that holds its run. A script `foo.sage` or `foo.py` writes `foo_OUT.txt` beside it.
 
 ## 🧪 How to doubt a number
 

@@ -66,7 +66,7 @@ def fig_historia(prev):
         (T("conductors of\none-dimensional rings", "conductores de anillos\nunidimensionales"), [
             (1877, "Dedekind\n(Führer)"), (1963, "Bass"), (1971, "Herzog–Kunz"), (2006, "Huneke–Swanson")]),
         (T("character values\nat torsion elements", "valores de caracteres\nen elementos de torsión"), [
-            (1940, "Littlewood"), (1976, "Kostant"), (2009, T("Amiot\n(musical scales)", "Amiot\n(escalas musicales)")),
+            (1976, "Kostant"), (2009, T("Amiot\n(musical scales)", "Amiot\n(escalas musicales)")),
             (2019, T("Gannon–Schopieray\n(fields)", "Gannon–Schopieray\n(cuerpos)")), (2020, T("Bächle–Sambale\n(orders, finite G)", "Bächle–Sambale\n(órdenes, G finito)")),
             (2026, T("integer points\non the ρ-line", "puntos enteros\nen la recta ρ"))]),
     ]
@@ -76,7 +76,7 @@ def fig_historia(prev):
         (0, 1840): (1840, 0.28), (0, 1850): (1856, -0.28), (0, 1890): (1890, 0.28),
         (0, 1955): (1950, -0.28), (0, 1962): (1962, 0.28), (0, 1978): (1983, -0.28),
         (1, 1877): (1877, 0.28), (1, 1963): (1960, 0.28), (1, 1971): (1974, -0.28), (1, 2006): (1995, 0.28),
-        (2, 1940): (1940, 0.28), (2, 1976): (1976, 0.28), (2, 2009): (1990, -0.50),
+        (2, 1976): (1976, 0.28), (2, 2009): (1990, -0.50),
         (2, 2019): (2000, -1.10), (2, 2020): (2010, 0.62), (2, 2026): (2021, -0.50),
     }
     if IDIOMA == "es":  # las etiquetas en castellano son mas largas
@@ -326,7 +326,8 @@ def fig_estructura(prev):
         (86, T(r"§3  When is the ring just $\mathbb{Z}$?", r"§3  ¿Cuándo es el anillo $\mathbb{Z}$?"),
          T(r"only at $q=2m+1,\,2m+2$ (and $(6,1)$)", r"solo en $q=2m+1,\,2m+2$ (y $(6,1)$)"), COL_CAR),
         (71, T("§4  Which primes divide the index?", "§4  ¿Qué primos dividen al índice?"),
-         T(r"$p\mid q$ with $q'\mid h,\,h+1,\,h+2$", r"$p\mid q$ con $q'\mid h,\,h+1,\,h+2$"), COL_CAR),
+         T(r"$p\mid q$ with $q'\mid h,\,h+1,\,h+2$, $q'\notin\{1,2,3,4,6\}$",
+           r"$p\mid q$ con $q'\mid h,\,h+1,\,h+2$, $q'\notin\{1,2,3,4,6\}$"), COL_CAR),
         (56, T("§5  What does the defect look like at p?", "§5  ¿Cómo es el defecto en p?"),
          T(r"layers $W_i$: lengths, exponent, Gorenstein, type", r"capas $W_i$: longitudes, exponente, Gorenstein, tipo"), COL_CON),
     ]
