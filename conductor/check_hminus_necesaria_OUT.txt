@@ -1,0 +1,7 @@
+(q',p,M)=(77,5,1): rank W_P = 28, corollary without the h^- hypothesis would give 29 (d=30)
+  e.g. m = (5*77-1)/2 = 192, q = 5^2*77 = 1925
+(q',p)=(23,3): rank 10, predicted 10
+(q',p)=(31,3): rank 12, predicted 12
+(q',p)=(7,5): rank 2, predicted 2
+(q',p)=(13,5): rank 6, predicted 6
+grid cases with p | h^-: {(23, 3): 26, (31, 3): 25} total 51

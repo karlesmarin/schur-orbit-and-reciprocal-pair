@@ -4,8 +4,10 @@ Companion material for *Where the character values of $\mathrm{Sp}(2m)$ at a tor
 generate the ring of integers* (Carles Marín), deposited on Zenodo:
 [doi:10.5281/zenodo.22813216](https://doi.org/10.5281/zenodo.22813216). That is the **concept
 DOI** — it always resolves to the current version — and it carries the note in both editions,
-English (30 pp) and Spanish (31 pp), under Apache 2.0. This is **version 2** (September 2026): no
-theorem changes, and the corrections to version 1 are listed in the Zenodo record.
+English (32 pp) and Spanish (33 pp), under Apache 2.0. This is **version 3** (September 2026): a new
+corollary on the layer $W_P$ at degree $P$ (Corollary 21, with `check_WP_dos.py` and
+`check_hminus_necesaria.py`) and corrected attributions to Kac, Pianzola, Kučera and Girstmair; the
+changes of each version are listed in the Zenodo record.
 
 Both PDFs are here too — `conductor_rho_line.pdf` and `conductor_rho_line_es.pdf`, byte for byte the
 files deposited on Zenodo — together with the code, the archived output, and the two LaTeX sources

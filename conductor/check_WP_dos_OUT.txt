@@ -1,0 +1,3 @@
+casos distintos 953; en hipotesis 902: acierta 902, falla 0
+fuera de hipotesis (p | M h^-): 51, de ellos la formula difiere en 0
+sin h^- en la tabla: 0

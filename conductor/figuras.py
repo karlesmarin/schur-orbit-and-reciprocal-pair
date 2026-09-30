@@ -66,7 +66,8 @@ def fig_historia(prev):
         (T("conductors of\none-dimensional rings", "conductores de anillos\nunidimensionales"), [
             (1877, "Dedekind\n(Führer)"), (1963, "Bass"), (1971, "Herzog–Kunz"), (2006, "Huneke–Swanson")]),
         (T("character values\nat torsion elements", "valores de caracteres\nen elementos de torsión"), [
-            (1976, "Kostant"), (2009, T("Amiot\n(musical scales)", "Amiot\n(escalas musicales)")),
+            (1976, "Kostant"), (1981, "Kac"), (1987, "Pianzola"),
+            (2009, T("Amiot\n(musical scales)", "Amiot\n(escalas musicales)")),
             (2019, T("Gannon–Schopieray\n(fields)", "Gannon–Schopieray\n(cuerpos)")), (2020, T("Bächle–Sambale\n(orders, finite G)", "Bächle–Sambale\n(órdenes, G finito)")),
             (2026, T("integer points\non the ρ-line", "puntos enteros\nen la recta ρ"))]),
     ]
@@ -76,7 +77,7 @@ def fig_historia(prev):
         (0, 1840): (1840, 0.28), (0, 1850): (1856, -0.28), (0, 1890): (1890, 0.28),
         (0, 1955): (1950, -0.28), (0, 1962): (1962, 0.28), (0, 1978): (1983, -0.28),
         (1, 1877): (1877, 0.28), (1, 1963): (1960, 0.28), (1, 1971): (1974, -0.28), (1, 2006): (1995, 0.28),
-        (2, 1976): (1976, 0.28), (2, 2009): (1990, -0.50),
+        (2, 1976): (1972, 0.28), (2, 1981): (1966, -0.28), (2, 1987): (1992, 0.28), (2, 2009): (1990, -0.50),
         (2, 2019): (2000, -1.10), (2, 2020): (2010, 0.62), (2, 2026): (2021, -0.50),
     }
     if IDIOMA == "es":  # las etiquetas en castellano son mas largas
@@ -553,7 +554,9 @@ def fig_zonas(prev):
     for sp in ("right", "top"):
         ax.spines[sp].set_visible(False)
     ax.grid(axis="y", color=GRID, lw=0.6, zorder=0)
-    ax.legend(loc="lower left", fontsize=7.5, bbox_to_anchor=(0.03, 0.02))
+    # leyenda fuera del area de datos: dentro, su punto naranja se leia como un dato (errata C, 28-sep)
+    ax.legend(loc="upper center", fontsize=7.5, bbox_to_anchor=(0.5, -0.28), ncol=2, frameon=True,
+              edgecolor=GRID)
     guardar(fig, "fig_zonas", prev)
     return cuenta
 

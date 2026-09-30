@@ -2,3 +2,14 @@
 (2) perfiles: 168; W_1=0: 7, 0<W_1<=d/2: 17, d/2<W_1<d: 18, W_1=d: 126
     banda baja: primos [2]; con W_2 calculado 10 (todos W_2 = d: True); sin W_2 7, con E en [2]
 (3) formula de Sinnott completa: cumple en 66 de 66 n; fallos = 0
+(4) descenso: 953 casos distintos en descent_OUT_all; 51 saltados por coste; 338 con q' compuesto
+    corridas anteriores: 32 (out_batch+out_hminus) y 118 (item2), todas dentro de los 953: True; union = 953
+    catalogo_e: pares (orden, primo) con capas calculadas = 1183
+    logaritmo finito: 16 casos; control no centrado: 4 casos con pi^P en el algebra
+    capa sobre el descenso: 38 pares; <hat^2> exacto en 33, uno mas en 5
+    tipo con kappa>1: 19; de ellos tambien por colon en el reticulo: 9
+    medio periodo con 4 | q': 156 casos distintos (158 lineas); controles con p | B: 12
+    factor en 2, controles con p | h^-: 7, de ellos distintos de la prediccion: 3
+    q' compuestos con t par y -1 fuera de <2>: 13 [15, 21, 35, 39, 45, 51, 55, 63, 69, 75, 77, 85, 87]
+    tipo 2*delta-1 calculado desde las capas: 26 casos distintos
+    capas locales: 184 pares con e <= E mas 1 con e > E = 185; 16 fuera de hipotesis mas ese = 17
