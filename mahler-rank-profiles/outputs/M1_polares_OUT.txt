@@ -1,0 +1,20 @@
+(p,n,a,v) = (5,7,2,3): P=25, N=175, m=87, e=100, D=45, B=20, e >= D+B: True
+c_k calculados (k <= 87)
+(a) n|k: 12 casos; (b) n no divide k: 75 casos; fallos: 0
+(c) k=70, h=35: v(S^2 U_k Y_h) = 40  (2P-2p^{a-1} = 40, D = 45); c_k sin alpha mod t^D: True
+RESULTADO: OK
+(p,n,a,v) = (5,11,2,3): P=25, N=275, m=137, e=100, D=45, B=20, e >= D+B: True
+c_k calculados (k <= 137)
+(a) n|k: 12 casos; (b) n no divide k: 125 casos; fallos: 0
+(c) k=110, h=55: v(S^2 U_k Y_h) = 40  (2P-2p^{a-1} = 40, D = 45); c_k sin alpha mod t^D: True
+RESULTADO: OK
+(p,n,a,v) = (7,3,2,3): P=49, N=147, m=73, e=294, D=91, B=42, e >= D+B: True
+c_k calculados (k <= 73)
+(a) n|k: 24 casos; (b) n no divide k: 49 casos; fallos: 0
+(c) k=42, h=21: v(S^2 U_k Y_h) = 84  (2P-2p^{a-1} = 84, D = 91); c_k sin alpha mod t^D: True
+RESULTADO: OK
+(p,n,a,v) = (5,3,3,4): P=125, N=375, m=187, e=500, D=225, B=150, e >= D+B: True
+c_k calculados (k <= 187)
+(a) n|k: 62 casos; (b) n no divide k: 125 casos; fallos: 0
+(c) k=150, h=75: v(S^2 U_k Y_h) = 200  (2P-2p^{a-1} = 200, D = 225); c_k sin alpha mod t^D: True
+RESULTADO: OK

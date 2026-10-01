@@ -1,0 +1,9 @@
+n=19: vueltas AAPPPPPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=107: vueltas AAPPPPPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=127: vueltas AAAPPPPPPP (lambda~ 3) | lambda serie 3 | chi(2)=1 chi(p)=1 forzado 2
+n=227: vueltas AAPPPPPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=403: vueltas AAPPPPPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=535: vueltas AAAPPPPPPP (lambda~ 3) | lambda serie 3 | chi(2)=1 chi(p)=1 forzado 2
+n=611: vueltas AAPPPPPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=651: vueltas AAPPPPPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+p=11 n<=700: 119 caracteres; vueltas == min(lambda, p-1): 119; por encima de lo forzado: 8 (8 coinciden) (2 s)

@@ -1,0 +1,8 @@
+(p, n, a) = (5, 75619, 4); r_b = [6, None, 1, None]
+(0) mu_chi(Z_p) = 2(1-chi(2))B_1,chi = 3 mod 5: fila 0 nueva
+(1) rango medido 291, formula 291: OK
+    control negativo r_0 = 5: formula 293 (debe ser != 291): OK
+    control negativo r_0 = 7: formula 289 (debe ser != 291): OK
+(2) semillas b par, j < p^a: 250 comparadas, 0 discrepancias: OK
+    control negativo r_0 = 5: 1 discrepancias (debe ser > 0): OK
+    control negativo r_0 = 7: 1 discrepancias (debe ser > 0): OK

@@ -1,0 +1,14 @@
+n=111: vueltas AAAPPP (lambda~ 3) | lambda serie 3 | chi(2)=1 chi(p)=1 forzado 2
+n=143: vueltas AAAAPP (lambda~ 4) | lambda serie 4 | chi(2)=1 chi(p)=1 forzado 2
+n=151: vueltas AAAAPP (lambda~ 4) | lambda serie 4 | chi(2)=1 chi(p)=-1 forzado 1
+n=195: vueltas AAPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=271: vueltas AAAPPP (lambda~ 3) | lambda serie 3 | chi(2)=1 chi(p)=1 forzado 2
+n=411: vueltas AAPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=431: vueltas AAPPPP (lambda~ 2) | lambda serie 2 | chi(2)=1 chi(p)=-1 forzado 1
+n=487: vueltas AAPPPP (lambda~ 2) | lambda serie 2 | chi(2)=1 chi(p)=-1 forzado 1
+n=759: vueltas AAAPPP (lambda~ 3) | lambda serie 3 | chi(2)=1 chi(p)=1 forzado 2
+n=807: vueltas AAPPPP (lambda~ 2) | lambda serie 2 | chi(2)=1 chi(p)=-1 forzado 1
+n=831: vueltas AAAPPP (lambda~ 3) | lambda serie 3 | chi(2)=1 chi(p)=1 forzado 2
+n=859: vueltas AAPPPP (lambda~ 2) | lambda serie 2 | chi(2)=-1 chi(p)=1 forzado 1
+n=863: vueltas AAPPPP (lambda~ 2) | lambda serie 2 | chi(2)=1 chi(p)=-1 forzado 1
+p=7 n<=900: 135 caracteres; vueltas == min(lambda, p-1): 135; por encima de lo forzado: 13 (13 coinciden) (1 s)

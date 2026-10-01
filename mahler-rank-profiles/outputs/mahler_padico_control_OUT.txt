@@ -1,0 +1,10 @@
+n=19 p=7 a=2: 5 orbitas, 0.3 s
+n=19 p=7 a=3: 5 orbitas, 0.3 s
+n=19 p=11 a=2: 3 orbitas, 0.0 s
+n=5 p=11 a=2: 1 orbitas, 0.0 s
+n=5 p=19 a=2: 1 orbitas, 0.0 s
+n=23 p=5 a=2: 3 orbitas, 0.0 s
+n=47 p=5 a=2: 2 orbitas, 0.0 s
+n=19 p=5 a=2: 3 orbitas, 0.0 s
+n=41 p=11 a=2: 10 orbitas, 0.2 s
+CONTROL padico: 31 de 31

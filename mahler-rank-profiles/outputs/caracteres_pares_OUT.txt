@@ -1,0 +1,45 @@
+====================================================================================================
+(n, p, a) = (17, 7, 2), chi = (17/.), rama impar elegida b = 3
+   chi(-1) = 1, chi(2) = 1, chi(p) = -1, omega(2)^b = 2^b mod p = 1
+   (1) mu_chi impar (mu(-X) = -mu(X)): True; mu_chi(Z_p) = 0 mod p; v_p(theta(2)) = 0
+       r_b (nivel p^3, None = >= 49): [None, 0, None, 1, None, 0]
+       b=1: [chi(2)omega(2)^b=1] = 0, ord g_b = 0, suma = 0, r_b = 0; B_{2,chi} = 8 = 1 mod p, g_b(0) = 0: False
+       b=3: [chi(2)omega(2)^b=1] = 1, ord g_b = 0, suma = 1, r_b = 1; B_{4,chi} = -656 = 2 mod p, g_b(0) = 0: False
+       b=5: [chi(2)omega(2)^b=1] = 0, ord g_b = 0, suma = 0, r_b = 0
+       ramas impares: r_b = factor de Euler + ord g_b (y g_b(0) = 0 <=> B_{b+1,chi} = 0): True
+       rama elegida b = 3: r_b = 1 >= 1
+   (2) filas de B (49 x 49): rango 22; perfil medido = Teorema A: True
+       filas dependientes j < 42 con j impar: [3, 27]
+   capas: d=8 L=91 D=728 m=416; memoria estimada 27 MB
+       dim A mod psi^L = 335, generadores de algebra usados: 332, 95.2 s
+   (3) grados P+j, 0 <= j < 42, con componente chi no nula: [50, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 78, 80, 82, 84, 86, 88, 90]
+       (ninguno de grado impar: True)
+   (4) capa vs fila (. ambas no nulas/nuevas, x ambas nulas/dependientes, ! discrepancia), j = 0..41:
+       x.xxx.x.x.x.x.x.x.x.x.x.x.xxx.x.x.x.x.x.x.
+       j impares con capa nula: [3, 27]
+       discrepancias capa/fila: 0 de 42
+   control (debe fallar): Teorema A con r_3 = 0 frente a las capas: 2 discrepancias (en j = [3, 27])
+   VEREDICTO (n,p,a,b) = (17,7,2,3): ACUERDO  (95.3 s)
+====================================================================================================
+(n, p, a) = (37, 5, 2), chi = (37/.), rama impar elegida b = 1
+   chi(-1) = 1, chi(2) = -1, chi(p) = -1, omega(2)^b = 2^b mod p = 2
+   (1) mu_chi impar (mu(-X) = -mu(X)): True; mu_chi(Z_p) = 0 mod p; v_p(theta(2)) = 0
+       r_b (nivel p^3, None = >= 25): [None, 2, None, 0]
+       b=1: [chi(2)omega(2)^b=1] = 0, ord g_b = 2, suma = 2, r_b = 2; B_{2,chi} = 20 = 0 mod p, g_b(0) = 0: True
+       b=3: [chi(2)omega(2)^b=1] = 0, ord g_b = 0, suma = 0, r_b = 0
+       ramas impares: r_b = factor de Euler + ord g_b (y g_b(0) = 0 <=> B_{b+1,chi} = 0): True
+       rama elegida b = 1: r_b = 2 >= 1
+   (2) filas de B (25 x 25): rango 9; perfil medido = Teorema A: True
+       filas dependientes j < 20 con j impar: [1, 5, 9]
+   capas: d=18 L=45 D=810 m=462; memoria estimada 33 MB
+       dim A mod psi^L = 358, generadores de algebra usados: 355, 128.8 s
+   (3) grados P+j, 0 <= j < 20, con componente chi no nula: [28, 32, 36, 38, 40, 42, 44]
+       (ninguno de grado impar: True)
+   (4) capa vs fila (. ambas no nulas/nuevas, x ambas nulas/dependientes, ! discrepancia), j = 0..19:
+       xxx.xxx.xxx.x.x.x.x.
+       j impares con capa nula: [1, 5, 9]
+       discrepancias capa/fila: 0 de 20
+   control (debe fallar): Teorema A con r_1 = 0 frente a las capas: 3 discrepancias (en j = [1, 5, 9])
+   VEREDICTO (n,p,a,b) = (37,5,2,1): ACUERDO  (128.8 s)
+====================================================================================================
+RESULTADO: 2/2 casos en acuerdo

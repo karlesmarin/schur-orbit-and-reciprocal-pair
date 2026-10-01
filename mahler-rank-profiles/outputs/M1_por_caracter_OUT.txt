@@ -1,0 +1,106 @@
+(n,p,a) = (19,7,2): P=49, j <= 41, capas hasta 90, d=9, cierre 3.9 s
+K = GF(7^3); 18 caracteres
+(3) sum_chi dim_chi G_i == W_i en i = 49..90: True
+chi #1 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #3 (orden 6): filas pares ausentes [6, 12, 18, 24]
+   .x.x.xxx.x.xxx.x.xxx.x.xxx.x.x.x.x.x.x.x.x
+chi #5 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #7 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #9 (orden 2): filas pares ausentes [6]
+   .x.x.xxx.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #11 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #13 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #15 (orden 6): filas pares ausentes [6, 12]
+   .x.x.xxx.x.xxx.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #17 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+(5) chi impares primitivos: 189 comparaciones con j par (las de j impar son nulas en los dos lados), 0 discrepancias; 6.6 s
+RESULTADO: OK
+
+(n,p,a) = (7,5,2): P=25, j <= 19, capas hasta 44, d=3, cierre 0.1 s
+K = GF(5^6); 6 caracteres
+(3) sum_chi dim_chi G_i == W_i en i = 25..44: True
+chi #1 (orden 6): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #3 (orden 2): filas pares ausentes [0, 4]
+   xx.xxx.x.x.x.x.x.x.x
+chi #5 (orden 6): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+(5) chi impares primitivos: 30 comparaciones con j par (las de j impar son nulas en los dos lados), 0 discrepancias; 0.4 s
+RESULTADO: OK
+
+(n,p,a) = (13,5,2): P=25, j <= 19, capas hasta 44, d=6, cierre 0.2 s
+K = GF(5^4); 12 caracteres
+(3) sum_chi dim_chi G_i == W_i en i = 25..44: True
+chi #1 (orden 12): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #3 (orden 4): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #5 (orden 12): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #7 (orden 12): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #9 (orden 4): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #11 (orden 12): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+(5) chi impares primitivos: 60 comparaciones con j par (las de j impar son nulas en los dos lados), 0 discrepancias; 0.8 s
+RESULTADO: OK
+
+(n,p,a) = (19,5,2): P=25, j <= 19, capas hasta 44, d=9, cierre 0.7 s
+K = GF(5^18); 18 caracteres
+(3) sum_chi dim_chi G_i == W_i en i = 25..44: True
+chi #1 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #3 (orden 6): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #5 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #7 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #9 (orden 2): filas pares ausentes [2, 4, 14]
+   .xxxxx.x.x.x.xxx.x.x
+chi #11 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #13 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #15 (orden 6): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+chi #17 (orden 18): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x
+(5) chi impares primitivos: 90 comparaciones con j par (las de j impar son nulas en los dos lados), 0 discrepancias; 2.8 s
+RESULTADO: OK
+
+(n,p,a) = (3,7,2): P=49, j <= 41, capas hasta 90, d=1, cierre 0.1 s
+K = GF(7^1); 2 caracteres
+(3) sum_chi dim_chi G_i == W_i en i = 49..90: True
+chi #1 (orden 2): filas pares ausentes [6]
+   .x.x.xxx.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+(5) chi impares primitivos: 21 comparaciones con j par (las de j impar son nulas en los dos lados), 0 discrepancias; 0.1 s
+RESULTADO: OK
+
+(n,p,a) = (7,5,3): P=125, j <= 99, capas hasta 224, d=3, cierre 3.7 s
+K = GF(5^6); 6 caracteres
+(3) sum_chi dim_chi G_i == W_i en i = 125..224: True
+chi #1 (orden 6): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #3 (orden 2): filas pares ausentes [0, 4, 24]
+   xx.xxx.x.x.x.x.x.x.x.x.xxx.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+chi #5 (orden 6): filas pares ausentes []
+   .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+(5) chi impares primitivos: 150 comparaciones con j par (las de j impar son nulas en los dos lados), 0 discrepancias; 8.9 s
+RESULTADO: OK
+
+(n,p,a) = (3,7,3): P=343, j <= 293, capas hasta 636, d=1, cierre 6.1 s
+K = GF(7^1); 2 caracteres
+(3) sum_chi dim_chi G_i == W_i en i = 343..636: True
+chi #1 (orden 2): filas pares ausentes [6, 48]
+   .x.x.xxx.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.xxx.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+(5) chi impares primitivos: 147 comparaciones con j par (las de j impar son nulas en los dos lados), 0 discrepancias; 6.7 s
+RESULTADO: OK
+

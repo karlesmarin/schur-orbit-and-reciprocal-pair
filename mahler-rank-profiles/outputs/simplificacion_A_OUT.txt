@@ -1,0 +1,21 @@
+n=3 p=5: l(t) = t - 1/120*t^5 - 1/336*t^7 + O(t^8)
+   chi orden 2: 45 entradas A_{J,i} (J <= 8), discrepancias exactas: 0
+n=3 p=7: l(t) = t - 1/5040*t^7 - 1/12960*t^9 + O(t^10)
+   chi orden 2: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+n=5 p=11: l(t) = t - 1/39916800*t^11 - 1/94348800*t^13 + O(t^14)
+   chi orden 4: 231 entradas A_{J,i} (J <= 20), discrepancias exactas: 0
+   chi orden 4: 231 entradas A_{J,i} (J <= 20), discrepancias exactas: 0
+n=7 p=5: l(t) = t - 1/120*t^5 - 1/336*t^7 + O(t^8)
+   chi orden 6: 45 entradas A_{J,i} (J <= 8), discrepancias exactas: 0
+   chi orden 2: 45 entradas A_{J,i} (J <= 8), discrepancias exactas: 0
+   chi orden 6: 45 entradas A_{J,i} (J <= 8), discrepancias exactas: 0
+n=19 p=7: l(t) = t - 1/5040*t^7 - 1/12960*t^9 + O(t^10)
+   chi orden 18: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 6: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 18: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 18: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 2: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 18: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 18: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 6: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0
+   chi orden 18: 91 entradas A_{J,i} (J <= 12), discrepancias exactas: 0

@@ -1,0 +1,2 @@
+(p,n,a) = (5,75619,4); r_b (b = 0..3) = [6, None, 1, None]; medido == Teorema G en las 624 filas positivas: True
+figura escrita: /out/fig_filas.pdf y .png (u <= 60)

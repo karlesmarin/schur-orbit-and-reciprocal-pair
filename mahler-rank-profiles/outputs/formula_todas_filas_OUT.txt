@@ -1,0 +1,3 @@
+p=5: 82 de 82 (orbita, piso) con TODAS las filas (3 s)
+p=7: 190 de 190 (orbita, piso) con TODAS las filas (42 s)
+FORMULA u(J) < p r_b: tabla 190 de 190; tras el tope (piso 4) 21 de 21; k* = ceil(p r/(p-1)): 21 de 21 (174 s)
