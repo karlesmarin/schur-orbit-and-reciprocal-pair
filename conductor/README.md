@@ -57,6 +57,46 @@ conductor. Write $h=2m$, $q=p^vq'$ with $p\nmid q'$ and $d=\varphi(q')/2$.
    degree $P$ the theory **descends** to the first layer of a smaller order of the same family — an
    equality that complex conjugation, not a formal argument, is what pins down.
 
+## ⚖️ What is not ours
+
+The note carries a section that says, statement by statement, what is proved here, what rests on the
+work of others — Amiot, Sinnott, Bernard–Kučera, Carlitz–Olson, Kuribayashi, Kanemitsu–Kuzumaki,
+Kučera, Bass, Herzog–Kunz, Huneke–Swanson, Campillo–Delgado–Kiyek, Marseglia, Barucci–Fröberg — what
+was only measured, and what is not covered. Where we have not found an earlier statement, we say so
+and **claim priority for none of it**.
+
+## 🗂️ Version 3 (September 2026)
+
+New:
+
+- Corollary 21 (W_P): under the hypotheses of the descent and p not dividing h^-, the layer at degree P is W_P = d if -1 lies in <2> modulo q', and d - d/t otherwise, t the order of 2. The hypothesis on h^- is needed: (q', p, M) = (77, 5, 1), the order A_192(1925), fails it. Checked on the 902 cases of the descent within the hypotheses (953 in all) by `check_WP_dos.py` and `check_hminus_necesaria.py`.
+
+Attribution, corrected:
+
+- Kučera (J. Number Theory 40, 1992, Thms 5.1-5.2) evaluated one maximal minor of the moment matrix, with the value of the proposition on Sinnott's index; what is ours is that the greatest common divisor of all maximal minors reaches it.
+- Pianzola (J. Algebra 108, 1987) describes the ring as the image of Z[P]^W and studies its fraction field; the decomposition-group description used in the proof that A = Z is his.
+- q = 2m+1 is the regular element sigma_M of order h+1, which appears in Macdonald; Kac (1981, Sections 0-1) proved that every character takes a value in {0, +-1} there.
+- Over Q, the factor conj(chi)(2) - 1 in the character coordinates of the cosecant numbers and the rank d or d - d/t of their Galois conjugates are Girstmair's (Manuscripta Math. 59, 1987, Thms 4 and 7); the note's contribution there is the rank modulo p when p does not divide h^-, over all residues c modulo q', units and non-units, and the structure of the order.
+
+Also: the identification with Kostant's element is computed in the text; the case of the non-centred product is proved, not measured; the question on other groups is rewritten with rho as a cocharacter of the dual torus; counts restated with their full parameter ranges; figures: Kac and Pianzola added to the history, a legend moved out of the data area. Numbers that no archived output printed are now printed by `cifras_sin_salida.py` and `rangos_t75.py`.
+
+## 🗂️ Version 2 (September 2026)
+
+No theorem changes. Corrected, after two independent reviews:
+
+- Abstract: the sentence on relative class numbers now carries the hypothesis p not dividing ceil(m/q') (ceil(2m/q') on the half-period families) that the theorem requires; without it the sentence fails, e.g. for A_15(45) at p = 3.
+- Corollary (the index): delta is defined only in case (b) of the corollary on the factor at 2; in case (a) the defect is 0, and the statement and proof now say so. The hypothesis of the product formula is stated precisely, and the proof now covers the primes with q'_p = 6 and m = 1 (mod 3). The formula is unchanged.
+- Layers beyond the first: version 1 said that the hypothesis of that corollary cannot be weakened to gr_1(A) != 0. That was not proved. The text now says that the argument does not extend (with the example A_4(40) at p = 2) and that the weakened statement is open; it holds in all 215 measured pairs. The bound the argument would need is on the number of elementary divisors of M_q' divisible by p, not on the p-rank of the minus class group.
+- Beyond the descent: the second layer of A_0 was called always full on the strength of measured cases; it is proved full when W_1(A_0) > d/2. Version 1 also said W_{P+2} = W_P in all 38 measured pairs: the archived output gives 26 of the 38, all eight with p = 3 among them.
+- Two measured counts corrected against their outputs: 156 half-period cases, not 158 (two were printed twice), and 17 of the 185 lattice pairs outside the hypotheses of the local section, not 16.
+- Proof of the descent: the residue ring F_p[X]/(Phi_n) was described with the residue degree of the real field; corrected. Only its being etale is used, so the proof is unaffected.
+- Support of the conductor: the comment after the theorem, and Figure 1, omitted the exceptions q' = 1, 2 (A_1(5) at p = 5 has q' = 1 and index 1); they now carry q' not in {1,2,3,4,6}, as the theorem does. The Frobenius exponent in the proof of part (b) is made explicit.
+- Corollary on the factor at 2, case (a): the Cohen-Macaulay type, which the abstract promises for the whole family, is now stated (d - 1) and proved.
+- Beyond the descent: the role of the second moment is stated as an observed pattern (33 of 38 pairs), not as a determination of the layer.
+- Kostant: the attribution for q = 2m+2 is now backed. With the form normalised by (theta,theta) = 1/h^v, Kostant's element exp(2 pi i 2 rho) is g_{1/(2m+2)} in Sp(2m), and kostant_check.py checks that every character takes a value in {0, +-1} there. The open question at the end of the section on A = Z used rho^vee, which gives a different element; it now uses rho.
+
+Minor: the intro table now gives the exact factor between the maximal minors and Sinnott's index; the rows of the matrix for n = 5, l = 4; the reference to the doubling lemma where q' = 2 (mod 4); h^- = 1 for phi(q') <= 20 cited to Washington, Ch. 11; theta_n and N_G defined; the square of a stable line; S(c) = 1 only for c != 0; the last item of 'Not covered'; Figure 2 drops an entry with no reference; citations in the Spanish edition. Four numbers that no archived output printed are now printed by capa2_recuento.py and cifras_sin_salida.py. Added: the 2020 MSC classification and the declarations on competing interests, data and generative AI.
+
 ## 📦 What is here
 
 | | |
