@@ -19,6 +19,11 @@ Kostant's $\rho$-line; this note is about the **ring those values generate**, an
 It lives here, rather than in a repository of its own, so that the material of one line of work is
 found in one place.
 
+The same kind of ring, at a root of unity of order $p^vn$, is studied **graded layer by graded layer** in
+[`../mahler-rank-profiles/`](../mahler-rank-profiles): code and data for *Reading Iwasawa $\lambda$-invariants from
+Mahler matrices modulo $p$*, deposited as [doi:10.5281/zenodo.23085315](https://doi.org/10.5281/zenodo.23085315).
+That paper uses Proposition 2 of this note to know that the ring is an order.
+
 ## 🎯 What the note proves
 
 Let $\xi=\xi_q$ be a primitive $q$-th root of unity and let $g=g_{1/q}$ have eigenvalues
