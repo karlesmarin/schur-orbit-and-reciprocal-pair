@@ -9,7 +9,7 @@ English (33 pp) and Spanish (33 pp), under CC BY 4.0.
 🗺️ **Blueprint** — [read the paper statement by statement](https://karlesmarin.github.io/schur-orbit-and-reciprocal-pair/characters-at-aP/blueprint/):
 every result copied verbatim with its number, what it uses and where it is used, what was checked
 besides the written proof and how far, a one-page map, and a lab that evaluates Theorem A in the
-browser. It follows the journal version (20 pp, its own PDF in the blueprint), which is shorter than
+browser. It follows the journal version (17 pp, its own PDF in the blueprint), which is shorter than
 the Zenodo edition and numbered differently.
 
 Both PDFs are here too — `characters_at_aP.pdf` and `characters_at_aP_es.pdf`, byte for byte the
