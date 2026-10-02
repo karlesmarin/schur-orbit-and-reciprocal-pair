@@ -79,7 +79,7 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <span class="author">Carles Marín</span>
 </p>
 </div>
-<details class="blk b-set" open=""><summary>📐 Setting (copied from the paper)</summary>
+<details class="blk b-set"><summary>📐 Setting (copied from the paper)</summary>
 <p> Let \(\rho =(m,m-1,\dots ,1)\), with the form normalised so that the short roots \(e_i\pm e_j\) have length \(2\). \(g_\theta \in \mathrm{Sp}(2m)\) has eigenvalues \(e^{\pm 2\pi i\theta j}\), \(j=1,\dots ,m\); \(t=2m+2\); Kostant’s element is \(a_P=g_{1/t}\), and \(a_P^{\, k}=g_{p/q}\) with \(d=\gcd (k,t)\), \(q=t/d\), \(p=k/d\). For \(\ell =\lambda +\rho \): \(N_q(x)=\# \{ \alpha {\gt}0: q\mid (x,\alpha )\} \), \(Z_q(x)=\prod _{\alpha {\gt}0,\  q\mid (x,\alpha )}(x,\alpha )\), \(E_{p,q}(\lambda )=\sum _{\alpha {\gt}0}(\lfloor p(\ell ,\alpha )/q\rfloor -\lfloor p(\rho ,\alpha )/q\rfloor )\), over the positive roots \(e_i\pm e_j\) \((i{\lt}j)\) and \(2e_i\). Folded classes \(\{ c,-c\} \) modulo \(q\); fixed if \(2c\equiv 0\). </p>
 </details><h1 id="a0000000003">1 Main theorems</h1>
 <div class="theorem_thmwrapper theorem-style-plain" id="thm:A">
@@ -144,12 +144,12 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> The quantity \(|\sin (\pi pj/q)|\) depends only on \(j\) modulo \(q\) and up to sign, so by Proposition <a href="index.html#prop:res">5.1</a> and (7) the last quotient is \(1\). </p>
 </div>
 </div>
-<details class="blk b-fig" open=""><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_reloj_A.png}" src="images/img-0001.png" style="width:95%;max-width:100%"/>
+<details class="blk b-fig"><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_reloj_A.png}" src="images/img-0001.png" style="width:95%;max-width:100%"/>
 </div>
 <p> Theorem A at a glance (commentary, not part of the paper): the numbers \(\ell _i\) placed on the residues modulo \(q\); folded classes \(\{ c,-c\} \) share a colour. The character vanishes exactly when some class holds more than its capacity. Values computed exactly in \(\mathbb {Z}[\zeta _q]\) by <span class="ttfamily">figuras/fig_reloj_A.py</span> (a check in the blueprint’s source, published with the blueprint). </p>
-</details><details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+</details><details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> On the line of \(\rho \) the Weyl character formula is, up to the phase \(z^{-(\lambda ,\rho )}\), a product over the positive roots of \((1-z^{(\ell ,\alpha )})/(1-z^{(\rho ,\alpha )})\) (equation (2) of the paper), and at a primitive \(q\)-th root of unity a factor vanishes exactly when \(q\) divides its root value. Part (1): the character survives exactly when \(\ell \) has no more vanishing factors than \(\rho \); in type \(C\) this is a capacity rule on the residues of the \(\ell _i\) (Corollary <a href="index.html#conj:cap">4.1</a>). Part (2): approaching the point along the line, each vanishing factor leaves its root value, which gives \(Z_q(\ell )/Z_q(\rho )\); every factor leaves a sign, which gives \(E_{p,q}\); and the remaining sines cancel, because \(\ell \) and \(\rho \) have the same root values modulo \(q\) up to sign (Proposition <a href="index.html#prop:res">5.1</a>). For \(\gcd (k,2m+2)=1\) this is the type-\(C\) case of Cellini–Möseneder Frajria–Papi; for \(d\) odd the paper says that Theorems A and B are not new in substance (Albion, Ayyer–Kumari), and for \(q\) odd Reeder gives part (2) up to a constant. For \(d\) even and \(q\ge 3\) the values on the classes not Weyl-conjugate to that of \(\rho \), together with \(\kappa \), are new (Example 6.1). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -162,7 +162,7 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <li><p><b class="bfseries">Example 6.1:</b> <span class="ttfamily">cifras_alco.py</span> E1 reproduces \(-2\) and \(+2\), \(Z_3(\ell )=6\), \(Z_3(\rho )=3\); the character is an exact polynomial in \(\mathbb {Z}[z]\), evaluated at the root of unity in double precision (tolerance \(10^{-9}\)). The individual root values and the absence of \(w\) with \(w\ell \equiv \rho \pmod3\) are not printed by any program. </p>
 </li>
 </ul>
-</details><details class="blk b-tabs" open=""><summary>🔤 Read this theorem in another mathematical language</summary><div class="mathtabs"><div class="mtabbar"><span class="mlabel">Read this theorem in:</span><button class="mtab on" data-k="lie" type="button">Lie theory (the paper’s language)</button><button class="mtab" data-k="comb" type="button">Combinatorics (symmetric functions)</button><button class="mtab" data-k="num" type="button">Number theory (roots of unity)</button></div><div class="mpane on" data-k="lie">
+</details><details class="blk b-tabs"><summary>🔤 Read this theorem in another mathematical language</summary><div class="mathtabs"><div class="mtabbar"><span class="mlabel">Read this theorem in:</span><button class="mtab on" data-k="lie" type="button">Lie theory (the paper’s language)</button><button class="mtab" data-k="comb" type="button">Combinatorics (symmetric functions)</button><button class="mtab" data-k="num" type="button">Number theory (roots of unity)</button></div><div class="mpane on" data-k="lie">
 <p> <em>Commentary, not part of the paper.</em> \(\chi _\lambda \) is the character of the irreducible representation of \(\mathrm{Sp}(2m)\) with highest weight \(\lambda \), evaluated at the power \(a_P^{\, k}=g_{p/q}\) of Kostant’s principal element of the maximal torus. The criterion counts the positive roots \(\alpha \) on which \(\ell =\lambda +\rho \) is divisible by \(q\): the character is nonzero exactly when \(\ell \) lies on as few of these root hyperplanes modulo \(q\) as \(\rho \) does, and then its value is a signed ratio of the products of those root values. </p>
 </div><div class="mpane" data-k="comb">
 <p> <em>Commentary, not part of the paper.</em> Let \(\zeta =e^{2\pi i/q}\). Then \(\chi _\lambda (a_P^{\, k})=sp_\lambda (z_1^{\pm 1},\dots ,z_m^{\pm 1})\), the symplectic Schur function at \(z_j=\zeta ^{pj}\). Put \(\ell _i=\lambda _i+m-i+1\), so \(\ell _1{\gt}\dots {\gt}\ell _m\ge 1\), and \(\rho =(m,\dots ,1)\). </p>
@@ -175,7 +175,7 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 </div><div class="mpane" data-k="num">
 <p> <em>Commentary, not part of the paper.</em> The \(2m\) eigenvalues of \(a_P^{\, k}\) are the roots of unity \(\zeta ^{\pm pj}\), \(\zeta =e^{2\pi i/q}\); as a multiset they are \(d\) copies of the \(q\)-th roots of unity with two letters removed (Proposition <a href="index.html#prop:alph">2.1</a>). A character value is a priori an element of \(\mathbb {Z}[\zeta ]\); at these points every character value is a rational integer (Proposition <a href="index.html#thm:clasif">8.1</a>). Theorem A identifies that integer. With \(\ell _i=\lambda _i+m-i+1\), count the coincidences \(\zeta ^{p\ell _i}=\zeta ^{\pm p\ell _j}\) \((i{\lt}j)\) and \(\zeta ^{p\ell _i}=\zeta ^{-p\ell _i}\) (that is, \(\zeta ^{p\ell _i}=\pm 1\)). The value is \(0\) exactly when there are more of them than for \(\rho \); otherwise it is \(\pm Z_q(\ell )/Z_q(\rho )\), a ratio of products of the integers \(\ell _i\pm \ell _j\) and \(2\ell _i\) that are divisible by \(q\). Those coincidences are exactly the divisibilities: \(\zeta ^{p\ell _i}=\zeta ^{\mp p\ell _j}\) if and only if \(q\mid \ell _i\pm \ell _j\), and \(\zeta ^{p\ell _i}=\zeta ^{-p\ell _i}\) if and only if \(q\mid 2\ell _i\), because \(p\) is prime to \(q\). </p>
 </div></div></details>
-<details class="blk b-lab" open=""><summary>🧪 Lab: try Theorem A with your own parameters</summary>
+<details class="blk b-lab"><summary>🧪 Lab: try Theorem A with your own parameters</summary>
 <p class="labnota">Commentary, not part of the paper. The lab runs, in your browser, the same Python file that the
 supplement uses (<code>evlib.py</code>): the Theorem A formula and, independently, the exact character in
 Z[ζ<sub>q</sub>]. It explores cases; it does not prove the theorem. The exact character is evaluated at
@@ -253,12 +253,12 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p> according as that class is non-fixed or is \(q/2\). </p>
 </div>
 </div>
-<details class="blk b-fig" open=""><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_factorizacion_B.png}" src="images/img-0002.png" style="width:95%;max-width:100%"/>
+<details class="blk b-fig"><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_factorizacion_B.png}" src="images/img-0002.png" style="width:95%;max-width:100%"/>
 </div>
 <p> Theorem B at a glance (commentary, not part of the paper): each folded class becomes a factor (\(\mathrm{Sp}\) for the class \(0\), \(\mathrm{SO}\) for \(q/2\), \(\mathrm{GL}\) otherwise) with its partition \(\nu ^{(c)}\); the absolute value of the character is \(\kappa \) times the product of their dimensions. The example is chosen by the script, which computes \(\kappa \) by the rule of the theorem (\(\kappa =1\) if \(d\) is odd or the class \(0\) holds fewer than \(d/2\) entries, else \(2\)), not as \(|\chi |/\Delta \), and checks \(|\chi |=\kappa \, \Delta \) against the exact character in \(\mathbb {Z}[\zeta _q]\) on all \(1232\) weights it examines (<span class="ttfamily">figuras/fig_factorizacion_B.py</span>, a check in the blueprint’s source, published with the blueprint). </p>
-</details><details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+</details><details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> By Theorem <a href="index.html#thm:A">A</a>, \(|\chi _\lambda (a_P^{\, k})|=Z_q(\ell )/Z_q(\rho )\), and the proof computes \(Z_q\) one folded class at a time. A root enters \(Z_q\) only if it joins two entries of the same class, or is \(2e_i\) with \(\ell _i\) in a fixed class. In a non-fixed class the values that enter are \(q\) times differences of the \(y_i\): the Weyl dimension formula of \(\mathrm{GL}_n\). In the class \(0\) they are \(q(z_i\pm z_j)\) and \(2qz_i\): the formula of \(\mathrm{Sp}_{2n}\). In the class \(q/2\), with half-integer \(z_i\): the formula of \(\mathrm{SO}_{2n+1}\). For \(\rho \) every partition is empty. What is left is a ratio of normalising constants, which is \(1\) unless \(d\) is even and the class that falls short is not \(0\); then it is \(2\), and that is \(\kappa \). The groups are not centralisers: at \(m=6\), \(k=7\) the factorisation group is \(\mathrm{Sp}_6\times \mathrm{SO}_7\), the centraliser \(\mathrm{Sp}_6\times \mathrm{Sp}_6\) (Question 12.1). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -271,7 +271,7 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <li><p><b class="bfseries">No program:</b> \(\chi _{jq\rho }(a_P^{\, k})=(jq+1)^{r_q}\) (introduction), and the constants \(C_n\), \(B_n\), \(V_n\) with the ratio \(2\) (proof on paper). </p>
 </li>
 </ul>
-</details><details class="blk b-tabs" open=""><summary>🔤 Read this theorem in another mathematical language</summary><div class="mathtabs"><div class="mtabbar"><span class="mlabel">Read this theorem in:</span><button class="mtab on" data-k="lie" type="button">Lie theory (the paper’s language)</button><button class="mtab" data-k="comb" type="button">Combinatorics (symmetric functions)</button><button class="mtab" data-k="num" type="button">Number theory (integers)</button></div><div class="mpane on" data-k="lie">
+</details><details class="blk b-tabs"><summary>🔤 Read this theorem in another mathematical language</summary><div class="mathtabs"><div class="mtabbar"><span class="mlabel">Read this theorem in:</span><button class="mtab on" data-k="lie" type="button">Lie theory (the paper’s language)</button><button class="mtab" data-k="comb" type="button">Combinatorics (symmetric functions)</button><button class="mtab" data-k="num" type="button">Number theory (integers)</button></div><div class="mpane on" data-k="lie">
 <p> <em>Commentary, not part of the paper.</em> The absolute value of the character is \(\kappa (\lambda )\in \{ 1,2\} \) times the dimension of an irreducible representation of the product group \(\mathrm{Sp}_{2n_0}\times \mathrm{SO}_{2n_{q/2}+1}\times \prod _{0{\lt}c{\lt}q/2}\mathrm{GL}_{n_c}\), one factor for each folded class \(c\) holding \(n_c\) of the entries of \(\ell =\lambda +\rho \), with highest weights the partitions \(\nu ^{(c)}\). This group is not the centraliser of \(a_P^{\, k}\) (the paper gives an example), and Question 12.1 asks for a group that explains the product. </p>
 </div><div class="mpane" data-k="comb">
 <p> <em>Commentary, not part of the paper.</em> With \(\ell _i=\lambda _i+m-i+1\) grouped by folded residue class modulo \(q\): </p>
@@ -335,12 +335,12 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p><em>No other point does.</em> Suppose that the identity holds up to sign at \(p=1\) for every surviving \(\lambda \). Then every \(\chi _\lambda (g_{1/q})\) is rational, the non-surviving ones being \(0\) by Proposition <a href="index.html#prop:crit">3.1</a>, and an algebraic integer, hence an integer; by Proposition <a href="index.html#thm:clasif">8.1</a>, \(q\) divides \(2m\), \(2m+1\) or \(2m+2\), or \(q=6\) and \(m\equiv 1\pmod3\). The cases not listed in Theorem <a href="index.html#thm:C">C</a> are (i) \(q\ge 4\) even, \(q\mid 2m\) and \(q\nmid m\), that is \(m\equiv q/2\pmod q\), and (ii) \(q=6\) and \(m\equiv 4\pmod6\); for \(q=2\) either \(q\mid m\) or \(q\mid 2m+2\). In both we take the natural representation, \(\lambda =(1,0,\dots ,0)\), and \(\xi =e^{2\pi i/q}\). Its character is \(\sum _{j=1}^{m}(\xi ^{j}+\xi ^{-j})\), and full turns contribute \(0\), so it equals \(\sum _{j=1}^{v}(\xi ^{j}+\xi ^{-j})\). In case (i), \(v=q/2\) and this is \(\sum _{j=1}^{q-1}\xi ^{j}+\xi ^{q/2}=-2\); in case (ii), \(v=4\) and it is \(2\sum _{j=1}^{5}\xi ^{j}-(\xi ^{5}+\xi ^{-5})=-2-1=-3\). In particular \(\lambda \) is surviving. On the other hand \(\ell =\rho +e_1\), the roots not involving the index \(1\) take the same values on \(\ell \) and on \(\rho \), and those involving it take the values \(\{ 1,\dots ,2m\} \smallsetminus \{ m\} \) on \(\rho \) and \(\bigl(\{ 2,\dots ,2m\} \smallsetminus \{ m+1\} \bigr)\cup \{ 2m+2\} \) on \(\ell \). None of \(1\), \(m\), \(m+1\), \(2m+2\) is divisible by \(q\): in case (i) they are congruent to \(1\), \(q/2\), \(q/2+1\), \(2\), and in case (ii) to \(1\), \(4\), \(5\), \(4\). So the two sides have the same multiples of \(q\), \(Z_q(\ell )=Z_q(\rho )\), and the identity would give \(\pm 1\). The failure holds at every \(p\), not only at \(p=1\): since \(\chi _\lambda (g_{p/q})=\sigma _p\bigl(\chi _\lambda (g_{1/q})\bigr)\) for the automorphism \(\sigma _p\) of \(\mathbb {Q}(\xi _q)\), a rational value at \(p\) forces a rational value at \(1\), and the natural representation gives \(-2\), respectively \(-3\), at every \(p\). </p>
 </div>
 </div>
-<details class="blk b-fig" open=""><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_mapa_C.png}" src="images/img-0003.png" style="width:95%;max-width:100%"/>
+<details class="blk b-fig"><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_mapa_C.png}" src="images/img-0003.png" style="width:95%;max-width:100%"/>
 </div>
 <p> Theorem C at a glance (commentary, not part of the paper): each cell \((q,m)\) is coloured when the closed form holds for every surviving weight of the program’s box (\(\lambda _1\le 30,16,11,8,6,5,5\) for \(m=2,\dots ,8\)), by the family that explains it (a cell in several families takes the first one in the legend). Measured, not drawn from the statement: the colours come from the archived output of <span class="ttfamily">formula_pura.py</span> (203 cells; 38017 cases, counted up to the first counterexample in the grey cells), and the script checks that prediction and observation agree in every cell (<span class="ttfamily">figuras/fig_mapa_C.py</span>, a check in the blueprint’s source, published with the blueprint). </p>
-</details><details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+</details><details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> The closed form of Theorem <a href="index.html#thm:A">A</a>(2) can be written at any rational point \(g_{p/q}\). Theorem C says where it is right for every surviving weight and every \(p\): \(q\mid m\), \(q\mid 2m+1\), \(q\mid 2m+2\) (the powers of \(a_P\)), or \(q=6\) with \(m\equiv 1\pmod6\). By equation (8) of the paper the true value is the closed form times a residual factor \(R_p(b)\), so the question is when \(R_p(b)=1\); in the four families it is. Conversely, if the closed form held up to sign at \(p=1\), every character at \(g_{1/q}\) would be an integer, so \(q\) is one of the points of Proposition <a href="index.html#thm:clasif">8.1</a>. That leaves two integer families outside the list, \(q\ge 4\) even with \(q\mid 2m\), \(q\nmid m\), and \(q=6\) with \(m\equiv 4\pmod6\); there the natural representation has value \(-2\), resp. \(-3\), while the closed form gives \(\pm 1\). The paper states that the list and the exclusion are new. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -418,12 +418,12 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p>In the last two cases every occupancy pattern of a surviving weight, that is every choice of the classes that fall short, is the pattern of some \(\lambda +\rho \), by the argument in the proof of Corollary <a href="index.html#conj:cap">4.1</a>; so every listed value of \(c_\lambda \) occurs. </p>
 </div>
 </div>
-<details class="blk b-fig" open=""><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_constantes_D.png}" src="images/img-0004.png" style="width:95%;max-width:100%"/>
+<details class="blk b-fig"><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_constantes_D.png}" src="images/img-0004.png" style="width:95%;max-width:100%"/>
 </div>
 <p> Theorem D at a glance (commentary, not part of the paper): left, the values of \(c=|\chi |/\Delta \) observed in each family, for \(m\in \{ 2,\dots ,8,10,13,16\} \) with a box on \(\lambda \) per \(m\); the points that lie in two families (\(q\mid 2m+2\) together with \(q\mid m\), or with \(q\mid 2m\), \(q\nmid m\)) are not shown; right, the exceptional case \(q=6\), \(m\equiv 4\pmod6\), where \(c\) depends on which two classes hold one entry fewer. Data from the archived output of <span class="ttfamily">prefactores.py</span>, exact fractions; the script checks it against the table as the program prints it, transcribed from the paper (<span class="ttfamily">figuras/fig_constantes_D.py</span>, a check in the blueprint’s source, published with the blueprint). </p>
-</details><details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+</details><details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> At the integer points of Proposition <a href="index.html#thm:clasif">8.1</a> every non-vanishing character is \(c_\lambda \) times the product of dimensions \(\Delta _\lambda \) of Theorem <a href="index.html#thm:B">B</a>, with \(c_\lambda \in \{ 1,2,3,4,6\} \). Since \(g_{p/q}\) is conjugate to \(g_{1/q}\) there, \(c_\lambda =\kappa \, R_1(b)\). In the families of Theorem <a href="index.html#thm:C">C</a> other than \(q\mid 2m+2\), \(\kappa =1\) and \(R_1(b)=1\); for \(q\mid 2m+2\) it is Theorem <a href="index.html#thm:B">B</a>. Two cases are left. For \(q\ge 4\) even, \(q\mid 2m\), \(q\nmid m\), the residual group is \(D_{q/2}\) and \(R_1(b)\) is a ratio of derivatives of \((x^2-1)U_{h-1}(x)\) at the nodes \(\cos (\pi k/h)\), \(h=q/2\): \(1\) at the end nodes, \(2\) inside. So \(c_\lambda =1\) when the full class is \(q/2\), and \(2\) otherwise. For \(q=6\), \(m\equiv 4\pmod6\), the group is \(D_2\) and the six choices of the two short classes give the table of the proof: \(c_\lambda =1,3,4,4,6,2\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -469,9 +469,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p>Since \(t=2m+2\), the exponents \(\{ \pm j : j=1,\dots ,m\} \) are exactly \(\mathbb {Z}/t\smallsetminus \{ 0,t/2\} \). The map \(e\mapsto \zeta ^{ke}\) factors through \(\mathbb {Z}/q\), because \(\zeta ^k\) has order \(q\), and every residue mod \(q\) is the image of exactly \(d\) elements of \(\mathbb {Z}/t\); hence \(\{ \zeta ^{ke}: e\in \mathbb {Z}/t\} =d\cdot \mu _q\). It remains to delete the two excluded exponents. For \(e=0\) the element is \(1\). For \(e=t/2=dq/2\): if \(d\) is even this is \(\equiv 0 \pmod q\) and the element is again \(1\); if \(d\) is odd then \(q\) is even, since \(dq=t\) is, and \(dq/2\equiv q/2\), so the element is \(-1\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> The exponents \(\pm j\), \(j=1,\dots ,m\), are all of \(\mathbb {Z}/t\) except \(0\) and \(t/2\), where \(t=2m+2\). Raising to the \(k\)-th power maps \(\mathbb {Z}/t\) onto \(\mathbb {Z}/q\), \(d\) to one, so the whole of \(\mathbb {Z}/t\) gives \(d\) copies of every \(q\)-th root of unity. Removing the two missing exponents: \(0\) gives \(1\), and \(t/2\) gives \(1\) if \(d\) is even and \(-1\) if \(d\) is odd. So the spectrum depends on \(d\) and \(q\) only, \(\chi _\lambda (a_P^{\, k})=\chi _\lambda (a_P^{\, d})\), and one may take \(p=1\). The full multiset \(d\cdot \mu _q\) is the alphabet of Prasad’s character relationship; the paper says the two deleted letters change the occupancies of the fixed classes and produce the factor \(\kappa \) of Theorem <a href="index.html#thm:B">B</a>. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -519,9 +519,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p>Each factor \(1-z^{j}\) of (2) has a simple zero at a primitive \(q\)-th root of unity exactly when \(q\mid j\), so at \(z=e^{2\pi ip/q}\) the numerator vanishes to order \(N_q(\ell )\) and the denominator to order \(r_q\). A character has no poles, so the first order is at least the second; and the limit is non-zero exactly when they agree. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Notation: \(r_q=N_q(\rho )\). The statement holds in every simple simply connected group and at every rational point \(g_{p/q}\), not only at the powers of \(a_P\). In the product formula (equation (2) of the paper) each factor \(1-z^j\) has a simple zero at a primitive \(q\)-th root of unity exactly when \(q\mid j\), so the numerator vanishes to order \(N_q(\ell )\) and the denominator to order \(r_q\). A character has no poles, so \(N_q(\ell )\ge r_q\), and the limit is non-zero exactly when the two orders agree. When \(\rho \) is regular, \(r_q=0\) and this is the condition of Cellini–Möseneder Frajria–Papi; on the line of \(\rho ^\vee \), with coroots in place of roots, the same count is due to Nadimpalli–Pattanayak–Prasad, and the paper proves it by the same argument. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. Programs check type \(C\) only; the other types are not checked. </p>
 </li>
@@ -576,9 +576,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p> By (5) the marginal cost of one more entry is \(0,1,2,\dots \) in a non-fixed class and \(1,3,5,\dots \) in a fixed one, so the places costing less than \(d\) number exactly \(d\) per non-fixed class and \(\lfloor d/2\rfloor \) per fixed one. There are \(\lfloor q/2\rfloor +1\) folded classes, of which one is fixed when \(q\) is odd and two when \(q\) is even; since \(m=dq/2-1\), the places of cost less than \(d\) number exactly \(m\) if \(d\) is odd and \(m+1\) if \(d\) is even. By Proposition <a href="index.html#prop:crit">3.1</a> the minimum of \(N_q\) over the vectors \(\ell =\lambda +\rho \) is \(r_q\), and it is attained at \(\rho \). It is also the minimum over all of \(\mathbb {Z}^m\), hence over all placements of \(m\) entries in the folded classes: every \(x\in \mathbb {Z}^m\) is congruent modulo \(q\) to a vector \(\lambda +\rho \) with \(\lambda \) dominant, namely \(x_i+(m-i+1)Mq\) for a large integer \(M\), whose entries are positive and strictly decreasing. If \(d\) is odd, reaching the minimum forces occupying all \(m\) cheap places, and any overflow replaces a place of cost \({\lt}d\) by one of cost \(\ge d\). If \(d\) is even, the last admissible place of every class costs \(d-1\), so omitting any one of them gives the same minimum, while exceeding a capacity again costs strictly more. So \(N_q(\ell )=r_q\) if and only if no capacity is exceeded. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Equation (5) of the paper counts the vanishing factors class by class: \(N_q(\ell )=\sum _{c\text{ not fixed}}\binom {n_c}{2}+\sum _{f\text{ fixed}}n_f^{\, 2}\), with \(n_c\) the number of \(\ell _i\) in the class. So one more entry costs \(0,1,2,\dots \) in a non-fixed class and \(1,3,5,\dots \) in a fixed one. The places costing less than \(d\) are \(d\) per non-fixed class and \(\lfloor d/2\rfloor \) per fixed class: \(m\) in all if \(d\) is odd, \(m+1\) if \(d\) is even. The minimum of \(N_q\) is \(r_q\), reached at \(\rho \), and every placement of residues comes from some \(\lambda +\rho \); so a character survives exactly when no class is over capacity. When \(d\) is odd every survivor has the occupancies of \(\rho \); when \(d\) is even exactly one class is one entry short, which for \(\rho \) is the class \(0\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -652,9 +652,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p> so that \(P_\ell (X)^2-P_\rho (X)^2=X^{2c}+X^{-2c}-2\) while \(P_\ell (X^2)-P_\rho (X^2)=-X^{2c}-X^{-2c}+2\). The two corrections cancel in (6), and \(\mathscr {R}_\ell =\mathscr {R}_\rho \). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Notation: \(P_x=\sum _i(X^{x_i}+X^{-x_i})\) in \(\mathbb {Z}[X]/(X^q-1)\), and \(\mathcal R_x\) the sum of \(X^{(x,\alpha )}\) over all roots of \(C_m\). The identity \(\mathcal R_x=(P_x^2+P_x(X^2))/2-m\) is the adjoint character minus the rank, since in type \(C\) the adjoint representation is the symmetric square of the natural one (Remark 5.2). The second claim: under the capacities of Corollary <a href="index.html#conj:cap">4.1</a>, \(\mathcal R_\ell =\mathcal R_\rho \). For \(d\) odd the occupancies agree, so \(P_\ell =P_\rho \). For \(d\) even one class \(c\) is one entry short; then \(P_\ell ^2-P_\rho ^2=X^{2c}+X^{-2c}-2\) and \(P_\ell (X^2)-P_\rho (X^2)\) is its negative, so they cancel. In words: the root values of \(\ell \) and of \(\rho \) coincide modulo \(q\), up to sign, as multisets. This replaces Weyl conjugacy in the proof of Theorem <a href="index.html#thm:A">A</a>(2) (Example 6.1); outside type \(C\) it is the missing step (Question 12.2). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -708,9 +708,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p> Indeed, replacing \(N\) by \(n=\min (N,q-N)\) changes no modulus; on \(0{\lt}x{\lt}\pi /n\) the function \(f(x)=\sin (nx)/\sin x\) is positive and strictly decreasing, since \(f'/f=n\cot (nx)-\cot x{\lt}0\) because \(t\cot t\) decreases on \((0,\pi )\); and on \(\pi /n\le x\le \pi /2\) one has \(|f(x)|\le 1/\sin (\pi /n){\lt}1/\sin (\pi /2n)=f(\pi /2n)\le f(\pi /q)\). Taking \(N=2w+1\), which lies in that range precisely when \(1\le w{\lt}a\), the only automorphisms fixing \(\beta _w\) are the identity and complex conjugation; so \(\mathbb {Q}(\beta _w)=\mathbb {Q}(\xi _q+\xi _q^{-1})\), which is \(\mathbb {Q}\) only when \(\varphi (q)=2\). Inside this range that leaves \(q=6\), \(w=1\), that is \((q,v)=(6,1)\) and \((6,4)\). Translating the surviving residues into divisibilities gives the four conditions. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> When are all the characters at \(g_{1/q}\) integers? If they are, the exterior powers show that the characteristic polynomial on \(\mathbb C^{2m}\) has integer coefficients, so the spectrum is stable under Galois. Conversely a Galois-stable spectrum makes every \(g_{p/q}\) conjugate to \(g_{1/q}\), and the values are rational integers. Writing \(m=uq+v\), the spectrum is \(2u\) full turns of \(\mu _q\) plus the segment \(\{ \pm 1,\dots ,\pm v\} \), so everything rests on the segment. It is stable for \(v=0\), \(v=a\) with \(a=\lfloor (q-1)/2\rfloor \), \(v=q-1\) and, for \(q\) even, \(v=q/2\). For the other \(v\), the sum over the segment has a strictly largest conjugate, so it generates \(\mathbb {Q}(\xi _q+\xi _q^{-1})\), which is \(\mathbb {Q}\) only when \(\varphi (q)=2\); in that range this leaves \(q=6\). The key step is a lemma of Gannon–Schopieray; sufficiency for \(q\mid 2m+1\) and \(q\mid 2m+2\) also follows from Kac. Irrational \(\theta \) never gives integers (Remark 8.2). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -771,9 +771,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p> By (5) the cost of an extra entry is \(0,1,2,\dots \) in a non-fixed class and \(1,3,5,\dots \) in a fixed one, so the minimum of \(N_q\) is attained by filling the cheapest places, and \(\rho =(m,\dots ,1)\) attains it, its residues being \(u\) full turns of \(\mathbb {Z}/q\) followed by \(1,\dots ,v\); by Proposition <a href="index.html#prop:crit">3.1</a>, and since every placement of entries in classes is the residue of some \(\lambda +\rho \) (proof of Corollary <a href="index.html#conj:cap">4.1</a>), that minimum is \(r_q\). When \(v\le a\), each fixed class carries \(u\) entries, \(v\) non-fixed classes carry \(2u+1\) and the remaining \(a-v\) carry \(2u\); the binomial \(\binom {a}{v}\) chooses the \(v\) classes, the multinomial coefficient distributes the \(m\) coordinates, and each entry of a non-fixed class has two possible residues, which gives the power of \(2\). When \(v{\gt}a\) one starts from \(2u+1\) in every non-fixed class and \(u\) in every fixed one and places the remaining \(v-a\) entries in distinct classes, chosen in \(\binom {a+f}{v-a}\) ways; adding an entry multiplies the count by \(1/(u+1)\) whether the class is fixed or not. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> \(S_X(q)\) counts the residues of weights modulo \(qP\) at which the criterion of Proposition <a href="index.html#prop:crit">3.1</a> allows a non-zero character. Notation: \(f=1\) for \(q\) odd and \(2\) for \(q\) even (the number of fixed classes), \(a=(q-f)/2\), \(m=uq+v\). By the costs of Corollary <a href="index.html#conj:cap">4.1</a>, the minimum is reached by filling the cheapest places. When \(v\le a\): \(u\) entries in each fixed class, \(2u+1\) in \(v\) of the non-fixed classes, \(2u\) in the rest. The binomial chooses the \(v\) classes, the multinomial distributes the coordinates, and each entry in a non-fixed class has two residues, hence the power of \(2\); \(v{\gt}a\) is similar. Special values: \(S_{C_m}(2m+2)=2^m m!\), \(S_{C_3}(5)=72\), \(S_{C_3}(6)=96\). It is not a quasi-polynomial: \(S_{C_2}(q)=(q-1)(q-3)\) for large odd \(q\), but \(S_{C_2}(3)=8\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -858,9 +858,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p><em>The cases \(v\in \{ 0,a,q-1\} \).</em> If \(v=0\) then \(s=0\) and \(Y=C_0\). If \(v=a\) then \(Y=C_a\), and the \(a\) distinct entries of \(b\) in \(\{ 1,\dots ,a\} \) give \(b=(a,\dots ,1)=\rho _Y\). If \(v=q-1\) then \(Y=D_1\). In the three cases the last factor is \(1\). Now \(v=0\) means \(q\mid m\); \(v=a\) means \(2m+1=(2u+1)q\) for \(q\) odd and \(2m+2=(2u+1)q\) for \(q\) even; and \(v=q-1\) means \(q\mid m+1\). For \(q\mid 2m+2\), with \(d=(2m+2)/q\), the case \(d\) odd is \(v=a\) with \(q\) even, where \(\kappa =1\), and the case \(d\) even is \(v=q-1\), where \(u+1=d/2\); in both, \(\kappa \) is the \(\kappa (\lambda )\) of Theorem <a href="index.html#thm:B">B</a>. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> At a general rational point the residue multisets of \(\ell \) and \(\rho \) differ, and the quotient of sines in the proof of Theorem <a href="index.html#thm:A">A</a> is no longer \(1\). This theorem identifies it. Let \(b\) list the classes holding \(2u+1\) entries when \(v\le a\), or, when \(v{\gt}a\), the classes holding one entry fewer than the full occupancy (\(2u+2\) for a non-fixed class, \(u+1\) for a fixed one). Then \(P_\ell =2uT_q+P_b\) or \(2(u+1)T_q-P_b\), every term containing \(T_q\) is common to \(\ell \) and \(\rho \), and \(\mathcal R_\ell -\mathcal R_\rho =\mathcal R^Y_b-\mathcal R^Y_{\rho _Y}\) for a group \(Y=C_s\) or \(D_s\) of rank \(s\le m\) (equal to \(m\) only for \(q{\gt}2m\), \(Y=C_m\), and \(q=2m\), \(Y=D_m\)). So the quotient of sines is \(|\chi ^Y_{b-\rho _Y}(g^Y_{p/q})|\), a character of \(\mathrm{Sp}(2s)\) or \(\mathrm{SO}(2s)\) at a regular element, and \(\chi _\lambda =\pm \kappa \, \Delta _\lambda \, |\chi ^Y|\). For \(v\in \{ 0,a,q-1\} \) the last factor is \(1\). Known cases: \(v=0\) (Ayyer–Kumari), \(q\mid 2m+1\) (Albion), \(v=1\) (related to Kumari). The paper states that the reduction for \(q\le 2m\), \(2\le v\le q-1\), \(v\ne a\), and its residual factor of type \(D\), are new. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -927,9 +927,9 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 <p> The two cases are \(v=0\), with \(u=m/q\), and \(v=a\) with \(q\) odd, with \(u=(2m+1-q)/(2q)\). In both \(v\le a\), so the occupancies of the surviving weights, listed before Theorem <a href="index.html#thm:todoq">10.1</a>, are \(2u\) or \(2u+1\) in every non-fixed class and \(u\) in every fixed class; they add up to \(m\), so the bounds are attained, and a placement exceeding one of them costs more than \(r_q\) by (5) and the marginal costs in the proof of Theorem <a href="index.html#thm:cuenta">9.1</a>. Since \(v\le a\), \(\kappa =1\), and the last factor of Theorem <a href="index.html#thm:todoq">10.1</a> is \(1\). Its proof gives \(\chi _\lambda (g_{p/q})=(-1)^{E_{p,q}(\lambda )}\bigl(Z_q(\ell )/Z_q(\rho )\bigr)\, \Pi (\ell )/\Pi (\rho )\) with \(\Pi (\ell )/\Pi (\rho )\) equal to that factor, and \(Z_q(\ell )/Z_q(\rho )=\kappa \Delta _\lambda \). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> The two families \(q\mid m\) (\(v=0\)) and \(q\mid 2m+1\) (\(v=a\), \(q\) odd) are cases of Theorem <a href="index.html#thm:todoq">10.1</a> where nothing is left over, as is \(q\mid 2m+2\) with \(d\) odd: \(v\le a\), so \(\kappa =1\), and the residual factor is \(1\). Survival becomes a pure capacity rule: at most \(2m/q\), resp. \((2m+1)/q\), entries of \(\ell \) in each non-fixed class and \(m/q\), resp. \((2m+1-q)/(2q)\), in each fixed class, and the bounds are then attained. On the survivors the closed form of Theorem <a href="index.html#thm:A">A</a>(2) holds and \(|\chi _\lambda |=\Delta _\lambda \). The paper attributes these values to known results: the case \(v=0\) is Ayyer–Kumari’s factorisation at \(X=(1,\dots ,1)\), and \(q\mid 2m+1\) follows from Albion. The rest of the family \(q\mid 2m\) behaves differently: at \(\mathrm{Sp}(4)\), \(q=4\), \(\lambda =(1,0)\) has \(Z\)-quotient \(1\) and value \(-2\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Not formalized in Lean.</b> Proof on paper. </p>
 </li>
@@ -1052,13 +1052,12 @@ that carries g<sub>1/q</sub> to g<sub>p/q</sub>.</p>
 })();
 </script>
 <script>// paper-companion: the Paper / Explore views. Paper hides the commentary and the figures and keeps the evidence
-// blocks, collapsed; Explore shows everything and opens them. The choice is remembered (localStorage, guarded) and announced with a 'vista'
+// blocks; Explore shows everything. Switching view never opens or closes a block: every block starts collapsed. The choice is remembered (localStorage, guarded) and announced with a 'vista'
 // event, so that page-specific scripts (labs) can react.
 (function(){
   function set(v){
     document.body.classList.toggle('vista-paper', v==='paper');
     document.querySelectorAll('#vistas button').forEach(function(b){b.classList.toggle('on', b.dataset.v===v)});
-    document.querySelectorAll('details.b-guar, details.b-fig').forEach(function(d){d.open = (v!=='paper')});
     try{localStorage.setItem('vista', v)}catch(e){}
     document.dispatchEvent(new CustomEvent('vista', {detail: v}));
   }

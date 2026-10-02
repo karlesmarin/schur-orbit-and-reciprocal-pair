@@ -79,7 +79,7 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <span class="author">Carles Marín</span>
 </p>
 </div>
-<details class="blk b-set" open=""><summary>📐 Setting (copied from the paper)</summary>
+<details class="blk b-set"><summary>📐 Setting (copied from the paper)</summary>
 <p> For a completely multiplicative \(\varepsilon :\mathbb N\to \{ \pm 1\} \), \(S_\varepsilon (m)=\sum _{n\le m}n\, \varepsilon (n)\). Changing one sign changes \(S_\varepsilon (m)\) by an even amount, so \(S_\varepsilon (m)\equiv m(m+1)/2\pmod2\), and a zero is possible only when \(m\equiv 0\) or \(3\pmod4\); call these lengths <em>admissible</em>. A prime \(q\in (m/2,m]\) divides no \(n\le m\) other than \(q\) itself, so its sign enters \(S_\varepsilon (m)\) once, with weight \(q\). For a set \(Q\) of such primes, \(S_\varepsilon (m)=R_Q+\sum _{q\in Q}q\, \varepsilon (q)\), where \(R_Q\) depends only on the signs outside \(Q\); \(P_Q=\sum _{q\in Q}q\). For an odd prime \(q\) and \(s=\pm 1\) let \(\chi _{q,s}\) be the completely multiplicative function equal to the Legendre symbol \((\cdot \mid q)\) on the integers prime to \(q\), with \(\chi _{q,s}(q)=s\). For \(\chi =\chi _{q,s}\), \(C(r)=\sum _{r'\le r}\chi (r')\), \(T(r)=\sum _{r'\le r}r'\chi (r')\) \((0\le r{\lt}q)\), \(T_q=T(q-1)\), and \(R_q=\{ 0\le r{\lt}q:\  T_q+q\, C(r)=0=T(r)\} \). </p>
 </details><h1 id="a0000000003">1 Statements</h1>
 <div class="theorem_thmwrapper theorem-style-plain" id="thm:A">
@@ -150,9 +150,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> the right side being \(0.02669\) at \(M=10^8\) and both terms decreasing in \(M\). So \(|R_Q|{\lt}P_Q-K\) and a zero exists. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Changing one sign changes \(S_\varepsilon (m)=\sum _{n\le m}n\, \varepsilon (n)\) by an even amount, so a zero is only possible when \(m\equiv 0\) or \(3\pmod4\) (the <em>admissible</em> lengths). The theorem says parity is the only obstruction. The key observation: a prime \(q\in (m/2,m]\) divides no other \(n\le m\), so its sign enters the sum once, with weight \(q\). Choose the other signs so that the rest of the sum is small (Lemma <a href="index.html#lem:momento">2.1</a>), and show that the subset sums of these large primes fill a long interval (Lemma <a href="index.html#lem:intervalos">2.2</a>); then the large primes can cancel the rest exactly. The function depends on \(m\) (\(S_\varepsilon (4)-S_\varepsilon (3)=4\)). The proof runs in three overlapping ranges (Table 1 of the paper): explicit functions up to \(20000\), \(104\) block certificates on \([5000,10^8)\), and Sárközy’s progressions from \(10^8\) on. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <p> <b class="bfseries">Scope at a glance</b> (each row is one range; details below). </p>
 <table class="tabular">
 <tr>
@@ -295,9 +295,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 </span> bounds the probability of any single value by \(O(|Q|^{-3/2})=O\bigl((\log m/m)^{3/2}\bigr)\). The series converges, and the first Borel–Cantelli lemma gives \(\Pr (\mathcal Z_\infty )=0\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Here \(\Omega =\{ \pm 1\} ^{\mathcal P}\) is the set of sign patterns on the primes (each pattern is one completely multiplicative \(\varepsilon \)), and \(\mathcal Z_\infty \) the patterns whose sum \(S_\varepsilon (m)\) vanishes for infinitely many \(m\). For a fixed function, measure and category disagree. Topologically, zeros are generic: a zero at some large \(m\) can be reached from any finite prefix of signs (Proposition <a href="index.html#prop:prefijos">3.1</a>), so “has a zero beyond \(M\)” is open and dense, and Baire gives a dense \(G_\delta \). In probability, zeros are rare: once all other signs are fixed, \(S_\varepsilon (m)\) is a fixed number plus \(\sum _{q}q\, \varepsilon (q)\) over the primes of \((m/2,m]\), with distinct weights, and Sárközy–Szemerédi bound the chance of hitting any single value by \(O\bigl((\log m/m)^{3/2}\bigr)\), which is summable: Borel–Cantelli gives probability \(0\). Without the weight, Aymone’s theorem gives zeros infinitely often almost surely. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only.</b> No program checks the measure or category statement, and it is not formalized. </p>
 </li>
@@ -348,12 +348,12 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> The zeros \(S_\chi ((q^j-1)/2)=0\) are Corollary <a href="index.html#cor:digitos">4.3</a>(b). By the same corollary \((q-1)/2\in R_q\), so \(F_q\) vanishes identically on the cell \([(q-1)/2,(q+1)/2]\), and \(f_q\) on \(\bigl[\frac{q-1}{2q},\frac{q+1}{2q}\bigr]\). </p>
 </div>
 </div>
-<details class="blk b-fig" open=""><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_conrey_celda.png}" src="images/img-0001.png" style="width:95%;max-width:100%"/>
+<details class="blk b-fig"><summary>🖼️ Figure</summary><div class="centered"> <img alt="\includegraphics[width=0.95\textwidth ]{figuras/fig_conrey_celda.png}" src="images/img-0001.png" style="width:95%;max-width:100%"/>
 </div>
 <p> Conreyś sine series \(f_q\) for \(q=23\equiv 7\pmod8\), where it vanishes identically on the central cell, and for the control \(q=59\equiv 3\pmod8\), where it does not. Exact curve from \(F_q\) and the series truncated at \(20000\) terms (<span class="ttfamily">figuras/fig_conrey_celda.py</span>). </p>
-</details><details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+</details><details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> For an odd prime \(q\) and \(s=\pm 1\), \(\chi _{q,s}\) is the completely multiplicative function equal to the Legendre symbol \((\cdot \mid q)\) on integers prime to \(q\), with \(\chi _{q,s}(q)=s\). In base \(q\), \((q^j-1)/2\) is the number with \(j\) digits all equal to \((q-1)/2\). By the digit recursion (Theorem <a href="index.html#thm:digitos">4.1</a>) the sum vanishes along any string of digits from the set \(R_q\) (Lemma <a href="index.html#lem:propagacion">4.3, first statement</a>), so it is enough that \((q-1)/2\in R_q\). That is where \(q\equiv 7\pmod8\) enters: then \(\chi (2)=1\), the Euler factor \(\chi (2)^{-1}-1\) of Theorem <a href="index.html#thm:diag">4.2</a> is \(0\), and the weighted half sum \(T(\frac{q-1}2)\) vanishes; the class number formula, equation (3) of the paper, gives the other condition, \(T_q+q\, C(\frac{q-1}2)=0\). The second half is the same fact read through Conrey’s formula \(f_q(x)=\frac{2\pi ^2}{q^{3/2}}F_q(qx)\) (Section 4.3 of the paper): \(F_q\) is linear on each cell \([r,r+1]\) and vanishes on it exactly when \(r\in R_q\). The case \(j=1\) is classical (Lebesgue; Aebi–Cairns). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <p> <b class="bfseries">Scope at a glance</b> (three different checks, on three different sets of primes; details below). </p>
 <table class="tabular">
 <tr>
@@ -470,9 +470,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p>\(\mathbb E\, \varepsilon (n)\varepsilon (k)\) is \(1\) if \(nk\) is a square and \(0\) otherwise. Writing \(n=da^2\) with \(d\) squarefree, \(\mathbb E\, S_\varepsilon (m)^2=\sum _db_m(d)^2\) with \(b_m(d)=d\sum _{j\le \sqrt{m/d}}j^2\), and \(\mathbb E\, R_Q^2\) is the same sum without the terms \(d=q\in Q\), whose class contains only \(n=q\). With \(J=\lfloor \sqrt{m/d}\rfloor \), \(\sum _{j\le J}j^2\le J^3/3+J^2/2+J/6\), and \(dJ^2\le m\), \(dJ\le \sqrt{md}\le m\) give \(b_m(d)\le m^{3/2}/(3\sqrt d)+2m/3\). Squaring and summing over \(d\le m\) with \(\sum 1/d\le 1+\log m\), \(\sum d^{-1/2}\le 2\sqrt m\) and at most \(m\) terms gives \(m^3\bigl((1+\log m)+8+4\bigr)/9\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Notation from the paper: \(Q\) is a set of primes in \((m/2,m]\), and equation (2) splits \(S_\varepsilon (m)=R_Q+\sum _{q\in Q}q\, \varepsilon (q)\), where \(R_Q\) depends only on the signs outside \(Q\). The lemma says that a random choice of those signs makes \(R_Q\) small on average, so some choice makes \(|R_Q|\le B_*(m)=\frac13m^{3/2}\sqrt{\log m+13}\). Why: for random signs, \(\mathbb E\, \varepsilon (n)\varepsilon (k)\) is \(1\) when \(nk\) is a square and \(0\) otherwise. Grouping \(n=da^2\) by its squarefree part \(d\) turns the second moment into a sum of squares \(\sum _d b_m(d)^2\), which elementary bounds control. Its role: \(B_*(m)\) is of order \(m^{3/2}\) up to a logarithm, while the primes of \((M/2,M]\) weigh at least \(M^2/(4\log M)\) (the paper’s bound for \(M\ge 10^8\)), so they have room to cancel \(R_Q\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only</b> (not formalized). </p>
 </li>
@@ -539,9 +539,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> (a) is immediate. (b) The condition on the \(d_j\) makes their subset sums exactly \(\{ 0,\dots ,H\} \); choosing one element of each pair gives \(U+2\{ 0,\dots ,H\} \), and adding \(q_0\) or not fills the other parity: an integer \(x\) of the interval with \(x-U\) even is \(U+2k\), \(k\le H\), and one with \(x-U\) odd is \(U+q_0+2k\) with \(0\le k\le H\). (c) is the cited theorem: as \(\log _2y\ge \log y\) for \(y\ge 1\), its hypothesis with \(\log _2\) implies the hypothesis with the natural logarithm, so (c) holds whichever logarithm the source intends. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> \(\Sigma (A)\) is the set of subset sums of \(A\), and \(P_A\) the sum of all of \(A\). The signed sums \(\sum _{q\in Q}\pm q\) are exactly the numbers \(P_Q-2x\) with \(x\in \Sigma (Q)\), so a long interval inside \(\Sigma (Q)\) gives every value of the right parity in a long symmetric window, which is what the proof of Theorem <a href="index.html#thm:A">A</a> needs. The lemma collects three ways to get that interval. (a) An element no larger than the interval’s length plus one extends it; and since \(\Sigma (A)\) is symmetric under \(x\mapsto P_A-x\), reaching half of \(P_A\) is enough. (b) Pairs \(u_j{\lt}v_j\) whose half-gaps \(d_j\) grow slowly enough fill an interval; this builds the block certificates. (c) Sárközy’s theorem, with explicit constants, gives a long progression inside \(\Sigma (X)\); it covers all \(m\ge 10^8\). Part (b) needs \(d_1=1\), a pair of twin primes, which no theorem guarantees in every interval: so the certificates alone cannot cover all \(m\), and from \(10^8\) on the proof uses (c), which is available from about \(4.4\cdot 10^7\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Part (b) formalized in Lean</b>, in a slightly more general form (node Lemma <a href="index.html#lem:intervalos_b">2.2(b)</a>). </p>
 </li>
@@ -599,9 +599,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p>Formalized in Lean (see the linked declarations). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> A sequence \(d_1,d_2,\dots \) in which each term is at most one more than the sum of the earlier ones represents every integer from \(0\) to its total as a subset sum: by induction, adding a term \(d_j\) to the interval \([0,H]\) already reached gives \([0,H]\cup [d_j,H+d_j]\), and \(d_j\le H+1\) leaves no gap. The pairs version: pick one element of each pair \((u_j,v_j=u_j+2d_j)\); the choices realise \(U+2y\) for every \(0\le y\le H\), the even offsets from \(U=\sum u_j\), and adding an odd \(q_0\) or not supplies the other parity. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Formalized in Lean 4 + Mathlib:</b> <span class="ttfamily">SegmentoII.complete_range</span> (indexed form; also <span class="ttfamily">complete_list</span>) and <span class="ttfamily">SegmentoII.pairs_subset_sum</span>. No <span class="ttfamily">sorry</span> in the file; the supplement’s README states standard axioms only, and the file ends with <span class="ttfamily">#print axioms</span> for each theorem. </p>
 </li>
@@ -654,9 +654,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> For \(m{\gt}2\max F\) the set \(F\) is disjoint from \(Q\). Conditioning on the event \(\varepsilon |_F=\varepsilon _0\), of probability \(2^{-|F|}\), multiplies \(\mathbb E\, R_Q^2\) by at most \(2^{|F|}\), since \(R_Q^2\ge 0\); the proof of Theorem <a href="index.html#thm:A">A</a> then goes through with \(2^{|F|/2}B_*\) in place of \(B_*\), and both \(B_*/P_Q\) and \(K/P_Q\) tend to \(0\). For \(F=\{ 2,3,5,7\} \) the factor is \(4\): every block with \(b\ge 60000\) satisfies \(90D^2{\gt}16\, b^3(130+7e)\), and beyond \(10^8\), \(4B_*/P_Q+K/P_Q{\lt}0.07\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Fixing the signs of finitely many primes in advance does not prevent zeros, once \(m\) is large. The reason is in the second moment of Lemma <a href="index.html#lem:momento">2.1</a>: conditioning on an event of probability \(2^{-|F|}\) can multiply \(\mathbb E\, R_Q^2\) by at most \(2^{|F|}\), since \(R_Q^2\ge 0\), so \(B_*\) is replaced by \(2^{|F|/2}B_*\), and the proof of Theorem <a href="index.html#thm:A">A</a> still closes for large \(m\), both \(B_*/P_Q\) and \(K/P_Q\) tending to \(0\). For \(F=\{ 2,3,5,7\} \) the factor on \(B_*\) is \(4\), and the paper verifies the strengthened inequalities explicitly, giving \(M(F)=60000\). This proposition is the density half of Theorem <a href="index.html#thm:dicotomia">B</a>: any finite prefix of signs can be continued to a zero at a large length. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">General \(F\): proof on paper only.</b> </p>
 </li>
@@ -714,9 +714,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p>The \(n\le qk+r\) prime to \(q\) are \(jq+r'\) with \(j{\lt}k\), \(1\le r'{\lt}q\), and \(kq+r'\) with \(r'\le r\); as \(\chi (jq+r')=\chi (r')\) and \(C(q-1)=0\), they contribute \(kT_q+kq\, C(r)+T(r)\). The multiples \(jq\), \(j\le k\), contribute \(\sum _jjq\, s\chi (j)=sq\, S_\chi (k)\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Notation: \(\chi =\chi _{q,s}\); for \(0\le r{\lt}q\), \(C(r)=\sum _{r'\le r}\chi (r')\), \(T(r)=\sum _{r'\le r}r'\chi (r')\), and \(T_q=T(q-1)\). Split the integers \(n\le qk+r\) into multiples of \(q\) and the rest. The multiples \(jq\), \(j\le k\), give \(sq\, S_\chi (k)\), because \(\chi (jq)=s\, \chi (j)\). The rest come in \(k\) complete blocks of residues plus a partial block up to \(r\); since \(\chi \) only sees the residue and \(C(q-1)=0\), they give \(k(T_q+q\, C(r))+T(r)\). So \(S_\chi \) at \(m\) is determined by \(S_\chi \) at \(m\) with its last base-\(q\) digit removed, plus a term that depends on that digit and, linearly, on the remaining number \(k\). The zeros of Corollary <a href="index.html#cor:C">C</a>, Corollary <a href="index.html#cor:digitos">4.3</a>, Proposition <a href="index.html#prop:bloques">4.4</a> and Corollary <a href="index.html#cor:orden">4.5</a> are all read off this recursion. The unweighted recursion, \(\sum _{n\le qk+r}\chi (n)=s\sum _{n\le k}\chi (n)+C(r)\), is in Borwein–Choi–Coons (for \(s=1\)) and Klurman–Mangerel–Pohoata–Teräväinen (any \(s\)); the weight brings the factor \(q\) and the term \(k(T_q+qC(r))\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Formalized in Lean 4 + Mathlib:</b> <span class="ttfamily">SegmentoII.digit_recursion</span>. Hypotheses in Lean: \(q\ge 2\), \(\chi :\mathbb N\to \mathbb {Z}\) completely multiplicative, \(\chi (jq+r)=\chi (r)\) for \(1\le r{\lt}q\), \(\chi (q)=s\), and \(C(q-1)=0\); neither primality of \(q\) nor values \(\pm 1\) is assumed. No <span class="ttfamily">sorry</span>; standard axioms (supplement README). The file does not prove that \(\chi _{q,s}\) satisfies these hypotheses (elementary properties of the Legendre symbol). </p>
 </li>
@@ -757,9 +757,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p>Write \(T=\sum _{c{\lt}f/2}c\chi (c)\), \(U=\sum _{c{\lt}f/2}\chi (c)\), \(W=\sum _{c\  \mathrm{even}}\chi (c)\) and \(X=\sum _{c\  \mathrm{even}}c\chi (c)\), all over \(1\le c{\lt}f\). Pairing \(b\mapsto f-b\) exchanges odd and even residues, since \(f\) is odd, and \(\chi (f-b)=-\chi (b)\); hence \(\sum _{b\  \mathrm{odd}}b\chi (b)=-fW+X\), and adding \(X\) gives \(fB_{1,\chi }=2X-fW\), that is \(X=\tfrac f2(B_{1,\chi }+W)\). Substituting \(c=2c'\) in the even sums, \(W=\chi (2)U\) and \(X=\chi (2)\cdot 2T\). Finally \(\sum _{b}\chi (b)=0\) splits as \(\sum _{\mathrm{odd}}+\sum _{\mathrm{even}}\), and the first equals \((2\chi (2)-1)B_{1,\chi }\) by the same substitution applied to \(\chi (2)fB_{1,\chi }=\sum _a a\chi (2a)\); so \(-\chi (2)U=(2\chi (2)-1)B_{1,\chi }\), i.e. \(U=(\chi (2)^{-1}-2)B_{1,\chi }\). Putting the three together, \(2\chi (2)T=\tfrac f2\bigl(B_{1,\chi }+\chi (2)U\bigr)\) gives the displayed formula. For \(\chi \) primitive and odd, \(B_{1,\chi }=-L(0,\chi )\neq 0\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Here \(B_{1,\chi }=f^{-1}\sum _{a=1}^{f}a\, \chi (a)\). The weighted sum of an odd character over the first half of the residues equals \(B_{1,\chi }\) times \(\frac f2(\chi (2)^{-1}-1)\), that is, half the full weighted sum \(\sum _{a\le f}a\, \chi (a)=f\, B_{1,\chi }\) times \(\chi (2)^{-1}-1\), the Euler factor at \(2\). The proof pairs \(b\) with \(f-b\), which swaps odd and even residues because \(f\) is odd and flips the sign because \(\chi \) is odd, substitutes \(c=2c'\) in the even sums, which brings out \(\chi (2)\), and uses \(\sum _b\chi (b)=0\). For primitive \(\chi \), \(B_{1,\chi }=-L(0,\chi )\neq 0\), so the half sum vanishes exactly when \(\chi (2)=1\). This criterion gives \(T(\frac{q-1}2)=0\) when \(q\equiv 7\pmod8\); with the class number formula it puts the digit \((q-1)/2\) into \(R_q\) (Corollary <a href="index.html#cor:C">C</a>). The identity is not new: it is in Kanemitsu–Kuzumaki and Kučera; the paper gives a short proof for the half sum. Its unweighted twin is the Jacobi–Dirichlet class number formula, equation (3) of the paper. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only</b> (not formalized). </p>
 </li>
@@ -827,9 +827,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p>Formalized in Lean (see the linked declarations). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> \(R_q\) is the set of digits \(0\le r{\lt}q\) with \(T_q+q\, C(r)=0\) and \(T(r)=0\): exactly the digits for which both digit-dependent terms of the recursion of Theorem <a href="index.html#thm:digitos">4.1</a> vanish. If \(S_\chi (k)=0\) and \(r\in R_q\), all three terms on the right are \(0\), so \(S_\chi (qk+r)=0\). Starting from \(S_\chi (0)=0\) and appending digits one at a time, every \(m\) written only with digits of \(R_q\) is a zero, whatever the value \(s\) at \(q\). With \(0,q-1\in R_q\) this gives at least \(2^J-1\) zeros below \(q^J\) (Corollary <a href="index.html#cor:digitos">4.3</a>(a)); with the single digit \((q-1)/2\), the chain \((q^j-1)/2\) (Corollary <a href="index.html#cor:C">C</a>). Which digits lie in \(R_q\), and why, is the subject of Corollary <a href="index.html#cor:digitos">4.3</a>, Theorem <a href="index.html#thm:diag">4.2</a> and Proposition <a href="index.html#prop:conrey">4.6</a>. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Formalized in Lean 4 + Mathlib:</b> <span class="ttfamily">SegmentoII.zero_step</span> (one digit) and <span class="ttfamily">SegmentoII.zeros_from_digits</span> (all digits, via Mathlib’s <span class="ttfamily">Nat.digits</span>), under the same hypotheses as <span class="ttfamily">digit_recursion</span>. No <span class="ttfamily">sorry</span>; standard axioms (supplement README). </p>
 </li>
@@ -898,9 +898,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> By induction on the number of digits, from \(S_\chi (0)=0\) and Theorem <a href="index.html#thm:digitos">4.1</a>. (a) \(\chi \) is even, so \(r\leftrightarrow q-r\) gives \(T_q=0\); with \(C(q-1)=0\), both \(0\) and \(q-1\) lie in \(R_q\). (b) \(\chi \) is odd and \(\chi (2)=1\). Theorem <a href="index.html#thm:diag">4.2</a> gives \(T((q-1)/2)=0\), the Euler factor \(\chi (2)^{-1}-1\) vanishing; the half sum (3) gives \(C((q-1)/2)=(2-\chi (2))\, h(-q)=h(-q)\); and \(T_q=q\, B_{1,\chi }=-q\, h(-q)\). So \(T_q+qC=0\), and \((q^j-1)/2\) is the number whose \(j\) digits are all \((q-1)/2\). (c) With \(r=0\) and \(k=z+1\), Theorem <a href="index.html#thm:digitos">4.1</a> gives \(S_\chi (q(z+1))=q(z+1)\bigl(s\chi (z+1)-h(-q)\bigr)\) when \(S_\chi (z)=0\); \(S_\chi (q)=T_q+qs=q(s-h)=0\), and \(z_i\equiv 0\pmod q\) gives \(\chi (z_i+1)=1\). At \(q=3\), \(T_3=-1\), and three steps with \(r=0\) give \(S_\chi (27k)=27S_\chi (k)-27k\); so \(S_\chi (27)=0\), and \(S_\chi (z)=0\) with \(27\mid z\) gives \(S_\chi (27(z+1))=27(z+1)\chi (z+1)-27(z+1)=0\). (d) Subtracting the cases \(r\) and \(0\) of Theorem <a href="index.html#thm:digitos">4.1</a>, \(S_\chi (qk+r)=S_\chi (qk)+kq\, C(r)+T(r)\); for \(q{\gt}3\) the digit \(r=4\) exists. For \(q=3\), \(s=-1\) it does not, and directly: \(T_3=1-2=-1\), so \(S_\chi (3k)=-3S_\chi (k)-k\) and \(S_\chi (3k)=0\) forces \(3\mid k\); and, as \(\chi (3k+1)=\chi (3k+4)=1\), \(\chi (3k+2)=-1\) and \(\chi (3k+3)=-\chi (k+1)\), \(S_\chi (3k+4)-S_\chi (3k)=(3k+3)\bigl(1-\chi (k+1)\bigr)\), which vanishes because \(k+1\equiv 1\pmod3\) gives \(\chi (k+1)=1\). (e) With \(r=0\) and \(s=-1\), \(S_\chi (qm)=-qS_\chi (m)+mT_q\); applied twice, the terms in \(T_q\) cancel. (f) Put \(c=(q-1)/2\) and \(m_j=(q^j-1)/2\), so that \(m_{j+1}=qm_j+c\). Now \(\chi (2)=-1\), so Theorem <a href="index.html#thm:diag">4.2</a> gives \(T(c)=q\, h(-q)\), (3) gives \(C(c)=3h(-q)\), and \(T_q=-q\, h(-q)\); at \(q=3\), where \(c=1\), directly \(T(1)=C(1)=1\) and \(T_3=-1\), the same values with \(h(-3)=1/3\). Theorem <a href="index.html#thm:digitos">4.1</a> with \(k=m_j\) and \(r=c\) gives \(S_\chi (m_{j+1})=s\, q\, S_\chi (m_j)+q^{j+1}h(-q)\), and \(S_\chi (m_1)=T(c)=q\, h(-q)\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> \(h(-q)\) is the class number, given for prime \(q\equiv 3\pmod4\), \(q{\gt}3\), by the Jacobi–Dirichlet formula \(h(-q)=\frac{1}{2-(2\mid q)}\sum _{0{\lt}n{\lt}q/2}(n\mid q)\) (equation (3) of the paper). The first statement is Lemma <a href="index.html#lem:propagacion">4.3, first statement</a>. The items say where the recursion produces zeros: (a)–(c) and (e) give infinitely many, (d) adds one digit to a zero, and (f) gives the exact value along \((q^j-1)/2\). (a) For \(q\equiv 1\pmod4\) the character is even, and \(0\) and \(q-1\) are always in \(R_q\). (b) For \(q\equiv 7\pmod8\) the Euler factor at \(2\) makes the weighted half sum vanish, and with the class number formula this puts \((q-1)/2\) in \(R_q\). (c) For class number one and \(s=1\) a chain \(z_{i+1}=q(z_i+1)\) of zeros, which works also where \(R_q\) is empty (\(q=11,19,43,67,163\), Table 2 of the paper). (d) A digit \(r\) with \(C(r)=T(r)=0\) can be appended to a zero of the form \(qk\). (e) For \(s=-1\), \(S_\chi (q^2m)=q^2S_\chi (m)\): one zero gives infinitely many. (f) For \(q\equiv 3\pmod8\) the value at \((q^j-1)/2\) is explicit, \(h(-q)\, q^j(1+s+\dots +s^{j-1})\), and vanishes for \(s=-1\) and even \(j\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">First statement formalized in Lean</b> (node Lemma <a href="index.html#lem:propagacion">4.3, first statement</a>). <b class="bfseries">Items (a)–(f): proof on paper only.</b> </p>
 </li>
@@ -963,9 +963,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> With \(s=1\) and \(T_q=-qh\), Theorem <a href="index.html#thm:digitos">4.1</a> reads \(S_\chi (qk+r)=qS_\chi (k)+qkD(r)+T(r)\). Appending the digits of \(B\) one at a time, by induction, \(S_\chi (Qk+B)=QS_\chi (k)+Qk\sum _iD(d_i)+S_\chi (B)\), so \(S_\chi (k)=hk\) implies \(S_\chi (Qk+B)=h(Qk+B)\); starting from \(k=0\), \(k_t=B(1+Q+\dots +Q^{t-1})\) has \(S_\chi (k_t)=hk_t\). Appending the digit \(0\), \(S_\chi (qk_t)=q\bigl(S_\chi (k_t)+k_tD(0)\bigr)=q(hk_t-hk_t)=0\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Notation: \(h=h(-q)\) and \(D(r)=C(r)-h\). With \(s=1\) the recursion reads \(S_\chi (qk+r)=q\, S_\chi (k)+qk\, D(r)+T(r)\). When \(R_q\) is empty no single digit carries every zero to a zero, but a word of digits can preserve the weaker relation \(S_\chi (k)=hk\): appending the digits of a block \(B\) with \(\sum D(d_i)=0\) and \(S_\chi (B)=hB\) sends \(S_\chi (k)=hk\) to the same relation at \(q^Lk+B\). Repeating the block keeps the relation; a final digit \(0\), with \(D(0)=-h\), turns it into a zero. At \(q=59\) (\(h=3\)) the block \((1,22,21,0)_{59}=283200\) works, giving zeros from \(16\, 708\, 800\) on; at \(q=347\) a thirteen-digit block. So class number greater than one does not block infinitely many zeros. The first zero at \(q=59\), \(4\, 591\, 439\), is not of this form. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only</b> (not formalized). </p>
 </li>
@@ -1020,9 +1020,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> Theorem <a href="index.html#thm:digitos">4.1</a> and its proof hold verbatim for \(\chi \), with \(s=\chi (q)\). By Theorem <a href="index.html#thm:diag">4.2</a>, \(T((q-1)/2)=\tfrac q2B_{1,\chi }(\chi (2)^{-1}-1)\) with \(B_{1,\chi }\ne 0\), which gives the equivalence at \(j=1\). If \(\chi (2)=1\), the proof of Theorem <a href="index.html#thm:diag">4.2</a> gives \(C((q-1)/2)=(\chi (2)^{-1}-2)B_{1,\chi }=-B_{1,\chi }\), and \(T_q=qB_{1,\chi }\), so \((q-1)/2\in R_q\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> The mechanism behind Corollary <a href="index.html#cor:C">C</a> does not use that the character is quadratic. For any odd Dirichlet character modulo an odd prime \(q\), of any order, extended completely multiplicatively with any root of unity as its value at \(q\), the recursion of Theorem <a href="index.html#thm:digitos">4.1</a> holds verbatim, and Theorem <a href="index.html#thm:diag">4.2</a> says the weighted half sum vanishes exactly when \(\chi (2)=1\). When it does, \((q-1)/2\) lies in \(R_q\), and every \((q^j-1)/2\) is a zero. The characters with this property are the odd characters trivial on the subgroup generated by \(2\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only</b> (not formalized; the Lean file is over \(\mathbb {Z}\)-valued functions). </p>
 </li>
@@ -1058,9 +1058,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p>By the symmetry \(C(q-1-r)=C(r)\), \(T(q-1-r)=q(C(r)-h)-T(r)\) it suffices to exclude \(r\le (q-1)/2\). Suppose such an \(r\) lies in \(R_q\) and put \(u=(rq+1)/q^2\in [0,1/2]\). Splitting \(n\) by its \(q\)-adic valuation, the series at \(u\) is \(\sum _{j\ge 0}(-1)^jq^{-2j}f_q(q^ju)\). The term \(j=0\) vanishes, \(qu\) lying inside the cell of \(r\); the terms \(j\ge 2\) vanish, their arguments being integers; and the term \(j=1\) is \(-q^{-2}f_q(1/q)=-2\pi ^2h/q^{7/2}\), since \(F_q(1)=h\). The series is negative at \(u\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Conrey’s sine series is \(f_q(x)=\sum _{n\ge 1}(n\mid q)\sin (2\pi nx)/n^2\); for prime \(q\equiv 3\pmod4\), \(q{\gt}3\), through his Theorem 4 and the class number formula it equals \(\frac{2\pi ^2}{q^{3/2}}F_q(qx)\) with \(F_q(y)=T(r)+y(h-C(r))\), \(r=\lfloor y\rfloor \), which is linear on each cell and vanishes on the cell of \(r\) exactly when \(r\in R_q\). For \(q\equiv 3\pmod8\), Conrey’s case, a null cell is the first alternative of his Theorem 4, which he remarked would make \(f_q\) vanish on an interval; the paper does not decide whether it occurs. The proposition excludes it under a positivity hypothesis on the series of \(\chi _{q,-1}\) (value \(-1\) at \(q\)), not of \(f_q\). Splitting \(n\) by its power of \(q\), that series at \(u=(rq+1)/q^2\), for \(r\) a putative null cell, is \(\sum _j(-1)^jq^{-2j}f_q(q^ju)\): the term \(j=0\) vanishes, the terms \(j\ge 2\) have integer arguments, and the term \(j=1\) is \(-2\pi ^2h/q^{7/2}{\lt}0\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only.</b> The positivity hypothesis is not verified for any \(q\) in the paper or the supplement. </p>
 </li>
@@ -1103,9 +1103,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p>Changing one sign changes the sum by \(2c\), so its parity is that of \(\sum _{c\le m}c=m(m+1)/2\), and \(m(m+1)/2=(n^2-1)/8\). The second supplementary law of quadratic reciprocity is \(\bigl(\frac2n\bigr)=(-1)^{(n^2-1)/8}\), so the sum is even exactly when that symbol is \(1\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Here \(n=2m+1\) and \((\frac2n)\) is the Jacobi symbol. Any \(\pm 1\) signs on \(1,\dots ,m\) give a sum with the parity of \(1+2+\dots +m=m(m+1)/2=(n^2-1)/8\), since flipping the sign of \(c\) changes the sum by \(2c\). By the second supplementary law, that parity is even exactly when \((\frac2n)=1\), that is \(n\equiv \pm 1\pmod8\), that is \(m\equiv 0,3\pmod4\): the admissible lengths again. For a primitive quadratic character of conductor \(f\) with \(\gcd (f,m!)=1\), the values on \(1,\dots ,m\) are all \(\pm 1\), so \(T(m,\chi )=\sum _{c\le m}c\, \chi (c)\) inherits the obstruction. The coprimality hypothesis is needed: at \(f=35\), \(m=6\), \(\chi (5)=0\) and \(T=0\) although \((\frac2{13})=-1\). </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only</b> (two lines; not formalized). </p>
 </li>
@@ -1158,9 +1158,9 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> Necessity is Proposition <a href="index.html#prop:filas">5.1</a>. Conversely, \(\bigl(\frac2n\bigr)=1\) is \(m\equiv 0,3\pmod4\); take \(\varepsilon \) from Theorem <a href="index.html#thm:A">A</a>. For a prime \(f\equiv 3\pmod4\), \(f{\gt}n\), the value \((2\mid f)\) is fixed by \(f\bmod 8\), and for an odd prime \(p\le m\) reciprocity gives \((p\mid f)=(-1)^{(p-1)/2}(f\mid p)\), fixed by \(f\bmod p\) and taking both signs. By the Chinese remainder theorem and Dirichlet’s theorem there are infinitely many primes \(f\equiv 3\pmod4\) with \((p\mid f)=\varepsilon (p)\) for every prime \(p\le m\); for them \(\chi =(\cdot \mid f)\) agrees with \(\varepsilon \) on \(1,\dots ,m\), and \(T(m,\chi )=S_\varepsilon (m)=0\). </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Row \(m\) is the set of odd primitive quadratic characters \(\chi \) of prime conductor \(f{\gt}2m+1\) with \(T(m,\chi )=\sum _{c\le m}c\, \chi (c)=0\). Parity (Proposition <a href="index.html#prop:filas">5.1</a>) empties the rows with \((\frac2n)=-1\). For the others, Theorem <a href="index.html#thm:A">A</a> gives a sign pattern \(\varepsilon \) with \(S_\varepsilon (m)=0\), and the question is whether a Legendre symbol can copy it on \(1,\dots ,m\). It can: for a prime \(f\equiv 3\pmod4\), \((2\mid f)\) is fixed by \(f\bmod 8\) and, by reciprocity, \((p\mid f)\) by \(f\bmod p\), taking both signs. The Chinese remainder theorem and Dirichlet’s theorem then give infinitely many primes \(f\) whose symbol agrees with \(\varepsilon \) at every prime \(p\le m\), hence on \(1,\dots ,m\). Every admissible length is the length of a vanishing weighted Legendre sum, for infinitely many primes. </p>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Proof on paper only</b> (not formalized); it inherits the guarantees of Theorem <a href="index.html#thm:A">A</a>. </p>
 </li>
@@ -1230,11 +1230,11 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <p> A finite certificate: a forward-invariant cone \(\{ b(a+b)\le 0\} \) of the digit automaton, three rays, and a finite set of \(55\) (resp. \(162\)) states; inside the cone their union is backward-closed, contains every parent of an accepting edge, and does not contain the origin. </p>
 </div>
 </div>
-<details class="blk b-plain" open=""><summary>💡 In plain words (commentary, not part of the paper)</summary>
+<details class="blk b-plain"><summary>💡 In plain words (commentary, not part of the paper)</summary>
 <p> Reading the base-\(q\) digits of \(m\) from the least significant one, the relation \(S_\chi (k)+a k=b\) is carried from one state \((a,b)\) to the next by an exact integer transition (Theorem <a href="index.html#thm:digitos">4.1</a>). A positive zero of \(S_\chi \) is a path from \((0,0)\) that ends, after its leading digit, on a state with \(b=0\). The figure shows why no such path exists for \(q=179\): the path can never leave the blue cone, and every state from which the last step could land on \(b=0\) (red circles) lies in a set—the \(55\) grey states and the three green rays—that, inside the cone, can only be entered from a state already in it. The start \((0,0)\) is not in that set, so no path from it ever enters the set, and none reaches a red circle. </p>
 <div class="centered"> <img alt="\includegraphics[width=0.85\textwidth ]{figuras/fig_certificado_179.png}" src="images/img-0002.png" style="width:85%;max-width:100%"/>
 </div>
-</details><details class="blk b-guar" open=""><summary>🛡️ Evidence &amp; scope</summary>
+</details><details class="blk b-guar"><summary>🛡️ Evidence &amp; scope</summary>
 <ul class="itemize">
 <li><p><b class="bfseries">Formalized in Lean 4 + Mathlib, checked by the kernel:</b> <span class="ttfamily">S_ne_zero_179</span> and <span class="ttfamily">S_ne_zero_227</span> (links above). The finite part is checked by <span class="ttfamily">decide</span> inside the kernel; no <span class="ttfamily">native_decide</span>, no <span class="ttfamily">sorry</span>. Axioms: <span class="ttfamily">propext</span>, <span class="ttfamily">Classical.choice</span>, <span class="ttfamily">Quot.sound</span>. </p>
 </li>
@@ -1387,13 +1387,12 @@ p.novedad{font-size:.92em;margin:.2em 0 .6em 1.4em;padding:.25em .6em;border-lef
 <script src="js/plastex.js" type="text/javascript"></script>
 <script src="js/svgxuse.js" type="text/javascript"></script>
 <script>// paper-companion: the Paper / Explore views. Paper hides the commentary and the figures and keeps the evidence
-// blocks, collapsed; Explore shows everything and opens them. The choice is remembered (localStorage, guarded) and announced with a 'vista'
+// blocks; Explore shows everything. Switching view never opens or closes a block: every block starts collapsed. The choice is remembered (localStorage, guarded) and announced with a 'vista'
 // event, so that page-specific scripts (labs) can react.
 (function(){
   function set(v){
     document.body.classList.toggle('vista-paper', v==='paper');
     document.querySelectorAll('#vistas button').forEach(function(b){b.classList.toggle('on', b.dataset.v===v)});
-    document.querySelectorAll('details.b-guar, details.b-fig').forEach(function(d){d.open = (v!=='paper')});
     try{localStorage.setItem('vista', v)}catch(e){}
     document.dispatchEvent(new CustomEvent('vista', {detail: v}));
   }
