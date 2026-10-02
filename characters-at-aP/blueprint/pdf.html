@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>PDF: Characters of Sp(2m) at the powers of Kostant&#x27;s element</title><style>
+html,body{margin:0;height:100%}
+body{display:flex;flex-direction:column;font-family:serif}
+#vistas{position:sticky;top:0;z-index:50;background:#e3edf7;border-bottom:1px solid #b9cde2;padding:.6em 16px;
+        font-size:.9em;display:flex;flex-wrap:wrap;gap:.4em;align-items:center}
+#vistas a{font:13.333px Arial,sans-serif;border:1px solid #9fb7cf;background:#fff;border-radius:4px;padding:.2em .8em;
+          color:#222;text-decoration:none}
+#vistas a.on{background:#8e24aa;color:#fff;border-color:#8e24aa;font-weight:600}
+#vistas .nota{color:#555;font:12px Arial,sans-serif}
+iframe{flex:1;border:0;width:100%}
+</style></head><body>
+<div id="vistas"><span>View:</span>
+<a href="index.html" onclick="try{localStorage.setItem('vista','paper')}catch(e){}">📄 Paper</a>
+<a href="index.html" onclick="try{localStorage.setItem('vista','explore')}catch(e){}">🔍 Explore</a>
+<a href="mapa.html">🗺️ Map of the paper</a>
+<a href="pdf.html" class="on">📕 PDF</a>
+<a href="paper.pdf" download>⬇ download</a>
+<span class="nota">The paper as LaTeX typesets it; links on the site open it at the right page.</span></div>
+<iframe id="pdf" title="The paper (PDF)" src="paper.pdf"></iframe>
+<script>
+(function(){
+  function open(){
+    var m = /page=(\d+)/.exec(location.hash);
+    document.getElementById('pdf').src = 'paper.pdf' + (m ? '#page=' + m[1] : '');
+  }
+  window.addEventListener('hashchange', open); open();
+})();
+</script>
+</body></html>

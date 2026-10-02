@@ -6,6 +6,12 @@ Zenodo: [doi:10.5281/zenodo.22847374](https://doi.org/10.5281/zenodo.22847374). 
 **concept DOI** — it always resolves to the current version — and it carries the note in both
 editions, English (19 pp) and Spanish (20 pp).
 
+🗺️ **Blueprint** — [read the paper statement by statement](https://karlesmarin.github.io/schur-orbit-and-reciprocal-pair/weighted-partial-sums/blueprint/):
+every result copied verbatim with its number, what it uses and where it is used, what was checked
+besides the written proof (Lean, programs) and how far, and a one-page map of the whole paper. It
+follows the journal version (13 pp, its own PDF in the blueprint), whose numbering differs from the
+Zenodo edition.
+
 Both PDFs are here too — `segmento_II.pdf` and `segmento_II_es.pdf`, byte for byte the files
 deposited on Zenodo — together with the tool, the scripts behind every number the note calls
 *measured*, their archived output, and the Lean file.
