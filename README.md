@@ -6,8 +6,8 @@ Verification code, **saved output** and the paper itself for
 > Carles Marín
 > [arXiv:2608.09619](https://arxiv.org/abs/2608.09619) · [doi:10.48550/arXiv.2608.09619](https://doi.org/10.48550/arXiv.2608.09619) · `math.CO` (cross-list `math.RT`) · CC BY 4.0
 
-🗺️📚 **[Atlas](https://karlesmarin.github.io/schur-orbit-and-reciprocal-pair/atlas/)** — companion
-sites of the papers in this repository, statement by statement, with a map of each paper.
+📚 **[Blueprints](https://karlesmarin.github.io/blueprints/)** — companion
+sites of our papers, statement by statement, with a map of each paper.
 
 **This repository tracks v3**, announced 24 August 2026. The paper has carried three titles, and the
 arXiv identifier and the DOI are the same on all three; each old title stays on its own version in
