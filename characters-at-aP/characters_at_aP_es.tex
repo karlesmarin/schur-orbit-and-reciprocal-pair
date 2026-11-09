@@ -1,16 +1,12 @@
-% VERSION CASTELLANA DE note2.tex --- SOLO PARA REVISION INTERNA DE CARLES.
-% 25 de agosto de 2026.  Carles Marin + Claude (asistente IA).
+% Version castellana de characters_at_aP.tex (edicion inglesa).  Primera version: 25 de agosto
+% de 2026; version 2: 9 de noviembre de 2026.  Carles Marin, con un asistente de IA.
 %
-% ⚠ ESTA VERSION NO SE ENVIA A NADIE Y NO SE PUBLICA.  Existe para leer el documento entero en
-%   castellano y cazar lo que en ingles se pasa por alto.  Traducir es la mejor revision que hay:
-%   [[translating-finds-what-review-missed]].
-%
-% ⚠ LAS CIFRAS TIENEN QUE SER LAS MISMAS que en note2.tex.  Lo comprueba check_numeros.py, bloque
+% ⚠ LAS CIFRAS TIENEN QUE SER LAS MISMAS que en characters_at_aP.tex.  Lo comprueba check_numeros.py, bloque
 %   N9 (deriva de traduccion): si un numero aparece en una version y no en la otra, falla.
 %
 % Las figuras son las mismas y llevan rotulos en ingles: no se traducen, porque son las que viajan.
 %
-% Compilar:  pdflatex note2_es (x2)
+% Compilar:  pdflatex characters_at_aP_es (x2)
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -82,17 +78,19 @@
 % clausulas estan todas en el resumen, de modo que no se pierde nada.  Igual que en la edicion
 % inglesa, para que la paridad siga siendo exacta.
 \title{\vspace{-1.4cm}\Large Valores enteros de los caracteres en la recta de $\rho$ de $\Sp(2m)$}
-\author{\normalsize Carles Marín}
-\date{\normalsize 8 de septiembre de 2026}
+\author{\normalsize Carles Marín\thanks{\texttt{karlesmarin@gmail.com}.
+Este trabajo se ha realizado con un asistente de IA; el autor comprobó cada enunciado y asume la plena responsabilidad del contenido. Sitio complementario: \url{https://karlesmarin.github.io/blueprints/characters-at-aP/}.}\\[2pt]\small Investigador independiente}
+\date{\normalsize 8 de septiembre de 2026; versión 2, 9 de noviembre de 2026}
 
 \begin{document}
 \maketitle
 \thispagestyle{empty}
 
 \begin{abstract}
-\noindent \textbf{De dónde viene esto.} En 1940 Littlewood observó que un polinomio de Schur
+\noindent \textbf{De dónde viene esto.} En su libro de 1940 Littlewood dejó escrito que un polinomio de Schur
 evaluado en un conjunto completo de raíces de la unidad o se anula o factoriza, y que cuál de las
-dos cosas pasa lo decide un dato puramente combinatorio de la partición que lo indexa. De esa
+dos cosas pasa lo decide un dato puramente combinatorio de la partición que lo indexa; Ayyer y
+Kumari \cite[\S1]{AK25} lo remontan a su trabajo con Richardson de 1934. De esa
 observación salieron dos tradiciones que llevan desde entonces corriendo en paralelo sin llegar a
 encontrarse. Por un lado, la teoría de representaciones pregunta por el valor de un carácter en un
 elemento distinguido del grupo: el artículo de Kostant de 1976 señala dos de esos elementos, $a_Q$ y
@@ -108,7 +106,7 @@ Albion, Kumari. La Figura~\ref{fig:map} dibuja las dos.
 líneas. Esta nota trata del resto de la recta. El paso que se aleja de $a_P$ no es cosmético: allí
 la semisuma $\rho$ es un punto regular del arreglo pertinente, y el argumento que resuelve el
 carácter es un argumento de alcobas que necesita exactamente esa regularidad. En las
-potencias $\rho$ se mete en las paredes, el argumento de alcobas degenera, y los valores --- que
+potencias de orden menor, $a_P^{\,k}$ con $\gcd(k,2m+2)>1$, $\rho$ se mete en las paredes, el argumento de alcobas degenera, y los valores --- que
 eran $0$ y $\pm1$ --- llegan a $72$ una potencia más allá en un grupo de rango tres. Más lejos
 vuelve a ser regular: ninguna raíz positiva de $C_m$ toma un valor por encima de $2\rho_1=2m$,
 así que ningún $q>2m$ divide a una, y la recta tiene tres regímenes y no dos. Qué sustituye
@@ -120,10 +118,10 @@ esa respuesta, es lo que viene abajo.
 \noindent \textbf{Se demuestran tres cosas.} La primera es una \textbf{clasificación}: de
 todos los puntos racionales $g_{1/q}$ de la recta, exactamente cuatro familias tienen la
 propiedad de que \emph{todo} carácter de $\Sp(2m)$ toma allí un valor entero, a saber
-$q\mid 2m$, $q\mid 2m+1$, $q\mid 2m+2$, y un $q=6$ esporádico (Teorema~\ref{thm:clasif}); el
+$q\mid 2m$, $q\mid 2m+1$, $q\mid 2m+2$, y un $q=6$ esporádico con $m\equiv1\pmod3$ (Teorema~\ref{thm:clasif}); el
 argumento es que la integridad obliga al polinomio característico de la representación natural
 a estar en $\mathbb{Z}[X]$, luego el espectro tiene que ser estable bajo el grupo de Galois;
-clasificar los espectros estables es entonces elemental. \textbf{Las potencias de $a_P$ son la familia $q\mid 2m+2$}, y ya
+clasificar los espectros estables es entonces elemental. La necesidad también se deduce del cálculo de cuerpos de Gannon y Schopieray \cite{GS19}. \textbf{Las potencias de $a_P$ son la familia $q\mid 2m+2$}, y ya
 no son la frontera de lo que se puede decir sino un caso de una lista.
 
 \smallskip
@@ -138,18 +136,29 @@ no es regular --- está sobre $r_q$ paredes --- y el argumento de alcobas que re
 degenera justo ahí. La \S\ref{sec:crit} pone los tres uno al lado del otro.
 
 \smallskip
-\noindent La tercera es el valor mismo, en tipo $C$, y está ya completo. Para toda potencia,
+\noindent La tercera es el valor mismo, en tipo $C$ y en las potencias de $a_P$ (los denominadores
+$q\mid 2m+2$), y ahí está ya completo. Para toda potencia,
 \[
 \chi_\lambda(a_P^{\,k})\;=\;(-1)^{E_{p,q}(\lambda)}\,\frac{Z_q(\lambda+\rho)}{Z_q(\rho)}
 \]
 sobre los pesos supervivientes y $0$ fuera (Teorema~\ref{thm:signo}), con $Z_q$ un producto de
-estadísticos de raíces y $E_{p,q}$ una suma de pisos; y ese módulo factoriza como producto de
+estadísticos de raíces y $E_{p,q}$ una suma de pisos --- equivalentemente, un recuento de tres
+indicadores sobre los residuos de $\ell$ tomados en orden; y ese módulo factoriza como $\kappa(\lambda)\in\{1,2\}$ por un producto de
 \textbf{dimensiones de representaciones irreducibles de $GL_n$, $Sp_{2n}$ y $SO_{2n+1}$}, una por
 clase plegada (Teorema~\ref{thm:dims}) --- los tres tipos que Lecouvey \cite{Lec07a} ya lee en las
-clases plegadas del alfabeto \emph{completo}, y que aquí sobreviven al borrado de las dos letras. De ahí salen dos recuentos cerrados de los pesos
-supervivientes (\S\ref{sec:cuenta}), y $G_2$ queda en forma cerrada en $q=3$ (\S\ref{sec:g2}). Lo
-que queda abierto está en la \S\ref{sec:preguntas}, y ya no es el valor.
+clases plegadas del alfabeto \emph{completo}, y que aquí sobreviven al borrado de las dos letras. De ahí sale un recuento cerrado de los pesos
+supervivientes para \emph{todo} $q$ (Teorema~\ref{thm:cuenta}), y $G_2$ queda en forma cerrada en $q=3$
+(\S\ref{sec:g2}). Nada de lo anterior descansa en una medida: el único paso que lo hacía, la
+trivialidad del factor no nulo, es la Proposición~\ref{prop:res}. Lo que queda abierto está en la
+\S\ref{sec:preguntas}, y ya no es el valor en las potencias de $a_P$; en las otras tres familias
+del Teorema~\ref{thm:clasif} el valor necesita un corrector, que está medido pero no demostrado.
+En Lean~4 con Mathlib, con el alcance de la Formalización: los enunciados de tipo $C_m$ sobre
+$F_x$ y $Q$, la clasificación espectral del Teorema~\ref{thm:clasif} y el resto de esa lista.
+Fuera: la identificación con el carácter (Weyl), la equivalencia de la \S\ref{sec:clasif}, que las
+$\nu^{(c)}$ sean particiones y el paso de $\lambda$ dominante a $\ell$.
 \end{abstract}
+
+\noindent\textbf{Sitio complementario.} \url{https://karlesmarin.github.io/blueprints/characters-at-aP/}: cada enunciado con sus dependencias y sus comprobaciones, y dos laboratorios en el navegador.
 
 \begin{center}\small
 \emph{Clasificación por materias de 2020.}\;
@@ -176,13 +185,19 @@ exactamente cuando sale igual.
 \smallskip
 \textbf{Qué es nuevo aquí y qué no.} \emph{En $a_P$ mismo, nada.} El recuento y el signo ahí son el
 Corolario~3.2 de \cite{CMP06}, en todo tipo y en esta misma recta; leído en \emph{corraíces} el
-recuento es el Corolario~3.7 de \cite{NPP25}; la especialización principal sobre la que corre el
-argumento es clásica; y con $q=2$ la factorización en dimensiones es el Teorema~5.1 de \cite{Kar24}.
-Lo que se hace aquí son las \emph{potencias}: identificar el alfabeto de $a_P^{\,k}$ con el alfabeto
-del Teorema~2 de \cite{Prasad16b} plegado y menos dos letras --- que resulta ser la condición, y no
-sólo una descripción ---; llevar el recuento a las potencias, donde $\rho$ ya no es regular; y, en
-tipo $C$, evaluar el carácter exacto --- signo incluido ---, factorizarlo en dimensiones con
-$q\ge3$, y contar los supervivientes en forma cerrada. La tabla de la p.~\pageref{tab:attrib} dice
+recuento es el Corolario~3.7 de \cite{NPP25}, y cuando $q$ es primo con la razón $r$ de las
+longitudes al cuadrado de las raíces --- todo $q$ impar en tipo $C$ --- es el mismo recuento, raíz
+a raíz; la especialización principal sobre la que corre el argumento es clásica; con $q=2$ la
+factorización en dimensiones tiene la forma en dos bloques del Teorema~5.1 de \cite{Kar24}; y en
+$G_2$ el caso $q=2$ es la Proposición~2 de \cite{Kar24}. Lo que se hace aquí son las
+\emph{potencias}: identificar el alfabeto de $a_P^{\,k}$ con el alfabeto del Teorema~2 de
+\cite{Prasad16b} plegado y menos dos letras --- que resulta ser la condición, y no sólo una
+descripción ---; llevar el recuento a las potencias de orden menor, donde $\rho$ ya no es regular,
+y leerlo en el carácter de la recta de $\rho$ mediante \eqref{eq:ps}; y, en tipo $C$ y en las
+potencias de $a_P$, evaluar el carácter exacto --- signo incluido ---, factorizarlo en dimensiones
+con $q\ge3$, y contar los supervivientes en forma cerrada. La necesidad en la clasificación de la
+\S\ref{sec:clasif} se deduce también de Gannon--Schopieray \cite{GS19}, Lema~4.6. Qué está en
+Lean~4 y qué queda fuera lo dice la Formalización. La tabla de la p.~\pageref{tab:attrib} dice
 cuál es cuál, línea por línea.
 \end{keybox}
 
@@ -203,7 +218,8 @@ lo llevan a los grupos simétrico e hiperoctaédrico, y la línea llega en 2025 
 \cite{Polo25}.
 
 Léase la línea de abajo y el objeto es una partición y sus núcleos. Empieza antes --- Littlewood
-\cite{Li40}, 1940 --- y desde entonces camina al lado: Adin--Frumkin \cite{AF02} en 2002, Pétréolle
+\cite{Li40}, 1940, y antes del libro su trabajo con Richardson de 1934, al que lo remontan
+Ayyer--Kumari \cite[\S1]{AK25} --- y desde entonces camina al lado: Adin--Frumkin \cite{AF02} en 2002, Pétréolle
 \cite{Petreolle15} y Wahiche \cite{Wahiche23} con la identidad de Macdonald de tipo $\widetilde C$,
 Ayyer--Kumari \cite{AK22} y Albion \cite{Alb23} con los caracteres torcidos por raíces de la unidad,
 Kumari \cite{Kum24} otra vez en 2024. Mis dos artículos \cite{OP1,OP2} son de ese lado.
@@ -227,7 +243,7 @@ alfabeto de abajo.
 \textbf{El nodo que hay que leer primero es el de 2006.} El Corolario~3.2 de \cite{CMP06} ya es el
 criterio de anulación \emph{y} el signo, en todo tipo, y en el estadístico de \emph{raíces} --- esta
 recta, no la de corraíces. Todo lo que esta nota tiene que añadir empieza un paso más allá: en las
-potencias $a_P^{\,k}$, donde $\rho$ deja de ser regular. En el estadístico de corraíces el criterio
+potencias $a_P^{\,k}$ con $\gcd(k,2m+2)>1$, donde $\rho$ deja de ser regular. En el estadístico de corraíces el criterio
 es el Corolario~3.7 de \cite{NPP25}, para todo entero.
 La arista de puntos es el cruce de 2002: el título de Adin--Frumkin es \emph{Rim hook tableaux and
 Kostant's $\eta$-function coefficients}, un artículo combinatorio que toma sus coeficientes del de
@@ -304,8 +320,11 @@ Weyl convierte el miembro derecho en
 $z^{(\rho,\ell)}\prod_{\alpha>0}(1-z^{-(\ell,\alpha)})$; y dividiendo por el mismo cálculo en
 $\ell=\rho$ sale \eqref{eq:ps}. Lo único que cambia respecto de la forma habitual es en cuál de las
 dos rectas se está --- que es precisamente el eje que separa a los dos elementos de Kostant.
-\emph{Comprobada contra el bialternante en la recta de $\rho$ para $m=2,3,4$ hasta $10^{-12}$.}
-\ver{revision\_47\_verificacion.py}
+\emph{Comprobada contra el bialternante en la recta de $\rho$ para $m=2,3,4$, exactamente, como
+identidad de polinomios de Laurent en $85$ pesos (certificado C1); con el estadístico de corraíces
+en su lugar la identidad sólo se cumple en $\lambda=0$, $3$ de $85$. Es una comprobación finita de
+\eqref{eq:ps} en esos pesos; el enunciado general es la deducción de arriba.}
+\ver{revision\_47\_verificacion.py, certificar\_exacto.py}
 
 \subsection*{El recuento}
 
@@ -323,7 +342,7 @@ Entonces $N_q(\ell)\ge r_q$ para todo $\lambda$, y
 \begin{proof}
 Cada factor $1-z^{r}$ de \eqref{eq:ps} tiene un cero simple en una raíz primitiva $q$-ésima de la
 unidad exactamente cuando $q\mid r$, así que en $z=e^{2\pi ip/q}$ el numerador se anula a orden
-$N_q(\lambda)$ y el denominador a orden $r_q$. Un carácter no tiene polos, luego el primer orden es
+$N_q(\ell)$ y el denominador a orden $r_q$. Un carácter no tiene polos, luego el primer orden es
 al menos el segundo; y el límite es no nulo exactamente cuando coinciden.
 \end{proof}
 
@@ -353,21 +372,28 @@ dual, y atribuye la minimalidad a Serre.
 \textbf{Así que la diferencia es el estadístico, y por tanto el elemento.} El
 Teorema~\ref{thm:crit} es el recuento sobre $(\,\cdot\,,\alpha)$ --- la recta de $\rho$, donde vive
 $a_P$ --- y el suyo es el recuento sobre $\langle\,\cdot\,,\alpha^\vee\rangle$ --- la recta de
-$\rho^\vee$, donde vive el elemento de Coxeter. \textbf{En los tipos simplemente enlazados los dos
-enunciados coinciden} bajo la normalización de la \S\ref{sec:norm}, y allí el
-Teorema~\ref{thm:crit} es suyo. Se separan exactamente en los no simplemente enlazados, que es
-exactamente donde se separan $a_P$ y $a_Q$, y ése es el caso del que trata esta nota.
+$\rho^\vee$, donde vive el elemento de Coxeter. \textbf{Los dos recuentos coinciden mucho más allá
+de los tipos simplemente enlazados.} Sea $r$ la razón de las longitudes al cuadrado de las raíces
+largas y cortas. Con la normalización de la \S\ref{sec:norm},
+$(x,\alpha)=d_\alpha\langle x,\alpha^\vee\rangle$ con $d_\alpha\in\{1,r\}$, así que cuando
+$\gcd(q,r)=1$ las raíces con $q\mid(x,\alpha)$ y las raíces con $q\mid\langle x,\alpha^\vee\rangle$
+son las mismas, tanto para $x=\rho$ como para $x=\lambda+\rho$ (Observación~\ref{obs:types}). Eso
+cubre los tipos simplemente enlazados y, en tipo $C$, todo $q$ impar, potencias de primo incluidas;
+allí el recuento del Teorema~\ref{thm:crit} es suyo, y lo que añade esta nota es su lectura en el
+carácter de la recta de $\rho$, mediante \eqref{eq:ps}. Los dos recuentos sólo pueden separarse
+cuando $\gcd(q,r)>1$ --- en tipo $C$, con $q$ par, lo que incluye a $a_P$ mismo, porque $2m+2$ es
+par.
 \end{keybox}
 
 \noindent Lo que queda, entonces, y es el resto de la nota: la identificación del alfabeto
 (\S\ref{sec:alph}), la traducción a capacidades en tipo $C$ (\S\ref{sec:cap}), el valor exacto con su
 signo (\S\ref{sec:valor}), el módulo y su lema (\S\ref{sec:modulo}), la factorización en
-dimensiones (\S\ref{sec:dims}), los recuentos
+dimensiones (\S\ref{sec:dims}), el recuento
 (\S\ref{sec:cuenta}) y $G_2$ (\S\ref{sec:g2}).
 
 \section{Por qué las dos tablas se parecen: el alfabeto}\label{sec:alph}
 
-\noindent\emph{Dos tablas escritas en dos literaturas que no se citan tienen la misma forma. ¿Es un parecido, o hablan del mismo objeto?}
+\noindent\emph{Dos tablas escritas en dos literaturas que rara vez se citan --- la Figura~\ref{fig:map} recoge dónde lo hacen --- tienen la misma forma. ¿Es un parecido, o hablan del mismo objeto?}
 
 Se parecen porque los alfabetos son el mismo objeto. Éste es el único sitio donde puedo sustituir el
 parecido por una identidad, y es elemental.
@@ -401,6 +427,13 @@ en caracteres de grupos clásicos menores. Su multiplicidad es por tanto siempre
 borrado. Así que el
 alfabeto grande está hecho a los dos lados del mapa; lo que no está hecho son los dos puntos.
 
+\noindent Algunos miembros de la familia con borrado son, aun así, especializaciones de resultados
+citados. Con $q=4$ y $d=2n+1$ el alfabeto es $(2n+1)\,\mu_4-\{1\}-\{-1\}=2n\,\mu_4+\{i,-i\}$, que es
+el alfabeto del Teorema~2.8 de Kumari \cite{Kum24} con $t=4$, $x_j=1$, $y=i$; y con $q=2$ el
+elemento tiene orden dos y cae bajo Karmakar \cite{Kar24}. Lo que añade el enunciado uniforme son
+los dos borrados para todo $d$ y $q$ a la vez y, en la \S\ref{sec:dims}, la fórmula por clases
+plegadas. \ver{comprobar\_v253.py}
+
 Dos consecuencias, y la primera es el diccionario.
 
 \begin{keybox}
@@ -412,8 +445,8 @@ puntos fijos de $w\mapsto w^{-1}$ --- una copia de cada uno de los dos si $d$ es
 del único $w=1$ si $d$ es par.
 \end{keybox}
 
-\noindent Eso deja resueltas las tres primeras filas de la tabla de la página~1, y dice exactamente
-de dónde sale la fila naranja: la diferencia entre los dos criterios es la diferencia entre los dos
+\noindent Ése es el contenido de la Proposición~\ref{prop:alph}, y dice exactamente
+de dónde sale la diferencia entre los dos marcos: la diferencia entre los dos criterios es la diferencia entre los dos
 alfabetos, que son dos puntos. Lo que \emph{no} hace es calcular el efecto de quitarlos --- borrar
 dos letras es un problema de eliminación --- una ramificación simpléctica en sentido literal sólo
 si $d$ es par, por la razón que da la segunda ficha de abajo --- y no lo he llevado a cabo --- pero resultó no hacer falta para la
@@ -457,7 +490,7 @@ generatriz como un solo factor, así que al nivel de los $h_n$ es una diferencia
 \[
 h^{A} = (1-S)^2\,h' \quad (d \text{ par}), \qquad h^{A} = (1-S^2)\,h' \quad (d \text{ impar}),
 \]
-donde $h'_n=\mathbf{1}_{q\mid n}\binom{n/q+d-1}{d-1}$ son los suyos --- el indicador importa, porque $h'_n=0$ salvo que $q\mid n$ --- y $S$ es el desplazamiento. De modo que el hueco
+donde $h'_n=\mathbf{1}_{q\mid n}\binom{n/q+d-1}{d-1}$ son los de \cite{Prasad16b} --- el indicador importa, porque $h'_n=0$ salvo que $q\mid n$ --- y $S$ es el desplazamiento. De modo que el hueco
 entre esta nota y una derivación es exactamente una pregunta: \emph{¿qué le hace una diferencia
 segunda de la sucesión $h$ al determinante de Jacobi--Trudi?} La tomé por una obstrucción, y no lo
 es: sale como un producto de operadores de una variable, en dos líneas, y la \S\ref{sec:cierre} lo
@@ -505,7 +538,7 @@ $g_{1/q}$ tienen el mismo espectro y son conjugados en $\Sp(2m)$; los valores de
 entonces enteros algebraicos fijos por el grupo de Galois de $\mathbb{Q}(\xi_q)$, o sea enteros
 racionales.
 
-Lo que queda es elemental. Escríbase $m=uq+v$ con $0\le v<q$ y $a=\lfloor(q-1)/2\rfloor$. El
+Lo que queda es elemental. Para $q=1$ el elemento es la identidad y todo valor es una dimensión; sea $q\ge2$. Escríbase $m=uq+v$ con $0\le v<q$ y $a=\lfloor(q-1)/2\rfloor$. El
 espectro de la natural es $\{\xi_q^{\pm j}: j=1,\dots,m\}$, que como multiconjunto de $\mu_q$ es
 \[
 2u\cdot\mu_q \;+\;\{\pm1,\dots,\pm v\} ,
@@ -513,7 +546,7 @@ espectro de la natural es $\{\xi_q^{\pm j}: j=1,\dots,m\}$, que como multiconjun
 y el primer sumando ya es estable por sí solo. Así que la pregunta es cuándo lo es el segmento
 $\{\pm1,\dots,\pm v\}$, y eso es una cuestión de residuos y de nada más. La suficiencia es
 inmediata para $v=0$, $v=a$, $v=q-1$ y, con $q$ par, $v=q/2$: cada uno de esos segmentos va a sí
-mismo por todo $\xi_q\mapsto\xi_q^{\,p}$. La necesidad es el paso que hay que argumentar.
+mismo por todo $\xi_q\mapsto\xi_q^{\,p}$. Para $q=6$, las únicas unidades módulo $6$ son $\pm1$, por lo que el espectro, con sus multiplicidades recíprocas, es estable por Galois para todo $m$. La necesidad es el paso que hay que argumentar.
 
 Escribamos $A_v=\sum_{j=1}^{v}(\xi_q^{\,j}+\xi_q^{-j})$. Si el segmento es estable, $A_v$ queda
 fijo por todo el grupo; sólo se usa esa dirección, y se usa por contrarrecíproco. Una vuelta completa suma cero, luego
@@ -540,11 +573,20 @@ segmentos $(q,v)=(6,1)$ y $(6,4)$. Traducir los residuos que sobreviven a divisi
 cuatro condiciones.
 \end{proof}
 
+\noindent\emph{Antecedente del paso clave.} Gannon y Schopieray \cite{GS19}, Lema~4.6 de la versión de arXiv, determinan el cuerpo generado por $[r]_q=\sin(r\pi/q)/\sin(\pi/q)$ para $0<r<q$. Su lema da otra demostración de la necesidad en el Teorema~\ref{thm:clasif}. El caso $q=1$ da la identidad. Para $q\ge2$, escribamos $2m+1=hq+r$, con $0\le r<q$. Entonces $1+\operatorname{tr}_{\mathrm{nat}}(g_{1/q})=[2m+1]_q=(-1)^h[r]_q$. Los restos $r=0,1,q-1$ dan, respectivamente, $q\mid 2m+1$, $q\mid 2m$, $q\mid 2m+2$. Para $1<r<q-1$, el único caso racional de la fórmula de cuerpos es $q=6$, $r=3$, donde $[3]_6=2$. Es exactamente el caso adicional $q=6$, $m\equiv1\pmod3$. Conservamos la demostración elemental anterior para que el argumento sea autocontenido. Esta referencia se añadió en la segunda versión.
+
 \noindent \emph{Medido sobre $\mathbf{11\,800}$ pares $(m,q)$ con $q\le60$ y $m\le200$: la condición
-de divisibilidad y la estabilidad de Galois del espectro coinciden sin excepción. Y sobre los $44$
-pares con $m\le5$, $q\le12$ la misma coincidencia se da contra los caracteres mismos, calculados a
-$40$ dígitos como límite de la forma con senos y contrastada su integridad --- de modo que la cadena
-que va de la aritmética a los valores queda comprobada en sus dos junturas.} \ver{galois.py}
+\href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Aclasif\#thm:clasif}{de divisibilidad y la estabilidad de Galois del espectro coinciden sin excepción}. Y sobre los $44$
+pares con $m\le5$, $q\le12$ la misma coincidencia se da contra los caracteres mismos --- de modo
+que la cadena que va de la aritmética a los valores queda comprobada en sus dos junturas. Esa
+segunda comprobación se hizo dos veces: primero en coma flotante, con los caracteres calculados a
+$40$ dígitos como límite de la forma con senos y contrastada su integridad
+\textup{(}\texttt{galois.py}\textup{)}; y después exactamente, como certificado C2: $455$ caracteres
+($m=2,\dots,5$, $\lambda_1\le5$), cada uno obtenido como polinomio de Laurent por división exacta y
+reducido en $\mathbb{Z}[\xi_q]$, son todos enteros exactamente en los pares de las cuatro familias,
+$44$ de $44$, mientras que la condición sin su cláusula $q=6$ discrepa en un par
+\textup{(}\texttt{certificar\_exacto.py}\textup{)}. Las dos son comprobaciones finitas; la
+demostración es el argumento de arriba.} \ver{galois.py, certificar\_exacto.py}
 
 \begin{keybox}
 \textbf{Las potencias de $a_P$ son la tercera familia.} $q\mid 2m+2$ es exactamente la condición
@@ -575,7 +617,7 @@ El Teorema~\ref{thm:crit} es un enunciado sobre un sistema de raíces. En las co
 $C$ se vuelve una regla sobre cubos, y esa traducción es lo que hace calculable todo lo que sigue.
 
 
-\noindent\textbf{(iv) Lo mismo en las coordenadas del tipo $C$.} En $C_m$ las raíces positivas son $e_i-e_j$,
+\noindent\textbf{Lo mismo en las coordenadas del tipo $C$.} En $C_m$ las raíces positivas son $e_i-e_j$,
 $e_i+e_j$ y $2e_i$, luego agrupando los $\ell_i$ en clases plegadas de ocupación $n_c$,
 \[
 N_q(\ell)=\sum_{c\ \text{no fija}}\binom{n_c}{2}\;+\;\sum_{f\ \text{fija}}n_f^{\,2},
@@ -588,7 +630,7 @@ cuentan. Si $d$ es impar hay exactamente $m$ de esas plazas, así que alcanzar e
 a ocuparlas todas, y cualquier desbordamiento cambia una plaza de coste $<d$ por otra de coste
 $\ge d$. Si $d$ es par hay exactamente $m+1$; toda última plaza admisible cuesta $d-1$, así que
 omitir cualquiera de ellas da el mismo mínimo, mientras que pasarse de una capacidad vuelve a costar
-estrictamente más. Así que $N_q(\lambda)=r_q$ si y sólo si no se rebasa ninguna capacidad, y con el
+estrictamente más. Así que $N_q(\ell)=r_q$ si y sólo si no se rebasa ninguna capacidad, y con el
 Teorema~\ref{thm:crit} eso es:
 
 \begin{corollary}[capacidad, tipo $C$]\label{conj:cap}
@@ -596,7 +638,7 @@ $\chi_\lambda(a_P^k)\neq0$ si y sólo si cada clase plegada módulo $q$ recibe a
 $\ell_i$, y a lo sumo $\lfloor d/2\rfloor$ si la clase es fija.
 \end{corollary}
 
-\noindent Ésa es la regla que había medido, y la fila naranja de la tabla de la página 1.
+\noindent Ésa es la regla que había medido.
 \emph{El Teorema~\ref{thm:crit} y el Corolario~\ref{conj:cap} se comprobaron los dos contra el
 evaluador exacto en las mismas $31$ combinaciones: $100\%$ en todas.}
 \ver{revision\_47\_verificacion.py}
@@ -626,8 +668,7 @@ Cuando $d$ es \textbf{impar} la capacidad se satura exactamente, «a lo sumo» y
 mismo, y el criterio \emph{es} la igualdad de \cite{Prasad16b}. Cuando $d$ es \textbf{par} sobra
 exactamente una unidad. Y sobra entera de las clases fijas, que llevan $\lfloor d/2\rfloor$ en vez de
 $d$. Así que la desigualdad no es un debilitamiento de ese enunciado: es ese enunciado con exactamente una unidad de
-holgura, y la holgura existe porque el plegado tiene puntos fijos siquiera. Los
-puntos fijos existen porque el plegado es una involución.
+holgura, y la holgura existe porque el plegado tiene puntos fijos siquiera.
 \end{keybox}
 
 \noindent La Figura~\ref{fig:capacity} dibuja los dos casos. Comprobado en forma cerrada
@@ -640,7 +681,9 @@ $1\le k\le39$ y $q\ge3$. \ver{prasad2016\_vs\_nuestro.py, \S W}
 \caption{La Proposición~\ref{prop:slack}, dibujada. Izquierda, tipo $A$: las cajas se llenan exactas.
 Derecha, tipo $C$ en $a_P^2$ dentro de $\Sp(10)$: las dos clases con asterisco son los puntos fijos
 de la involución y llevan media capacidad, así que cinco filas van a seis cajas y una tiene que
-quedarse vacía. Cuál se queda vacía no lo determina $\lambda$ de ninguna manera que yo vea.}
+quedarse vacía. Cuál \emph{sí} lo determina $\lambda$: es la única clase cuya ocupación queda una
+por debajo de su capacidad, y eso es lo que hace que la $\kappa$ del Teorema~\ref{thm:dims} esté
+bien definida.}
 \label{fig:capacity}
 \end{figure}
 
@@ -683,7 +726,10 @@ $\operatorname{sgn}\sin(\pi pA/q)=(-1)^{\lfloor pA/q\rfloor}$; y para $q\mid A$,
 $\theta=p/q+\varepsilon$, $\sin(\pi A\theta)=(-1)^{pA/q}\pi A\varepsilon+O(\varepsilon^3)$. Cuando
 los órdenes de anulación coinciden --- que es \eqref{eq:crit} --- las potencias de $\varepsilon$ y
 los factores $\pi$ se cancelan, cada factor que se anula deja su propio exponente, y todo factor deja
-su signo. Recogiéndolos sale $(-1)^{E_{p,q}(\lambda)}$ y el cociente $Z_q(\ell)/Z_q(\rho)$.
+su signo. Recogiendo los signos sale $(-1)^{E_{p,q}(\lambda)}$, y los factores que se anulan dejan el
+cociente $Z_q(\ell)/Z_q(\rho)$. Lo que la forma con senos no da por sí sola es que los factores que
+no se anulan no aportan nada al módulo: eso es el Lema~\ref{lem:unit}, demostrado en tipo $C$
+mediante la Proposición~\ref{prop:res} y (B) en la \S\ref{sec:res}.
 \end{proof}
 
 \noindent \emph{Esta derivación del signo no usa el tipo}, una vez fijada la normalización de la
@@ -714,7 +760,7 @@ Entonces, en los pesos supervivientes,
 =(-1)^{\,F_q(\ell\bmod q)-F_q(\rho\bmod q)}\;}
 \]
 \emph{Comprobado en los $\mathbf{11\,972}$ pesos supervivientes, $m=2,\dots,7$, toda potencia: sin
-excepción.} \ver{referee2.py} La Figura~\ref{fig:value} enseña qué aspecto tiene esa alternancia. En
+excepción.} \ver{referee2.py} La Figura~\ref{fig:value} enseña \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Asigno\#thm:signo}{qué aspecto tiene esa alternancia}. En
 particular el signo es periódico módulo $qP$, porque
 $E_{p,q}(\lambda+q\gamma)-E_{p,q}(\lambda)=2p(\gamma,\rho)$ es par. Ése es el sentido preciso en que
 las ocupaciones de las clases plegadas no bastan y los cocientes completos no hacen falta:
@@ -751,7 +797,8 @@ duro. Sólo el módulo: $18\,904$ de $18\,904$. Sólo el signo: $18\,904$ de $18
 \ver{signo\_Fq.py}
 \end{keybox}
 
-\noindent \textbf{El signo no se simplifica más, y conviene decir hasta dónde se empujó.}
+\noindent \textbf{El signo no se simplifica más en ninguna de las formas ensayadas aquí, y conviene
+decir hasta dónde se empujó.}
 Escribiendo $(x,\alpha)=q\lfloor(x,\alpha)/q\rfloor+\bigl((x,\alpha)\bmod q\bigr)$ y usando
 $\sum_{\alpha>0}(x,\alpha)=2(x,\rho)$, $E_{p,q}$ se convierte en $2p(\lambda,\rho)/q$ corregido por
 los residuos; y la afirmación (B) de más abajo dice que los residuos de $\ell$ y los de $\rho$
@@ -854,11 +901,15 @@ que no depende de $s$. Luego tampoco depende $(B_sD_s)^2=C_sD_s$, ni por tanto $
 $A_s$ eso da $M_s=M_0$.
 \end{proof}
 
-\noindent \emph{Cada paso de ese argumento se comprobó para $q=3,\dots,11$ y todo $s$, hasta
-$3\cdot10^{-15}$ --- junto con un señuelo: el mismo producto leído como número complejo, sin los
-valores absolutos, sí depende de $s$ en $6$ de $6$ casos, y por eso el enunciado es de módulos. Para
+\noindent \emph{Dos comprobaciones, de clases distintas. Los pasos intermedios de ese argumento se
+comprobaron en coma flotante, para $q=3,\dots,11$ y todo $s$, hasta $3\cdot10^{-15}$. Lo que está
+certificado exactamente (certificado C3) es sólo la conclusión: $M_s^2=\prod_w(2-w-w^{-1})$, con $w$
+recorriendo los factores no nulos, calculado en $\mathbb{Z}[\xi_q]$ para $q=3,\dots,15$ y todo $s$,
+es un entero racional que no depende de $s$ --- junto con un señuelo: el mismo producto leído como
+número complejo, sin los valores absolutos, sí depende de $s$ en cada uno de los $13$ valores de
+$q$, y por eso el enunciado es de módulos. Para
 el registro, $D=q$ con $q$ impar y $(q/2)^2$ con $q$ par, aunque la independencia no necesita ese
-valor.} \ver{revision\_49\_prueba\_Ms.py}
+valor.} \ver{revision\_49\_prueba\_Ms.py, certificar\_exacto.py}
 
 \begin{theorem}[el valor absoluto, todo $k$ --- salvo el Lema~\ref{lem:unit}]\label{thm:valgen}
 Sea $\ell=\lambda+\rho$ y supóngase $\chi_\lambda(a_P^k)\neq0$. Entonces
@@ -894,8 +945,9 @@ El factor $U$ de \eqref{eq:split} tiene módulo $1$.
 
 \noindent \textbf{En $d=2$ este lema es la Proposición~\ref{prop:Ms}}, y allí todo $(\rho,\alpha)$
 que se anula vale $q$, así que el denominador del Teorema~\ref{thm:valgen} es $q^{\,r_q}$ y el
-enunciado se vuelve el Teorema~\ref{conj:val} en las coordenadas del tipo $C$. Para $d\ge3$ no lo he
-demostrado, y quiero ser exacto en lo que eso deja: \emph{el valor ya no es un límite que evaluar. Es
+enunciado se vuelve el Teorema~\ref{conj:val} en las coordenadas del tipo $C$. Para $d\ge3$ la demostración,
+en tipo $C$, está en la \S\ref{sec:res} (Proposición~\ref{prop:res} y (B)); antes de ella, conviene
+ser exacto en lo que es el lema: \emph{el valor ya no es un límite que evaluar. Es
 una afirmación finita sobre raíces de la unidad} --- que dos productos explícitos de
 $1-\xi_q^{\,r}$ tienen el mismo módulo --- \emph{sin ningún carácter, ninguna restricción y ninguna
 teoría de representaciones dentro.}
@@ -1031,7 +1083,8 @@ nula es $M_0$. La Proposición~\ref{prop:Ms} dice entonces que numerador y denom
 mismo módulo fuera de los factores que se anulan, y como $|z^{-(\lambda,\rho)}|=1$, eso cierra el
 valor absoluto en $d=2$. \textbf{Las dos cosas que este párrafo dejaba abiertas están resueltas
 arriba}: el signo por el Teorema~\ref{thm:signo}, y $d\ge3$ por el Teorema~\ref{thm:valgen}
-junto con la ficha de abajo, que demuestra el Lema~\ref{lem:unit} en tipo $C$.
+junto con la Proposición~\ref{prop:res} y (B) en esta sección, que demuestran el
+Lema~\ref{lem:unit} en tipo $C$.
 
 Lo enuncio en coordenadas porque es la forma que da la demostración, y porque la más
 elegante no
@@ -1248,7 +1301,7 @@ $\kappa$ registra cuál.
 la clase $0$ --- y $SO_{2n+1}$ en la clase $q/2$. Ortogonal impar contra simpléctico es el par dual
 de Langlands, y los dos recuentos de \cite{NPP25} se leen allí como dimensiones de centralizadores
 en el grupo \emph{dual}. Es un indicio fuerte de a qué grupo pertenecen estas dimensiones, y es lo
-que hace que la primera pregunta de la \S\ref{sec:preguntas} merezca la pena en vez de estar
+que hace que la segunda pregunta de la \S\ref{sec:preguntas} merezca la pena en vez de estar
 meramente abierta.
 
 \smallskip
@@ -1389,7 +1442,7 @@ exactamente lo que el Teorema~\ref{thm:cuenta} hace explícito.
 \section{Una prueba fuera del tipo $C$: $G_2$}\label{sec:g2}
 
 La regla de capacidades está escrita en las coordenadas del tipo $C$, así que la pregunta honesta
-es qué sobrevive fuera de ellas. Quería dejarla abierta, y al escribir esto la probé en su lugar., y mientras escribía esto la medí. El
+es qué sobrevive fuera de ellas. Quería dejarla abierta, y mientras escribía esto la probé. El
 razonamiento era: una clase fija lleva $\lfloor d/2\rfloor$ porque el plegado es una involución, así
 que en $G_2$, donde $r=3$, debería llevar $\lfloor d/3\rfloor$. Construí el evaluador que faltaba ---
 multiplicidades de Freudenthal en $G_2$, contrastadas contra la fórmula de dimensiones de Weyl, y
@@ -1408,7 +1461,7 @@ salen de $\{0,\pm1\}$ con holgura: con $k=4$ llegan a $343$.
 \end{keybox}
 
 \noindent En coordenadas: con $\lambda=a\omega_1+b\omega_2$, $u=a+1$ y $v=3(b+1)$, los seis valores
-$(\lambda+\rho,\alpha)$ son $u,\;v,\;u+v,\;2u+v,\;3u+v,\;3u+2v$. Luego $N_q(\lambda)$ cuenta cuántos
+$(\lambda+\rho,\alpha)$ son $u,\;v,\;u+v,\;2u+v,\;3u+v,\;3u+2v$. Luego $N_q(\ell)$ cuenta cuántos
 de esos seis son divisibles por $q$, y $r_q$ es la misma cuenta sobre $1,3,4,5,6,9$. Aquí $t=12$ y
 $q=12/\gcd(k,12)$, y dos valores de $q$ colapsan --- para \emph{todo} peso dominante, no para los
 que me tocó correr:
@@ -1434,6 +1487,16 @@ contra tres congruencias alteradas como señuelo, que fallan las tres.}
 Freudenthal --- que es el control de que el criterio es el bueno, no la prueba --- $49$ de $49$
 pesos dominantes en cada $k=1,\dots,6$, sobre $0\le a,b\le6$.} \ver{revision\_47\_G2.py}
 
+\noindent \emph{Antecedentes.} El caso $q=2$ está impreso. $G_2$ tiene una sola clase de
+conjugación de elementos de orden dos, y la Proposición~2 de Karmakar \cite{Kar24}, que él atribuye
+también a Reeder, da allí el carácter: cero exactamente cuando los dos coeficientes son impares, y
+un valor explícito en otro caso. Lo que se añade aquí en $q=2$ es sólo la deducción desde el
+recuento. Para $q=3$ hay también una vía anterior. El elemento $a_P^{\,4}$ es trivial en las tres
+raíces largas positivas (\S\ref{sec:types}), así que es un elemento central de orden tres del
+$\SL_3$ de raíces largas, y la identidad de Fulton y Harris reproducida como Proposición~1 de
+\cite{Kar24} evalúa allí el carácter; coincide con la forma cerrada de la ficha de abajo en los
+$49$ pesos con $a,b\le6$. \ver{comprobar\_v253.py}
+
 \noindent Eso no dice que $G_2$ no tenga teoría, sino que mi predicción estaba mal planteada.
 «Clase fija» presupone las coordenadas $e_i$ y la involución sobre residuos que el tipo $C$ tiene;
 $G_2$ no tiene ni una cosa ni otra, así que $\lfloor d/r\rfloor$ era una conjetura vestida de
@@ -1446,7 +1509,7 @@ c_q(\lambda):Q\longrightarrow\mathbb{Z}/q,\qquad \alpha\longmapsto(\lambda+\rho,
 tomada salvo $W$ --- un elemento de $\operatorname{Hom}(Q,\mathbb{Z}/q)/W$. En $C_m$, escrita sobre
 $e_i-e_j,\ e_i+e_j,\ 2e_i$, ese dato se descompone justo en las cubetas plegadas $x\sim-x$. En $G_2$
 es el punto $(u,v)$ y su incidencia con las seis paredes de raíz $u=0$, $v=0$, $u+v=0$, $2u+v=0$,
-$3u+v=0$, $3u+2v=0$ módulo $q$; y $N_q(\lambda)$ cuenta a cuántas pertenece. Así que la noción
+$3u+v=0$, $3u+2v=0$ módulo $q$; y $N_q(\ell)$ cuenta a cuántas pertenece. Así que la noción
 general es un punto de rango dos y un arreglo, no una cubeta unidimensional.
 \ver{G2\_caracteres.py}
 
@@ -1547,25 +1610,30 @@ transpuesta de mi lado.
 \begin{itemize}\itemsep2pt
 \item \textbf{La máquina no es mía.} La ecuación \eqref{eq:ps} es la especialización principal
 clásica; lo único que hice fue leerla en la recta de $\rho$, que es donde vive el segundo elemento de
-Kostant. Lo que se añade aquí es el conteo de ceros \eqref{eq:crit}, la clasificación de los
-denominadores en los que los valores son enteros (Teorema~\ref{thm:clasif}), y la combinatoria
+Kostant. Lo que se añade aquí es el conteo de ceros \eqref{eq:crit} en las potencias, y en el estadístico de raíces, la formulación del criterio de denominadores en la recta de $\rho$ y una demostración autocontenida
+(Teorema~\ref{thm:clasif}; su necesidad se deduce también de \cite{GS19}), y la combinatoria
 que convierte el conteo en capacidades.
 \item \textbf{Lo abierto está fuera del tipo $C$.} El Corolario~\ref{conj:cap} cierra la anulación
 en tipo $C$, y el Teorema~\ref{thm:crit} la cierra en cualquier tipo. Dentro del tipo $C$ el valor
-está completo: el Teorema~\ref{thm:valgen} da el valor absoluto para todo $k$, el Lema~\ref{lem:unit}
+en las potencias de $a_P$ --- es decir, en $q\mid 2m+2$ --- está completo: el Teorema~\ref{thm:valgen} da el valor absoluto para todo $k$, el Lema~\ref{lem:unit}
 al que está condicionado es la Proposición~\ref{prop:Ms} en $d=2$ y la Proposición~\ref{prop:res} en
 todo $d$, y el Teorema~\ref{thm:signo} da el signo. Lo que \emph{no} está demostrado es el
-Lema~\ref{lem:unit} fuera del tipo $C$, donde \eqref{eq:res} todavía no tiene análogo. Y el signo,
-aun determinado, no se simplifica: la \S\ref{sec:cierre} deja escrito dónde se ha buscado una forma
-más corta y no está.
+Lema~\ref{lem:unit} fuera del tipo $C$, donde \eqref{eq:res} todavía no tiene análogo; ni lo está el
+valor en las otras tres familias del Teorema~\ref{thm:clasif}, donde la fórmula necesita un
+corrector (\S\ref{sec:preguntas}). Y el signo, aun determinado, no se ha simplificado: ninguna de
+las formas más cortas ensayadas aquí sobrevive, y la \S\ref{sec:cierre} las deja escritas.
 \item \textbf{El criterio no depende del tipo; las capacidades sí son de tipo $C$.} El conteo de
 ceros \eqref{eq:crit} es un enunciado sobre un sistema de raíces y vale en cualquier tipo: en $C_m$
-se vuelve el teorema de capacidades, y en $G_2$ el criterio de las seis paredes de la \S\ref{sec:g2}. La Observación~\ref{obs:types} habla también de sistemas de raíces, no de caracteres.
+se vuelve el Corolario~\ref{conj:cap}, y en $G_2$ el criterio de las seis paredes de la \S\ref{sec:g2}. La Observación~\ref{obs:types} habla también de sistemas de raíces, no de caracteres.
 Caracteres puedo calcularlos en $C_m$ y en $G_2$, pero no en tipo $B$, donde haría falta el de
 $\SO(2m+1)$.
 \item \textbf{No se reclama ningún transporte de \cite{Prasad16}.} La demostración del
 Teorema~\ref{thm:crit} es autocontenida y no usa ningún resultado de \cite{Prasad16}; si el argumento
 de ese artículo alcanza también este criterio es una pregunta que esta nota no aborda.
+\item \textbf{No todo está en Lean.} Los enunciados de la lista de la Formalización están formalizados
+con el alcance que allí se da; no lo están la identificación con el carácter mediante la fórmula de
+Weyl, la equivalencia de la \S\ref{sec:clasif}, que $\nu^{(c)}$ sea una partición, ni el paso de
+$\lambda$ dominante a $\ell$.
 \item Del artículo \cite{Polo25} he leído la introducción, la \S2 y lo bastante de la \S3.3 para confirmar
 que la selección es por altura en todos los casos; las demostraciones caso por caso no las he leído.
 \end{itemize}
@@ -1577,8 +1645,8 @@ En la familia $q\mid t$ el valor, su signo y el recuento quedan resueltos arriba
 que era una medida --- la trivialidad del factor que no se anula --- es ahora la
 Proposición~\ref{prop:res}. Pero el Teorema~\ref{thm:clasif} ha ensanchado el suelo bajo todo
 eso: hay tres familias más en las que todo carácter es un número entero y en las que esta nota no
-evalúa nada. Lo que sigue son las preguntas que quedan, de las cuales la primera no existía antes
-de la \S\ref{sec:clasif}, y dos de las otras son más afiladas de lo que parecen porque la
+evalúa nada. Lo que sigue son las preguntas que quedan, la primera de ellas sugerida
+por el Teorema~\ref{thm:clasif}, y dos de las otras son más afiladas de lo que parecen porque la
 respuesta obvia tiene contraejemplo.
 
 \begin{enumerate}\itemsep5pt
@@ -1589,10 +1657,10 @@ entero, y la \S\ref{sec:valor} evalúa una. En las otras tres la construcción d
 \S\ref{sec:dims} sigue funcionando --- la ficha de allí da $Z_q(\ell)/Z_q(\rho)=\kappa_q\,D$ en
 todo $q$ medido --- pero el carácter no es $\pm\kappa_q D$: aparece un factor más, y su caso más
 pequeño ya está en la \S\ref{sec:clasif}, donde $\Sp(4)$ con $q=4$ tiene
-$Z_4(\ell)/Z_4(\rho)=1$ y $\chi_{(1,0)}=-2$. \emph{Qué es ese factor ya no está abierto.}
-La Proposición~\ref{prop:resid} identifica la diferencia de los dos histogramas de residuos como
-la de otro sistema de raíces, de rango a lo sumo $\lfloor q/2\rfloor$, y el recuadro que la sigue
-lee el factor como el carácter de ese sistema en el mismo denominador --- sobre $\mathbf{1\,814}$
+$Z_4(\ell)/Z_4(\rho)=1$ y $\chi_{(1,0)}=-2$. \emph{Qué debe ser ese factor queda ahora sugerido,
+aunque no demostrado.} La Proposición~\ref{prop:resid} demuestra que la diferencia de los dos
+histogramas de residuos es la de otro sistema de raíces, de rango a lo sumo $\lfloor q/2\rfloor$,
+y el recuadro que la sigue lee el factor, como medida, como el carácter de ese sistema en el mismo denominador --- sobre $\mathbf{1\,814}$
 pesos supervivientes y en todo $q$, no sólo en los clasificados. En los puntos clasificados ese
 carácter toma los valores $1,2,3,4$ y $6$, y nunca otro, sobre $\mathbf{828}$ pesos supervivientes
 con $m\le5$ y $q\le12$. \emph{Lo que queda es el paso de la identidad al valor:} el tránsito del
@@ -1611,9 +1679,7 @@ grupo de la factorización es $Sp_6\times SO_7$, de tipo $C_3\times B_3$; pero $
 autovalores $1$ y $-1$ con multiplicidad seis cada uno, luego
 $Z_{\Sp(12)}(a_P^{\,7})=Sp_6\times Sp_6$, de tipo $C_3\times C_3$. Y $C_3\times B_3$ tampoco puede
 salir en el dual $SO(13)$: una descomposición en autoespacios allí produce factores lineales
-generales y ortogonales, nunca un $C_3$ simple. \emph{Prueba:} buscar la construcción que mezcla un
-factor simpléctico y uno ortogonal impar en las dos clases fijas --- que se distinguen porque
-$2c\equiv0$ tiene las soluciones $0$ y $q/2$ --- sin suponer que sea el centralizador de nada.
+generales y ortogonales, nunca un $C_3$ simple.
 \emph{Una construcción que sí los mezcla, y que merece probarse:} dentro de la superálgebra
 $\mathfrak{osp}(1|2m)$, cuya parte par es $\mathfrak{sp}_{2m}$ y cuya parte impar es la
 representación natural, tómese la subálgebra fija de $\mathrm{Ad}(-s_{\ell,q})$ y no la de
@@ -1629,7 +1695,7 @@ correspondencia clásica entre $\mathfrak{osp}(1|2n)$ y las representaciones no 
 $\mathfrak{so}_{2n+1}$. \emph{Pero esto todavía no es una respuesta:} nada de aquí construye el
 módulo a partir de $V_\lambda$, y la subálgebra depende del dato desplazado $\ell$, no del
 elemento solo.
-\emph{Qué compraría:} el Teorema~\ref{thm:dims} como regla de restricción y no como identidad de
+\emph{Prueba:} buscar la construcción sobre $V_\lambda$ cuya subálgebra fija es ésta. \emph{Qué compraría:} el Teorema~\ref{thm:dims} como regla de restricción y no como identidad de
 números.
 \emph{Y lo que se sabe del objeto vecino:} para el alfabeto completo --- la huella de la
 \S\ref{sec:dims} --- Lecouvey demuestra que en el
@@ -1669,8 +1735,11 @@ tipos donde esta nota no demuestra nada. \ver{lema\_generico.py} \emph{Y un avis
 \textbf{no} vale en un punto cualquiera de la recta de $\rho$, ni siquiera en tipo $C$. En $\Sp(4)$
 con $\lambda=(1,0)$ y $q=7$ ningún exponente es divisible por $7$, luego $Z_7(\ell)/Z_7(\rho)=1$,
 mientras que $\chi_{(1,0)}(g_{1/7})=2\cos\frac{2\pi}{7}+2\cos\frac{4\pi}{7}=0.8019\ldots$ El
-criterio vale en toda la recta; la fórmula del \emph{valor} es un enunciado sobre los puntos
-clasificados del Teorema~\ref{thm:clasif}, y $q=7$ con $m=2$ no es uno de ellos.
+criterio vale en toda la recta; la fórmula del \emph{valor} es un enunciado sobre las potencias
+de $a_P$, $q\mid 2m+2$. En los demás puntos clasificados del Teorema~\ref{thm:clasif} necesita un
+corrector --- $\Sp(4)$ en $q=4$, que está en la lista porque $4\mid 2m$, tiene
+$|\chi_{(1,0)}(g_{1/4})|=2$ frente a $Z_4(\ell)/Z_4(\rho)=1$ (\S\ref{sec:clasif}) ---, y $q=7$ con
+$m=2$ ni siquiera está en esa lista.
 
 \item \textbf{¿Cuál es el recuento fuera del tipo $C$?}
 El Teorema~\ref{thm:cuenta} cierra $S_{C_m}(q)$ para todo $q$, y la \S\ref{sec:cuenta} deja escrito
@@ -1707,7 +1776,7 @@ cada una. Es decir:
 
 \begin{keybox}
 \textbf{Problema.} En $z=\xi_q$ el numerador y el denominador de \eqref{eq:ps} se anulan al mismo
-orden --- eso es exactamente \eqref{eq:crit}, que es el Corolario~\ref{conj:cap} --- de modo que el
+orden --- eso es exactamente \eqref{eq:crit}, en tipo $C$ el Corolario~\ref{conj:cap} --- de modo que el
 carácter es el límite
 \[
 \chi_\lambda(a_P^k)\;=\;\xi_q^{-(\lambda,\rho)}\lim_{z\to\xi_q}\ \prod_{\alpha>0}
@@ -1766,8 +1835,10 @@ D_{P(S)h}(\mathbf b)=\Bigl(\prod_{i=1}^{m}P(T_i)\Bigr)D_h(\mathbf b),
 \qquad (T_iF)(\dots,b_i,\dots)=F(\dots,b_i-1,\dots),
 \]
 y en particular $D_A=\prod_i(1-T_i)^2 D'$ para $d$ par y $\prod_i(1-T_i^2)D'$ para $d$ impar.
-\emph{Comprobado numéricamente hasta $10^{-14}$, con señuelo que falla.}
-\ver{revision\_47\_verificacion.py}
+\emph{Comprobado exactamente (certificado C4), con $h$ racional aleatoria, en $80$ casos, $40$ para
+cada uno de $P=(1-S)^2$ y $P=1-S^2$; el señuelo deja $(1-S)^2$ a la izquierda y pone $(1+S)^2$ a la
+derecha, y falla en $20$ de $20$.}
+\ver{revision\_47\_verificacion.py, certificar\_exacto.py}
 
 \noindent Así que la ramificación no es el obstáculo que yo hacía de ella, y la diferencia segunda
 sí atraviesa el determinante. Lo que queda por esa vía es la cancelación entre determinantes con
@@ -1784,7 +1855,7 @@ entera.
 Y ahí es donde se para. Lo que más me gustaría saber, por orden:
 \begin{itemize}\itemsep2pt
 \item el \textbf{Lema~\ref{lem:unit} fuera del tipo $C$.} Dentro de él, la afirmación (B) de la
-\S\ref{sec:modulo} demuestra el lema y con él todo el Teorema~\ref{thm:valgen}, y (B) es una
+\S\ref{sec:res} demuestra el lema y con él todo el Teorema~\ref{thm:valgen}, y (B) es una
 congruencia entre dos multiconjuntos de residuos sin un carácter dentro. Sobre lo que se apoya es
 \eqref{eq:res}, escrita en las coordenadas del tipo $C$; esa misma congruencia en otro sitio es todo
 lo que al valor le sigue faltando;
@@ -1891,12 +1962,12 @@ $B$ en la clase $q/2$ --- y que con $\ell$ par no son coeficientes de ramificaci
  & \textbf{Lecouvey \cite{Lec07a}}, \S3.2.2, Teor.~3.2.3 y Prop.~3.2.5, en el alfabeto
    \emph{completo}; en el rango estable, y por $V^{\mathfrak{so}_{2n+1}}(\lambda')$,
    \cite{Lec07b}, Teor.~4.5.1\\
-$c\cdot\mu_q$ \emph{más} una letra $1$ & Kumari \cite{Kum24}, Teor.~2.8\\
+$c\cdot\mu_q$ \emph{más} una letra $y$, es decir el par $\{y,y^{-1}\}$ & Kumari \cite{Kum24}, Teor.~2.8\\
 con soporte en los residuos \emph{impares} --- que es el alfabeto de $a_Q$, no el de $a_P$
  & Ayyer--Kumari \cite{AK25}, \S3\\
-cualquier alfabeto con $q=2$ --- los elementos de orden $2$ & Karmakar \cite{Kar24}, Teor.~5.1\\
+cualquier alfabeto con $q=2$ --- los elementos de orden $2$ & Karmakar \cite{Kar24}, Teor.~5.1 (y Prop.~2 en $G_2$)\\
 \midrule
-\rowcolor{marca}$c\cdot\mu_q-\{1\}-\{-1\}$ (Prop.~\ref{prop:alph}, $d$ impar) & esta nota\\
+\rowcolor{marca}$c\cdot\mu_q-\{1\}-\{-1\}$ (Prop.~\ref{prop:alph}, $d$ impar) & esta nota; con $q=4$ es $(c-1)\,\mu_4+\{i,-i\}$, Teor.~2.8 de \cite{Kum24} con $y=i$\\
 \rowcolor{marca}$c\cdot\mu_q-2\cdot\{1\}$ (Prop.~\ref{prop:alph}, $d$ par) & esta nota\\
 \midrule
 $c\cdot\mu_q-\{1\}$ --- una sola letra, en el punto fijo
@@ -1909,10 +1980,10 @@ $c\cdot\mu_q-\{1\}$ --- una sola letra, en el punto fijo
 alfabeto del bloque de arriba es un múltiplo entero de $\mu_q$, o eso con una tirada corta
 añadida; las dos filas de esta nota son ese múltiplo \emph{menos} a lo sumo dos letras, y esas
 letras son los puntos fijos de $w\mapsto w^{-1}$. La fila sin fuente es una tercera de la misma
-clase, que cubre el argumento de la \S\ref{sec:modulo} y que no se enuncia abajo.
+clase, que cubre el argumento de la \S\ref{sec:modulo} y que no se enuncia en esta nota.
 \emph{Esto describe las familias listadas, no clasifica la recta de $\rho$: hay denominadores
 fuera de todas ellas en los que el factor no nulo se cancela igual --- $\Sp(14)$ con $q=6$ es
-uno, y su alfabeto no tiene esta forma en absoluto.} \ver{alfabeto\_clasif2.py}
+uno (es la familia esporádica $q=6$ del Teorema~\ref{thm:clasif}), y su alfabeto no tiene esta forma en absoluto.} \ver{alfabeto\_clasif2.py}
 
 \vspace{6pt}
 {\small
@@ -1930,18 +2001,19 @@ $\{0,\pm1\}$ en $a_Q$ y en $a_P$; los dos elementos & Kostant \cite{Kostant76}\\
 torcido $=$ plegado, y $A_{2m}\to C_m$ & Kumar--Lusztig--Prasad \cite{KLP09}\\
 la sombra en los grupos de Weyl, $\Theta(w_0)=\pm\dim$ & Lübeck--Prasad \cite{LP20}\\
 $R(m)$, $d_m$, y su clasificación & NPP \cite{NPP25}, Polo \cite{Polo25}\\
-la regla de tipo $C$ como identidad & Pétréolle \cite{Petreolle15}, Wahiche \cite{Wahiche23}\\
+la regla de tipo $C$ como identidad de Macdonald & Pétréolle \cite{Petreolle15}, Wahiche \cite{Wahiche23}\\
 la regla de tipo $A$ con núcleos & Adin--Frumkin \cite{AF02}\\
 \midrule
 la especialización principal \eqref{eq:ps} & clásica\\
 \textbf{el criterio \emph{y} el signo en $a_P$ mismo, en todo tipo; su forma en tipo $C$; y el signo
 leído en los residuos ordenados} & \textbf{Cellini--Möseneder Frajria--Papi \cite{CMP06}},
 Cor.~3.2, Prop.~3.5 y Obs.~3.2\\
-la forma en corraíces del criterio, para todo entero & NPP \cite{NPP25}, Cor.~3.7\\
+la forma en corraíces del criterio, para todo entero; y por tanto la forma en raíces siempre que $\gcd(q,r)=1$ (Obs.~\ref{obs:types}) & NPP \cite{NPP25}, Cor.~3.7\\
+el carácter de $G_2$ en su clase de orden $2$ & Karmakar \cite{Kar24}, Prop.~2, atribuida allí también a Reeder\\
 \midrule
 \rowcolor{white}\multicolumn{2}{l}{\emph{y lo que se hace aquí, aparte de las dos filas de alfabeto:}}\\
-\textbf{qué denominadores de la recta de $\rho$ dan valores enteros} (Teor.~\ref{thm:clasif}) & \\
-el mismo conteo en toda la recta de $\rho$, en las potencias (Teor.~\ref{thm:crit}) & \\
+\textbf{qué denominadores de la recta de $\rho$ dan valores enteros} (Teor.~\ref{thm:clasif}) & criterio para $\Sp(2m)$ y prueba elemental en esta nota; la necesidad también se deduce de \cite{GS19}, Lema~4.6\\
+el mismo conteo en toda la recta de $\rho$, en las potencias (Teor.~\ref{thm:crit}) & leído en el carácter de la recta de $\rho$ mediante \eqref{eq:ps}; el conteo mismo es el de \cite{NPP25} cuando $\gcd(q,r)=1$\\
 la combinatoria que lo vuelve capacidades (Cor.~\ref{conj:cap}) & \\
 la unidad de holgura, y de dónde sale (Prop.~\ref{prop:slack}) & \\
 el valor absoluto en $k=2$ (Teor.~\ref{conj:val}) & \\
@@ -1950,7 +2022,7 @@ el lema de residuos \eqref{eq:res}, y \eqref{eq:adj} detrás (Prop.~\ref{prop:re
 el valor exacto con su signo, \emph{toda} potencia, tipo $C$ (Teor.~\ref{thm:signo}) & \\
 su módulo factorizado en dimensiones, con $q\ge3$ (Teor.~\ref{thm:dims}) & \\
 el recuento cerrado de los supervivientes, todo $q$, tipo $C$ (Teor.~\ref{thm:cuenta}) & \\
-el mismo criterio en $G_2$, y sus dos congruencias (Cor.~\ref{cor:g2}) & \\
+el mismo criterio en $G_2$, y sus dos congruencias (Cor.~\ref{cor:g2}) & la deducción desde el recuento; con $q=2$ el enunciado es la Prop.~2 de \cite{Kar24}\\
 que el signo no es ni una forma ni una paridad (\S\ref{sec:cierre}) & \\
 el lema de filas para una sucesión $h$ desplazada (\S\ref{sec:cierre}) & \\
 la $P$-altura, y la comparación de la Figura~\ref{fig:types} (Obs.~\ref{obs:types}) & \\
@@ -1963,15 +2035,25 @@ merecen leerse despacio. \textbf{En $a_P$ mismo --- $k=1$ --- el criterio y el s
 Corolario~3.2 de \cite{CMP06}}, en todo tipo y en el estadístico de \emph{raíces}, que es esta
 recta y no la de corraíces de \cite{NPP25}; lo que le queda a esta nota son las \emph{potencias}.
 \textbf{Y la factorización del Teorema~\ref{thm:dims} con $q=2$ --- sus dos dimensiones ---
-es el Teorema~5.1 de \cite{Kar24}}, que hace todas las clases de conjugación de orden $2$ donde
+tiene la forma en dos bloques del Teorema~5.1 de \cite{Kar24}}, que hace todas las clases de conjugación de orden $2$ donde
 esta nota hace una. Lo que queda aquí es $q\ge3$, donde las clases no fijas llevan los bloques
 $GL$ que una involución no tiene, y la constante $\kappa$ que va delante de las dimensiones, que
 ya con $q=2$ vale $1$ o $2$ según qué clase plegada lleve el hueco libre. Todo número que
 lleve un marcador azul --- \ver{aP\_potencias.py}, y así --- viene de un guion con salida
-archivada, disponible a petición. Los resultados numerados de trabajos que aparecieron primero como
+archivada, en el archivo auxiliar del registro de Zenodo. Los resultados numerados de trabajos que aparecieron primero como
 preprint se citan con la numeración de la versión de arXiv, que es la leída aquí;
 las Figuras~\ref{fig:union3d} y \ref{fig:types} las recalcula el
 propio código de dibujo.
+
+\section*{El sitio complementario}
+Esta nota tiene un sitio complementario, su \emph{blueprint}, en \url{https://karlesmarin.github.io/blueprints/characters-at-aP/} (en inglés). Allí están:
+\begin{itemize}
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html\#thm:crit}{\emph{Los enunciados}}, copiados con su número y su prueba, cada uno con lo que se comprobó y cómo.
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/dep_graph_document.html}{\emph{Las dependencias}} y \href{https://karlesmarin.github.io/blueprints/characters-at-aP/mapa.html}{\emph{el mapa}} del resultado.
+\item \emph{Dos laboratorios en el navegador}: \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Aclasif\#thm:clasif}{las cuatro familias de denominadores} del Teorema~\ref{thm:clasif}, contrastadas con la estabilidad de Galois punto a punto, y \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Asigno\#thm:signo}{el carácter en una potencia de $a_P$} para $m$, $k$ y $\lambda$ elegidos, contra el determinante exacto, con las clases plegadas y los supervivientes en 2D y 3D.
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/referee.html}{\emph{Qué hay que revisar a mano}}, enunciado por enunciado, y \href{https://karlesmarin.github.io/blueprints/characters-at-aP/tour.html}{\emph{la nota en cinco pantallas}}.
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/pdf.html}{\emph{La propia nota}}, abierta en la página de cada enunciado, en inglés y en castellano.
+\end{itemize}
 
 \section*{Agradecimientos}
 
@@ -1984,18 +2066,113 @@ escrito aquí es sólo mía.
 \noindent El autor declara no tener intereses económicos ni relaciones personales que pudieran
 haber influido en el trabajo que se presenta aquí. No se recibió financiación.
 
+\section*{Formalización}
+
+\noindent Los siguientes enunciados y partes de enunciados están formalizados en Lean~4 con Mathlib,
+en el repositorio público
+\href{https://github.com/karlesmarin/formalizations}{\texttt{karlesmarin/formalizations}}, en el
+commit \href{https://github.com/karlesmarin/formalizations/commit/6283de8ed4582c42d045e8b9e71b1a8512340c77}{\texttt{6283de8}}, sin \texttt{sorry} y solo con los axiomas estándar. En el
+\href{https://karlesmarin.github.io/blueprints/characters-at-aP/}{sitio complementario} cada
+enunciado enlaza con sus declaraciones.
+
+\smallskip
+\noindent \emph{El carácter.} Lean trabaja con los productos
+$F_x(X)=\prod_{\alpha>0}(1-X^{(x,\alpha)})$ de tipo $C_m$. Demuestra que $F_\rho$ divide a
+$F_\ell$ (\texttt{RhoLine.}\allowbreak\texttt{dvd\_rho\_ring}, sobre cualquier anillo conmutativo;
+\texttt{RhoLine.}\allowbreak\texttt{dvd\_rho} sobre cuerpos de característica cero) y construye así un
+polinomio $Q$ con $F_\rho Q=F_\ell$; no se supone ninguna divisibilidad. En la
+\S\ref{sec:crit} se deduce de la fórmula de Weyl la identificación
+$\chi_\lambda(g_{p/q})=\zeta^{-(\lambda,\rho)}Q(\zeta)$. Esta identificación queda fuera de la
+formalización en Lean. Lean toma $\ell$ como una lista de $m$ enteros con emparejamientos
+positivos; que $\ell=\lambda+\rho$ con $\lambda$ dominante lo cumpla no está formalizado. El guion
+\texttt{certificar\_exacto.py} contrasta \eqref{eq:ps} con el
+bialternante como identidad de polinomios de Laurent para $85$ pesos de los tipos $C_2,C_3,C_4$.
+
+\smallskip
+\noindent \emph{El Teorema~\ref{thm:clasif}.} Para $q\ge2$ y una raíz primitiva $\zeta$ de orden
+$q$, Lean demuestra que todas las funciones simétricas elementales del multiconjunto
+$\{\zeta^{\pm j}:1\le j\le m\}$ son enteras si y solo si se cumple una de las cuatro condiciones del
+Teorema~\ref{thm:clasif} (\texttt{Segmentos.}\allowbreak\texttt{thm\_clasif\_spectral}, en \texttt{IntegralPoints}, con
+\texttt{Segments}). En la \S\ref{sec:clasif} se demuestra la equivalencia con la integralidad de los
+valores de todos los caracteres de $\Sp(2m)$. Esa equivalencia queda fuera de la formalización.
+
+\smallskip
+\noindent \emph{Los demás enunciados, con su alcance.}
+% los nombres Lean en \texttt no se parten: \sloppy solo en esta lista evita que salgan al margen
+\begingroup\sloppy
+\begin{itemize}
+\item El Teorema~\ref{thm:crit} (\texttt{RhoLine.}\allowbreak\texttt{thm\_crit}, \texttt{thm\_crit'}): el criterio para
+$Q(\zeta)$, en todo $q$, para los emparejamientos positivos de tipo $C_m$. El teorema impreso vale en
+todo tipo; fuera de $C_m$ no está formalizado.
+\item El Lema~\ref{lem:unit} (\texttt{RhoLine.}\allowbreak\texttt{lem\_unit}): con $\zeta$ primitiva, $dq=2m+2$ e
+igualdad de recuentos, los factores no nulos tienen el mismo módulo, sin ninguna divisibilidad de
+los productos. El Teorema~\ref{thm:valgen} (\texttt{RhoLine.}\allowbreak\texttt{thm\_valgen}, \texttt{thm\_valgen'})
+añade $F_\rho Q=F_\ell$, ya demostrada, y calcula $|Q(\zeta)|$.
+\item El Teorema~\ref{thm:signo} (\texttt{RhoLine.}\allowbreak\texttt{thm\_signo}, \texttt{thm\_signo'}, en
+\texttt{RhoLineSign}): en los pesos supervivientes,
+$\zeta^{-(\lambda,\rho)}Q(\zeta)=(-1)^{E_{p,q}(\lambda)}Z_q(\ell)/Z_q(\rho)$ en
+$\zeta=e^{2\pi ip/q}$ con $\gcd(p,q)=1$ y $dq=2m+2$; con \texttt{thm\_crit} para el caso que se
+anula, el enunciado entero para $Q$, signo incluido (la identificación con $\chi_\lambda$ queda
+fuera, como arriba).
+\item El Teorema~\ref{conj:val} (\texttt{DimsFactorisation.}\allowbreak\texttt{thm\_val\_k2},
+\texttt{thm\_val\_k2\_norm}): con $k=2$, el producto de $(\ell,\alpha)/q$ sobre los emparejamientos
+divisibles por $q$. La reagrupación en un factor $D_c$ por clase plegada, que es como se enuncia el
+teorema, no está formalizada.
+\item La Proposición~\ref{prop:Ms} (\texttt{WeylProductMs.}\allowbreak\texttt{prop\_Ms}): la versión con pares
+ordenados, que la nota identifica con $M_s^2=M_0^2$. El paso desde el producto no ordenado
+$M_s=A_sB_sD_s$ a esa expresión no está formalizado.
+\item La Proposición~\ref{prop:alph} (\texttt{KostantAlphabet}), completa, como identidad de
+multiconjuntos.
+\item El Corolario~\ref{conj:cap} y la Proposición~\ref{prop:slack} (\texttt{ResidueCapacity}): el
+criterio de capacidades del lado de los recuentos, y el déficit total de dos letras que está detrás
+de la Proposición~\ref{prop:slack} (\texttt{ResidueCapacity.}\allowbreak\texttt{sum\_deficit}); la
+Proposición~\ref{prop:res}: las identidades de residuos (\texttt{ResidueCapacity.}\allowbreak\texttt{eq\_res},
+\texttt{prop\_res\_cap}).
+\item La Proposición~\ref{prop:resid} (\texttt{ResidualHistogram.}\allowbreak\texttt{prop\_resid\_case1},
+\texttt{prop\_resid\_case2}): los dos regímenes, $v\le a$ y $v>a$, en $\mathbb{Z}[\mathbb{Z}/q]$.
+\item El Teorema~\ref{thm:dims}, en las dos paridades (\texttt{DimsFactorisation.}\allowbreak\texttt{dims\_odd},
+\texttt{DimsFactorisationEven.}\allowbreak\texttt{dims\_odd\_occ}, \texttt{dims\_even\_occ}): la factorización de
+$Z_q(\ell)/Z_q(\rho)$ en $\kappa\,|D_0|\,|D_{q/2}|\prod_c|D_c|$, con $\kappa=1$ si $d$ es impar o la
+plaza libre está en la clase $0$, y $\kappa=2$ en otro caso; las ocupaciones de las clases plegadas se
+deducen de $N_q(\ell)=N_q(\rho)$. Las particiones $\nu^{(c)}$ y las filas orientadas entran como datos
+con sus ecuaciones (no se demuestra que $\nu^{(c)}$ sea una partición), para listas $\ell$ de
+longitud $m$.
+\item El Teorema~\ref{thm:cuenta} (\texttt{SurvivorCount.}\allowbreak\texttt{thm\_cuenta\_le},
+\texttt{thm\_cuenta\_gt}): el recuento para todo $q\ge1$, con los denominadores quitados.
+\item El Corolario~\ref{cor:g2} (\texttt{G2Counts}): las dos congruencias sobre los recuentos. El
+valor con signo de $G_2$ de la ficha que le sigue no está formalizado.
+\item La Observación~\ref{obs:types} (\texttt{PHeight}): la afirmación aritmética, sobre cualquier
+sistema de raíces cristalográfico con base, bajo la hipótesis declarada sobre las dos longitudes de
+raíz.
+\end{itemize}
+\endgroup
+El suplemento da comprobaciones finitas exactas de \eqref{eq:ps} (C1, $85$ pesos), de la
+integralidad de todos los caracteres en el Teorema~\ref{thm:clasif} ($455$ caracteres en $44$ pares,
+C2), del módulo al cuadrado en la Proposición~\ref{prop:Ms} ($q\le15$, C3) y de la identidad de
+filas desplazadas del Apéndice~\ref{sec:cierre} ($80$ casos, C4), todas en
+\texttt{certificar\_exacto.py}. Cada comprobación incluye un control que falla. Son comprobaciones en
+rangos finitos, no demostraciones; las comprobaciones en coma flotante que el texto sigue dando
+están señaladas como tales.
+
 \section*{Disponibilidad de los datos}
 
 \noindent No se han usado datos. Cada número y cada fórmula que aquí se afirma la produce un guion,
-y los guiones junto con su salida archivada están listados en la \S\ref{sec:controles} y acompañan
-a este envío como material suplementario.
+y los guiones junto con su salida archivada están en el
+archivo auxiliar del registro de Zenodo.
 
-\section*{Declaración sobre el uso de IA generativa en la redacción}
+\section*{Uso de herramientas de IA}
 
-\noindent Durante la preparación de este trabajo el autor usó Claude (Anthropic) para redactar
-prosa, para escribir y correr los guiones de verificación de la \S\ref{sec:controles} y para buscar
-en la literatura. Después de usar esta herramienta el autor revisó y editó el contenido según hizo
-falta y asume la responsabilidad plena del contenido de la publicación.
+\noindent La investigación la concibió y dirigió el autor, que eligió los problemas, decidió qué
+resultados perseguir y cómo enunciarlos, y comprobó cada paso. Se usaron asistentes de IA (modelos
+de lenguaje grandes) como herramientas bajo la dirección del autor: para escribir y correr los
+guiones de verificación y los certificados exactos del archivo auxiliar; para redactar
+demostraciones, que el autor comprobó después paso a paso; para escribir la formalización en Lean;
+para buscar en la literatura; y para editar el texto. Cada enunciado calculado lo produce un guion
+del archivo auxiliar con su salida archivada, los certificados exactos C1--C4 se vuelven a
+comprobar en aritmética exacta, y los enunciados de la lista de la Formalización se verifican
+además en Lean~4, de modo que cada afirmación puede comprobarse con independencia de las
+herramientas de IA. El autor contrastó todas las citas con las fuentes originales. El autor asume la
+responsabilidad plena del contenido.
 
 
 \begin{thebibliography}{99}\small
@@ -2012,6 +2189,7 @@ twisted by roots of unity}, J.~Algebraic Combin.~63 (2026), art.~2, 32~pp., \tex
 \bibitem{CMP06} P.~Cellini, P.~Möseneder Frajria y P.~Papi, \emph{The $\widehat W$-orbit of $\rho$,
 Kostant's formula for powers of the Euler product and affine Weyl groups as permutations of
 $\mathbb{Z}$}, J.~Pure Appl.~Algebra 208 (2007), n.\textsuperscript{o}~3, 1103--1119, \texttt{arXiv:math/0507610}.
+\bibitem{GS19} T.~Gannon y A.~Schopieray, \emph{Algebraic number fields generated by dimensions in fusion rings}, Commun. Number Theory Phys.~18 (2024), n.\textsuperscript{o}~4, 705--743, doi:10.4310/CNTP.241202233757; \texttt{arXiv:1912.12260} (como \emph{Algebraic number fields generated by Frobenius--Perron dimensions in fusion rings}; el Lema~4.6 es la numeración comprobada allí).
 \bibitem{Kar24} C.~Karmakar, \emph{Character values at elements of order $2$},
 Proc. Indian Acad. Sci. Math. Sci.~135 (2025), art.~41, \texttt{arXiv:2412.17324}.
 \bibitem{Kum24} N.~Kumari, \emph{Factorization of classical characters twisted by roots of unity,

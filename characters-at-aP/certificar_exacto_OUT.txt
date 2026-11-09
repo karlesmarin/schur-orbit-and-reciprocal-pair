@@ -1,0 +1,24 @@
+====================================================================================================
+C1  (2) como identidad EXACTA de polinomios de Laurent:  N_ℓ(z)·∏(1-z^(ρ,α)) = N_ρ(z)·z^-(λ,ρ)·∏(1-z^(ℓ,α))
+    con N_x(z) = det( z^{j x_i} - z^{-j x_i} ),  la recta a_P(z) = (z, z^2, …, z^m)
+   [OK] C1: la identidad (2), estadístico de raíces (85 de 85 pesos, m = 2, 3, 4)
+   [OK] C1 control: con el estadístico de corraíces la identidad debe fallar (se cumple en 3 de 85; λ = 0 la cumple siempre)
+====================================================================================================
+C2  Teorema 5.1: χ_λ(g_{1/q}) EXACTO en Z[ζ_q] (χ como polinomio de Laurent por división exacta, reducido mod Φ_q)
+   455 caracteres exactos (m = 2..5, λ_1 ≤ 5), 44 pares (m, q), q = 2..12
+   [OK] C2: «todos enteros» = espectro estable por Galois (44 de 44)
+   [OK] C2: «todos enteros» = condición (I) del Teorema 5.1 (44 de 44)
+   [OK] C2 control: sin la cláusula q = 6 la condición debe discrepar (acuerda en 43 de 44)
+====================================================================================================
+C3  Proposición 8.2: M_s^2 = ∏_w (2 - w - w^-1) exacto en Z[ζ_q], w recorriendo los factores no nulos
+    {y/x : x<y en U_s} ∪ {xy : x<y, xy ≠ 1} ∪ {x^2 : x ∈ U_s, x^2 ≠ 1},  U_s = μ_q \ {ζ^s}
+   M_0^2 por q: q=3: 27, q=4: 1024, q=5: 78125, q=6: 15116544, q=7: 1977326743, q=8: 1099511627776, q=9: 205891132094649, q=10: 250000000000000000, q=11: 61159090448414546291, q=12: 138015359728109104398336, q=13: 41753905413413116367045797, q=14: 157495785320469305900803293184, q=15: 56815128661595284938812255859375
+   [OK] C3: M_s^2 es un entero racional y no depende de s, q = 3..15 (exacto) 
+   [OK] C3 control: el producto complejo sin módulos ∏(1-w) depende de s (en 13 de 13 valores de q)
+====================================================================================================
+C4  Lema de filas (Apéndice): D_{P(S)h}(b) = (∏_i P(T_i)) D_h(b), EXACTO con h racional aleatoria
+    D_h(b) = det( h_{b_i+j} + h_{b_i-j} )_{i,j=1..m};  P = (1-S)^2 y (1-S^2)  (antes: revision_47 R1, a 1e-9)
+   [OK] C4: el lema de filas, igualdad exacta (80 de 80)
+   [OK] C4 control: con (1+S)^2 en la derecha debe fallar (falla en 20 de 20)
+====================================================================================================
+RESULTADO: las cuatro certificaciones exactas pasan y sus controles fallan.

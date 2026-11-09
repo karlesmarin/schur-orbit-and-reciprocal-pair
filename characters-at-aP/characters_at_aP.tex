@@ -4,7 +4,7 @@
 % REGLA DE REDACCION: ni una segunda persona en todo el documento.  Lo unico que se dice de un
 % tercero es lo que esta en un articulo publicado suyo, con su localizador.
 %
-% Compilar:  pdflatex note2 (x2)
+% Compilar:  pdflatex characters_at_aP (x2)
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -74,18 +74,19 @@
 % signo, la factorizacion en dimensiones y el recuento cerrado --- estan todas en el abstract, de
 % modo que no se pierde nada y el titulo deja de leerse como el de un preprint.
 \title{\vspace{-1.4cm}\Large Integer character values on the $\rho$-line of $\Sp(2m)$}
-\author{\normalsize Carles Mar\'in\thanks{Independent researcher, \texttt{karlesmarin@gmail.com}.
-Written with Claude (Anthropic) as a research assistant; every statement was checked by the author.}}
-\date{\normalsize 8 September 2026}
+\author{\normalsize Carles Mar\'in\thanks{\texttt{karlesmarin@gmail.com}.
+This work was carried out with an AI assistant; the author checked every statement and takes full responsibility for the content. Companion site: \url{https://karlesmarin.github.io/blueprints/characters-at-aP/}.}\\[2pt]\small Independent researcher}
+\date{\normalsize 8 September 2026; version 2, 9 November 2026}
 
 \begin{document}
 \maketitle
 \thispagestyle{empty}
 
 \begin{abstract}
-\noindent \textbf{Where this comes from.} In 1940 Littlewood observed that a Schur polynomial
+\noindent \textbf{Where this comes from.} In his book of 1940 Littlewood recorded that a Schur polynomial
 evaluated at a full set of roots of unity either vanishes or factors, and that which of the two
-happens is decided by a purely combinatorial datum of the indexing partition. Two traditions grew
+happens is decided by a purely combinatorial datum of the indexing partition; Ayyer and Kumari
+\cite[\S1]{AK25} trace it to his work with Richardson of 1934. Two traditions grew
 out of that observation and have run alongside each other ever since without quite meeting. On one
 side, representation theory asks for the value of a character at a distinguished element of the
 group: Kostant's 1976 paper singles out two such elements, $a_Q$ and $a_P$, and proves that at
@@ -101,7 +102,7 @@ both.
 both lines. This note is about the rest of the line. The step away from $a_P$ is not cosmetic:
 there the half-sum $\rho$ is a regular point of the relevant arrangement, and the argument that
 settles the character is an argument about alcoves that needs exactly that regularity. At the
-powers $\rho$ moves onto the walls, the alcove argument degenerates, and the values --- which
+powers of lower order, $a_P^{\,k}$ with $\gcd(k,2m+2)>1$, $\rho$ moves onto the walls, the alcove argument degenerates, and the values --- which
 were $0$ and $\pm1$ --- run to $72$ one power later in a group of rank three. Further out it is
 regular again: no positive root of $C_m$ takes a value above $2\rho_1=2m$, so no $q>2m$ divides
 one, and the line has three regimes rather than two. What replaces the
@@ -112,9 +113,9 @@ looks like, is the content below.
 \noindent \textbf{Three things are proved.} The first is a \textbf{classification}: of all the
 rational points $g_{1/q}$ of the line, exactly four families have the property that \emph{every}
 character of $\Sp(2m)$ takes an integer value there, namely $q\mid 2m$, $q\mid 2m+1$, $q\mid2m+2$,
-and a sporadic $q=6$ (Theorem~\ref{thm:clasif}); the argument is that integrality forces the
+and a sporadic $q=6$ with $m\equiv1\pmod3$ (Theorem~\ref{thm:clasif}); the argument is that integrality forces the
 characteristic polynomial of the natural representation into $\ZZ[X]$, so the spectrum must be
-stable under the Galois group; classifying the stable spectra is then elementary. \textbf{The powers of $a_P$ are
+stable under the Galois group; classifying the stable spectra is then elementary. The necessity also follows from the field computation of Gannon and Schopieray \cite{GS19}. \textbf{The powers of $a_P$ are
 the family $q\mid 2m+2$}, and they are no longer the boundary of what can be said but one case of a
 list.
 
@@ -130,21 +131,30 @@ is no longer regular --- it lies on $r_q$ walls --- and the alcove argument that
 degenerates exactly there. \S\ref{sec:crit} sets the three side by side.
 
 \smallskip
-\noindent The third is the value itself, in type $C$, and it is now complete. For every power,
+\noindent The third is the value itself, in type $C$ and at the powers of $a_P$ (the denominators
+$q\mid 2m+2$), and there it is now complete. For every power,
 \[
 \chi_\lambda(a_P^{\,k})\;=\;(-1)^{E_{p,q}(\lambda)}\,\frac{Z_q(\lambda+\rho)}{Z_q(\rho)}
 \]
 on the surviving weights and $0$ elsewhere (Theorem~\ref{thm:signo}), with $Z_q$ a product of root
 statistics and $E_{p,q}$ a sum of floors --- equivalently a count of three indicators on the residues of $\ell$
-taken in order; and that modulus factors as a product of
+taken in order; and that modulus factors as $\kappa(\lambda)\in\{1,2\}$ times a product of
 \textbf{dimensions of irreducible representations of $GL_n$, $Sp_{2n}$ and $SO_{2n+1}$}, one per
 folded class (Theorem~\ref{thm:dims}) --- the three types Lecouvey \cite{Lec07a} already reads off
-the folded classes of the \emph{full} alphabet, here surviving the deletion of the two letters. Two closed counts of the surviving weights follow
-for \emph{every} $q$ (\S\ref{sec:cuenta}), and $G_2$ is done in closed form at $q=3$
+the folded classes of the \emph{full} alphabet, here surviving the deletion of the two letters. A closed count of the surviving weights follows
+for \emph{every} $q$ (Theorem~\ref{thm:cuenta}), and $G_2$ is done in closed form at $q=3$
 (\S\ref{sec:g2}). Nothing above rests on a measurement: the one step that did, the triviality of the
 non-vanishing factor, is Proposition~\ref{prop:res}. What is left open is stated in
-\S\ref{sec:preguntas}, and it is no longer the value.
+\S\ref{sec:preguntas}, and it is no longer the value at the powers of $a_P$; at the other three
+families of Theorem~\ref{thm:clasif} the value needs a corrector, which is measured but not proved.
+In Lean~4 with Mathlib, with the scope given under Formalization: the type-$C_m$ statements on the
+root products $F_x$ and their quotient $Q$, the spectral classification of
+Theorem~\ref{thm:clasif}, and the rest of that list. Outside it: the identification with the
+character (Weyl's formula), the equivalence of \S\ref{sec:clasif} between spectral and character
+integrality, that the $\nu^{(c)}$ are partitions, and the step from dominant $\lambda$ to $\ell$.
 \end{abstract}
+
+\noindent\textbf{Companion site.} \url{https://karlesmarin.github.io/blueprints/characters-at-aP/}: every statement with its dependencies and checks, and two labs in the browser.
 
 \begin{center}\small
 \emph{2020 Mathematics Subject Classification.}\;
@@ -170,13 +180,19 @@ The count can never come out below; the character is non-zero exactly when it co
 \smallskip
 \textbf{What is new here and what is not.} \emph{At $a_P$ itself, nothing.} The count and the sign
 there are Corollary~3.2 of \cite{CMP06}, in every type and on this line; read on \emph{coroots} the
-count is Corollary~3.7 of \cite{NPP25}; the principal specialisation the argument runs on is
-classical; and at $q=2$ the factorisation into dimensions is Theorem~5.1 of \cite{Kar24}. What is
-done here is the \emph{powers}: to identify the alphabet of $a_P^{\,k}$ with the alphabet of
-Theorem~2 of \cite{Prasad16b} folded and short of two letters --- which turns out to be the
-condition, and not merely a description; to carry the count to the powers, where $\rho$ is no longer
-regular; and, in type $C$, to evaluate the character exactly --- sign included --- to factor it into
-dimensions at $q\ge3$, and to count the survivors in closed form. The table on
+count is Corollary~3.7 of \cite{NPP25}, and when $q$ is prime to the ratio $r$ of the squared root
+lengths --- every odd $q$ in type $C$ --- it is the same count, root by root; the principal
+specialisation the argument runs on is classical; at $q=2$ the factorisation into dimensions has
+the two-block form of Theorem~5.1 of \cite{Kar24}; and in $G_2$ the case $q=2$ is Proposition~2 of
+\cite{Kar24}. What is done here is the \emph{powers}: to identify the alphabet of $a_P^{\,k}$ with
+the alphabet of Theorem~2 of \cite{Prasad16b} folded and short of two letters --- which turns out to
+be the condition, and not merely a description; to carry the count to the powers of lower order,
+where $\rho$ is no longer regular, and read it on the character of the $\rho$-line through
+\eqref{eq:ps}; and, in type $C$ and at the powers of $a_P$, to evaluate the character exactly ---
+sign included --- to factor it into dimensions at $q\ge3$, and to count the survivors in closed
+form. The necessity in the classification of \S\ref{sec:clasif} also follows from
+Gannon--Schopieray \cite{GS19}, Lemma~4.6. What is in Lean~4 and what
+is left outside is stated under Formalization. The table on
 p.~\pageref{tab:attrib} says which is which, line by line.
 \end{keybox}
 
@@ -196,7 +212,8 @@ theorem the alphabet of \S\ref{sec:alph} is folded against --- the residue crite
 and the line arrives in 2025 at \cite{NPP25} and \cite{Polo25}.
 
 Read the lower line and the object is a partition and its cores. It starts earlier --- Littlewood
-\cite{Li40}, 1940 --- and has been running alongside ever since: Adin--Frumkin \cite{AF02} in 2002,
+\cite{Li40}, 1940, and before the book his work with Richardson of 1934, to which Ayyer--Kumari
+\cite[\S1]{AK25} trace it --- and has been running alongside ever since: Adin--Frumkin \cite{AF02} in 2002,
 P\'etr\'eolle \cite{Petreolle15} and Wahiche \cite{Wahiche23} on the Macdonald identity of type
 $\widetilde C$, Ayyer--Kumari \cite{AK22} and Albion \cite{Alb23} on characters twisted by roots of
 unity, Kumari \cite{Kum24} again in 2024. My own two papers \cite{OP1,OP2} are on that side.
@@ -220,7 +237,7 @@ above and the alphabet from below.
 \textbf{The node to read first is 2006.} Corollary~3.2 of \cite{CMP06} is already the vanishing
 criterion \emph{and} the sign, in every type, and on the \emph{root} statistic --- this line, not
 the coroot line. Everything this note has to add begins one step further along: at the powers
-$a_P^{\,k}$, where $\rho$ stops being regular. In the coroot statistic the criterion is
+$a_P^{\,k}$ with $\gcd(k,2m+2)>1$, where $\rho$ stops being regular. In the coroot statistic the criterion is
 Corollary~3.7 of \cite{NPP25}, for every integer.
 The dotted edge is the crossing of 2002: Adin--Frumkin's title is \emph{Rim hook tableaux and
 Kostant's $\eta$-function coefficients}, a combinatorial paper taking its coefficients from the 1976
@@ -295,8 +312,11 @@ $(w\ell,\rho)=(\ell,w^{-1}\rho)$ and $\epsilon(w)=\epsilon(w^{-1})$; the Weyl de
 turns the right-hand side into $z^{(\rho,\ell)}\prod_{\alpha>0}(1-z^{-(\ell,\alpha)})$; and dividing
 by the same computation at $\ell=\rho$ gives \eqref{eq:ps}. All that has changed from the usual form
 is which of the two lines one stands on --- which is precisely the axis that separates Kostant's two
-elements. \emph{Checked against the bialternant on the $\rho$-line for $m=2,3,4$ to $10^{-12}$.}
-\ver{revision\_47\_verificacion.py}
+elements. \emph{Checked against the bialternant on the $\rho$-line for $m=2,3,4$, exactly, as an
+identity of Laurent polynomials on $85$ weights (certificate C1); with the coroot statistic in its
+place the identity holds only at $\lambda=0$, $3$ of $85$. That is a finite check of \eqref{eq:ps} on
+those weights; the general statement is the derivation above.}
+\ver{revision\_47\_verificacion.py, certificar\_exacto.py}
 
 \subsection*{The count}
 
@@ -344,21 +364,26 @@ group, and credits the minimality to Serre.
 \textbf{So the difference is the statistic, and therefore the element.} Theorem~\ref{thm:crit} is
 the count on $(\,\cdot\,,\alpha)$ --- the line of $\rho$, where $a_P$ lives --- and theirs is the
 count on $\langle\,\cdot\,,\alpha^\vee\rangle$ --- the line of $\rho^\vee$, where the Coxeter element
-lives. \textbf{In the simply-laced types the two statements coincide} under the normalisation of
-\S\ref{sec:norm}, and there Theorem~\ref{thm:crit} is theirs. They part company exactly in the
-non-simply-laced types, which is exactly where $a_P$ and $a_Q$ part company, and that is the case
-this note is about.
+lives. \textbf{The two counts coincide well beyond the simply-laced types.} Let $r$ be the ratio of
+the squared lengths of long and short roots. Under the normalisation of \S\ref{sec:norm},
+$(x,\alpha)=d_\alpha\langle x,\alpha^\vee\rangle$ with $d_\alpha\in\{1,r\}$, so when
+$\gcd(q,r)=1$ the roots with $q\mid(x,\alpha)$ and those with $q\mid\langle x,\alpha^\vee\rangle$
+are the same roots, both for $x=\rho$ and for $x=\lambda+\rho$ (Observation~\ref{obs:types}). That
+covers the simply-laced types and, in type $C$, every odd $q$, prime powers included; there the
+count of Theorem~\ref{thm:crit} is theirs, and what this note adds is its reading on the character
+of the $\rho$-line, through \eqref{eq:ps}. The two counts can part company only when
+$\gcd(q,r)>1$ --- in type $C$, at even $q$, which includes $a_P$ itself, since $2m+2$ is even.
 \end{keybox}
 
 \noindent What is left, then, and what the rest of the note is: the identification of the alphabet
 (\S\ref{sec:alph}), the translation into capacities in type $C$ (\S\ref{sec:cap}), the exact value
 with its sign (\S\ref{sec:valor}), the modulus and its lemma (\S\ref{sec:modulo}), the
-factorisation into dimensions (\S\ref{sec:dims}), the counts
+factorisation into dimensions (\S\ref{sec:dims}), the count
 (\S\ref{sec:cuenta}) and $G_2$ (\S\ref{sec:g2}).
 
 \section{Why the two tables look alike: the alphabet}\label{sec:alph}
 
-\noindent\emph{Two tables written in two literatures that never cite each other have the same shape. Is that a resemblance, or are they about the same object?}
+\noindent\emph{Two tables written in two literatures that seldom cite each other --- Figure~\ref{fig:map} records where they do --- have the same shape. Is that a resemblance, or are they about the same object?}
 
 They look alike because the alphabets are the same object. This is the one place where I can replace
 the resemblance by an identity, and it is elementary.
@@ -392,6 +417,13 @@ criterion and a factorisation into characters of smaller classical groups. Their
 therefore always even, and nothing is deleted. So the
 big alphabet is done on both sides of the map; what is not done is the two points.
 
+\noindent Some members of the deleted family are nevertheless specialisations of cited results.
+For $q=4$ and $d=2n+1$ the alphabet is $(2n+1)\,\mu_4-\{1\}-\{-1\}=2n\,\mu_4+\{i,-i\}$, which is
+the alphabet of Theorem~2.8 of Kumari \cite{Kum24} at $t=4$, $x_j=1$, $y=i$; and at $q=2$ the
+element has order two and falls under Karmakar \cite{Kar24}. What the uniform statement adds is the
+two deletions for every $d$ and $q$ at once, and, in \S\ref{sec:dims}, the formula by folded
+classes. \ver{comprobar\_v253.py}
+
 Two consequences, and the first is the dictionary.
 
 \begin{keybox}
@@ -404,8 +436,8 @@ are fixed points of $w\mapsto w^{-1}$ --- one copy of each of the two when $d$ i
 the single one $w=1$ when $d$ is even.
 \end{keybox}
 
-\noindent That settles the first three rows of the table on page~1, and it says exactly where the
-orange row comes from: the difference between the two criteria is the difference between the two
+\noindent That is the content of Proposition~\ref{prop:alph}, and it says exactly where the
+difference between the two settings comes from: the difference between the two criteria is the difference between the two
 alphabets, which is two points. Computing the effect of removing them is a deletion problem --- a
 symplectic branching literally only when $d$ is even, for the reason set out in the second box
 below --- and I did not manage it --- but it turned out not to be needed for the vanishing, which Corollary~\ref{conj:cap}
@@ -498,7 +530,7 @@ carried to itself by every $\xi_q\mapsto\xi_q^{\,p}$, then $g_{p/q}$ and $g_{1/q
 spectrum and are conjugate in $\Sp(2m)$; the character values are then algebraic integers fixed by
 the Galois group of $\mathbb{Q}(\xi_q)$, hence rational integers.
 
-What is left is elementary. Write $m=uq+v$ with $0\le v<q$ and $a=\lfloor(q-1)/2\rfloor$. The
+What is left is elementary. For $q=1$ the element is the identity and every value is a dimension; let $q\ge2$. Write $m=uq+v$ with $0\le v<q$ and $a=\lfloor(q-1)/2\rfloor$. The
 spectrum of the natural representation is $\{\xi_q^{\pm j}: j=1,\dots,m\}$, which as a multiset of
 $\mu_q$ is
 \[
@@ -507,7 +539,7 @@ $\mu_q$ is
 and the first summand is Galois-stable on its own. So the question is when the segment
 $\{\pm1,\dots,\pm v\}$ is, and that is a question about residues and nothing else. Sufficiency is
 immediate for $v=0$, $v=a$, $v=q-1$ and, when $q$ is even, $v=q/2$: each of those segments is
-carried to itself by every $\xi_q\mapsto\xi_q^{\,p}$. Necessity is the step that has to be argued.
+carried to itself by every $\xi_q\mapsto\xi_q^{\,p}$. For $q=6$, the only units modulo $6$ are $\pm1$, so the reciprocal spectrum is Galois-stable for every $m$. Necessity is the step that has to be argued.
 
 Write $A_v=\sum_{j=1}^{v}(\xi_q^{\,j}+\xi_q^{-j})$. If the segment is stable then $A_v$ is fixed by
 the whole group; only that direction is used, and it is used in the contrapositive. A full turn sums to zero, whence $A_v+A_{q-1-v}=-2$ and
@@ -534,11 +566,19 @@ $(q,v)=(6,1)$ and $(6,4)$. Translating the surviving residues into divisibilitie
 conditions.
 \end{proof}
 
+\noindent\emph{Prior art for the key step.} Gannon and Schopieray \cite{GS19}, Lemma~4.6 in the arXiv version, determine the field generated by $[r]_q=\sin(r\pi/q)/\sin(\pi/q)$ for $0<r<q$. Their lemma gives another proof of necessity in Theorem~\ref{thm:clasif}. The case $q=1$ gives the identity. For $q\ge2$, write $2m+1=hq+r$, with $0\le r<q$. Then $1+\operatorname{tr}_{\mathrm{nat}}(g_{1/q})=[2m+1]_q=(-1)^h[r]_q$. The residues $r=0,1,q-1$ give $q\mid 2m+1$, $q\mid 2m$, $q\mid 2m+2$, respectively. For $1<r<q-1$, the only rational case in the field formula is $q=6$, $r=3$, where $[3]_6=2$. This is exactly the additional case $q=6$, $m\equiv1\pmod3$. We retain the elementary proof above to keep the argument self-contained. This reference was added in the second version.
+
 \noindent \emph{Measured on $\mathbf{11\,800}$ pairs $(m,q)$ with $q\le60$ and $m\le200$: the
-divisibility condition and the Galois-stability of the spectrum agree without exception. And on the
-$44$ pairs with $m\le5$, $q\le12$ the same agreement holds against the characters themselves,
-computed to $40$ digits as the limit of the sine form and tested for integrality --- so the chain
-from the arithmetic to the values is checked at both joints.} \ver{galois.py}
+\href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Aclasif\#thm:clasif}{divisibility condition and the Galois-stability of the spectrum agree without exception}. And on the
+$44$ pairs with $m\le5$, $q\le12$ the same agreement holds against the characters themselves ---
+so the chain from the arithmetic to the values is checked at both joints. That second check was
+run twice: first in floating point, the characters computed to $40$ digits as the limit of the
+sine form and tested for integrality \textup{(}\texttt{galois.py}\textup{)}; and then exactly, as
+certificate C2: $455$ characters ($m=2,\dots,5$, $\lambda_1\le5$), each obtained as a Laurent
+polynomial by exact division and reduced in $\ZZ[\xi_q]$, are all integers exactly on the pairs of
+the four families, $44$ of $44$, while the condition without its clause $q=6$ disagrees on one
+pair \textup{(}\texttt{certificar\_exacto.py}\textup{)}. Both are finite checks; the proof is the
+argument above.} \ver{galois.py, certificar\_exacto.py}
 
 \begin{keybox}
 \textbf{The powers of $a_P$ are the third family.} $q\mid 2m+2$ is exactly the condition
@@ -569,7 +609,7 @@ Theorem~\ref{thm:crit} is a statement about a root system. In the coordinates of
 a rule about buckets, and that translation is what makes everything after it computable.
 
 
-\noindent\textbf{(iv) The same thing in the coordinates of type $C$.} In $C_m$ the positive roots are $e_i-e_j$,
+\noindent\textbf{The same thing in the coordinates of type $C$.} In $C_m$ the positive roots are $e_i-e_j$,
 $e_i+e_j$ and $2e_i$, so grouping the $\ell_i$ into folded classes of occupancy $n_c$,
 \[
 N_q(\ell)=\sum_{c\ \text{not fixed}}\binom{n_c}{2}\;+\;\sum_{f\ \text{fixed}}n_f^{\,2},
@@ -590,7 +630,7 @@ $\chi_\lambda(a_P^k)\neq0$ if and only if each folded class modulo $q$ receives 
 the $\ell_i$, and at most $\lfloor d/2\rfloor$ if the class is a fixed one.
 \end{corollary}
 
-\noindent That is the rule I had measured, and the orange row of the table on page~1.
+\noindent That is the rule I had measured.
 \emph{Theorem~\ref{thm:crit} and Corollary~\ref{conj:cap} were both checked against the exact
 evaluator on the same $31$ combinations: $100\%$ on every one.}
 \ver{revision\_47\_verificacion.py}
@@ -680,8 +720,11 @@ $\operatorname{sgn}\sin(\pi pA/q)=(-1)^{\lfloor pA/q\rfloor}$; and for $q\mid A$
 $\theta=p/q+\varepsilon$,
 $\sin(\pi A\theta)=(-1)^{pA/q}\pi A\varepsilon+O(\varepsilon^3)$. When the orders of vanishing agree
 --- which is \eqref{eq:crit} --- the powers of $\varepsilon$ and the factors $\pi$ cancel, each
-vanishing factor leaves its own exponent, and every factor leaves its sign. Collecting them gives
-$(-1)^{E_{p,q}(\lambda)}$ and the quotient $Z_q(\ell)/Z_q(\rho)$.
+vanishing factor leaves its own exponent, and every factor leaves its sign. Collecting the signs
+gives $(-1)^{E_{p,q}(\lambda)}$, and the vanishing factors leave the quotient
+$Z_q(\ell)/Z_q(\rho)$. What the sine form does not give by itself is that the non-vanishing factors
+contribute nothing to the modulus: that is Lemma~\ref{lem:unit}, proved in type $C$ through
+Proposition~\ref{prop:res} and (B) in \S\ref{sec:res}.
 \end{proof}
 
 \noindent \emph{This derivation of the sign does not use the type}, once the normalisation of
@@ -712,7 +755,7 @@ Then, on the surviving weights,
 =(-1)^{\,F_q(\ell\bmod q)-F_q(\rho\bmod q)}\;}
 \]
 \emph{Checked on all $\mathbf{11\,972}$ surviving weights, $m=2,\dots,7$, every $k$: no exception.}
-\ver{referee2.py} Figure~\ref{fig:value} is what that alternation looks like. In particular the sign
+\ver{referee2.py} Figure~\ref{fig:value} is \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Asigno\#thm:signo}{what that alternation looks like}. In particular the sign
 is periodic modulo $qP$, since
 $E_{p,q}(\lambda+q\gamma)-E_{p,q}(\lambda)=2p(\gamma,\rho)$ is even. That is the precise sense in
 which the occupancies of the folded classes are not enough and the full quotients are not needed:
@@ -749,8 +792,8 @@ up. \ver{fig\_value.py}}
 \label{fig:value}
 \end{figure}
 
-\noindent \textbf{The sign does not simplify further, and it is worth saying how far that was
-pushed.} Writing $(x,\alpha)=q\lfloor(x,\alpha)/q\rfloor+\bigl((x,\alpha)\bmod q\bigr)$ and using
+\noindent \textbf{The sign does not simplify further in any of the forms tried here, and it is
+worth saying how far that was pushed.} Writing $(x,\alpha)=q\lfloor(x,\alpha)/q\rfloor+\bigl((x,\alpha)\bmod q\bigr)$ and using
 $\sum_{\alpha>0}(x,\alpha)=2(x,\rho)$ turns $E_{p,q}$ into $2p(\lambda,\rho)/q$ corrected by the
 residues; and statement (B) below says the residues of $\ell$ and of $\rho$ agree \emph{up to}
 $r\leftrightarrow-r$. If they agreed on the nose the correction would vanish and the sign would be
@@ -852,11 +895,15 @@ which is independent of $s$. Hence so is $(B_sD_s)^2=C_sD_s$, hence so is $B_sD_
 gives $M_s=M_0$.
 \end{proof}
 
-\noindent \emph{Every step of that argument was checked for $q=3,\dots,11$ and every $s$, to
-$3\cdot10^{-15}$ --- together with a decoy: the same product read as a complex number, without the
-absolute values, does depend on $s$ in $6$ of $6$ cases, which is why the statement is about moduli.
+\noindent \emph{Two checks, of different kinds. The intermediate steps of that argument were checked in
+floating point, for $q=3,\dots,11$ and every $s$, to $3\cdot10^{-15}$. What is certified exactly
+(certificate C3) is only the conclusion: $M_s^2=\prod_w(2-w-w^{-1})$, $w$ running over the
+non-vanishing factors, computed in $\ZZ[\xi_q]$ for $q=3,\dots,15$ and every $s$, is a rational
+integer independent of $s$ --- together with a decoy: the same product read as a complex number,
+without the absolute values, does depend on $s$ for each of the $13$ values of $q$, which is why the
+statement is about moduli.
 For the record $D=q$ for $q$ odd and $(q/2)^2$ for $q$ even, though independence needs no such
-value.} \ver{revision\_49\_prueba\_Ms.py}
+value.} \ver{revision\_49\_prueba\_Ms.py, certificar\_exacto.py}
 
 \begin{theorem}[the absolute value, any $k$ --- modulo Lemma~\ref{lem:unit}]\label{thm:valgen}
 Let $\ell=\lambda+\rho$ and suppose $\chi_\lambda(a_P^k)\neq0$. Then
@@ -892,8 +939,9 @@ The factor $U$ of \eqref{eq:split} has modulus $1$.
 
 \noindent \textbf{At $d=2$ this lemma is Proposition~\ref{prop:Ms}}, and there every vanishing
 $(\rho,\alpha)$ equals $q$, so the denominator of Theorem~\ref{thm:valgen} is $q^{\,r_q}$ and the
-statement becomes Theorem~\ref{conj:val} in the coordinates of type $C$. For $d\ge3$ I have not
-proved it, and I want to be exact about what that leaves: \emph{the value is no longer a limit to be
+statement becomes Theorem~\ref{conj:val} in the coordinates of type $C$. For $d\ge3$ the proof, in
+type $C$, is in \S\ref{sec:res} (Proposition~\ref{prop:res} and (B)); before it, it is worth being
+exact about what the lemma is: \emph{the value is no longer a limit to be
 evaluated. It is a finite statement about roots of unity} --- that two explicit products of
 $1-\xi_q^{\,r}$ have the same modulus --- \emph{with no character, no branching and no
 representation theory left in it.}
@@ -1027,8 +1075,8 @@ $\rho=(q-1,q-2,\dots,1)$, whose residues are $\ZZ/q\smallsetminus\{0\}$, so its 
 is $M_0$. Proposition~\ref{prop:Ms} therefore says numerator and denominator have the same modulus
 outside the vanishing factors, and with $|z^{-(\lambda,\rho)}|=1$ that closes the absolute value at
 $d=2$. \textbf{Both of the things this paragraph once left open are settled above}: the sign by
-Theorem~\ref{thm:signo}, and $d\ge3$ by Theorem~\ref{thm:valgen} together with the box below, which
-proves Lemma~\ref{lem:unit} in type $C$.
+Theorem~\ref{thm:signo}, and $d\ge3$ by Theorem~\ref{thm:valgen} together with
+Proposition~\ref{prop:res} and (B) in this section, which prove Lemma~\ref{lem:unit} in type $C$.
 
 I state it in coordinates because that is the form the proof gives, and because the tidier
 form does not survive checking. It is tempting to write the same thing as
@@ -1241,7 +1289,7 @@ row, and $\kappa$ records which.
 $Sp_{2n}$ on the class $0$ --- and $SO_{2n+1}$ on the class $q/2$. Odd orthogonal against symplectic
 is the Langlands dual pair, and the two counts of \cite{NPP25} are read there as dimensions of
 centralisers in the \emph{dual} group. That is a strong hint about which group these dimensions
-belong to, and it is what makes the first question of \S\ref{sec:preguntas} worth asking rather than
+belong to, and it is what makes the second question of \S\ref{sec:preguntas} worth asking rather than
 merely open.
 
 \smallskip
@@ -1429,6 +1477,16 @@ three altered congruences as decoys, each of which fails.} \ver{revision\_50\_G2
 the criterion is the right one, not the proof --- $49$ of $49$ dominant weights for every
 $k=1,\dots,6$, over $0\le a,b\le6$.} \ver{revision\_47\_G2.py}
 
+\noindent \emph{Prior art.} The case $q=2$ is in print. $G_2$ has a single conjugacy class of
+elements of order two, and Proposition~2 of Karmakar \cite{Kar24}, which he also attributes to
+Reeder, gives the character there: zero exactly when both coefficients are odd, and an explicit
+value otherwise. What is added here at $q=2$ is only the derivation from the count. For $q=3$ an
+earlier route is also available. The element $a_P^{\,4}$ is trivial on the three positive long
+roots (\S\ref{sec:types}), so it is a central element of order three of the long-root $\SL_3$, and
+the identity of Fulton and Harris reproduced as Proposition~1 of \cite{Kar24} evaluates the
+character there; it agrees with the closed form of the box below on all $49$ weights with
+$a,b\le6$. \ver{comprobar\_v253.py}
+
 \noindent What that says is not that $G_2$ has no theory, but that my prediction was not well posed.
 ``Fixed class'' presupposes the coordinates $e_i$ and the involution on residues that type $C$ has;
 $G_2$ has neither, so $\lfloor d/r\rfloor$ was a guess wearing the clothes of a consequence. The
@@ -1540,16 +1598,19 @@ $26$ of them exactly that and the other $6$ a transposed Cartan matrix of $G_2$ 
 \begin{itemize}\itemsep2pt
 \item \textbf{The engine is not mine.} Equation~\eqref{eq:ps} is the classical principal
 specialisation; all I did was read it on the line of $\rho$, which is where Kostant's second element
-lives. What is added here is the zero-count \eqref{eq:crit}, the classification of the denominators at
-which the values are whole (Theorem~\ref{thm:clasif}), and the combinatorics that turns the
+lives. What is added here is the zero-count \eqref{eq:crit} at the powers, and on the root statistic, the formulation of the denominator criterion on the $\rho$-line and a self-contained proof of it
+(Theorem~\ref{thm:clasif}; its necessity also follows from \cite{GS19}), and the combinatorics that turns the
 count into capacities.
 \item \textbf{What is open is outside type $C$.} Corollary~\ref{conj:cap} settles the vanishing in
-type $C$ and Theorem~\ref{thm:crit} settles it in any type. Inside type $C$ the value is complete:
+type $C$ and Theorem~\ref{thm:crit} settles it in any type. Inside type $C$ the value at the
+powers of $a_P$ --- that is, at $q\mid 2m+2$ --- is complete:
 Theorem~\ref{thm:valgen} gives the absolute value for every $k$, the Lemma~\ref{lem:unit} it is
 conditional on is Proposition~\ref{prop:Ms} at $d=2$ and Proposition~\ref{prop:res} at every $d$,
 and Theorem~\ref{thm:signo} gives the sign. What is \emph{not} proved is Lemma~\ref{lem:unit}
-outside type $C$, where \eqref{eq:res} has no analogue yet. And the sign, though determined, does
-not simplify: \S\ref{sec:cierre} records where a shorter form was looked for and is not.
+outside type $C$, where \eqref{eq:res} has no analogue yet; nor is the value at the other three
+families of Theorem~\ref{thm:clasif}, where the formula needs a corrector (\S\ref{sec:preguntas}).
+And the sign, though determined, has not been simplified: none of the shorter forms tried here
+survives, and \S\ref{sec:cierre} records them.
 \item \textbf{The criterion is type-independent; the capacities are type $C$.}
 Theorem~\ref{thm:crit} is a statement about a root system: in $C_m$ it becomes
 Corollary~\ref{conj:cap}, in $G_2$ the six-wall criterion of \S\ref{sec:g2}. Observation~\ref{obs:types}
@@ -1558,6 +1619,10 @@ $G_2$, but not in type $B$, where I would need the $\SO(2m+1)$ character.
 \item \textbf{No transport of \cite{Prasad16} is claimed.} The proof of Theorem~\ref{thm:crit} is
 self-contained and uses no result of \cite{Prasad16}; whether the argument of that paper also reaches
 this criterion is a question this note does not address.
+\item \textbf{Not all of it is in Lean.} The statements listed under Formalization are formalized
+with the scope given there; the identification with the character through Weyl's formula, the
+equivalence of \S\ref{sec:clasif}, that $\nu^{(c)}$ is a partition, and the step from dominant
+$\lambda$ to $\ell$ are not.
 \item Of \cite{Polo25} I have read the introduction, \S2 and enough of \S3.3 to confirm the selection
 is by height throughout; the case-by-case proofs I have not read.
 \end{itemize}
@@ -1569,8 +1634,8 @@ In the family $q\mid t$ the value, its sign and the count are settled above, and
 that was a measurement --- the triviality of the non-vanishing factor --- is now
 Proposition~\ref{prop:res}. But Theorem~\ref{thm:clasif} has widened the ground under all of
 that: there are three further families where every character is a whole number and where this
-note evaluates nothing. What follows are the questions that remain, the first of which did not
-exist before \S\ref{sec:clasif}, and two of the others are sharper than they look because the
+note evaluates nothing. What follows are the questions that remain, the first of which is suggested
+by Theorem~\ref{thm:clasif}, and two of the others are sharper than they look because the
 obvious answer has a counterexample.
 
 \begin{enumerate}\itemsep5pt
@@ -1581,10 +1646,11 @@ integer, and \S\ref{sec:valor} evaluates one of them. In the other three the con
 \S\ref{sec:dims} still runs --- the keybox there reports $Z_q(\ell)/Z_q(\rho)=\kappa_q\,D$ over
 every $q$ measured --- but the character is not $\pm\kappa_q D$: a further factor appears, and
 the smallest case of it is already in \S\ref{sec:clasif}, where $\Sp(4)$ at $q=4$ has
-$Z_4(\ell)/Z_4(\rho)=1$ and $\chi_{(1,0)}=-2$. \emph{What that factor is is no longer open.}
-Proposition~\ref{prop:resid} identifies the difference of the two residue histograms as another
-root system's, of rank at most $\lfloor q/2\rfloor$, and the box after it reads the factor off as
-the character of that system at the same denominator --- over $\mathbf{1\,814}$ surviving weights
+$Z_4(\ell)/Z_4(\rho)=1$ and $\chi_{(1,0)}=-2$. \emph{What that factor should be is now suggested,
+though not proved.} Proposition~\ref{prop:resid} proves that the difference of the two residue
+histograms is another root system's, of rank at most $\lfloor q/2\rfloor$, and the box after it
+reads the factor off, as a measurement, as the character of that system at the same denominator ---
+over $\mathbf{1\,814}$ surviving weights
 and at every $q$, not only at the classified ones. On the classified points that character takes
 the values $1,2,3,4$ and $6$, and never anything else, over $\mathbf{828}$ surviving weights with
 $m\le5$ and $q\le12$. \emph{What is left is the step from the identity to the value:} the passage
@@ -1656,7 +1722,10 @@ where this note proves nothing. \ver{lema\_generico.py} \emph{And a warning that
 \textbf{not} valid at an arbitrary point of the $\rho$-line, even in type $C$. In $\Sp(4)$ with
 $\lambda=(1,0)$ and $q=7$ no exponent is divisible by $7$, so $Z_7(\ell)/Z_7(\rho)=1$, while
 $\chi_{(1,0)}(g_{1/7})=2\cos\frac{2\pi}{7}+2\cos\frac{4\pi}{7}=0.8019\ldots$ The criterion holds along the whole line; the \emph{value} formula is a statement about the
-classified points of Theorem~\ref{thm:clasif}, and $q=7$ with $m=2$ is not one of them.
+powers of $a_P$, $q\mid 2m+2$. At the other classified points of Theorem~\ref{thm:clasif} it needs a
+corrector --- $\Sp(4)$ at $q=4$, in the list since $4\mid 2m$, has $|\chi_{(1,0)}(g_{1/4})|=2$
+against $Z_4(\ell)/Z_4(\rho)=1$ (\S\ref{sec:clasif}) --- and $q=7$ with $m=2$ is not in that
+list at all.
 
 \item \textbf{What is the count outside type $C$?}
 Theorem~\ref{thm:cuenta} closes $S_{C_m}(q)$ for every $q$, and \S\ref{sec:cuenta} records that in
@@ -1692,7 +1761,7 @@ of them stopped. So:
 
 \begin{keybox}
 \textbf{Problem.} At $z=\xi_q$ the numerator and denominator of \eqref{eq:ps} vanish to the same
-order --- that is exactly \eqref{eq:crit}, which is Corollary~\ref{conj:cap} --- so the character is
+order --- that is exactly \eqref{eq:crit}, in type $C$ Corollary~\ref{conj:cap} --- so the character is
 the limit
 \[
 \chi_\lambda(a_P^k)\;=\;\xi_q^{-(\lambda,\rho)}\lim_{z\to\xi_q}\ \prod_{\alpha>0}
@@ -1750,8 +1819,10 @@ D_{P(S)h}(\mathbf b)=\Bigl(\prod_{i=1}^{m}P(T_i)\Bigr)D_h(\mathbf b),
 \qquad (T_iF)(\dots,b_i,\dots)=F(\dots,b_i-1,\dots),
 \]
 and in particular $D_A=\prod_i(1-T_i)^2 D'$ for $d$ even and $\prod_i(1-T_i^2)D'$ for $d$ odd.
-\emph{Checked numerically to $10^{-14}$, with a decoy that fails.}
-\ver{revision\_47\_verificacion.py}
+\emph{Checked exactly (certificate C4), with random rational $h$, on $80$ cases, $40$ for each of
+$P=(1-S)^2$ and $P=1-S^2$; the decoy keeps $(1-S)^2$ on the left and puts $(1+S)^2$ on the right,
+and fails in $20$ of $20$.}
+\ver{revision\_47\_verificacion.py, certificar\_exacto.py}
 
 So the branching is not the obstacle I made it out to be, and the second difference does
 pass through the determinant. What remains on that route is the cancellation among determinants with
@@ -1767,7 +1838,7 @@ beta-sets of $t$-cores, and if the machinery there runs backwards it may be the 
 And that is where it stops. What I would most like to know, in order:
 \begin{itemize}\itemsep2pt
 \item \textbf{Lemma~\ref{lem:unit} outside type $C$.} Inside it, statement (B) of
-\S\ref{sec:modulo} proves the lemma and with it all of Theorem~\ref{thm:valgen}, and (B) is a
+\S\ref{sec:res} proves the lemma and with it all of Theorem~\ref{thm:valgen}, and (B) is a
 congruence between two multisets of residues with no characters anywhere in it. What it rests on is
 \eqref{eq:res}, which is written in the coordinates of type $C$; the same congruence elsewhere is
 the whole of what the value still needs;
@@ -1873,12 +1944,12 @@ $c\cdot\mu_q$ \emph{plus} a partial run of $m$ letters & Kumari \cite{Kum24}, Th
 on the class $q/2$ --- and that at even $\ell$ they are not branching coefficients}
  & \textbf{Lecouvey \cite{Lec07a}}, \S3.2.2, Thm.~3.2.3 and Prop.~3.2.5, on the \emph{full}
    alphabet; stably, and through $V^{\mathfrak{so}_{2n+1}}(\lambda')$, \cite{Lec07b}, Thm.~4.5.1\\
-$c\cdot\mu_q$ \emph{plus} one letter $1$ & Kumari \cite{Kum24}, Thm.~2.8\\
+$c\cdot\mu_q$ \emph{plus} one letter $y$, that is the pair $\{y,y^{-1}\}$ & Kumari \cite{Kum24}, Thm.~2.8\\
 supported on the \emph{odd} residues --- which is the alphabet of $a_Q$, not of $a_P$
  & Ayyer--Kumari \cite{AK25}, \S3\\
-any alphabet at $q=2$ --- the elements of order $2$ & Karmakar \cite{Kar24}, Thm.~5.1\\
+any alphabet at $q=2$ --- the elements of order $2$ & Karmakar \cite{Kar24}, Thm.~5.1 (and Prop.~2 in $G_2$)\\
 \midrule
-\rowcolor{marca}$c\cdot\mu_q-\{1\}-\{-1\}$ (Prop.~\ref{prop:alph}, $d$ odd) & this note\\
+\rowcolor{marca}$c\cdot\mu_q-\{1\}-\{-1\}$ (Prop.~\ref{prop:alph}, $d$ odd) & this note; at $q=4$ it is $(c-1)\,\mu_4+\{i,-i\}$, Thm.~2.8 of \cite{Kum24} at $y=i$\\
 \rowcolor{marca}$c\cdot\mu_q-2\cdot\{1\}$ (Prop.~\ref{prop:alph}, $d$ even) & this note\\
 \midrule
 $c\cdot\mu_q-\{1\}$ --- one letter, at the fixed point
@@ -1891,10 +1962,11 @@ $c\cdot\mu_q-\{1\}$ --- one letter, at the fixed point
 Every alphabet in the upper block is a whole multiple of $\mu_q$, or that with a short run
 added; the two rows of this note are that multiple \emph{short of} at most two letters, and
 those letters are the fixed points of $w\mapsto w^{-1}$. The row with no source is a third of
-the same kind, which the argument of \S\ref{sec:modulo} covers and which is not stated below.
+the same kind, which the argument of \S\ref{sec:modulo} covers and which is not stated in this note.
 \emph{This is a description of the families listed, not a classification of the $\rho$-line:
 there are denominators outside all of them where the non-vanishing factor still cancels ---
-$\Sp(14)$ at $q=6$ is one, and its alphabet is not of this shape at all.}
+$\Sp(14)$ at $q=6$ is one (it is the sporadic family $q=6$ of Theorem~\ref{thm:clasif}), and its
+alphabet is not of this shape at all.}
 \ver{alfabeto\_clasif2.py}
 
 \vspace{6pt}
@@ -1920,11 +1992,12 @@ the principal specialisation \eqref{eq:ps} & classical\\
 \textbf{the criterion \emph{and} the sign at $a_P$ itself, in every type; its type-$C$ form; and the
 sign read off the ordered residues} & \textbf{Cellini--M\"oseneder Frajria--Papi \cite{CMP06}},
 Cor.~3.2, Prop.~3.5 and Rem.~3.2\\
-the coroot form of the criterion, for every integer & NPP \cite{NPP25}, Cor.~3.7\\
+the coroot form of the criterion, for every integer; and so the root form whenever $\gcd(q,r)=1$ (Obs.~\ref{obs:types}) & NPP \cite{NPP25}, Cor.~3.7\\
+the character of $G_2$ at its class of order $2$ & Karmakar \cite{Kar24}, Prop.~2, also attributed there to Reeder\\
 \midrule
 \rowcolor{white}\multicolumn{2}{l}{\emph{and what is done here, beyond the two alphabet rows above:}}\\
-\textbf{which denominators of the $\rho$-line give integer values} (Thm.~\ref{thm:clasif}) & \\
-the same count on the whole $\rho$-line, at the powers (Thm.~\ref{thm:crit}) & \\
+\textbf{which denominators of the $\rho$-line give integer values} (Thm.~\ref{thm:clasif}) & criterion for $\Sp(2m)$ and elementary proof here; necessity also follows from \cite{GS19}, Lemma~4.6\\
+the same count on the whole $\rho$-line, at the powers (Thm.~\ref{thm:crit}) & read on the character of the $\rho$-line through \eqref{eq:ps}; the count itself is that of \cite{NPP25} when $\gcd(q,r)=1$\\
 the combinatorics that turns it into capacities (Cor.~\ref{conj:cap}) & \\
 the one unit of slack, and where it comes from (Prop.~\ref{prop:slack}) & \\
 the absolute value at $k=2$ (Thm.~\ref{conj:val}) & \\
@@ -1933,7 +2006,7 @@ the residue lemma \eqref{eq:res}, and \eqref{eq:adj} behind it (Prop.~\ref{prop:
 the exact value with its sign, \emph{every} power, type $C$ (Thm.~\ref{thm:signo}) & \\
 its modulus factored into dimensions, at $q\ge3$ (Thm.~\ref{thm:dims}) & \\
 the closed count of the survivors, every $q$, type $C$ (Thm.~\ref{thm:cuenta}) & \\
-the same criterion in $G_2$, and its two congruences (Cor.~\ref{cor:g2}) & \\
+the same criterion in $G_2$, and its two congruences (Cor.~\ref{cor:g2}) & the derivation from the count; at $q=2$ the statement is Prop.~2 of \cite{Kar24}\\
 that the sign is neither a shape nor a parity (\S\ref{sec:cierre}) & \\
 the row lemma for a shifted $h$-sequence (\S\ref{sec:cierre}) & \\
 the $P$-height, and the comparison of Figure~\ref{fig:types} (Obs.~\ref{obs:types}) & \\
@@ -1946,14 +2019,24 @@ lines deserve to be read slowly. \textbf{At $a_P$ itself --- $k=1$ --- the crite
 are Corollary~3.2 of \cite{CMP06}}, in every type and on the \emph{root} statistic, which is this
 line and not the coroot line of \cite{NPP25}; what is left to this note is the \emph{powers}.
 \textbf{And the factorisation of Theorem~\ref{thm:dims} at $q=2$ --- its two dimensions ---
-is Theorem~5.1 of \cite{Kar24}}, who does every conjugacy class of order $2$ where this note
+has the two-block form of Theorem~5.1 of \cite{Kar24}}, who does every conjugacy class of order $2$ where this note
 does one. What is left here is $q\ge3$, where the non-fixed classes carry the $GL$ blocks that
 an involution has none of, and the constant $\kappa$ standing in front of the dimensions, which
 already at $q=2$ is a $1$ or a $2$ according to which folded class carries the free place. Every number carrying a
 blue marker --- \ver{aP\_potencias.py}, and so on --- comes from a script with archived output,
-available on request; Figures~\ref{fig:union3d} and \ref{fig:types} are recomputed by the plotting
+in the ancillary archive of the Zenodo record; Figures~\ref{fig:union3d} and \ref{fig:types} are recomputed by the plotting
 code itself. Numbered results of works that first appeared as preprints are cited in the numbering
 of the arXiv version, which is the one read here.
+
+\section*{The companion site}
+This note has a companion website, its \emph{blueprint}, at \url{https://karlesmarin.github.io/blueprints/characters-at-aP/}. There one finds:
+\begin{itemize}
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html\#thm:crit}{\emph{The statements}}, copied with their numbers and proofs, each with what was checked and how.
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/dep_graph_document.html}{\emph{The dependencies}} and \href{https://karlesmarin.github.io/blueprints/characters-at-aP/mapa.html}{\emph{the map}} of the result.
+\item \emph{Two labs in the browser}: \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Aclasif\#thm:clasif}{the four families of denominators} of Theorem~\ref{thm:clasif}, tested against Galois stability point by point, and \href{https://karlesmarin.github.io/blueprints/characters-at-aP/index.html?lab=thm\%3Asigno\#thm:signo}{the character at a power of $a_P$} for any $m$, $k$ and $\lambda$, against the exact determinant, with the folded classes and the survivors in 2D and 3D.
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/referee.html}{\emph{What a referee has to check by hand}}, statement by statement, and \href{https://karlesmarin.github.io/blueprints/characters-at-aP/tour.html}{\emph{the note in five screens}}.
+\item \href{https://karlesmarin.github.io/blueprints/characters-at-aP/pdf.html}{\emph{The note itself}}, opened at the page of every statement, in English and in Spanish.
+\end{itemize}
 
 \section*{Acknowledgements}
 
@@ -1966,18 +2049,108 @@ mine alone.
 \noindent The author declares no known competing financial interests or personal relationships that
 could have appeared to influence the work reported in this paper. No funding was received.
 
+\section*{Formalization}
+
+\noindent The following statements and parts of statements are formalized in Lean~4 with Mathlib, in
+the public repository
+\href{https://github.com/karlesmarin/formalizations}{\texttt{karlesmarin/formalizations}}, at commit
+\href{https://github.com/karlesmarin/formalizations/commit/6283de8ed4582c42d045e8b9e71b1a8512340c77}{\texttt{6283de8}}, with no \texttt{sorry} and only the standard axioms. On the
+\href{https://karlesmarin.github.io/blueprints/characters-at-aP/}{companion site} every statement
+links to its declarations.
+
+\smallskip
+\noindent \emph{The character.} Lean works with the products
+$F_x(X)=\prod_{\alpha>0}(1-X^{(x,\alpha)})$ of type $C_m$. It proves that $F_\rho$ divides
+$F_\ell$ (\texttt{RhoLine.}\allowbreak\texttt{dvd\_rho\_ring}, over any commutative ring;
+\texttt{RhoLine.}\allowbreak\texttt{dvd\_rho} over fields of characteristic zero) and so constructs a
+polynomial $Q$ with $F_\rho Q=F_\ell$; no divisibility is assumed. Section~\ref{sec:crit}
+derives the identification $\chi_\lambda(g_{p/q})=\zeta^{-(\lambda,\rho)}Q(\zeta)$ from Weyl's
+formula. This identification is outside the Lean formalization. Lean takes $\ell$ as a list of
+$m$ integers with positive pairings; that $\ell=\lambda+\rho$ for dominant $\lambda$ satisfies this
+is not formalized. The script
+\texttt{certificar\_exacto.py} checks \eqref{eq:ps} against the bialternant as a Laurent-polynomial
+identity for $85$ weights in types $C_2,C_3,C_4$.
+
+\smallskip
+\noindent \emph{Theorem~\ref{thm:clasif}.} For $q\ge2$ and a primitive $q$-th root $\zeta$, Lean
+proves that all elementary symmetric functions of the multiset $\{\zeta^{\pm j}:1\le j\le m\}$ are
+integers if and only if one of the four conditions in Theorem~\ref{thm:clasif} holds
+(\texttt{Segmentos.}\allowbreak\texttt{thm\_clasif\_spectral}, in \texttt{IntegralPoints}, with \texttt{Segments}).
+Section~\ref{sec:clasif} proves the equivalence with integrality of all $\Sp(2m)$-character values.
+That equivalence is outside the formalization.
+
+\smallskip
+\noindent \emph{The other statements, with their scope.}
+% los nombres Lean en \texttt no se parten: \sloppy solo en esta lista evita que salgan al margen
+\begingroup\sloppy
+\begin{itemize}
+\item Theorem~\ref{thm:crit} (\texttt{RhoLine.}\allowbreak\texttt{thm\_crit}, \texttt{thm\_crit'}): the criterion for
+$Q(\zeta)$, at every $q$, for the positive pairings of type $C_m$. The printed theorem holds in every
+type; outside $C_m$ it is not formalized.
+\item Lemma~\ref{lem:unit} (\texttt{RhoLine.}\allowbreak\texttt{lem\_unit}): with $\zeta$ primitive, $dq=2m+2$ and equal
+counts, the non-vanishing factors have equal modulus, without any divisibility of the products.
+Theorem~\ref{thm:valgen} (\texttt{RhoLine.}\allowbreak\texttt{thm\_valgen}, \texttt{thm\_valgen'}) adds
+$F_\rho Q=F_\ell$, now proved, and computes $|Q(\zeta)|$.
+\item Theorem~\ref{thm:signo} (\texttt{RhoLine.}\allowbreak\texttt{thm\_signo}, \texttt{thm\_signo'}, in
+\texttt{RhoLineSign}): on the surviving weights,
+$\zeta^{-(\lambda,\rho)}Q(\zeta)=(-1)^{E_{p,q}(\lambda)}Z_q(\ell)/Z_q(\rho)$ at
+$\zeta=e^{2\pi ip/q}$ with $\gcd(p,q)=1$ and $dq=2m+2$; with \texttt{thm\_crit} for the vanishing
+case, the whole statement for $Q$, sign included (the identification with $\chi_\lambda$ being
+outside, as above).
+\item Theorem~\ref{conj:val} (\texttt{DimsFactorisation.}\allowbreak\texttt{thm\_val\_k2}, \texttt{thm\_val\_k2\_norm}):
+at $k=2$, the product over the pairings divisible by $q$ of $(\ell,\alpha)/q$. The regrouping into
+one factor $D_c$ per folded class, which is how the theorem is stated, is not formalized.
+\item Proposition~\ref{prop:Ms} (\texttt{WeylProductMs.}\allowbreak\texttt{prop\_Ms}): the version with ordered pairs,
+which the note identifies with $M_s^2=M_0^2$. The step from the unordered product $M_s=A_sB_sD_s$
+to that expression is not formalized.
+\item Proposition~\ref{prop:alph} (\texttt{KostantAlphabet}), complete, as an identity of
+multisets.
+\item Corollary~\ref{conj:cap} and Proposition~\ref{prop:slack} (\texttt{ResidueCapacity}): the
+capacity criterion on the side of the counts, and the total deficit of two letters behind
+Proposition~\ref{prop:slack} (\texttt{ResidueCapacity.}\allowbreak\texttt{sum\_deficit});
+Proposition~\ref{prop:res}: the residue identities (\texttt{ResidueCapacity.}\allowbreak\texttt{eq\_res},
+\texttt{prop\_res\_cap}).
+\item Proposition~\ref{prop:resid} (\texttt{ResidualHistogram.}\allowbreak\texttt{prop\_resid\_case1},
+\texttt{prop\_resid\_case2}): both regimes, $v\le a$ and $v>a$, in $\ZZ[\ZZ/q]$.
+\item Theorem~\ref{thm:dims}, both parities (\texttt{DimsFactorisation.}\allowbreak\texttt{dims\_odd},
+\texttt{DimsFactorisationEven.}\allowbreak\texttt{dims\_odd\_occ}, \texttt{dims\_even\_occ}): the factorisation of
+$Z_q(\ell)/Z_q(\rho)$ into $\kappa\,|D_0|\,|D_{q/2}|\prod_c|D_c|$, with $\kappa=1$ when $d$ is odd or
+the free place lies in the class $0$ and $\kappa=2$ otherwise; the occupancies of the folded classes
+are derived from $N_q(\ell)=N_q(\rho)$. The partitions $\nu^{(c)}$ and the oriented rows enter as
+data with their defining equations (that $\nu^{(c)}$ is a partition is not proved), for lists $\ell$
+of length $m$.
+\item Theorem~\ref{thm:cuenta} (\texttt{SurvivorCount.}\allowbreak\texttt{thm\_cuenta\_le}, \texttt{thm\_cuenta\_gt}):
+the count for every $q\ge1$, with the denominators cleared.
+\item Corollary~\ref{cor:g2} (\texttt{G2Counts}): the two congruences on the counts. The signed
+value of $G_2$ in the box after it is not formalized.
+\item Observation~\ref{obs:types} (\texttt{PHeight}): the arithmetic statement, over any
+crystallographic root system with a base, under the stated hypothesis on the two root lengths.
+\end{itemize}
+\endgroup
+The supplement gives exact finite checks of \eqref{eq:ps} (C1, $85$ weights), of the integrality of
+all characters in Theorem~\ref{thm:clasif} ($455$ characters on $44$ pairs, C2), of the squared
+modulus in Proposition~\ref{prop:Ms} ($q\le15$, C3), and of the row-shift identity in
+Appendix~\ref{sec:cierre} ($80$ cases, C4), all in \texttt{certificar\_exacto.py}. Each check
+includes a failing control. They are checks on finite ranges, not proofs; the floating-point checks
+that the text still reports are labelled as such.
+
 \section*{Data availability}
 
 \noindent No data were used. Every number and every formula asserted here is produced by a script,
-and the scripts together with their archived output are listed in \S\ref{sec:controles} and
-accompany this submission as supplementary material.
+and the scripts together with their archived output are in the ancillary archive of the Zenodo record.
 
-\section*{Declaration of generative AI and AI-assisted technologies in the writing process}
+\section*{Use of AI tools}
 
-\noindent During the preparation of this work the author used Claude (Anthropic) in order to draft
-prose, to write and run the verification scripts of \S\ref{sec:controles}, and to search the
-literature. After using this tool the author reviewed and edited the content as needed and takes
-full responsibility for the content of the publication.
+\noindent The research was conceived and directed by the author, who chose the problems, decided
+which results to pursue and how to state them, and verified every step. AI assistants (large
+language models) were used as tools under the author's direction: to write and run the
+verification scripts and the exact certificates of the ancillary archive; to draft proofs, which
+the author then checked step by step; to write the Lean formalization; to search the literature;
+and to edit the text. Every computed statement is produced by a script in the ancillary archive
+with its archived output, the exact certificates C1--C4 are re-checked in exact arithmetic, and the
+statements listed under Formalization are also verified in Lean~4, so that each claim can be
+checked independently of the AI tools. All citations were checked by the author against the
+original sources. The author takes full responsibility for the content.
 
 
 \begin{thebibliography}{99}\small
@@ -1994,6 +2167,7 @@ twisted by roots of unity}, J.~Algebraic Combin.~63 (2026), art.~2, 32~pp., \tex
 \bibitem{CMP06} P.~Cellini, P.~M\"oseneder Frajria and P.~Papi, \emph{The $\widehat W$-orbit of
 $\rho$, Kostant's formula for powers of the Euler product and affine Weyl groups as permutations of
 $\ZZ$}, J.~Pure Appl.~Algebra 208 (2007), no.~3, 1103--1119, \texttt{arXiv:math/0507610}.
+\bibitem{GS19} T.~Gannon and A.~Schopieray, \emph{Algebraic number fields generated by dimensions in fusion rings}, Commun. Number Theory Phys.~18 (2024), no.~4, 705--743, doi:10.4310/CNTP.241202233757; \texttt{arXiv:1912.12260} (as \emph{Algebraic number fields generated by Frobenius--Perron dimensions in fusion rings}; Lemma~4.6 is the numbering checked there).
 \bibitem{Kar24} C.~Karmakar, \emph{Character values at elements of order $2$},
 Proc. Indian Acad. Sci. Math. Sci.~135 (2025), art.~41, \texttt{arXiv:2412.17324}.
 \bibitem{Kum24} N.~Kumari, \emph{Factorization of classical characters twisted by roots of unity:
